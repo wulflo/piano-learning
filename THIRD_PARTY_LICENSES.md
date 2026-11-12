@@ -1,7 +1,7 @@
 # Licencias de terceros — Piano Today
 
 Inventario de dependencias, muestras de audio y contenido de terceros.
-Generado el 2026-11-15 (F6-018, regenerado en F6-042) desde `package-lock.json` y `content/repertoire/`.
+Generado el 2026-11-15 (F6-018, regenerado en F6-042 y F6-043) desde `package-lock.json` y `content/repertoire/`.
 Para regenerar la tabla completa:
 
 ```bash
@@ -37,6 +37,7 @@ node scripts/third-party-licenses.mjs
 | @vitejs/plugin-react | 6.2.1 | MIT |
 | axe-core | 4.14.0 | MPL-2.0 |
 | fake-indexeddb | 6.2.8 | Apache-2.0 |
+| jscpd | ^5.4.3 | MIT |
 | jsdom | 31.0.0 | MIT |
 | license-checker | 25.0.1 | BSD-3-Clause |
 | tsx | 4.23.15 | MIT |
@@ -450,6 +451,15 @@ en el paquete original.
 | isarray | 2.0.5 | MIT |
 | jake | 10.9.4 | Apache-2.0 |
 | js-tokens | 4.0.0 | MIT |
+| jscpd | 5.4.3 | MIT |
+| jscpd-darwin-arm64 | 5.4.3 | MIT |
+| jscpd-darwin-x64 | 5.4.3 | MIT |
+| jscpd-linux-arm64-gnu | 5.4.3 | MIT |
+| jscpd-linux-arm64-musl | 5.4.3 | MIT |
+| jscpd-linux-x64-gnu | 5.4.3 | MIT |
+| jscpd-linux-x64-musl | 5.4.3 | MIT |
+| jscpd-windows-arm64-msvc | 5.4.3 | MIT |
+| jscpd-windows-x64-msvc | 5.4.3 | MIT |
 | jsdom | 31.0.0 | MIT |
 | jsesc | 3.1.0 | MIT |
 | json-parse-even-better-errors | 2.3.1 | MIT |
@@ -658,10 +668,10 @@ en el paquete original.
 | CC-BY-4.0 | 1 |
 | CC0-1.0 | 1 |
 | ISC | 29 |
-| MIT | 484 |
+| MIT | 493 |
 | MPL-2.0 | 13 |
 
-Total: 590 paquetes (runtime y desarrollo, incluidas dependencias transitivas).
+Total: 599 paquetes (runtime y desarrollo, incluidas dependencias transitivas).
 
 ## Fuentes de notación y audio
 

@@ -54,6 +54,7 @@
 | @types/react-dom | 19.3.0 | MIT | dev |
 | @vitejs/plugin-react | 6.2.1 | MIT | dev |
 | fake-indexeddb | 6.2.8 | Apache-2.0 | dev |
+| jscpd | 5.4.3 | MIT | dev |
 | jsdom | 31.0.0 | MIT | dev |
 | license-checker | 25.0.1 | BSD-3-Clause | dev |
 | tsx | 4.23.15 | MIT | dev |
@@ -176,5 +177,6 @@ npm run budget
 npm run estado
 npm run audit:audio
 npm run audit:licenses
+npm run audit:code
 node scripts/fetch-samples.mjs --dry-run
 ```

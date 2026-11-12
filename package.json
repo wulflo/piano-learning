@@ -23,6 +23,7 @@
     "fetch:samples:dry": "node scripts/fetch-samples.mjs --dry-run",
     "audit:audio": "node scripts/verify-audio.mjs",
     "audit:licenses": "tsx scripts/audit-licenses.ts",
+    "audit:code": "tsx scripts/audit-code.ts",
     "estado": "node scripts/estado.mjs"
   },
   "dependencies": {
@@ -47,6 +48,7 @@
     "@vitejs/plugin-react": "6.2.1",
     "axe-core": "4.14.0",
     "fake-indexeddb": "6.2.8",
+    "jscpd": "^5.4.3",
     "jsdom": "31.0.0",
     "license-checker": "^25.0.1",
     "tsx": "4.23.15",
