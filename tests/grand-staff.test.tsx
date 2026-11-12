@@ -126,9 +126,39 @@ describe('F5-022 — Gran pentagrama', () => {
     })
 
     expect(narrowResult.systems).toBe(4)
-    expect(narrowResult.height).toBe(4 * 190 + 12)
+    // Cada sistema reserva el alto de sus notas, así que la altura real debe
+    // ser al menos la del cálculo teórico y coincidir con el SVG dibujado.
+    expect(narrowResult.height).toBeGreaterThanOrEqual(4 * 190)
+    expect(narrowResult.height).toBeLessThanOrEqual(4 * 260)
     const svg = narrow.querySelector('svg')
     expect(Number(svg?.getAttribute('height'))).toBe(narrowResult.height)
+  })
+
+  it('reserva altura para notas extremas sin recortarlas', async () => {
+    const study = await piece()
+    const baselineContainer = document.createElement('div')
+    const baseline = await renderGrandStaff(baselineContainer, {
+      right: study.hands.right,
+      left: study.hands.left,
+    })
+
+    const extremeLeft = structuredClone(study.hands.left)
+    const firstEvent = extremeLeft?.events[0]
+    if (!firstEvent) throw new Error('La pieza no tiene notas en la mano izquierda')
+    firstEvent.pitches = [{ step: 'C', accidental: '', octave: 1 }]
+
+    const container = document.createElement('div')
+    const result = await renderGrandStaff(container, {
+      right: study.hands.right,
+      left: extremeLeft,
+    })
+
+    expect(result.height).toBeGreaterThan(baseline.height)
+    const svg = container.querySelector('svg')
+    expect(Number(svg?.getAttribute('height'))).toBe(result.height)
+    expect(svg?.getAttribute('viewBox')).toBe(
+      `0 0 ${svg?.getAttribute('width')} ${result.height}`,
+    )
   })
 
   it('renderiza una pieza de una sola mano sin romper el gran pentagrama', async () => {

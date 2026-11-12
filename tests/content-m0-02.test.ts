@@ -145,7 +145,7 @@ describe('M0-02 — Nombres de notas y octavas', () => {
         timeSignature: '4/4',
       })
 
-      expect(rendered).toHaveLength(1)
+      expect(rendered.notes).toHaveLength(1)
       const label = container
         .querySelector('[data-staff-note]')
         ?.getAttribute('aria-label')

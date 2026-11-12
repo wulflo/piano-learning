@@ -46,6 +46,7 @@ export function GrandStaff({
   onNoteClickRef.current = onNoteClick
 
   const [width, setWidth] = useState(640)
+  const [renderHeight, setRenderHeight] = useState<number | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [ready, setReady] = useState(false)
 
@@ -68,8 +69,14 @@ export function GrandStaff({
     () => grandStaffLayout(Math.max(1, measureCount), width),
     [measureCount, width],
   )
-  const height = layout.height
+  const height = renderHeight ?? layout.height
   const activeKey = activeNotes.join(',')
+
+  // Al cambiar el ancho o el número de compases el alto real deja de ser
+  // válido; se vuelve al cálculo teórico hasta que termine el nuevo dibujo.
+  useEffect(() => {
+    setRenderHeight(null)
+  }, [width, measureCount])
 
   useEffect(() => {
     let cancelled = false
@@ -85,8 +92,9 @@ export function GrandStaff({
       activeNotes,
       onNoteClick: (payload) => onNoteClickRef.current?.(payload),
     })
-      .then(() => {
+      .then((result) => {
         if (cancelled) return
+        setRenderHeight(result.height)
         setError(null)
         setReady(true)
       })

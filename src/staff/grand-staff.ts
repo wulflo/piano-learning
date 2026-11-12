@@ -6,6 +6,7 @@ import {
 import { midiNameWithOctave, type Notation } from '../notation'
 import type { Hand, NoteEvent, Score } from '../schemas'
 import { midiOf } from '../theory/pitch'
+import { verticalExtent, type VerticalNoteInput } from './layout'
 import { pitchToVexKey } from './vex'
 
 /**
@@ -174,11 +175,13 @@ function createNote(
   event: NoteEvent,
   index: number,
   activeSet: ReadonlySet<number>,
+  clef: 'treble' | 'bass',
 ): PendingNote {
   const pitches = event.pitches.map(spelledPitchToPitch)
   const note = new VF.StaveNote({
     keys: pitches.map(pitchToVexKey),
     duration: staffDurationForValue(event.value),
+    clef,
   })
   note.setAttribute('id', `pdc-grand-note-${index}`)
   const highlighted = eventIsActive(event, activeSet)
@@ -194,13 +197,36 @@ function createNote(
   return { event, note, highlighted, index }
 }
 
-function createRest(VF: VexFlow, hand: Hand): VexStaveNote {
+function createRest(
+  VF: VexFlow,
+  hand: Hand,
+  clef: 'treble' | 'bass',
+): VexStaveNote {
   const rest = new VF.StaveNote({
     keys: [hand === 'right' ? 'b/4' : 'd/3'],
     duration: 'wr',
+    clef,
   })
   rest.addClass('vf-grand-staff-rest')
   return rest
+}
+
+function eventInputs(events: readonly NoteEvent[]): VerticalNoteInput[] {
+  return events.map((event) => ({
+    keys: event.pitches.map((pitch) =>
+      pitchToVexKey(spelledPitchToPitch(pitch)),
+    ),
+    duration: staffDurationForValue(event.value),
+    chordSymbol: event.chordSymbol !== undefined,
+  }))
+}
+
+interface SystemLayout {
+  startMeasure: number
+  measures: number
+  topY: number
+  bottomY: number
+  height: number
 }
 
 function tripletChunks(notes: VexStaveNote[]): VexStaveNote[][] {
@@ -220,12 +246,13 @@ interface MeasureRender {
 function buildMeasureRender(
   VF: VexFlow,
   hand: Hand,
+  clef: 'treble' | 'bass',
   events: readonly NoteEvent[],
   firstIndex: number,
   activeSet: ReadonlySet<number>,
 ): MeasureRender {
   const pending = events.map((event, offset) =>
-    createNote(VF, event, firstIndex + offset, activeSet),
+    createNote(VF, event, firstIndex + offset, activeSet, clef),
   )
   const notes = pending.map((item) => item.note)
   const tuplets: VexStaveNote[][] = []
@@ -250,7 +277,7 @@ function buildMeasureRender(
   if (run.length > 0) tuplets.push(...tripletChunks(run))
 
   if (notes.length === 0) {
-    notes.push(createRest(VF, hand))
+    notes.push(createRest(VF, hand, clef))
   }
 
   const voice = new VF.Voice('4/4').setStrict(false)
@@ -281,26 +308,23 @@ export async function renderGrandStaff(
   const renderWidth = Math.max(280, Math.round(width))
   container.replaceChildren()
 
-  const renderer = new VF.Renderer(container, VF.Renderer.Backends.SVG)
-  renderer.resize(renderWidth, layout.height)
-  const context = renderer.getContext()
-
   const rightEvents = eventsByMeasure(right)
   const leftEvents = eventsByMeasure(left)
   const activeSet = new Set(activeNotes)
   const rightKey = right === undefined ? 'C' : scoreKeySignature(right)
   const leftKey = left === undefined ? 'C' : scoreKeySignature(left)
-  const rightClef = right?.clef ?? 'treble'
-  const leftClef = left?.clef ?? 'bass'
+  const rightClef = right?.clef === 'bass' ? 'bass' : 'treble'
+  const leftClef = left?.clef === 'treble' ? 'treble' : 'bass'
   const rightTime = right?.timeSignature ?? left?.timeSignature
   const timeSignature =
     rightTime === undefined
       ? '4/4'
       : `${rightTime.numerator}/${rightTime.denominator}`
 
-  const rendered: RenderedGrandStaffNote[] = []
-  let globalIndex = 0
-
+  // Cada sistema reserva el alto que necesitan sus notas extremas. Así una
+  // nota muy grave de la mano izquierda o muy aguda de la derecha no queda
+  // fuera del `viewBox`.
+  const systemLayouts: SystemLayout[] = []
   for (let system = 0; system < layout.systems; system += 1) {
     const startMeasure = system * layout.perSystem + 1
     const systemMeasures = Math.min(
@@ -309,13 +333,57 @@ export async function renderGrandStaff(
     )
     if (systemMeasures <= 0) continue
 
+    const rightInputs: VerticalNoteInput[] = []
+    const leftInputs: VerticalNoteInput[] = []
+    for (let offset = 0; offset < systemMeasures; offset += 1) {
+      const measure = startMeasure + offset
+      rightInputs.push(...eventInputs(rightEvents.get(measure) ?? []))
+      leftInputs.push(...eventInputs(leftEvents.get(measure) ?? []))
+    }
+    const rightExtent = verticalExtent(VF, rightInputs, rightClef)
+    const leftExtent = verticalExtent(VF, leftInputs, leftClef)
+    const shift = Math.max(
+      0,
+      GRAND_STAFF_MARGIN - (TOP_STAVE_Y + rightExtent.top),
+    )
+    const topY = TOP_STAVE_Y + shift
+    const bottomY = BOTTOM_STAVE_Y + shift
+    systemLayouts.push({
+      startMeasure,
+      measures: systemMeasures,
+      topY,
+      bottomY,
+      height: Math.max(
+        GRAND_STAFF_SYSTEM_HEIGHT,
+        bottomY + leftExtent.bottom + GRAND_STAFF_MARGIN,
+      ),
+    })
+  }
+
+  const totalHeight = systemLayouts.reduce(
+    (total, system) => total + system.height,
+    0,
+  )
+  const renderer = new VF.Renderer(container, VF.Renderer.Backends.SVG)
+  renderer.resize(renderWidth, totalHeight)
+  const context = renderer.getContext()
+
+  const rendered: RenderedGrandStaffNote[] = []
+  let globalIndex = 0
+  let yOffset = 0
+
+  for (let system = 0; system < systemLayouts.length; system += 1) {
+    const systemLayout = systemLayouts[system]
+    if (systemLayout === undefined) continue
+    const { startMeasure, measures: systemMeasures, topY, bottomY } =
+      systemLayout
+
     const widths = distributeMeasureWidths(
       layout.available,
       systemMeasures,
     )
-    const yOffset = GRAND_STAFF_MARGIN + system * GRAND_STAFF_SYSTEM_HEIGHT
-    const topY = yOffset + TOP_STAVE_Y - GRAND_STAFF_MARGIN
-    const bottomY = yOffset + BOTTOM_STAVE_Y - GRAND_STAFF_MARGIN
+    const systemTopY = yOffset + topY
+    const systemBottomY = yOffset + bottomY
     let x = GRAND_STAFF_MARGIN
 
     for (let offset = 0; offset < systemMeasures; offset += 1) {
@@ -324,8 +392,8 @@ export async function renderGrandStaff(
       const firstOfSystem = offset === 0
       const firstOfPiece = system === 0 && firstOfSystem
 
-      const top = new VF.Stave(x, topY, measureWidth)
-      const bottom = new VF.Stave(x, bottomY, measureWidth)
+      const top = new VF.Stave(x, systemTopY, measureWidth)
+      const bottom = new VF.Stave(x, systemBottomY, measureWidth)
       if (firstOfSystem) {
         top.addClef(rightClef)
         bottom.addClef(leftClef)
@@ -337,7 +405,8 @@ export async function renderGrandStaff(
         bottom.addTimeSignature(timeSignature)
       }
       const lastOfPiece =
-        system === layout.systems - 1 && offset === systemMeasures - 1
+        system === systemLayouts.length - 1 &&
+        offset === systemMeasures - 1
       if (lastOfPiece) {
         top.setEndBarType(VF.Barline.type.END)
         bottom.setEndBarType(VF.Barline.type.END)
@@ -348,6 +417,7 @@ export async function renderGrandStaff(
       const rightMeasure = buildMeasureRender(
         VF,
         'right',
+        rightClef,
         rightEvents.get(measure) ?? [],
         globalIndex,
         activeSet,
@@ -356,6 +426,7 @@ export async function renderGrandStaff(
       const leftMeasure = buildMeasureRender(
         VF,
         'left',
+        leftClef,
         leftEvents.get(measure) ?? [],
         globalIndex,
         activeSet,
@@ -424,9 +495,11 @@ export async function renderGrandStaff(
 
       x += measureWidth
     }
+
+    yOffset += systemLayout.height
   }
 
-  return { notes: rendered, height: layout.height, systems: layout.systems }
+  return { notes: rendered, height: yOffset, systems: layout.systems }
 }
 
 interface CollectOptions {

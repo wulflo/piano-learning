@@ -1,6 +1,7 @@
 import type { Notation } from '../notation'
 import { midiNameWithOctave } from '../notation'
 import { midiOf, type Pitch } from '../theory/pitch'
+import { verticalExtent } from './layout'
 import { pitchToVexKey, type StaffDuration } from './vex'
 
 export interface StaffMeasure {
@@ -38,8 +39,16 @@ export interface RenderedStaffNote {
   element?: SVGElement
 }
 
+export interface RenderedStaff {
+  notes: RenderedStaffNote[]
+  /** Altura real usada; puede superar la pedida para que entren las notas extremas. */
+  height: number
+}
+
 const ACCENT = '#a33b2b'
 const NOTE_COLOR = '#1d1f23'
+const STAVE_Y = 34
+const EDGE_MARGIN = 8
 
 /**
  * Dibuja un pentagrama en `container` y devuelve las referencias a las notas.
@@ -48,7 +57,7 @@ const NOTE_COLOR = '#1d1f23'
 export async function renderStaff(
   container: HTMLDivElement,
   options: RenderStaffOptions,
-): Promise<RenderedStaffNote[]> {
+): Promise<RenderedStaff> {
   const {
     measures,
     clef = 'treble',
@@ -64,19 +73,32 @@ export async function renderStaff(
   const VF = await import('vexflow')
   container.replaceChildren()
 
+  const extent = verticalExtent(
+    VF,
+    measures.map((measure) => ({
+      keys: measure.pitches.map(pitchToVexKey),
+      duration: measure.duration ?? 'q',
+      chordSymbol: measure.chordSymbol !== undefined,
+      pedal: Boolean(measure.pedalPress || measure.pedalRelease),
+    })),
+    clef,
+  )
+  const minHeight = Math.max(150, Math.round(height))
+  const staveY = STAVE_Y + Math.max(0, EDGE_MARGIN - (STAVE_Y + extent.top))
+  const renderHeight = Math.max(minHeight, staveY + extent.bottom + EDGE_MARGIN)
+
   const renderer = new VF.Renderer(container, VF.Renderer.Backends.SVG)
   const renderWidth = Math.max(280, Math.round(width))
-  const renderHeight = Math.max(150, Math.round(height))
   renderer.resize(renderWidth, renderHeight)
   const context = renderer.getContext()
 
-  const stave = new VF.Stave(10, 34, renderWidth - 20)
+  const stave = new VF.Stave(10, staveY, renderWidth - 20)
   stave.addClef(clef)
   if (keySignature !== 'C') stave.addKeySignature(keySignature)
   stave.addTimeSignature(timeSignature)
   stave.setContext(context).draw()
 
-  if (measures.length === 0) return []
+  if (measures.length === 0) return { notes: [], height: renderHeight }
 
   const activeSet = new Set(activeNotes)
   const highlightedFlags: boolean[] = []
@@ -84,6 +106,7 @@ export async function renderStaff(
     const note = new VF.StaveNote({
       keys: measure.pitches.map(pitchToVexKey),
       duration: measure.duration ?? 'q',
+      clef,
     })
     note.setAttribute('id', `pdc-note-${index}`)
     const highlighted =
@@ -159,7 +182,7 @@ export async function renderStaff(
     })
   })
 
-  return references
+  return { notes: references, height: renderHeight }
 }
 
 export function describeStaffNotes(

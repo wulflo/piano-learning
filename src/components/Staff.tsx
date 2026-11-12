@@ -52,6 +52,7 @@ export function Staff({
   )
 
   const [width, setWidth] = useState(640)
+  const [height, setHeight] = useState(STAFF_HEIGHT)
   const [error, setError] = useState<string | null>(null)
   const [ready, setReady] = useState(false)
 
@@ -88,8 +89,9 @@ export function Staff({
       activeNotes: mergedActiveNotes,
       onNoteClick: (payload) => onNoteClickRef.current?.(payload),
     })
-      .then(() => {
+      .then((result) => {
         if (cancelled) return
+        setHeight(result.height)
         setError(null)
         setReady(true)
       })
@@ -125,14 +127,14 @@ export function Staff({
       <div className="staff-scroll" ref={scrollRef}>
         <div
           className="staff-zoom"
-          style={{ width: width * zoom, height: STAFF_HEIGHT * zoom }}
+          style={{ width: width * zoom, height: height * zoom }}
         >
           <div
             ref={renderRef}
             className="staff-canvas"
             style={{
               width,
-              height: STAFF_HEIGHT,
+              height,
               transform: `scale(${zoom})`,
               transformOrigin: 'top left',
             }}

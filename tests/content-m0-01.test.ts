@@ -116,7 +116,7 @@ describe('M0-01 — El teclado: grupos de dos y tres negras', () => {
       timeSignature: `${score.timeSignature.numerator}/${score.timeSignature.denominator}`,
     })
 
-    expect(rendered).toHaveLength(3)
+    expect(rendered.notes).toHaveLength(3)
     const notes = container.querySelectorAll('[data-staff-note]')
     expect([...notes].map((note) => note.getAttribute('aria-label'))).toEqual([
       'C4',

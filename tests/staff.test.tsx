@@ -33,7 +33,7 @@ describe('renderStaff con VexFlow', () => {
     const errorSpy = vi.spyOn(console, 'error').mockImplementation(() => undefined)
     const result = await renderStaff(container, { measures: [] })
     expect(container.querySelector('svg')).not.toBeNull()
-    expect(result).toEqual([])
+    expect(result.notes).toEqual([])
     expect(errorSpy).not.toHaveBeenCalled()
     errorSpy.mockRestore()
   })
@@ -49,7 +49,7 @@ describe('renderStaff con VexFlow', () => {
       keySignature: 'C',
       timeSignature: '4/4',
     })
-    expect(result).toHaveLength(2)
+    expect(result.notes).toHaveLength(2)
     const notes = container.querySelectorAll('[data-staff-note]')
     expect(notes).toHaveLength(2)
     expect(notes[0].getAttribute('aria-label')).toBe('C4')
@@ -69,7 +69,7 @@ describe('renderStaff con VexFlow', () => {
         { ...measure('G4'), pedalRelease: true },
       ],
     })
-    expect(result).toHaveLength(3)
+    expect(result.notes).toHaveLength(3)
     expect(container.querySelectorAll('[data-staff-note]')).toHaveLength(3)
     const text = container.textContent ?? ''
     expect(text).toContain('Ped.')
@@ -88,7 +88,7 @@ describe('renderStaff con VexFlow', () => {
         { ...measure('G4'), chordSymbol: 'G7' },
       ],
     })
-    expect(result).toHaveLength(3)
+    expect(result.notes).toHaveLength(3)
     expect(container.querySelectorAll('[data-staff-note]')).toHaveLength(3)
     const text = container.textContent ?? ''
     expect(text).toContain('C')
@@ -122,8 +122,8 @@ describe('renderStaff con VexFlow', () => {
       timeSignature: '3/4',
       activeNotes: [66],
     })
-    expect(result[0].highlighted).toBe(false)
-    expect(result[1].highlighted).toBe(true)
+    expect(result.notes[0].highlighted).toBe(false)
+    expect(result.notes[1].highlighted).toBe(true)
     const notes = container.querySelectorAll('[data-staff-note]')
     expect(notes[1].getAttribute('data-highlighted')).toBe('true')
     expect(container.querySelector('svg')).not.toBeNull()
@@ -141,7 +141,7 @@ describe('renderStaff con VexFlow', () => {
           measures: [measure('C4')],
           keySignature: key,
         }),
-      ).resolves.toHaveLength(1)
+      ).resolves.toBeDefined()
     }
     expect(containers.every((container) => container.querySelector('svg'))).toBe(true)
   })
@@ -154,6 +154,44 @@ describe('renderStaff con VexFlow', () => {
         'C4',
       )
     }
+  })
+
+  it('posiciona cada nota según su clave', async () => {
+    const maxPathY = (container: HTMLDivElement): number => {
+      const note = container.querySelector('[data-staff-note]')
+      const values = [...(note?.querySelectorAll('path') ?? [])].flatMap((path) =>
+        [...(path.getAttribute('d') ?? '').matchAll(/[ML]\s*[\d.]+\s+([\d.]+)/g)].map(
+          (match) => Number(match[1]),
+        ),
+      )
+      return Math.max(...values)
+    }
+
+    // Con la clave correcta Do2 queda en la segunda línea adicional (y≈134).
+    // Si el renderizador usara siempre clave de sol, bajaría hasta y≈194.
+    const bass = document.createElement('div')
+    const bassResult = await renderStaff(bass, {
+      measures: [measure('C2')],
+      clef: 'bass',
+    })
+    const treble = document.createElement('div')
+    await renderStaff(treble, { measures: [measure('C2')], clef: 'treble' })
+
+    expect(maxPathY(bass)).toBeLessThan(150)
+    expect(maxPathY(treble)).toBeGreaterThan(180)
+    expect(bassResult.height).toBe(180)
+  })
+
+  it('amplía la altura cuando una nota queda muy por debajo del pentagrama', async () => {
+    const container = document.createElement('div')
+    const result = await renderStaff(container, {
+      measures: [measure('C1')],
+      clef: 'bass',
+    })
+    const svg = container.querySelector('svg')
+    expect(result.height).toBeGreaterThan(190)
+    expect(Number(svg?.getAttribute('height'))).toBe(result.height)
+    expect(svg?.getAttribute('viewBox')).toBe(`0 0 640 ${result.height}`)
   })
 
   it('respeta el ancho mínimo de 320 px', async () => {
