@@ -4,11 +4,11 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** —
+- **Tarea actual:** F6-038
 - **Última verificada en verde:** F6-037 (`364519f`, 2026-11-14T13:38:00-03:00)
-- **Actualizado:** 2026-11-14T13:38:00-03:00
-- **Fase:** F6 en retoma (MIDI reforzado, tema Material 3 y teclado con digitación)
-- **Nota:** F6 cerrada con suite verde, demo publicada sin 404, tags fase-0 a fase-6. Retoma: F6-034 abre el puerto MIDI explícitamente y muestra diagnóstico en Ajustes; F6-035 migra a Material 3 claro; F6-036 corrige la deformación del teclado y penaliza las notas de más; F6-037 muestra el dedo y la mano sobre cada tecla del ejercicio, con opción para ocultarlos. La prueba con el PSR-373 físico sigue como limitación conocida (sin hardware en el entorno del agente).
+- **Actualizado:** 2026-11-15T00:00:00-03:00
+- **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
+- **Nota:** Ronda de cierre de auditoría. F6-038 clasifica y commitea los cambios sin commitear; F6-039 a F6-041 cubren el manifiesto y los créditos de audio; F6-042 a F6-045 auditan licencias, duplicación y REUSE y suman CONTRIBUTING; F6-046 a F6-048 auditan la originalidad del texto de las lecciones; F6-049 a F6-052 corrigen licencias, fichas y documentación; F6-053 a F6-055 encadenan la auditoría, documentan las pruebas manuales y cierran. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1578,6 +1578,63 @@ Quedó funcionando:
   - Commit: 364519f · 2026-11-14T13:38:00-03:00
   - Cierre: `Keyboard` renderiza `.key-fingering` como columna número/mano y respeta `settings.showFingering`; en teclas blancas el indicador se alinea a la izquierda y baja bajo las teclas negras, y el teclado crece a 10rem (7,5rem en móvil) para darle aire. `fingeringFromText` lee secuencias como «1 - 2 - 3 (mano derecha)» y el patrón de escala como respaldo; `KeyboardTask` y las secciones de teclado de las lecciones pasan la digitación. Se añadió `showFingering` a los ajustes, a la fila persistida y al panel, junto con las claves ES/EN. Se eliminaron el punto `.key-highlight` y los bordes/anillos del resaltado. Tests de teclado, digitación, tema y persistencia; suite 242 archivos / 1664 tests. Seguimiento: se restauró el indicador por tecla (rojo mano derecha, azul mano izquierda), se quitaron las letras del teclado físico de las teclas —la asignación sigue activa— y repaso/práctica muestran ejercicios concretos con `ExerciseSuggestions`; suite 243 archivos / 1668 tests.
 
+### Auditoría de cierre (retoma)
+
+- [~] **F6-038** — Clasificar y cerrar los cambios sin commitear del árbol
+  - Aceptación: cada cambio pendiente (HEAD frente a la última tarea verificada) queda clasificado y commiteado en una tarea o descartado con criterio y anotado en LOG; `git status` limpio y suite en verde.
+  - Deps: F6-037 · Red: no
+- [ ] **F6-039** — Ampliar el manifiesto de audio y verificar licencias con `audit:audio`
+  - Aceptación: `assets/audio/manifest.json` incluye author, source, license (id SPDX), licenseUrl y modifications por muestra; `npm run audit:audio` (scripts/verify-audio.mjs) falla si un archivo de audio no está registrado, si el SHA-256 no coincide, si falta un campo o si la licencia no está en la lista permitida (CC0-1.0, CC-BY-3.0, CC-BY-4.0, CC-BY-SA-3.0, CC-BY-SA-4.0, MIT, Apache-2.0, LicenseRef-PublicDomain); con tests.
+  - Deps: F6-038 · Red: no
+- [ ] **F6-040** — Confirmar la licencia original de las muestras Salamander [NET]
+  - Aceptación: se consulta la fuente original de las muestras Salamander, se confirma su licencia (CC BY 3.0 o dominio público) y se registra en el manifiesto y en docs/LICENCIAS.md la URL de origen y de la licencia.
+  - Deps: F6-039 · Red: sí · [NET]
+- [ ] **F6-041** — Generar la pantalla de créditos desde el manifiesto
+  - Aceptación: los créditos de audio se generan desde `assets/audio/manifest.json` (no escritos a mano) y muestran autor, licencia y modificaciones; con test.
+  - Deps: F6-039 · Red: no
+- [ ] **F6-042** — Auditar licencias de producción con license-checker [NET]
+  - Aceptación: `npm run audit:licenses` corre license-checker sobre dependencias de producción contra una allowlist permisiva y debe coincidir con THIRD_PARTY_LICENSES.md; con test.
+  - Deps: F6-039 · Red: sí · [NET]
+- [ ] **F6-043** — Auditar duplicación de código y encabezados ajenos [NET]
+  - Aceptación: `npm run audit:code` corre jscpd sobre src/ y un grep de encabezados de copyright o licencia ajenos (Copyright, SPDX, GPL, "licensed under") en src/, scripts/ y content/; reporta archivo y línea en docs/AUDITORIA.md.
+  - Deps: F6-042 · Red: sí · [NET]
+- [ ] **F6-044** — Cumplimiento REUSE [NET]
+  - Aceptación: REUSE.toml, carpeta LICENSES/ y `reuse lint` en verde; si la herramienta no se puede instalar, se documenta el motivo en DECISIONES.md y la tarea queda [-] .
+  - Deps: F6-043 · Red: sí · [NET]
+- [ ] **F6-045** — Escribir CONTRIBUTING.md con origen, licencia y firma DCO
+  - Aceptación: CONTRIBUTING.md pide declarar el origen y la licencia de todo lo aportado (firma DCO) y prohíbe pegar texto, audio o partituras de terceros.
+  - Deps: F6-044 · Red: no
+- [ ] **F6-046** — Auditar la similitud de n-gramas del texto de las lecciones
+  - Aceptación: scripts/audit-text-similarity.mjs y `npm run audit:text` calculan coincidencias de n-gramas de 8 palabras entre el texto de content/ y los textos de referencia de refs/ (en .gitignore, nunca versionada); con tests con fixtures sintéticos y sin red.
+  - Deps: F6-045 · Red: no
+- [ ] **F6-047** — Comparar el texto de las lecciones con Open Music Theory [NET]
+  - Aceptación: se descarga a refs/ el texto de Open Music Theory (CC BY-SA 4.0) solo para comparar; se ejecuta el script y el resultado (lección, ejercicio y pasaje coincidente) se vuelca a docs/AUDITORIA.md.
+  - Deps: F6-046 · Red: sí · [NET]
+- [ ] **F6-048** — Reescribir con palabras propias los pasajes coincidentes
+  - Aceptación: cada pasaje señalado se reescribe (una subtarea por módulo afectado); `npm run validate:content` y los tests de lecciones en verde; si no hay coincidencias relevantes, se cierra con la nota correspondiente.
+  - Deps: F6-047 · Red: no
+- [ ] **F6-049** — Corregir docs/LICENCIAS.md y verificar la tabla de transcripciones
+  - Aceptación: se corrige la afirmación de que las trece piezas publicadas son obras originales CC0 (contradice su propia tabla) y «Transcripciones publicadas» lista todas las piezas hoy en content/repertoire/ con su ficha; un test verifica que esa tabla coincide con los archivos de content/repertoire/.
+  - Deps: F6-048 · Red: no
+- [ ] **F6-050** — Corregir el título de la tarea F5-035 en el checklist
+  - Aceptación: F5-035 dice «Op. 100 N.º 1» pero la corrección documentada es N.º 2 (Arabesque); se verifica id, título y ficha de la pieza en content/repertoire/ y se corrige el título de la tarea con una nota.
+  - Deps: F6-049 · Red: no
+- [ ] **F6-051** — Verificar la publicación de la Sinfonía n.º 9 en IMSLP [NET]
+  - Aceptación: se consulta en IMSLP el año de primera publicación de la Sinfonía n.º 9 de Beethoven (estreno 1824; publicación presumiblemente 1826) y se corrige la ficha y LICENCIAS.md si difiere.
+  - Deps: F6-050 · Red: sí · [NET]
+- [ ] **F6-052** — Actualizar ENTORNO.md, la identidad git y limpiar [NET] sobrantes
+  - Aceptación: docs/ENTORNO.md al día (tests, contenido, remoto origin y Pages, comandos de auditoría; sin la ruta `/home/...` ni la contradicción «sin remoto»); la identidad git local pasa a una neutral de Piano Today solo para commits futuros; se quitan los [NET] sobrantes de la aceptación de F6-034 y F6-035.
+  - Deps: F6-051 · Red: no
+- [ ] **F6-053** — Encadenar `npm run audit` y consolidar la auditoría
+  - Aceptación: `npm run audit` encadena audio, licencias, código y texto (los que no necesitan red); los resultados se consolidan en docs/AUDITORIA.md con semáforo OK/FALLA/NO VERIFICABLE y evidencia.
+  - Deps: F6-052 · Red: no
+- [ ] **F6-054** — Documentar las pruebas manuales pendientes
+  - Aceptación: docs/PRUEBAS-MANUALES.md con pasos exactos para la escucha humana de audio (F1-038), la prueba con el Yamaha PSR-373 usando el panel de diagnóstico de Ajustes, Safari, iOS y Android; la tarea queda [ ] hasta que el usuario reporte resultados.
+  - Deps: F6-053 · Red: no
+- [ ] **F6-055** — Cerrar la ronda de auditoría
+  - Aceptación: suite completa, `npm run estado` y resumen final en LOG.md.
+  - Deps: F6-053 · Red: no
+
 ## RESUMEN POR FASE
 
 | Fase | Foco | Tareas | Criterio de cierre |
@@ -1588,6 +1645,6 @@ Quedó funcionando:
 | F3 | M3-M4 y oído | 35 | Módulos completos y auditivo en FSRS |
 | F4 | M5-M6 | 33 | Armonía y forma completas |
 | F5 | M7-M8 y repertorio | 51 | Técnica, estilos y piezas validadas |
-| F6 | PWA, MIDI, calidad y despliegue | 37 | Suite, a11y, PWA y demo publicada |
+| F6 | PWA, MIDI, calidad, auditoría y despliegue | 55 | Suite, a11y, PWA, auditoría y demo publicada |
 
-Total: **290 tareas**. Los conteos se verifican con el test de formato del checklist.
+Total: **308 tareas**. Los conteos se verifican con el test de formato del checklist.
