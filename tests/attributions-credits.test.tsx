@@ -1,5 +1,6 @@
 import { render, screen, waitFor } from '@testing-library/react'
 import { afterEach, describe, expect, it } from 'vitest'
+import manifest from '../assets/audio/manifest.json'
 import { App } from '../src/App'
 import { ATTRIBUTIONS_HASH, REPERTOIRE_HASH } from '../src/router/hash-route'
 
@@ -8,7 +9,7 @@ describe('F6-019 — Atribuciones visibles', () => {
     window.location.hash = ''
   })
 
-  it('muestra la atribución de Salamander y el software usado', async () => {
+  it('genera los créditos de audio desde el manifiesto', async () => {
     window.location.hash = ATTRIBUTIONS_HASH
     render(<App databaseName="pdc.test.attributions" />)
 
@@ -25,19 +26,23 @@ describe('F6-019 — Atribuciones visibles', () => {
         name: 'Muestras de audio y software',
       }),
     ).toBeInTheDocument()
-    const lead = screen.getByText(/Las muestras de piano provienen/)
-    expect(lead).toHaveTextContent(/Salamander Grand Piano/)
-    expect(lead).toHaveTextContent(/CC BY 3\.0/)
-    expect(lead).toHaveTextContent(/Tone\.js \(MIT\)/)
-    expect(lead).toHaveTextContent(/VexFlow \(MIT\)/)
 
-    const link = screen.getByRole('link', {
-      name: 'Sitio de Salamander Grand Piano',
+    const sample = manifest.samples[0]
+    expect(screen.getByText(sample.author)).toBeInTheDocument()
+    expect(
+      screen.getByText(sample.source, { exact: false }),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByText(sample.modifications, { exact: false }),
+    ).toBeInTheDocument()
+
+    const license = screen.getByRole('link', { name: sample.license })
+    expect(license).toHaveAttribute('href', sample.licenseUrl)
+
+    const origin = screen.getByRole('link', {
+      name: 'Fuente original de las muestras',
     })
-    expect(link).toHaveAttribute(
-      'href',
-      'https://tonejs.github.io/audio/salamander/',
-    )
+    expect(origin).toHaveAttribute('href', manifest.originUrl)
   })
 
   it('lista las fichas de licencia de las piezas', async () => {

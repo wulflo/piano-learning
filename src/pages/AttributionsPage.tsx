@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { audioCredits, readSampleManifest } from '../audio/sampler'
 import { LicenseFichePanel } from '../components/LicenseFichePanel'
 import { loadAllRepertoirePieces } from '../content/repertoire'
 import { REPERTOIRE_HASH, pieceHash } from '../router/hash-route'
@@ -11,6 +12,9 @@ import { useSettings } from '../state/settings'
  * Reúne la ficha de licencia de todas las piezas publicadas para que la
  * atribución exigida por cada licencia quede visible en un único lugar. Cada
  * ficha enlaza con la pieza correspondiente.
+ *
+ * F6-041 — Los créditos de audio se derivan de `assets/audio/manifest.json`
+ * (autor, origen, licencia y modificaciones), no se escriben a mano.
  */
 
 type AttributionsState =
@@ -26,6 +30,8 @@ export function AttributionsPage() {
   const { t } = useSettings()
   const [state, setState] = useState<AttributionsState>({ status: 'loading' })
   const [request, setRequest] = useState(0)
+  const audioManifest = readSampleManifest()
+  const credits = audioCredits(audioManifest)
 
   useEffect(() => {
     let cancelled = false
@@ -61,15 +67,46 @@ export function AttributionsPage() {
           </h2>
         </div>
         <p>{t('attributions.audio.lead')}</p>
-        <p className="page-actions">
-          <a
-            href="https://tonejs.github.io/audio/salamander/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            {t('attributions.audio.link')}
-          </a>
-        </p>
+
+        {credits.length === 0 ? (
+          <p className="muted">{t('attributions.audio.empty')}</p>
+        ) : (
+          <ul className="credit-list">
+            {credits.map((credit, index) => (
+              <li key={`${index}-${credit.author}`} className="credit-entry">
+                <p className="credit-author">
+                  <strong>{credit.author}</strong>
+                  {credit.source ? ` — ${credit.source}` : ''}
+                </p>
+                <p>
+                  {t('attributions.audio.license')}:{' '}
+                  <a
+                    href={credit.licenseUrl}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    {credit.license}
+                  </a>
+                </p>
+                <p>
+                  {t('attributions.audio.modifications')}: {credit.modifications}
+                </p>
+              </li>
+            ))}
+          </ul>
+        )}
+
+        {audioManifest?.originUrl ? (
+          <p className="page-actions">
+            <a
+              href={audioManifest.originUrl}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              {t('attributions.audio.origin')}
+            </a>
+          </p>
+        ) : null}
         <p>{t('attributions.code')}</p>
       </section>
 

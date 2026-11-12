@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  audioCredits,
   loadSampleConfig,
   readSampleManifest,
   sampleUrls,
@@ -86,5 +87,18 @@ describe('manifiesto de muestras', () => {
       license: 'CC-BY-3.0',
       attribution: validManifest.attribution,
     })
+  })
+
+  it('deduplica los créditos de audio para la pantalla de atribuciones', () => {
+    const credits = audioCredits(readSampleManifest(validManifest))
+    expect(credits).toHaveLength(1)
+    expect(credits[0]).toMatchObject({
+      author: 'Alexander Holm',
+      source: 'Salamander Grand Piano',
+      license: 'CC-BY-3.0',
+      licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
+      modifications: 'Sin modificaciones.',
+    })
+    expect(audioCredits(null)).toEqual([])
   })
 })

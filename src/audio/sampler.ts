@@ -9,6 +9,45 @@ export interface SampleConfig {
   license: string
 }
 
+/** Crédito de audio deduplicado, listo para la pantalla de atribuciones. */
+export interface AudioCredit {
+  author: string
+  source: string
+  license: string
+  licenseUrl: string
+  modifications: string
+}
+
+/**
+ * Deriva los créditos de audio del manifiesto. Agrupa las muestras que
+ * comparten autor, origen, licencia y modificaciones para no repetir la misma
+ * atribución treinta veces.
+ */
+export function audioCredits(manifest: AudioManifest | null): AudioCredit[] {
+  if (!manifest) return []
+  const seen = new Set<string>()
+  const credits: AudioCredit[] = []
+  for (const sample of manifest.samples) {
+    const key = [
+      sample.author,
+      sample.source,
+      sample.license,
+      sample.licenseUrl,
+      sample.modifications,
+    ].join('\u0000')
+    if (seen.has(key)) continue
+    seen.add(key)
+    credits.push({
+      author: sample.author,
+      source: sample.source,
+      license: sample.license,
+      licenseUrl: sample.licenseUrl,
+      modifications: sample.modifications,
+    })
+  }
+  return credits
+}
+
 function withTrailingSlash(value: string): string {
   return value.endsWith('/') ? value : `${value}/`
 }
