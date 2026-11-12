@@ -2325,3 +2325,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: el fixture de `tests/audio-sampler.test.ts` se actualizó con los campos nuevos para que el esquema siga validando.
 - Limitaciones: los valores de autoría/origen/licencia se confirman en la fuente original en F6-040; el SHA-256 solo se comprueba cuando las muestras están presentes (no se versionan).
 - Próximo paso: F6-040 (confirmar la licencia original de Salamander y registrar las URLs).
+
+## 2026-11-15T02:00:00-03:00 · F6-040
+
+- Problema: el manifiesto citaba la licencia CC BY 3.0, pero no registraba la fuente original de las muestras ni la URL del texto de la licencia, y docs/LICENCIAS.md no documentaba el audio.
+- Acción: se consultó el repositorio original `sfzinstruments/SalamanderGrandPiano` (autor Alexander Holm), que declara «Creative Commons Attribution 3.0 Unported License» y enlaza `archive.org/details/SalamanderGrandPianoV3` como fuente. Se agregó `originUrl` y `originRepository` al manifiesto (con `originUrl` obligatorio en los tres esquemas) y una sección «Audio» en docs/LICENCIAS.md con autor, obra, origen, licencia, URL de licencia, espejo y modificaciones. Se añadió una aserción al test del manifiesto.
+- Resultado: typecheck, suite 248 archivos / 1707 tests y build verdes; `npm run audit:audio` 30/30 y `fetch:samples:dry` sin faltantes. Commit `61ee0c7`.
+- Correcciones: se actualizaron los fixtures (`audio-manifest-empty.json`, `audio-sampler.test.ts`, `content-schema.test.ts`, `verify-audio.test.ts`) para el nuevo campo obligatorio.
+- Limitaciones: no se volvió a descargar el banco original (48 kHz/24 bit); se sigue sirviendo el espejo MP3 de Tone.js, declarado como tal.
+- Próximo paso: F6-041 (créditos generados desde el manifiesto).
