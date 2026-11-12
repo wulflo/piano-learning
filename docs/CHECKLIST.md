@@ -6,9 +6,9 @@
 
 - **Tarea actual:** F6-043
 - **Última verificada en verde:** F6-042 (`5f9b7fb`, 2026-11-15T03:00:00-03:00)
-- **Actualizado:** 2026-11-15T03:00:00-03:00
+- **Actualizado:** 2026-11-15T03:10:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-042 sumó `npm run audit:licenses` con license-checker (devDependency BSD-3-Clause), allowlist permisiva y contraste con THIRD_PARTY_LICENSES.md regenerado. F6-043 audita duplicación de código y encabezados ajenos con jscpd y grep. Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-043 en curso: instalar jscpd, crear `npm run audit:code` (duplicación en src/ y grep de encabezados ajenos en src/, scripts/ y content/) y volcar archivo y línea a docs/AUDITORIA.md. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1600,7 +1600,7 @@ Quedó funcionando:
   - Aceptación: `npm run audit:licenses` corre license-checker sobre dependencias de producción contra una allowlist permisiva y debe coincidir con THIRD_PARTY_LICENSES.md; con test.
   - Deps: F6-039 · Red: sí · [NET]
   - Commit: 5f9b7fb · 2026-11-15T03:00:00-03:00
-- [ ] **F6-043** — Auditar duplicación de código y encabezados ajenos [NET]
+- [~] **F6-043** — Auditar duplicación de código y encabezados ajenos [NET]
   - Aceptación: `npm run audit:code` corre jscpd sobre src/ y un grep de encabezados de copyright o licencia ajenos (Copyright, SPDX, GPL, "licensed under") en src/, scripts/ y content/; reporta archivo y línea en docs/AUDITORIA.md.
   - Deps: F6-042 · Red: sí · [NET]
 - [ ] **F6-044** — Cumplimiento REUSE [NET]
