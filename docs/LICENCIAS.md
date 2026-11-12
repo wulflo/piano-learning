@@ -144,3 +144,27 @@ Antes de crear cada pieza:
 La ficha de la pieza repite la fuente, la fecha de verificación y la
 atribución visible para que la app pueda mostrarla sin depender de este
 documento. Las siguientes transcripciones seguirán el mismo procedimiento.
+
+## Audio
+
+Las 30 muestras de piano que usa la app provienen del **Salamander Grand Piano
+v3** de **Alexander Holm**. La licencia se confirmó en la fuente original el
+2026-11-15 (F6-040).
+
+| Campo | Valor |
+|---|---|
+| Autor | Alexander Holm |
+| Obra | Salamander Grand Piano v3 (48 kHz / 24 bit) |
+| Fuente original | [archive.org/details/SalamanderGrandPianoV3](https://archive.org/details/SalamanderGrandPianoV3) |
+| Repositorio del autor | [github.com/sfzinstruments/SalamanderGrandPiano](https://github.com/sfzinstruments/SalamanderGrandPiano) |
+| Licencia | CC BY 3.0 Unported (`CC-BY-3.0`) |
+| URL de la licencia | [creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/) |
+| Espejo de descarga | [tonejs.github.io/audio/salamander](https://tonejs.github.io/audio/salamander/) |
+| Modificaciones | Ninguna propia; se usa la copia MP3 publicada por Tone.js. |
+
+- El repositorio `sfzinstruments/SalamanderGrandPiano` declara: «This work is
+  licensed under a Creative Commons Attribution 3.0 Unported License» y enlaza
+  `archive.org/details/SalamanderGrandPianoV3` como fuente.
+- El manifiesto `assets/audio/manifest.json` repite autor, origen, licencia, URL
+  de licencia y modificaciones por muestra; `npm run audit:audio` lo verifica.
+- La atribución visible aparece en la pantalla de créditos (`#/atribuciones`).

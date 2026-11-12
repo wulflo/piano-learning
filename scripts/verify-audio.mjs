@@ -60,6 +60,8 @@ export const ManifestSchema = z.object({
   attribution: z.string().min(1),
   license: z.string().min(1),
   sourceUrl: z.url(),
+  originUrl: z.url(),
+  originRepository: z.url().optional(),
   expectedSamples: z.number().int().nonnegative(),
   samples: z.array(SampleSchema).default([]),
 })

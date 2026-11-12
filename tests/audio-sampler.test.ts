@@ -21,6 +21,7 @@ const validManifest = {
   attribution: 'Salamander Grand Piano by Alexander Holm, CC BY 3.0',
   license: 'CC-BY-3.0',
   sourceUrl: 'https://tonejs.github.io/audio/salamander/',
+  originUrl: 'https://archive.org/details/SalamanderGrandPianoV3',
   expectedSamples: 2,
   samples: [
     {

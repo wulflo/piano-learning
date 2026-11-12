@@ -55,6 +55,7 @@ function manifest(samples: Sample[], expectedSamples = samples.length) {
     attribution: 'Salamander Grand Piano by Alexander Holm, CC BY 3.0',
     license: 'CC-BY-3.0',
     sourceUrl: 'https://tonejs.github.io/audio/salamander/',
+    originUrl: 'https://archive.org/details/SalamanderGrandPianoV3',
     expectedSamples,
     samples,
   }
@@ -207,8 +208,16 @@ describe('manifiesto de audio — trazabilidad de licencias', () => {
   const real = JSON.parse(
     readFileSync(join(root, 'assets', 'audio', 'manifest.json'), 'utf8'),
   ) as {
+    originUrl?: string
     samples: Array<Record<string, unknown>>
   }
+
+  it('declara la fuente original y la URL de la licencia', () => {
+    expect(real.originUrl).toBe('https://archive.org/details/SalamanderGrandPianoV3')
+    for (const entry of real.samples) {
+      expect(entry.licenseUrl).toBe('https://creativecommons.org/licenses/by/3.0/')
+    }
+  })
 
   it('cada muestra declara autor, origen, licencia, URL y modificaciones', () => {
     expect(real.samples.length).toBeGreaterThan(0)

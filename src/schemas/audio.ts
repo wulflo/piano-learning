@@ -28,6 +28,9 @@ export const AudioManifestSchema = z.object({
   attribution: z.string().min(1),
   license: z.literal('CC-BY-3.0'),
   sourceUrl: z.url(),
+  /** Fuente original de las muestras (antes del espejo de descarga). */
+  originUrl: z.url(),
+  originRepository: z.url().optional(),
   expectedSamples: z.number().int().nonnegative(),
   samples: z.array(AudioSampleSchema).default([]),
 })
