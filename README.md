@@ -89,11 +89,11 @@ ruta y el navegador usado.
 
 ## Contribuir
 
-Antes de cambiar código, leé `docs/GUIA-CAMBIOS.md` y seguí el protocolo de
-`docs/CHECKLIST.md`: una tarea, criterios de aceptación y verificación en verde.
-Los cambios deben dejar `npm run estado` verde y actualizar `docs/LOG.md` y el
-punto de reanudación. Para contenido nuevo, respetá el esquema de licencias y
-añadí la fuente.
+Antes de cambiar código, leé `CONTRIBUTING.md` (origen, licencia y firma DCO) y
+seguí el protocolo de `docs/GUIA-CAMBIOS.md` y `docs/CHECKLIST.md`: una tarea,
+criterios de aceptación y verificación en verde. Los cambios deben dejar
+`npm run estado` verde y actualizar `docs/LOG.md` y el punto de reanudación. Para
+contenido nuevo, respetá el esquema de licencias y añadí la fuente.
 
 ## Publicar en GitHub Pages
 
@@ -121,6 +121,7 @@ repositorio público no hace falta nada más.
 
 ## Documentación de continuidad
 
+- `CONTRIBUTING.md`: origen, licencia y firma DCO de los aportes.
 - `docs/GUIA-CAMBIOS.md`: cómo hacer cualquier cambio con checklist primero.
 - `docs/CHECKLIST.md`: fuente única de verdad del avance.
 - `docs/RESUME.md`: cómo retomar el trabajo desde cero.
