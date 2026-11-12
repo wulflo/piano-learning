@@ -1,0 +1,33 @@
+{
+  "id": "ex.m4-08.f",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Si4 y Fa5?",
+  "promptEn": "What interval is there between B4 and F5?",
+  "explanationEs": "De Si a Fa hay cuatro letras y seis semitonos: una quinta disminuida. Es disminuida porque la quinta justa tiene siete semitonos y falta uno.",
+  "explanationEn": "From B to F there are four letters and six semitones: a diminished fifth. It is diminished because the perfect fifth has seven semitones and one is missing.",
+  "difficulty": 3,
+  "lower": {
+    "step": "B",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "F",
+    "accidental": "",
+    "octave": 5
+  },
+  "direction": "harmonic",
+  "choices": [
+    "Quinta disminuida",
+    "Quinta justa",
+    "Cuarta aumentada",
+    "Sexta menor"
+  ],
+  "choicesEn": [
+    "Diminished fifth",
+    "Perfect fifth",
+    "Augmented fourth",
+    "Minor sixth"
+  ]
+}

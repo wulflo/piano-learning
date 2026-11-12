@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-02.b",
+  "skillId": "skill.roman-numeral",
+  "type": "roman-numeral",
+  "promptEs": "En Sol mayor, ¿qué numeral romano nombra el acorde Re (Re, Fa♯, La)?",
+  "promptEn": "In G major, which Roman numeral names the chord D (D, F♯, A)?",
+  "explanationEs": "En Sol mayor, Re es el quinto grado. Su tríada Re-Fa♯-La es mayor, así que el numeral es V, el dominante.",
+  "explanationEn": "In G major, D is the fifth degree. Its triad D-F♯-A is major, so the numeral is V, the dominant.",
+  "difficulty": 2,
+  "key": "G",
+  "mode": "major",
+  "numeral": "V",
+  "choices": [
+    "IV",
+    "V",
+    "I"
+  ],
+  "choicesEn": [
+    "IV",
+    "V",
+    "I"
+  ]
+}

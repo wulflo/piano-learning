@@ -1,0 +1,59 @@
+{
+  "id": "ex.m1-08.b",
+  "skillId": "skill.syncopation",
+  "type": "rhythm-completion",
+  "promptEs": "En 4/4, después de una corchea, ¿qué figura empieza en la parte débil y se prolonga sobre el pulso fuerte?",
+  "explanationEs": "La negra que sigue a la corchea empieza en la parte débil y se prolonga sobre el pulso fuerte: eso produce la síncopa. Con las demás figuras el compás suma cuatro tiempos.",
+  "difficulty": 2,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "pattern": [
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 1,
+  "choices": [
+    "Negra",
+    "Corchea",
+    "Blanca",
+    "Semicorchea"
+  ],
+  "promptEn": "In 4/4, after an eighth note, which note value starts on the weak part and extends over the strong beat?",
+  "explanationEn": "The quarter note that follows the eighth note starts on the weak part and extends over the strong beat: that produces the syncopation. With the other note values the measure adds up to four beats.",
+  "choicesEn": [
+    "Quarter note",
+    "Eighth note",
+    "Half note",
+    "Sixteenth note"
+  ]
+}

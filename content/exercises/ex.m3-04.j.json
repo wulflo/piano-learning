@@ -1,0 +1,75 @@
+{
+  "id": "ex.m3-04.j",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Mirá y escuchá el acorde de Mi mayor en primera inversión. ¿Qué intervalo hay entre el bajo (Sol♯4) y la nota superior (Mi5)?",
+  "promptEn": "Look at and listen to the E major chord in first inversion. What interval is there between the bass (G♯4) and the top note (E5)?",
+  "explanationEs": "En la primera inversión de Mi mayor el bajo es Sol♯4. De Sol♯4 a Mi5 hay seis letras y ocho semitonos: sexta menor. En posición fundamental, el mismo acorde tendría una quinta entre el bajo y la nota superior.",
+  "explanationEn": "In the first inversion of E major the bass is G♯4. From G♯4 to E5 there are six letters and eight semitones: a minor sixth. In root position, the same chord would have a fifth between bass and top note.",
+  "difficulty": 2,
+  "lower": {
+    "step": "G",
+    "accidental": "#",
+    "octave": 4
+  },
+  "upper": {
+    "step": "E",
+    "accidental": "",
+    "octave": 5
+  },
+  "direction": "harmonic",
+  "fragment": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "frag.m3-04.j.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "#",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Sexta menor",
+    "Sexta mayor",
+    "Quinta justa",
+    "Tercera mayor"
+  ],
+  "choicesEn": [
+    "Minor sixth",
+    "Major sixth",
+    "Perfect fifth",
+    "Major third"
+  ]
+}

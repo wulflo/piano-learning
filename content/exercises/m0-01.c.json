@@ -1,0 +1,27 @@
+{
+  "id": "ex.m0-01.c",
+  "skillId": "skill.note-names",
+  "type": "note-keyboard",
+  "promptEs": "Una octava arriba del Do central, ¿qué nota es la tecla blanca a la izquierda del grupo de dos negras?",
+  "explanationEs": "El patrón se repite en cada octava: la blanca a la izquierda del grupo de dos negras siempre es Do. Una octava arriba del Do central está Do5 (C5).",
+  "difficulty": 2,
+  "target": {
+    "step": "C",
+    "accidental": "",
+    "octave": 5
+  },
+  "choices": [
+    "Do",
+    "Re",
+    "Mi",
+    "Si"
+  ],
+  "promptEn": "One octave above middle C, which note is the white key to the left of the group of two black keys?",
+  "explanationEn": "The pattern repeats in every octave: the white key to the left of the group of two black keys is always C. One octave above middle C is C5.",
+  "choicesEn": [
+    "C",
+    "D",
+    "E",
+    "B"
+  ]
+}

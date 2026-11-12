@@ -1,0 +1,209 @@
+{
+  "id": "lesson.m1-03",
+  "moduleId": "M1",
+  "slug": "alteraciones-enarmonia-tonos-y-semitonos",
+  "titleEs": "Alteraciones, enarmonía, tonos y semitonos",
+  "titleEn": "Accidentals, enharmony, tones and semitones",
+  "summaryEs": "Sostenidos y bemoles mueven una nota un semitono; dos semitonos forman un tono, y algunas notas tienen dos nombres para la misma tecla.",
+  "summaryEn": "Sharps and flats move a note by a semitone; two semitones make a tone, and some notes have two names for the same key.",
+  "objectivesEs": [
+    "Usar sostenido, bemol y natural para alterar una nota",
+    "Reconocer notas enarmónicas en el teclado y en el pentagrama",
+    "Medir tonos y semitonos desde las 12 tónicas"
+  ],
+  "objectivesEn": [
+    "Use the sharp, flat, and natural signs to alter a note",
+    "Recognize enharmonic notes on the keyboard and on the staff",
+    "Measure tones and semitones from all 12 starting notes"
+  ],
+  "minutes": 13,
+  "prerequisites": ["lesson.m1-02"],
+  "skillIds": ["skill.accidentals"],
+  "exerciseIds": [
+    "ex.m1-03.a",
+    "ex.m1-03.b",
+    "ex.m1-03.c",
+    "ex.m1-03.d",
+    "ex.m1-03.e",
+    "ex.m1-03.f",
+    "ex.m1-03.g",
+    "ex.m1-03.h",
+    "ex.m1-03.i",
+    "ex.m1-03.j",
+    "ex.m1-03.k",
+    "ex.m1-03.l",
+    "ex.m1-03.m",
+    "ex.m1-03.n"
+  ],
+  "sections": [
+    {
+      "id": "sec.m1-03.intro",
+      "kind": "text",
+      "titleEs": "Las tres alteraciones básicas",
+      "titleEn": "The three basic accidentals",
+      "bodyEs": "Las alteraciones cambian la altura de una nota sin cambiar su nombre de base. El sostenido (♯) sube un semitono, el bemol (♭) baja un semitono y el natural (♮) cancela una alteración anterior. Se escriben antes de la nota, sobre la misma línea o espacio. En el teclado, un sostenido mueve a la tecla inmediata de la derecha y un bemol a la tecla inmediata de la izquierda, sea blanca o negra.",
+      "bodyEn": "Accidentals change the pitch of a note without changing its base name. The sharp (♯) raises it a semitone, the flat (♭) lowers it a semitone, and the natural (♮) cancels a previous accidental. They are written before the note, on the same line or space. On the keyboard, a sharp moves to the very next key to the right and a flat to the very next key to the left, whether it is white or black."
+    },
+    {
+      "id": "sec.m1-03.accidentals",
+      "kind": "keyboard",
+      "titleEs": "Escuchá Do, Do♯, Re, Mi♭ y Mi",
+      "titleEn": "Listen to C, C♯, D, E♭, and E",
+      "bodyEs": "Tocá las cinco notas en orden. Do4 y Re4 están a un tono de distancia, pero entre ellos está Do♯4 (también llamado Re♭4). Mi♭4 está un semitono debajo de Mi4. Fijate que el sostenido y el bemol no cambian el nombre de la nota base: Do♯ sigue siendo un Do alterado.",
+      "bodyEn": "Play the five notes in order. C4 and D4 are a tone apart, but between them is C♯4 (also called D♭4). E♭4 is a semitone below E4. Notice that the sharp and the flat do not change the base note name: C♯ is still an altered C.",
+      "keys": [
+        { "step": "C", "accidental": "", "octave": 4 },
+        { "step": "C", "accidental": "#", "octave": 4 },
+        { "step": "D", "accidental": "", "octave": 4 },
+        { "step": "E", "accidental": "b", "octave": 4 },
+        { "step": "E", "accidental": "", "octave": 4 }
+      ]
+    },
+    {
+      "id": "sec.m1-03.semitones",
+      "kind": "text",
+      "titleEs": "Semitono y tono",
+      "titleEn": "Semitone and tone",
+      "bodyEs": "Un semitono es la distancia más pequeña del sistema tonal: de una tecla a la inmediata, sin saltar ninguna. Un tono equivale a dos semitonos. En el piano, casi todas las distancias entre notas naturales son tonos, salvo Mi-Fa y Si-Do, que son semitonos naturales. Por eso Do-Re es un tono, Mi-Fa es un semitono y Si-Do es un semitono. Contar semitonos es la base para construir escalas, intervalos y acordes.",
+      "bodyEn": "A semitone is the smallest distance in the tonal system: from one key to the very next one, skipping none. A tone equals two semitones. On the piano, almost all the distances between natural notes are tones, except E–F and B–C, which are natural semitones. That is why C–D is a tone, E–F is a semitone, and B–C is a semitone. Counting semitones is the basis for building scales, intervals, and chords."
+    },
+    {
+      "id": "sec.m1-03.semitone-demo",
+      "kind": "score",
+      "titleEs": "Do♯ y Re: semitono y tono",
+      "titleEn": "C♯ and D: semitone and tone",
+      "bodyEs": "Do4 a Do♯4 es un semitono; Do4 a Re4 es un tono. En este compás, Do4, Do♯4 y Re4 muestran las tres posiciones. Escuchá la diferencia: el semitono suena más cerca, el tono un poco más lejos.",
+      "bodyEn": "C4 to C♯4 is a semitone; C4 to D4 is a tone. In this measure, C4, C♯4, and D4 show the three positions. Listen to the difference: the semitone sounds closer, the tone a little farther apart.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m1-03.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-03.csharp4",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "#", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-03.d4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-03.enharmony",
+      "kind": "text",
+      "titleEs": "Enarmonía: dos nombres, una tecla",
+      "titleEn": "Enharmony: two names, one key",
+      "bodyEs": "La enarmonía ocurre cuando dos nombres distintos representan la misma altura. Do♯ y Re♭ son enarmónicos: suenan igual y usan la misma tecla negra, pero se escriben distinto. Lo mismo pasa con Re♯/Mi♭, Fa♯/Sol♭, Sol♯/La♭ y La♯/Si♭. La elección depende de la tonalidad y de la dirección de la frase: en una escala ascendente conviene el sostenido; en una descendente, el bemol. No son notas diferentes: son dos formas de escribir la misma altura.",
+      "bodyEn": "Enharmony happens when two different names represent the same pitch. C♯ and D♭ are enharmonic: they sound the same and use the same black key, but they are written differently. The same goes for D♯/E♭, F♯/G♭, G♯/A♭, and A♯/B♭. The choice depends on the key and on the direction of the phrase: in an ascending scale a sharp is preferable; in a descending one, a flat. They are not different notes: they are two ways of writing the same pitch."
+    },
+    {
+      "id": "sec.m1-03.summary",
+      "kind": "callout",
+      "titleEs": "Resumen para practicar",
+      "titleEn": "Summary for practice",
+      "bodyEs": "Sostenido ♯ sube un semitono; bemol ♭ baja un semitono; natural ♮ cancela. Semitono = tecla contigua; tono = dos semitonos. Mi-Fa y Si-Do son semitonos naturales; el resto de las segundas entre notas blancas son tonos. Do♯=Re♭, Re♯=Mi♭, Fa♯=Sol♭, Sol♯=La♭ y La♯=Si♭. Practicá contando en el teclado y después nombrando la distancia sin mirar.",
+      "bodyEn": "Sharp ♯ raises a semitone; flat ♭ lowers a semitone; natural ♮ cancels. Semitone = adjacent key; tone = two semitones. E–F and B–C are natural semitones; the other seconds between white keys are tones. C♯=D♭, D♯=E♭, F♯=G♭, G♯=A♭, and A♯=B♭. Practice by counting on the keyboard and then naming the distance without looking."
+    },
+    {
+      "id": "sec.m1-03.exercises",
+      "kind": "exercise",
+      "titleEs": "Doce tónicas y dos enarmonías",
+      "titleEn": "Twelve starting notes and two enharmonics",
+      "bodyEs": "Los primeros doce ejercicios recorren las 12 tónicas del teclado y te piden decidir si la distancia es un semitono o un tono. Los dos últimos piden tocar una nota enarmónica: la misma tecla con el otro nombre. Antes de responder, contá las teclas intermedias en el teclado o mirá la distancia en el pentagrama.",
+      "bodyEn": "The first twelve exercises go through all 12 starting notes on the keyboard and ask you to decide whether the distance is a semitone or a tone. The last two ask you to play an enharmonic note: the same key under its other name. Before answering, count the keys in between on the keyboard or look at the distance on the staff."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Semitono y tono desde Do",
+    "titleEn": "Semitone and tone from C",
+    "instructionsEs": "Tocá Do4, Do♯4 y Re4 con los dedos 1, 2 y 3. Decí en voz alta «semitono» entre Do y Do♯, y «tono» entre Do y Re. Repetí el patrón desde Mi4 (Mi-Fa es semitono) y desde Si4 (Si-Do es semitono). Mantené la mano relajada y el tempo estable.",
+    "instructionsEn": "Play C4, C♯4, and D4 with fingers 1, 2, and 3. Say “semitone” out loud between C and C♯, and “tone” between C and D. Repeat the pattern starting from E4 (E–F is a semitone) and from B4 (B–C is a semitone). Keep your hand relaxed and the tempo steady.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "#", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "1 - 2 - 3 (mano derecha); pulgar sobre Do4",
+    "fingeringEn": "1 - 2 - 3 (right hand); thumb on C4",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué Do♯ con el dedo 2 sin tensar la muñeca",
+      "Nombré el semitono y el tono en voz alta",
+      "Repetí desde Mi4 y desde Si4",
+      "Mantuve el tempo estable en las tres notas"
+    ],
+    "checklistEn": [
+      "I played C♯ with finger 2 without tensing my wrist",
+      "I said the semitone and the tone out loud",
+      "I repeated starting from E4 and from B4",
+      "I kept the tempo steady through all three notes"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m1-03.c4",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-03.csharp4",
+          "measure": 1,
+          "beat": 1,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "#", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-03.d4",
+          "measure": 1,
+          "beat": 2,
+          "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

@@ -1,0 +1,266 @@
+{
+  "id": "lesson.m4-01",
+  "moduleId": "M4",
+  "slug": "triadas-mayores-y-menores",
+  "titleEs": "Tríadas mayores y menores",
+  "titleEn": "Major and minor triads",
+  "summaryEs": "Cómo construir una tríada mayor o menor con la construcción 1-3-5 y cómo la tercera define la calidad de la tríada.",
+  "summaryEn": "How to build a major or minor triad with the 1-3-5 construction and how the third defines the triad's quality.",
+  "objectivesEs": [
+    "Construir tríadas mayores y menores con la construcción 1-3-5 (fundamento, tercera y quinta)",
+    "Reconocer la calidad mayor o menor de una tríada a partir de su tercera",
+    "Tocar tríadas en el teclado con patrones de bloque o arpegio"
+  ],
+  "objectivesEn": [
+    "Build major and minor triads with the 1-3-5 construction (root, third and fifth)",
+    "Recognise a major or minor triad's quality from its third",
+    "Play triads on the keyboard with block or arpeggio patterns"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m3-05"
+  ],
+  "skillIds": [
+    "skill.chord-quality"
+  ],
+  "exerciseIds": [
+    "ex.m4-01.a",
+    "ex.m4-01.b",
+    "ex.m4-01.c",
+    "ex.m4-01.d",
+    "ex.m4-01.e",
+    "ex.m4-01.f",
+    "ex.m4-01.g",
+    "ex.m4-01.h",
+    "ex.m4-01.i",
+    "ex.m4-01.j",
+    "ex.m4-01.k",
+    "ex.m4-01.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m4-01.intro",
+      "kind": "text",
+      "titleEs": "Qué es una tríada",
+      "titleEn": "What is a triad",
+      "bodyEs": "Una tríada es una construcción de tres notas: la fundamental, la tercera y la quinta, la regla 1-3-5. La tercera, que queda a dos segundas del fundamento, define la calidad de la tríada: mayor si la distancia es de cuatro semitonos y menor si es de tres. Por eso la tríada de Do mayor (Do, Mi, Sol) y la de Do menor (Do, Mi bemol, Sol) comparten la misma estructura y solo la tercera cambia.",
+      "bodyEn": "A triad is a three-note construction: the root, the third and the fifth, the 1-3-5 rule. The third, which sits a second above the root, defines the triad's quality: major when the distance is four semitones and minor when it is three. That is why the C major triad (C, E, G) and the C minor triad (C, Eb, G) share the same structure and only the third changes."
+    },
+    {
+      "id": "sec.m4-01.demo",
+      "kind": "score",
+      "titleEs": "Escuchá la tríada mayor y menor en bloque y arpegio",
+      "titleEn": "Hear the major and minor triad as a block and as an arpeggio",
+      "bodyEs": "Escuchá y mirá dos tríadas de Do: la mayor (Do, Mi, Sol) y la menor (Do, Mi bemol, Sol). Las dos se construyen con la regla 1-3-5; la diferencia está en la tercera, que hace a la primera mayor y a la segunda menor. Primero suenan en bloque y después en arpegio, una nota por pulso, para que escuches cada intervalo por separado.",
+      "bodyEn": "Listen to and look at two triads in C: the major one (C, E, G) and the minor one (C, Eb, G). Both are built with the 1-3-5 rule; the difference lies in the third, which makes the first major and the second minor. First they sound as a block and then as an arpeggio, one note per beat, so you can hear each interval separately.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m4-01.triada-mayor-bloque",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-01.triada-menor-bloque",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "b", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-01.triada-mayor-arpegio-1",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-01.triada-mayor-arpegio-2",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "E", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-01.triada-mayor-arpegio-3",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-01.triada-menor-arpegio-1",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-01.triada-menor-arpegio-2",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "E", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-01.triada-menor-arpegio-3",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m4-01.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios de tríadas",
+      "titleEn": "Twelve triad exercises",
+      "bodyEs": "Cada ejercicio construye una tríada con la regla 1-3-5 sobre una de las doce tónicas y pregunta su calidad sin nombrarla en el enunciado. Alternan tríadas mayores y menores; la respuesta correcta se decide por la tercera de la construcción.",
+      "bodyEn": "Each exercise builds a triad with the 1-3-5 rule on one of the twelve roots and asks for its quality without naming it in the prompt. Major and minor triads alternate; the correct answer is decided by the triad's third."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la tríada de Do mayor",
+    "titleEn": "Play the C major triad",
+    "instructionsEs": "Tocá la tríada de Do mayor (Do, Mi y Sol) con la mano derecha a 60 BPM: primero tocá las notas como un arpegio y después tocá el acorde completo en bloque.",
+    "instructionsEn": "Play the C major triad (C, E, G) with your right hand at 60 BPM: first play the notes as an arpeggio and then play the full chord as a block.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: 1-3-5 para la tríada de Do mayor.",
+    "fingeringEn": "Right hand: 1-3-5 for the C major triad.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué las notas Do, Mi y Sol de la tríada de Do mayor en orden",
+      "Toqué el acorde completo sin apretar las teclas",
+      "Repetí la tríada despacio con un pulso de negra"
+    ],
+    "checklistEn": [
+      "I played the notes C, E, and G of the C major triad in order",
+      "I played the full chord without pressing the keys hard",
+      "I repeated the triad slowly with a quarter-note pulse"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m4-01.triada-i",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

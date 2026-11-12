@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-10.f",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "El acorde formado por Fa♯, La, Do y Mi, ¿qué calidad tiene?",
+  "promptEn": "The chord made of F♯, A, C and E, what quality does it have?",
+  "explanationEs": "Fa♯-La es tercera menor, Fa♯-Do quinta disminuida y Fa♯-Mi séptima menor: es un Fa♯ m7♭5, una séptima semidisminuida. Se diferencia de Fa♯m7 por la quinta: Do en lugar de Do♯.",
+  "explanationEn": "F♯-A is a minor third, F♯-C a diminished fifth and F♯-E a minor seventh: it is an F♯m7♭5, a half-diminished seventh. It differs from F♯m7 in the fifth: C instead of C♯.",
+  "difficulty": 3,
+  "root": { "step": "F", "accidental": "#", "octave": 4 },
+  "quality": "half-diminished7",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["séptima semidisminuida", "séptima disminuida", "séptima menor", "séptima de dominante"],
+  "choicesEn": ["half-diminished seventh", "diminished seventh", "minor seventh", "dominant seventh"]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ex.m1-10.f",
+  "skillId": "skill.dynamics-articulation",
+  "type": "articulation",
+  "promptEs": "Escuchá el Do4 con un ataque más fuerte que el resto. ¿Qué articulación es?",
+  "explanationEs": "La nota tiene un ataque más fuerte: es un acento, indicado con el signo > sobre la nota.",
+  "difficulty": 2,
+  "articulation": "accent",
+  "midi": 60,
+  "beats": 1,
+  "velocity": 110,
+  "choices": [
+    "Acento",
+    "Legato",
+    "Staccato"
+  ],
+  "promptEn": "Listen to C4 with a stronger attack than the rest. Which articulation is it?",
+  "explanationEn": "The note has a stronger attack: it is an accent, shown with the > sign above the note.",
+  "choicesEn": [
+    "Accent",
+    "Legato",
+    "Staccato"
+  ]
+}

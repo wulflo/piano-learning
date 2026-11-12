@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-05.c",
+  "skillId": "skill.ear-interval",
+  "type": "ear-interval",
+  "promptEs": "¿Qué intervalo hay entre Do4 y Sol4 al escucharlos en forma ascendente?",
+  "promptEn": "What interval is there between C4 and G4 when heard in ascending form?",
+  "explanationEs": "Do4 y Sol4 están separados por una quinta justa: siete semitonos. Es una distancia estable y amplia a la vez.",
+  "explanationEn": "C4 and G4 are a perfect fifth apart: seven semitones. It is both a stable and a wide distance.",
+  "difficulty": 2,
+  "lower": { "step": "C", "accidental": "", "octave": 4 },
+  "upper": { "step": "G", "accidental": "", "octave": 4 },
+  "direction": "ascending",
+  "choices": ["Quinta justa", "Cuarta justa", "Tercera mayor", "Sexta mayor"],
+  "choicesEn": ["Perfect fifth", "Perfect fourth", "Major third", "Major sixth"]
+}

@@ -1,0 +1,375 @@
+{
+  "id": "ex.m7-05.b",
+  "skillId": "skill.arpeggiated-accompaniment",
+  "type": "arpeggiated",
+  "difficulty": 1,
+  "score": {
+    "clef": "bass",
+    "key": "G",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 72,
+    "events": [
+      {
+        "id": "ex.m7-05.b.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false,
+        "chordSymbol": "G"
+      },
+      {
+        "id": "ex.m7-05.b.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.b.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.b.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.b.5",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false,
+        "chordSymbol": "G"
+      },
+      {
+        "id": "ex.m7-05.b.6",
+        "measure": 2,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.b.7",
+        "measure": 2,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.b.8",
+        "measure": 2,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.b.9",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false,
+        "chordSymbol": "G"
+      },
+      {
+        "id": "ex.m7-05.b.10",
+        "measure": 3,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.b.11",
+        "measure": 3,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.b.12",
+        "measure": 3,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.b.13",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false,
+        "chordSymbol": "G"
+      },
+      {
+        "id": "ex.m7-05.b.14",
+        "measure": 4,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.b.15",
+        "measure": 4,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.b.16",
+        "measure": 4,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "ask": "notes",
+  "measure": 1,
+  "promptEs": "¿En qué orden ataca la mano izquierda las notas del compás 1 de Sol mayor?",
+  "promptEn": "In which order does the left hand play the notes in measure 1 in G major?",
+  "explanationEs": "La mano izquierda toca Sol3 Re4 Si3 Re4, en ese orden. Es el patrón 1-5-3-5 sobre Sol mayor en compás de 4/4; el bajo es la fundamental y la quinta vuelve a aparecer al final del patrón de 4 notas.",
+  "explanationEn": "The left hand plays G3 D4 B3 D4, in that order. It is the 1-5-3-5 pattern on G major in 4/4; the bass is the root and the fifth returns at the end of the 4-note pattern.",
+  "choices": [
+    "Sol3 Re4 Si3 Re4",
+    "Re4 Si3 Re4 Sol3",
+    "Sol2 Re4 Si3 Re4"
+  ],
+  "choicesEn": [
+    "G3 D4 B3 D4",
+    "D4 B3 D4 G3",
+    "G2 D4 B3 D4"
+  ]
+}

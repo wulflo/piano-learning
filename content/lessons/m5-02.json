@@ -1,0 +1,258 @@
+{
+  "id": "lesson.m5-02",
+  "moduleId": "M5",
+  "slug": "numeros-romanos",
+  "titleEs": "Números romanos",
+  "titleEn": "Roman numerals",
+  "summaryEs": "Cómo se cifra cada grado con números romanos, qué mayúscula o minúscula le toca a cada cualidad y cómo leer el numeral en ambos sentidos.",
+  "summaryEn": "How each degree is labelled with Roman numerals, which case matches each quality, and how to read the numeral in both directions.",
+  "objectivesEs": [
+    "Leer y escribir el numeral romano de cada grado en mayor y en menor",
+    "Distinguir las cualidades por la mayúscula, la minúscula y el símbolo de disminuido",
+    "Traducir un numeral a su acorde y un acorde a su numeral en Do, Sol, Re, Fa, La menor y Mi menor"
+  ],
+  "objectivesEn": [
+    "Read and write the Roman numeral of each degree in major and minor",
+    "Tell qualities apart by case and the diminished symbol",
+    "Translate a numeral into its chord and a chord into its numeral in C, G, D, F, A minor and E minor"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m5-01"
+  ],
+  "skillIds": [
+    "skill.roman-numeral"
+  ],
+  "exerciseIds": [
+    "ex.m5-02.a",
+    "ex.m5-02.b",
+    "ex.m5-02.c",
+    "ex.m5-02.d",
+    "ex.m5-02.e",
+    "ex.m5-02.f",
+    "ex.m5-02.g",
+    "ex.m5-02.h",
+    "ex.m5-02.i",
+    "ex.m5-02.j",
+    "ex.m5-02.k",
+    "ex.m5-02.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m5-02.intro",
+      "kind": "text",
+      "titleEs": "Qué nombra el número romano",
+      "titleEn": "What the Roman numeral names",
+      "bodyEs": "El número romano nombra el grado de la escala sobre el que se construye el acorde, no la nota absoluta. En Do mayor, el numeral V siempre es el quinto grado, Sol; en La menor, el numeral III siempre es el tercer grado, Do. Por eso el cifrado romano funciona en cualquier tonalidad: cambia la nota, no el grado. El numeral mayúscula indica acorde mayor, la minúscula acorde menor y el símbolo ° indica acorde disminuido. Un numeral puede llevar un 7 cuando el acorde es de séptima, como V7 o ii7.",
+      "bodyEn": "The Roman numeral names the scale degree on which the chord is built, not the absolute note. In C major, the numeral V is always the fifth degree, G; in A minor, the numeral III is always the third degree, C. That is why Roman-numeral notation works in any key: the note changes, the degree does not. An uppercase numeral indicates a major chord, a lowercase numeral a minor chord and the ° symbol a diminished chord. A numeral can carry a 7 when the chord is a seventh, like V7 or ii7."
+    },
+    {
+      "id": "sec.m5-02.mayor",
+      "kind": "text",
+      "titleEs": "Los numerals de la mayor",
+      "titleEn": "Numerals in major",
+      "bodyEs": "En mayor, los siete grados se cifran I, ii, iii, IV, V, vi y vii°. La mayúscula marca los acordes mayores (I, IV, V), la minúscula los menores (ii, iii, vi) y el ° el disminuido (vii°). Con séptimas, el cifrado completo es Imaj7, ii7, iii7, IVmaj7, V7, vi7 y viiø7. El V7 es la séptima de dominante: su tercera mayor apunta a la tónica y su séptima menor resuelve hacia abajo. El vii° es el acorde que falta para llegar a la tónica, y su séptima es semidisminuida (viiø7).",
+      "bodyEn": "In major, the seven degrees are labelled I, ii, iii, IV, V, vi and vii°. Uppercase marks the major chords (I, IV, V), lowercase the minor chords (ii, iii, vi) and ° the diminished chord (vii°). With sevenths, the full notation is Imaj7, ii7, iii7, IVmaj7, V7, vi7 and viiø7. V7 is the dominant seventh: its major third points to the tonic and its minor seventh resolves downward. vii° is the chord that leads to the tonic, and its seventh is half-diminished (viiø7)."
+    },
+    {
+      "id": "sec.m5-02.menor",
+      "kind": "text",
+      "titleEs": "Los numerals de la menor",
+      "titleEn": "Numerals in minor",
+      "bodyEs": "En menor natural, los grados se cifran i, ii°, III, iv, v, VI y VII. El i, el iv y el v son menores; el ii° es disminuido; el III, el VI y el VII son mayores. La menor armónica sube el séptimo grado y convierte el v en V y el VII en vii°: por eso en La menor el dominante es Mi (V) y no Mim (v), y el acorde que conduce a la tónica es Sol♯° (vii°). Cuando leas un numeral en menor, mirá si el contexto usa la menor natural o la armónica: la mayúscula del V delata la armónica.",
+      "bodyEn": "In natural minor, the degrees are labelled i, ii°, III, iv, v, VI and VII. i, iv and v are minor; ii° is diminished; III, VI and VII are major. Harmonic minor raises the seventh degree and turns v into V and VII into vii°: that is why in A minor the dominant is E (V) and not Em (v), and the chord leading to the tonic is G♯° (vii°). When you read a numeral in minor, check whether the context uses natural or harmonic minor: the uppercase V gives the harmonic minor away."
+    },
+    {
+      "id": "sec.m5-02.sentidos",
+      "kind": "text",
+      "titleEs": "En ambos sentidos",
+      "titleEn": "In both directions",
+      "bodyEs": "El cifrado se lee en los dos sentidos. De numeral a acorde: si te dicen IV en Do mayor, contás el cuarto grado (Fa) y apilás la tercera y la quinta de la escala (La y Do), así que el acorde es Fa. De acorde a numeral: si te dicen Fa en Do mayor, buscás qué grado es Fa (el cuarto) y comprobás su cualidad (mayor), así que el numeral es IV. Para no confundir la mayúscula con la minúscula, contá semitonos: de Fa a La hay cuatro, una tercera mayor; de Fa a Si hay tres, una tercera menor.",
+      "bodyEn": "The notation is read in both directions. From numeral to chord: if you are told IV in C major, count the fourth degree (F) and stack the scale's third and fifth (A and C), so the chord is F. From chord to numeral: if you are told F in C major, find which degree F is (the fourth) and check its quality (major), so the numeral is IV. To avoid mixing uppercase and lowercase, count semitones: from F to A there are four, a major third; from F to B there are three, a minor third."
+    },
+    {
+      "id": "sec.m5-02.demo",
+      "kind": "score",
+      "titleEs": "Progresión I-IV-V-I en Do mayor",
+      "titleEn": "The I-IV-V-I progression in C major",
+      "bodyEs": "Cuatro acordes en Do mayor, uno por compás: I (Do, Mi, Sol), IV (Fa, La, Do), V (Sol, Si, Re) y I (Do, Mi, Sol). Leé los numerals antes de tocar: el IV sube a la subdominante, el V prepara la vuelta y el I cierra. La misma progresión en Sol mayor es Sol-Do-Re-Sol y en Fa mayor es Fa-Si♭-Do-Fa.",
+      "bodyEn": "Four chords in C major, one per bar: I (C, E, G), IV (F, A, C), V (G, B, D) and I (C, E, G). Read the numerals before playing: IV moves to the subdominant, V prepares the return and I closes. The same progression in G major is G-C-D-G and in F major it is F-B♭-C-F.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "sec.m5-02.demo-i",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-02.demo-iv",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "F", "accidental": "", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-02.demo-v",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-02.demo-i-final",
+            "measure": 4,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-02.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios en ambos sentidos",
+      "titleEn": "Twelve exercises in both directions",
+      "bodyEs": "Los primeros seis ejercicios van de acorde a numeral: te dan la tonalidad y las notas del acorde y tenés que elegir el numeral romano correcto. Los últimos seis van de numeral a acorde: te dan la tonalidad y el numeral y tenés que elegir el cifrado del acorde. Fijate en la mayúscula o la minúscula y, ante la duda, contá semitonos desde la fundamental.",
+      "bodyEn": "The first six exercises go from chord to numeral: you are given the key and the chord's notes and must choose the correct Roman numeral. The last six go from numeral to chord: you are given the key and the numeral and must choose the chord's symbol. Watch the case and, when in doubt, count semitones from the root."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca I-IV-V-I en Do mayor",
+    "titleEn": "Play I-IV-V-I in C major",
+    "instructionsEs": "Tocá la progresión I-IV-V-I en Do mayor con la mano derecha a 60 BPM: Do mayor (Do, Mi, Sol), Fa mayor (Fa, La, Do), Sol mayor (Sol, Si, Re) y Do mayor. Empezá en bloque y después arpegio lento. Leé el numeral de cada acorde antes de tocarlo para conectar el cifrado con las teclas.",
+    "instructionsEn": "Play the I-IV-V-I progression in C major with your right hand at 60 BPM: C major (C, E, G), F major (F, A, C), G major (G, B, D) and C major. Start as a block and then play a slow arpeggio. Read each chord's numeral before playing it to connect the notation with the keys.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "", "octave": 3 },
+      { "step": "A", "accidental": "", "octave": 3 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 3 },
+      { "step": "B", "accidental": "", "octave": 3 },
+      { "step": "D", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: 1-3-5 para Do, 1-2-3 para Fa y 1-2-3 para Sol.",
+    "fingeringEn": "Right hand: 1-3-5 for C, 1-2-3 for F and 1-2-3 for G.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué los cuatro acordes en bloque, sin tensar la muñeca",
+      "Arpegío la progresión y volví a la tónica",
+      "Leí el numeral de cada acorde antes de tocarlo"
+    ],
+    "checklistEn": [
+      "I played the four chords as a block without tensing my wrist",
+      "I arpeggiated the progression and returned to the tonic",
+      "I read each chord's numeral before playing it"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m5-02.i",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-02.iv",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "F", "accidental": "", "octave": 3 },
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-02.v",
+          "measure": 3,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "", "octave": 3 },
+            { "step": "D", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-02.i-final",
+          "measure": 4,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

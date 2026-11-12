@@ -1,0 +1,2284 @@
+{
+  "id": "lesson.m6-03",
+  "moduleId": "M6",
+  "slug": "rondo-y-sonata",
+  "titleEs": "Rondó y sonata",
+  "titleEn": "Rondo and sonata",
+  "summaryEs": "El rondó con su estribillo que vuelve y la forma sonata con exposición, desarrollo y recapitulación, dos grandes formas de la música clásica.",
+  "summaryEn": "The rondo with its recurring refrain and sonata form with exposition, development and recapitulation, two major forms of classical music.",
+  "objectivesEs": [
+    "Reconocer el estribillo y los episodios de un rondó",
+    "Distinguir exposición, desarrollo y recapitulación en la forma sonata",
+    "Escuchar el regreso del material inicial y su función tonal"
+  ],
+  "objectivesEn": [
+    "Recognise the refrain and episodes of a rondo",
+    "Tell exposition, development and recapitulation apart in sonata form",
+    "Listen for the return of the opening material and its tonal function"
+  ],
+  "minutes": 18,
+  "prerequisites": [
+    "lesson.m6-02"
+  ],
+  "skillIds": [
+    "skill.rondo-sonata"
+  ],
+  "exerciseIds": [
+    "ex.m6-03.a",
+    "ex.m6-03.b",
+    "ex.m6-03.c",
+    "ex.m6-03.d",
+    "ex.m6-03.e",
+    "ex.m6-03.f",
+    "ex.m6-03.g",
+    "ex.m6-03.h",
+    "ex.m6-03.i",
+    "ex.m6-03.j",
+    "ex.m6-03.k",
+    "ex.m6-03.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m6-03.rondo",
+      "kind": "text",
+      "titleEs": "El rondó: un estribillo que vuelve",
+      "titleEn": "The rondo: a refrain that returns",
+      "bodyEs": "El rondó se organiza alrededor de un estribillo, la sección A que vuelve una y otra vez. Entre sus apariciones se intercalan episodios contrastantes, llamados B, C y así sucesivamente. El esquema básico es ABACA, y en obras más extensas puede llegar a ABACABA. Lo que define al rondó no es la cantidad de secciones, sino la alternancia constante entre el mismo estribillo y episodios siempre distintos. En «Para Elisa» de Beethoven el tema principal regresa entre los episodios, y el «Rondó alla turca» de Mozart es otro ejemplo de dominio público que se reconoce enseguida. Si después del contraste escuchás dos veces material nuevo sin que vuelva A, probablemente no sea un rondó.",
+      "bodyEn": "A rondo is built around a refrain, section A, which keeps coming back. Between its appearances come contrasting episodes, called B, C and so on. The basic scheme is ABACA, and in longer works it can reach ABACABA. What defines a rondo is not the number of sections but the constant alternation between the same refrain and ever-different episodes. In Beethoven’s “Für Elise” the main theme returns between the episodes, and Mozart’s “Rondo alla turca” is another public-domain example that is instantly recognisable. If after the contrast you hear new material twice without A coming back, it is probably not a rondo."
+    },
+    {
+      "id": "sec.m6-03.demo-rondo",
+      "kind": "score",
+      "titleEs": "Demo: rondó ABACA de quince compases",
+      "titleEn": "Demo: a fifteen-bar ABACA rondo",
+      "bodyEs": "El estribillo A (compases 1-3) presenta un motivo ascendente que cierra en Sol. El episodio B (4-6) desciende y reposa en Re; A vuelve en 7-9; el episodio C (10-12) sube hacia el registro agudo y A cierra la pieza en 13-15. Escuchá cómo el mismo estribillo suena idéntico cada vez: esa repetición literal es la señal más clara del rondó.",
+      "bodyEn": "The refrain A (bars 1-3) presents an ascending motive that closes on G. Episode B (4-6) descends and rests on D; A returns in 7-9; episode C (10-12) climbs into the upper register and A closes the piece in 13-15. Listen to how the same refrain sounds identical each time: that literal repetition is the clearest sign of a rondo.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 3,
+          "denominator": 4
+        },
+        "tempoBpm": 84,
+        "events": [
+          {
+            "id": "sec.m6-03.demo-rondo.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.4",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.5",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.6",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.7",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 1,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.8",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.9",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.10",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.11",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.12",
+            "measure": 5,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.13",
+            "measure": 5,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.14",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 1,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.15",
+            "measure": 7,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.16",
+            "measure": 7,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.17",
+            "measure": 7,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.18",
+            "measure": 8,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.19",
+            "measure": 8,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.20",
+            "measure": 8,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.21",
+            "measure": 9,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 1,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.22",
+            "measure": 10,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.23",
+            "measure": 10,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.24",
+            "measure": 10,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.25",
+            "measure": 11,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.26",
+            "measure": 11,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.27",
+            "measure": 11,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.28",
+            "measure": 12,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 1,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.29",
+            "measure": 13,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.30",
+            "measure": 13,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.31",
+            "measure": 13,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.32",
+            "measure": 14,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.33",
+            "measure": 14,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.34",
+            "measure": 14,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-rondo.35",
+            "measure": 15,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 1,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-03.sonata",
+      "kind": "text",
+      "titleEs": "La forma sonata: exposición, desarrollo y recapitulación",
+      "titleEn": "Sonata form: exposition, development and recapitulation",
+      "bodyEs": "La forma sonata organiza un movimiento en tres grandes momentos. La exposición presenta los temas: un primer tema en la tónica y un segundo tema que suele aparecer en la dominante (o en la relativa mayor), con un puente que conduce de uno a otro. El desarrollo toma motivos de la exposición, los transforma, los transporta y explora tonalidades lejanas; es la parte más inestable y la que crea la tensión. La recapitulación trae de vuelta los temas, pero ahora el segundo tema se resuelve en la tónica, y a menudo se cierra con una coda. El primer movimiento de la Sonata K. 545 de Mozart muestra este arco con total claridad y es un ejemplo de dominio público.",
+      "bodyEn": "Sonata form organises a movement in three large moments. The exposition presents the themes: a first theme in the tonic and a second theme that usually appears on the dominant (or the relative major), with a transition leading from one to the other. The development takes motives from the exposition, transforms them, transposes them and explores distant keys; it is the most unstable part and the one that creates tension. The recapitulation brings the themes back, but now the second theme resolves in the tonic, and it often closes with a coda. The first movement of Mozart’s Sonata K. 545 shows this arch with complete clarity and is a public-domain example."
+    },
+    {
+      "id": "sec.m6-03.demo-sonata",
+      "kind": "score",
+      "titleEs": "Demo: forma sonata en miniatura",
+      "titleEn": "Demo: sonata form in miniature",
+      "bodyEs": "La exposición (compases 1-4) presenta el primer tema en Do y un segundo gesto que cierra en Sol, la dominante. El desarrollo (5-8) toma el descenso inicial, lo combina con nuevas armonías y termina abierto en La. La recapitulación (9-12) repite la exposición, pero ahora el segundo gesto cierra en Do. Ese cambio de final, de la dominante a la tónica, es lo que resuelve el conflicto tonal y distingue la sonata de una simple forma ternaria.",
+      "bodyEn": "The exposition (bars 1-4) presents the first theme in C and a second gesture that closes on G, the dominant. The development (5-8) takes the opening descent, combines it with new harmonies and ends open on A. The recapitulation (9-12) repeats the exposition, but now the second gesture closes on C. That change of ending, from the dominant to the tonic, is what resolves the tonal conflict and sets sonata form apart from a simple ternary form.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 84,
+        "events": [
+          {
+            "id": "sec.m6-03.demo-sonata.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.6",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.7",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.8",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.9",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.10",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.11",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.12",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.13",
+            "measure": 5,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.14",
+            "measure": 5,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.15",
+            "measure": 5,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.16",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.17",
+            "measure": 6,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.18",
+            "measure": 6,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.19",
+            "measure": 6,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.20",
+            "measure": 7,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.21",
+            "measure": 7,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.22",
+            "measure": 7,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.23",
+            "measure": 7,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.24",
+            "measure": 8,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.25",
+            "measure": 9,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.26",
+            "measure": 9,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.27",
+            "measure": 9,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.28",
+            "measure": 9,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.29",
+            "measure": 10,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.30",
+            "measure": 10,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.31",
+            "measure": 11,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.32",
+            "measure": 11,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.33",
+            "measure": 11,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.34",
+            "measure": 11,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-03.demo-sonata.35",
+            "measure": 12,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-03.distinguir",
+      "kind": "text",
+      "titleEs": "Cómo distinguir rondó, sonata y ternaria",
+      "titleEn": "How to tell rondo, sonata and ternary apart",
+      "bodyEs": "Las tres formas hacen volver material inicial, pero por motivos distintos. En la ternaria simple hay un solo contraste y un solo regreso: ABA. En el rondó el estribillo vuelve al menos tres veces, separado por episodios diferentes: ABACA. En la sonata hay también un regreso, pero lo decisivo es la función tonal: una exposición que plantea dos temas y un segundo tema en la dominante, un desarrollo inestable y una recapitulación que resuelve ese segundo tema en la tónica. Para reconocerlas, seguí el material y preguntate cuántas veces vuelve y qué pasa con la tonalidad al final.",
+      "bodyEn": "All three forms bring opening material back, but for different reasons. In simple ternary form there is one contrast and one return: ABA. In a rondo the refrain returns at least three times, separated by different episodes: ABACA. In sonata form there is also a return, but the decisive thing is the tonal function: an exposition that sets out two themes with the second on the dominant, an unstable development and a recapitulation that resolves that second theme in the tonic. To recognise them, follow the material and ask yourself how many times it comes back and what happens to the key at the end."
+    },
+    {
+      "id": "sec.m6-03.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce melodías para reconocer rondó y sonata",
+      "titleEn": "Twelve melodies to recognise rondo and sonata",
+      "bodyEs": "Cada ejercicio muestra una melodía original y te pide identificar su forma entre cuatro opciones. Escuchala con el botón «Escuchar melodía completa» y seguí la partitura. Primero contá cuántas veces vuelve el material inicial: tres apariciones separadas por episodios distintos apuntan a un rondó. Después mirá la tonalidad: si el segundo tema queda en la dominante y la recapitulación lo resuelve en la tónica, es una forma sonata.",
+      "bodyEn": "Each exercise shows an original melody and asks you to identify its form among four options. Listen with the “Listen to the full melody” button and follow the score. First count how many times the opening material returns: three appearances separated by different episodes point to a rondo. Then look at the key: if the second theme stays on the dominant and the recapitulation resolves it in the tonic, it is sonata form."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tocá el rondó y marcá cada vuelta del estribillo",
+    "titleEn": "Play the rondo and mark each return of the refrain",
+    "instructionsEs": "Tocá la melodía completa de la demo de rondó con la mano derecha a 84 BPM. Antes de cada sección decí en voz alta «A», «B», «A», «C» y «A», siempre a tiempo. En los episodios B y C no cambies la posición de la mano más de lo necesario: el objetivo es que el regreso de A suene igual que la primera vez.",
+    "instructionsEn": "Play the complete melody from the rondo demo with your right hand at 84 BPM. Before each section say “A”, “B”, “A”, “C” and “A” out loud, always in time. In episodes B and C do not move your hand more than necessary: the goal is for the return of A to sound the same as the first time.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "Mano derecha: 1 para Do, 2 para Re, 3 para Mi, 4 para Fa y 5 para Sol. El estribillo usa 1-3-5, 3-2-1 y 5; los episodios se mantienen dentro de la misma posición para no perder el pulso.",
+    "fingeringEn": "Right hand: 1 for C, 2 for D, 3 for E, 4 for F and 5 for G. The refrain uses 1-3-5, 3-2-1 and 5; the episodes stay within the same position so as not to lose the pulse.",
+    "tempoBpm": 84,
+    "checklistEs": [
+      "Toqué el estribillo A y sus dos vueltas sin perder el pulso",
+      "Dije en voz alta «A», «B», «A», «C» y «A» en el lugar correcto",
+      "El regreso de A sonó igual que la primera aparición"
+    ],
+    "checklistEn": [
+      "I played refrain A and its two returns without losing the pulse",
+      "I said “A”, “B”, “A”, “C” and “A” out loud in the right place",
+      "The return of A sounded the same as its first appearance"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "tempoBpm": 84,
+      "events": [
+        {
+          "id": "sec.m6-03.demo-rondo.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.2",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.3",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.4",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.5",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.6",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.7",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.8",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.9",
+          "measure": 4,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.10",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.11",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.12",
+          "measure": 5,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.13",
+          "measure": 5,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.14",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.15",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.16",
+          "measure": 7,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.17",
+          "measure": 7,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.18",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.19",
+          "measure": 8,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.20",
+          "measure": 8,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.21",
+          "measure": 9,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.22",
+          "measure": 10,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.23",
+          "measure": 10,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.24",
+          "measure": 10,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.25",
+          "measure": 11,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.26",
+          "measure": 11,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.27",
+          "measure": 11,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.28",
+          "measure": 12,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.29",
+          "measure": 13,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.30",
+          "measure": 13,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.31",
+          "measure": 13,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.32",
+          "measure": 14,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.33",
+          "measure": 14,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.34",
+          "measure": 14,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-03.demo-rondo.35",
+          "measure": 15,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

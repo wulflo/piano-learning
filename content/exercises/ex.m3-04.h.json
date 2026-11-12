@@ -1,0 +1,75 @@
+{
+  "id": "ex.m3-04.h",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Mirá y escuchá el acorde de Re menor. ¿Qué intervalo hay entre la fundamental (Re4) y la tercera (Fa4)?",
+  "promptEn": "Look at and listen to the D minor chord. What interval is there between the root (D4) and the third (F4)?",
+  "explanationEs": "En la tríada menor, la fundamental y la tercera forman una tercera menor: tres semitonos. Esa tercera es la que distingue el acorde menor del mayor.",
+  "explanationEn": "In the minor triad, the root and the third form a minor third: three semitones. That third is what distinguishes the minor chord from the major one.",
+  "difficulty": 2,
+  "lower": {
+    "step": "D",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "F",
+    "accidental": "",
+    "octave": 4
+  },
+  "direction": "harmonic",
+  "fragment": {
+    "clef": "treble",
+    "key": "D",
+    "mode": "minor",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "frag.m3-04.h.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Tercera menor",
+    "Tercera mayor",
+    "Segunda mayor",
+    "Cuarta justa"
+  ],
+  "choicesEn": [
+    "Minor third",
+    "Major third",
+    "Major second",
+    "Perfect fourth"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ex.m7-02.i",
+  "skillId": "skill.arpeggio",
+  "type": "arpeggio",
+  "promptEs": "¿Qué digitación usa la mano derecha en este arpegio de Mi bemol mayor a dos octavas?",
+  "promptEn": "Which fingering does the right hand use in this two-octave E-flat major arpeggio?",
+  "explanationEs": "Mi bemol es una tónica negra y el arpegio ocupa dos octavas. Se toca 2-1-2-4-1-2-4: después de la primera octava el patrón interior 1-2-4 se repite y el anular cierra la segunda.",
+  "explanationEn": "E flat is a black-key tonic and the arpeggio spans two octaves. It uses 2-1-2-4-1-2-4: after the first octave the inner 1-2-4 pattern repeats and the ring finger closes the second.",
+  "difficulty": 3,
+  "tonic": "Eb",
+  "hand": "right",
+  "octaves": 2,
+  "ask": "fingering",
+  "choices": [
+    "2-1-2-4-1-2-4",
+    "1-2-3-1-2-3-5",
+    "2-1-2-4-1-2-3"
+  ],
+  "choicesEn": [
+    "2-1-2-4-1-2-4",
+    "1-2-3-1-2-3-5",
+    "2-1-2-4-1-2-3"
+  ]
+}

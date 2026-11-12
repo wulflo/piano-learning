@@ -1,0 +1,3523 @@
+{
+  "id": "lesson.m7-07",
+  "moduleId": "M7",
+  "slug": "walking-bass",
+  "titleEs": "Walking bass",
+  "titleEn": "Walking bass",
+  "summaryEs": "El walking bass: una línea de negras que camina por el acorde y las notas de paso, con swing básico y un ejemplo original para acompañar una melodía.",
+  "summaryEn": "The walking bass: a quarter-note line that walks through chord tones and passing tones, with a basic swing feel and an original example for accompanying a melody.",
+  "objectivesEs": [
+    "Construir una línea de walking bass con fundamental, notas del acorde y notas de paso",
+    "Sentir el swing básico sin perder la regularidad de las negras",
+    "Acompañar la progresión y la melodía del estudio sin tensión"
+  ],
+  "objectivesEn": [
+    "Build a walking bass line with root, chord tones and passing tones",
+    "Feel a basic swing without losing the steadiness of the quarter notes",
+    "Accompany the progression and melody of the study without tension"
+  ],
+  "minutes": 20,
+  "prerequisites": [
+    "lesson.m7-06"
+  ],
+  "skillIds": [
+    "skill.walking-bass"
+  ],
+  "exerciseIds": [
+    "ex.m7-07.a",
+    "ex.m7-07.b",
+    "ex.m7-07.c",
+    "ex.m7-07.d",
+    "ex.m7-07.e",
+    "ex.m7-07.f",
+    "ex.m7-07.g",
+    "ex.m7-07.h",
+    "ex.m7-07.i",
+    "ex.m7-07.j",
+    "ex.m7-07.k",
+    "ex.m7-07.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m7-07.que-es",
+      "kind": "text",
+      "titleEs": "Qué es un walking bass",
+      "titleEn": "What a walking bass is",
+      "bodyEs": "El walking bass es una línea de bajo que camina en negras, una nota por pulso. No es un acorde que se sostiene ni un arpegio que sube y baja: es una melodía grave que une un acorde con el siguiente y sostiene el pulso. Se usa en jazz, blues y en muchos arreglos populares, y también aparece en el clasicismo y en el rock. La mano izquierda toca las notas del acorde en los primeros pulsos y agrega una nota de paso en el último para preparar el compás siguiente. La línea se escucha como pasos regulares: de ahí su nombre. Si una nota llega tarde, toda la armonía se tambalea; por eso primero se estudia lenta y con el pulso muy claro.",
+      "bodyEn": "The walking bass is a bass line that walks in quarter notes, one note per beat. It is not a sustained chord or an arpeggio that goes up and down: it is a low melody that connects one chord to the next and holds the pulse. It is used in jazz, blues and many popular arrangements, and it also appears in Classical music and rock. The left hand plays chord tones on the first beats and adds a passing tone on the last beat to prepare the next measure. The line is heard as regular steps: hence its name. If one note arrives late, the whole harmony stumbles; that is why it is practised slowly first and with a very clear pulse."
+    },
+    {
+      "id": "sec.m7-07.como-se-construye",
+      "kind": "text",
+      "titleEs": "Notas del acorde y notas de paso",
+      "titleEn": "Chord tones and passing tones",
+      "bodyEs": "La receta básica tiene cuatro pasos: en el primer pulso, la fundamental del acorde; en el segundo y el tercero, notas del acorde (tercera, quinta o séptima); en el cuarto, una nota de paso que conduce al bajo del compás siguiente. La nota de paso puede ser diatónica (una nota de la escala) o cromática (a un semitono del destino). También puede ser una nota del acorde siguiente que todavía no pertenece al actual. Elegí la dirección según la comodidad de la mano: si el bajo siguiente está arriba, la nota de paso sube; si está abajo, baja. Evitá saltos grandes y repetir la misma nota en pulsos consecutivos. La línea no necesita ser complicada: cuatro notas bien elegidas suenan mejor que ocho notas apuradas.",
+      "bodyEn": "The basic recipe has four steps: on the first beat, the chord root; on the second and third, chord tones (third, fifth or seventh); on the fourth, a passing tone that leads to the next measure’s bass. The passing tone can be diatonic (a scale note) or chromatic (a semitone from the target). It can also be a note of the next chord that does not yet belong to the current one. Choose the direction for the comfort of the hand: if the next bass is above, the passing tone rises; if it is below, it falls. Avoid big leaps and repeating the same note on consecutive beats. The line does not need to be complicated: four well-chosen notes sound better than eight rushed ones."
+    },
+    {
+      "id": "sec.m7-07.swing",
+      "kind": "text",
+      "titleEs": "Swing básico",
+      "titleEn": "Basic swing",
+      "bodyEs": "En el jazz, el swing es una forma de sentir el pulso: las negras se mantienen regulares, pero la subdivisión no es exactamente igual y el acento se apoya en los pulsos 2 y 4. El walking bass se escribe en negras parejas y se toca con esa sensación de balanceo, sin correr. No hace falta exagerar: si el pulso se tambalea, el swing desaparece. Contá en voz alta 1-2-3-4 y sentí los pulsos 2 y 4 como el corazón del ritmo. Cuando la línea esté estable, probá una articulación más corta y liviana, sin golpear el bajo. Si la melodía de la derecha tiene corcheas, se tocan con la convención de swing (larga-corta), pero la mano izquierda sigue caminando en negras.",
+      "bodyEn": "In jazz, swing is a way of feeling the pulse: the quarter notes stay steady, but the subdivision is not exactly even and the accent leans on beats 2 and 4. The walking bass is written in even quarter notes and played with that rocking feel, without rushing. There is no need to exaggerate: if the pulse wobbles, the swing disappears. Count out loud 1-2-3-4 and feel beats 2 and 4 as the heart of the rhythm. Once the line is steady, try a shorter, lighter articulation without hitting the bass. If the right-hand melody has eighth notes, they are played with the swing convention (long-short), but the left hand keeps walking in quarter notes."
+    },
+    {
+      "id": "sec.m7-07.demo-progresion",
+      "kind": "score",
+      "titleEs": "Demo: walking sobre Do–La–Re–Sol",
+      "titleEn": "Demo: walking over C–A–D–G",
+      "bodyEs": "Cuatro compases en Do mayor con los acordes Do, La menor, Re menor y Sol. Escuchá cómo el primer pulso de cada compás afirma la fundamental y cómo el cuarto pulso prepara el compás siguiente con una nota de paso. La línea se mueve cerca de la posición de la mano, sin saltos innecesarios. Cantá la línea mientras la tocás: si podés cantarla, la podés recordar.",
+      "bodyEn": "Four measures in C major with the chords C, A minor, D minor and G. Listen to how the first beat of each measure states the root and how the fourth beat prepares the next measure with a passing tone. The line stays close to the hand position, without unnecessary leaps. Sing the line while you play it: if you can sing it, you can remember it.",
+      "score": {
+        "clef": "bass",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m7-07.demo-progresion.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Am"
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.9",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Dm"
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.10",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.11",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.12",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.13",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "G"
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.14",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.15",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-progresion.16",
+            "measure": 4,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-07.demo-blues",
+      "kind": "score",
+      "titleEs": "Demo: blues de 12 compases",
+      "titleEn": "Demo: 12-bar blues",
+      "bodyEs": "El blues de 12 compases es el terreno natural del walking bass. La armonía se mueve entre Do7, Fa7 y Sol7; la línea cambia de acorde y usa la nota de paso para entrar en el compás siguiente. Escuchá los cuatro primeros compases sobre Do7, el salto a Fa7 y la vuelta a casa. No hace falta tocar más notas: la gracia está en que cada negra tenga sentido y el pulso no se corte.",
+      "bodyEn": "The 12-bar blues is the natural home of the walking bass. The harmony moves between C7, F7 and G7; the line changes chord and uses the passing tone to enter the next measure. Listen to the first four measures on C7, the move to F7 and the return home. There is no need to play more notes: the point is that every quarter note has meaning and the pulse never breaks.",
+      "score": {
+        "clef": "bass",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m7-07.demo-blues.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C7"
+          },
+          {
+            "id": "sec.m7-07.demo-blues.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C7"
+          },
+          {
+            "id": "sec.m7-07.demo-blues.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.9",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C7"
+          },
+          {
+            "id": "sec.m7-07.demo-blues.10",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.11",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.12",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.13",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C7"
+          },
+          {
+            "id": "sec.m7-07.demo-blues.14",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.15",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.16",
+            "measure": 4,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.17",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "F7"
+          },
+          {
+            "id": "sec.m7-07.demo-blues.18",
+            "measure": 5,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.19",
+            "measure": 5,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.20",
+            "measure": 5,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.21",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "F7"
+          },
+          {
+            "id": "sec.m7-07.demo-blues.22",
+            "measure": 6,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.23",
+            "measure": 6,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.24",
+            "measure": 6,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.25",
+            "measure": 7,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C7"
+          },
+          {
+            "id": "sec.m7-07.demo-blues.26",
+            "measure": 7,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.27",
+            "measure": 7,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.28",
+            "measure": 7,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.29",
+            "measure": 8,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C7"
+          },
+          {
+            "id": "sec.m7-07.demo-blues.30",
+            "measure": 8,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.31",
+            "measure": 8,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.32",
+            "measure": 8,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.33",
+            "measure": 9,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "G7"
+          },
+          {
+            "id": "sec.m7-07.demo-blues.34",
+            "measure": 9,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.35",
+            "measure": 9,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.36",
+            "measure": 9,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.37",
+            "measure": 10,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "F7"
+          },
+          {
+            "id": "sec.m7-07.demo-blues.38",
+            "measure": 10,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.39",
+            "measure": 10,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.40",
+            "measure": 10,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.41",
+            "measure": 11,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C7"
+          },
+          {
+            "id": "sec.m7-07.demo-blues.42",
+            "measure": 11,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.43",
+            "measure": 11,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.44",
+            "measure": 11,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.45",
+            "measure": 12,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "G7"
+          },
+          {
+            "id": "sec.m7-07.demo-blues.46",
+            "measure": 12,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.47",
+            "measure": 12,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-blues.48",
+            "measure": 12,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-07.ejemplo",
+      "kind": "text",
+      "titleEs": "Un ejemplo original: Caminata en Do",
+      "titleEn": "An original example: Walk in C",
+      "bodyEs": "Caminata en Do es una pieza original de ocho compases. La mano izquierda camina sobre Do–La menor–Re menor–Sol–Do–Fa–Sol–Do y la derecha lleva una melodía en blancas y redondas. La línea del bajo empieza en la fundamental de cada acorde y termina cada compás con una nota de paso; la melodía respira en valores largos y deja escuchar el movimiento de la izquierda. Estudiá primero la mano izquierda sola, después la melodía sola y uní las manos de a un compás. Si la melodía pierde el fraseo, volvé a tocarla sola antes de sumar el bajo.",
+      "bodyEn": "Walk in C is an original eight-measure piece. The left hand walks over C–A minor–D minor–G–C–F–G–C and the right hand carries a melody in half and whole notes. The bass line starts on each chord root and ends every measure with a passing tone; the melody breathes in long values and lets the left hand’s motion be heard. Practise the left hand alone first, then the melody alone and join the hands one measure at a time. If the melody loses its phrasing, play it alone again before adding the bass."
+    },
+    {
+      "id": "sec.m7-07.demo-estudio",
+      "kind": "score",
+      "titleEs": "Demo: Caminata en Do",
+      "titleEn": "Demo: Walk in C",
+      "bodyEs": "El ejemplo original completo a 60 BPM. La izquierda camina en negras y la derecha frasea por encima. Escuchá cómo el bajo sostiene la armonía sin tapar la melodía y cómo cada compás desemboca en el siguiente. En la tarea vas a tocar primero cada mano, después las dos juntas y recién entonces vas a subir el tempo.",
+      "bodyEn": "The complete original example at 60 BPM. The left hand walks in quarter notes and the right phrases above it. Listen to how the bass supports the harmony without covering the melody and how each measure flows into the next. In the task you will play each hand first, then both together, and only then raise the tempo.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "sec.m7-07.demo-estudio.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Am"
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.9",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Dm"
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.10",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.11",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.12",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.13",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "G"
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.14",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.15",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.16",
+            "measure": 4,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.17",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.18",
+            "measure": 5,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.19",
+            "measure": 5,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.20",
+            "measure": 5,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.21",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "F"
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.22",
+            "measure": 6,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.23",
+            "measure": 6,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.24",
+            "measure": 6,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.25",
+            "measure": 7,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "G"
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.26",
+            "measure": 7,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.27",
+            "measure": 7,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.28",
+            "measure": 7,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.29",
+            "measure": 8,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.30",
+            "measure": 8,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.31",
+            "measure": 8,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.32",
+            "measure": 8,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "#",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right2",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right3",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right4",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right5",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right6",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right7",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right8",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right9",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right10",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right11",
+            "measure": 6,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right12",
+            "measure": 7,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right13",
+            "measure": 7,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-07.demo-estudio.right14",
+            "measure": 8,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-07.estudio",
+      "kind": "text",
+      "titleEs": "Cómo estudiar el walking bass sin tensión",
+      "titleEn": "How to practise the walking bass without tension",
+      "bodyEs": "Empezá a 60 BPM con el metrónomo en cada pulso. Tocá la mano izquierda sola con la línea de Do–La–Re–Sol y contá en voz alta; buscá que las cuatro negras suenen parejas y que la nota de paso llegue sin apuro. Después caminá el blues de 12 compases y cantá la línea. Estudiá la melodía de Caminata en Do sola, con su fraseo, y uní las manos de a un compás. Subí a 66 y 72 BPM solo si el pulso y la línea siguen estables. Si aparece dolor, tensión o cansancio en manos, muñecas o brazos, pará, bajá el tempo o tocá una sola mano. El walking bass se sostiene con el oído y el pulso, no con la fuerza.",
+      "bodyEn": "Start at 60 BPM with the metronome on every beat. Play the left hand alone with the C–A–D–G line and count out loud; aim for four even quarter notes and a passing tone that arrives without rushing. Then walk the 12-bar blues and sing the line. Practise the Walk in C melody alone, with its phrasing, and join the hands one measure at a time. Raise to 66 and 72 BPM only if the pulse and the line stay steady. If pain, tension or fatigue appears in your hands, wrists or arms, stop, slow down or play with one hand only. The walking bass is held by the ear and the pulse, not by force."
+    },
+    {
+      "id": "sec.m7-07.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Leer la línea y reconocer las notas de paso",
+      "titleEn": "Reading the line and recognising passing tones",
+      "bodyEs": "Los ejercicios muestran cuatro compases de walking bass en las doce tonalidades mayores. Unos preguntan qué nota suena en un pulso; otros piden decidir si esa nota pertenece al acorde o es una nota de paso. Antes de responder, mirá el cifrado del compás, contá los pulsos y leé la línea de izquierda a derecha, sin pensarla como un acorde en bloque.",
+      "bodyEn": "The exercises show four measures of walking bass in all twelve major keys. Some ask which note sounds on a beat; others ask you to decide whether that note belongs to the chord or is a passing tone. Before answering, look at the chord symbol, count the beats and read the line from left to right, not as a block chord."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Caminata en Do: walking bass y melodía",
+    "titleEn": "Walk in C: walking bass and melody",
+    "instructionsEs": "Poné el metrónomo a 60 BPM. Tocá la mano izquierda sola con el walking bass de Caminata en Do (Do–La menor–Re menor–Sol–Do–Fa–Sol–Do) durante los ocho compases, buscando cuatro negras parejas por compás y una nota de paso limpia en el cuarto pulso. Después tocá sola la melodía de la derecha y cantá su fraseo. Uní las manos de a un compás y ampliá de a uno cuando el pulso quede estable. Cuando la línea camine sin cortes, probá el balanceo del swing apoyando los pulsos 2 y 4. Subí a 66 y a 72 BPM solo si el bajo y la melodía siguen juntos; si aparece dolor, tensión o cansancio, pará o bajá el tempo.",
+    "instructionsEn": "Set the metronome to 60 BPM. Play the left hand alone with the Walk in C walking bass (C–A minor–D minor–G–C–F–G–C) for all eight measures, aiming for four even quarter notes per measure and a clean passing tone on the fourth beat. Then play the right-hand melody alone and sing its phrasing. Join the hands one measure at a time and expand one measure at a time once the pulse is steady. When the line walks without breaks, try the swing feel by leaning on beats 2 and 4. Raise to 66 and 72 BPM only if the bass and melody stay together; if pain, tension or fatigue appears, stop or slow down.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "Mano izquierda: 5 para la fundamental, 3 para la tercera, 2 para la quinta y 1 para la nota de paso cuando queda cerca. En Do: 5-3-2-1 sobre Do3–Mi3–Sol3–Si2. Ajustá la digitación para mantener la mano cerca de las teclas y evitar saltos grandes. Mano derecha: digitación natural de la melodía, sin estirar.",
+    "fingeringEn": "Left hand: 5 for the root, 3 for the third, 2 for the fifth and 1 for the passing tone when it is nearby. In C: 5-3-2-1 on C3–E3–G3–B2. Adjust the fingering to keep the hand close to the keys and avoid big leaps. Right hand: natural melody fingering, without stretching.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué la línea de walking bass a 60 BPM con cuatro negras parejas por compás",
+      "Toqué la melodía de la derecha sola y canté su fraseo",
+      "Uní las manos de a un compás sin perder el pulso",
+      "Probé el balanceo del swing apoyando los pulsos 2 y 4",
+      "Subí a 66 y 72 BPM solo cuando la línea quedó estable",
+      "Paré o bajé el tempo si apareció dolor, tensión o cansancio"
+    ],
+    "checklistEn": [
+      "I played the walking bass line at 60 BPM with four even quarter notes per measure",
+      "I played the right-hand melody alone and sang its phrasing",
+      "I joined the hands one measure at a time without losing the pulse",
+      "I tried the swing feel by leaning on beats 2 and 4",
+      "I raised the tempo to 66 and 72 BPM only once the line was steady",
+      "I stopped or slowed down if pain, tension or fatigue appeared"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "sec.m7-07.demo-estudio.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "C"
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.2",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.3",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "#",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.5",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "Am"
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.6",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.7",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.8",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "#",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.9",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "Dm"
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.10",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.11",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.12",
+          "measure": 3,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "#",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.13",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "G"
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.14",
+          "measure": 4,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.15",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.16",
+          "measure": 4,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "#",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.17",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "C"
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.18",
+          "measure": 5,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.19",
+          "measure": 5,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.20",
+          "measure": 5,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.21",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "F"
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.22",
+          "measure": 6,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.23",
+          "measure": 6,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.24",
+          "measure": 6,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "#",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.25",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "G"
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.26",
+          "measure": 7,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.27",
+          "measure": 7,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.28",
+          "measure": 7,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "#",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.29",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "C"
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.30",
+          "measure": 8,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.31",
+          "measure": 8,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.32",
+          "measure": 8,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "#",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right2",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right3",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right4",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right5",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right6",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right7",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right8",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right9",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right10",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right11",
+          "measure": 6,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right12",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right13",
+          "measure": 7,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-07.demo-estudio.right14",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ex.m7-02.e",
+  "skillId": "skill.arpeggio",
+  "type": "arpeggio",
+  "promptEs": "¿Qué notas forman este arpegio de La mayor?",
+  "promptEn": "Which notes make up this A major arpeggio?",
+  "explanationEs": "La mayor usa La-Do♯-Mi. El arpegio La4-Do♯5-Mi5-La5 se toca 1-2-3-5 y la tercera debe ser Do sostenido, no Re ni Do natural.",
+  "explanationEn": "A major uses A-C♯-E. The A4-C♯5-E5-A5 arpeggio uses 1-2-3-5, and the third must be C sharp, not D or C natural.",
+  "difficulty": 2,
+  "tonic": "A",
+  "hand": "right",
+  "octaves": 1,
+  "ask": "notes",
+  "choices": [
+    "La4 Do♯5 Mi5 La5",
+    "La4 Re5 Mi5 La5",
+    "La4 Do5 Mi5 La5"
+  ],
+  "choicesEn": [
+    "A4 C#5 E5 A5",
+    "A4 D5 E5 A5",
+    "A4 C5 E5 A5"
+  ]
+}

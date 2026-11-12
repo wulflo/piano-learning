@@ -1,0 +1,122 @@
+{
+  "id": "ex.m7-09.f",
+  "skillId": "skill.sight-reading",
+  "type": "sight-reading",
+  "promptEs": "¿Qué intervalo hay entre la primera y la tercera nota del fragmento?",
+  "promptEn": "What interval is between the first and third note of the fragment?",
+  "explanationEs": "La primera nota es Si4 y la tercera es Mi5. El intervalo es cuarta justa (5 semitonos): contá las líneas y los espacios que separan las dos notas y después ajustá la distancia real.",
+  "explanationEn": "The first note is B4 and the third is E5. The interval is perfect fourth (5 semitones): count the lines and spaces between the two notes and then check the actual distance.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "B",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m7-09.f.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-09.f.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "#",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-09.f.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-09.f.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "#",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "ask": "interval",
+  "from": 0,
+  "to": 2,
+  "choices": [
+    "cuarta justa",
+    "cuarta aumentada",
+    "tercera mayor",
+    "quinta justa"
+  ],
+  "choicesEn": [
+    "perfect fourth",
+    "augmented fourth",
+    "major third",
+    "minor third"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ex.m3-04.g",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Mirá y escuchá el acorde de Do mayor. ¿Qué intervalo hay entre la fundamental (Do4) y la quinta (Sol4)?",
+  "promptEn": "Look at and listen to the C major chord. What interval is there between the root (C4) and the fifth (G4)?",
+  "explanationEs": "La tríada mayor apila una tercera mayor (Do-Mi) y una quinta justa (Do-Sol). La quinta es el intervalo que da estabilidad al acorde.",
+  "explanationEn": "The major triad stacks a major third (C-E) and a perfect fifth (C-G). The fifth is the interval that gives the chord its stability.",
+  "difficulty": 2,
+  "lower": {
+    "step": "C",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "G",
+    "accidental": "",
+    "octave": 4
+  },
+  "direction": "harmonic",
+  "fragment": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "frag.m3-04.g.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Quinta justa",
+    "Quinta disminuida",
+    "Cuarta justa",
+    "Sexta mayor"
+  ],
+  "choicesEn": [
+    "Perfect fifth",
+    "Diminished fifth",
+    "Perfect fourth",
+    "Major sixth"
+  ]
+}

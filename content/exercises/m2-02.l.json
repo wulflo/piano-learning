@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-02.l",
+  "skillId": "skill.key-signature",
+  "type": "key-signature",
+  "promptEs": "¿Cuántas notas alteradas tiene la armadura de Re bemol mayor?",
+  "explanationEs": "La escala de Re bemol mayor baja cinco notas con bemol: Si bemol, Mi bemol, La bemol, Re bemol y Sol bemol.",
+  "difficulty": 3,
+  "key": "Db",
+  "mode": "major",
+  "choices": [
+    "5 bemoles",
+    "4 bemoles",
+    "Sin alteraciones"
+  ],
+  "promptEn": "How many altered notes does the key signature of D flat major have?",
+  "explanationEn": "The D flat major scale lowers five notes with flats: B flat, E flat, A flat, D flat and G flat.",
+  "choicesEn": [
+    "5 flats",
+    "4 flats",
+    "No accidentals"
+  ]
+}

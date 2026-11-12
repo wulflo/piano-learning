@@ -1,0 +1,447 @@
+{
+  "id": "ex.m6-02.l",
+  "skillId": "skill.musical-form",
+  "type": "form-analysis",
+  "promptEs": "¿Qué función cumple la frase 2 de este período?",
+  "promptEn": "What role does phrase 2 of this period play?",
+  "explanationEs": "La segunda frase es el consecuente: responde al antecedente y cierra la idea con una cadencia auténtica en Do. El antecedente anterior había quedado abierto, así que esta frase es la que completa el período.",
+  "explanationEn": "The second phrase is the consequent: it answers the antecedent and closes the idea with an authentic cadence in C. The earlier antecedent had been left open, so this phrase is the one that completes the period.",
+  "difficulty": 1,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 3,
+      "denominator": 4
+    },
+    "tempoBpm": 88,
+    "events": [
+      {
+        "id": "ex.m6-02.l.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.4",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.5",
+        "measure": 2,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.6",
+        "measure": 2,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.7",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.8",
+        "measure": 3,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.9",
+        "measure": 3,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.10",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 1,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.11",
+        "measure": 5,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.12",
+        "measure": 5,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.13",
+        "measure": 5,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.14",
+        "measure": 6,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.15",
+        "measure": 6,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.16",
+        "measure": 6,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.17",
+        "measure": 7,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.18",
+        "measure": 7,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.19",
+        "measure": 7,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-02.l.20",
+        "measure": 8,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 1,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "seccion-1",
+      "label": "A",
+      "startMeasure": 1,
+      "endMeasure": 4
+    },
+    {
+      "id": "seccion-2",
+      "label": "B",
+      "startMeasure": 5,
+      "endMeasure": 8
+    }
+  ],
+  "form": "period",
+  "ask": "part",
+  "part": 2,
+  "choices": [
+    "Antecedente",
+    "Consecuente"
+  ],
+  "choicesEn": [
+    "Antecedent",
+    "Consequent"
+  ]
+}

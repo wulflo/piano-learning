@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-01.o",
+  "skillId": "skill.key-signature",
+  "type": "key-signature",
+  "promptEs": "¿Cuántas notas alteradas tiene la armadura de Fa sostenido mayor?",
+  "explanationEs": "La escala de Fa sostenido mayor pide seis sostenidos, porque el patrón T-T-S-T-T-T-S exige alteraciones en cada tono entero.",
+  "difficulty": 3,
+  "key": "F#",
+  "mode": "major",
+  "choices": [
+    "6 sostenidos",
+    "5 sostenidos",
+    "7 sostenidos"
+  ],
+  "promptEn": "How many altered notes does the key signature of F sharp major have?",
+  "explanationEn": "The F sharp major scale needs six sharps, because the W-W-H-W-W-W-H pattern requires accidentals on every whole step.",
+  "choicesEn": [
+    "6 sharps",
+    "5 sharps",
+    "7 sharps"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-04.l",
+  "skillId": "skill.cadence",
+  "type": "cadence",
+  "promptEs": "En Si menor, ¿qué cadencia forman los acordes Fa♯ (Fa♯, La♯, Do♯) y Sol (Sol, Si, Re)?",
+  "promptEn": "In B minor, what cadence do the chords F♯ (F♯, A♯, C♯) and G (G, B, D) form?",
+  "explanationEs": "La cadencia rota va de V a VI: Fa♯ resuelve en Sol en lugar de Si menor. La sensible La♯ esperaba Si, pero la frase se desvía al sexto grado.",
+  "explanationEn": "The deceptive cadence goes from V to VI: F♯ resolves to G instead of B minor. The leading tone A♯ expected B, but the phrase swerves to the sixth degree.",
+  "difficulty": 3,
+  "key": "B",
+  "mode": "minor",
+  "fromDegree": 5,
+  "toDegree": 6,
+  "choices": [
+    "Rota (V-vi)",
+    "Auténtica (V-I)",
+    "Semicadencia (…-V)",
+    "Plagal (IV-I)"
+  ],
+  "choicesEn": [
+    "Deceptive (V-vi)",
+    "Authentic (V-I)",
+    "Half cadence (…-V)",
+    "Plagal (IV-I)"
+  ]
+}

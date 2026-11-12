@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-08.b",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de Do menor dórico?",
+  "promptEn": "How do you spell the C Dorian scale?",
+  "explanationEs": "Do menor dórico se deletrea C D Eb F G A Bb C con el patrón menor y la sexta mantenida.",
+  "explanationEn": "C Dorian is spelled C D Eb F G A Bb C with the minor pattern and the major sixth.",
+  "difficulty": 2,
+  "tonic": "C",
+  "mode": "dorian",
+  "choices": [
+    "C D Eb F G A Bb C",
+    "C D E F G A B C",
+    "C D Eb F G A B C"
+  ],
+  "choicesEn": [
+    "C D Eb F G A Bb C",
+    "C D E F G A B C",
+    "C D Eb F G A B C"
+  ]
+}

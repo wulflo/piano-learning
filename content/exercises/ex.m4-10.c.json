@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-10.c",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "El acorde formado por Re, Fa, La y Do, ¿qué calidad tiene?",
+  "promptEn": "The chord made of D, F, A and C, what quality does it have?",
+  "explanationEs": "Re-Fa es tercera menor, Re-La quinta justa y Re-Do séptima menor: es un Rem7. La tercera menor le da el color oscuro y la séptima menor agrega una tensión suave.",
+  "explanationEn": "D-F is a minor third, D-A a perfect fifth and D-C a minor seventh: it is a Dm7. The minor third gives it the dark color and the minor seventh adds a soft tension.",
+  "difficulty": 1,
+  "root": { "step": "D", "accidental": "", "octave": 4 },
+  "quality": "minor7",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["séptima menor", "séptima semidisminuida", "séptima mayor", "séptima de dominante"],
+  "choicesEn": ["minor seventh", "half-diminished seventh", "major seventh", "dominant seventh"]
+}

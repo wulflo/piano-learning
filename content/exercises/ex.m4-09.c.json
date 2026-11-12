@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-09.c",
+  "skillId": "skill.chord-symbol",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Mi♭aug de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of an E♭aug chord from low to high, separated by spaces.",
+  "explanationEs": "Mi♭aug es una tríada aumentada: 1-3-♯5, Mi♭-Sol-Si. La quinta sube un semitono respecto de la quinta justa Si♭. En cifrado americano se escribe E♭aug.",
+  "explanationEn": "E♭aug is an augmented triad: 1-3-♯5, E♭-G-B. The fifth rises a semitone above the perfect fifth B♭. In Latin notation it is written Mi♭aug.",
+  "difficulty": 2,
+  "root": { "step": "E", "accidental": "b", "octave": 4 },
+  "quality": "augmented",
+  "inversion": 0,
+  "ask": "notes"
+}

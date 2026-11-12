@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-05.j",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Mi♭ maj9 (novena mayor) de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of an Ebmaj9 (major ninth) from low to high, separated by spaces.",
+  "explanationEs": "Mi♭ maj9 es 1-3-5-7-9: Mi♭, Sol, Si♭, Re y Fa. La tercera Sol es mayor, la quinta Si♭ justa, la séptima Re mayor y la novena Fa, 14 semitonos arriba de Mi♭. En la práctica se omite Si♭.",
+  "explanationEn": "Ebmaj9 is 1-3-5-7-9: Eb, G, Bb, D and F. The third G is major, the fifth Bb perfect, the seventh D major and the ninth F, 14 semitones above Eb. In practice Bb is omitted.",
+  "difficulty": 3,
+  "root": { "step": "E", "accidental": "b", "octave": 4 },
+  "quality": "major9",
+  "inversion": 0,
+  "ask": "notes"
+}

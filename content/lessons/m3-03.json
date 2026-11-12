@@ -1,0 +1,341 @@
+{
+  "id": "lesson.m3-03",
+  "moduleId": "M3",
+  "slug": "consonancia-y-disonancia",
+  "titleEs": "Consonancia y disonancia",
+  "titleEn": "Consonance and dissonance",
+  "summaryEs": "Cómo distinguir estabilidad y tensión en los intervalos sin reducir la música a una etiqueta de bueno o malo.",
+  "summaryEn": "How to tell stability and tension apart in intervals without reducing music to a good-or-bad label.",
+  "objectivesEs": [
+    "Reconocer consonancias perfectas, consonancias imperfectas y disonancias",
+    "Explicar por qué la cuarta justa depende del contexto y de la voz inferior",
+    "Clasificar intervalos armónicos de oído con categorías matizadas"
+  ],
+  "objectivesEn": [
+    "Recognise perfect consonances, imperfect consonances and dissonances",
+    "Explain why the perfect fourth depends on context and on the lowest voice",
+    "Classify harmonic intervals by ear with nuanced categories"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m3-02"
+  ],
+  "skillIds": [
+    "skill.interval-quality"
+  ],
+  "exerciseIds": [
+    "ex.m3-03.a",
+    "ex.m3-03.b",
+    "ex.m3-03.c",
+    "ex.m3-03.d",
+    "ex.m3-03.e",
+    "ex.m3-03.f",
+    "ex.m3-03.g",
+    "ex.m3-03.h",
+    "ex.m3-03.i",
+    "ex.m3-03.j",
+    "ex.m3-03.k",
+    "ex.m3-03.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m3-03.intro",
+      "kind": "text",
+      "titleEs": "No es blanco o negro",
+      "titleEn": "Not black and white",
+      "bodyEs": "Consonancia y disonancia describen cómo se percibe un intervalo: estabilidad y fusión frente a tensión y aspereza. No son juicios de valor ni etiquetas absolutas. Una disonancia no es un error: es una fuerza que pide movimiento y resolución. Una consonancia tampoco es siempre «mejor»: puede sonar vacía o estática. La percepción cambia con la cultura, el estilo y el contexto, así que conviene hablar de grados y funciones más que de notas correctas o incorrectas.",
+      "bodyEn": "Consonance and dissonance describe how an interval is perceived: stability and blending versus tension and roughness. They are neither value judgments nor absolute labels. A dissonance is not a mistake: it is a force that asks for motion and resolution. A consonance is not always «better» either: it can sound empty or static. Perception changes with culture, style and context, so it is better to talk about degrees and functions than about correct or incorrect notes."
+    },
+    {
+      "id": "sec.m3-03.familias",
+      "kind": "text",
+      "titleEs": "Tres familias y un caso aparte",
+      "titleEn": "Three families and a special case",
+      "bodyEs": "En la armonía tonal se usan tres familias. Las consonancias perfectas son el unísono, la quinta y la octava justas: suenan estables y fusionadas. Las consonancias imperfectas son las terceras y las sextas, mayores o menores: suenan plenas y estables, pero con más color. Las disonancias son las segundas, las séptimas y el tritono, es decir, la cuarta aumentada o la quinta disminuida: crean tensión y normalmente se resuelven. La cuarta justa es el caso aparte: entre voces superiores puede funcionar como consonancia, pero sobre el bajo se trata como disonancia en la tradición tonal.",
+      "bodyEn": "Tonal harmony uses three families. Perfect consonances are the perfect unison, fifth and octave: they sound stable and blended. Imperfect consonances are major and minor thirds and sixths: they sound full and stable, but with more colour. Dissonances are seconds, sevenths and the tritone, that is, the augmented fourth or the diminished fifth: they create tension and usually resolve. The perfect fourth is the special case: between upper voices it can work as a consonance, but above the bass it is treated as a dissonance in the tonal tradition."
+    },
+    {
+      "id": "sec.m3-03.contexto",
+      "kind": "text",
+      "titleEs": "La misma cuarta, dos funciones",
+      "titleEn": "The same fourth, two functions",
+      "bodyEs": "La clasificación no se decide solo contando semitonos. Una séptima menor puede ser una disonancia que resuelve en una cadencia o un color estable en blues y jazz. Una cuarta justa sobre el bajo suena tensa porque el bajo define el intervalo; la misma cuarta entre dos voces superiores se integra al acorde. El registro, la instrumentación y el estilo también cambian la percepción. Por eso los ejercicios no preguntan si un intervalo es bueno o malo, sino qué categoría describe mejor su función en el contexto tonal.",
+      "bodyEn": "Classification is not decided by counting semitones alone. A minor seventh can be a dissonance that resolves in a cadence or a stable colour in blues and jazz. A perfect fourth above the bass sounds tense because the bass defines the interval; the same fourth between two upper voices blends into the chord. Register, instrumentation and style also change perception. That is why the exercises do not ask whether an interval is good or bad, but which category best describes its function in tonal context."
+    },
+    {
+      "id": "sec.m3-03.demo",
+      "kind": "score",
+      "titleEs": "Escuchá la tensión y el reposo",
+      "titleEn": "Hear tension and rest",
+      "bodyEs": "Escuchá y mirá ocho intervalos armónicos desde Do. Primero una quinta justa y una tercera mayor, estables; después una sexta mayor y una cuarta justa, que según el contexto puede integrarse o tensionar; al final una segunda mayor, una séptima mayor, una séptima menor y una cuarta aumentada, que crean tensión. Fijate en que la disonancia no suena «mal»: suena con una dirección.",
+      "bodyEn": "Listen to and look at eight harmonic intervals from C. First a perfect fifth and a major third, stable; then a major sixth and a perfect fourth, which may blend or create tension depending on context; finally a major second, a major seventh, a minor seventh and an augmented fourth, which create tension. Notice that dissonance does not sound «bad»: it sounds with a direction.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "score.m3-03.perf5",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-03.maj3",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-03.maj6",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "A", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 81,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-03.perf4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 81,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-03.maj2",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "D", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-03.maj7",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 83,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-03.min7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 83,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-03.aug4",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "#", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 84,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m3-03.exercises",
+      "kind": "exercise",
+      "titleEs": "Clasificar de oído",
+      "titleEn": "Classify by ear",
+      "bodyEs": "Cada ejercicio reproduce un intervalo armónico y te pide clasificarlo. Escuchá primero sin mirar las opciones y después comprobá con la explicación. Las categorías son consonancia perfecta, consonancia imperfecta, disonancia y depende del contexto. No hay una opción «correcta» por belleza: la respuesta describe la función tonal del intervalo.",
+      "bodyEn": "Each exercise plays a harmonic interval and asks you to classify it. Listen first without looking at the options and then check with the explanation. The categories are perfect consonance, imperfect consonance, dissonance and depends on context. No option is «correct» because of beauty: the answer describes the interval's tonal function."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Compará reposo y tensión",
+    "titleEn": "Compare rest and tension",
+    "instructionsEs": "Con la mano derecha, tocá Do4-Sol4 (quinta justa) y después Do4-Fa♯4 (cuarta aumentada). Repetí el par y agregá Do4-Mi4 (tercera mayor) con Do4-Re4 (segunda mayor) a 60 BPM. Escuchá la tensión de la cuarta aumentada frente al reposo de la quinta.",
+    "instructionsEn": "With your right hand, play C4-G4 (perfect fifth) and then C4-F♯4 (augmented fourth). Repeat the pair and add C4-E4 (major third) with C4-D4 (major second) at 60 BPM. Listen to the tension of the augmented fourth against the rest of the fifth.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "#", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: pulgar en Do y dedo 5 en Sol; pulgar en Do y dedo 4 en Fa♯. Después pulgar en Do y dedo 3 en Mi; pulgar en Do y dedo 2 en Re.",
+    "fingeringEn": "Right hand: thumb on C and finger 5 on G; thumb on C and finger 4 on F♯. Then thumb on C and finger 3 on E; thumb on C and finger 2 on D.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué Do-Sol y Do-Fa♯ y noté la diferencia entre reposo y tensión",
+      "Toqué Do-Mi y Do-Re y comparé una consonancia con una disonancia",
+      "Mantuve la mano relajada y el tempo estable en los cuatro intervalos"
+    ],
+    "checklistEn": [
+      "I played C-G and C-F♯ and noticed the difference between rest and tension",
+      "I played C-E and C-D and compared a consonance with a dissonance",
+      "I kept my hand relaxed and the tempo steady in all four intervals"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m3-03.perf5",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-03.aug4",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "F", "accidental": "#", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-03.maj3",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 81,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-03.maj2",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "D", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 83,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

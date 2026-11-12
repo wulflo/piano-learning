@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-01.b",
+  "skillId": "skill.diatonic-chords",
+  "type": "chord",
+  "promptEs": "En Re mayor, ¿qué cifrado tiene la tríada diatónica del grado ii?",
+  "promptEn": "In D major, what is the symbol of the diatonic triad on degree ii?",
+  "explanationEs": "En Re mayor, el grado ii se construye sobre Mi: Mi-Sol-Si. La tercera Mi-Sol es menor y la quinta Mi-Si es justa, así que la tríada es menor y se cifra Mim.",
+  "explanationEn": "In D major, degree ii is built on E: E-G-B. The third E-G is minor and the fifth E-B is perfect, so the triad is minor and its symbol is Em.",
+  "difficulty": 1,
+  "root": {
+    "step": "E",
+    "accidental": "",
+    "octave": 4
+  },
+  "quality": "minor",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Mi",
+    "Mim",
+    "Mim7",
+    "Mi7"
+  ],
+  "choicesEn": [
+    "E",
+    "Em",
+    "Em7",
+    "E7"
+  ]
+}

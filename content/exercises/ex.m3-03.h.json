@@ -1,0 +1,17 @@
+{
+  "id": "ex.m3-03.h",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Escuchá el intervalo armónico y clasificalo según su función en la armonía tonal.",
+  "promptEn": "Listen to the harmonic interval and classify it by its function in tonal harmony.",
+  "explanationEs": "Sol4-La4 es una segunda mayor. Las segundas chocan por cercanía y se clasifican como disonancia, aunque en una melodía pueden ser un paso expresivo.",
+  "explanationEn": "G4-A4 is a major second. Seconds clash because of their closeness and are classified as a dissonance, although in a melody they can be an expressive step.",
+  "difficulty": 2,
+  "lower": { "step": "G", "accidental": "", "octave": 4 },
+  "upper": { "step": "A", "accidental": "", "octave": 4 },
+  "direction": "harmonic",
+  "answer": "Disonancia",
+  "answerEn": "Dissonance",
+  "choices": ["Depende del contexto", "Consonancia perfecta", "Consonancia imperfecta", "Disonancia"],
+  "choicesEn": ["Depends on context", "Perfect consonance", "Imperfect consonance", "Dissonance"]
+}

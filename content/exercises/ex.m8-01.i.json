@@ -1,0 +1,250 @@
+{
+  "id": "ex.m8-01.i",
+  "skillId": "skill.pop-rock",
+  "type": "style-pattern",
+  "promptEs": "Pop/rock en C mayor. ¿Qué cifrado lleva el compás 2?",
+  "promptEn": "Pop/rock in C major. Which symbol is written above bar 2?",
+  "explanationEs": "La respuesta correcta es «G». El compás 2 lleva el cifrado G, que en Do mayor es el grado V. La mano izquierda toca Sol3 y la derecha el acorde Sol–Si–Re. Leer el cifrado del compás es el primer paso para acompañar sin escribir todas las notas.",
+  "explanationEn": "The correct answer is “G”. Bar 2 carries the symbol G, which is degree V in C major. The left hand plays G3 and the right hand the G–B–D chord. Reading the symbol in each bar is the first step to accompanying without writing every note.",
+  "difficulty": 1,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 92,
+    "events": [
+      {
+        "id": "ex.m8-01.i.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "C"
+      },
+      {
+        "id": "ex.m8-01.i.2",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-01.i.3",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "G"
+      },
+      {
+        "id": "ex.m8-01.i.4",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-01.i.5",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "Am"
+      },
+      {
+        "id": "ex.m8-01.i.6",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-01.i.7",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "F"
+      },
+      {
+        "id": "ex.m8-01.i.8",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "style": "pop-rock",
+  "ask": "chord",
+  "measure": 2,
+  "choices": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "choicesEn": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ]
+}

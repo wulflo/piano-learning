@@ -1,0 +1,740 @@
+{
+  "id": "piece.traditional.frere-jacques",
+  "title": "Frère Jacques",
+  "composerDisplay": "Anónimo tradicional",
+  "level": 2,
+  "durationSeconds": 24,
+  "tags": [
+    "tradicional",
+    "ronda",
+    "dos manos",
+    "grado 1"
+  ],
+  "license": {
+    "license": "public-domain",
+    "composer": {
+      "name": "Anónimo tradicional",
+      "birthYear": null,
+      "deathYear": null,
+      "anonymousTraditional": true
+    },
+    "source": "Ronda infantil tradicional francesa, manuscrito «Recueil de Timbres de Vaudevilles» (c. 1780); verificada en Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Fr%C3%A8re_Jacques",
+    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionDate": "2026-11-13",
+    "attribution": "Frère Jacques — ronda tradicional anónima (dominio público); transcripción y bajo de PianoDesdeCero",
+    "verifiedBy": "PianoDesdeCero",
+    "verifiedOn": "2026-11-13",
+    "notes": "Se transcribe la melodía tradicional con un bajo simple de redondas. No se usa la letra ni la atribución discutida a Rameau."
+  },
+  "hands": {
+    "right": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 80,
+      "events": [
+        {
+          "id": "ev.frere-jacques.r01",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r02",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r03",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r04",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r05",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r06",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r07",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r08",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r09",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r10",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r11",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r12",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r13",
+          "measure": 4,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r14",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r15",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r16",
+          "measure": 5,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r17",
+          "measure": 5,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r18",
+          "measure": 5,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r19",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r20",
+          "measure": 6,
+          "beat": 1,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r21",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r22",
+          "measure": 7,
+          "beat": 1,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r23",
+          "measure": 7,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r24",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r25",
+          "measure": 8,
+          "beat": 1,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.r26",
+          "measure": 8,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "left": {
+      "clef": "bass",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 80,
+      "events": [
+        {
+          "id": "ev.frere-jacques.l01",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 64,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.l02",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 64,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.l03",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 64,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.l04",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 64,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.l05",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 64,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.l06",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 64,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.l07",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 64,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.frere-jacques.l08",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 64,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "notesEs": "Ronda tradicional en Do mayor para las dos manos. La melodía se repite dos veces y el bajo toca una redonda por compás; conviene primero cantar la ronda y luego juntar las manos muy despacio.",
+  "notesEn": "Traditional round in C major for both hands. The melody repeats twice and the bass plays one whole note per measure; sing the round first, then join the hands slowly.",
+  "fingeringEs": "Derecha: 1-2-3-1 · 1-2-3-1 · 3-4-5 · 3-4-5 · 5-5-5-4 · 3-1 · 1-5-1 · 1-5-1. Izquierda: 5 en cada redonda, con la mano relajada.",
+  "fingeringEn": "Right hand: 1-2-3-1 · 1-2-3-1 · 3-4-5 · 3-4-5 · 5-5-5-4 · 3-1 · 1-5-1 · 1-5-1. Left hand: 5 on each whole note, with a relaxed hand."
+}

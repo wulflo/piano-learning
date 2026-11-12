@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-01.i",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada construida sobre Ab con la regla 1-3-5?",
+  "promptEn": "What quality does the triad built on Ab with the 1-3-5 rule have?",
+  "explanationEs": "La tríada de La bemol mayor se construye con la regla 1-3-5: La bemol, Do y Mi bemol. La tercera, La bemol-Do, está a cuatro semitonos de la fundamental, así que su calidad es mayor.",
+  "explanationEn": "The Ab major triad is built with the 1-3-5 rule: Ab, C and Eb. The third, Ab-C, is four semitones above the root, so its quality is major.",
+  "difficulty": 2,
+  "root": { "step": "A", "accidental": "b", "octave": 4 },
+  "quality": "major",
+  "inversion": 0,
+  "choices": ["mayor", "menor", "disminuido", "aumentado"],
+  "choicesEn": ["major", "minor", "diminished", "augmented"]
+}

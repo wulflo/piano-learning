@@ -1,0 +1,27 @@
+{
+  "id": "ex.m5-09.i",
+  "skillId": "skill.modulation",
+  "type": "pivot-chord",
+  "promptEs": "En una modulación de Si♭ mayor a Mi♭ mayor, Dom (Do, Mi♭, Sol) es el acorde pivote. ¿Qué número romano tiene en Mi♭ mayor?",
+  "promptEn": "In a modulation from B♭ major to E♭ major, Cm (C, E♭, G) is the pivot chord. Which Roman numeral does it have in E♭ major?",
+  "explanationEs": "Dom conserva las mismas notas en las dos tonalidades: es ii en Si♭ mayor y vi en Mi♭ mayor. Por eso sirve de puente; después, un acorde que ya solo pertenece a Mi♭ mayor (como su V7) confirma la modulación.",
+  "explanationEn": "Cm keeps the same notes in both keys: it is ii in B♭ major and vi in E♭ major. That is why it works as a bridge; afterwards, a chord that belongs only to E♭ major (such as its V7) confirms the modulation.",
+  "difficulty": 3,
+  "fromKey": "Bb",
+  "toKey": "Eb",
+  "degreeFrom": 2,
+  "degreeTo": 6,
+  "ask": "target",
+  "choices": [
+    "vi",
+    "ii",
+    "IV",
+    "iii"
+  ],
+  "choicesEn": [
+    "vi",
+    "ii",
+    "IV",
+    "iii"
+  ]
+}

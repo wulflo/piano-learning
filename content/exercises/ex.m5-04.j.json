@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-04.j",
+  "skillId": "skill.cadence",
+  "type": "cadence",
+  "promptEs": "En Do menor, ¿qué cadencia forman los acordes Sol (Sol, Si, Re) y La♭ (La♭, Do, Mi♭)?",
+  "promptEn": "In C minor, what cadence do the chords G (G, B, D) and A♭ (A♭, C, E♭) form?",
+  "explanationEs": "La cadencia rota en menor va de V a VI: Sol resuelve en La♭ en lugar de Do menor. Es el gesto característico del modo menor y evita el cierre definitivo.",
+  "explanationEn": "The deceptive cadence in minor goes from V to VI: G resolves to A♭ instead of C minor. It is the characteristic gesture of the minor mode and avoids a definitive close.",
+  "difficulty": 3,
+  "key": "C",
+  "mode": "minor",
+  "fromDegree": 5,
+  "toDegree": 6,
+  "choices": [
+    "Rota (V-vi)",
+    "Semicadencia (…-V)",
+    "Auténtica (V-I)",
+    "Plagal (IV-I)"
+  ],
+  "choicesEn": [
+    "Deceptive (V-vi)",
+    "Half cadence (…-V)",
+    "Authentic (V-I)",
+    "Plagal (IV-I)"
+  ]
+}

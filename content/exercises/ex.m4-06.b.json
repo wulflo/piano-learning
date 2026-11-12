@@ -1,0 +1,17 @@
+{
+  "id": "ex.m4-06.b",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "El acorde suena Sol, Do y Mi, de grave a agudo. ¿Qué slash chord es?",
+  "promptEn": "The chord sounds G, C and E, from low to high. Which slash chord is it?",
+  "explanationEs": "Es Do/Sol: Do mayor con Sol en el bajo. Las notas son Sol-Do-Mi; Sol es la quinta del acorde y el bajo no es la fundamental, así que es la segunda inversión. En cifrado americano se escribe C/G.",
+  "explanationEn": "It is C/G: C major with G in the bass. The notes are G-C-E; G is the chord's fifth and the bass is not the root, so it is the second inversion.",
+  "difficulty": 1,
+  "root": { "step": "C", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "slash": { "step": "G", "accidental": "", "octave": 3 },
+  "inversion": 2,
+  "ask": "symbol",
+  "choices": ["Do/Sol", "Do/Mi", "Do/Re"],
+  "choicesEn": ["C/G", "C/E", "C/D"]
+}

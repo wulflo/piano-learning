@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-02.e",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada formada por Mi, La y Si?",
+  "promptEn": "What quality does the triad made of E, A and B have?",
+  "explanationEs": "Es una tríada suspendida 4, 1-4-5: Mi-La es una cuarta justa y La-Si una segunda mayor. La cuarta reemplaza a la tercera y resuelve bajando a ella, por ejemplo Mi-La-Si hacia Mi-Sol♯-Si.",
+  "explanationEn": "It is a suspended 4 triad, 1-4-5: E-A is a perfect fourth and A-B a major second. The fourth replaces the third and resolves down to it, for example E-A-B to E-G#-B.",
+  "difficulty": 2,
+  "root": { "step": "E", "accidental": "", "octave": 4 },
+  "quality": "sus4",
+  "inversion": 0,
+  "choices": ["disminuido", "aumentado", "suspendido 2", "suspendido 4"],
+  "choicesEn": ["diminished", "augmented", "suspended 2", "suspended 4"]
+}

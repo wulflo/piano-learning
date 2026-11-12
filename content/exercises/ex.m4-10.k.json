@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-10.k",
+  "skillId": "skill.chord-quality-ear",
+  "type": "ear-chord",
+  "promptEs": "Escuchá el acorde y elegí su calidad.",
+  "promptEn": "Listen to the chord and choose its quality.",
+  "explanationEs": "Si♭-Re es tercera mayor, Si♭-Fa quinta justa y Si♭-La séptima mayor: es un Si♭ maj7. La séptima mayor suena brillante y estable, a diferencia de la séptima menor de Si♭7.",
+  "explanationEn": "B♭-D is a major third, B♭-F a perfect fifth and B♭-A a major seventh: it is a B♭maj7. The major seventh sounds bright and stable, unlike the minor seventh of B♭7.",
+  "difficulty": 3,
+  "root": { "step": "B", "accidental": "b", "octave": 3 },
+  "quality": "major7",
+  "inversion": 0,
+  "style": "block",
+  "choices": ["séptima mayor", "séptima de dominante", "séptima menor", "séptima semidisminuida"],
+  "choicesEn": ["major seventh", "dominant seventh", "minor seventh", "half-diminished seventh"]
+}

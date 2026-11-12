@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-12.f",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "Escribí las notas de Si♭9/Re de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of B♭9/D from low to high, separated by spaces.",
+  "explanationEs": "Re es la tercera de Si♭9, así que el acorde está en primera inversión: Re-Fa-La♭-Si♭-Do. La séptima menor La♭ se conserva y la novena Do queda arriba.",
+  "explanationEn": "D is the third of Bb9, so the chord is in first inversion: D-F-Ab-Bb-C. The minor seventh Ab is kept and the ninth C sits on top.",
+  "difficulty": 4,
+  "root": { "step": "B", "accidental": "b", "octave": 4 },
+  "quality": "dominant9",
+  "slash": { "step": "D", "accidental": "", "octave": 4 },
+  "inversion": 1,
+  "ask": "notes"
+}

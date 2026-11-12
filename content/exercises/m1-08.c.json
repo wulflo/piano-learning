@@ -1,0 +1,49 @@
+{
+  "id": "ex.m1-08.c",
+  "skillId": "skill.syncopation",
+  "type": "anacrusis-completion",
+  "promptEs": "Una canción en 4/4 empieza con una anacrusa de un tiempo. ¿Qué figura completa el compás final, que debe durar tres tiempos?",
+  "explanationEs": "La anacrusa de un tiempo se compensa en el último compás: 4 − 1 = 3 tiempos. Una blanca y una negra suman tres, así que falta una negra.",
+  "difficulty": 2,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "pickup": [
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "pattern": [
+    {
+      "duration": "half",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 1,
+  "choices": [
+    "Negra",
+    "Blanca",
+    "Redonda",
+    "Corchea"
+  ],
+  "promptEn": "A song in 4/4 starts with a one-beat anacrusis. Which note value completes the final measure, which must last three beats?",
+  "explanationEn": "The one-beat anacrusis is balanced in the last measure: 4 − 1 = 3 beats. A half note and a quarter note add up to three, so a quarter note is missing.",
+  "choicesEn": [
+    "Quarter note",
+    "Half note",
+    "Whole note",
+    "Eighth note"
+  ]
+}

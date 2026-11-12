@@ -1,0 +1,1422 @@
+{
+  "id": "lesson.m6-01",
+  "moduleId": "M6",
+  "slug": "motivo-y-frase",
+  "titleEs": "Motivo y frase",
+  "titleEn": "Motive and phrase",
+  "summaryEs": "Reconocer la célula melódica más pequeña y la idea completa que construye, y segmentar una melodía en motivos y frases.",
+  "summaryEn": "Recognise the smallest melodic cell and the complete idea it builds, and segment a melody into motives and phrases.",
+  "objectivesEs": [
+    "Definir el motivo y reconocerlo en melodías propias",
+    "Distinguir la frase de la semifrase y ubicar sus finales",
+    "Segmentar una melodía en motivos y frases escuchando sus respiraciones"
+  ],
+  "objectivesEn": [
+    "Define the motive and recognise it in original melodies",
+    "Tell a phrase from a semifrase and locate their endings",
+    "Segment a melody into motives and phrases by listening for its breathing points"
+  ],
+  "minutes": 14,
+  "prerequisites": [
+    "lesson.m5-09"
+  ],
+  "skillIds": [
+    "skill.motive-phrase"
+  ],
+  "exerciseIds": [
+    "ex.m6-01.a",
+    "ex.m6-01.b",
+    "ex.m6-01.c",
+    "ex.m6-01.d",
+    "ex.m6-01.e",
+    "ex.m6-01.f",
+    "ex.m6-01.g",
+    "ex.m6-01.h",
+    "ex.m6-01.i",
+    "ex.m6-01.j",
+    "ex.m6-01.k",
+    "ex.m6-01.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m6-01.motivo",
+      "kind": "text",
+      "titleEs": "El motivo",
+      "titleEn": "The motive",
+      "bodyEs": "El motivo es la unidad melódica más pequeña con identidad propia. No es una nota suelta: son unas pocas notas, normalmente entre dos y siete, unidas por un ritmo y un contorno que el oído reconoce en cuanto vuelven. Las cuatro notas iniciales de la Quinta sinfonía de Beethoven son el ejemplo más famoso: un ritmo insistente y un salto descendente que se repite en toda la obra. Un motivo puede ser rítmico, melódico o las dos cosas a la vez, y casi nunca se queda solo: se repite, se transporta o se transforma para construir algo más grande.",
+      "bodyEn": "A motive is the smallest melodic unit with its own identity. It is not a single note: it is a few notes, usually between two and seven, tied together by a rhythm and a contour that the ear recognises as soon as they return. The opening four notes of Beethoven’s Fifth Symphony are the most famous example: an insistent rhythm and a falling leap repeated throughout the work. A motive can be rhythmic, melodic or both at once, and it hardly ever stays alone: it is repeated, transposed or transformed to build something larger."
+    },
+    {
+      "id": "sec.m6-01.frase",
+      "kind": "text",
+      "titleEs": "La frase y la semifrase",
+      "titleEn": "The phrase and the semifrase",
+      "bodyEs": "La frase es una idea musical completa, la unidad que el oído percibe como un pensamiento con principio y final. En la música tonal suele durar cuatro compases y termina con una cadencia o, al menos, con un reposo. Una frase se puede dividir en dos semifrases de dos compases: la primera abre la idea y la segunda la cierra. En el período clásico, la semifrase que plantea se llama antecedente y la que responde, consecuente. Una melodía de ocho compases suele contener dos frases, no una sola idea larga.",
+      "bodyEn": "A phrase is a complete musical idea, the unit the ear perceives as a thought with a beginning and an end. In tonal music it usually lasts four bars and ends with a cadence or at least a resting point. A phrase can be split into two two-bar semifrases: the first opens the idea and the second closes it. In the Classical period, the semifrase that poses the idea is called the antecedent and the one that answers, the consequent. An eight-bar melody usually contains two phrases, not one long idea."
+    },
+    {
+      "id": "sec.m6-01.demo-motivo",
+      "kind": "score",
+      "titleEs": "Demo: una melodía de ocho compases en cuatro motivos",
+      "titleEn": "Demo: an eight-bar melody in four motives",
+      "bodyEs": "Los compases 1-4 forman la primera frase y los compases 5-8, la segunda. El motivo inicial ocupa los compases 1-2 (Mi-Re-Do-Re y Mi-Sol) y vuelve transformado después. La segmentación marca cuatro motivos de dos compases: los dos primeros construyen la primera frase y los dos siguientes, la segunda. Escuchá dónde la melodía respira al final del compás 4 y cómo vuelve a empezar en el 5.",
+      "bodyEn": "Bars 1-4 form the first phrase and bars 5-8 the second. The opening motive spans bars 1-2 (E-D-C-D and E-G) and returns transformed later. The segmentation marks four two-bar motives: the first two build the first phrase and the next two the second. Listen for where the melody breathes at the end of bar 4 and how it starts again in bar 5.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 88,
+        "events": [
+          {
+            "id": "sec.m6-01.demo-motivo.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.8",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.9",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.10",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.11",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.12",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.13",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.14",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.15",
+            "measure": 5,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.16",
+            "measure": 5,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.17",
+            "measure": 5,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.18",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.19",
+            "measure": 6,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.20",
+            "measure": 6,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.21",
+            "measure": 7,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.22",
+            "measure": 7,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.23",
+            "measure": 7,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.24",
+            "measure": 7,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-motivo.25",
+            "measure": 8,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-01.segmentar",
+      "kind": "text",
+      "titleEs": "Cómo segmentar de oído",
+      "titleEn": "How to segment by ear",
+      "bodyEs": "Para segmentar una melodía, escuchá primero las respiraciones: los lugares donde la música parece detenerse aunque sea un instante. Esos descansos suelen coincidir con el final de una frase y, muchas veces, con una cadencia. Después buscá las repeticiones: si un grupo de notas vuelve con el mismo ritmo o el mismo contorno, ahí hay un motivo. Marcá los motivos con una letra (a, a’, b) y las frases con números. Una buena prueba es cantar la melodía: donde te quedás sin aire o hacés una pausa natural, probablemente termina una frase.",
+      "bodyEn": "To segment a melody, first listen for the breathing points: the places where the music seems to pause, even for an instant. Those rests usually coincide with the end of a phrase and often with a cadence. Then look for repetitions: if a group of notes returns with the same rhythm or contour, there is a motive. Mark motives with letters (a, a′, b) and phrases with numbers. A good test is to sing the melody: where you run out of breath or take a natural pause is probably where a phrase ends."
+    },
+    {
+      "id": "sec.m6-01.desarrollo",
+      "kind": "text",
+      "titleEs": "Cómo se desarrolla un motivo",
+      "titleEn": "How a motive develops",
+      "bodyEs": "Un motivo se puede repetir igual o cambiar de varias maneras. La repetición literal lo afirma; la secuencia lo repite más agudo o más grave manteniendo el intervalo; la inversión cambia la dirección de los saltos; la aumentación duplica las duraciones y la disminución las reduce a la mitad. También se puede variar el ritmo, cambiar una nota o dejar el motivo incompleto para crear tensión. Reconocer estas transformaciones es lo que permite seguir el hilo de una pieza aunque la melodía nunca se repita exactamente igual.",
+      "bodyEn": "A motive can be repeated exactly or changed in several ways. Literal repetition asserts it; a sequence repeats it higher or lower while keeping the interval; inversion reverses the direction of the leaps; augmentation doubles the durations and diminution halves them. The rhythm can also change, a note can be altered, or the motive can be left incomplete to create tension. Recognising these transformations is what lets you follow a piece even when the melody never repeats exactly."
+    },
+    {
+      "id": "sec.m6-01.demo-frase",
+      "kind": "score",
+      "titleEs": "Demo: una frase de cuatro compases con dos motivos",
+      "titleEn": "Demo: a four-bar phrase with two motives",
+      "bodyEs": "Los compases 1-2 presentan el primer motivo (Do-Re-Mi-Sol, Mi-Do) y los compases 3-4 el segundo (Re-Mi-Fa-Re, Sol). La frase termina en el compás 4 sobre Sol, la dominante: es un final abierto, una semicadencia, que deja la idea con ganas de continuar. Si después viniera otra frase que respondiera y cerrara en Do, las dos formarían un período de antecedente y consecuente.",
+      "bodyEn": "Bars 1-2 present the first motive (C-D-E-G, E-C) and bars 3-4 the second (D-E-F-D, G). The phrase ends in bar 4 on G, the dominant: an open ending, a half cadence, that leaves the idea wanting to continue. If another phrase then answered and closed on C, the two would form an antecedent-consequent period.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 84,
+        "events": [
+          {
+            "id": "sec.m6-01.demo-frase.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-frase.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-frase.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-frase.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-frase.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-frase.6",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-frase.7",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-frase.8",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-frase.9",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-frase.10",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-01.demo-frase.11",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-01.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce melodías para segmentar",
+      "titleEn": "Twelve melodies to segment",
+      "bodyEs": "Cada ejercicio muestra una melodía original y te pide contar sus motivos, contar sus frases o indicar en qué compás termina una frase. Escuchala con el botón «Escuchar melodía completa» y seguí la partitura. Buscá las respiraciones y las repeticiones antes de responder. Los ejercicios alternan compases de 4/4 y de 3/4, y melodías de dos, tres y cuatro frases.",
+      "bodyEn": "Each exercise shows an original melody and asks you to count its motives, count its phrases or say in which bar a phrase ends. Listen with the “Listen to the full melody” button and follow the score. Look for the breathing points and the repetitions before answering. The exercises alternate 4/4 and 3/4 metres, and melodies with two, three and four phrases."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tocá la melodía y marcá sus motivos y frases",
+    "titleEn": "Play the melody and mark its motives and phrases",
+    "instructionsEs": "Tocá la melodía de la primera demo con la mano derecha a 88 BPM. Antes de empezar, cantá el motivo inicial (Mi-Re-Do-Re). En el compás 4 hacé una respiración corta y decí «primera frase»; en el compás 8, decí «segunda frase». Después repetí la melodía marcando con la voz cada motivo de dos compases: «uno, dos, tres, cuatro».",
+    "instructionsEn": "Play the melody from the first demo with your right hand at 88 BPM. Before starting, sing the opening motive (E-D-C-D). At bar 4 take a short breath and say “first phrase”; at bar 8 say “second phrase”. Then repeat the melody marking each two-bar motive with your voice: “one, two, three, four”.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 3
+      }
+    ],
+    "fingeringEs": "Mano derecha: 1 para Do, 2 para Re, 3 para Mi, 4 para Fa y 5 para Sol. En el salto Mi-Sol del compás 2 usá 1-5 y volvé a 1 para el Sol repetido. Mantené la mano quieta y buscá que la respiración del compás 4 no corte el pulso.",
+    "fingeringEn": "Right hand: 1 for C, 2 for D, 3 for E, 4 for F and 5 for G. For the E-G leap in bar 2 use 1-5 and return to 1 for the repeated G. Keep the hand still and make sure the breath in bar 4 does not break the pulse.",
+    "tempoBpm": 88,
+    "checklistEs": [
+      "Toqué la melodía completa sin perder el pulso",
+      "Marqué con la voz los cuatro motivos de dos compases",
+      "Hice una respiración en el compás 4 y otra al final del compás 8"
+    ],
+    "checklistEn": [
+      "I played the whole melody without losing the pulse",
+      "I marked the four two-bar motives with my voice",
+      "I took a breath in bar 4 and another at the end of bar 8"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 88,
+      "events": [
+        {
+          "id": "sec.m6-01.demo-motivo.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.2",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.3",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.5",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.6",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.7",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.8",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.9",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.10",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.11",
+          "measure": 3,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.12",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.13",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.14",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.15",
+          "measure": 5,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.16",
+          "measure": 5,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.17",
+          "measure": 5,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.18",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.19",
+          "measure": 6,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.20",
+          "measure": 6,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.21",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.22",
+          "measure": 7,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.23",
+          "measure": 7,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.24",
+          "measure": 7,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-01.demo-motivo.25",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

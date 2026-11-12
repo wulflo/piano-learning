@@ -1,0 +1,644 @@
+{
+  "id": "lesson.m1-11",
+  "moduleId": "M1",
+  "slug": "repeticiones-da-capo-segno-coda",
+  "titleEs": "Repeticiones, da capo, segno y coda",
+  "titleEn": "Repeats, da capo, segno and coda",
+  "summaryEs": "Los signos de repetición y los saltos (da capo, dal segno y coda) indican en qué orden se leen las secciones de una partitura.",
+  "objectivesEs": [
+    "Leer los signos de repetición y las casillas de primera y segunda",
+    "Seguir un da capo y un dal segno hasta el Fine o la coda",
+    "Reconstruir el orden de reproducción de una partitura con saltos"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m1-10"
+  ],
+  "skillIds": [
+    "skill.repeat-signs"
+  ],
+  "exerciseIds": [
+    "ex.m1-11.a",
+    "ex.m1-11.b",
+    "ex.m1-11.c",
+    "ex.m1-11.d",
+    "ex.m1-11.e",
+    "ex.m1-11.f"
+  ],
+  "sections": [
+    {
+      "id": "sec.m1-11.repeat",
+      "kind": "text",
+      "titleEs": "Los signos de repetición",
+      "bodyEs": "Los signos de repetición hacen que un pasaje se toque dos veces sin volver a escribirlo. Al comienzo del pasaje se escribe ||: y al final :||. Todo lo que queda entre ambos signos se repite una vez. Si solo aparece el signo final :||, la repetición vuelve al principio de la pieza o al último signo de inicio. La repetición es la forma más simple de ahorrar espacio y de indicar que una sección tiene que escucharse dos veces.",
+      "titleEn": "Repeat signs",
+      "bodyEn": "Repeat signs make a passage sound twice without writing it again. At the start of the passage you write ||: and at the end :||. Everything between both signs is repeated once. If only the closing sign :|| appears, the repeat goes back to the beginning of the piece or to the last opening sign. Repetition is the simplest way to save space and to show that a section must be heard twice."
+    },
+    {
+      "id": "sec.m1-11.endings",
+      "kind": "text",
+      "titleEs": "Casillas de primera y segunda",
+      "bodyEs": "Cuando la repetición termina de manera distinta la segunda vez, se usan casillas o voltas. La primera casilla se toca la primera vez y luego se vuelve al signo de repetición; la segunda casilla se toca la segunda vez y se saltea la primera. Se leen como «A, B, primera casilla; repetir A, B, segunda casilla». Es muy común en canciones y en temas con estribillo: la melodía se repite, pero el final cambia para enlazar con la sección siguiente.",
+      "titleEn": "First and second endings",
+      "bodyEn": "When the repeat ends differently the second time, first and second endings (voltas) are used. The first ending is played the first time and then you return to the repeat sign; the second ending is played the second time and the first is skipped. They are read as “A, B, first ending; repeat A, B, second ending”. It is very common in songs and in pieces with a chorus: the melody repeats, but the ending changes to connect with the next section."
+    },
+    {
+      "id": "sec.m1-11.dacapo",
+      "kind": "text",
+      "titleEs": "Da capo y Fine",
+      "bodyEs": "Da capo significa «desde el principio» y se abrevia D.C. La indicación D.C. al Fine quiere decir que hay que volver al comienzo y tocar hasta la palabra Fine (fin). Si no hay Fine, un D.C. simple vuelve al principio y se toca la pieza completa otra vez. El da capo se escribe al final de la sección y no cambia las notas: solo cambia el orden en que se leen. Para seguirlo, marcá con el dedo dónde está el Fine antes de empezar.",
+      "titleEn": "Da capo and Fine",
+      "bodyEn": "Da capo means “from the beginning” and is abbreviated D.C. The indication D.C. al Fine means you must go back to the beginning and play until the word Fine (end). If there is no Fine, a plain D.C. goes back to the beginning and the whole piece is played again. Da capo is written at the end of the section and does not change the notes: it only changes the order in which they are read. To follow it, mark where the Fine is with your finger before you start."
+    },
+    {
+      "id": "sec.m1-11.segno",
+      "kind": "text",
+      "titleEs": "Segno, dal segno y coda",
+      "bodyEs": "El segno es una señal que marca un punto de regreso; se abrevia D.S. (dal segno, «desde el segno»). D.S. al Fine vuelve al segno y toca hasta el Fine. D.S. al Coda vuelve al segno, toca hasta la indicación To Coda o «al Coda» y salta directamente a la coda, que es la sección final. La coda se marca con la palabra Coda. La diferencia con el da capo es el punto de regreso: el da capo vuelve al principio y el dal segno vuelve a la señal del segno.",
+      "titleEn": "Segno, dal segno and coda",
+      "bodyEn": "The segno is a sign that marks a return point; it is abbreviated D.S. (dal segno, “from the sign”). D.S. al Fine goes back to the segno and plays until the Fine. D.S. al Coda goes back to the segno, plays until the To Coda or “al Coda” indication and jumps directly to the coda, which is the final section. The coda is marked with the word Coda. The difference from da capo is the return point: da capo goes back to the beginning and dal segno goes back to the segno sign."
+    },
+    {
+      "id": "sec.m1-11.example",
+      "kind": "score",
+      "titleEs": "Un ejemplo en tres secciones: A B A",
+      "bodyEs": "Esta partitura tiene tres compases que llamamos A, B y A. Si se toca tal como está escrita, el orden es A B A. Si A estuviera entre signos de repetición, se escribiría una sola vez y el intérprete la repetiría: el orden audible seguiría siendo A B A. Los saltos como D.C. o D.S. permiten construir órdenes más largos, por ejemplo A B C A B, sin reescribir las secciones.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-11.a.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-11.a.e4",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-11.a.g4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-11.a.c5",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-11.b.d4",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-11.b.f4",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-11.b.a4",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-11.b.d5",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-11.a2.c4",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-11.a2.e4",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-11.a2.g4",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-11.a2.c5",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          }
+        ]
+      },
+      "titleEn": "An example in three sections: A B A",
+      "bodyEn": "This score has three measures that we call A, B and A. If it is played as written, the order is A B A. If A were between repeat signs, it would be written once and the performer would repeat it: the audible order would still be A B A. Jumps such as D.C. or D.S. let you build longer orders, for example A B C A B, without rewriting the sections."
+    },
+    {
+      "id": "sec.m1-11.recipes",
+      "kind": "callout",
+      "titleEs": "Recetas para reconstruir el orden",
+      "bodyEs": "Repetición simple: A A B. Dos repeticiones: A A B B. Primera y segunda casilla: A B1 A B2. D.C. al Fine: A B C A B. D.C. al Coda: A B A B C. D.S. al Fine: A B C B C. D.S. al Coda: A B C B D. Para resolver cualquier caso, escribí las secciones con letras, marcá dónde está el segno, el Fine y la coda, y recorré el orden paso a paso sin tocar todavía. Después verificá que cada sección aparezca las veces que corresponde.",
+      "titleEn": "Recipes to rebuild the order",
+      "bodyEn": "Simple repeat: A A B. Two repeats: A A B B. First and second ending: A B1 A B2. D.C. al Fine: A B C A B. D.C. al Coda: A B A B C. D.S. al Fine: A B C B C. D.S. al Coda: A B C B D. To solve any case, write the sections with letters, mark where the segno, the Fine and the coda are, and walk through the order step by step without playing yet. Then check that each section appears the right number of times."
+    },
+    {
+      "id": "sec.m1-11.practice",
+      "kind": "audio",
+      "titleEs": "Seguir el orden con el metrónomo",
+      "bodyEs": "Poné el metrónomo a 80 BPM en 4/4 y tocá una sección de un compás por vez. Antes de empezar, decí en voz alta el orden completo, por ejemplo «A, B, A». Si hay repetición, contá en voz alta «primera vez» y «segunda vez». Si hay da capo, señalá con el dedo el Fine y no lo pases. La dificultad de estos signos no está en las notas sino en no perderse: practicá el recorrido despacio y con las secciones bien delimitadas.",
+      "titleEn": "Follow the order with the metronome",
+      "bodyEn": "Set the metronome to 80 BPM in 4/4 and play one one-measure section at a time. Before starting, say the complete order out loud, for example “A, B, A”. If there is a repeat, count “first time” and “second time” out loud. If there is a da capo, point to the Fine with your finger and do not pass it. The difficulty of these signs is not in the notes but in not getting lost: practice the route slowly and with clearly delimited sections."
+    },
+    {
+      "id": "sec.m1-11.exercises",
+      "kind": "exercise",
+      "titleEs": "Reconstruir el orden de reproducción",
+      "bodyEs": "Cada ejercicio presenta varias secciones con sus indicaciones de repetición o salto. Elegí la secuencia que representa el orden correcto. Antes de responder, identificá el tipo de signo, el punto de regreso y el punto de salida, y verificá que las secciones repetidas aparezcan dos veces.",
+      "titleEn": "Rebuild the playback order",
+      "bodyEn": "Each exercise presents several sections with their repeat or jump indications. Choose the sequence that represents the correct order. Before answering, identify the type of sign, the return point and the exit point, and check that repeated sections appear twice."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tocar A B A con repetición y da capo",
+    "instructionsEs": "Tocá tres compases en 4/4 a 80 BPM: el compás A con Do4-Mi4-Sol4-Do5, el compás B con Re4-Fa4-La4-Re5 y otra vez A. Primero tocá el orden A B A tal como está escrito. Después imaginá que A está entre signos de repetición: tocá A A B y volvé al principio. Finalmente probá un da capo al Fine: tocá A B, volvé al principio y terminá en el Fine del compás B. Decí el orden en voz alta antes de cada versión.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "Mano derecha: 1-2-3-5 para Do4-Mi4-Sol4-Do5 y 1-2-3-5 para Re4-Fa4-La4-Re5",
+    "tempoBpm": 80,
+    "checklistEs": [
+      "Toqué el orden A B A sin perder el pulso",
+      "Repetí A dos veces cuando imaginé los signos de repetición",
+      "Volví al principio en el da capo y terminé en el Fine",
+      "Verifiqué el orden antes de tocar cada versión"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 80,
+      "events": [
+        {
+          "id": "task.m1-11.a.c4",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-11.a.e4",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-11.a.g4",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-11.a.c5",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 90,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-11.b.d4",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-11.b.f4",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-11.b.a4",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-11.b.d5",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 90,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-11.a2.c4",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-11.a2.e4",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-11.a2.g4",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-11.a2.c5",
+          "measure": 3,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 90,
+          "tieToNext": false
+        }
+      ]
+    },
+    "titleEn": "Play A B A with a repeat and a da capo",
+    "instructionsEn": "Play three measures in 4/4 at 80 BPM: measure A with C4-E4-G4-C5, measure B with D4-F4-A4-D5, and A again. First play the order A B A as written. Then imagine that A is between repeat signs: play A A B and return to the beginning. Finally try a da capo al Fine: play A B, return to the beginning and end at the Fine in measure B. Say the order out loud before each version.",
+    "fingeringEn": "Right hand: 1-2-3-5 for C4-E4-G4-C5 and 1-2-3-5 for D4-F4-A4-D5",
+    "checklistEn": [
+      "I played the order A B A without losing the pulse",
+      "I repeated A twice when I imagined the repeat signs",
+      "I went back to the beginning in the da capo and ended at the Fine",
+      "I checked the order before playing each version"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published",
+  "summaryEn": "Repeat signs and jumps (da capo, dal segno and coda) show the order in which the sections of a score are read.",
+  "objectivesEn": [
+    "Identify repeat signs, first and second endings, D.C., D.S., Fine and coda",
+    "Reconstruct the playback order of a score with repeats and jumps",
+    "Follow the order while playing with a steady pulse"
+  ]
+}

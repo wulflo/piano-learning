@@ -1,0 +1,865 @@
+{
+  "id": "piece.studies.04",
+  "title": "Estudio 4: Arpegio de Do",
+  "composerDisplay": "PianoDesdeCero",
+  "level": 2,
+  "durationSeconds": 32,
+  "tags": [
+    "estudio",
+    "técnica",
+    "original",
+    "cc0",
+    "grado 2",
+    "arpegio"
+  ],
+  "license": {
+    "license": "cc0-1.0",
+    "composer": {
+      "name": "PianoDesdeCero",
+      "birthYear": null,
+      "deathYear": null,
+      "anonymousTraditional": false
+    },
+    "source": "Obra original creada para este proyecto",
+    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionDate": "2026-11-12",
+    "attribution": "Estudio 4: Arpegio de Do — PianoDesdeCero (CC0 1.0)",
+    "verifiedBy": "PianoDesdeCero",
+    "verifiedOn": "2026-11-12"
+  },
+  "hands": {
+    "right": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "ev.study.1.r1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.1.r2",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.1.r3",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.1.r4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.2.r1",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.2.r2",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.2.r3",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.2.r4",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.3.r1",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.3.r2",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.3.r3",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.3.r4",
+          "measure": 3,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.4.r1",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.4.r2",
+          "measure": 4,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.4.r3",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.4.r4",
+          "measure": 4,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.5.r1",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.5.r2",
+          "measure": 5,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.5.r3",
+          "measure": 5,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.5.r4",
+          "measure": 5,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.6.r1",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.6.r2",
+          "measure": 6,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.6.r3",
+          "measure": 6,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.6.r4",
+          "measure": 6,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.7.r1",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.7.r2",
+          "measure": 7,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.7.r3",
+          "measure": 7,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.7.r4",
+          "measure": 7,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.8.r1",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.8.r2",
+          "measure": 8,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.8.r3",
+          "measure": 8,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.8.r4",
+          "measure": 8,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    },
+    "left": {
+      "clef": "bass",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "ev.study.1.l1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.2.l1",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.3.l1",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.4.l1",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.5.l1",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.6.l1",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.7.l1",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.study.8.l1",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "notesEs": "El estudio recorre los arpegios de Do, Fa y Sol en negras, con la fundamental sostenida en la mano izquierda. La digitación de la derecha es la misma en cada vuelta para que la mano no tenga que buscarla. Escuchá el acorde completo aunque las notas suenen separadas.",
+  "notesEn": "The study moves through the C, F and G arpeggios in quarter notes, with the root held in the left hand. The right-hand fingering is the same on every turn so the hand does not have to search for it. Hear the complete chord even though the notes sound separately.",
+  "fingeringEs": "Derecha: 1-2-3-5 al subir y 5-3-2-1 al bajar cada arpegio. En Fa y Sol mantené la misma forma y mové el antebrazo, no los dedos. Izquierda: 5 en Do3 y Fa3, y 5-1 en las dos blancas de Sol3.",
+  "fingeringEn": "Right hand: 1-2-3-5 going up and 5-3-2-1 coming down each arpeggio. On F and G keep the same shape and move the forearm, not the fingers. Left hand: 5 on C3 and F3, and 5-1 on the two half notes of G3.",
+  "tempoProgression": {
+    "startBpm": 60,
+    "targetBpm": 84,
+    "stepBpm": 6
+  }
+}

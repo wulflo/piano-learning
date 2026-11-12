@@ -1,0 +1,336 @@
+{
+  "id": "lesson.m0-02",
+  "moduleId": "M0",
+  "slug": "nombres-de-notas-y-octavas",
+  "titleEs": "Nombres de notas y octavas",
+  "titleEn": "Note names and octaves",
+  "summaryEs": "Do-Re-Mi y C-D-E nombran las mismas siete notas; el número de octava indica en qué registro está cada una.",
+  "summaryEn": "Solfège syllables and the letters C-D-E name the same seven notes; the octave number tells you which register each one is in.",
+  "objectivesEs": [
+    "Relacionar Do-Re-Mi con C-D-E",
+    "Leer el número de octava de una nota entre 2 y 6",
+    "Encontrar y nombrar notas en el teclado y en el pentagrama"
+  ],
+  "objectivesEn": [
+    "Connect solfège syllables with the letters C-D-E",
+    "Read the octave number of a note between 2 and 6",
+    "Find and name notes on the keyboard and on the staff"
+  ],
+  "minutes": 9,
+  "prerequisites": [
+    "lesson.m0-01"
+  ],
+  "skillIds": [
+    "skill.note-names",
+    "skill.octave-numbers",
+    "skill.note-staff"
+  ],
+  "exerciseIds": [
+    "ex.m0-02.a",
+    "ex.m0-02.b",
+    "ex.m0-02.c",
+    "ex.m0-02.d",
+    "ex.m0-02.e"
+  ],
+  "sections": [
+    {
+      "id": "sec.m0-02.names",
+      "kind": "text",
+      "titleEs": "Dos nombres para las mismas notas",
+      "titleEn": "Two names for the same notes",
+      "bodyEs": "En español usamos Do, Re, Mi, Fa, Sol, La y Si. En el sistema anglosajón esas mismas notas se llaman C, D, E, F, G, A y B. La app puede mostrar cualquiera de los dos sistemas: cambiá la notación en Ajustes y mirá cómo se actualizan el teclado y el pentagrama. Do-Re-Mi y C-D-E son dos formas de nombrar lo mismo.",
+      "bodyEn": "Spanish names the seven notes with solfège syllables. In the English system, those same notes are called C, D, E, F, G, A and B. The app can show either system: change the notation in Settings and watch the keyboard and the staff update. Solfège syllables and letters are two ways of naming the same thing."
+    },
+    {
+      "id": "sec.m0-02.octaves",
+      "kind": "text",
+      "titleEs": "El número de octava",
+      "titleEn": "The octave number",
+      "bodyEs": "Cada vez que el patrón vuelve a empezar en Do, cambia la octava. En este curso el Do central es Do4 (C4). Una octava arriba está Do5 (C5); una octava abajo, Do3 (C3). Los ejemplos de M0-02 recorren las octavas 2 a 6: Do2 es muy grave y Do6, muy agudo. El número siempre va después del nombre de la nota.",
+      "bodyEn": "Every time the pattern starts again on C, the octave changes. In this course middle C is C4. One octave above is C5; one octave below, C3. The examples in M0-02 go through octaves 2 to 6: C2 is very low and C6 is very high. The number always comes after the note name."
+    },
+    {
+      "id": "sec.m0-02.keyboard",
+      "kind": "keyboard",
+      "titleEs": "Escuchá tres octavas",
+      "titleEn": "Listen to three octaves",
+      "bodyEs": "Tocá Do3, Do4 y Do5. El nombre de la nota es el mismo; lo que cambia es el número de octava y la altura que escuchás.",
+      "bodyEn": "Play C3, C4 and C5. The note name is the same; what changes is the octave number and the pitch you hear.",
+      "keys": [
+        {
+          "step": "C",
+          "accidental": "",
+          "octave": 3
+        },
+        {
+          "step": "C",
+          "accidental": "",
+          "octave": 4
+        },
+        {
+          "step": "C",
+          "accidental": "",
+          "octave": 5
+        }
+      ]
+    },
+    {
+      "id": "sec.m0-02.score-treble",
+      "kind": "score",
+      "titleEs": "Do4, Do5 y Do6 en el pentagrama",
+      "titleEn": "C4, C5 and C6 on the staff",
+      "bodyEs": "En clave de sol, Do4 está en la primera línea adicional debajo del pentagrama. Do5 queda en el tercer espacio y Do6 sube hasta la segunda línea adicional arriba. El mismo nombre aparece en lugares distintos según la octava.",
+      "bodyEn": "In treble clef, C4 sits on the first ledger line below the staff. C5 sits in the third space and C6 goes up to the second ledger line above. The same name appears in different places depending on the octave.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 3,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m0-02.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m0-02.c5",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m0-02.c6",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 6
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m0-02.score-bass",
+      "kind": "score",
+      "titleEs": "Do2 y Do3 en clave de fa",
+      "titleEn": "C2 and C3 in bass clef",
+      "bodyEs": "En clave de fa, Do3 está en el segundo espacio y Do2 baja hasta la segunda línea adicional debajo del pentagrama. La clave y la octava cambian el lugar de la nota, pero el nombre sigue siendo Do.",
+      "bodyEn": "In bass clef, C3 sits in the second space and C2 goes down to the second ledger line below the staff. The clef and the octave change where the note sits, but the name is still C.",
+      "score": {
+        "clef": "bass",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 2,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m0-02.c2",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 2
+              }
+            ],
+            "hand": "left",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m0-02.c3",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m0-02.callout",
+      "kind": "callout",
+      "titleEs": "Regla rápida",
+      "bodyEs": "Do = C, Re = D, Mi = E, Fa = F, Sol = G, La = A, Si = B. El número después de la letra indica la octava: C4 = Do4 = Do central. Si una app usa C3 para el Do central, está numerando una octava más abajo; en este curso usamos C4.",
+      "titleEn": "Quick rule",
+      "bodyEn": "Do = C, Re = D, Mi = E, Fa = F, Sol = G, La = A, Si = B. The number after the letter shows the octave: C4 = Do4 = middle C. If an app uses C3 for middle C, it numbers one octave lower; in this course we use C4."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Nombrá tres Do",
+    "titleEn": "Name three Cs",
+    "instructionsEs": "Tocá Do4, Do5 y Do6 con el pulgar. Antes de cada nota, decí en voz alta su nombre completo (por ejemplo, «Do cinco»). Repetí el ejercicio cambiando a la notación C-D-E.",
+    "instructionsEn": "Play C4, C5 and C6 with your thumb. Before each note, say its full name out loud (for example, \"C five\"). Repeat the exercise switching to letter notation.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 6
+      }
+    ],
+    "fingeringEs": "1 - 1 - 1 (pulgar) en cada octava; muñeca relajada",
+    "fingeringEn": "1 - 1 - 1 (thumb) on each octave; relaxed wrist",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Nombré cada nota con su número de octava",
+      "Toqué el Do correcto sin contar teclas",
+      "Cambié entre Do-Re-Mi y C-D-E sin dudar"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m0-02.c4",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-02.c5",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-02.c6",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "checklistEn": [
+      "I named every note with its octave number",
+      "I played the right C without counting keys",
+      "I switched between Do-Re-Mi and C-D-E without hesitating"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

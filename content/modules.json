@@ -1,0 +1,83 @@
+[
+  {
+    "id": "M0",
+    "order": 0,
+    "titleEs": "Orientación",
+    "titleEn": "Orientation",
+    "summaryEs": "El teclado, las notas, la postura y una forma sana de practicar.",
+    "summaryEn": "The keyboard, notes, posture and a healthy way to practice.",
+    "optional": false
+  },
+  {
+    "id": "M1",
+    "order": 1,
+    "titleEs": "Fundamentos",
+    "titleEn": "Fundamentals",
+    "summaryEs": "Pentagrama, ritmo, compases, dinámica y signos de la partitura.",
+    "summaryEn": "Staff, rhythm, meters, dynamics and score signs.",
+    "optional": false
+  },
+  {
+    "id": "M2",
+    "order": 2,
+    "titleEs": "Escalas y tonalidades",
+    "titleEn": "Scales and keys",
+    "summaryEs": "Mayor, menores, modos, armaduras y círculo de quintas.",
+    "summaryEn": "Major, minor, modes, key signatures and the circle of fifths.",
+    "optional": false
+  },
+  {
+    "id": "M3",
+    "order": 3,
+    "titleEs": "Intervalos",
+    "titleEn": "Intervals",
+    "summaryEs": "Distancia y calidad entre notas, inversión y oído.",
+    "summaryEn": "Distance and quality between notes, inversion and ear.",
+    "optional": false
+  },
+  {
+    "id": "M4",
+    "order": 4,
+    "titleEs": "Acordes",
+    "titleEn": "Chords",
+    "summaryEs": "Tríadas, séptimas, inversiones, extensiones y cifrado.",
+    "summaryEn": "Triads, sevenths, inversions, extensions and chord symbols.",
+    "optional": false
+  },
+  {
+    "id": "M5",
+    "order": 5,
+    "titleEs": "Armonía funcional",
+    "titleEn": "Functional harmony",
+    "summaryEs": "Funciones, cadencias, progresiones, dominantes y modulación.",
+    "summaryEn": "Functions, cadences, progressions, dominants and modulation.",
+    "optional": false
+  },
+  {
+    "id": "M6",
+    "order": 6,
+    "titleEs": "Melodía, forma y textura",
+    "titleEn": "Melody, form and texture",
+    "summaryEs": "Motivo, frase, formas musicales, texturas y ornamentos.",
+    "summaryEn": "Motive, phrase, musical forms, textures and ornaments.",
+    "optional": false
+  },
+  {
+    "id": "M7",
+    "order": 7,
+    "titleEs": "Técnica de teclado",
+    "titleEn": "Keyboard technique",
+    "summaryEs": "Independencia, arpegios, pedal, acompañamiento, lectura, lead sheets e improvisación.",
+    "summaryEn": "Independence, arpeggios, pedal, accompaniment, sight-reading, lead sheets and improvisation.",
+    "optional": false
+  },
+  {
+    "id": "M8",
+    "order": 8,
+    "titleEs": "Estilos",
+    "titleEn": "Styles",
+    "summaryEs": "Pop/rock, blues, jazz básico y ritmos latinos.",
+    "summaryEn": "Pop/rock, blues, basic jazz and Latin rhythms.",
+    "optional": true
+  }
+]

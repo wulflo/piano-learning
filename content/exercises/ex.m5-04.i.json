@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-04.i",
+  "skillId": "skill.cadence",
+  "type": "cadence",
+  "promptEs": "En Re menor, ¿qué cadencia forman los acordes Rem (Re, Fa, La) y La (La, Do♯, Mi)?",
+  "promptEn": "In D minor, what cadence do the chords Dm (D, F, A) and A (A, C♯, E) form?",
+  "explanationEs": "La semicadencia en menor termina en el V: Rem llega a La y deja la frase abierta. El Do♯ de la menor armónica anuncia que la continuación será en Re menor.",
+  "explanationEn": "The half cadence in minor ends on V: Dm reaches A and leaves the phrase open. The C♯ of harmonic minor announces that the continuation will be in D minor.",
+  "difficulty": 3,
+  "key": "D",
+  "mode": "minor",
+  "fromDegree": 1,
+  "toDegree": 5,
+  "choices": [
+    "Semicadencia (…-V)",
+    "Plagal (IV-I)",
+    "Rota (V-vi)",
+    "Auténtica (V-I)"
+  ],
+  "choicesEn": [
+    "Half cadence (…-V)",
+    "Plagal (IV-I)",
+    "Deceptive (V-vi)",
+    "Authentic (V-I)"
+  ]
+}

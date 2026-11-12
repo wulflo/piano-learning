@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-01.d",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de La mayor?",
+  "explanationEs": "La mayor se deletrea A B C# D E F# G# A con el patrón T-T-S-T-T-T-S.",
+  "difficulty": 2,
+  "tonic": "A",
+  "mode": "major",
+  "choices": [
+    "A B C# D E F# G# A",
+    "A B C D E F# G A",
+    "A B C# D E F G A"
+  ],
+  "promptEn": "How do you spell the A major scale?",
+  "explanationEn": "A major is spelled A B C# D E F# G# A with the W-W-H-W-W-W-H pattern.",
+  "choicesEn": [
+    "A B C# D E F# G# A",
+    "A B C D E F# G A",
+    "A B C# D E F G A"
+  ]
+}

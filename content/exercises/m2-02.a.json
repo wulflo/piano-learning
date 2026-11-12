@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-02.a",
+  "skillId": "skill.key-signature",
+  "type": "key-signature",
+  "promptEs": "¿Cuántas notas alteradas tiene la armadura de Do mayor?",
+  "explanationEs": "La escala de Do mayor no altera ninguna nota, así que su armadura está vacía.",
+  "difficulty": 1,
+  "key": "C",
+  "mode": "major",
+  "choices": [
+    "Sin alteraciones",
+    "1 sostenido",
+    "1 bemol"
+  ],
+  "promptEn": "How many altered notes does the key signature of C major have?",
+  "explanationEn": "The C major scale alters no notes, so its key signature is empty.",
+  "choicesEn": [
+    "No accidentals",
+    "1 sharp",
+    "1 flat"
+  ]
+}

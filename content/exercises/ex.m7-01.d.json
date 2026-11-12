@@ -1,0 +1,139 @@
+{
+  "id": "ex.m7-01.d",
+  "skillId": "skill.hand-independence",
+  "type": "hand-coordination",
+  "promptEs": "¿Qué mano ataca en el compás 1, pulso 3?",
+  "promptEn": "Which hand attacks in measure 1, beat 3?",
+  "explanationEs": "La mano derecha sostiene un Do5 redondo desde el pulso 1: no vuelve a atacar. En el pulso 3 la que empieza una nota nueva es la izquierda, con Sol4.",
+  "explanationEn": "The right hand holds a whole-note C5 from beat 1: it does not attack again. On beat 3 the hand that begins a new note is the left hand, with G4.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m7-01.d.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-01.d.2",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-01.d.3",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-01.d.4",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-01.d.5",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "measure": 1,
+  "beat": 3,
+  "choices": [
+    "Mano izquierda",
+    "Ambas manos",
+    "Mano derecha"
+  ],
+  "choicesEn": [
+    "Left hand",
+    "Both hands",
+    "Right hand"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-02.j",
+  "skillId": "skill.key-signature",
+  "type": "key-signature",
+  "promptEs": "¿Cuántas notas alteradas tiene la armadura de Mi bemol mayor?",
+  "explanationEs": "La escala de Mi bemol mayor baja tres notas con bemol: Si bemol, Mi bemol y La bemol.",
+  "difficulty": 2,
+  "key": "Eb",
+  "mode": "major",
+  "choices": [
+    "3 bemoles",
+    "2 bemoles",
+    "Sin alteraciones"
+  ],
+  "promptEn": "How many altered notes does the key signature of E flat major have?",
+  "explanationEn": "The E flat major scale lowers three notes with flats: B flat, E flat and A flat.",
+  "choicesEn": [
+    "3 flats",
+    "2 flats",
+    "No accidentals"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-03.c",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de Fa sostenido mayor suena Fa♯-La♯-Do♯, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The F# major chord sounds F#-A#-C#, from low to high. What inversion is it?",
+  "explanationEs": "El bajo es Fa♯, la fundamental del acorde, y arriba quedan La♯ (tercera) y Do♯ (quinta). Es el estado fundamental de Fa♯ mayor.",
+  "explanationEn": "The bass is F#, the chord's root, and above it sit A# (third) and C# (fifth). It is the root position of F# major.",
+  "difficulty": 2,
+  "root": { "step": "F", "accidental": "#", "octave": 4 },
+  "quality": "major",
+  "inversion": 0,
+  "ask": "inversion",
+  "choices": ["estado fundamental", "primera inversión", "segunda inversión"],
+  "choicesEn": ["root position", "first inversion", "second inversion"]
+}

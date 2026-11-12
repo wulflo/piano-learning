@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-01.e",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada construida sobre E con la regla 1-3-5?",
+  "promptEn": "What quality does the triad built on E with the 1-3-5 rule have?",
+  "explanationEs": "La tríada de Mi mayor se construye con la regla 1-3-5: Mi, Sol sostenido y Si. La tercera, Mi-Sol sostenido, está a cuatro semitonos de la fundamental, así que su calidad es mayor.",
+  "explanationEn": "The E major triad is built with the 1-3-5 rule: E, G# and B. The third, E-G#, is four semitones above the root, so its quality is major.",
+  "difficulty": 2,
+  "root": { "step": "E", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "inversion": 0,
+  "choices": ["mayor", "menor", "disminuido", "aumentado"],
+  "choicesEn": ["major", "minor", "diminished", "augmented"]
+}

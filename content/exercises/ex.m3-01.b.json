@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-01.b",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Do♯4 y Mi4?",
+  "promptEn": "What interval is there between C♯4 and E4?",
+  "explanationEs": "De Do♯ a Mi hay una tercera. La distancia es de tres semitonos, tono y medio, así que la tercera es menor.",
+  "explanationEn": "From C♯ to E there is a third. The distance is three semitones, a tone and a half, so the third is minor.",
+  "difficulty": 1,
+  "lower": { "step": "C", "accidental": "#", "octave": 4 },
+  "upper": { "step": "E", "accidental": "", "octave": 4 },
+  "direction": "harmonic",
+  "choices": ["Tercera menor", "Tercera mayor", "Segunda aumentada", "Cuarta justa"],
+  "choicesEn": ["Minor third", "Major third", "Augmented second", "Perfect fourth"]
+}

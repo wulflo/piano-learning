@@ -1,0 +1,12 @@
+{
+  "id": "ex.m4-07.h",
+  "skillId": "skill.chord-notation",
+  "type": "chord-notation",
+  "promptEs": "Escribí el cifrado latino equivalente al cifrado americano Dm7.",
+  "promptEn": "Write the Latin chord symbol equivalent to the American chord Dm7.",
+  "explanationEs": "Dm7 se convierte en Rem7: D pasa a Re y F a Fa, manteniendo la m7 menor.",
+  "explanationEn": "Dm7 becomes Rem7: D becomes Re and F becomes Fa, keeping the minor m7.",
+  "difficulty": 2,
+  "symbol": "Dm7",
+  "to": "do"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-02.a",
+  "skillId": "skill.roman-numeral",
+  "type": "roman-numeral",
+  "promptEs": "En Do mayor, ¿qué numeral romano nombra el acorde Fa (Fa, La, Do)?",
+  "promptEn": "In C major, which Roman numeral names the chord F (F, A, C)?",
+  "explanationEs": "En Do mayor, Fa es el cuarto grado de la escala. Su tríada Fa-La-Do es mayor, así que el numeral va en mayúscula: IV.",
+  "explanationEn": "In C major, F is the fourth degree of the scale. Its triad F-A-C is major, so the numeral is uppercase: IV.",
+  "difficulty": 2,
+  "key": "C",
+  "mode": "major",
+  "numeral": "IV",
+  "choices": [
+    "IV",
+    "V",
+    "vi"
+  ],
+  "choicesEn": [
+    "IV",
+    "V",
+    "vi"
+  ]
+}

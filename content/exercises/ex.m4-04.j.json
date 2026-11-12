@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-04.j",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un La m7♭5 (séptima semidisminuida) de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of an Am7♭5 (half-diminished seventh) from low to high, separated by spaces.",
+  "explanationEs": "La m7♭5 es 1-♭3-♭5-♭7: La, Do, Mi♭ y Sol. Tiene tercera menor (Do), quinta disminuida (Mi♭) y séptima menor (Sol).",
+  "explanationEn": "Am7♭5 is 1-♭3-♭5-♭7: A, C, Eb and G. It has a minor third (C), a diminished fifth (Eb) and a minor seventh (G).",
+  "difficulty": 4,
+  "root": { "step": "A", "accidental": "", "octave": 4 },
+  "quality": "half-diminished7",
+  "inversion": 0,
+  "ask": "notes"
+}

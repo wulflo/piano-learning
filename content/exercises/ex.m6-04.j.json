@@ -1,0 +1,454 @@
+{
+  "id": "ex.m6-04.j",
+  "skillId": "skill.texture",
+  "type": "texture-analysis",
+  "promptEs": "¿Qué textura tiene esta música?",
+  "promptEn": "What texture does this music have?",
+  "explanationEs": "Dos voces con contornos propios suenan a la vez y se cruzan sin limitarse a acompañar. Cada línea podría cantarse por separado: eso es polifonía. Se distingue de la homofonía porque las voces son independientes, no un bloque de acordes.",
+  "explanationEn": "Two voices with their own contours sound at the same time and intertwine instead of merely accompanying each other. Each line could be sung on its own: that is polyphony. It differs from homophony because the voices are independent, not a block of chords.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 3,
+      "denominator": 4
+    },
+    "tempoBpm": 84,
+    "events": [
+      {
+        "id": "ex.m6-04.j.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 1
+      },
+      {
+        "id": "ex.m6-04.j.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 1
+      },
+      {
+        "id": "ex.m6-04.j.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 1
+      },
+      {
+        "id": "ex.m6-04.j.4",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 1
+      },
+      {
+        "id": "ex.m6-04.j.5",
+        "measure": 2,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 1
+      },
+      {
+        "id": "ex.m6-04.j.6",
+        "measure": 2,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 1
+      },
+      {
+        "id": "ex.m6-04.j.7",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 1
+      },
+      {
+        "id": "ex.m6-04.j.8",
+        "measure": 3,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 1
+      },
+      {
+        "id": "ex.m6-04.j.9",
+        "measure": 3,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 1
+      },
+      {
+        "id": "ex.m6-04.j.10",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 1,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 1
+      },
+      {
+        "id": "ex.m6-04.j.11",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 2
+      },
+      {
+        "id": "ex.m6-04.j.12",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 2
+      },
+      {
+        "id": "ex.m6-04.j.13",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 2
+      },
+      {
+        "id": "ex.m6-04.j.14",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 2
+      },
+      {
+        "id": "ex.m6-04.j.15",
+        "measure": 2,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 2
+      },
+      {
+        "id": "ex.m6-04.j.16",
+        "measure": 2,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 2
+      },
+      {
+        "id": "ex.m6-04.j.17",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 2
+      },
+      {
+        "id": "ex.m6-04.j.18",
+        "measure": 3,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 2
+      },
+      {
+        "id": "ex.m6-04.j.19",
+        "measure": 3,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 2
+      },
+      {
+        "id": "ex.m6-04.j.20",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 1,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false,
+        "voice": 2
+      }
+    ]
+  },
+  "texture": "polyphony",
+  "voices": 2,
+  "choices": [
+    "Monofonía (una sola línea melódica)",
+    "Homofonía (melodía con acordes)",
+    "Polifonía (dos o más líneas independientes)"
+  ],
+  "choicesEn": [
+    "Monophony (a single melodic line)",
+    "Homophony (melody with chords)",
+    "Polyphony (two or more independent lines)"
+  ]
+}

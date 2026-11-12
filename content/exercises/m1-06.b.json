@@ -1,0 +1,65 @@
+{
+  "id": "ex.m1-06.b",
+  "skillId": "skill.compound-meter",
+  "type": "rhythm-completion",
+  "promptEs": "En 6/8 ya hay cinco corcheas. ¿Qué figura completa el compás?",
+  "explanationEs": "En 6/8 entran seis corcheas agrupadas de a tres. Si ya hay cinco, falta una corchea.",
+  "difficulty": 1,
+  "timeSignature": {
+    "numerator": 6,
+    "denominator": 8
+  },
+  "pattern": [
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 5,
+  "choices": [
+    "Corchea",
+    "Semicorchea",
+    "Negra",
+    "Negra con puntillo"
+  ],
+  "promptEn": "In 6/8 there are already five eighth notes. Which note value completes the measure?",
+  "explanationEn": "Six eighth notes grouped in threes fit in 6/8. If there are already five, one eighth note is missing.",
+  "choicesEn": [
+    "Eighth note",
+    "Sixteenth note",
+    "Quarter note",
+    "Dotted quarter note"
+  ]
+}

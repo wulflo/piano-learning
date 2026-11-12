@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-01.f",
+  "skillId": "skill.diatonic-chords",
+  "type": "chord",
+  "promptEs": "En Si♭ mayor, ¿qué cifrado tiene la séptima diatónica del grado V?",
+  "promptEn": "In B♭ major, what is the symbol of the diatonic seventh on degree V?",
+  "explanationEs": "En Si♭ mayor, el grado V se construye sobre Fa: Fa-La-Do-Mi♭. La tercera es mayor y la séptima Fa-Mi♭ es menor, así que la séptima es de dominante y se cifra Fa7. Ese Mi♭ es la nota que pide resolver en Re.",
+  "explanationEn": "In B♭ major, degree V is built on F: F-A-C-E♭. The third is major and the seventh F-E♭ is minor, so the seventh is dominant and its symbol is F7. That E♭ is the note asking to resolve to D.",
+  "difficulty": 2,
+  "root": {
+    "step": "F",
+    "accidental": "",
+    "octave": 5
+  },
+  "quality": "dominant7",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Fam7",
+    "Famaj7",
+    "Fa",
+    "Fa7"
+  ],
+  "choicesEn": [
+    "Fm7",
+    "Fmaj7",
+    "F",
+    "F7"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ex.m1-09.d",
+  "skillId": "skill.tempo",
+  "type": "tempo-term",
+  "promptEs": "¿Qué término de tempo corresponde a 184 BPM?",
+  "explanationEs": "A 184 BPM el tempo es presto (176-199 BPM): muy rápido, casi al límite del rango habitual.",
+  "difficulty": 3,
+  "term": "presto",
+  "bpm": 184,
+  "choices": [
+    "Presto",
+    "Moderato",
+    "Andante",
+    "Largo"
+  ],
+  "promptEn": "Which tempo term corresponds to 184 BPM?",
+  "explanationEn": "At 184 BPM the tempo is presto (176-199 BPM): very fast, almost at the limit of the usual range.",
+  "choicesEn": [
+    "Presto",
+    "Moderato",
+    "Andante",
+    "Largo"
+  ]
+}

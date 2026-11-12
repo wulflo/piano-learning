@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-01.k",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Si♭4 y Fa♭5?",
+  "promptEn": "What interval is there between B♭4 and F♭5?",
+  "explanationEs": "De Si♭ a Fa♭ hay una quinta. La quinta justa tiene siete semitonos y esta tiene seis, así que es disminuida.",
+  "explanationEn": "From B♭ to F♭ there is a fifth. A perfect fifth has seven semitones and this one has six, so it is diminished.",
+  "difficulty": 4,
+  "lower": { "step": "B", "accidental": "b", "octave": 4 },
+  "upper": { "step": "F", "accidental": "b", "octave": 5 },
+  "direction": "harmonic",
+  "choices": ["Quinta disminuida", "Quinta justa", "Cuarta aumentada", "Sexta menor"],
+  "choicesEn": ["Diminished fifth", "Perfect fifth", "Augmented fourth", "Minor sixth"]
+}

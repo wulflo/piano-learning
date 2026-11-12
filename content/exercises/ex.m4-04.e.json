@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-04.e",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "El acorde formado por Do♯, Mi, Sol y Si♭, ¿qué calidad de séptima tiene?",
+  "promptEn": "The chord made of C#, E, G and Bb has which seventh quality?",
+  "explanationEs": "Es un Do♯ dim7, o séptima disminuida: 1-♭3-♭5-♭♭7. La séptima está a nueve semitonos de Do♯ y el acorde es simétrico: cuatro terceras menores apiladas.",
+  "explanationEn": "It is a C#dim7, or diminished seventh: 1-♭3-♭5-♭♭7. The seventh is nine semitones above C# and the chord is symmetrical: four stacked minor thirds.",
+  "difficulty": 3,
+  "root": { "step": "C", "accidental": "#", "octave": 4 },
+  "quality": "diminished7",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["séptima mayor", "séptima de dominante", "séptima menor", "séptima semidisminuida", "séptima disminuida"],
+  "choicesEn": ["major seventh", "dominant seventh", "minor seventh", "half-diminished seventh", "diminished seventh"]
+}

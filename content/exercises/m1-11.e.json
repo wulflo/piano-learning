@@ -1,0 +1,45 @@
+{
+  "id": "ex.m1-11.e",
+  "skillId": "skill.repeat-signs",
+  "type": "playback-order",
+  "promptEs": "A se toca una vez, B tiene primera y segunda casilla. ¿Cuál es el orden?",
+  "explanationEs": "La primera vez se toca la primera casilla y se repite; la segunda vez se saltea la primera y se toca la segunda: A B1 A B2.",
+  "difficulty": 3,
+  "sections": [
+    {
+      "id": "sec-a",
+      "label": "A",
+      "repeat": true
+    },
+    {
+      "id": "sec-b",
+      "label": "B1",
+      "repeat": false
+    },
+    {
+      "id": "sec-c",
+      "label": "B2",
+      "repeat": false
+    }
+  ],
+  "answer": [
+    "sec-a",
+    "sec-b",
+    "sec-a",
+    "sec-c"
+  ],
+  "choices": [
+    "A B1 A B2",
+    "A B1 B2",
+    "A B1 A B1",
+    "A B2 A B1"
+  ],
+  "promptEn": "A is played once and B has a first and a second ending. What is the order?",
+  "explanationEn": "The first time you play the first ending and repeat; the second time you skip the first ending and play the second: A B1 A B2.",
+  "choicesEn": [
+    "A B1 A B2",
+    "A B1 B2",
+    "A B1 A B1",
+    "A B2 A B1"
+  ]
+}

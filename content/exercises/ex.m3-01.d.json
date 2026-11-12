@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-01.d",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Mi♭4 y La♭4?",
+  "promptEn": "What interval is there between E♭4 and A♭4?",
+  "explanationEs": "De Mi♭ a La♭ hay una cuarta. La distancia es de cinco semitonos, así que la cuarta es justa.",
+  "explanationEn": "From E♭ to A♭ there is a fourth. The distance is five semitones, so the fourth is perfect.",
+  "difficulty": 2,
+  "lower": { "step": "E", "accidental": "b", "octave": 4 },
+  "upper": { "step": "A", "accidental": "b", "octave": 4 },
+  "direction": "harmonic",
+  "choices": ["Cuarta justa", "Cuarta aumentada", "Tercera mayor", "Quinta justa"],
+  "choicesEn": ["Perfect fourth", "Augmented fourth", "Major third", "Perfect fifth"]
+}

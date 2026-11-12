@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-07.b",
+  "skillId": "skill.chord-notation",
+  "type": "chord-notation",
+  "promptEs": "Convertí el cifrado Rem7 a notación americana.",
+  "promptEn": "Convert the chord Rem7 to American notation.",
+  "explanationEs": "Rem7 es Re menor séptima: Re, Fa, La y Do. Do pasa a C y Re pasa a D, con el sufijo m7 intacto: Rem7 → Dm7.",
+  "explanationEn": "Rem7 is D minor seventh: D, F, A and C. Re becomes D and Mi becomes E, so the m7 suffix stays: Rem7 → Dm7.",
+  "difficulty": 1,
+  "symbol": "Rem7",
+  "to": "c",
+  "choices": ["Dm7", "Dbm7", "Ebm7"],
+  "choicesEn": ["Dm7", "Dbm7", "Ebm7"]
+}

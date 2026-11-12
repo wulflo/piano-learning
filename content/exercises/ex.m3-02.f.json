@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-02.f",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "La cuarta justa Fa4-Si♭4 se invierte subiendo Fa una octava. ¿Cómo se llama el intervalo Si♭4-Fa5?",
+  "promptEn": "The perfect fourth F4-B♭4 is inverted by raising F an octave. What is the interval B♭4-F5 called?",
+  "explanationEs": "Si♭4-Fa5 es una quinta justa: 4 + 5 = 9 y la calidad justa se conserva. Los semitonos pasan de 5 a 7.",
+  "explanationEn": "B♭4-F5 is a perfect fifth: 4 + 5 = 9 and the perfect quality stays. The semitones go from 5 to 7.",
+  "difficulty": 2,
+  "lower": { "step": "B", "accidental": "b", "octave": 4 },
+  "upper": { "step": "F", "accidental": "", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Quinta justa", "Quinta disminuida", "Cuarta justa", "Cuarta aumentada"],
+  "choicesEn": ["Perfect fifth", "Diminished fifth", "Perfect fourth", "Augmented fourth"]
+}

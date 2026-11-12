@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-01.a",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Do4 y Re4?",
+  "promptEn": "What interval is there between C4 and D4?",
+  "explanationEs": "De Do a Re hay una segunda. La distancia es de dos semitonos, un tono, así que la segunda es mayor.",
+  "explanationEn": "From C to D there is a second. The distance is two semitones, a whole tone, so the second is major.",
+  "difficulty": 1,
+  "lower": { "step": "C", "accidental": "", "octave": 4 },
+  "upper": { "step": "D", "accidental": "", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Segunda mayor", "Segunda menor", "Tercera mayor", "Unísono justo"],
+  "choicesEn": ["Major second", "Minor second", "Major third", "Perfect unison"]
+}

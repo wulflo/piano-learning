@@ -1,0 +1,31 @@
+{
+  "id": "ex.m5-05.e",
+  "skillId": "skill.common-progressions",
+  "type": "progression-completion",
+  "promptEs": "En Mi mayor, ¿qué grado completa la progresión ?-V-vi-IV?",
+  "promptEn": "In E major, which degree completes the ?-V-vi-IV progression?",
+  "explanationEs": "La progresión pop I-V-vi-IV en Mi mayor es Mi-Si-Do♯m-La. El grado que falta es I: la tónica. Completa la serie I-V-vi-IV y vuelve a empezar.",
+  "explanationEn": "The pop progression I-V-vi-IV in E major is E-B-C♯m-A. The missing degree is I: the tonic. It completes the series I-V-vi-IV and starts over.",
+  "difficulty": 2,
+  "key": "E",
+  "mode": "major",
+  "degrees": [
+    "I",
+    "V",
+    "vi",
+    "IV"
+  ],
+  "missingIndex": 0,
+  "choices": [
+    "I",
+    "vi",
+    "V",
+    "IV"
+  ],
+  "choicesEn": [
+    "I",
+    "vi",
+    "V",
+    "IV"
+  ]
+}

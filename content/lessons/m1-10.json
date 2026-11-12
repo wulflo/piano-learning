@@ -1,0 +1,546 @@
+{
+  "id": "lesson.m1-10",
+  "moduleId": "M1",
+  "slug": "dinamica-y-articulacion",
+  "titleEs": "Dinámica y articulación",
+  "titleEn": "Dynamics and articulation",
+  "summaryEs": "La dinámica regula la intensidad de pp a ff y la articulación decide si las notas se conectan, se separan o se acentúan.",
+  "objectivesEs": [
+    "Identificar las marcas dinámicas de pp a ff y su intensidad relativa",
+    "Distinguir legato, staccato y acento al escuchar y al tocar",
+    "Aplicar matices y articulaciones en una tarea real con el teclado"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m1-09"
+  ],
+  "skillIds": [
+    "skill.dynamics-articulation"
+  ],
+  "exerciseIds": [
+    "ex.m1-10.a",
+    "ex.m1-10.b",
+    "ex.m1-10.c",
+    "ex.m1-10.d",
+    "ex.m1-10.e",
+    "ex.m1-10.f"
+  ],
+  "sections": [
+    {
+      "id": "sec.m1-10.dynamics",
+      "kind": "text",
+      "titleEs": "La dinámica: de pp a ff",
+      "bodyEs": "La dinámica es el grado de intensidad con que suena la música. Se escribe con marcas italianas debajo del pentagrama: pp (pianissimo, muy suave), p (piano, suave), mp (mezzo-piano, medio suave), mf (mezzo-forte, medio fuerte), f (forte, fuerte) y ff (fortissimo, muy fuerte). Son grados relativos: un ff en una pieza tranquila puede ser más suave que un mf en una marcha. Además de las marcas fijas existen el crescendo (aumentar poco a poco) y el diminuendo o decrescendo (disminuir poco a poco).",
+      "titleEn": "Dynamics: from pp to ff",
+      "bodyEn": "Dynamics is the degree of loudness with which music sounds. It is written with Italian marks below the staff: pp (pianissimo, very soft), p (piano, soft), mp (mezzo-piano, medium soft), mf (mezzo-forte, medium loud), f (forte, loud) and ff (fortissimo, very loud). They are relative degrees: a ff in a quiet piece can be softer than an mf in a march. Besides fixed marks there are crescendo (gradually louder) and diminuendo or decrescendo (gradually softer)."
+    },
+    {
+      "id": "sec.m1-10.velocity",
+      "kind": "text",
+      "titleEs": "Cómo se produce la intensidad en el piano",
+      "bodyEs": "En el piano la intensidad depende de la velocidad con que el dedo hace bajar la tecla y del peso que le transmite, no de apretar más fuerte después de que la tecla llegó al fondo. El martillo golpea las cuerdas una sola vez: una vez que la tecla está abajo, seguir presionando no cambia el sonido. Para tocar pp hay que bajar la tecla despacio y con poco peso; para tocar ff, con más velocidad y peso desde el brazo, sin tensar la muñeca. La app representa esa intensidad con un valor de velocity entre 1 y 127.",
+      "titleEn": "How loudness is produced on the piano",
+      "bodyEn": "On the piano, loudness depends on the speed with which the finger presses the key and the weight it transfers, not on pressing harder after the key reaches the bottom. The hammer strikes the strings once: once the key is down, pressing more does not change the sound. To play pp, lower the key slowly with little weight; to play ff, use more speed and weight from the arm, without tensing the wrist. The app represents that loudness with a velocity value between 1 and 127."
+    },
+    {
+      "id": "sec.m1-10.dynamics-demo",
+      "kind": "score",
+      "titleEs": "Do4 en pp, mf y ff",
+      "bodyEs": "Las cuatro notas son el mismo Do4 y duran lo mismo, pero cambian de intensidad: la primera suena pp (muy suave), la segunda mf (medio fuerte), la tercera ff (muy fuerte) y la cuarta vuelve a mf. Escuchá la diferencia de ataque y de volumen sin cambiar la altura ni el ritmo.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-10.dynamics.pp",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 30,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-10.dynamics.mf",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-10.dynamics.ff",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 112,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-10.dynamics.mf-second",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      },
+      "titleEn": "C4 at pp, mf and ff",
+      "bodyEn": "The four notes are the same C4 and last the same, but their loudness changes: the first sounds pp (very soft), the second mf (medium loud), the third ff (very loud) and the fourth returns to mf. Listen to the difference in attack and volume without changing pitch or rhythm."
+    },
+    {
+      "id": "sec.m1-10.articulation",
+      "kind": "text",
+      "titleEs": "La articulación: conectar, separar o acentuar",
+      "bodyEs": "La articulación decide cómo se ataca y se suelta cada nota. Legato significa ligado: las notas se conectan sin silencio entre ellas y se escribe con una ligadura de expresión o un arco sobre el grupo. Staccato significa separado y corto: la nota se toca breve y se suelta enseguida; se escribe con un punto sobre o debajo de la cabeza de la nota. Acento significa que una nota se ataca con más fuerza que las vecinas; se escribe con el signo >. También existe el tenuto, que sostiene la nota con una leve acentuación. La articulación no cambia la altura ni la figura escrita: cambia la duración real del sonido y la forma del ataque.",
+      "titleEn": "Articulation: connect, separate or accent",
+      "bodyEn": "Articulation decides how each note starts and ends. Legato means connected: notes join without silence between them and it is written with a slur or a curved line over the group. Staccato means separated and short: the note is played briefly and released at once; it is written with a dot above or below the notehead. Accent means a note is attacked more strongly than its neighbors; it is written with the > sign. Tenuto also exists, holding the note with a slight emphasis. Articulation does not change pitch or written value: it changes the actual duration of the sound and the shape of the attack."
+    },
+    {
+      "id": "sec.m1-10.articulation-demo",
+      "kind": "audio",
+      "titleEs": "Escuchar legato, staccato y acento",
+      "bodyEs": "Escuchá tres veces el mismo Do4. En legato la nota se sostiene y se conecta con la siguiente; en staccato suena corta y separada; en acento el ataque es más fuerte y el resto de la nota se mantiene parejo. Después tocá vos las tres versiones y compará: primero exagerá la diferencia, y cuando la sientas, reducí el gesto hasta que quede musical. La articulación se trabaja lenta, con la mano relajada.",
+      "titleEn": "Listen to legato, staccato and accent",
+      "bodyEn": "Listen to the same C4 three times. In legato the note is held and connected to the next one; in staccato it sounds short and separated; in accent the attack is stronger and the rest of the note stays even. Then play the three versions yourself and compare: first exaggerate the difference, and when you feel it, reduce the gesture until it sounds musical. Work on articulation slowly, with a relaxed hand."
+    },
+    {
+      "id": "sec.m1-10.combined",
+      "kind": "callout",
+      "titleEs": "Dinámica y articulación trabajan juntas",
+      "bodyEs": "Una misma nota puede ser pp y staccato, f y legato, o mf y acentuada. La dinámica responde a la pregunta «¿qué tan fuerte?» y la articulación a «¿cómo empieza y cómo termina?». No las confundas: tocar más fuerte no es lo mismo que acentuar, y tocar más suave no es lo mismo que staccato. En una frase musical se combinan: por ejemplo, un crescendo de pp a ff con las últimas notas acentuadas. Practicá primero cada dimensión por separado y después unilas.",
+      "titleEn": "Dynamics and articulation work together",
+      "bodyEn": "The same note can be pp and staccato, f and legato, or mf and accented. Dynamics answers “how loud?” and articulation answers “how does it begin and end?”. Do not confuse them: playing louder is not the same as accenting, and playing softer is not the same as staccato. In a musical phrase they combine: for example, a crescendo from pp to ff with the last notes accented. Practice each dimension separately first and then join them."
+    },
+    {
+      "id": "sec.m1-10.exercises",
+      "kind": "exercise",
+      "titleEs": "Reconocer matices y articulaciones",
+      "bodyEs": "Los ejercicios piden identificar una marca dinámica por su intensidad, comparar dos versiones de la misma nota y reconocer legato, staccato o acento. En los de escucha, prestá atención al ataque y a la duración real del sonido, no solo al volumen. Al responder, relacioná cada marca con su nombre italiano y con la forma de tocar.",
+      "titleEn": "Recognize dynamics and articulations",
+      "bodyEn": "The exercises ask you to identify a dynamic mark by its loudness, compare two versions of the same note and recognize legato, staccato or accent. In the listening exercises, pay attention to the attack and the actual duration of the sound, not only to volume. When you answer, link each mark to its Italian name and to the way of playing."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Matices y articulación en Do4",
+    "instructionsEs": "Tocá Do4 en 4/4 a 80 BPM durante cuatro compases: el primero y el segundo en pp (muy suave), el tercero en mf (medio fuerte) y el cuarto en ff (muy fuerte). Mantené la misma altura y el mismo ritmo; solo cambia la intensidad. Después repetí un compás en legato (notas conectadas), uno en staccato (notas cortas y separadas) y uno con acento en el primer pulso. Antes de cada versión, decí en voz alta qué matiz y qué articulación vas a usar.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "Pulgar derecho (dedo 1) sobre Do4 en todo el ejercicio",
+    "tempoBpm": 80,
+    "checklistEs": [
+      "Toqué dos compases en pp sin apretar la tecla después del ataque",
+      "El tercer compás en mf y el cuarto en ff se distinguieron claramente",
+      "Conecté las notas del compás legato y separé las del staccato",
+      "Acentué solo el primer pulso del compás con acento"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 80,
+      "events": [
+        {
+          "id": "task.m1-10.c4-m1-b1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 30,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m1-b2",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 30,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m1-b3",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 30,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m1-b4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 30,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m2-b1",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 30,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m2-b2",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 30,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m2-b3",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 30,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m2-b4",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 30,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m3-b1",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m3-b2",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m3-b3",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m3-b4",
+          "measure": 3,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m4-b1",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 112,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m4-b2",
+          "measure": 4,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 112,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m4-b3",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 112,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-10.c4-m4-b4",
+          "measure": 4,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 112,
+          "tieToNext": false
+        }
+      ]
+    },
+    "titleEn": "Dynamics and articulation on C4",
+    "instructionsEn": "Play C4 in 4/4 at 80 BPM for four measures: the first and second at pp (very soft), the third at mf (medium loud) and the fourth at ff (very loud). Keep the same pitch and rhythm; only loudness changes. Then repeat one measure legato (connected notes), one staccato (short, separated notes) and one with an accent on the first beat. Before each version, say out loud which dynamic and articulation you are going to use.",
+    "fingeringEn": "Right thumb (finger 1) on C4 throughout the exercise",
+    "checklistEn": [
+      "I played two measures at pp without pressing the key after the attack",
+      "The third measure at mf and the fourth at ff were clearly different",
+      "I connected the notes in the legato measure and separated those in staccato",
+      "I accented only the first beat of the accented measure"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published",
+  "summaryEn": "Dynamics control loudness from pp to ff, and articulation decides whether notes connect, separate or are accented.",
+  "objectivesEn": [
+    "Identify dynamic marks from pp to ff and their relative loudness",
+    "Tell legato, staccato and accent apart when listening and playing",
+    "Apply dynamics and articulation in a real keyboard task"
+  ]
+}

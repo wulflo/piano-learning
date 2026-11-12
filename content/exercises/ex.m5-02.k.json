@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-02.k",
+  "skillId": "skill.roman-numeral",
+  "type": "chord",
+  "promptEs": "En La menor armónica, ¿qué acorde forma el numeral V?",
+  "promptEn": "In A harmonic minor, which chord does the numeral V form?",
+  "explanationEs": "El quinto grado de La menor es Mi. En la menor armónica la tercera Mi-Sol♯ es mayor, así que el numeral V corresponde al acorde Mi.",
+  "explanationEn": "The fifth degree of A minor is E. In harmonic minor the third E-G♯ is major, so the numeral V corresponds to the chord E.",
+  "difficulty": 3,
+  "root": {
+    "step": "E",
+    "accidental": "",
+    "octave": 4
+  },
+  "quality": "major",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Mi",
+    "Mim",
+    "Mi7",
+    "Mim7"
+  ],
+  "choicesEn": [
+    "E",
+    "Em",
+    "E7",
+    "Em7"
+  ]
+}

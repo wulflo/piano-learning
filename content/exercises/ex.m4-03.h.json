@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-03.h",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de Si bemol mayor suena Re-Fa-Si♭, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The Bb major chord sounds D-F-Bb, from low to high. What inversion is it?",
+  "explanationEs": "El acorde de Si♭ mayor es Si♭-Re-Fa. El bajo es Re, la tercera del acorde, por lo que está en primera inversión: Si♭/Re.",
+  "explanationEn": "The Bb major chord is Bb-D-F. The bass is D, the chord's third, so it is in first inversion: Bb/D.",
+  "difficulty": 2,
+  "root": { "step": "B", "accidental": "b", "octave": 4 },
+  "quality": "major",
+  "inversion": 1,
+  "ask": "inversion",
+  "choices": ["estado fundamental", "primera inversión", "segunda inversión"],
+  "choicesEn": ["root position", "first inversion", "second inversion"]
+}

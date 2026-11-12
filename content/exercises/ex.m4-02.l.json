@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-02.l",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada formada por Si, Mi y Fa♯?",
+  "promptEn": "What quality does the triad made of B, E and F# have?",
+  "explanationEs": "Es una tríada suspendida 4, 1-4-5: Si-Mi es una cuarta justa y Mi-Fa♯ una segunda mayor. La cuarta espera resolver a la tercera, Si-Re♯-Fa♯ en mayor o Si-Re-Fa♯ en menor.",
+  "explanationEn": "It is a suspended 4 triad, 1-4-5: B-E is a perfect fourth and E-F# a major second. The fourth waits to resolve to the third, B-D#-F# in major or B-D-F# in minor.",
+  "difficulty": 2,
+  "root": { "step": "B", "accidental": "", "octave": 4 },
+  "quality": "sus4",
+  "inversion": 0,
+  "choices": ["disminuido", "aumentado", "suspendido 2", "suspendido 4"],
+  "choicesEn": ["diminished", "augmented", "suspended 2", "suspended 4"]
+}

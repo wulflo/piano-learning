@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-02.e",
+  "skillId": "skill.key-signature",
+  "type": "key-signature",
+  "promptEs": "¿Cuántas notas alteradas tiene la armadura de Mi mayor?",
+  "explanationEs": "La escala de Mi mayor altera cuatro notas con sostenidos: Fa, Do, Sol y Re sostenidos.",
+  "difficulty": 2,
+  "key": "E",
+  "mode": "major",
+  "choices": [
+    "4 sostenidos",
+    "3 sostenidos",
+    "Sin alteraciones"
+  ],
+  "promptEn": "How many altered notes does the key signature of E major have?",
+  "explanationEn": "The E major scale alters four notes with sharps: F, C, G and D sharp.",
+  "choicesEn": [
+    "4 sharps",
+    "3 sharps",
+    "No accidentals"
+  ]
+}

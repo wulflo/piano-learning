@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-06.k",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Sol/Re de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of a G/D from low to high, separated by spaces.",
+  "explanationEs": "Sol/Re es Sol mayor con Re en el bajo: Re-Sol-Si. Re es la quinta del acorde, así que es la segunda inversión. En cifrado americano se escribe G/D.",
+  "explanationEn": "G/D is G major with D in the bass: D-G-B. D is the chord's fifth, so it is the second inversion. In American notation it is written G/D.",
+  "difficulty": 3,
+  "root": { "step": "G", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "slash": { "step": "D", "accidental": "", "octave": 4 },
+  "inversion": 2,
+  "ask": "notes"
+}

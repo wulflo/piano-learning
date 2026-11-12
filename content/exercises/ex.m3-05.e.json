@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-05.e",
+  "skillId": "skill.ear-interval",
+  "type": "ear-interval",
+  "promptEs": "¿Qué intervalo hay entre Do4 y Si4 al escucharlos en forma ascendente?",
+  "promptEn": "What interval is there between C4 and B4 when heard in ascending form?",
+  "explanationEs": "Do4 y Si4 están separados por una séptima mayor: once siete semitonos, una octava más una segunda.",
+  "explanationEn": "C4 and B4 are a major seventh apart: seven semitones, an octave plus a second.",
+  "difficulty": 3,
+  "lower": { "step": "C", "accidental": "", "octave": 4 },
+  "upper": { "step": "B", "accidental": "", "octave": 4 },
+  "direction": "ascending",
+  "choices": ["Séptima mayor", "Sexta mayor", "Quinta justa", "Octava justa"],
+  "choicesEn": ["Major seventh", "Major sixth", "Perfect fifth", "Perfect octave"]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "ex.m1-05.i",
+  "skillId": "skill.simple-meter",
+  "type": "meter-accent",
+  "promptEs": "En un compás de 4/4, ¿cómo se acentúan los pulsos?",
+  "explanationEs": "En 4/4 el primer pulso es fuerte, el segundo débil, el tercero semifuerte y el cuarto débil: «fuerte-débil-semifuerte-débil».",
+  "difficulty": 2,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "accentedBeats": [
+    1,
+    3
+  ],
+  "choices": [
+    "1 fuerte; 2 débil; 3 semifuerte; 4 débil",
+    "1 y 2 fuertes; 3 y 4 débiles",
+    "1 fuerte; 2, 3 y 4 débiles",
+    "Todos los pulsos son iguales"
+  ],
+  "promptEn": "In a 4/4 measure, how are the beats accented?",
+  "explanationEn": "In 4/4 the first beat is strong, the second weak, the third medium-strong and the fourth weak: “strong-weak-medium-strong-weak”.",
+  "choicesEn": [
+    "1 strong; 2 weak; 3 medium-strong; 4 weak",
+    "1 and 2 strong; 3 and 4 weak",
+    "1 strong; 2, 3 and 4 weak",
+    "All beats are equal"
+  ]
+}

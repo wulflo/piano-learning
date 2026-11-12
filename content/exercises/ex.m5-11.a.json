@@ -1,0 +1,67 @@
+{
+  "id": "ex.m5-11.a",
+  "skillId": "skill.augmented-sixth",
+  "type": "augmented-sixth",
+  "optional": true,
+  "promptEs": "En La menor, este acorde aparece antes de la dominante. ¿Qué variante de sexta aumentada es?",
+  "promptEn": "In A minor, this chord appears before the dominant. Which augmented sixth variant is it?",
+  "explanationEs": "El acorde es Fa-La-Re♯. Fa es el ♭VI y Re♯ el ♯IV: entre ellos está la sexta aumentada. Solo hay tres notas y la tercera es la tónica La, así que es la variante italiana. La francesa añadiría Si y la alemana añadiría Do.",
+  "explanationEn": "The chord is F-A-D♯. F is ♭VI and D♯ is ♯IV: the augmented sixth lies between them. There are only three notes and the third is the tonic A, so this is the Italian variant. The French would add B and the German would add C.",
+  "difficulty": 2,
+  "key": "A",
+  "mode": "minor",
+  "variant": "italian",
+  "ask": "identify",
+  "score": {
+    "clef": "treble",
+    "key": "A",
+    "mode": "minor",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m5-11.a.chord",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "#",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Sexta aumentada italiana",
+    "Sexta aumentada francesa",
+    "Sexta aumentada alemana"
+  ],
+  "choicesEn": [
+    "Italian augmented sixth",
+    "French augmented sixth",
+    "German augmented sixth"
+  ]
+}

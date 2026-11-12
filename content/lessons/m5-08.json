@@ -1,0 +1,497 @@
+{
+  "id": "lesson.m5-08",
+  "moduleId": "M5",
+  "slug": "intercambio-modal",
+  "titleEs": "Intercambio modal",
+  "titleEn": "Modal mixture",
+  "summaryEs": "Cómo tomar acordes prestados del modo paralelo: el iv, el ♭VI, el ♭VII y el ♭III en mayor, y el préstamo inverso en menor.",
+  "summaryEn": "How to borrow chords from the parallel mode: iv, ♭VI, ♭VII and ♭III in major, and the reverse borrowing in minor.",
+  "objectivesEs": [
+    "Entender qué es el intercambio modal y qué significa «modo paralelo»",
+    "Reconocer los acordes prestados más comunes en mayor y en menor",
+    "Cifrar acordes prestados y tocar una cadencia ♭VI-♭VII-I en Do mayor"
+  ],
+  "objectivesEn": [
+    "Understand what modal mixture is and what “parallel mode” means",
+    "Recognise the most common borrowed chords in major and minor",
+    "Label borrowed chords and play a ♭VI-♭VII-I cadence in C major"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m5-07"
+  ],
+  "skillIds": [
+    "skill.modal-mixture"
+  ],
+  "exerciseIds": [
+    "ex.m5-08.a",
+    "ex.m5-08.b",
+    "ex.m5-08.c",
+    "ex.m5-08.d",
+    "ex.m5-08.e",
+    "ex.m5-08.f",
+    "ex.m5-08.g",
+    "ex.m5-08.h",
+    "ex.m5-08.i",
+    "ex.m5-08.j",
+    "ex.m5-08.k",
+    "ex.m5-08.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m5-08.intro",
+      "kind": "text",
+      "titleEs": "Qué es el intercambio modal",
+      "titleEn": "What modal mixture is",
+      "bodyEs": "El intercambio modal, también llamado préstamo modal, consiste en usar acordes del modo paralelo. El modo paralelo comparte la misma tónica pero cambia la escala: Do mayor y Do menor son paralelos porque las dos giran alrededor de Do. En una pieza en Do mayor podemos tomar prestado un Fa menor de Do menor, y en una pieza en Do menor podemos tomar prestado un Do mayor. No se cambia de tonalidad: se colorea la misma tónica con acordes del otro modo.",
+      "bodyEn": "Modal mixture, also called modal borrowing, means using chords from the parallel mode. The parallel mode shares the same tonic but changes the scale: C major and C minor are parallel because both revolve around C. In a piece in C major we can borrow an F minor from C minor, and in a piece in C minor we can borrow a C major. The key does not change: the same tonic is coloured with chords from the other mode."
+    },
+    {
+      "id": "sec.m5-08.prestados-mayor",
+      "kind": "text",
+      "titleEs": "Acordes prestados en mayor",
+      "titleEn": "Borrowed chords in major",
+      "bodyEs": "En mayor, los préstamos vienen del menor homónimo y suelen llevar un bemol en el cifrado. Los más frecuentes son iv (la subdominante menor), ♭VI (la submediante menor), ♭VII (la subtónica), ♭III (la mediante menor), ii° (el segundo grado disminuido) y v (la dominante menor, sin sensible). En Do mayor: Fa menor, La♭ mayor, Si♭ mayor, Mi♭ mayor, Re disminuido y Sol menor. El bemol indica que la nota se baja respecto del modo mayor original. En los cifrados de esta lección escribimos bVI, bVII y bIII con una b para representar el bemol (♭VI, ♭VII, ♭III).",
+      "bodyEn": "In major, the borrowed chords come from the parallel minor and usually carry a flat in their label. The most frequent are iv (the minor subdominant), ♭VI (the minor submediant), ♭VII (the subtonic), ♭III (the minor mediant), ii° (the diminished second degree) and v (the minor dominant, without a leading tone). In C major: F minor, A♭ major, B♭ major, E♭ major, D diminished and G minor. The flat shows that the note is lowered compared with the original major mode. In the labels of this lesson we write bVI, bVII and bIII with a b to represent the flat (♭VI, ♭VII, ♭III)."
+    },
+    {
+      "id": "sec.m5-08.contexto",
+      "kind": "text",
+      "titleEs": "Contexto y función",
+      "titleEn": "Context and function",
+      "bodyEs": "Los acordes prestados no aparecen al azar: cumplen una función dentro de la frase. El iv reemplaza al IV y hace el cierre plagal más oscuro: en Do, Fa menor-Do. El ♭VI y el ♭VII suelen encadenarse antes del I, como en La♭-Si♭-Do, un gesto muy usado en bandas sonoras y en el rock. El ♭III aparece como color de la relativa mayor del modo menor y el v rebaja la sensible y afloja la dominante. El efecto siempre es el mismo: la tónica sigue siendo la misma, pero la armonía se tiñe de menor.",
+      "bodyEn": "Borrowed chords do not appear at random: they fulfil a function inside the phrase. iv replaces IV and makes the plagal close darker: in C, F minor-C. ♭VI and ♭VII are often chained before I, as in A♭-B♭-C, a gesture widely used in film scores and rock. ♭III appears as the colour of the relative major of the minor mode and v lowers the leading tone and loosens the dominant. The effect is always the same: the tonic stays the same, but the harmony is tinged with minor."
+    },
+    {
+      "id": "sec.m5-08.prestamos-menor",
+      "kind": "text",
+      "titleEs": "Préstamos en menor",
+      "titleEn": "Borrowing in minor",
+      "bodyEs": "En menor el préstamo va en la otra dirección: se toma del mayor paralelo. El caso más conocido es la tercera de Picardía, el acorde de tónica mayor con el que termina una pieza en menor: en Do menor, un Do mayor final. También se prestan el IV mayor (en Do menor, Fa mayor) y el ii mayor o menor según el contexto. Estos acordes aclaran momentáneamente el modo y se usan para cerrar o para preparar un cambio de color.",
+      "bodyEn": "In minor the borrowing goes the other way: chords are taken from the parallel major. The best-known case is the Picardy third, the major tonic chord that ends a piece in minor: in C minor, a final C major. The major IV (in C minor, F major) is also borrowed, as are ii major or minor depending on context. These chords momentarily brighten the mode and are used to close or to prepare a change of colour."
+    },
+    {
+      "id": "sec.m5-08.demo-iv",
+      "kind": "score",
+      "titleEs": "Demo: iv-I en Do mayor",
+      "titleEn": "Demo: iv-I in C major",
+      "bodyEs": "Fa menor (Fa, La♭, Do) resuelve en Do mayor (Do, Mi, Sol). Es una cadencia plagal con el iv prestado: el La♭ baja a Sol y el Fa se mantiene en el bajo. El cierre suena más oscuro que el Fa-Do diatónico.",
+      "bodyEn": "F minor (F, A♭, C) resolves to C major (C, E, G). It is a plagal cadence with the borrowed iv: A♭ falls to G and F stays in the bass. The close sounds darker than the diatonic F-C.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "sec.m5-08.demo-iv-fm",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "A",
+                "accidental": "b",
+                "octave": 3
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-08.demo-iv-c",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-08.demo-bvi",
+      "kind": "score",
+      "titleEs": "Demo: ♭VI-♭VII-I en Do mayor",
+      "titleEn": "Demo: ♭VI-♭VII-I in C major",
+      "bodyEs": "La♭ mayor (La♭, Do, Mi♭), Si♭ mayor (Si♭, Re, Fa) y Do mayor (Do, Mi, Sol). El bajo sube por grados conjuntos y la tónica llega con un color inesperado. Es la cadencia cinematográfica por excelencia.",
+      "bodyEn": "A♭ major (A♭, C, E♭), B♭ major (B♭, D, F) and C major (C, E, G). The bass rises stepwise and the tonic arrives with an unexpected colour. It is the cinematic cadence par excellence.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "sec.m5-08.demo-bvi-ab",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "b",
+                "octave": 3
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "b",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 76,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-08.demo-bvi-bb",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "b",
+                "octave": 3
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-08.demo-bvi-c",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 84,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-08.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce acordes prestados para cifrar",
+      "titleEn": "Twelve borrowed chords to label",
+      "bodyEs": "Cada ejercicio te da una tonalidad mayor y un acorde que no pertenece al modo original. Elegí el número romano que le corresponde. Recorren las doce tonalidades y cubren iv, ♭VI, ♭VII, ♭III, ii° y v. Pensá primero qué nota se baja respecto de la escala mayor y después qué grado ocupa.",
+      "bodyEn": "Each exercise gives you a major key and a chord that does not belong to the original mode. Choose the Roman numeral that matches it. They cover all twelve keys and include iv, ♭VI, ♭VII, ♭III, ii° and v. First think which note is lowered compared with the major scale, then which degree it occupies."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca iv-I y ♭VI-♭VII-I en Do mayor",
+    "titleEn": "Play iv-I and ♭VI-♭VII-I in C major",
+    "instructionsEs": "Tocá con la mano derecha, un acorde por compás y a 60 BPM: Fa menor (iv), Do (I), La♭ (♭VI), Si♭ (♭VII) y Do (I). Antes de cada acorde, decí su cifrado. Escuchá cómo el La♭ y el Si♭ oscurecen el camino hacia Do sin cambiar la tónica.",
+    "instructionsEn": "Play with your right hand, one chord per bar at 60 BPM: F minor (iv), C (I), A♭ (♭VI), B♭ (♭VII) and C (I). Before each chord, say its label. Listen to how A♭ and B♭ darken the path to C without changing the tonic.",
+    "keys": [
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "A",
+        "accidental": "b",
+        "octave": 3
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "b",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "b",
+        "octave": 3
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "Mano derecha: 1-3-5 para las tríadas en estado fundamental. Mantené la muñeca suelta y buscá el movimiento mínimo entre Fa menor y Do; el Si♭ y el La♭ comparten notas con el acorde de Do.",
+    "fingeringEn": "Right hand: 1-3-5 for root-position triads. Keep the wrist loose and look for the smallest movement between F minor and C; B♭ and A♭ share notes with the C chord.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué los cinco acordes sin perder el pulso",
+      "Dije iv, I, ♭VI, ♭VII e I antes de cada acorde",
+      "Escuché el cambio de color sin cambiar la tónica"
+    ],
+    "checklistEn": [
+      "I played the five chords without losing the pulse",
+      "I said iv, I, ♭VI, ♭VII and I before each chord",
+      "I heard the change of colour without changing the tonic"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m5-08.iv",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "A",
+              "accidental": "b",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-08.i",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-08.bvi",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "b",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "b",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 76,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-08.bvii",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "b",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-08.i-final",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 84,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ex.m4-07.l",
+  "skillId": "skill.chord-notation",
+  "type": "chord-notation",
+  "promptEs": "Escribí el cifrado latino equivalente al cifrado americano A♭7.",
+  "promptEn": "Write the Latin chord symbol equivalent to the American chord A♭7.",
+  "explanationEs": "A♭7 se convierte en La♭7: A♭ pasa a La♭ y el 7 se mantiene.",
+  "explanationEn": "A♭7 becomes La♭7: A♭ becomes La♭ and the 7 is kept.",
+  "difficulty": 3,
+  "symbol": "A♭7",
+  "to": "do"
+}

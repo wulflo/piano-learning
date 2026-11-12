@@ -1,0 +1,377 @@
+{
+  "id": "ex.m7-11.i",
+  "skillId": "skill.lead-sheet",
+  "type": "accompaniment",
+  "promptEs": "Lead sheet en Fa mayor. ¿Qué shell voicing realiza el cifrado Dm7 del compás 2?",
+  "promptEn": "Lead sheet in F major. Which shell voicing realizes the Dm7 symbol in bar 2?",
+  "explanationEs": "La respuesta correcta es «Re3 + Do4 + Fa4». Dm7 se construye Re–Fa–La–Do; el shell deja Re3 abajo y las guías Do4 (séptima) y Fa4 (tercera) arriba. Si tocás Re–Fa–La tenés la tríada sin séptima; si tocás Re–La–Do omitís la tercera y el acorde pierde su carácter menor.",
+  "explanationEn": "The correct answer is “D3 + C4 + F4”. Dm7 is built from D–F–A–C; the shell leaves D3 at the bottom and the guide tones C4 (seventh) and F4 (third) above. If you play D–F–A you have the triad without the seventh; if you play D–A–C you omit the third and the chord loses its minor colour.",
+  "difficulty": 3,
+  "score": {
+    "clef": "treble",
+    "key": "F",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m7-11.i.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "F"
+      },
+      {
+        "id": "ex.m7-11.i.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-11.i.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-11.i.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-11.i.5",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "Dm7"
+      },
+      {
+        "id": "ex.m7-11.i.6",
+        "measure": 2,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-11.i.7",
+        "measure": 2,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-11.i.8",
+        "measure": 2,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-11.i.9",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "Gm7"
+      },
+      {
+        "id": "ex.m7-11.i.10",
+        "measure": 3,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-11.i.11",
+        "measure": 3,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-11.i.12",
+        "measure": 3,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-11.i.13",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "C7"
+      },
+      {
+        "id": "ex.m7-11.i.14",
+        "measure": 4,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-11.i.15",
+        "measure": 4,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-11.i.16",
+        "measure": 4,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "ask": "voicing",
+  "measure": 2,
+  "choices": [
+    "Re3 + Fa4 + La4",
+    "Re3 + Do4 + Mi4",
+    "Re3 + Do4 + Fa4",
+    "Re3 + Fa4 + Sol4"
+  ],
+  "choicesEn": [
+    "D3 + F4 + A4",
+    "D3 + C4 + E4",
+    "D3 + C4 + F4",
+    "D3 + F4 + G4"
+  ]
+}

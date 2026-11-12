@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-02.f",
+  "skillId": "skill.roman-numeral",
+  "type": "roman-numeral",
+  "promptEs": "En Mi menor natural, ¿qué numeral romano nombra el acorde Si disminuido (Si, Re, Fa)?",
+  "promptEn": "In E natural minor, which Roman numeral names the chord B diminished (B, D, F)?",
+  "explanationEs": "En Mi menor natural, Si es el segundo grado. Su tríada Si-Re-Fa tiene quinta disminuida, así que el numeral va en minúscula con °: ii°.",
+  "explanationEn": "In E natural minor, B is the second degree. Its triad B-D-F has a diminished fifth, so the numeral is lowercase with °: ii°.",
+  "difficulty": 3,
+  "key": "E",
+  "mode": "minor",
+  "numeral": "ii°",
+  "choices": [
+    "ii°",
+    "ii",
+    "iv"
+  ],
+  "choicesEn": [
+    "ii°",
+    "ii",
+    "iv"
+  ]
+}

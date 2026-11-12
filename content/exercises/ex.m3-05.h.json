@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-05.h",
+  "skillId": "skill.ear-interval",
+  "type": "ear-interval",
+  "promptEs": "¿Qué intervalo hay entre Sol4 y Do4 al escucharlos en forma descendente?",
+  "promptEn": "What interval is there between G4 and C4 when heard in descending form?",
+  "explanationEs": "Sol4 y Do4 están separados por una quinta justa también en su forma descendente: siete semitonos.",
+  "explanationEn": "G4 and C4 are a perfect fifth apart in descending form as well: seven semitones.",
+  "difficulty": 2,
+  "lower": { "step": "G", "accidental": "", "octave": 4 },
+  "upper": { "step": "C", "accidental": "", "octave": 4 },
+  "direction": "descending",
+  "choices": ["Quinta justa", "Cuarta justa", "Tercera mayor", "Sexta mayor"],
+  "choicesEn": ["Perfect fifth", "Perfect fourth", "Major third", "Major sixth"]
+}

@@ -1,0 +1,224 @@
+{
+  "id": "ex.m6-06.c",
+  "skillId": "skill.ornament",
+  "type": "ornament-execution",
+  "promptEs": "¿Qué adorno se ejecuta en esta realización?",
+  "promptEn": "Which ornament is played in this realisation?",
+  "explanationEs": "Las notas alternan la principal con la superior de forma rápida y vuelven a la principal. Esa alternancia repetida es el trino; no se limita a dos notas, sino que mantiene el giro mientras dura el adorno.",
+  "explanationEn": "The notes alternate the main note with the upper note quickly and return to the main note. That repeated alternation is the trill; it is not limited to two notes but keeps circling while the ornament lasts.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 76,
+    "events": [
+      {
+        "id": "ex.m6-06.c.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.c.2",
+        "measure": 1,
+        "beat": 0.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.c.3",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.c.4",
+        "measure": 1,
+        "beat": 1.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.c.5",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.c.6",
+        "measure": 1,
+        "beat": 2.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.c.7",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.c.8",
+        "measure": 1,
+        "beat": 3.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.c.9",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "ornament": "trill",
+  "choices": [
+    "Trino: alternar la nota principal con la superior",
+    "Mordente: bajar a la inferior y volver a la principal",
+    "Grupeto: superior, principal, inferior y principal",
+    "Apoyatura: apoyarse en la vecina antes de la principal"
+  ],
+  "choicesEn": [
+    "Trill: alternate the main note with the upper note",
+    "Mordent: drop to the lower note and return to the main note",
+    "Turn: upper, main, lower, main",
+    "Appoggiatura: lean on the neighbour before the main note"
+  ]
+}

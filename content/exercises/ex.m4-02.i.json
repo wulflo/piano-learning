@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-02.i",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada formada por La♭, Re♭ y Mi♭?",
+  "promptEn": "What quality does the triad made of Ab, Db and Eb have?",
+  "explanationEs": "Es una tríada suspendida 4, 1-4-5: La♭-Re♭ es una cuarta justa y Re♭-Mi♭ una segunda mayor. La cuarta ocupa el lugar de la tercera y resuelve bajando a ella, La♭-Do-Mi♭.",
+  "explanationEn": "It is a suspended 4 triad, 1-4-5: Ab-Db is a perfect fourth and Db-Eb a major second. The fourth takes the third's place and resolves down to it, Ab-C-Eb.",
+  "difficulty": 2,
+  "root": { "step": "A", "accidental": "b", "octave": 4 },
+  "quality": "sus4",
+  "inversion": 0,
+  "choices": ["disminuido", "aumentado", "suspendido 2", "suspendido 4"],
+  "choicesEn": ["diminished", "augmented", "suspended 2", "suspended 4"]
+}

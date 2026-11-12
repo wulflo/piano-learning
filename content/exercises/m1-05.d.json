@@ -1,0 +1,47 @@
+{
+  "id": "ex.m1-05.d",
+  "skillId": "skill.simple-meter",
+  "type": "rhythm-completion",
+  "promptEs": "En 2/4 hay dos corcheas. ¿Qué figura completa el compás?",
+  "explanationEs": "Las dos corcheas suman un tiempo. En 2/4 el compás tiene dos tiempos en total, así que falta una negra.",
+  "difficulty": 2,
+  "timeSignature": {
+    "numerator": 2,
+    "denominator": 4
+  },
+  "pattern": [
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 2,
+  "choices": [
+    "Corchea",
+    "Negra",
+    "Blanca",
+    "Semicorchea"
+  ],
+  "promptEn": "In 2/4 there are two eighth notes. Which note value completes the measure?",
+  "explanationEn": "The two eighth notes add up to one beat. In 2/4 the measure has two beats in total, so a quarter note is missing.",
+  "choicesEn": [
+    "Eighth note",
+    "Quarter note",
+    "Half note",
+    "Sixteenth note"
+  ]
+}

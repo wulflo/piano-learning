@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-04.c",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "El acorde formado por Mi, Sol, Si y Re, ¿qué calidad de séptima tiene?",
+  "promptEn": "The chord made of E, G, B and D has which seventh quality?",
+  "explanationEs": "Es un Mi m7, o séptima menor: 1-♭3-5-♭7. Tiene la tercera menor Mi-Sol y la séptima menor Mi-Re, diez semitonos.",
+  "explanationEn": "It is an Em7, or minor seventh: 1-♭3-5-♭7. It has the minor third E-G and the minor seventh E-D, ten semitones.",
+  "difficulty": 2,
+  "root": { "step": "E", "accidental": "", "octave": 4 },
+  "quality": "minor7",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["séptima mayor", "séptima de dominante", "séptima menor", "séptima semidisminuida", "séptima disminuida"],
+  "choicesEn": ["major seventh", "dominant seventh", "minor seventh", "half-diminished seventh", "diminished seventh"]
+}

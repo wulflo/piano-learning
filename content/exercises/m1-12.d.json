@@ -1,0 +1,28 @@
+{
+  "id": "ex.m1-12.d",
+  "skillId": "skill.italian-terms",
+  "type": "italian-term",
+  "promptEs": "¿Qué significa diminuendo?",
+  "explanationEs": "Diminuendo es un término de dinámica: pide disminuir la intensidad poco a poco, por ejemplo de fuerte a suave.",
+  "difficulty": 2,
+  "term": "diminuendo",
+  "category": "dynamics",
+  "meaningEs": "Disminuir la intensidad poco a poco",
+  "exampleEs": "Ir de fuerte a suave para cerrar una frase.",
+  "choices": [
+    "Disminuir la intensidad poco a poco",
+    "Aumentar la intensidad poco a poco",
+    "Acelerar el tempo",
+    "Conectar las notas"
+  ],
+  "promptEn": "What does diminuendo mean?",
+  "explanationEn": "Diminuendo is a dynamics term: it asks you to decrease loudness little by little, for example from loud to soft.",
+  "meaningEn": "Gradually get softer",
+  "exampleEn": "Go from loud to soft to close a phrase and return to calm.",
+  "choicesEn": [
+    "Gradually get softer",
+    "Gradually get louder",
+    "Speed the tempo up",
+    "Connect the notes"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex.m1-09.f",
+  "skillId": "skill.tempo",
+  "type": "tempo-stability",
+  "promptEs": "Repetí el ejercicio a 120 BPM durante 8 pulsos. ¿Qué significa mantener la estabilidad en un tempo más rápido?",
+  "explanationEs": "A 120 BPM la tolerancia es de ±4 BPM durante 8 pulsos: hay menos tiempo entre clics, así que conviene escuchar el metrónomo y no compensar los errores acelerando ni frenando.",
+  "difficulty": 2,
+  "targetBpm": 120,
+  "beats": 8,
+  "toleranceBpm": 4,
+  "promptEn": "Repeat the exercise at 120 BPM for 8 pulses. What does keeping steadiness mean at a faster tempo?",
+  "explanationEn": "At 120 BPM the tolerance is ±4 BPM during 8 pulses: there is less time between clicks, so it is best to listen to the metronome and not compensate for mistakes by speeding up or slowing down."
+}

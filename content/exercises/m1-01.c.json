@@ -1,0 +1,35 @@
+{
+  "id": "ex.m1-01.c",
+  "skillId": "skill.sound-parameters",
+  "type": "sound-parameter",
+  "promptEs": "Escuchá A y B. ¿Qué parámetro cambió?",
+  "promptEn": "Listen to A and B. Which parameter changed?",
+  "explanationEs": "B suena más fuerte que A: cambió la intensidad. La altura, la duración y el timbre se mantienen iguales.",
+  "explanationEn": "B sounds louder than A: the intensity changed. Pitch, duration, and timbre stay the same.",
+  "difficulty": 2,
+  "parameter": "intensity",
+  "exampleA": {
+    "midi": 60,
+    "beats": 1,
+    "velocity": 40,
+    "timbre": "piano"
+  },
+  "exampleB": {
+    "midi": 60,
+    "beats": 1,
+    "velocity": 110,
+    "timbre": "piano"
+  },
+  "choices": [
+    "Altura (agudo/grave)",
+    "Duración (corto/largo)",
+    "Intensidad (suave/fuerte)",
+    "Timbre (color del sonido)"
+  ],
+  "choicesEn": [
+    "Pitch (high/low)",
+    "Duration (short/long)",
+    "Intensity (soft/loud)",
+    "Timbre (sound color)"
+  ]
+}

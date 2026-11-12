@@ -1,0 +1,41 @@
+{
+  "id": "ex.m1-05.f",
+  "skillId": "skill.simple-meter",
+  "type": "rhythm-completion",
+  "promptEs": "En 4/4 ya hay una blanca. ¿Qué figura completa el compás?",
+  "explanationEs": "La blanca ocupa dos tiempos. Para completar los cuatro tiempos de 4/4 falta otra blanca.",
+  "difficulty": 1,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "pattern": [
+    {
+      "duration": "half",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "half",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 1,
+  "choices": [
+    "Redonda",
+    "Blanca",
+    "Negra",
+    "Corchea"
+  ],
+  "promptEn": "In 4/4 there is already a half note. Which note value completes the measure?",
+  "explanationEn": "The half note takes two beats. To complete the four beats of 4/4 another half note is missing.",
+  "choicesEn": [
+    "Whole note",
+    "Half note",
+    "Quarter note",
+    "Eighth note"
+  ]
+}

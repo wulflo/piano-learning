@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-04.k",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Si♭7 (séptima de dominante) de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of a Bb7 (dominant seventh) from low to high, separated by spaces.",
+  "explanationEs": "Si♭7 es 1-3-5-♭7: Si♭, Re, Fa y La♭. La tercera es Re, la quinta Fa y la séptima menor La♭, diez semitonos arriba de Si♭.",
+  "explanationEn": "Bb7 is 1-3-5-♭7: Bb, D, F and Ab. The third is D, the fifth F and the minor seventh Ab, ten semitones above Bb.",
+  "difficulty": 3,
+  "root": { "step": "B", "accidental": "b", "octave": 4 },
+  "quality": "dominant7",
+  "inversion": 0,
+  "ask": "notes"
+}

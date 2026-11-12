@@ -1,0 +1,30 @@
+{
+  "id": "ex.m7-10.i",
+  "skillId": "skill.ear-progression",
+  "type": "ear-progression",
+  "promptEs": "¿Qué grados forman la rueda de acordes que suena?",
+  "promptEn": "Which degrees form the chord wheel you hear?",
+  "explanationEs": "La rueda I–vi–ii–V en Do mayor es Do–Lam–Rem–Sol. Es la misma progresión que se repite en la demo y en la tarea.",
+  "explanationEn": "The I–vi–ii–V wheel in C major is C–Am–Dm–G. It is the same progression repeated in the demo and the task.",
+  "difficulty": 1,
+  "key": "C",
+  "mode": "major",
+  "degrees": [
+    "I",
+    "vi",
+    "ii",
+    "V"
+  ],
+  "choices": [
+    "I vi ii V",
+    "I IV V I",
+    "I V vi IV",
+    "ii V I vi"
+  ],
+  "choicesEn": [
+    "I vi ii V",
+    "I IV V I",
+    "I V vi IV",
+    "ii V I vi"
+  ]
+}

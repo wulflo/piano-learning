@@ -1,0 +1,20 @@
+{
+  "id": "ex.m2-11.a",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala cromática de Do?",
+  "promptEn": "How do you spell the C chromatic scale?",
+  "explanationEs": "La escala cromática de Do se deletrea con los doce semitonos posibles: Do, Do sostenido, Re, Re sostenido, Mi, Fa, Fa sostenido, Sol, Sol sostenido, La, La sostenido y Si, hasta volver al Do.",
+  "explanationEn": "The C chromatic scale is spelled with all twelve possible semitones: C, C♯, D, D♯, E, F, F♯, G, G♯, A, A♯, and B, until you return to C.",
+  "difficulty": 2,
+  "tonic": "C",
+  "mode": "chromatic",
+  "choices": [
+    "C C# D D# E F F# G G# A A# B C",
+    "C D Eb F G Ab Bb C"
+  ],
+  "choicesEn": [
+    "C C# D D# E F F# G G# A A# B C",
+    "C D Eb F G Ab Bb C"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ex.m1-12.c",
+  "skillId": "skill.italian-terms",
+  "type": "italian-term",
+  "promptEs": "¿Qué significa crescendo?",
+  "explanationEs": "Crescendo es un término de dinámica: pide aumentar la intensidad poco a poco, por ejemplo de suave a fuerte.",
+  "difficulty": 2,
+  "term": "crescendo",
+  "category": "dynamics",
+  "meaningEs": "Aumentar la intensidad poco a poco",
+  "exampleEs": "Ir de suave a fuerte en una misma frase.",
+  "choices": [
+    "Aumentar la intensidad poco a poco",
+    "Disminuir la intensidad poco a poco",
+    "Tocar corto y separado",
+    "Frenar el tempo"
+  ],
+  "promptEn": "What does crescendo mean?",
+  "explanationEn": "Crescendo is a dynamics term: it asks you to increase loudness little by little, for example from soft to loud.",
+  "meaningEn": "Gradually get louder",
+  "exampleEn": "Go from soft to loud within one phrase, without a sudden jump.",
+  "choicesEn": [
+    "Gradually get louder",
+    "Gradually get softer",
+    "Play short and separated",
+    "Slow the tempo down"
+  ]
+}

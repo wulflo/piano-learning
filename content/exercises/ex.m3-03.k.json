@@ -1,0 +1,17 @@
+{
+  "id": "ex.m3-03.k",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Escuchá el intervalo armónico y clasificalo según su función en la armonía tonal.",
+  "promptEn": "Listen to the harmonic interval and classify it by its function in tonal harmony.",
+  "explanationEs": "Si♭4-La♭5 es una séptima menor. En la armonía tonal es una disonancia que pide resolución, aunque en blues y jazz se usa como color estable.",
+  "explanationEn": "B♭4-A♭5 is a minor seventh. In tonal harmony it is a dissonance that asks for resolution, although in blues and jazz it is used as a stable colour.",
+  "difficulty": 2,
+  "lower": { "step": "B", "accidental": "b", "octave": 4 },
+  "upper": { "step": "A", "accidental": "b", "octave": 5 },
+  "direction": "harmonic",
+  "answer": "Disonancia",
+  "answerEn": "Dissonance",
+  "choices": ["Disonancia", "Depende del contexto", "Consonancia perfecta", "Consonancia imperfecta"],
+  "choicesEn": ["Dissonance", "Depends on context", "Perfect consonance", "Imperfect consonance"]
+}

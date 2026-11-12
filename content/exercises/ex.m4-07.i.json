@@ -1,0 +1,12 @@
+{
+  "id": "ex.m4-07.i",
+  "skillId": "skill.chord-notation",
+  "type": "chord-notation",
+  "promptEs": "Escribí el cifrado latino equivalente al cifrado americano B♭maj7/D.",
+  "promptEn": "Write the Latin chord symbol equivalent to the American chord B♭maj7/D.",
+  "explanationEs": "B♭maj7/D se convierte en Si♭maj7/Re: B♭ pasa a Si♭ y D a Re, manteniendo la maj7 y la barra.",
+  "explanationEn": "B♭maj7/D becomes Si♭maj7/Re: B♭ becomes Si♭ and D becomes Re, keeping the maj7 and the slash.",
+  "difficulty": 3,
+  "symbol": "B♭maj7/D",
+  "to": "do"
+}

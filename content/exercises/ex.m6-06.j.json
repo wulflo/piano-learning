@@ -1,0 +1,98 @@
+{
+  "id": "ex.m6-06.j",
+  "skillId": "skill.ornament",
+  "type": "ornament-execution",
+  "promptEs": "¿Qué adorno se ejecuta en esta realización?",
+  "promptEn": "Which ornament is played in this realisation?",
+  "explanationEs": "Suenan solo dos notas: primero la vecina, que se apoya y toma parte del valor, y después la principal, que resuelve el adorno. Esa apoyatura alarga la nota ajena antes de llegar a la nota real.",
+  "explanationEn": "Only two notes sound: first the neighbour, which leans and takes part of the value, and then the main note, which resolves the ornament. That appoggiatura lengthens the foreign note before reaching the real note.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 76,
+    "events": [
+      {
+        "id": "ex.m6-06.j.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.j.2",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.j.3",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "ornament": "appoggiatura",
+  "choices": [
+    "Trino: alternar la nota principal con la superior",
+    "Mordente: bajar a la inferior y volver a la principal",
+    "Grupeto: superior, principal, inferior y principal",
+    "Apoyatura: apoyarse en la vecina antes de la principal"
+  ],
+  "choicesEn": [
+    "Trill: alternate the main note with the upper note",
+    "Mordent: drop to the lower note and return to the main note",
+    "Turn: upper, main, lower, main",
+    "Appoggiatura: lean on the neighbour before the main note"
+  ]
+}

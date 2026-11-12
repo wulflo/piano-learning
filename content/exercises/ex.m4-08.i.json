@@ -1,0 +1,33 @@
+{
+  "id": "ex.m4-08.i",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre La♭4 y Do5?",
+  "promptEn": "What interval is there between Ab4 and C5?",
+  "explanationEs": "De La♭ a Do hay tres letras y cuatro semitonos: una tercera mayor.",
+  "explanationEn": "From Ab to C there are three letters and four semitones: a major third.",
+  "difficulty": 1,
+  "lower": {
+    "step": "A",
+    "accidental": "b",
+    "octave": 4
+  },
+  "upper": {
+    "step": "C",
+    "accidental": "",
+    "octave": 5
+  },
+  "direction": "harmonic",
+  "choices": [
+    "Tercera mayor",
+    "Tercera menor",
+    "Segunda mayor",
+    "Cuarta justa"
+  ],
+  "choicesEn": [
+    "Major third",
+    "Minor third",
+    "Major second",
+    "Perfect fourth"
+  ]
+}

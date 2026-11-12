@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-09.l",
+  "skillId": "skill.chord-symbol",
+  "type": "chord",
+  "promptEs": "El acorde suena Fa, La y Do, de grave a agudo. ¿Qué cifrado latino le corresponde?",
+  "promptEn": "The chord sounds F, A and C, from low to high. Which American chord symbol matches it?",
+  "explanationEs": "Fa es la fundamental; Fa-La es una tercera mayor y Fa-Do una quinta justa. Es una tríada mayor y el cifrado no lleva sufijo: Fa. En americano se escribe F.",
+  "explanationEn": "F is the root; F-A is a major third and F-C a perfect fifth. It is a major triad and the symbol has no suffix: F. In Latin notation it is written Fa.",
+  "difficulty": 1,
+  "root": { "step": "F", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": ["Fa", "Fam", "Fa7"],
+  "choicesEn": ["F", "Fm", "F7"]
+}

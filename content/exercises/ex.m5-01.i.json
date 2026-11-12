@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-01.i",
+  "skillId": "skill.diatonic-chords",
+  "type": "chord",
+  "promptEs": "En Fa menor, ¿qué cifrado tiene la tríada diatónica del grado v?",
+  "promptEn": "In F minor, what is the symbol of the diatonic triad on degree v?",
+  "explanationEs": "En Fa menor natural, el grado v se construye sobre Do: Do-Mi♭-Sol. La tercera Do-Mi♭ es menor y la quinta Do-Sol es justa, así que la tríada es menor y se cifra Dom. En la menor armónica ese mismo grado pasa a ser Do mayor.",
+  "explanationEn": "In F natural minor, degree v is built on C: C-E♭-G. The third C-E♭ is minor and the fifth C-G is perfect, so the triad is minor and its symbol is Cm. In harmonic minor that same degree becomes C major.",
+  "difficulty": 1,
+  "root": {
+    "step": "C",
+    "accidental": "",
+    "octave": 5
+  },
+  "quality": "minor",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Dom",
+    "Do",
+    "Do7",
+    "Domaj7"
+  ],
+  "choicesEn": [
+    "Cm",
+    "C",
+    "C7",
+    "Cmaj7"
+  ]
+}

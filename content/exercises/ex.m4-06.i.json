@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-06.i",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Si♭/Re de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of a Bb/D from low to high, separated by spaces.",
+  "explanationEs": "Si♭/Re es Si♭ mayor con Re en el bajo: Re-Fa-Si♭. Re es la tercera del acorde, así que es la primera inversión. En cifrado americano se escribe Bb/D.",
+  "explanationEn": "Bb/D is Bb major with D in the bass: D-F-Bb. D is the chord's third, so it is the first inversion. In American notation it is written Bb/D.",
+  "difficulty": 3,
+  "root": { "step": "B", "accidental": "b", "octave": 4 },
+  "quality": "major",
+  "slash": { "step": "D", "accidental": "", "octave": 4 },
+  "inversion": 1,
+  "ask": "notes"
+}

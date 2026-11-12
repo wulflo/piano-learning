@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-01.l",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de Re bemol mayor?",
+  "explanationEs": "Re bemol mayor se deletrea Db Eb F Gb Ab Bb C Db con el patrón T-T-S-T-T-T-S.",
+  "difficulty": 3,
+  "tonic": "Db",
+  "mode": "major",
+  "choices": [
+    "Db Eb F Gb Ab Bb C Db",
+    "Db Eb F G Ab Bb C Db",
+    "D E F G A B C D"
+  ],
+  "promptEn": "How do you spell the D flat major scale?",
+  "explanationEn": "D flat major is spelled Db Eb F Gb Ab Bb C Db with the W-W-H-W-W-W-H pattern.",
+  "choicesEn": [
+    "Db Eb F Gb Ab Bb C Db",
+    "Db Eb F G Ab Bb C Db",
+    "D E F G A B C D"
+  ]
+}

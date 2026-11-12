@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-03.i",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de Re menor suena La-Re-Fa, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The D minor chord sounds A-D-F, from low to high. What inversion is it?",
+  "explanationEs": "El acorde de Re menor es Re-Fa-La. El bajo es La, la quinta del acorde, así que está en segunda inversión: Re/La.",
+  "explanationEn": "The D minor chord is D-F-A. The bass is A, the chord's fifth, so it is in second inversion: D/A.",
+  "difficulty": 3,
+  "root": { "step": "D", "accidental": "", "octave": 4 },
+  "quality": "minor",
+  "inversion": 2,
+  "ask": "inversion",
+  "choices": ["estado fundamental", "primera inversión", "segunda inversión"],
+  "choicesEn": ["root position", "first inversion", "second inversion"]
+}

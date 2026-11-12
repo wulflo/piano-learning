@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-02.j",
+  "skillId": "skill.roman-numeral",
+  "type": "chord",
+  "promptEs": "En Fa mayor, ¿qué acorde forma el numeral ii?",
+  "promptEn": "In F major, which chord does the numeral ii form?",
+  "explanationEs": "El segundo grado de Fa mayor es Sol. Su tríada Sol-Si♭-Re es menor, así que el numeral ii corresponde al acorde Solm.",
+  "explanationEn": "The second degree of F major is G. Its triad G-B♭-D is minor, so the numeral ii corresponds to the chord Gm.",
+  "difficulty": 2,
+  "root": {
+    "step": "G",
+    "accidental": "",
+    "octave": 4
+  },
+  "quality": "minor",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Solm",
+    "Sol",
+    "Sol7",
+    "Solmaj7"
+  ],
+  "choicesEn": [
+    "Gm",
+    "G",
+    "G7",
+    "Gmaj7"
+  ]
+}

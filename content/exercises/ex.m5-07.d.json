@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-07.d",
+  "skillId": "skill.secondary-dominants",
+  "type": "secondary-dominant",
+  "promptEs": "En La mayor, ¿cómo se cifra el dominante secundario que resuelve en ii?",
+  "promptEn": "In A major, how is the secondary dominant that resolves to ii labelled?",
+  "explanationEs": "En La mayor, el dominante de ii es Fa♯7 y se cifra V/ii. Resuelve en Sim (ii): su tercera es la sensible de Sim y sube un semitono.",
+  "explanationEn": "In A major, the dominant of ii is F♯7 and it is labelled V/ii. It resolves to Bm (ii): its third is the leading tone of Bm and rises a semitone.",
+  "difficulty": 2,
+  "key": "A",
+  "mode": "major",
+  "target": 2,
+  "ask": "numeral",
+  "choices": [
+    "V/V",
+    "V/ii",
+    "V/vi",
+    "V/IV"
+  ],
+  "choicesEn": [
+    "V/V",
+    "V/ii",
+    "V/vi",
+    "V/IV"
+  ]
+}

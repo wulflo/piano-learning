@@ -1,0 +1,151 @@
+{
+  "id": "lesson.m2-07",
+  "moduleId": "M2",
+  "slug": "grados-y-funciones",
+  "titleEs": "Grados y funciones",
+  "titleEn": "Degrees and functions",
+  "summaryEs": "Cómo se numeran los grados de una escala, cómo se escriben con números romanos y qué funciones (tónica, subdominante, dominante) cumplen en la armonía.",
+  "summaryEn": "How the degrees of a scale are numbered, how they are written with Roman numerals, and what functions (tonic, subdominant, dominant) they fulfill in harmony.",
+  "objectivesEs": [
+    "Nombrar los grados I a VII de una escala con números romanos",
+    "Identificar las funciones tónica, subdominante y dominante",
+    "Construir los acordes diatónicos de los grados I, IV y V"
+  ],
+  "objectivesEn": [
+    "Name degrees I to VII of a scale with Roman numerals",
+    "Identify the tonic, subdominant, and dominant functions",
+    "Build the diatonic chords of degrees I, IV, and V"
+  ],
+  "minutes": 14,
+  "prerequisites": [
+    "lesson.m2-06"
+  ],
+  "skillIds": [
+    "skill.chord-quality",
+    "skill.major-scale",
+    "skill.ear-progression"
+  ],
+  "exerciseIds": [
+    "ex.m2-07.m",
+    "ex.m2-07.a",
+    "ex.m2-07.b",
+    "ex.m2-07.c",
+    "ex.m2-07.d",
+    "ex.m2-07.e",
+    "ex.m2-07.f",
+    "ex.m2-07.g",
+    "ex.m2-07.h",
+    "ex.m2-07.i",
+    "ex.m2-07.j",
+    "ex.m2-07.k",
+    "ex.m2-07.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m2-07.intro",
+      "kind": "text",
+      "titleEs": "Grados y números romanos",
+      "titleEn": "Degrees and Roman numerals",
+      "bodyEs": "Cada escala tiene siete grados numerados desde la tónica: el grado I es la tónica, el II la segunda, el III la tercera, el IV la cuarta, el V la quinta, el VI la sexta y el VII la séptima. Los grados se nombran con números romanos: I, II, III, IV, V, VI y VII cuando la calidad lo permite, y con minúscula cuando la calidad es menor, como el ii del segundo grado o el iv del subdominante. Los números romanos permiten nombrar cada grado sin ambigüedad y son la base para hablar de las funciones.",
+      "bodyEn": "Every scale has seven degrees numbered from the tonic: degree I is the tonic, II the second, III the third, IV the fourth, V the fifth, VI the sixth, and VII the seventh. Degrees are named with Roman numerals: I, II, III, IV, V, VI, and VII when the quality allows it, and in lowercase when the quality is minor, such as the ii of the second degree or the iv of the subdominant. Roman numerals let you name each degree without ambiguity and are the basis for talking about functions."
+    },
+    {
+      "id": "sec.m2-07.functions",
+      "kind": "text",
+      "titleEs": "Funciones: tónica, subdominante y dominante",
+      "titleEn": "Functions: tonic, subdominant, and dominant",
+      "bodyEs": "Los grados de una escala se agrupan en tres funciones musicales: la tónica, la subdominante y la dominante. La función tónica la cumplen los grados I, III y VI; la subdominante la cumple el IV (o el ii en menor); y la dominante la cumple el V (o el v en menor). La función dominante es la que resuelve la tonalidad: la armonía siempre espera el V para volver al tónico.",
+      "bodyEn": "The degrees of a scale are grouped into three musical functions: tonic, subdominant, and dominant. The tonic function is fulfilled by degrees I, III, and VI; the subdominant by IV (or ii in minor); and the dominant by V (or v in minor). The dominant function is what resolves the key: the harmony always waits for V to return to the tonic."
+    },
+    {
+      "id": "sec.m2-07.score",
+      "kind": "score",
+      "titleEs": "Acordes I y V en Do mayor",
+      "titleEn": "Chords I and V in C major",
+      "bodyEs": "El primer y el quinto grado de la escala de Do mayor: el acorde de Do mayor (I) y el acorde de Sol mayor (V), uno por compás en un compás de cuatro tiempos.",
+      "bodyEn": "The first and fifth degrees of the C major scale: the C major chord (I) and the G major chord (V), one per measure in a four-beat time signature.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m2-07.chord-i1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-07.chord-v1",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "", "octave": 4 },
+              { "step": "D", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m2-07.exercises",
+      "kind": "exercise",
+      "titleEs": "Romanos y funciones",
+      "titleEn": "Roman numerals and functions",
+      "bodyEs": "En los ejercicios se pregunta por el numeral romano de un grado y por la función que cumple, en diferentes tonalidades.",
+      "bodyEn": "The exercises ask for the Roman numeral of a degree and for the function it fulfills, in different keys."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca el primer grado: acorde de Do mayor",
+    "titleEn": "Play the first degree: C major chord",
+    "instructionsEs": "Tocá el primer grado de la escala de Do mayor: el acorde de Do mayor (Do, Mi, Sol) con la mano derecha a 60 BPM, primero arpegando despacio y después tocando el acorde completo.",
+    "instructionsEn": "Play the first degree of the C major scale: the C major chord (C, E, G) with your right hand at 60 BPM, first arpeggiating slowly and then playing the full chord.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: 1-3-5 para el acorde de Do mayor.",
+    "fingeringEn": "Right hand: 1-3-5 for the C major chord.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué las notas Do, Mi y Sol del acorde de Do mayor en orden",
+      "Mantuve la armonía del acorde sin apretar las teclas",
+      "Repetí el acorde despacio con pulso de negra"
+    ],
+    "checklistEn": [
+      "I played the notes C, E, and G of the C major chord in order",
+      "I kept the chord sounding even without pressing the keys hard",
+      "I repeated the chord slowly with a quarter-note pulse"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

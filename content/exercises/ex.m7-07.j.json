@@ -1,0 +1,376 @@
+{
+  "id": "ex.m7-07.j",
+  "skillId": "skill.walking-bass",
+  "type": "walking-bass",
+  "difficulty": 4,
+  "score": {
+    "clef": "bass",
+    "key": "Ab",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 72,
+    "events": [
+      {
+        "id": "ex.m7-07.j.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "b",
+            "octave": 2
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "A♭"
+      },
+      {
+        "id": "ex.m7-07.j.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-07.j.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-07.j.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-07.j.5",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "Fm"
+      },
+      {
+        "id": "ex.m7-07.j.6",
+        "measure": 2,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-07.j.7",
+        "measure": 2,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-07.j.8",
+        "measure": 2,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-07.j.9",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "B♭m"
+      },
+      {
+        "id": "ex.m7-07.j.10",
+        "measure": 3,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-07.j.11",
+        "measure": 3,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-07.j.12",
+        "measure": 3,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-07.j.13",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "E♭"
+      },
+      {
+        "id": "ex.m7-07.j.14",
+        "measure": 4,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-07.j.15",
+        "measure": 4,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-07.j.16",
+        "measure": 4,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "ask": "role",
+  "measure": 2,
+  "beat": 3,
+  "promptEs": "¿La nota del pulso 4 del compás 2 de La♭ mayor es una nota del acorde o una nota de paso?",
+  "promptEn": "Is the note on beat 4 of measure 2 in Ab major a chord tone or a passing tone?",
+  "explanationEs": "La nota Si3 no pertenece al acorde Fm (Fa4 La♭4 Do5); es una nota de paso que conduce al bajo Si♭3 del compás siguiente.",
+  "explanationEn": "The note B3 does not belong to the Fm chord (F4 Ab4 C5); it is a passing tone that leads to the bass Bb3 of the next measure.",
+  "choices": [
+    "Nota del acorde",
+    "Nota de paso",
+    "Nota pedal"
+  ],
+  "choicesEn": [
+    "Chord tone",
+    "Passing tone",
+    "Pedal tone"
+  ]
+}

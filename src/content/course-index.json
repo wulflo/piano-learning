@@ -1,0 +1,1549 @@
+{
+  "schemaVersion": 1,
+  "modules": [
+    {
+      "id": "M0",
+      "order": 0,
+      "titleEs": "Orientación",
+      "titleEn": "Orientation",
+      "summaryEs": "El teclado, las notas, la postura y una forma sana de practicar.",
+      "summaryEn": "The keyboard, notes, posture and a healthy way to practice.",
+      "optional": false,
+      "lessonIds": [
+        "lesson.m0-01",
+        "lesson.m0-02",
+        "lesson.m0-03",
+        "lesson.m0-04",
+        "lesson.m0-05",
+        "lesson.m0-06"
+      ]
+    },
+    {
+      "id": "M1",
+      "order": 1,
+      "titleEs": "Fundamentos",
+      "titleEn": "Fundamentals",
+      "summaryEs": "Pentagrama, ritmo, compases, dinámica y signos de la partitura.",
+      "summaryEn": "Staff, rhythm, meters, dynamics and score signs.",
+      "optional": false,
+      "lessonIds": [
+        "lesson.m1-01",
+        "lesson.m1-02",
+        "lesson.m1-03",
+        "lesson.m1-04",
+        "lesson.m1-05",
+        "lesson.m1-06",
+        "lesson.m1-07",
+        "lesson.m1-08",
+        "lesson.m1-09",
+        "lesson.m1-10",
+        "lesson.m1-11",
+        "lesson.m1-12"
+      ]
+    },
+    {
+      "id": "M2",
+      "order": 2,
+      "titleEs": "Escalas y tonalidades",
+      "titleEn": "Scales and keys",
+      "summaryEs": "Mayor, menores, modos, armaduras y círculo de quintas.",
+      "summaryEn": "Major, minor, modes, key signatures and the circle of fifths.",
+      "optional": false,
+      "lessonIds": [
+        "lesson.m2-01",
+        "lesson.m2-02",
+        "lesson.m2-03",
+        "lesson.m2-04",
+        "lesson.m2-05",
+        "lesson.m2-06",
+        "lesson.m2-07",
+        "lesson.m2-08",
+        "lesson.m2-09",
+        "lesson.m2-10",
+        "lesson.m2-11",
+        "lesson.m2-12"
+      ]
+    },
+    {
+      "id": "M3",
+      "order": 3,
+      "titleEs": "Intervalos",
+      "titleEn": "Intervals",
+      "summaryEs": "Distancia y calidad entre notas, inversión y oído.",
+      "summaryEn": "Distance and quality between notes, inversion and ear.",
+      "optional": false,
+      "lessonIds": [
+        "lesson.m3-01",
+        "lesson.m3-02",
+        "lesson.m3-03",
+        "lesson.m3-04",
+        "lesson.m3-05"
+      ]
+    },
+    {
+      "id": "M4",
+      "order": 4,
+      "titleEs": "Acordes",
+      "titleEn": "Chords",
+      "summaryEs": "Tríadas, séptimas, inversiones, extensiones y cifrado.",
+      "summaryEn": "Triads, sevenths, inversions, extensions and chord symbols.",
+      "optional": false,
+      "lessonIds": [
+        "lesson.m4-01",
+        "lesson.m4-02",
+        "lesson.m4-03",
+        "lesson.m4-04",
+        "lesson.m4-05",
+        "lesson.m4-06",
+        "lesson.m4-07",
+        "lesson.m4-08",
+        "lesson.m4-09",
+        "lesson.m4-10",
+        "lesson.m4-11",
+        "lesson.m4-12"
+      ]
+    },
+    {
+      "id": "M5",
+      "order": 5,
+      "titleEs": "Armonía funcional",
+      "titleEn": "Functional harmony",
+      "summaryEs": "Funciones, cadencias, progresiones, dominantes y modulación.",
+      "summaryEn": "Functions, cadences, progressions, dominants and modulation.",
+      "optional": false,
+      "lessonIds": [
+        "lesson.m5-01",
+        "lesson.m5-02",
+        "lesson.m5-03",
+        "lesson.m5-04",
+        "lesson.m5-05",
+        "lesson.m5-06",
+        "lesson.m5-07",
+        "lesson.m5-08",
+        "lesson.m5-09",
+        "lesson.m5-10",
+        "lesson.m5-11"
+      ]
+    },
+    {
+      "id": "M6",
+      "order": 6,
+      "titleEs": "Melodía, forma y textura",
+      "titleEn": "Melody, form and texture",
+      "summaryEs": "Motivo, frase, formas musicales, texturas y ornamentos.",
+      "summaryEn": "Motive, phrase, musical forms, textures and ornaments.",
+      "optional": false,
+      "lessonIds": [
+        "lesson.m6-01",
+        "lesson.m6-02",
+        "lesson.m6-03",
+        "lesson.m6-04",
+        "lesson.m6-05",
+        "lesson.m6-06"
+      ]
+    },
+    {
+      "id": "M7",
+      "order": 7,
+      "titleEs": "Técnica de teclado",
+      "titleEn": "Keyboard technique",
+      "summaryEs": "Independencia, arpegios, pedal, acompañamiento, lectura, lead sheets e improvisación.",
+      "summaryEn": "Independence, arpeggios, pedal, accompaniment, sight-reading, lead sheets and improvisation.",
+      "optional": false,
+      "lessonIds": [
+        "lesson.m7-01",
+        "lesson.m7-02",
+        "lesson.m7-03",
+        "lesson.m7-04",
+        "lesson.m7-05",
+        "lesson.m7-06",
+        "lesson.m7-07",
+        "lesson.m7-08",
+        "lesson.m7-09",
+        "lesson.m7-10",
+        "lesson.m7-11"
+      ]
+    },
+    {
+      "id": "M8",
+      "order": 8,
+      "titleEs": "Estilos",
+      "titleEn": "Styles",
+      "summaryEs": "Pop/rock, blues, jazz básico y ritmos latinos.",
+      "summaryEn": "Pop/rock, blues, basic jazz and Latin rhythms.",
+      "optional": true,
+      "lessonIds": [
+        "lesson.m8-01",
+        "lesson.m8-02",
+        "lesson.m8-03",
+        "lesson.m8-04"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson.m0-01",
+      "moduleId": "M0",
+      "slug": "teclado-grupos-de-negras",
+      "titleEs": "El teclado: grupos de dos y tres negras",
+      "titleEn": "The keyboard: groups of two and three black keys",
+      "summaryEs": "Ubicá el Do central sin contar tecla por tecla: alcanza con reconocer el patrón de dos y tres teclas negras.",
+      "summaryEn": "Find middle C without counting key by key: all it takes is recognizing the pattern of two and three black keys.",
+      "minutes": 8,
+      "prerequisites": [],
+      "skillIds": [
+        "skill.keyboard-groups",
+        "skill.note-names"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m0-02",
+      "moduleId": "M0",
+      "slug": "nombres-de-notas-y-octavas",
+      "titleEs": "Nombres de notas y octavas",
+      "titleEn": "Note names and octaves",
+      "summaryEs": "Do-Re-Mi y C-D-E nombran las mismas siete notas; el número de octava indica en qué registro está cada una.",
+      "summaryEn": "Solfège syllables and the letters C-D-E name the same seven notes; the octave number tells you which register each one is in.",
+      "minutes": 9,
+      "prerequisites": [
+        "lesson.m0-01"
+      ],
+      "skillIds": [
+        "skill.note-names",
+        "skill.octave-numbers",
+        "skill.note-staff"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m0-03",
+      "moduleId": "M0",
+      "slug": "postura-banco-y-digitacion",
+      "titleEs": "Postura, banco y digitación",
+      "titleEn": "Posture, bench and fingering",
+      "summaryEs": "Una postura cómoda y una mano relajada valen más que tocar rápido: el cuerpo sostiene el sonido, no la tensión.",
+      "summaryEn": "A comfortable posture and a relaxed hand are worth more than playing fast: your body carries the sound, not tension.",
+      "minutes": 10,
+      "prerequisites": [
+        "lesson.m0-02"
+      ],
+      "skillIds": [
+        "skill.posture"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m0-04",
+      "moduleId": "M0",
+      "slug": "como-practicar-metas-tiempo-error",
+      "titleEs": "Cómo practicar: metas, tiempo y error",
+      "titleEn": "How to practice: goals, time and error",
+      "summaryEs": "Practicar no es repetir hasta cansarse: es elegir una meta medible, darle un tiempo acotado y usar cada error como información.",
+      "summaryEn": "Practice is not repeating until you are tired: it is choosing a measurable goal, giving it a limited amount of time and using every mistake as information.",
+      "minutes": 10,
+      "prerequisites": [
+        "lesson.m0-03"
+      ],
+      "skillIds": [
+        "skill.practice-planning"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m0-05",
+      "moduleId": "M0",
+      "slug": "diagnostico-inicial-y-mapa-del-curso",
+      "titleEs": "Diagnóstico inicial y mapa del curso",
+      "titleEn": "Initial diagnostic and course map",
+      "summaryEs": "Ocho preguntas para orientarte y un mapa de M0 a M8. El resultado sugiere un punto de entrada, pero nunca bloquea el acceso.",
+      "summaryEn": "Eight questions to get your bearings and a map from M0 to M8. The result suggests a starting point, but it never blocks access.",
+      "minutes": 12,
+      "prerequisites": [
+        "lesson.m0-04"
+      ],
+      "skillIds": [
+        "skill.course-orientation"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m0-06",
+      "moduleId": "M0",
+      "slug": "practicar-sin-profesor-espejo-grabacion-y-tension",
+      "titleEs": "Practicar sin profesor: espejo, grabación y tensión",
+      "titleEn": "Practicing without a teacher: mirror, recording and tension",
+      "summaryEs": "Sin profesor al lado, el espejo y la grabación son tus ojos y oídos externos; una checklist de tensión evita convertir la práctica en una lesión.",
+      "summaryEn": "Without a teacher by your side, the mirror and recordings are your external eyes and ears; a tension checklist keeps practice from turning into an injury.",
+      "minutes": 11,
+      "prerequisites": [
+        "lesson.m0-05"
+      ],
+      "skillIds": [
+        "skill.self-observation"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m1-01",
+      "moduleId": "M1",
+      "slug": "altura-duracion-intensidad-y-timbre",
+      "titleEs": "Altura, duración, intensidad y timbre",
+      "titleEn": "Pitch, duration, intensity and timbre",
+      "summaryEs": "Todo sonido musical se describe con cuatro parámetros: qué tan agudo es, cuánto dura, qué tan fuerte suena y qué color tiene.",
+      "summaryEn": "Every musical sound is described by four parameters: how high or low it is, how long it lasts, how loud it sounds, and what color it has.",
+      "minutes": 12,
+      "prerequisites": [
+        "lesson.m0-06"
+      ],
+      "skillIds": [
+        "skill.sound-parameters"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m1-02",
+      "moduleId": "M1",
+      "slug": "pentagrama-claves-y-do-central",
+      "titleEs": "Pentagrama, claves y Do central",
+      "titleEn": "Staff, clefs and middle C",
+      "summaryEs": "El pentagrama tiene cinco líneas y cuatro espacios; la clave decide qué nota corresponde a cada posición y el Do central es el puente entre las dos claves.",
+      "summaryEn": "The staff has five lines and four spaces; the clef decides which note belongs to each position, and middle C is the bridge between the two clefs.",
+      "minutes": 12,
+      "prerequisites": [
+        "lesson.m1-01"
+      ],
+      "skillIds": [
+        "skill.note-staff"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m1-03",
+      "moduleId": "M1",
+      "slug": "alteraciones-enarmonia-tonos-y-semitonos",
+      "titleEs": "Alteraciones, enarmonía, tonos y semitonos",
+      "titleEn": "Accidentals, enharmony, tones and semitones",
+      "summaryEs": "Sostenidos y bemoles mueven una nota un semitono; dos semitonos forman un tono, y algunas notas tienen dos nombres para la misma tecla.",
+      "summaryEn": "Sharps and flats move a note by a semitone; two semitones make a tone, and some notes have two names for the same key.",
+      "minutes": 13,
+      "prerequisites": [
+        "lesson.m1-02"
+      ],
+      "skillIds": [
+        "skill.accidentals"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m1-04",
+      "moduleId": "M1",
+      "slug": "figuras-y-silencios",
+      "titleEs": "Figuras y silencios",
+      "titleEn": "Note values and rests",
+      "summaryEs": "Cada figura dura una fracción del compás y cada silencio dura lo mismo que su figura: aprender a contarlos es la base del ritmo.",
+      "summaryEn": "Each note value lasts a fraction of the measure and each rest lasts as long as its note: learning to count them is the foundation of rhythm.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m1-03"
+      ],
+      "skillIds": [
+        "skill.note-durations"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m1-05",
+      "moduleId": "M1",
+      "slug": "compases-simples",
+      "titleEs": "Compases simples",
+      "titleEn": "Simple meters",
+      "summaryEs": "El compás agrupa los pulsos y la indicación de compás dice cuántos entran y qué figura lleva el pulso; en 2/4, 3/4 y 4/4 el primer pulso se acentúa.",
+      "summaryEn": "Meter groups beats together, and the time signature tells you how many beats fit in each measure and which note value gets the beat; in 2/4, 3/4 and 4/4 the first beat is accented.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m1-04"
+      ],
+      "skillIds": [
+        "skill.simple-meter"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m1-06",
+      "moduleId": "M1",
+      "slug": "compases-compuestos",
+      "titleEs": "Compases compuestos",
+      "titleEn": "Compound meters",
+      "summaryEs": "En 6/8, 9/8 y 12/8 cada pulso es una negra con puntillo que se divide en tres corcheas; contar por grupos de tres es lo que cambia respecto de los compases simples.",
+      "summaryEn": "In 6/8, 9/8 and 12/8 each beat is a dotted quarter note divided into three eighth notes; counting in groups of three is what changes compared with simple meters.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m1-05"
+      ],
+      "skillIds": [
+        "skill.compound-meter"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m1-07",
+      "moduleId": "M1",
+      "slug": "puntillo-ligadura-tresillo",
+      "titleEs": "Puntillo, ligadura y tresillo",
+      "titleEn": "Dotted notes, ties and triplets",
+      "summaryEs": "El puntillo alarga una figura la mitad de su valor, la ligadura suma dos sonidos iguales y el tresillo agrupa tres figuras en el tiempo de dos.",
+      "summaryEn": "A dot lengthens a note by half its value, a tie adds two equal sounds together and a triplet fits three note values into the time of two.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m1-06"
+      ],
+      "skillIds": [
+        "skill.rhythm-variants"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m1-08",
+      "moduleId": "M1",
+      "slug": "sincopa-y-anacrusa",
+      "titleEs": "Síncopa y anacrusa",
+      "titleEn": "Syncopation and anacrusis",
+      "summaryEs": "La síncopa desplaza el acento hacia una parte débil y la anacrusa es un compás incompleto al inicio que se compensa al final.",
+      "summaryEn": "Syncopation shifts the accent onto a weak part, and an anacrusis is an incomplete measure at the start that is balanced at the end.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m1-07"
+      ],
+      "skillIds": [
+        "skill.syncopation"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m1-09",
+      "moduleId": "M1",
+      "slug": "tempo-y-metronomo",
+      "titleEs": "Tempo y metrónomo",
+      "titleEn": "Tempo and metronome",
+      "summaryEs": "El tempo es la velocidad de la música y se mide en BPM; los términos italianos lo describen y el metrónomo ayuda a mantenerlo estable.",
+      "summaryEn": "Tempo is the speed of music and is measured in BPM; Italian terms describe it and the metronome helps you keep it steady.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m1-08"
+      ],
+      "skillIds": [
+        "skill.tempo"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m1-10",
+      "moduleId": "M1",
+      "slug": "dinamica-y-articulacion",
+      "titleEs": "Dinámica y articulación",
+      "titleEn": "Dynamics and articulation",
+      "summaryEs": "La dinámica regula la intensidad de pp a ff y la articulación decide si las notas se conectan, se separan o se acentúan.",
+      "summaryEn": "Dynamics control loudness from pp to ff, and articulation decides whether notes connect, separate or are accented.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m1-09"
+      ],
+      "skillIds": [
+        "skill.dynamics-articulation"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m1-11",
+      "moduleId": "M1",
+      "slug": "repeticiones-da-capo-segno-coda",
+      "titleEs": "Repeticiones, da capo, segno y coda",
+      "titleEn": "Repeats, da capo, segno and coda",
+      "summaryEs": "Los signos de repetición y los saltos (da capo, dal segno y coda) indican en qué orden se leen las secciones de una partitura.",
+      "summaryEn": "Repeat signs and jumps (da capo, dal segno and coda) show the order in which the sections of a score are read.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m1-10"
+      ],
+      "skillIds": [
+        "skill.repeat-signs"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m1-12",
+      "moduleId": "M1",
+      "slug": "terminos-italianos",
+      "titleEs": "Términos italianos",
+      "titleEn": "Italian terms",
+      "summaryEs": "Veinte términos italianos de tempo, dinámica, articulación y carácter que aparecen en las partituras, con definiciones y ejemplos propios.",
+      "summaryEn": "Twenty Italian terms for tempo, dynamics, articulation and character that appear in scores, with definitions and original examples.",
+      "minutes": 16,
+      "prerequisites": [
+        "lesson.m1-11"
+      ],
+      "skillIds": [
+        "skill.italian-terms"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m2-01",
+      "moduleId": "M2",
+      "slug": "escala-mayor-y-armaduras",
+      "titleEs": "Escala mayor y armaduras",
+      "titleEn": "Major scale and key signatures",
+      "summaryEs": "Cómo construir la escala mayor con el patrón T-T-S-T-T-T-S, leer las armaduras de las doce tonalidades y deletrear con seguridad.",
+      "summaryEn": "How to build the major scale with the W-W-H-W-W-W-H pattern, read the key signatures of the twelve keys and spell them confidently.",
+      "minutes": 16,
+      "prerequisites": [
+        "lesson.m1-12"
+      ],
+      "skillIds": [
+        "skill.major-scale",
+        "skill.key-signature"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m2-02",
+      "moduleId": "M2",
+      "slug": "circulo-de-quintas",
+      "titleEs": "Círculo de quintas",
+      "titleEn": "Circle of fifths",
+      "summaryEs": "Cómo se relacionan las tonalidades del círculo de quintas, cómo crecen sus armaduras y qué relación tienen las tonalidades mayores con sus relativas menores.",
+      "summaryEn": "How the keys of the circle of fifths relate, how their key signatures grow and how major keys relate to their relative minors.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m2-01"
+      ],
+      "skillIds": [
+        "skill.key-signature"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m2-03",
+      "moduleId": "M2",
+      "slug": "relativas-y-homonimas",
+      "titleEs": "Relativas y homónimas",
+      "titleEn": "Relatives and homonyms",
+      "summaryEs": "Cómo se relacionan las tonalidades mayores con sus relativas menores y qué son las homónimas.",
+      "summaryEn": "How major keys relate to their relative minors and what parallel keys are.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m2-02"
+      ],
+      "skillIds": [
+        "skill.key-signature",
+        "skill.major-scale"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m2-04",
+      "moduleId": "M2",
+      "slug": "menor-natural",
+      "titleEs": "Menor natural",
+      "titleEn": "Natural minor",
+      "summaryEs": "El patrón del menor natural, las doce tonalidades menores y la comparación de su sonido con el de la mayor.",
+      "summaryEn": "The natural minor pattern, the twelve minor keys and how their sound compares with the major.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m2-03"
+      ],
+      "skillIds": [
+        "skill.major-scale"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m2-05",
+      "moduleId": "M2",
+      "slug": "menor-armonica",
+      "titleEs": "Menor armónica",
+      "titleEn": "Harmonic minor",
+      "summaryEs": "El menor armónico: cómo se eleva el séptimo grado y cómo cambia la ortografía respecto del menor natural.",
+      "summaryEn": "The harmonic minor scale: how the seventh degree is raised and how its spelling changes from natural minor.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m2-04"
+      ],
+      "skillIds": [
+        "skill.major-scale"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m2-06",
+      "moduleId": "M2",
+      "slug": "menor-melodic",
+      "titleEs": "Menor melódica",
+      "titleEn": "Melodic minor",
+      "summaryEs": "El menor melódico: la versión ascendente y descendente que adapta el menor natural con el séptimo o sexto grado elevado.",
+      "summaryEn": "The melodic minor scale: the ascending and descending forms that adapt natural minor by raising the sixth and seventh degrees.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m2-05"
+      ],
+      "skillIds": [
+        "skill.major-scale"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m2-07",
+      "moduleId": "M2",
+      "slug": "grados-y-funciones",
+      "titleEs": "Grados y funciones",
+      "titleEn": "Degrees and functions",
+      "summaryEs": "Cómo se numeran los grados de una escala, cómo se escriben con números romanos y qué funciones (tónica, subdominante, dominante) cumplen en la armonía.",
+      "summaryEn": "How the degrees of a scale are numbered, how they are written with Roman numerals, and what functions (tonic, subdominant, dominant) they fulfill in harmony.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m2-06"
+      ],
+      "skillIds": [
+        "skill.chord-quality",
+        "skill.major-scale",
+        "skill.ear-progression"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m2-08",
+      "moduleId": "M2",
+      "slug": "modos",
+      "titleEs": "Modos",
+      "titleEn": "Modes",
+      "summaryEs": "Los siete modos de la escala mayor, su patrón de semitonos y su color, con ejemplos y relativas.",
+      "summaryEn": "The seven modes of the major scale, their semitone pattern and their color, with examples and relatives.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m2-07"
+      ],
+      "skillIds": [
+        "skill.major-scale",
+        "skill.ear-scale"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m2-09",
+      "moduleId": "M2",
+      "slug": "pentatonicas",
+      "titleEs": "Pentatónicas",
+      "titleEn": "Pentatonic scales",
+      "summaryEs": "Las escalas pentatónicas mayores y menores: cinco notas, la omisión de grados y la creación de acordes y melodías con ellas.",
+      "summaryEn": "The major and minor pentatonic scales: five notes, the omission of degrees, and creating chords and melodies with them.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m2-08"
+      ],
+      "skillIds": [
+        "skill.major-scale"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m2-10",
+      "moduleId": "M2",
+      "slug": "escala-de-blues",
+      "titleEs": "Escala de blues",
+      "titleEn": "Blues scale",
+      "summaryEs": "La escala de blues: la fórmula de la menor pentatónica con el bemol de la quinta y sus doce tonalidades.",
+      "summaryEn": "The blues scale: the minor pentatonic formula with the lowered fifth and its twelve keys.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m2-09"
+      ],
+      "skillIds": [
+        "skill.major-scale",
+        "skill.ear-scale"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m2-11",
+      "moduleId": "M2",
+      "slug": "cromaticas-y-tonos-enteros",
+      "titleEs": "Cromática y tonos enteros",
+      "titleEn": "Chromatic and whole-tone",
+      "summaryEs": "Las escalas cromática y de tonos enteros: los doce semitonos y las seis notas equidistantes.",
+      "summaryEn": "The chromatic and whole-tone scales: the twelve semitones and the six evenly spaced notes.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m2-10"
+      ],
+      "skillIds": [
+        "skill.major-scale",
+        "skill.ear-scale"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m2-12",
+      "moduleId": "M2",
+      "slug": "digitacion-de-escalas",
+      "titleEs": "Digitación de escalas",
+      "titleEn": "Scale fingering",
+      "summaryEs": "Las reglas de pulgar y la digitación de las doce escalas mayores y doce menores.",
+      "summaryEn": "The thumb rules and the fingering of the twelve major and twelve minor scales.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m2-11"
+      ],
+      "skillIds": [
+        "skill.major-scale"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m3-01",
+      "moduleId": "M3",
+      "slug": "intervalos-cantidad-y-calidad",
+      "titleEs": "Intervalos: cantidad y calidad",
+      "titleEn": "Intervals: size and quality",
+      "summaryEs": "Cómo medir la distancia entre dos notas con dos datos: la cantidad de letras y la calidad en semitonos.",
+      "summaryEn": "How to measure the distance between two notes with two facts: the number of letters and the quality in semitones.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m2-12"
+      ],
+      "skillIds": [
+        "skill.interval-quality"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m3-02",
+      "moduleId": "M3",
+      "slug": "inversion-de-intervalos",
+      "titleEs": "Inversión de intervalos",
+      "titleEn": "Interval inversion",
+      "summaryEs": "Cómo dar vuelta un intervalo: los números suman nueve, las calidades se intercambian y las letras se conservan.",
+      "summaryEn": "How to turn an interval around: the numbers add up to nine, the qualities swap and the letters stay.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m3-01"
+      ],
+      "skillIds": [
+        "skill.interval-quality"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m3-03",
+      "moduleId": "M3",
+      "slug": "consonancia-y-disonancia",
+      "titleEs": "Consonancia y disonancia",
+      "titleEn": "Consonance and dissonance",
+      "summaryEs": "Cómo distinguir estabilidad y tensión en los intervalos sin reducir la música a una etiqueta de bueno o malo.",
+      "summaryEn": "How to tell stability and tension apart in intervals without reducing music to a good-or-bad label.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m3-02"
+      ],
+      "skillIds": [
+        "skill.interval-quality"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m3-04",
+      "moduleId": "M3",
+      "slug": "intervalos-en-contexto",
+      "titleEs": "Intervalos en contexto",
+      "titleEn": "Intervals in context",
+      "summaryEs": "Cómo cambia un intervalo según viva en una melodía, en un acorde o en un voicing concreto.",
+      "summaryEn": "How an interval changes depending on whether it lives in a melody, a chord or a specific voicing.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m3-03"
+      ],
+      "skillIds": [
+        "skill.interval-quality"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m3-05",
+      "moduleId": "M3",
+      "slug": "intervalos-de-oido",
+      "titleEs": "Intervalos de oído",
+      "titleEn": "Intervals by ear",
+      "summaryEs": "Cómo reconocés la extensión y la calidad de un intervalo escuchándolo, con entrenamiento de intervalos ascendentes, descendentes y armónicos.",
+      "summaryEn": "How to recognise an interval's size and quality by ear, with training on ascending, descending and harmonic intervals.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m3-04"
+      ],
+      "skillIds": [
+        "skill.ear-interval"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m4-01",
+      "moduleId": "M4",
+      "slug": "triadas-mayores-y-menores",
+      "titleEs": "Tríadas mayores y menores",
+      "titleEn": "Major and minor triads",
+      "summaryEs": "Cómo construir una tríada mayor o menor con la construcción 1-3-5 y cómo la tercera define la calidad de la tríada.",
+      "summaryEn": "How to build a major or minor triad with the 1-3-5 construction and how the third defines the triad's quality.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m3-05"
+      ],
+      "skillIds": [
+        "skill.chord-quality"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m4-02",
+      "moduleId": "M4",
+      "slug": "triadas-disminuidas-aumentadas-y-sus",
+      "titleEs": "Tríadas disminuidas, aumentadas y sus",
+      "titleEn": "Diminished, augmented and suspended triads",
+      "summaryEs": "Las otras tres familias de tríadas: disminuida (1-♭3-♭5), aumentada (1-3-♯5), suspendida 2 (1-2-5) y suspendida 4 (1-4-5), con su sonido y su contexto de uso.",
+      "summaryEn": "The other three triad families: diminished (1-♭3-♭5), augmented (1-3-♯5), suspended 2 (1-2-5) and suspended 4 (1-4-5), with their sound and context.",
+      "minutes": 18,
+      "prerequisites": [
+        "lesson.m4-01"
+      ],
+      "skillIds": [
+        "skill.chord-quality"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m4-03",
+      "moduleId": "M4",
+      "slug": "inversiones-y-voicings-basicos",
+      "titleEs": "Inversiones y voicings básicos",
+      "titleEn": "Inversions and basic voicings",
+      "summaryEs": "Cómo cambia el bajo al invertir una tríada, cómo se escribe con cifrado slash y cómo elegir entre un voicing cercano y uno abierto.",
+      "summaryEn": "How the bass changes when a triad is inverted, how slash notation writes it and how to choose between a close and an open voicing.",
+      "minutes": 18,
+      "prerequisites": [
+        "lesson.m4-02"
+      ],
+      "skillIds": [
+        "skill.chord-inversion"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m4-04",
+      "moduleId": "M4",
+      "slug": "septimas",
+      "titleEs": "Séptimas: maj7, 7, m7, m7♭5 y dim7",
+      "titleEn": "Sevenths: maj7, 7, m7, m7♭5 and dim7",
+      "summaryEs": "Las cinco calidades de acorde de séptima, su fórmula, su cifrado y el uso de cada una: séptima mayor, de dominante, menor, semidisminuida y disminuida.",
+      "summaryEn": "The five seventh-chord qualities, their formula, chord symbols and use: major, dominant, minor, half-diminished and diminished seventh.",
+      "minutes": 20,
+      "prerequisites": [
+        "lesson.m4-03"
+      ],
+      "skillIds": [
+        "skill.chord-seventh"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m4-05",
+      "moduleId": "M4",
+      "slug": "extensiones",
+      "titleEs": "Extensiones: 9, 11 y 13",
+      "titleEn": "Extensions: 9, 11 and 13",
+      "summaryEs": "La novena, la oncena y la trecena como tensiones del acorde: intervalos compuestos, séptima implícita, cifrado y omisiones habituales en los voicings.",
+      "summaryEn": "The ninth, eleventh and thirteenth as chord tensions: compound intervals, implied seventh, chord symbols and the omissions usual in voicings.",
+      "minutes": 20,
+      "prerequisites": [
+        "lesson.m4-04"
+      ],
+      "skillIds": [
+        "skill.chord-extension"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m4-06",
+      "moduleId": "M4",
+      "slug": "slash-chords",
+      "titleEs": "Slash chords: acordes con bajo especificado",
+      "titleEn": "Slash chords: chords with a specified bass",
+      "summaryEs": "El cifrado con barra: qué nota va en el bajo, la diferencia entre inversión y acorde híbrido, y cómo leer y construir slash chords en cifrado latino y americano.",
+      "summaryEn": "Slash notation: which note sits in the bass, the difference between an inversion and a hybrid chord, and how to read and build slash chords in Latin and American notation.",
+      "minutes": 18,
+      "prerequisites": [
+        "lesson.m4-05"
+      ],
+      "skillIds": [
+        "skill.chord-slash"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m4-07",
+      "moduleId": "M4",
+      "slug": "cifrado-latino-americano",
+      "titleEs": "Cifrado latino y americano",
+      "titleEn": "Latin and American chord notation",
+      "summaryEs": "La tabla completa de equivalencias entre el cifrado latino (Do, Re, Mi…) y el americano (C, D, E…), las alteraciones, los sufijos de calidad y la conversión de acordes con barra en los dos sentidos.",
+      "summaryEn": "The complete table of equivalences between Latin (Do, Re, Mi…) and American (C, D, E…) chord notation, accidentals, quality suffixes and two-way conversion of slash chords.",
+      "minutes": 18,
+      "prerequisites": [
+        "lesson.m4-06"
+      ],
+      "skillIds": [
+        "skill.chord-notation"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m4-08",
+      "moduleId": "M4",
+      "slug": "medir-intervalos",
+      "titleEs": "Medir intervalos",
+      "titleEn": "Measuring intervals",
+      "summaryEs": "Cómo medir la distancia entre dos notas con la cantidad de letras y la calidad en semitonos, en medición melódica y armónica, en las doce tónicas.",
+      "summaryEn": "How to measure the distance between two notes with the number of letters and the quality in semitones, in melodic and harmonic measurement, over the twelve tonics.",
+      "minutes": 18,
+      "prerequisites": [
+        "lesson.m4-07"
+      ],
+      "skillIds": [
+        "skill.interval-quality"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m4-09",
+      "moduleId": "M4",
+      "slug": "cifrado-a-notas-y-vuelta",
+      "titleEs": "Del cifrado a las notas y de las notas al cifrado",
+      "titleEn": "From chord symbols to notes and back",
+      "summaryEs": "Cómo leer un cifrado para construir sus notas y cómo resumir un acorde en un cifrado, en los dos sentidos, con tríadas y séptimas y en cifrado latino y americano.",
+      "summaryEn": "How to read a chord symbol to build its notes and how to sum up a chord as a symbol, in both directions, with triads and sevenths and in Latin and American notation.",
+      "minutes": 18,
+      "prerequisites": [
+        "lesson.m4-08"
+      ],
+      "skillIds": [
+        "skill.chord-symbol"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m4-10",
+      "moduleId": "M4",
+      "slug": "reconocer-calidad-de-acordes",
+      "titleEs": "Reconocer la calidad de un acorde",
+      "titleEn": "Recognizing chord quality",
+      "summaryEs": "Cómo distinguir las tríadas mayores, menores, disminuidas y aumentadas y las cinco séptimas por sus intervalos y de oído, con los pares que más se confunden.",
+      "summaryEn": "How to tell major, minor, diminished and augmented triads and the five sevenths apart by their intervals and by ear, with the pairs that are most often confused.",
+      "minutes": 18,
+      "prerequisites": [
+        "lesson.m4-09"
+      ],
+      "skillIds": [
+        "skill.chord-quality",
+        "skill.chord-seventh",
+        "skill.chord-quality-ear"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m4-11",
+      "moduleId": "M4",
+      "slug": "inversiones-y-bajo",
+      "titleEs": "Inversiones y bajo: construir el voicing desde abajo",
+      "titleEn": "Inversions and bass: building the voicing from the bottom",
+      "summaryEs": "Cómo el bajo decide la inversión de una tríada o una séptima, cómo construir un voicing desde un bajo dado y cómo comprobar que todas las notas del acorde están en su lugar.",
+      "summaryEn": "How the bass decides the inversion of a triad or a seventh chord, how to build a voicing from a given bass and how to check that every chord tone is in place.",
+      "minutes": 18,
+      "prerequisites": [
+        "lesson.m4-10"
+      ],
+      "skillIds": [
+        "skill.chord-inversion",
+        "skill.chord-slash"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m4-12",
+      "moduleId": "M4",
+      "slug": "extensiones-con-bajo",
+      "titleEs": "Extensiones con bajo: 9, 11 y 13 sobre un slash",
+      "titleEn": "Extensions with a bass: 9, 11 and 13 over a slash",
+      "summaryEs": "Cómo construir acordes de novena, oncena y trecena con un bajo indicado, cómo leer el cifrado con barra y cómo comprobar que el voicing conserva todas las tensiones y sube desde el bajo.",
+      "summaryEn": "How to build ninth, eleventh and thirteenth chords with a specified bass, how to read slash notation and how to check that the voicing keeps every tension and rises from the bass.",
+      "minutes": 20,
+      "prerequisites": [
+        "lesson.m4-11"
+      ],
+      "skillIds": [
+        "skill.chord-extension",
+        "skill.chord-slash"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m5-01",
+      "moduleId": "M5",
+      "slug": "acordes-diatonicos",
+      "titleEs": "Acordes diatónicos",
+      "titleEn": "Diatonic chords",
+      "summaryEs": "Cómo salen las tríadas y las séptimas de la escala, qué cualidad tiene cada grado en mayor y en menor, y cómo reconocerlas en las doce tonalidades.",
+      "summaryEn": "How triads and sevenths come from the scale, which quality each degree has in major and minor, and how to recognise them in all twelve keys.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m4-12"
+      ],
+      "skillIds": [
+        "skill.diatonic-chords"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m5-02",
+      "moduleId": "M5",
+      "slug": "numeros-romanos",
+      "titleEs": "Números romanos",
+      "titleEn": "Roman numerals",
+      "summaryEs": "Cómo se cifra cada grado con números romanos, qué mayúscula o minúscula le toca a cada cualidad y cómo leer el numeral en ambos sentidos.",
+      "summaryEn": "How each degree is labelled with Roman numerals, which case matches each quality, and how to read the numeral in both directions.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m5-01"
+      ],
+      "skillIds": [
+        "skill.roman-numeral"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m5-03",
+      "moduleId": "M5",
+      "slug": "funciones-t-s-d",
+      "titleEs": "Funciones T-S-D",
+      "titleEn": "T-S-D functions",
+      "summaryEs": "Cómo se agrupan los grados en tónica, subdominante y dominante, qué sensación aporta cada función y cómo clasificar un acorde por su papel en la tonalidad.",
+      "summaryEn": "How degrees group into tonic, subdominant and dominant, what feeling each function brings, and how to classify a chord by its role in the key.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m5-02"
+      ],
+      "skillIds": [
+        "skill.harmonic-function"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m5-04",
+      "moduleId": "M5",
+      "slug": "cadencias",
+      "titleEs": "Cadencias",
+      "titleEn": "Cadences",
+      "summaryEs": "Cómo termina una frase musical: la cadencia auténtica, la plagal, la semicadencia y la rota, qué grados usan y qué sensación deja cada una.",
+      "summaryEn": "How a musical phrase ends: the authentic, plagal, half and deceptive cadences, which degrees they use and what feeling each one leaves.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m5-03"
+      ],
+      "skillIds": [
+        "skill.cadence"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m5-05",
+      "moduleId": "M5",
+      "slug": "progresiones-comunes",
+      "titleEs": "Progresiones comunes",
+      "titleEn": "Common progressions",
+      "summaryEs": "Las dos progresiones que más se repiten en la música popular: I-V-vi-IV y ii-V-I, sus funciones, sus variantes y cómo transportarlas a las doce tonalidades.",
+      "summaryEn": "The two most repeated progressions in popular music: I-V-vi-IV and ii-V-I, their functions, their variants and how to transpose them to all twelve keys.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m5-04"
+      ],
+      "skillIds": [
+        "skill.common-progressions"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m5-06",
+      "moduleId": "M5",
+      "slug": "blues-de-12-compases",
+      "titleEs": "Blues de 12 compases",
+      "titleEn": "Twelve-bar blues",
+      "summaryEs": "La forma más importante del blues: doce compases en tres frases de cuatro, los acordes I7, IV7 y V7, la variante quick change y el blues menor.",
+      "summaryEn": "The most important blues form: twelve bars in three four-bar phrases, the I7, IV7 and V7 chords, the quick change and the minor blues.",
+      "minutes": 16,
+      "prerequisites": [
+        "lesson.m5-05"
+      ],
+      "skillIds": [
+        "skill.twelve-bar-blues"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m5-07",
+      "moduleId": "M5",
+      "slug": "dominantes-secundarias",
+      "titleEs": "Dominantes secundarias",
+      "titleEn": "Secondary dominants",
+      "summaryEs": "Cómo el V de otro grado toniciza un acorde: V/V y V/ii, su cifrado, la sensible que resuelve y su uso en las doce tonalidades.",
+      "summaryEn": "How the V of another degree tonicises a chord: V/V and V/ii, their notation, the leading tone that resolves and their use in all twelve keys.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m5-06"
+      ],
+      "skillIds": [
+        "skill.secondary-dominants"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m5-08",
+      "moduleId": "M5",
+      "slug": "intercambio-modal",
+      "titleEs": "Intercambio modal",
+      "titleEn": "Modal mixture",
+      "summaryEs": "Cómo tomar acordes prestados del modo paralelo: el iv, el ♭VI, el ♭VII y el ♭III en mayor, y el préstamo inverso en menor.",
+      "summaryEn": "How to borrow chords from the parallel mode: iv, ♭VI, ♭VII and ♭III in major, and the reverse borrowing in minor.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m5-07"
+      ],
+      "skillIds": [
+        "skill.modal-mixture"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m5-09",
+      "moduleId": "M5",
+      "slug": "modulacion-y-conduccion-de-voces",
+      "titleEs": "Modulación y conducción de voces",
+      "titleEn": "Modulation and voice leading",
+      "summaryEs": "Cómo cambiar de tonalidad con un acorde pivote y cómo mover las voces para que la armonía suene limpia y dirigida.",
+      "summaryEn": "How to change key with a pivot chord and how to move the voices so the harmony sounds clean and directed.",
+      "minutes": 16,
+      "prerequisites": [
+        "lesson.m5-08"
+      ],
+      "skillIds": [
+        "skill.modulation"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m5-10",
+      "moduleId": "M5",
+      "slug": "napolitana",
+      "titleEs": "La napolitana",
+      "titleEn": "The Neapolitan chord",
+      "summaryEs": "El acorde de subdominante rebajada (♭II), su escritura en primera inversión y su resolución hacia la dominante.",
+      "summaryEn": "The lowered subdominant chord (♭II), how it is written in first inversion and how it resolves to the dominant.",
+      "minutes": 12,
+      "optional": true,
+      "prerequisites": [
+        "lesson.m5-08"
+      ],
+      "skillIds": [
+        "skill.neapolitan"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m5-11",
+      "moduleId": "M5",
+      "slug": "sextas-aumentadas",
+      "titleEs": "Sextas aumentadas",
+      "titleEn": "Augmented sixth chords",
+      "summaryEs": "La sexta aumentada sobre el ♭VI, sus variantes italiana, francesa y alemana, y su resolución hacia la dominante.",
+      "summaryEn": "The augmented sixth built on ♭VI, its Italian, French and German variants, and how it resolves to the dominant.",
+      "minutes": 14,
+      "optional": true,
+      "prerequisites": [
+        "lesson.m5-08"
+      ],
+      "skillIds": [
+        "skill.augmented-sixth"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m6-01",
+      "moduleId": "M6",
+      "slug": "motivo-y-frase",
+      "titleEs": "Motivo y frase",
+      "titleEn": "Motive and phrase",
+      "summaryEs": "Reconocer la célula melódica más pequeña y la idea completa que construye, y segmentar una melodía en motivos y frases.",
+      "summaryEn": "Recognise the smallest melodic cell and the complete idea it builds, and segment a melody into motives and phrases.",
+      "minutes": 14,
+      "prerequisites": [
+        "lesson.m5-09"
+      ],
+      "skillIds": [
+        "skill.motive-phrase"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m6-02",
+      "moduleId": "M6",
+      "slug": "periodo-y-formas-binaria-ternaria",
+      "titleEs": "Período y forma binaria/ternaria",
+      "titleEn": "Period and binary/ternary form",
+      "summaryEs": "Cómo se responden antecedente y consecuente en un período y cómo reconocer las formas AB y ABA en melodías completas.",
+      "summaryEn": "How antecedent and consequent answer each other in a period, and how to recognise AB and ABA forms in complete melodies.",
+      "minutes": 16,
+      "prerequisites": [
+        "lesson.m6-01"
+      ],
+      "skillIds": [
+        "skill.musical-form"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m6-03",
+      "moduleId": "M6",
+      "slug": "rondo-y-sonata",
+      "titleEs": "Rondó y sonata",
+      "titleEn": "Rondo and sonata",
+      "summaryEs": "El rondó con su estribillo que vuelve y la forma sonata con exposición, desarrollo y recapitulación, dos grandes formas de la música clásica.",
+      "summaryEn": "The rondo with its recurring refrain and sonata form with exposition, development and recapitulation, two major forms of classical music.",
+      "minutes": 18,
+      "prerequisites": [
+        "lesson.m6-02"
+      ],
+      "skillIds": [
+        "skill.rondo-sonata"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m6-04",
+      "moduleId": "M6",
+      "slug": "texturas-monofonia-homofonia-polifonia",
+      "titleEs": "Texturas: monofonía, homofonía, polifonía",
+      "titleEn": "Textures: monophony, homophony, polyphony",
+      "summaryEs": "Cómo suena una sola línea melódica, una melodía con acordes y dos o más voces independientes, y cómo distinguirlas al escuchar.",
+      "summaryEn": "How a single melodic line, a melody with chords and two or more independent voices sound, and how to tell them apart by ear.",
+      "minutes": 16,
+      "prerequisites": [
+        "lesson.m6-03"
+      ],
+      "skillIds": [
+        "skill.texture"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m6-05",
+      "moduleId": "M6",
+      "slug": "contrapunto-basico",
+      "titleEs": "Contrapunto básico",
+      "titleEn": "Basic counterpoint",
+      "summaryEs": "Cómo se mueven dos voces independientes, qué es el movimiento paralelo, similar, contrario y oblicuo, y qué reglas simples evitan las quintas y octavas paralelas.",
+      "summaryEn": "How two independent voices move, what parallel, similar, contrary and oblique motion are, and which simple rules avoid parallel fifths and octaves.",
+      "minutes": 18,
+      "prerequisites": [
+        "lesson.m6-04"
+      ],
+      "skillIds": [
+        "skill.counterpoint"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m6-06",
+      "moduleId": "M6",
+      "slug": "ornamentos",
+      "titleEs": "Ornamentos",
+      "titleEn": "Ornaments",
+      "summaryEs": "Cómo se ejecutan el trino, el mordente, el grupeto y la apoyatura, qué símbolos los representan y cómo resolverlos sin romper el pulso.",
+      "summaryEn": "How to play the trill, mordent, turn and appoggiatura, which symbols represent them and how to resolve them without breaking the pulse.",
+      "minutes": 16,
+      "prerequisites": [
+        "lesson.m6-05"
+      ],
+      "skillIds": [
+        "skill.ornament"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m7-01",
+      "moduleId": "M7",
+      "slug": "independencia-de-manos",
+      "titleEs": "Independencia de manos",
+      "titleEn": "Hand independence",
+      "summaryEs": "Cómo separar el ataque de cada mano: estudiar por manos, sostener una mientras la otra se mueve y unir las dos sin tensión.",
+      "summaryEn": "How to separate each hand’s attack: practise hands alone, hold one while the other moves, and join both without tension.",
+      "minutes": 15,
+      "prerequisites": [
+        "lesson.m6-06"
+      ],
+      "skillIds": [
+        "skill.hand-independence"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m7-02",
+      "moduleId": "M7",
+      "slug": "arpegios-y-acordes-quebrados",
+      "titleEs": "Arpegios y acordes quebrados",
+      "titleEn": "Arpeggios and broken chords",
+      "summaryEs": "Cómo tocar las notas de un acorde en sucesión, con digitación estable en las doce tonalidades y un tempo que sube sin perder el pulso.",
+      "summaryEn": "How to play chord notes in succession, with stable fingering across all twelve keys and a tempo that rises without losing the pulse.",
+      "minutes": 18,
+      "prerequisites": [
+        "lesson.m7-01"
+      ],
+      "skillIds": [
+        "skill.arpeggio"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m7-03",
+      "moduleId": "M7",
+      "slug": "pedal",
+      "titleEs": "Pedal",
+      "titleEn": "Pedal",
+      "summaryEs": "Cómo usar el pedal de resonancia para unir sonidos sin mezclar armonías: pedal directo, pedal sincopado y cambios limpios guiados por el oído.",
+      "summaryEn": "How to use the sustain pedal to connect sounds without mixing harmonies: direct pedal, syncopated pedal and clean changes guided by the ear.",
+      "minutes": 16,
+      "prerequisites": [
+        "lesson.m7-02"
+      ],
+      "skillIds": [
+        "skill.pedal"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m7-04",
+      "moduleId": "M7",
+      "slug": "acompanamiento-en-bloque",
+      "titleEs": "Acompañamiento en bloque",
+      "titleEn": "Block accompaniment",
+      "summaryEs": "Cómo acompañar con acordes completos en negras y blancas, elegir un patrón y leer un lead sheet simple con cifrados.",
+      "summaryEn": "How to accompany with full chords in quarter and half notes, choose a pattern and read a simple lead sheet with chord symbols.",
+      "minutes": 17,
+      "prerequisites": [
+        "lesson.m7-03"
+      ],
+      "skillIds": [
+        "skill.accompaniment"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m7-05",
+      "moduleId": "M7",
+      "slug": "acompanamiento-arpegiado",
+      "titleEs": "Acompañamiento arpegiado",
+      "titleEn": "Arpeggiated accompaniment",
+      "summaryEs": "Cómo acompañar con patrones arpegiados de 3 y 4 notas en las doce tonalidades, mantener el tempo estable y tocar sin tensión.",
+      "summaryEn": "How to accompany with 3- and 4-note arpeggiated patterns in all twelve keys, keep a steady tempo and play without tension.",
+      "minutes": 18,
+      "prerequisites": [
+        "lesson.m7-04"
+      ],
+      "skillIds": [
+        "skill.arpeggiated-accompaniment"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m7-06",
+      "moduleId": "M7",
+      "slug": "alberti",
+      "titleEs": "Alberti",
+      "titleEn": "Alberti bass",
+      "summaryEs": "El bajo de Alberti: el patrón clásico 1-5-3-5 en corcheas, sus variantes y un ejemplo original para acompañar una melodía.",
+      "summaryEn": "The Alberti bass: the classic 1-5-3-5 eighth-note pattern, its variants and an original example for accompanying a melody.",
+      "minutes": 20,
+      "prerequisites": [
+        "lesson.m7-05"
+      ],
+      "skillIds": [
+        "skill.alberti"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m7-07",
+      "moduleId": "M7",
+      "slug": "walking-bass",
+      "titleEs": "Walking bass",
+      "titleEn": "Walking bass",
+      "summaryEs": "El walking bass: una línea de negras que camina por el acorde y las notas de paso, con swing básico y un ejemplo original para acompañar una melodía.",
+      "summaryEn": "The walking bass: a quarter-note line that walks through chord tones and passing tones, with a basic swing feel and an original example for accompanying a melody.",
+      "minutes": 20,
+      "prerequisites": [
+        "lesson.m7-06"
+      ],
+      "skillIds": [
+        "skill.walking-bass"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m7-08",
+      "moduleId": "M7",
+      "slug": "stride",
+      "titleEs": "Stride",
+      "titleEn": "Stride",
+      "summaryEs": "El stride: un bajo profundo y un acorde que se alternan en negras, con salto cómodo, tempo lento y un ejemplo original para acompañar una melodía.",
+      "summaryEn": "The stride: a deep bass note and a chord alternating in quarter notes, with a comfortable leap, slow tempo and an original example for accompanying a melody.",
+      "minutes": 20,
+      "prerequisites": [
+        "lesson.m7-07"
+      ],
+      "skillIds": [
+        "skill.stride"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m7-09",
+      "moduleId": "M7",
+      "slug": "lectura-a-primera-vista",
+      "titleEs": "Lectura a primera vista",
+      "titleEn": "Sight-reading",
+      "summaryEs": "La lectura a primera vista: el método por intervalos, cuatro niveles graduados y fragmentos generados para leer sin detenerse.",
+      "summaryEn": "Sight-reading: the interval method, four graduated levels and generated fragments to read without stopping.",
+      "minutes": 20,
+      "prerequisites": [
+        "lesson.m7-08"
+      ],
+      "skillIds": [
+        "skill.sight-reading"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m7-10",
+      "moduleId": "M7",
+      "slug": "tocar-de-oido-transposicion-improvisacion",
+      "titleEs": "Tocar de oído, transposición e improvisación",
+      "titleEn": "Playing by ear, transposition and improvisation",
+      "summaryEs": "Los cinco pasos para tocar de oído, la transposición por grados, la rueda de acordes I–vi–ii–V y la improvisación con tres notas.",
+      "summaryEn": "The five steps for playing by ear, transposition by degrees, the I–vi–ii–V chord wheel and improvisation with three notes.",
+      "minutes": 20,
+      "prerequisites": [
+        "lesson.m7-09"
+      ],
+      "skillIds": [
+        "skill.play-by-ear",
+        "skill.transposition",
+        "skill.ear-progression",
+        "skill.improvisation"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m7-11",
+      "moduleId": "M7",
+      "slug": "lead-sheets-y-cifrados",
+      "titleEs": "Lead sheets y cifrados",
+      "titleEn": "Lead sheets and chord symbols",
+      "summaryEs": "Cómo leer una melodía con cifrados, construir voicings de shell con fundamental, tercera y séptima, y acompañar una progresión desde una hoja principal.",
+      "summaryEn": "How to read a melody with chord symbols, build shell voicings with root, third and seventh, and accompany a progression from a lead sheet.",
+      "minutes": 19,
+      "prerequisites": [
+        "lesson.m7-10"
+      ],
+      "skillIds": [
+        "skill.lead-sheet"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m8-01",
+      "moduleId": "M8",
+      "slug": "pop-rock",
+      "titleEs": "Pop/rock",
+      "titleEn": "Pop/rock",
+      "summaryEs": "El backbeat, los patrones de acompañamiento en corcheas, negras y medio tiempo, y las progresiones I–V–vi–IV y vi–IV–I–V en un ejemplo original.",
+      "summaryEn": "The backbeat, eighth-note, quarter-note and half-time accompaniment patterns, and the I–V–vi–IV and vi–IV–I–V progressions in an original example.",
+      "minutes": 18,
+      "optional": true,
+      "prerequisites": [
+        "lesson.m7-11"
+      ],
+      "skillIds": [
+        "skill.pop-rock"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m8-02",
+      "moduleId": "M8",
+      "slug": "blues",
+      "titleEs": "Blues",
+      "titleEn": "Blues",
+      "summaryEs": "El shuffle, el comping y la escala de blues sobre una forma de 12 compases con el ejemplo original «Ruta azul».",
+      "summaryEn": "The shuffle, comping and blues scale over a 12-bar form with the original example “Blue Route”.",
+      "minutes": 19,
+      "optional": true,
+      "prerequisites": [
+        "lesson.m8-01"
+      ],
+      "skillIds": [
+        "skill.blues"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m8-03",
+      "moduleId": "M8",
+      "slug": "jazz-basico",
+      "titleEs": "Jazz básico",
+      "titleEn": "Basic jazz",
+      "summaryEs": "El swing, la cadencia ii–V–I y los voicings sobre el ejemplo original «Tren de medianoche».",
+      "summaryEn": "Swing, the ii–V–I cadence and voicings over the original example “Midnight Train”.",
+      "minutes": 20,
+      "optional": true,
+      "prerequisites": [
+        "lesson.m8-02"
+      ],
+      "skillIds": [
+        "skill.jazz"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lesson.m8-04",
+      "moduleId": "M8",
+      "slug": "ritmos-latinos",
+      "titleEs": "Ritmos latinos",
+      "titleEn": "Latin rhythms",
+      "summaryEs": "La bossa nova y el montuno de salsa sobre el bucle I–vi–ii–V y el ejemplo original «Calle de coral».",
+      "summaryEn": "Bossa nova and salsa montuno over the I–vi–ii–V loop and the original example “Coral Street”.",
+      "minutes": 20,
+      "optional": true,
+      "prerequisites": [
+        "lesson.m8-03"
+      ],
+      "skillIds": [
+        "skill.latin"
+      ],
+      "status": "published"
+    }
+  ]
+}

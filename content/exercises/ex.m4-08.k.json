@@ -1,0 +1,33 @@
+{
+  "id": "ex.m4-08.k",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Mi♭4 y La4?",
+  "promptEn": "What interval is there between Eb4 and A4?",
+  "explanationEs": "De Mi♭ a La hay cuatro letras y seis semitonos: una cuarta aumentada. Es aumentada porque la cuarta justa tiene cinco semitonos y aquí hay seis.",
+  "explanationEn": "From Eb to A there are four letters and six semitones: an augmented fourth. It is augmented because the perfect fourth has five semitones and here there are six.",
+  "difficulty": 3,
+  "lower": {
+    "step": "E",
+    "accidental": "b",
+    "octave": 4
+  },
+  "upper": {
+    "step": "A",
+    "accidental": "",
+    "octave": 4
+  },
+  "direction": "harmonic",
+  "choices": [
+    "Cuarta aumentada",
+    "Cuarta justa",
+    "Cuarta disminuida",
+    "Tercera mayor"
+  ],
+  "choicesEn": [
+    "Augmented fourth",
+    "Perfect fourth",
+    "Diminished fourth",
+    "Major third"
+  ]
+}

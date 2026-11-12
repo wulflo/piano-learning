@@ -1,0 +1,58 @@
+{
+  "id": "ex.m1-04.j",
+  "skillId": "skill.note-durations",
+  "type": "rhythm-dictation",
+  "promptEs": "Escuchá el compás de 4/4 y elegí la secuencia de duraciones que corresponde.",
+  "promptEn": "Listen to the 4/4 measure and choose the sequence of durations that matches.",
+  "explanationEs": "El patrón tiene cuatro corcheas seguidas y una blanca: 0,5 + 0,5 + 0,5 + 0,5 + 2 = 4 tiempos. Las corcheas ocupan los dos primeros tiempos y la blanca los dos últimos.",
+  "explanationEn": "The pattern has four eighth notes in a row and a half note: 0.5 + 0.5 + 0.5 + 0.5 + 2 = 4 beats. The eighth notes take the first two beats and the half note the last two.",
+  "difficulty": 2,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "pattern": [
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "half",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "choices": [
+    "Corchea, Corchea, Corchea, Corchea, Blanca",
+    "Corchea, Corchea, Negra, Corchea, Blanca",
+    "Negra, Corchea, Corchea, Corchea, Blanca",
+    "Corchea, Corchea, Corchea, Negra, Negra"
+  ],
+  "choicesEn": [
+    "Eighth note, Eighth note, Eighth note, Eighth note, Half note",
+    "Eighth note, Eighth note, Quarter note, Eighth note, Half note",
+    "Quarter note, Eighth note, Eighth note, Eighth note, Half note",
+    "Eighth note, Eighth note, Eighth note, Quarter note, Quarter note"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "ex.m8-02.i",
+  "skillId": "skill.blues",
+  "type": "style-pattern",
+  "promptEs": "Blues en C. ¿Qué escala suena en el fragmento?",
+  "promptEn": "Blues in C. Which scale sounds in the fragment?",
+  "explanationEs": "La respuesta correcta es «Escala de blues». El fragmento usa Do, Mi♭, Fa, Sol♭, Sol, Si♭ y Do: seis clases de altura con tres notas azules (Mi♭, Sol♭ y Si♭). La tercera menor y la séptima bemol le dan su carácter; la quinta disminuida (Sol♭) es la blue note más inestable y debe resolver a Fa o Sol.",
+  "explanationEn": "The correct answer is “Blues scale”. The fragment uses C, Eb, F, Gb, G, Bb and C: six pitch classes with three blue notes (Eb, Gb and Bb). The minor third and the flat seventh give it its character; the diminished fifth (Gb) is the most unstable blue note and should resolve to F or G.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 92,
+    "events": [
+      {
+        "id": "ex.m8-02.i.0",
+        "measure": 1,
+        "beat": 0.0,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.i.1",
+        "measure": 1,
+        "beat": 0.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.i.2",
+        "measure": 1,
+        "beat": 1.0,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.i.3",
+        "measure": 1,
+        "beat": 1.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.i.4",
+        "measure": 1,
+        "beat": 2.0,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.i.5",
+        "measure": 1,
+        "beat": 2.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.i.6",
+        "measure": 1,
+        "beat": 3.0,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "style": "blues",
+  "ask": "scale",
+  "measure": 1,
+  "choices": [
+    "Escala de blues",
+    "Pentatónica mayor",
+    "Pentatónica menor",
+    "Mixolidia"
+  ],
+  "choicesEn": [
+    "Blues scale",
+    "Major pentatonic",
+    "Minor pentatonic",
+    "Mixolydian"
+  ]
+}

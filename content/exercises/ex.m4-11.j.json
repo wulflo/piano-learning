@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-11.j",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "Escribí las notas de Mi♭maj7/Sol de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of E♭maj7/G from low to high, separated by spaces.",
+  "explanationEs": "Sol es la tercera de Mi♭maj7, así que el acorde está en primera inversión: Sol-Si♭-Re-Mi♭. El bajo Sol es la nota más grave y la fundamental Mi♭ queda arriba.",
+  "explanationEn": "G is the third of E♭maj7, so the chord is in first inversion: G-B♭-D-E♭. The bass G is the lowest note and the root E♭ sits on top.",
+  "difficulty": 2,
+  "root": { "step": "E", "accidental": "b", "octave": 4 },
+  "quality": "major7",
+  "slash": { "step": "G", "accidental": "", "octave": 4 },
+  "inversion": 1,
+  "ask": "notes"
+}

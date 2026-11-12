@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-07.h",
+  "skillId": "skill.secondary-dominants",
+  "type": "secondary-dominant",
+  "promptEs": "En Re♭ mayor, ¿cómo se cifra el dominante secundario que resuelve en ii?",
+  "promptEn": "In D♭ major, how is the secondary dominant that resolves to ii labelled?",
+  "explanationEs": "En Re♭ mayor, el dominante de ii es Si♭7 y se cifra V/ii. Resuelve en Mi♭m (ii): su tercera es la sensible de Mi♭m y sube un semitono.",
+  "explanationEn": "In D♭ major, the dominant of ii is B♭7 and it is labelled V/ii. It resolves to E♭m (ii): its third is the leading tone of E♭m and rises a semitone.",
+  "difficulty": 3,
+  "key": "Db",
+  "mode": "major",
+  "target": 2,
+  "ask": "numeral",
+  "choices": [
+    "V/V",
+    "V/vi",
+    "V/IV",
+    "V/ii"
+  ],
+  "choicesEn": [
+    "V/V",
+    "V/vi",
+    "V/IV",
+    "V/ii"
+  ]
+}

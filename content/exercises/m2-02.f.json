@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-02.f",
+  "skillId": "skill.key-signature",
+  "type": "key-signature",
+  "promptEs": "¿Cuántas notas alteradas tiene la armadura de Si mayor?",
+  "explanationEs": "La escala de Si mayor altera cinco notas con sostenidos: Fa, Do, Sol, Re y La sostenidos.",
+  "difficulty": 2,
+  "key": "B",
+  "mode": "major",
+  "choices": [
+    "5 sostenidos",
+    "4 sostenidos",
+    "Sin alteraciones"
+  ],
+  "promptEn": "How many altered notes does the key signature of B major have?",
+  "explanationEn": "The B major scale alters five notes with sharps: F, C, G, D and A sharp.",
+  "choicesEn": [
+    "5 sharps",
+    "4 sharps",
+    "No accidentals"
+  ]
+}

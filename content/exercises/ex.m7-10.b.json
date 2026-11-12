@@ -1,0 +1,122 @@
+{
+  "id": "ex.m7-10.b",
+  "skillId": "skill.play-by-ear",
+  "type": "ear-melody",
+  "promptEs": "Escuchá la melodía oculta. ¿Qué intervalo hay entre la primera y la cuarta nota del fragmento?",
+  "promptEn": "Listen to the hidden melody. What interval is between the first and fourth note of the fragment?",
+  "explanationEs": "La respuesta correcta es «quinta justa». La primera nota es Sol4 y la cuarta es Re5. El intervalo es quinta justa (7 semitonos): contá las líneas y los espacios que separan las dos notas y después ajustá la distancia real. Para fijarla de oído, cantá la melodía antes de responder y volvé a escucharla después de ver la partitura revelada.",
+  "explanationEn": "The correct answer is “perfect fifth”. The first note is G4 and the fourth is D5. The interval is perfect fifth (7 semitones): count the lines and spaces between the two notes and then check the actual distance. To fix it by ear, sing the melody before answering and listen again after the revealed score appears.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "G",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m7-10.b.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-10.b.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-10.b.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-10.b.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "ask": "interval",
+  "from": 0,
+  "to": 3,
+  "choices": [
+    "quinta justa",
+    "cuarta aumentada",
+    "sexta menor",
+    "cuarta justa"
+  ],
+  "choicesEn": [
+    "perfect fifth",
+    "augmented fourth",
+    "minor sixth",
+    "major sixth"
+  ]
+}

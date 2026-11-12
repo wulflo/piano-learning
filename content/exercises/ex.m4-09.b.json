@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-09.b",
+  "skillId": "skill.chord-symbol",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Rem de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of a Dm chord from low to high, separated by spaces.",
+  "explanationEs": "Rem es una tríada menor: 1-♭3-5, Re-Fa-La. La m minúscula del cifrado baja la tercera un semitono. En cifrado americano se escribe Dm.",
+  "explanationEn": "Dm is a minor triad: 1-♭3-5, D-F-A. The lowercase m in the symbol lowers the third by a semitone. In Latin notation it is written Rem.",
+  "difficulty": 1,
+  "root": { "step": "D", "accidental": "", "octave": 4 },
+  "quality": "minor",
+  "inversion": 0,
+  "ask": "notes"
+}

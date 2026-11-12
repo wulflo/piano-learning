@@ -1,0 +1,312 @@
+{
+  "id": "lesson.m5-01",
+  "moduleId": "M5",
+  "slug": "acordes-diatonicos",
+  "titleEs": "Acordes diatónicos",
+  "titleEn": "Diatonic chords",
+  "summaryEs": "Cómo salen las tríadas y las séptimas de la escala, qué cualidad tiene cada grado en mayor y en menor, y cómo reconocerlas en las doce tonalidades.",
+  "summaryEn": "How triads and sevenths come from the scale, which quality each degree has in major and minor, and how to recognise them in all twelve keys.",
+  "objectivesEs": [
+    "Reconocer las tríadas y séptimas diatónicas de la escala mayor y de la menor natural",
+    "Distinguir las cualidades de cada grado y el efecto de la menor armónica en V7 y vii°7",
+    "Construir y escuchar acordes diatónicos en las doce tonalidades y tocar Imaj7-V7 en Do"
+  ],
+  "objectivesEn": [
+    "Recognise the diatonic triads and sevenths of the major and natural minor scales",
+    "Tell each degree's quality apart and understand the effect of harmonic minor on V7 and vii°7",
+    "Build and hear diatonic chords in all twelve keys and play Imaj7-V7 in C"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m4-12"
+  ],
+  "skillIds": [
+    "skill.diatonic-chords"
+  ],
+  "exerciseIds": [
+    "ex.m5-01.a",
+    "ex.m5-01.b",
+    "ex.m5-01.c",
+    "ex.m5-01.d",
+    "ex.m5-01.e",
+    "ex.m5-01.f",
+    "ex.m5-01.g",
+    "ex.m5-01.h",
+    "ex.m5-01.i",
+    "ex.m5-01.j",
+    "ex.m5-01.k",
+    "ex.m5-01.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m5-01.intro",
+      "kind": "text",
+      "titleEs": "Qué hace diatónico a un acorde",
+      "titleEn": "What makes a chord diatonic",
+      "bodyEs": "Un acorde es diatónico cuando todas sus notas pertenecen a la escala de la tonalidad. Se construye apilando terceras sobre cada grado: la fundamental, la tercera, la quinta y, si agregamos otra tercera, la séptima. En mayor, la tríada del grado I es mayor, la del ii menor, la del iii menor, la del IV mayor, la del V mayor, la del vi menor y la del vii disminuida. En menor natural cambian las cualidades, pero la idea es la misma: el acorde sale de la escala, no de una nota prestada. En esta lección vas a reconocer esas tríadas y sus séptimas en las doce tonalidades.",
+      "bodyEn": "A chord is diatonic when all of its notes belong to the key's scale. It is built by stacking thirds on each degree: the root, the third, the fifth and, if we add another third, the seventh. In major, the triad on degree I is major, on ii minor, on iii minor, on IV major, on V major, on vi minor and on vii diminished. Natural minor changes the qualities, but the idea is the same: the chord comes from the scale, not from a borrowed note. In this lesson you will recognise those triads and their sevenths in all twelve keys."
+    },
+    {
+      "id": "sec.m5-01.mayor",
+      "kind": "text",
+      "titleEs": "Las tríadas y séptimas de la mayor",
+      "titleEn": "Triads and sevenths in major",
+      "bodyEs": "Sobre la escala mayor, las tríadas diatónicas son I, ii, iii, IV, V, vi y vii°. Sus cualidades son mayor, menor, menor, mayor, mayor, menor y disminuida. Si apilamos una tercera más, aparecen las séptimas: Imaj7, ii7, iii7, IVmaj7, V7, vi7 y viiø7. La séptima de dominante del V7 es la que pide resolver a la tónica; la viiø7 es semidisminuida porque tiene quinta disminuida y séptima menor. Ejemplo en Do: Do, Rem, Mim, Fa, Sol, Lam y Si°; con séptimas, Domaj7, Rem7, Mim7, Famaj7, Sol7, Lam7 y Siø7.",
+      "bodyEn": "On the major scale, the diatonic triads are I, ii, iii, IV, V, vi and vii°. Their qualities are major, minor, minor, major, major, minor and diminished. Stacking one more third gives the sevenths: Imaj7, ii7, iii7, IVmaj7, V7, vi7 and viiø7. The V7's dominant seventh wants to resolve to the tonic; viiø7 is half-diminished because it has a diminished fifth and a minor seventh. Example in C: C, Dm, Em, F, G, Am and B°; with sevenths, Cmaj7, Dm7, Em7, Fmaj7, G7, Am7 and Bø7."
+    },
+    {
+      "id": "sec.m5-01.menor",
+      "kind": "text",
+      "titleEs": "Las tríadas y séptimas de la menor",
+      "titleEn": "Triads and sevenths in minor",
+      "bodyEs": "En la menor natural, las tríadas son i, ii°, III, iv, v, VI y VII: menor, disminuida, mayor, menor, menor, mayor y mayor. Con séptimas: i7, iiø7, IIImaj7, iv7, v7, VImaj7 y VII7. La menor armónica sube el séptimo grado y convierte el V en mayor y el vii° en disminuido: V7 y vii°7 son los acordes de dominante que aparecen en las cadencias. En La menor natural: Lam, Si°, Do, Rem, Mim, Fa y Sol; con séptimas, Lam7, Siø7, Domaj7, Rem7, Mim7, Famaj7 y Sol7. En La menor armónica, el V7 es Mi7 y el vii°7 es Sol♯°7.",
+      "bodyEn": "In natural minor, the triads are i, ii°, III, iv, v, VI and VII: minor, diminished, major, minor, minor, major and major. With sevenths: i7, iiø7, IIImaj7, iv7, v7, VImaj7 and VII7. Harmonic minor raises the seventh degree and turns V into major and vii° into diminished: V7 and vii°7 are the dominant chords found in cadences. In A natural minor: Am, B°, C, Dm, Em, F and G; with sevenths, Am7, Bø7, Cmaj7, Dm7, Em7, Fmaj7 and G7. In A harmonic minor, V7 is E7 and vii°7 is G♯°7."
+    },
+    {
+      "id": "sec.m5-01.docemayor",
+      "kind": "text",
+      "titleEs": "Las doce tonalidades",
+      "titleEn": "The twelve keys",
+      "bodyEs": "El patrón se transporta a las doce tonalidades mayores: Do, Re♭, Re, Mi♭, Mi, Fa, Fa♯, Sol, La♭, La, Si♭ y Si. Cada una tiene su relativa menor: La, Si♭, Si, Do, Do♯, Re, Re♯, Mi, Fa, Fa♯, Sol y Sol♯. Los ejercicios recorren las doce tónicas y alternan mayor y menor, tríadas y séptimas. La armadura y la ortografía cambian, pero los grados y sus cualidades se conservan: si sabés qué tercera, quinta y séptima pide cada grado, podés construir el acorde en cualquier tonalidad.",
+      "bodyEn": "The pattern transposes to all twelve major keys: C, D♭, D, E♭, E, F, F♯, G, A♭, A, B♭ and B. Each has its relative minor: A, B♭, B, C, C♯, D, D♯, E, F, F♯, G and G♯. The exercises cover the twelve tonics and alternate major and minor, triads and sevenths. The key signature and spelling change, but the degrees and their qualities stay: if you know which third, fifth and seventh each degree asks for, you can build the chord in any key."
+    },
+    {
+      "id": "sec.m5-01.demo-mayor",
+      "kind": "score",
+      "titleEs": "Escuchá los acordes diatónicos en Do mayor",
+      "titleEn": "Hear the diatonic chords in C major",
+      "bodyEs": "La progresión Imaj7, vi7, IV y V7 en Do mayor: Domaj7 (Do, Mi, Sol, Si), Lam7 (La, Do, Mi, Sol), Fa (Fa, La, Do) y Sol7 (Sol, Si, Re, Fa). Cada acorde dura un compás y usa solo notas de Do mayor. Escuchá cómo el Fa de Sol7 pide resolver en el Mi de la tónica.",
+      "bodyEn": "The progression Imaj7, vi7, IV and V7 in C major: Cmaj7 (C, E, G, B), Am7 (A, C, E, G), F (F, A, C) and G7 (G, B, D, F). Each chord lasts one bar and uses only notes from C major. Listen for the F in G7 asking to resolve to the E of the tonic.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "sec.m5-01.major-i",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-01.major-vi7",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-01.major-iv",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "F", "accidental": "", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-01.major-v7",
+            "measure": 4,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-01.demo-menor",
+      "kind": "score",
+      "titleEs": "Escuchá los acordes diatónicos en La menor",
+      "titleEn": "Hear the diatonic chords in A minor",
+      "bodyEs": "La progresión i, VImaj7, iv y V7 en La menor: Lam (La, Do, Mi), Famaj7 (Fa, La, Do, Mi), Rem (Re, Fa, La) y Mi7 (Mi, Sol♯, Si, Re). El Mi7 viene de la menor armónica y resuelve a la tónica; el Fa de Mi7 sube a Sol♯ y el Sol♯ tiende a volver a La.",
+      "bodyEn": "The progression i, VImaj7, iv and V7 in A minor: Am (A, C, E), Fmaj7 (F, A, C, E), Dm (D, F, A) and E7 (E, G♯, B, D). E7 comes from harmonic minor and resolves to the tonic; the F of E7 rises to G♯ and G♯ tends to return to A.",
+      "score": {
+        "clef": "treble",
+        "key": "A",
+        "mode": "minor",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "sec.m5-01.minor-i",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-01.minor-vi-maj7",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "F", "accidental": "", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-01.minor-iv",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 },
+              { "step": "A", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-01.minor-v7",
+            "measure": 4,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "#", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-01.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios por las doce tónicas",
+      "titleEn": "Twelve exercises across the twelve tonics",
+      "bodyEs": "Cada ejercicio te da una tonalidad y un grado; tenés que reconocer el cifrado del acorde diatónico que se forma. Hay tríadas y séptimas, en mayor y en menor. Escuchá el acorde antes de responder, mirá si la tercera es mayor o menor y comprobá la quinta y la séptima. En los grados vii de mayor y ii de menor, la quinta disminuida y la séptima semidisminuida son las que más cuestan: contá semitonos.",
+      "bodyEn": "Each exercise gives you a key and a degree; you have to recognise the symbol of the diatonic chord built there. There are triads and sevenths, in major and minor. Listen to the chord before answering, check whether the third is major or minor, and verify the fifth and seventh. The diminished fifth and half-diminished seventh on vii in major and ii in minor are the hardest: count semitones."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca Imaj7-V7 en Do mayor",
+    "titleEn": "Play Imaj7-V7 in C major",
+    "instructionsEs": "Tocá la progresión Imaj7-V7 en Do mayor: primero Domaj7 (Do, Mi, Sol, Si) y después Sol7 (Sol, Si, Re, Fa) con la mano derecha. Empezá en bloque a 60 BPM y repetí la progresión como arpegio. Escuchá cómo el Fa de Sol7 resuelve en el Mi de Do al volver a la tónica.",
+    "instructionsEn": "Play the Imaj7-V7 progression in C major: first Cmaj7 (C, E, G, B) and then G7 (G, B, D, F) with your right hand. Start as a block at 60 BPM and repeat the progression as an arpeggio. Listen for the F in G7 resolving to the E in C when you return to the tonic.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "B", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 3 },
+      { "step": "B", "accidental": "", "octave": 3 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: 1-2-3-5 para Domaj7 y 1-2-3-4 para Sol7.",
+    "fingeringEn": "Right hand: 1-2-3-5 for Cmaj7 and 1-2-3-4 for G7.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué Domaj7 y Sol7 en bloque, sin apretar las teclas",
+      "Repetí la progresión como arpegio y volví a la tónica",
+      "Escuché la resolución del Fa de Sol7 en el Mi de Do"
+    ],
+    "checklistEn": [
+      "I played Cmaj7 and G7 as a block without pressing the keys hard",
+      "I repeated the progression as an arpeggio and returned to the tonic",
+      "I heard the F in G7 resolve to the E in C"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m5-01.imaj7",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-01.v7",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "", "octave": 3 },
+            { "step": "D", "accidental": "", "octave": 4 },
+            { "step": "F", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

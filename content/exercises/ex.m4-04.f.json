@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-04.f",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "El acorde formado por La♭, Do, Mi♭ y Sol, ¿qué calidad de séptima tiene?",
+  "promptEn": "The chord made of Ab, C, Eb and G has which seventh quality?",
+  "explanationEs": "Es un La♭ maj7, o séptima mayor: 1-3-5-7. La tercera La♭-Do es mayor, la quinta La♭-Mi♭ justa y la séptima La♭-Sol está a once semitonos.",
+  "explanationEn": "It is an Abmaj7, or major seventh: 1-3-5-7. The third Ab-C is major, the fifth Ab-Eb perfect and the seventh Ab-G sits eleven semitones above the root.",
+  "difficulty": 3,
+  "root": { "step": "A", "accidental": "b", "octave": 4 },
+  "quality": "major7",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["séptima mayor", "séptima de dominante", "séptima menor", "séptima semidisminuida", "séptima disminuida"],
+  "choicesEn": ["major seventh", "dominant seventh", "minor seventh", "half-diminished seventh", "diminished seventh"]
+}

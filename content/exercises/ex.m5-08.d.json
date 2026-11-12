@@ -1,0 +1,25 @@
+{
+  "id": "ex.m5-08.d",
+  "skillId": "skill.modal-mixture",
+  "type": "borrowed-chord",
+  "promptEs": "En La mayor, el acorde Fa mayor (Fa, La, Do) se toma prestado del modo paralelo. ¿Qué número romano le corresponde?",
+  "promptEn": "In A major, the chord F major (F, A, C) is borrowed from the parallel mode. Which Roman numeral does it get?",
+  "explanationEs": "En La mayor, Fa mayor es el ♭VI del modo paralelo, la submediante menor y se cifra bVI. El intercambio modal conserva la fundamental del grado pero cambia su cualidad y, a veces, añade una alteración.",
+  "explanationEn": "In A major, F major is the ♭VI of the parallel mode, the minor submediant and it is labelled bVI. Modal mixture keeps the root of the degree but changes its quality and sometimes adds an accidental.",
+  "difficulty": 2,
+  "key": "A",
+  "mode": "major",
+  "numeral": "bVI",
+  "choices": [
+    "vi",
+    "bVI",
+    "IV",
+    "bIII"
+  ],
+  "choicesEn": [
+    "vi",
+    "bVI",
+    "IV",
+    "bIII"
+  ]
+}

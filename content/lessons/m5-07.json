@@ -1,0 +1,282 @@
+{
+  "id": "lesson.m5-07",
+  "moduleId": "M5",
+  "slug": "dominantes-secundarias",
+  "titleEs": "Dominantes secundarias",
+  "titleEn": "Secondary dominants",
+  "summaryEs": "Cómo el V de otro grado toniciza un acorde: V/V y V/ii, su cifrado, la sensible que resuelve y su uso en las doce tonalidades.",
+  "summaryEn": "How the V of another degree tonicises a chord: V/V and V/ii, their notation, the leading tone that resolves and their use in all twelve keys.",
+  "objectivesEs": [
+    "Entender qué es un dominante secundario y cómo se escribe V/x",
+    "Reconocer V/V y V/ii y el grado al que resuelven",
+    "Cifrar y resolver dominantes secundarios en las doce tonalidades mayores"
+  ],
+  "objectivesEn": [
+    "Understand what a secondary dominant is and how it is written V/x",
+    "Recognise V/V and V/ii and the degree they resolve to",
+    "Label and resolve secondary dominants in all twelve major keys"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m5-06"
+  ],
+  "skillIds": [
+    "skill.secondary-dominants"
+  ],
+  "exerciseIds": [
+    "ex.m5-07.a",
+    "ex.m5-07.b",
+    "ex.m5-07.c",
+    "ex.m5-07.d",
+    "ex.m5-07.e",
+    "ex.m5-07.f",
+    "ex.m5-07.g",
+    "ex.m5-07.h",
+    "ex.m5-07.i",
+    "ex.m5-07.j",
+    "ex.m5-07.k",
+    "ex.m5-07.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m5-07.intro",
+      "kind": "text",
+      "titleEs": "Qué es un dominante secundario",
+      "titleEn": "What a secondary dominant is",
+      "bodyEs": "Un dominante secundario es un acorde que cumple la función de dominante de un grado distinto de la tónica. Se escribe V/x, donde x es el grado que se toniciza: V/V es el dominante de la dominante y V/ii el dominante del segundo grado. No cambia la tonalidad, pero crea una tensión momentánea que hace que el acorde de destino suene como una tónica pasajera. Casi siempre aparece como acorde de séptima de dominante, porque la séptima refuerza la resolución.",
+      "bodyEn": "A secondary dominant is a chord that fulfils the dominant function of a degree other than the tonic. It is written V/x, where x is the degree being tonicised: V/V is the dominant of the dominant and V/ii the dominant of the second degree. It does not change the key, but it creates a momentary tension that makes the target chord sound like a temporary tonic. It almost always appears as a dominant seventh chord, because the seventh strengthens the resolution."
+    },
+    {
+      "id": "sec.m5-07.v-de-v",
+      "kind": "text",
+      "titleEs": "V/V: el dominante de la dominante",
+      "titleEn": "V/V: the dominant of the dominant",
+      "bodyEs": "En una tonalidad mayor, V/V es el acorde construido sobre el segundo grado con calidad mayor, normalmente II7. En Do mayor es Re7 y resuelve en Sol, el V. Su tercera, Fa♯, es la sensible de Sol: sube un semitono al resolver. V/V añade una tensión extra antes de la dominante y aparece en cadencias, turnarounds y blues. En Sol mayor sería La7-Res, en Re mayor Mi7-La y en Fa mayor Sol7-Do.",
+      "bodyEn": "In a major key, V/V is the chord built on the second degree with major quality, usually II7. In C major it is D7 and it resolves to G, the V. Its third, F♯, is the leading tone of G: it rises a semitone when it resolves. V/V adds extra tension before the dominant and appears in cadences, turnarounds and blues. In G major it would be A7-D, in D major E7-A and in F major G7-C."
+    },
+    {
+      "id": "sec.m5-07.v-de-ii",
+      "kind": "text",
+      "titleEs": "V/ii: el dominante del segundo grado",
+      "titleEn": "V/ii: the dominant of the second degree",
+      "bodyEs": "V/ii es el acorde construido sobre el sexto grado con calidad mayor, normalmente VI7. En Do mayor es La7 y resuelve en Rem, el ii. Su tercera, Do♯, es la sensible de Re: sube un semitono al resolver. Es muy frecuente antes de un ii-V-I: La7-Rem-Sol-Do suena más dirigido que Rem-Sol-Do porque el La7 anticipa el Rem. En Sol mayor sería Mi7-Lam, en Re mayor Si7-Mim y en Fa mayor Re7-Solm.",
+      "bodyEn": "V/ii is the chord built on the sixth degree with major quality, usually VI7. In C major it is A7 and it resolves to Dm, the ii. Its third, C♯, is the leading tone of D: it rises a semitone when it resolves. It is very common before a ii-V-I: A7-Dm-G-C sounds more directed than Dm-G-C because A7 anticipates Dm. In G major it would be E7-Am, in D major B7-Em and in F major D7-Gm."
+    },
+    {
+      "id": "sec.m5-07.resolucion",
+      "kind": "text",
+      "titleEs": "Cómo se reconoce la resolución",
+      "titleEn": "How to recognise the resolution",
+      "bodyEs": "La pista está en la tercera del dominante secundario: es la sensible del acorde de destino y sube un semitono. En Re7 la tercera es Fa♯, que sube a Sol; en La7 la tercera es Do♯, que sube a Re. La séptima, si existe, baja un semitono: el Do de Re7 baja a Si, y el Sol de La7 baja a Fa. El acorde de destino se escucha como una tónica breve, pero la tonalidad general no cambia salvo que la resolución se confirme con una cadencia.",
+      "bodyEn": "The clue is the third of the secondary dominant: it is the leading tone of the target chord and rises a semitone. In D7 the third is F♯, which rises to G; in A7 the third is C♯, which rises to D. The seventh, if present, falls a semitone: the C of D7 falls to B, and the G of A7 falls to F. The target chord sounds like a brief tonic, but the overall key does not change unless the resolution is confirmed with a cadence."
+    },
+    {
+      "id": "sec.m5-07.otros",
+      "kind": "text",
+      "titleEs": "Otros dominantes secundarios",
+      "titleEn": "Other secondary dominants",
+      "bodyEs": "El mismo procedimiento sirve para cualquier grado: V/vi en Do mayor es Mi7 y resuelve en Lam; V/IV es Do7 y resuelve en Fa. V/IV llama la atención porque la fundamental coincide con la tónica, pero su séptima menor la convierte en dominante de Fa. En menor se usan formas como V/ii° o V/VI, con alteraciones que suben la sensible del grado tonicizado. Para empezar, V/V y V/ii son los dos casos que más aparecen en la práctica.",
+      "bodyEn": "The same procedure works for any degree: V/vi in C major is E7 and resolves to Am; V/IV is C7 and resolves to F. V/IV stands out because its root is the tonic, but its minor seventh turns it into the dominant of F. In minor, forms such as V/ii° or V/VI are used, with accidentals that raise the leading tone of the tonicised degree. To begin with, V/V and V/ii are the two cases that appear most often in practice."
+    },
+    {
+      "id": "sec.m5-07.demo-vv",
+      "kind": "score",
+      "titleEs": "Demo: V/V que resuelve en V",
+      "titleEn": "Demo: V/V resolving to V",
+      "bodyEs": "En Do mayor, Re7 (V/V) resuelve en Sol (V). Escuchá la tercera Fa♯ del Re7 subir a Sol y la séptima Do bajar a Si. La dominante recibe un impulso extra antes de seguir hacia la tónica.",
+      "bodyEn": "In C major, D7 (V/V) resolves to G (V). Listen to the third F♯ of D7 rise to G and the seventh C fall to B. The dominant receives extra momentum before continuing towards the tonic.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m5-07.demo-vv-d7",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 3 },
+              { "step": "F", "accidental": "#", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-07.demo-vv-g",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-07.demo-vii",
+      "kind": "score",
+      "titleEs": "Demo: V/ii que resuelve en ii",
+      "titleEn": "Demo: V/ii resolving to ii",
+      "bodyEs": "En Do mayor, La7 (V/ii) resuelve en Rem (ii). La tercera Do♯ sube a Re y la séptima Sol baja a Fa. Después de escuchar esta demo, probá encadenar La7-Rem-Sol-Do: el ii-V-I gana dirección.",
+      "bodyEn": "In C major, A7 (V/ii) resolves to Dm (ii). The third C♯ rises to D and the seventh G falls to F. After hearing this demo, try chaining A7-Dm-G-C: the ii-V-I gains direction.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m5-07.demo-vii-a7",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "#", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-07.demo-vii-dm",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 3 },
+              { "step": "F", "accidental": "", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-07.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce dominantes para cifrar y resolver",
+      "titleEn": "Twelve dominants to label and resolve",
+      "bodyEs": "Cada ejercicio te da una tonalidad mayor y te pide el cifrado V/V o V/ii, o el grado al que resuelve. Recorren las doce tonalidades. Para responder, ubicate en el grado de destino, contá una quinta arriba para hallar la fundamental del dominante y comprobá que su tercera sea la sensible del destino.",
+      "bodyEn": "Each exercise gives you a major key and asks for the V/V or V/ii label, or for the degree it resolves to. They cover all twelve keys. To answer, locate the target degree, count a fifth above to find the dominant’s root and check that its third is the leading tone of the target."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca V/V-V y V/ii-ii en Do mayor",
+    "titleEn": "Play V/V-V and V/ii-ii in C major",
+    "instructionsEs": "Tocá con la mano derecha, un acorde por compás y a 60 BPM: Re7 (V/V), Sol (V), La7 (V/ii) y Rem (ii). Antes de cada par, decí el cifrado y el grado de destino. Escuchá cómo el Fa♯ del Re7 sube a Sol y el Do♯ del La7 sube a Re.",
+    "instructionsEn": "Play with your right hand, one chord per bar at 60 BPM: D7 (V/V), G (V), A7 (V/ii) and Dm (ii). Before each pair, say the label and the target degree. Listen to how F♯ in D7 rises to G and C♯ in A7 rises to D.",
+    "keys": [
+      { "step": "D", "accidental": "", "octave": 3 },
+      { "step": "F", "accidental": "#", "octave": 3 },
+      { "step": "A", "accidental": "", "octave": 3 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 3 },
+      { "step": "B", "accidental": "", "octave": 3 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "#", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "", "octave": 3 }
+    ],
+    "fingeringEs": "Mano derecha: 1-2-3-5 para Re7 y La7, y 1-3-5 para Sol y Rem. Mantené la muñeca suelta y buscá la resolución por semitono sin mover la mano de más.",
+    "fingeringEn": "Right hand: 1-2-3-5 for D7 and A7, and 1-3-5 for G and Dm. Keep the wrist loose and look for the semitone resolution without moving the hand more than necessary.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué los dos pares sin perder el pulso",
+      "Dije V/V y V/ii antes de cada dominante",
+      "Escuché la sensible subir un semitono al resolver"
+    ],
+    "checklistEn": [
+      "I played both pairs without losing the pulse",
+      "I said V/V and V/ii before each dominant",
+      "I heard the leading tone rise a semitone when it resolved"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m5-07.vv",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "D", "accidental": "", "octave": 3 },
+            { "step": "F", "accidental": "#", "octave": 3 },
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-07.v",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "", "octave": 3 },
+            { "step": "D", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-07.vii",
+          "measure": 3,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "#", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-07.ii",
+          "measure": 4,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "D", "accidental": "", "octave": 3 },
+            { "step": "F", "accidental": "", "octave": 3 },
+            { "step": "A", "accidental": "", "octave": 3 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

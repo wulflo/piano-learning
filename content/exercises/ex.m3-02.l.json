@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-02.l",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "La octava justa Si4-Si5 se invierte subiendo Si una octava. ¿Cómo se llama el intervalo Si5-Si5?",
+  "promptEn": "The perfect octave B4-B5 is inverted by raising B an octave. What is the interval B5-B5 called?",
+  "explanationEs": "Si5-Si5 es un unísono justo: 8 + 1 = 9, la calidad justa se conserva y los semitonos pasan de 12 a 0.",
+  "explanationEn": "B5-B5 is a perfect unison: 8 + 1 = 9, the perfect quality stays and the semitones go from 12 to 0.",
+  "difficulty": 3,
+  "lower": { "step": "B", "accidental": "", "octave": 5 },
+  "upper": { "step": "B", "accidental": "", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Unísono justo", "Octava justa", "Segunda menor", "Unísono aumentado"],
+  "choicesEn": ["Perfect unison", "Perfect octave", "Minor second", "Augmented unison"]
+}

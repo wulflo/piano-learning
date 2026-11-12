@@ -1,0 +1,291 @@
+{
+  "id": "ex.m7-05.i",
+  "skillId": "skill.arpeggiated-accompaniment",
+  "type": "arpeggiated",
+  "difficulty": 3,
+  "score": {
+    "clef": "bass",
+    "key": "B",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 3,
+      "denominator": 4
+    },
+    "tempoBpm": 72,
+    "events": [
+      {
+        "id": "ex.m7-05.i.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false,
+        "chordSymbol": "B"
+      },
+      {
+        "id": "ex.m7-05.i.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "#",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.i.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "#",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.i.4",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false,
+        "chordSymbol": "B"
+      },
+      {
+        "id": "ex.m7-05.i.5",
+        "measure": 2,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "#",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.i.6",
+        "measure": 2,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "#",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.i.7",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false,
+        "chordSymbol": "B"
+      },
+      {
+        "id": "ex.m7-05.i.8",
+        "measure": 3,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "#",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.i.9",
+        "measure": 3,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "#",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.i.10",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false,
+        "chordSymbol": "B"
+      },
+      {
+        "id": "ex.m7-05.i.11",
+        "measure": 4,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "#",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.i.12",
+        "measure": 4,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "#",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "ask": "notes",
+  "measure": 1,
+  "promptEs": "¿En qué orden ataca la mano izquierda las notas del compás 1 de Si mayor?",
+  "promptEn": "In which order does the left hand play the notes in measure 1 in B major?",
+  "explanationEs": "La mano izquierda toca Si3 Fa♯4 Re♯4, en ese orden. Es el patrón 1-5-3 sobre Si mayor en compás de 3/4; el bajo es la fundamental y la quinta queda arriba, como apoyo del acorde.",
+  "explanationEn": "The left hand plays B3 F#4 D#4, in that order. It is the 1-5-3 pattern on B major in 3/4; the bass is the root and the fifth stays above as the chord support.",
+  "choices": [
+    "Si3 Fa♯4 Re♯4",
+    "Fa♯4 Re♯4 Si3",
+    "Si2 Fa♯4 Re♯4"
+  ],
+  "choicesEn": [
+    "B3 F#4 D#4",
+    "F#4 D#4 B3",
+    "B2 F#4 D#4"
+  ]
+}

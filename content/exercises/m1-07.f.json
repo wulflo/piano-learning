@@ -1,0 +1,52 @@
+{
+  "id": "ex.m1-07.f",
+  "skillId": "skill.rhythm-variants",
+  "type": "rhythm-dictation",
+  "promptEs": "Escuchá el dictado en 6/8. ¿Qué secuencia representa el tresillo de negras y la negra final?",
+  "explanationEs": "El compás de 6/8 equivale a tres tiempos de negra: el tresillo de negras ocupa dos y la negra final completa la tercera.",
+  "difficulty": 3,
+  "timeSignature": {
+    "numerator": 6,
+    "denominator": 8
+  },
+  "pattern": [
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "triplet",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "triplet",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "triplet",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "choices": [
+    "Negra de tresillo, Negra de tresillo, Negra de tresillo, Negra",
+    "Negra, Negra, Negra, Negra",
+    "Negra de tresillo, Corchea, Negra",
+    "Blanca, Negra, Negra"
+  ],
+  "promptEn": "Listen to the dictation in 6/8. Which sequence represents the quarter-note triplet and the final quarter note?",
+  "explanationEn": "The 6/8 measure equals three quarter-note beats: the quarter-note triplet takes two and the final quarter note completes the third.",
+  "choicesEn": [
+    "Triplet quarter note, Triplet quarter note, Triplet quarter note, Quarter note",
+    "Quarter note, Quarter note, Quarter note, Quarter note",
+    "Triplet quarter note, Eighth note, Quarter note",
+    "Half note, Quarter note, Quarter note"
+  ]
+}

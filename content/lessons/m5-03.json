@@ -1,0 +1,258 @@
+{
+  "id": "lesson.m5-03",
+  "moduleId": "M5",
+  "slug": "funciones-t-s-d",
+  "titleEs": "Funciones T-S-D",
+  "titleEn": "T-S-D functions",
+  "summaryEs": "Cómo se agrupan los grados en tónica, subdominante y dominante, qué sensación aporta cada función y cómo clasificar un acorde por su papel en la tonalidad.",
+  "summaryEn": "How degrees group into tonic, subdominant and dominant, what feeling each function brings, and how to classify a chord by its role in the key.",
+  "objectivesEs": [
+    "Agrupar los grados de la escala en las funciones tónica (T), subdominante (S) y dominante (D)",
+    "Reconocer el reposo de la tónica, el impulso de la subdominante y la tensión de la dominante en ejemplos",
+    "Clasificar acordes por su función en tonalidades mayores y menores"
+  ],
+  "objectivesEn": [
+    "Group the scale degrees into the tonic (T), subdominant (S) and dominant (D) functions",
+    "Recognise the rest of the tonic, the impulse of the subdominant and the tension of the dominant in examples",
+    "Classify chords by their function in major and minor keys"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m5-02"
+  ],
+  "skillIds": [
+    "skill.harmonic-function"
+  ],
+  "exerciseIds": [
+    "ex.m5-03.a",
+    "ex.m5-03.b",
+    "ex.m5-03.c",
+    "ex.m5-03.d",
+    "ex.m5-03.e",
+    "ex.m5-03.f",
+    "ex.m5-03.g",
+    "ex.m5-03.h",
+    "ex.m5-03.i",
+    "ex.m5-03.j",
+    "ex.m5-03.k",
+    "ex.m5-03.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m5-03.intro",
+      "kind": "text",
+      "titleEs": "Qué es una función armónica",
+      "titleEn": "What a harmonic function is",
+      "bodyEs": "Una función armónica es el papel que cumple un acorde dentro de una tonalidad. No depende solo de la nota que suena, sino de la relación del acorde con la tónica. La teoría funcional agrupa los siete grados en tres familias: tónica (T), subdominante (S) y dominante (D). La tónica es el reposo; la subdominante, el impulso que abre el camino; la dominante, la tensión que pide volver a la tónica. Por eso una progresión se puede resumir como T-S-D-T y reconocer en cualquier tonalidad.",
+      "bodyEn": "A harmonic function is the role a chord plays inside a key. It depends not only on the note that sounds, but on the chord's relationship to the tonic. Functional theory groups the seven degrees into three families: tonic (T), subdominant (S) and dominant (D). The tonic is rest; the subdominant is the impulse that opens the way; the dominant is the tension that asks to return to the tonic. That is why a progression can be summarised as T-S-D-T and recognised in any key."
+    },
+    {
+      "id": "sec.m5-03.mayor",
+      "kind": "text",
+      "titleEs": "Las funciones en mayor",
+      "titleEn": "Functions in major",
+      "bodyEs": "En una tonalidad mayor, la función tónica la cumplen el I, el iii y el vi. El I es la tónica principal; el iii y el vi son sus relativas y comparten dos notas con ella, así que también reposan. La función subdominante la cumplen el ii y el IV: el IV es la subdominante clásica y el ii suele preparar el V, como en ii-V-I. La función dominante la cumplen el V y el vii°: el V tiene la sensible en su tercera y el tritono entre su tercera y su séptima; el vii° contiene la sensible y comparte esa tensión. En Do mayor: T = Do, Mim, Lam; S = Rem, Fa; D = Sol, Si°.",
+      "bodyEn": "In a major key, the tonic function is fulfilled by I, iii and vi. I is the main tonic; iii and vi are its relatives and share two notes with it, so they also rest. The subdominant function is fulfilled by ii and IV: IV is the classic subdominant and ii usually prepares V, as in ii-V-I. The dominant function is fulfilled by V and vii°: V has the leading tone in its third and a tritone between its third and seventh; vii° contains the leading tone and shares that tension. In C major: T = C, Em, Am; S = Dm, F; D = G, B°."
+    },
+    {
+      "id": "sec.m5-03.menor",
+      "kind": "text",
+      "titleEs": "Las funciones en menor",
+      "titleEn": "Functions in minor",
+      "bodyEs": "En menor natural, la tónica la cumplen el i y el III; el III es la relativa mayor y sirve de reposo alternativo. La subdominante la cumplen el ii° y el iv. La dominante la cumplen el v y el VII, que no tienen sensible. La menor armónica sube el séptimo grado: entonces el v se convierte en V y el VII en vii°, y aparecen los verdaderos acordes de dominante. El VI puede funcionar como tónica (resolución engañosa) o como subdominante (sustituto del iv); el contexto decide. En La menor: T = Lam, Do; S = Si°, Rem; D = Mim, Sol; en armónica, D = Mi, Sol♯°.",
+      "bodyEn": "In natural minor, the tonic is fulfilled by i and III; III is the relative major and serves as an alternative resting point. The subdominant is fulfilled by ii° and iv. The dominant is fulfilled by v and VII, which lack a leading tone. Harmonic minor raises the seventh degree: v then becomes V and VII becomes vii°, and the true dominant chords appear. VI can work as a tonic (deceptive resolution) or as a subdominant (a substitute for iv); the context decides. In A minor: T = Am, C; S = B°, Dm; D = Em, G; in harmonic minor, D = E, G♯°."
+    },
+    {
+      "id": "sec.m5-03.ciclo",
+      "kind": "text",
+      "titleEs": "El ciclo T-S-D-T",
+      "titleEn": "The T-S-D-T cycle",
+      "bodyEs": "La armonía tonal suele recorrer las funciones en un orden reconocible. Lo más común es salir de la tónica, pasar por la subdominante y llegar a la dominante antes de volver: T-S-D-T, como en I-IV-V-I. También es frecuente el camino directo T-D-T, como en I-V-I, y la sustitución de la tónica por el vi, como en I-vi-IV-V. Lo que no cambia es la dirección: la subdominante aleja de casa y la dominante pide volver. Escuchá la diferencia entre el reposo del I, la apertura del IV y la tensión del V que resuelve en el I.",
+      "bodyEn": "Tonal harmony usually moves through the functions in a recognisable order. The most common path leaves the tonic, passes through the subdominant and reaches the dominant before returning: T-S-D-T, as in I-IV-V-I. The direct T-D-T path, as in I-V-I, and replacing the tonic with vi, as in I-vi-IV-V, are also frequent. What does not change is the direction: the subdominant moves away from home and the dominant asks to return. Listen to the difference between the rest of I, the opening of IV and the tension of V resolving to I."
+    },
+    {
+      "id": "sec.m5-03.demo",
+      "kind": "score",
+      "titleEs": "T-S-D-T en Do mayor",
+      "titleEn": "T-S-D-T in C major",
+      "bodyEs": "La progresión I-IV-V-I en Do mayor, un acorde por compás: Do (T), Fa (S), Sol (D) y Do (T). Escuchá cómo el Fa abre la frase, el Sol crea la tensión con su tercera Si, que es la sensible de Do, y el Do final devuelve el reposo. La misma función se reconoce en cualquier tonalidad: en Sol mayor sería Sol-Do-Re-Sol.",
+      "bodyEn": "The I-IV-V-I progression in C major, one chord per bar: C (T), F (S), G (D) and C (T). Listen to how F opens the phrase, G creates tension with its third B, the leading tone of C, and the final C brings back rest. The same function is recognised in any key: in G major it would be G-C-D-G.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "sec.m5-03.demo-i",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-03.demo-iv",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "F", "accidental": "", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-03.demo-v",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-03.demo-i-final",
+            "measure": 4,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-03.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce acordes para clasificar",
+      "titleEn": "Twelve chords to classify",
+      "bodyEs": "Cada ejercicio te da una tonalidad y un acorde con sus notas. Elegí la función que cumple: tónica, subdominante o dominante. Fijate primero en el grado, después en la cualidad y, si dudás, preguntate hacia dónde quiere ir el acorde: el reposo es T, el alejamiento es S y la vuelta a casa es D.",
+      "bodyEn": "Each exercise gives you a key and a chord with its notes. Choose the function it fulfils: tonic, subdominant or dominant. Look at the degree first, then the quality, and if in doubt ask where the chord wants to go: rest is T, moving away is S and returning home is D."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca T-S-D-T en La menor",
+    "titleEn": "Play T-S-D-T in A minor",
+    "instructionsEs": "Tocá i-iv-V-i en La menor con la mano derecha a 60 BPM: Lam (La, Do, Mi), Rem (Re, Fa, La), Mi (Mi, Sol♯, Si) y Lam. El Mi es la dominante de la menor armónica: su Sol♯ pide volver a La. Pensá cada acorde como T, S, D y T antes de tocarlo.",
+    "instructionsEn": "Play i-iv-V-i in A minor with your right hand at 60 BPM: Am (A, C, E), Dm (D, F, A), E (E, G♯, B) and Am. E is the dominant of harmonic minor: its G♯ asks to return to A. Think of each chord as T, S, D and T before playing it.",
+    "keys": [
+      { "step": "A", "accidental": "", "octave": 3 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 3 },
+      { "step": "F", "accidental": "", "octave": 3 },
+      { "step": "A", "accidental": "", "octave": 3 },
+      { "step": "E", "accidental": "", "octave": 3 },
+      { "step": "G", "accidental": "#", "octave": 3 },
+      { "step": "B", "accidental": "", "octave": 3 }
+    ],
+    "fingeringEs": "Mano derecha: 1-3-5 para Lam, 1-3-5 para Rem y 1-2-4 para Mi; el Sol♯ queda bajo el dedo 2.",
+    "fingeringEn": "Right hand: 1-3-5 for Am, 1-3-5 for Dm and 1-2-4 for E; G♯ falls under finger 2.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué i-iv-V-i en bloque sin tensar la muñeca",
+      "Reconocí el reposo de Lam, la apertura de Rem y la tensión de Mi",
+      "Volví a Lam y sentí el cierre de la frase"
+    ],
+    "checklistEn": [
+      "I played i-iv-V-i as a block without tensing my wrist",
+      "I recognised the rest of Am, the opening of Dm and the tension of E",
+      "I returned to Am and felt the phrase close"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "A",
+      "mode": "minor",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m5-03.i",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-03.iv",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "D", "accidental": "", "octave": 3 },
+            { "step": "F", "accidental": "", "octave": 3 },
+            { "step": "A", "accidental": "", "octave": 3 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-03.V",
+          "measure": 3,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "E", "accidental": "", "octave": 3 },
+            { "step": "G", "accidental": "#", "octave": 3 },
+            { "step": "B", "accidental": "", "octave": 3 }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-03.i-final",
+          "measure": 4,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

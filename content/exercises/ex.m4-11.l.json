@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-11.l",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "Escribí las notas de La♭maj7/Do de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of A♭maj7/C from low to high, separated by spaces.",
+  "explanationEs": "Do es la tercera de La♭maj7, así que el acorde está en primera inversión: Do-Mi♭-Sol-La♭. El bajo Do es la nota más grave y la séptima La♭ queda arriba.",
+  "explanationEn": "C is the third of A♭maj7, so the chord is in first inversion: C-E♭-G-A♭. The bass C is the lowest note and the seventh A♭ sits on top.",
+  "difficulty": 3,
+  "root": { "step": "A", "accidental": "b", "octave": 4 },
+  "quality": "major7",
+  "slash": { "step": "C", "accidental": "", "octave": 4 },
+  "inversion": 1,
+  "ask": "notes"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "ex.m5-11.c",
+  "skillId": "skill.augmented-sixth",
+  "type": "augmented-sixth",
+  "optional": true,
+  "promptEs": "En Do menor, este acorde prepara la dominante. ¿Qué variante de sexta aumentada es?",
+  "promptEn": "In C minor, this chord prepares the dominant. Which augmented sixth variant is it?",
+  "explanationEs": "El acorde es La♭-Do-Mi♭-Fa♯. La♭ es el ♭VI de Do menor y Fa♯ el ♯IV; entre ellos está la sexta aumentada La♭-Fa♯. La nota añadida es Mi♭, el tercer grado rebajado, así que es la variante alemana. La italiana tendría solo La♭-Do-Fa♯ y la francesa añadiría Re en lugar de Mi♭.",
+  "explanationEn": "The chord is A♭-C-E♭-F♯. A♭ is ♭VI of C minor and F♯ is ♯IV; the augmented sixth A♭-F♯ lies between them. The added note is E♭, the lowered third degree, so this is the German variant. The Italian would have only A♭-C-F♯ and the French would add D instead of E♭.",
+  "difficulty": 3,
+  "key": "C",
+  "mode": "minor",
+  "variant": "german",
+  "ask": "identify",
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "minor",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m5-11.c.chord",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "b",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "E",
+            "accidental": "b",
+            "octave": 5
+          },
+          {
+            "step": "F",
+            "accidental": "#",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Sexta aumentada italiana",
+    "Sexta aumentada francesa",
+    "Sexta aumentada alemana"
+  ],
+  "choicesEn": [
+    "Italian augmented sixth",
+    "French augmented sixth",
+    "German augmented sixth"
+  ]
+}

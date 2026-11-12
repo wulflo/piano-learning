@@ -1,0 +1,17 @@
+{
+  "id": "ex.m4-12.h",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "El acorde suena Si, Do♯, Re♯, Mi y Sol♯, de grave a agudo. ¿Qué cifrado le corresponde?",
+  "promptEn": "The chord sounds B, C#, D#, E and G#, from low to high. Which symbol matches it?",
+  "explanationEs": "Es Do♯m9/Si: Do♯m9 se construye Do♯-Mi-Sol♯-Si-Re♯ y, con Si en el bajo, queda Si-Do♯-Re♯-Mi-Sol♯. Si es la séptima menor de Do♯, así que el acorde está en tercera inversión.",
+  "explanationEn": "It is C#m9/B: C#m9 is C#-E-G#-B-D# and, with B in the bass, becomes B-C#-D#-E-G#. B is the minor seventh of C#, so the chord is in third inversion.",
+  "difficulty": 4,
+  "root": { "step": "C", "accidental": "#", "octave": 4 },
+  "quality": "minor9",
+  "slash": { "step": "B", "accidental": "", "octave": 4 },
+  "inversion": 3,
+  "ask": "symbol",
+  "choices": ["Do♯m9/Si", "Do♯m9/Sol♯", "Do♯maj9/Si"],
+  "choicesEn": ["C♯m9/B", "C♯m9/G♯", "C♯maj9/B"]
+}

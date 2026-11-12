@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-04.f",
+  "skillId": "skill.cadence",
+  "type": "cadence",
+  "promptEs": "En Mi mayor, ¿qué cadencia forman los acordes La (La, Do♯, Mi) y Mi (Mi, Sol♯, Si)?",
+  "promptEn": "In E major, what cadence do the chords A (A, C♯, E) and E (E, G♯, B) form?",
+  "explanationEs": "La cadencia plagal va de IV a I: La resuelve en Mi. El salto de la fundamental por quinta justa y la ausencia de sensible le dan un cierre más suave.",
+  "explanationEn": "The plagal cadence goes from IV to I: A resolves to E. The root leaping by a perfect fifth and the absence of a leading tone give it a softer close.",
+  "difficulty": 2,
+  "key": "E",
+  "mode": "major",
+  "fromDegree": 4,
+  "toDegree": 1,
+  "choices": [
+    "Plagal (IV-I)",
+    "Semicadencia (…-V)",
+    "Auténtica (V-I)",
+    "Rota (V-vi)"
+  ],
+  "choicesEn": [
+    "Plagal (IV-I)",
+    "Half cadence (…-V)",
+    "Authentic (V-I)",
+    "Deceptive (V-vi)"
+  ]
+}

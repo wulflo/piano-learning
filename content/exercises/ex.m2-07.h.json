@@ -1,0 +1,23 @@
+{
+  "id": "ex.m2-07.h",
+  "skillId": "skill.chord-quality",
+  "type": "roman-numeral",
+  "promptEs": "¿Qué numeral nombra el quinto grado con función dominante en F mayor?",
+  "promptEn": "Which numeral names the fifth degree with a dominant function in F major?",
+  "explanationEs": "En F mayor el quinto grado con función dominante se llama V: la armonía resuelve la tonalidad desde ahí.",
+  "explanationEn": "In F major the fifth degree with a dominant function is called V: the harmony resolves the key from there.",
+  "difficulty": 2,
+  "key": "F",
+  "mode": "major",
+  "numeral": "V",
+  "choices": [
+    "V",
+    "IV",
+    "vi"
+  ],
+  "choicesEn": [
+    "V",
+    "IV",
+    "vi"
+  ]
+}

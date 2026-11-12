@@ -1,0 +1,204 @@
+{
+  "id": "ex.m6-05.b",
+  "skillId": "skill.counterpoint",
+  "type": "counterpoint-analysis",
+  "promptEs": "¿Qué movimiento hay entre las dos voces?",
+  "promptEn": "What motion is there between the two voices?",
+  "explanationEs": "Las dos voces se mueven en la misma dirección y conservan el mismo intervalo en cada paso. Ese movimiento paralelo es fácil de seguir, pero si el intervalo es una quinta o una octava queda prohibido por las reglas básicas del contrapunto.",
+  "explanationEn": "Both voices move in the same direction and keep the same interval at each step. That parallel motion is easy to follow, but if the interval is a fifth or an octave it is forbidden by the basic rules of counterpoint.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 3,
+      "denominator": 4
+    },
+    "tempoBpm": 80,
+    "events": [
+      {
+        "id": "ex.m6-05.b.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 1,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.b.2",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 1,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.b.3",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 1,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.b.4",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 1,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.b.5",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 1,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 2,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.b.6",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 1,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 2,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.b.7",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 1,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 2,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.b.8",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 1,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 2,
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "ask": "motion",
+  "motion": "parallel",
+  "choices": [
+    "Movimiento paralelo",
+    "Movimiento similar",
+    "Movimiento contrario",
+    "Movimiento oblicuo"
+  ],
+  "choicesEn": [
+    "Parallel motion",
+    "Similar motion",
+    "Contrary motion",
+    "Oblique motion"
+  ]
+}

@@ -1,0 +1,2030 @@
+{
+  "id": "lesson.m6-04",
+  "moduleId": "M6",
+  "slug": "texturas-monofonia-homofonia-polifonia",
+  "titleEs": "Texturas: monofonía, homofonía, polifonía",
+  "titleEn": "Textures: monophony, homophony, polyphony",
+  "summaryEs": "Cómo suena una sola línea melódica, una melodía con acordes y dos o más voces independientes, y cómo distinguirlas al escuchar.",
+  "summaryEn": "How a single melodic line, a melody with chords and two or more independent voices sound, and how to tell them apart by ear.",
+  "objectivesEs": [
+    "Reconocer la monofonía por su única línea melódica",
+    "Distinguir la homofonía de la polifonía por la independencia de las voces",
+    "Escuchar y comparar las tres texturas en ejemplos propios"
+  ],
+  "objectivesEn": [
+    "Recognise monophony by its single melodic line",
+    "Tell homophony from polyphony by the independence of the voices",
+    "Listen to and compare the three textures in original examples"
+  ],
+  "minutes": 16,
+  "prerequisites": [
+    "lesson.m6-03"
+  ],
+  "skillIds": [
+    "skill.texture"
+  ],
+  "exerciseIds": [
+    "ex.m6-04.a",
+    "ex.m6-04.b",
+    "ex.m6-04.c",
+    "ex.m6-04.d",
+    "ex.m6-04.e",
+    "ex.m6-04.f",
+    "ex.m6-04.g",
+    "ex.m6-04.h",
+    "ex.m6-04.i",
+    "ex.m6-04.j",
+    "ex.m6-04.k",
+    "ex.m6-04.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m6-04.texturas",
+      "kind": "text",
+      "titleEs": "Qué es la textura musical",
+      "titleEn": "What musical texture is",
+      "bodyEs": "La textura describe cómo se combinan las líneas y los acordes que suenan a la vez. En la monofonía hay una sola línea melódica, sin acompañamiento: todos los instrumentos o voces hacen la misma melodía, como en un canto gregoriano. En la homofonía hay una melodía principal sostenida por acordes que se mueven con el mismo ritmo, como en un himno cantado a cuatro voces. En la polifonía suenan dos o más líneas melódicas independientes, cada una con su propio contorno, como en un canon, una invención o una fuga de Bach. Los tres ejemplos clásicos son de dominio público.",
+      "bodyEn": "Texture describes how the lines and chords sounding at the same time are combined. In monophony there is a single melodic line with no accompaniment: every instrument or voice plays the same melody, as in Gregorian chant. In homophony a main melody is supported by chords that move with the same rhythm, as in a hymn sung in four parts. In polyphony two or more independent melodic lines sound at once, each with its own contour, as in a canon, an invention or a fugue by Bach. All three classic examples are in the public domain."
+    },
+    {
+      "id": "sec.m6-04.demo-monofonia",
+      "kind": "score",
+      "titleEs": "Demo: monofonía, una sola línea",
+      "titleEn": "Demo: monophony, a single line",
+      "bodyEs": "Escuchá esta melodía de ocho compases: no hay acordes ni una segunda voz, solo una línea que sube y baja. Aunque la mano izquierda podría duplicarla en otra octava, seguiría siendo monofonía, porque todas las notas hacen la misma melodía. Es la textura más sencilla y la base de un canto gregoriano.",
+      "bodyEn": "Listen to this eight-bar melody: there are no chords and no second voice, only one line moving up and down. Even if the left hand doubled it an octave lower, it would still be monophony, because every note plays the same melody. It is the simplest texture and the basis of Gregorian chant.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 84,
+        "events": [
+          {
+            "id": "sec.m6-04.demo-monofonia.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.9",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.10",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.11",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.12",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.13",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.14",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.15",
+            "measure": 5,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.16",
+            "measure": 5,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.17",
+            "measure": 5,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.18",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.19",
+            "measure": 6,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.20",
+            "measure": 6,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.21",
+            "measure": 6,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.22",
+            "measure": 7,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.23",
+            "measure": 7,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.24",
+            "measure": 7,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.25",
+            "measure": 7,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-monofonia.26",
+            "measure": 8,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-04.demo-homofonia",
+      "kind": "score",
+      "titleEs": "Demo: homofonía, melodía con acordes",
+      "titleEn": "Demo: homophony, melody with chords",
+      "bodyEs": "La misma idea melódica aparece ahora sostenida por acordes que cambian con ella. La voz superior lleva la melodía y las notas graves forman el acompañamiento; todos los acordes se mueven al mismo tiempo. Esa alineación rítmica es la marca de la homofonía, típica de los himnos y de muchas canciones con acompañamiento de piano.",
+      "bodyEn": "The same melodic idea now appears supported by chords that change with it. The top voice carries the melody and the lower notes form the accompaniment; all the chords move at the same time. That rhythmic alignment is the mark of homophony, typical of hymns and of many songs with piano accompaniment.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 84,
+        "events": [
+          {
+            "id": "sec.m6-04.demo-homofonia.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.2",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.3",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.4",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.5",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.6",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.7",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.8",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.9",
+            "measure": 5,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.10",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.11",
+            "measure": 6,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.12",
+            "measure": 7,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.13",
+            "measure": 7,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-homofonia.14",
+            "measure": 8,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-04.demo-polifonia",
+      "kind": "score",
+      "titleEs": "Demo: polifonía, dos voces independientes",
+      "titleEn": "Demo: polyphony, two independent voices",
+      "bodyEs": "La primera voz empieza sola y, en el compás 3, entra una segunda voz con un contorno propio. Desde ahí las dos líneas suenan a la vez, se cruzan y se responden sin que una sea simple acompañamiento de la otra. Escuchá cada voz por separado: podrías cantar cualquiera de las dos. Esa independencia define la polifonía, como en un canon o en una invención de Bach.",
+      "bodyEn": "The first voice begins alone and, in bar 3, a second voice enters with its own contour. From there the two lines sound together, cross and answer each other without one being a mere accompaniment to the other. Listen to each voice separately: you could sing either one. That independence defines polyphony, as in a canon or an invention by Bach.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 84,
+        "events": [
+          {
+            "id": "sec.m6-04.demo-polifonia.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.9",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.10",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.11",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.12",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.13",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.14",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.15",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.16",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.17",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.18",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.19",
+            "measure": 5,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-04.demo-polifonia.20",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-04.escuchar",
+      "kind": "text",
+      "titleEs": "Cómo distinguir las tres texturas al escuchar",
+      "titleEn": "How to tell the three textures apart by ear",
+      "bodyEs": "Primero preguntate cuántas líneas hay. Si solo podés cantar una melodía y no hay nada debajo, es monofonía. Si hay una melodía clara con un bloque de acordes que la acompaña, es homofonía. Si podés seguir dos o tres melodías distintas a la vez, es polifonía. Otro indicio es el movimiento: en la homofonía las voces cambian de acorde juntas; en la polifonía cada línea respira en momentos distintos. La escucha comparada de las tres demos, una detrás de otra, entrena el oído más rápido que mirar la partitura.",
+      "bodyEn": "First ask yourself how many lines there are. If you can sing only one melody and there is nothing underneath, it is monophony. If there is a clear melody with a block of chords accompanying it, it is homophony. If you can follow two or three different melodies at once, it is polyphony. Another clue is movement: in homophony the voices change chords together; in polyphony each line breathes at a different moment. Listening to the three demos one after another trains the ear faster than looking at the score."
+    },
+    {
+      "id": "sec.m6-04.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce fragmentos para clasificar la textura",
+      "titleEn": "Twelve fragments to classify the texture",
+      "bodyEs": "Cada ejercicio muestra una partitura original y te pide elegir entre monofonía, homofonía y polifonía. Escuchala con el botón «Escuchar melodía completa» y seguí la partitura. Si ves una sola nota por evento, es monofonía; si ves acordes, es homofonía; si hay dos voces que suenan a la vez y se mueven de forma independiente, es polifonía.",
+      "bodyEn": "Each exercise shows an original score and asks you to choose between monophony, homophony and polyphony. Listen with the “Listen to the full melody” button and follow the score. If you see a single note per event, it is monophony; if you see chords, it is homophony; if there are two voices sounding together and moving independently, it is polyphony."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Compará monofonía y homofonía al piano",
+    "titleEn": "Compare monophony and homophony at the piano",
+    "instructionsEs": "Tocá primero la demo monofónica con la mano derecha a 84 BPM. Después tocá la demo homofónica: la melodía sigue en la voz superior y abajo agregás los acordes. Escuchá la diferencia: en la primera no hay nada debajo de la melodía; en la segunda, los acordes la sostienen. Repetí las dos versiones seguidas y decí en voz alta «monofonía» y «homofonía».",
+    "instructionsEn": "First play the monophonic demo with your right hand at 84 BPM. Then play the homophonic demo: the melody stays in the top voice and you add the chords below. Listen to the difference: in the first there is nothing under the melody; in the second, the chords support it. Repeat both versions in a row and say “monophony” and “homophony” out loud.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "Mano derecha: 1 para Do, 2 para Re, 3 para Mi, 4 para Fa y 5 para Sol. En la versión homofónica, tocá la melodía con 3-4-5 y agregá las notas graves con 1-2 sin tensar la muñeca; el pulso se mantiene igual en las dos versiones.",
+    "fingeringEn": "Right hand: 1 for C, 2 for D, 3 for E, 4 for F and 5 for G. In the homophonic version, play the melody with 3-4-5 and add the lower notes with 1-2 without tensing the wrist; the pulse stays the same in both versions.",
+    "tempoBpm": 84,
+    "checklistEs": [
+      "Toqué la melodía monofónica sin agregar notas de acompañamiento",
+      "Toqué la versión homofónica con los acordes alineados con la melodía",
+      "Escuché y nombré la diferencia entre las dos texturas"
+    ],
+    "checklistEn": [
+      "I played the monophonic melody without adding accompaniment notes",
+      "I played the homophonic version with the chords aligned to the melody",
+      "I heard and named the difference between the two textures"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 84,
+      "events": [
+        {
+          "id": "sec.m6-04.demo-homofonia.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.2",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.3",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.4",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.5",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.6",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.7",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.8",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.9",
+          "measure": 5,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.10",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.11",
+          "measure": 6,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.12",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.13",
+          "measure": 7,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-04.demo-homofonia.14",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

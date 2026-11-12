@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-02.h",
+  "skillId": "skill.key-signature",
+  "type": "key-signature",
+  "promptEs": "¿Cuántas notas alteradas tiene la armadura de Fa mayor?",
+  "explanationEs": "La escala de Fa mayor baja una nota con bemol: Si bemol.",
+  "difficulty": 1,
+  "key": "F",
+  "mode": "major",
+  "choices": [
+    "1 bemol (Bb)",
+    "Sin alteraciones",
+    "2 bemoles"
+  ],
+  "promptEn": "How many altered notes does the key signature of F major have?",
+  "explanationEn": "The F major scale lowers one note with a flat: B flat.",
+  "choicesEn": [
+    "1 flat (Bb)",
+    "No accidentals",
+    "2 flats"
+  ]
+}

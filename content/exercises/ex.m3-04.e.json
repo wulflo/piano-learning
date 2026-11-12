@@ -1,0 +1,205 @@
+{
+  "id": "ex.m3-04.e",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Mirá y escuchá el fragmento en Mi menor armónica. ¿Qué intervalo hay entre el séptimo grado elevado (Re♯5) y la tónica (Mi5)?",
+  "promptEn": "Look at and listen to the fragment in E harmonic minor. What interval is there between the raised seventh degree (D♯5) and the tonic (E5)?",
+  "explanationEs": "En Mi menor armónica el séptimo grado se eleva a Re♯. De Re♯5 a Mi5 hay dos letras (Re-Mi) y un semitono: segunda menor. Ese semitono crea la atracción hacia la tónica.",
+  "explanationEn": "In E harmonic minor the seventh degree is raised to D♯. From D♯5 to E5 there are two letters (D-E) and one semitone: a minor second. That semitone creates the pull towards the tonic.",
+  "difficulty": 1,
+  "lower": {
+    "step": "D",
+    "accidental": "#",
+    "octave": 5
+  },
+  "upper": {
+    "step": "E",
+    "accidental": "",
+    "octave": 5
+  },
+  "direction": "melodic",
+  "fragment": {
+    "clef": "treble",
+    "key": "E",
+    "mode": "minor",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 72,
+    "events": [
+      {
+        "id": "frag.m3-04.e.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.e.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "#",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.e.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.e.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.e.5",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.e.6",
+        "measure": 2,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.e.7",
+        "measure": 2,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "#",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.e.8",
+        "measure": 2,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Segunda menor",
+    "Segunda mayor",
+    "Segunda aumentada",
+    "Tercera menor"
+  ],
+  "choicesEn": [
+    "Minor second",
+    "Major second",
+    "Augmented second",
+    "Minor third"
+  ]
+}

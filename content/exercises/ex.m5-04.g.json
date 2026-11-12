@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-04.g",
+  "skillId": "skill.cadence",
+  "type": "cadence",
+  "promptEs": "En La menor, ¿qué cadencia forman los acordes Mi (Mi, Sol♯, Si) y Lam (La, Do, Mi)?",
+  "promptEn": "In A minor, what cadence do the chords E (E, G♯, B) and Am (A, C, E) form?",
+  "explanationEs": "En La menor, la cadencia auténtica usa el V de la menor armónica: Mi (con Sol♯) resuelve en Lam. La sensible Sol♯ es la que crea el cierre.",
+  "explanationEn": "In A minor, the authentic cadence uses the V of harmonic minor: E (with G♯) resolves to Am. The leading tone G♯ creates the close.",
+  "difficulty": 2,
+  "key": "A",
+  "mode": "minor",
+  "fromDegree": 5,
+  "toDegree": 1,
+  "choices": [
+    "Auténtica (V-I)",
+    "Rota (V-vi)",
+    "Plagal (IV-I)",
+    "Semicadencia (…-V)"
+  ],
+  "choicesEn": [
+    "Authentic (V-I)",
+    "Deceptive (V-vi)",
+    "Plagal (IV-I)",
+    "Half cadence (…-V)"
+  ]
+}

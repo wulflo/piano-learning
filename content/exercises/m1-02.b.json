@@ -1,0 +1,14 @@
+{
+  "id": "ex.m1-02.b",
+  "skillId": "skill.note-staff",
+  "type": "note-staff",
+  "promptEs": "¿Qué nota está en la cuarta línea del pentagrama en clave de fa?",
+  "promptEn": "Which note is on the fourth line of the staff in bass clef?",
+  "explanationEs": "En clave de fa, la cuarta línea es Fa3 (F3). Los dos puntos de la clave de fa rodean esa línea.",
+  "explanationEn": "In bass clef, the fourth line is F3. The two dots of the bass clef surround that line.",
+  "difficulty": 1,
+  "target": { "step": "F", "accidental": "", "octave": 3 },
+  "clef": "bass",
+  "choices": ["Re3", "Mi3", "Fa3", "Sol3"],
+  "choicesEn": ["D3", "E3", "F3", "G3"]
+}

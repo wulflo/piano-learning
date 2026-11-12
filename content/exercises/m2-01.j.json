@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-01.j",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de Mi bemol mayor?",
+  "explanationEs": "Mi bemol mayor se deletrea Eb F G Ab Bb C D Eb con el patrón T-T-S-T-T-T-S.",
+  "difficulty": 3,
+  "tonic": "Eb",
+  "mode": "major",
+  "choices": [
+    "Eb F G Ab Bb C D Eb",
+    "Eb F G Ab Bb C Db Eb",
+    "E F G Ab Bb C D E"
+  ],
+  "promptEn": "How do you spell the E flat major scale?",
+  "explanationEn": "E flat major is spelled Eb F G Ab Bb C D Eb with the W-W-H-W-W-W-H pattern.",
+  "choicesEn": [
+    "Eb F G Ab Bb C D Eb",
+    "Eb F G Ab Bb C Db Eb",
+    "E F G Ab Bb C D E"
+  ]
+}

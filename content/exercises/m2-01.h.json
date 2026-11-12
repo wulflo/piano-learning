@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-01.h",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de Fa mayor?",
+  "explanationEs": "Fa mayor se deletrea F G A Bb C D E F con el patrón T-T-S-T-T-T-S.",
+  "difficulty": 2,
+  "tonic": "F",
+  "mode": "major",
+  "choices": [
+    "F G A Bb C D E F",
+    "F G A B C D E B F",
+    "G A Bb C D E F G"
+  ],
+  "promptEn": "How do you spell the F major scale?",
+  "explanationEn": "F major is spelled F G A Bb C D E F with the W-W-H-W-W-W-H pattern.",
+  "choicesEn": [
+    "F G A Bb C D E F",
+    "F G A B C D E B F",
+    "G A Bb C D E F G"
+  ]
+}

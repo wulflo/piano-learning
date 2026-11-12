@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-09.e",
+  "skillId": "skill.chord-symbol",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Si♭maj7 de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of a B♭maj7 chord from low to high, separated by spaces.",
+  "explanationEs": "Si♭maj7 es una séptima mayor: 1-3-5-7, Si♭-Re-Fa-La. La séptima La está once semitonos arriba de Si♭. En cifrado americano se escribe B♭maj7.",
+  "explanationEn": "B♭maj7 is a major seventh: 1-3-5-7, B♭-D-F-A. The seventh A sits eleven semitones above B♭. In Latin notation it is written Si♭maj7.",
+  "difficulty": 2,
+  "root": { "step": "B", "accidental": "b", "octave": 4 },
+  "quality": "major7",
+  "inversion": 0,
+  "ask": "notes"
+}

@@ -1,0 +1,341 @@
+{
+  "id": "lesson.m3-02",
+  "moduleId": "M3",
+  "slug": "inversion-de-intervalos",
+  "titleEs": "Inversión de intervalos",
+  "titleEn": "Interval inversion",
+  "summaryEs": "Cómo dar vuelta un intervalo: los números suman nueve, las calidades se intercambian y las letras se conservan.",
+  "summaryEn": "How to turn an interval around: the numbers add up to nine, the qualities swap and the letters stay.",
+  "objectivesEs": [
+    "Invertir un intervalo subiendo la nota grave o bajando la aguda una octava",
+    "Aplicar la regla de suma nueve y el intercambio de calidades",
+    "Escribir la inversión con la ortografía correcta en las doce tónicas"
+  ],
+  "objectivesEn": [
+    "Invert an interval by raising the lower note or lowering the upper note an octave",
+    "Apply the sum-to-nine rule and the quality swap",
+    "Write the inversion with the correct spelling from all twelve tonics"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m3-01"
+  ],
+  "skillIds": [
+    "skill.interval-quality"
+  ],
+  "exerciseIds": [
+    "ex.m3-02.a",
+    "ex.m3-02.b",
+    "ex.m3-02.c",
+    "ex.m3-02.d",
+    "ex.m3-02.e",
+    "ex.m3-02.f",
+    "ex.m3-02.g",
+    "ex.m3-02.h",
+    "ex.m3-02.i",
+    "ex.m3-02.j",
+    "ex.m3-02.k",
+    "ex.m3-02.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m3-02.intro",
+      "kind": "text",
+      "titleEs": "Dar vuelta un intervalo",
+      "titleEn": "Turning an interval around",
+      "bodyEs": "Invertir un intervalo es cambiar de lugar sus dos notas: la de abajo sube una octava o la de arriba baja una octava. Las dos notas siguen siendo las mismas, pero el intervalo cambia de nombre. Do4-Mi4 es una tercera mayor; al subir Do4 una octava queda Mi4-Do5, una sexta menor. La distancia total se reparte al revés: lo que antes era corto ahora es largo.",
+      "bodyEn": "Inverting an interval means swapping the positions of its two notes: the lower note moves up an octave or the upper note moves down an octave. The two notes stay the same, but the interval gets a different name. C4-E4 is a major third; raising C4 an octave gives E4-C5, a minor sixth. The total distance is shared the other way round: what was short is now long."
+    },
+    {
+      "id": "sec.m3-02.regla",
+      "kind": "text",
+      "titleEs": "La regla de nueve",
+      "titleEn": "The rule of nine",
+      "bodyEs": "La cantidad de un intervalo y la de su inversión siempre suman nueve. Una segunda se invierte en séptima (2 + 7), una tercera en sexta (3 + 6) y una cuarta en quinta (4 + 5); el unísono y la octava también se emparejan (1 + 8). La calidad cambia con una regla fija: los justos quedan justos; los mayores se vuelven menores y los menores, mayores; los aumentados se vuelven disminuidos y los disminuidos, aumentados. Los semitonos también se complementan: una cuarta justa de cinco semitonos se invierte en una quinta justa de siete, y 5 + 7 = 12.",
+      "bodyEn": "An interval's size and its inversion's size always add up to nine. A second inverts to a seventh (2 + 7), a third to a sixth (3 + 6) and a fourth to a fifth (4 + 5); the unison and the octave also pair up (1 + 8). The quality follows a fixed rule: perfect stays perfect; major becomes minor and minor becomes major; augmented becomes diminished and diminished becomes augmented. Semitones complement each other too: a perfect fourth of five semitones inverts to a perfect fifth of seven, and 5 + 7 = 12."
+    },
+    {
+      "id": "sec.m3-02.ortografia",
+      "kind": "text",
+      "titleEs": "La ortografía no se pierde",
+      "titleEn": "Spelling is preserved",
+      "bodyEs": "Al invertir no alcanza con contar semitonos: hay que conservar las letras. Do4-Mi♭4 es una tercera menor; su inversión es Mi♭4-Do5, una sexta menor, no Re♯4-Do5. Do4-Fa♯4 es una cuarta aumentada; su inversión es Fa♯4-Do5, una quinta disminuida, no Sol♭4-Do5. La letra de cada nota se mantiene y solo cambia la octava; por eso la cantidad de letras de la inversión es la que completa nueve.",
+      "bodyEn": "Inverting is not just counting semitones: the letters must be preserved. C4-E♭4 is a minor third; its inversion is E♭4-C5, a minor sixth, not D♯4-C5. C4-F♯4 is an augmented fourth; its inversion is F♯4-C5, a diminished fifth, not G♭4-C5. Each note keeps its letter and only the octave changes; that is why the inversion's letter count is the one that completes nine."
+    },
+    {
+      "id": "sec.m3-02.demo",
+      "kind": "score",
+      "titleEs": "Cuatro pares invertidos",
+      "titleEn": "Four inverted pairs",
+      "bodyEs": "Escuchá y mirá cuatro pares. Primero suena el intervalo original y después su inversión: Do-Re se convierte en Re-Do; Do-Mi en Mi-Do; Do-Fa en Fa-Do; Do-Fa♯ en Fa♯-Do. En cada par las dos notas son las mismas, pero el orden y el nombre cambian. Fijate en los números (2 y 7, 3 y 6, 4 y 5) y en las calidades que se intercambian.",
+      "bodyEn": "Listen to and look at four pairs. The original interval sounds first and then its inversion: C-D becomes D-C; C-E becomes E-C; C-F becomes F-C; C-F♯ becomes F♯-C. In each pair the two notes are the same, but the order and the name change. Watch the numbers (2 and 7, 3 and 6, 4 and 5) and the qualities swapping.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "score.m3-02.maj2",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "D", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-02.min7",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-02.maj3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 81,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-02.min6",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 81,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-02.perf4",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-02.perf5",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "F", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-02.aug4",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "#", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 83,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-02.dim5",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "F", "accidental": "#", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 83,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m3-02.exercises",
+      "kind": "exercise",
+      "titleEs": "Invertir en las doce tónicas",
+      "titleEn": "Invert from all twelve tonics",
+      "bodyEs": "Cada ejercicio parte de un intervalo distinto y te pide nombrar su inversión. Fijate primero en la cantidad (los números suman nueve), después en la calidad (mayor con menor, justo con justo, aumentado con disminuido) y al final comprobá la ortografía de las dos notas. El botón de reproducción toca la inversión que tenés que nombrar.",
+      "bodyEn": "Each exercise starts from a different interval and asks you to name its inversion. Check the size first (the numbers add up to nine), then the quality (major with minor, perfect with perfect, augmented with diminished) and finally the spelling of both notes. The play button sounds the inversion you have to name."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tocá una tercera y su inversión",
+    "titleEn": "Play a third and its inversion",
+    "instructionsEs": "Con la mano derecha, tocá Do4-Mi4 (tercera mayor) y después Mi4-Do5 (sexta menor). La segunda nota de cada par es la inversión de la primera. Repetí el par y agregá Do4-Sol4 (quinta justa) con Sol4-Do5 (cuarta justa) a 60 BPM. Escuchá cómo cambia el color al invertir.",
+    "instructionsEn": "With your right hand, play C4-E4 (major third) and then E4-C5 (minor sixth). The second interval of each pair is the inversion of the first. Repeat the pair and add C4-G4 (perfect fifth) with G4-C5 (perfect fourth) at 60 BPM. Listen to how the colour changes when you invert.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 5 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 5 }
+    ],
+    "fingeringEs": "Mano derecha: pulgar en Do y dedo 3 en Mi; para la inversión, pulgar en Mi y dedo 5 en Do. Después pulgar en Do y dedo 5 en Sol; para la inversión, pulgar en Sol y dedo 4 en Do.",
+    "fingeringEn": "Right hand: thumb on C and finger 3 on E; for the inversion, thumb on E and finger 5 on C. Then thumb on C and finger 5 on G; for the inversion, thumb on G and finger 4 on C.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué Do-Mi y su inversión Mi-Do sin mover la mano de golpe",
+      "Reconocí que la tercera mayor se convierte en sexta menor",
+      "Toqué Do-Sol y su inversión Sol-Do y escuché la quinta y la cuarta"
+    ],
+    "checklistEn": [
+      "I played C-E and its inversion E-C without jumping my hand",
+      "I recognised that the major third turns into a minor sixth",
+      "I played C-G and its inversion G-C and heard the fifth and the fourth"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m3-02.maj3",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-02.min6",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 81,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-02.perf5",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-02.perf4",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 83,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

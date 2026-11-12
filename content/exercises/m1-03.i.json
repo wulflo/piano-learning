@@ -1,0 +1,15 @@
+{
+  "id": "ex.m1-03.i",
+  "skillId": "skill.accidentals",
+  "type": "interval",
+  "promptEs": "¿Qué distancia hay entre La♭4 y Si♭4?",
+  "promptEn": "What is the distance between A♭4 and B♭4?",
+  "explanationEs": "La♭4 y Si♭4 están separados por dos semitonos: hay un tono. La♭ y Si♭ son teclas negras.",
+  "explanationEn": "A♭4 and B♭4 are two semitones apart: it is a tone. A♭ and B♭ are black keys.",
+  "difficulty": 2,
+  "lower": { "step": "A", "accidental": "b", "octave": 4 },
+  "upper": { "step": "B", "accidental": "b", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Semitono", "Tono", "Tono y medio", "Dos tonos"],
+  "choicesEn": ["Semitone", "Tone", "Tone and a half", "Two tones"]
+}

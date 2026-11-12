@@ -1,0 +1,121 @@
+{
+  "id": "lesson.m2-06",
+  "moduleId": "M2",
+  "slug": "menor-melodic",
+  "titleEs": "Menor melódica",
+  "titleEn": "Melodic minor",
+  "summaryEs": "El menor melódico: la versión ascendente y descendente que adapta el menor natural con el séptimo o sexto grado elevado.",
+  "objectivesEs": [
+    "Tocar el menor melódico ascendente y descendente",
+    "Ortografiar el menor melódico en las doce tonalidades",
+    "Comparar el menor melódico con el menor natural"
+  ],
+  "minutes": 14,
+  "prerequisites": [
+    "lesson.m2-05"
+  ],
+  "skillIds": [
+    "skill.major-scale"
+  ],
+  "exerciseIds": [
+    "ex.m2-06.a",
+    "ex.m2-06.b"
+  ],
+  "sections": [
+    {
+      "id": "sec.m2-06.intro",
+      "kind": "text",
+      "titleEs": "El menor melódico",
+      "bodyEs": "El menor melódico nace del menor natural pero modifica los grados altos para suavizar el salto de segunda aumentada del menor armónico y dar a la melodía una dirección clara hacia la tónica. En su versión ascendente se elevan el sexto y el séptimo grados; en la versión descendente se vuelve al menor natural. Así la escala sube con dirección hacia la tónica y baja con el color del menor natural.",
+      "titleEn": "The melodic minor scale",
+      "bodyEn": "The melodic minor scale comes from natural minor but changes the upper degrees to smooth the augmented second of harmonic minor. In its ascending form the sixth and seventh degrees are raised; in its descending form it returns to natural minor. That way the scale rises with direction toward the tonic and falls with the color of natural minor."
+    },
+    {
+      "id": "sec.m2-06.twelve",
+      "kind": "text",
+      "titleEs": "Las doce tonalidades melódicas",
+      "bodyEs": "Cada una de las doce tonalidades menores tiene su versión melódica, con el séptimo grado elevado en la ascendente o el sexto grado elevado en la descendente. La ortografía correcta del menor melódico es la que verifican los ejercicios de deletreo y audio de esta lección.",
+      "bodyEn": "Each of the twelve minor keys has its melodic version, with the sixth and seventh degrees raised when ascending and natural minor when descending. The correct spelling of melodic minor is what the spelling and listening exercises in this lesson check.",
+      "titleEn": "The twelve melodic keys"
+    },
+    {
+      "id": "sec.m2-06.exercises",
+      "kind": "exercise",
+      "titleEs": "Menor melódica ascendente y descendente",
+      "bodyEs": "El ejercicio pide deletrear la escala menor melódica y comparar el sonido del séptimo grado elevado con el de la escala anterior. La respuesta correcta usa la ortografía del menor melódico.",
+      "bodyEn": "The exercise asks you to spell the melodic minor scale and compare the sound of the raised sixth and seventh with the previous scale. The correct answer uses melodic minor spelling.",
+      "titleEn": "Ascending and descending melodic minor"
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la escala menor melódica de Do",
+    "instructionsEs": "Tocá la escala menor melódica de Do ascendente (Do, Re, Mi bemol, Fa, Sol, La, Si, Do) con el patrón menor a 60 BPM, despacio y sin apuro. Al bajar, volvé al menor natural (Do, Si bemol, La bemol, Sol, Fa, Mi bemol, Re, Do).",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "b",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "b",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano derecha en una octava: 1-2-3-4-5-4-3-2; para dos octavas: 1-2-3-4-5-4-3-2-1.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué la escala menor melódica de Do en orden",
+      "Elevé el sexto y el séptimo grados al subir",
+      "Volví al menor natural al bajar",
+      "Repetí la escala despacio con pulso de negra"
+    ],
+    "titleEn": "Play the C melodic minor scale",
+    "instructionsEn": "Play the ascending C melodic minor scale (C, D, E flat, F, G, A, B, C) with the minor pattern at 60 BPM, slowly and without rushing. On the way down, return to natural minor (C, B flat, A flat, G, F, E flat, D, C).",
+    "fingeringEn": "Right hand in one octave: 1-2-3-4-5-4-3-2; for two octaves: 1-2-3-4-5-4-3-2-1.",
+    "checklistEn": [
+      "I played the C melodic minor scale in order",
+      "I raised the sixth and seventh degrees when ascending",
+      "I returned to natural minor when descending",
+      "I repeated the scale slowly with a quarter-note pulse"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published",
+  "summaryEn": "The melodic minor scale: the ascending and descending forms that adapt natural minor by raising the sixth and seventh degrees.",
+  "objectivesEn": [
+    "Build the ascending melodic minor scale",
+    "Understand why the descending form returns to natural minor",
+    "Spell and play the melodic minor scale from C"
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "id": "lesson.m2-01",
+  "moduleId": "M2",
+  "slug": "escala-mayor-y-armaduras",
+  "titleEs": "Escala mayor y armaduras",
+  "titleEn": "Major scale and key signatures",
+  "summaryEs": "Cómo construir la escala mayor con el patrón T-T-S-T-T-T-S, leer las armaduras de las doce tonalidades y deletrear con seguridad.",
+  "objectivesEs": [
+    "Construir la escala mayor desde su tónica aplicando el patrón T-T-S-T-T-T-S",
+    "Reconocer las notas de las doce escalas mayores y sus alteraciones",
+    "Deletrear una escala mayor y nombrar su armadura sin errores"
+  ],
+  "minutes": 16,
+  "prerequisites": [
+    "lesson.m1-12"
+  ],
+  "skillIds": [
+    "skill.major-scale",
+    "skill.key-signature"
+  ],
+  "exerciseIds": [
+    "ex.m2-01.a",
+    "ex.m2-01.b",
+    "ex.m2-01.c",
+    "ex.m2-01.d",
+    "ex.m2-01.e",
+    "ex.m2-01.f",
+    "ex.m2-01.g",
+    "ex.m2-01.h",
+    "ex.m2-01.i",
+    "ex.m2-01.j",
+    "ex.m2-01.k",
+    "ex.m2-01.l",
+    "ex.m2-01.m",
+    "ex.m2-01.n",
+    "ex.m2-01.o"
+  ],
+  "sections": [
+    {
+      "id": "sec.m2-01.intro",
+      "kind": "text",
+      "titleEs": "Por qué las armaduras existen",
+      "bodyEs": "Una armadura es una forma compacta de anotar las alteraciones que usa una escala. En lugar de repetir un sostenido o un bemol en cada nota, la partitura lo fija una sola vez. Así, la escala mayor se entiende tanto por su patrón como por la armadura que le corresponde, y la clave musical queda resumida en una línea.",
+      "titleEn": "Why key signatures exist",
+      "bodyEn": "A key signature is a compact way to write the accidentals a scale uses. Instead of repeating a sharp or a flat on every note, the score sets it once. That way the major scale is understood both by its pattern and by the key signature that belongs to it, and the musical key is summarized in a single line."
+    },
+    {
+      "id": "sec.m2-01.pattern",
+      "kind": "text",
+      "titleEs": "El patrón T-T-S-T-T-T-S",
+      "bodyEs": "La escala mayor se arma con siete notas y un patrón fijo de tonos y semitonos: T-T-S-T-T-T-S. T indica un tono entero, dos pasos de la escala natural, y S indica un semitono. Partiendo de la tónica se tocan tónica, segunda, tercera, cuarta, quinta, sexta, séptima y se cierra con la tónica. Cuando una altura cae en un semitono extra, la letra sube con sostenido o baja con bemol, y la armadura registra esa alteración para toda la escala.",
+      "titleEn": "The W-W-H-W-W-W-H pattern",
+      "bodyEn": "The major scale is built with seven notes and a fixed pattern of whole and half steps: W-W-H-W-W-W-H. W means a whole step, two steps of the natural scale, and H means a half step. Starting from the tonic you play tonic, second, third, fourth, fifth, sixth, seventh and close with the tonic. When a pitch falls on an extra half step, the letter goes up with a sharp or down with a flat, and the key signature records that accidental for the whole scale."
+    },
+    {
+      "id": "sec.m2-01.twelve",
+      "kind": "text",
+      "titleEs": "Las doce escalas mayores",
+      "bodyEs": "De cada una de las doce notas como tónica se obtiene una escala mayor con el mismo patrón. Las que usan sostenidos son Do, Sol, Re, La, Mi, Si y Fa sostenido; las que usan bemoles son Fa, Mi bemol, Si bemol, Fa bemol, Re bemol y Si bemol sostenido. El patrón es idéntico en todas, solo cambia la alteración inicial, y la escala se escribe de arriba hacia abajo desde la tónica hasta que la última nota vuelve a la tónica.",
+      "titleEn": "The twelve major scales",
+      "bodyEn": "Each of the twelve notes as a tonic gives a major scale with the same pattern. The sharp keys are C, G, D, A, E, B and F sharp; the flat keys are F, B flat, E flat, A flat, D flat, G flat and C flat. The pattern is identical in all of them, only the starting accidental changes, and the scale is written from the tonic up until the last note returns to the tonic."
+    },
+    {
+      "id": "sec.m2-01.score",
+      "kind": "score",
+      "titleEs": "Escala de Sol mayor",
+      "bodyEs": "Escala de Sol a 80 BPM: Sol, La, Si, Do, Re, Mi, Fa sostenido, Sol. El patrón T-T-S-T-T-T-S se aplica sobre dos compases de cuatro tiempos, con la tónica repetida al final.",
+      "score": {
+        "clef": "treble",
+        "key": "G",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m2-01.g4",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-01.a4",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-01.b4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-01.c5",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-01.d5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-01.e5",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-01.f5",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "#",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-01.g5",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          }
+        ]
+      },
+      "titleEn": "G major scale",
+      "bodyEn": "G scale at 80 BPM: G, A, B, C, D, E, F sharp, G. The W-W-H-W-W-W-H pattern is applied over two measures of four beats, with the tonic repeated at the end."
+    },
+    {
+      "id": "sec.m2-01.exercises",
+      "kind": "exercise",
+      "titleEs": "Deletreo de escalas",
+      "bodyEs": "Cada ejercicio te pide deletrear una escala mayor conocida y nombrar su armadura. La respuesta correcta sigue el patrón T-T-S-T-T-T-S desde la tónica, con la alteración justa. Compará tu respuesta con el ejemplo de la escala de Sol antes de pasar al siguiente ejercicio.",
+      "titleEn": "Spelling scales",
+      "bodyEn": "Each exercise asks you to spell a known major scale and name its key signature. The correct answer follows the W-W-H-W-W-W-H pattern from the tonic, with the right accidental. Compare your answer with the G scale example before moving to the next exercise."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la escala mayor en sol",
+    "instructionsEs": "Tocá la escala mayor de Sol (Sol, La, Si, Do, Re, Mi, Fa sostenido, Sol) con el patrón T-T-S-T-T-T-S a 60 BPM, primero con la mano derecha y despacio, después con la mano izquierda y finalmente con ambas manos.",
+    "keys": [
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "F",
+        "accidental": "#",
+        "octave": 5
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano derecha en una octava: 1-2-3-4-5-4-3-2; para dos octavas: 1-2-3-4-5-4-3-2-1.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué las notas de la escala en orden con el patrón T-T-S-T-T-T-S",
+      "No salté ni repetí notas incorrectas",
+      "Mantuve el pulso a 60 BPM con pulso de negra en cada compás"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "G",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m2-01.g4",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-01.a4",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-01.b4",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-01.c5",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-01.d5",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-01.e5",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-01.f5",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-01.g5",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        }
+      ]
+    },
+    "titleEn": "Play the G major scale",
+    "instructionsEn": "Play the G major scale (G, A, B, C, D, E, F sharp, G) with the W-W-H-W-W-W-H pattern at 60 BPM, first with the right hand and slowly, then with the left hand and finally with both hands.",
+    "fingeringEn": "Right hand in one octave: 1-2-3-4-5-4-3-2; for two octaves: 1-2-3-4-5-4-3-2-1.",
+    "checklistEn": [
+      "I played the scale notes in order with the W-W-H-W-W-W-H pattern",
+      "I did not skip or repeat the wrong notes",
+      "I kept the pulse at 60 BPM with a quarter-note pulse in each measure"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published",
+  "summaryEn": "How to build the major scale with the W-W-H-W-W-W-H pattern, read the key signatures of the twelve keys and spell them confidently.",
+  "objectivesEn": [
+    "Build a major scale from any tonic with the W-W-H-W-W-W-H pattern",
+    "Read the key signature of the twelve major keys",
+    "Spell major scales and name their accidentals correctly"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ex.m7-02.m",
+  "skillId": "skill.arpeggio",
+  "type": "tempo-stability",
+  "promptEs": "Tocá el arpegio de Do mayor con la mano derecha a 60 BPM, después a 72 y por último a 84, cuatro compases en cada tempo. ¿Cómo comprobás que el pulso se mantuvo estable al subir?",
+  "promptEn": "Play the C major arpeggio with your right hand at 60 BPM, then at 72 and finally at 84, four measures at each tempo. How do you check that the pulse stayed steady while speeding up?",
+  "explanationEs": "El tempo es progresivo, no un salto: cada subida de 12 BPM se prueba después de cuatro compases cómodos. El pulso es estable si cada negra se mantiene dentro de ±4 BPM del objetivo (60, 72 y 84) y si las notas del arpegio llegan juntas al pulso, sin adelantar la mano ni tensar el brazo.",
+  "explanationEn": "The tempo is progressive, not a jump: each 12 BPM increase is tried after four comfortable measures. The pulse is steady if every quarter note stays within ±4 BPM of the target (60, 72 and 84) and if the arpeggio notes reach the beat together, without the hand running ahead or the arm tensing.",
+  "difficulty": 2,
+  "targetBpm": 84,
+  "beats": 16,
+  "toleranceBpm": 4
+}

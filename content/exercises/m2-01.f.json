@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-01.f",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de Si mayor?",
+  "explanationEs": "Si mayor se deletrea B C# D# E F# G# A# B con el patrón T-T-S-T-T-T-S.",
+  "difficulty": 3,
+  "tonic": "B",
+  "mode": "major",
+  "choices": [
+    "B C# D# E F# G# A# B",
+    "B C D E F G A B",
+    "B C# D E F G A B"
+  ],
+  "promptEn": "How do you spell the B major scale?",
+  "explanationEn": "B major is spelled B C# D# E F# G# A# B with the W-W-H-W-W-W-H pattern.",
+  "choicesEn": [
+    "B C# D# E F# G# A# B",
+    "B C D E F G A B",
+    "B C# D E F G A B"
+  ]
+}

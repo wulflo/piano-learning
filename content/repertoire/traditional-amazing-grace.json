@@ -1,0 +1,588 @@
+{
+  "id": "piece.traditional.amazing-grace",
+  "title": "Amazing Grace",
+  "composerDisplay": "Anónimo tradicional (New Britain)",
+  "level": 1,
+  "durationSeconds": 40,
+  "tags": [
+    "tradicional",
+    "himno",
+    "melodía",
+    "grado 1"
+  ],
+  "license": {
+    "license": "public-domain",
+    "composer": {
+      "name": "Anónimo tradicional",
+      "birthYear": null,
+      "deathYear": null,
+      "anonymousTraditional": true
+    },
+    "source": "Himno «New Britain», publicado en Columbian Harmony (1829); verificado en Hymnary.org y Wikipedia",
+    "sourceUrl": "https://hymnary.org/tune/new_britain",
+    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionDate": "2026-11-13",
+    "attribution": "Amazing Grace — melodía tradicional «New Britain» (dominio público); transcripción de PianoDesdeCero",
+    "verifiedBy": "PianoDesdeCero",
+    "verifiedOn": "2026-11-13",
+    "notes": "Se transcribe solo la melodía de «New Britain», sin letra. La letra de John Newton (1725-1807) no se usa y se descartan las armonizaciones y los arreglos modernos."
+  },
+  "hands": {
+    "right": {
+      "clef": "treble",
+      "key": "G",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "tempoBpm": 72,
+      "events": [
+        {
+          "id": "ev.amazing-grace.r01",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r02",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r03",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r04",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r05",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r06",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r07",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r08",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r09",
+          "measure": 5,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r10",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r11",
+          "measure": 6,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r12",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r13",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r14",
+          "measure": 8,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r15",
+          "measure": 9,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r16",
+          "measure": 9,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r17",
+          "measure": 10,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r18",
+          "measure": 10,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r19",
+          "measure": 11,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r20",
+          "measure": 11,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r21",
+          "measure": 12,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r22",
+          "measure": 13,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r23",
+          "measure": 13,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r24",
+          "measure": 14,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r25",
+          "measure": 14,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r26",
+          "measure": 15,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.amazing-grace.r27",
+          "measure": 16,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "notesEs": "Melodía del himno «New Britain» en Sol mayor y compás de 3/4, solo para la mano derecha. Las frases largas y el salto a la nota aguda del compás 7 piden escuchar el final de cada frase y respirar antes de continuar.",
+  "notesEn": "New Britain hymn melody in G major and 3/4 time, right hand only. The long phrases and the leap to the high note in measure 7 ask for listening to the end of each phrase and breathing before continuing.",
+  "fingeringEs": "Derecha: 1-3 en los compases 1 y 5; 3-2 en 2 y 6; 1-3 en 3; 5 en 4 y 12; 5 en 7; 5-3 en 8 y 9; 1-5 en 10; 3-1 en 11; 1-3 en 13; 3-2 en 14; 1 en 15 y 16.",
+  "fingeringEn": "Right hand: 1-3 in measures 1 and 5; 3-2 in 2 and 6; 1-3 in 3; 5 in 4 and 12; 5 in 7; 5-3 in 8 and 9; 1-5 in 10; 3-1 in 11; 1-3 in 13; 3-2 in 14; 1 in 15 and 16."
+}

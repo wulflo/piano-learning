@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-10.j",
+  "skillId": "skill.chord-quality-ear",
+  "type": "ear-chord",
+  "promptEs": "Escuchá el acorde y elegí su calidad.",
+  "promptEn": "Listen to the chord and choose its quality.",
+  "explanationEs": "La-Do♯ es tercera mayor, La-Mi quinta justa y La-Sol séptima menor: es un La7, una séptima de dominante. La séptima menor pide resolver y lo separa de La maj7.",
+  "explanationEn": "A-C♯ is a major third, A-E a perfect fifth and A-G a minor seventh: it is an A7, a dominant seventh. The minor seventh wants to resolve and separates it from Amaj7.",
+  "difficulty": 3,
+  "root": { "step": "A", "accidental": "", "octave": 3 },
+  "quality": "dominant7",
+  "inversion": 0,
+  "style": "block",
+  "choices": ["séptima de dominante", "séptima mayor", "séptima menor", "séptima disminuida"],
+  "choicesEn": ["dominant seventh", "major seventh", "minor seventh", "diminished seventh"]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ex.m1-11.a",
+  "skillId": "skill.repeat-signs",
+  "type": "playback-order",
+  "promptEs": "La sección A está entre signos de repetición y B suena una sola vez. ¿Cuál es el orden de reproducción?",
+  "explanationEs": "Los signos ||: y :|| repiten todo lo que está entre ellos. El orden es A A B.",
+  "difficulty": 1,
+  "sections": [
+    {
+      "id": "sec-a",
+      "label": "A",
+      "repeat": true
+    },
+    {
+      "id": "sec-b",
+      "label": "B",
+      "repeat": false
+    }
+  ],
+  "answer": [
+    "sec-a",
+    "sec-a",
+    "sec-b"
+  ],
+  "choices": [
+    "A A B",
+    "A B",
+    "A B A",
+    "A B B"
+  ],
+  "promptEn": "Section A is between repeat signs and B sounds only once. What is the playback order?",
+  "explanationEn": "The signs ||: and :|| repeat everything between them. The order is A A B.",
+  "choicesEn": [
+    "A A B",
+    "A B",
+    "A B A",
+    "A B B"
+  ]
+}

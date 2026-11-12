@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-02.e",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "La tercera menor Mi4-Sol4 se invierte subiendo Mi una octava. ¿Cómo se llama el intervalo Sol4-Mi5?",
+  "promptEn": "The minor third E4-G4 is inverted by raising E an octave. What is the interval G4-E5 called?",
+  "explanationEs": "Sol4-Mi5 es una sexta mayor: 3 + 6 = 9 y la calidad cambia de menor a mayor.",
+  "explanationEn": "G4-E5 is a major sixth: 3 + 6 = 9 and the quality changes from minor to major.",
+  "difficulty": 2,
+  "lower": { "step": "G", "accidental": "", "octave": 4 },
+  "upper": { "step": "E", "accidental": "", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Sexta mayor", "Sexta menor", "Tercera menor", "Quinta justa"],
+  "choicesEn": ["Major sixth", "Minor sixth", "Minor third", "Perfect fifth"]
+}

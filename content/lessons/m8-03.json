@@ -1,0 +1,2294 @@
+{
+  "id": "lesson.m8-03",
+  "moduleId": "M8",
+  "slug": "jazz-basico",
+  "titleEs": "Jazz básico",
+  "titleEn": "Basic jazz",
+  "summaryEs": "El swing, la cadencia ii–V–I y los voicings sobre el ejemplo original «Tren de medianoche».",
+  "summaryEn": "Swing, the ii–V–I cadence and voicings over the original example “Midnight Train”.",
+  "objectivesEs": [
+    "Reconocer el swing y el comping en una cadencia de jazz",
+    "Leer la cadencia ii–V–I y su conducción de voces",
+    "Tocar voicings de tres y cuatro notas sin duplicar la fundamental"
+  ],
+  "objectivesEn": [
+    "Recognise swing and comping in a jazz cadence",
+    "Read the ii–V–I cadence and its voice leading",
+    "Play three- and four-note voicings without doubling the root"
+  ],
+  "minutes": 20,
+  "optional": true,
+  "prerequisites": [
+    "lesson.m8-02"
+  ],
+  "skillIds": [
+    "skill.jazz"
+  ],
+  "exerciseIds": [
+    "ex.m8-03.a",
+    "ex.m8-03.b",
+    "ex.m8-03.c",
+    "ex.m8-03.d",
+    "ex.m8-03.e",
+    "ex.m8-03.f",
+    "ex.m8-03.g",
+    "ex.m8-03.h",
+    "ex.m8-03.i",
+    "ex.m8-03.j",
+    "ex.m8-03.k",
+    "ex.m8-03.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m8-03.swing",
+      "kind": "text",
+      "titleEs": "El swing y el comping",
+      "titleEn": "Swing and comping",
+      "bodyEs": "El jazz se apoya en el swing: las corcheas no se tocan iguales, sino largas-cortas, como un tresillo. El pulso se mantiene constante y el ride marca los cuatro tiempos con acentos en 2 y 4. El comping del piano responde con acordes cortos en contratiempos y silencios, sin llenar cada pulso. La mano izquierda puede tocar solo la fundamental o un shell de fundamental, tercera y séptima; la derecha conduce las notas guía. Practicá el swing lento y marcá el pulso en 2 y 4 con el pie.",
+      "bodyEn": "Jazz rests on swing: eighths are not played evenly but long-short, like a triplet. The pulse stays constant and the ride cymbal marks all four beats with accents on 2 and 4. The piano comping answers with short chords on the off-beats and silences, without filling every beat. The left hand can play just the root or a shell of root, third and seventh; the right hand leads the guide tones. Practise swing slowly and mark beats 2 and 4 with your foot."
+    },
+    {
+      "id": "sec.m8-03.ii-v-i",
+      "kind": "text",
+      "titleEs": "La cadencia ii–V–I",
+      "titleEn": "The ii–V–I cadence",
+      "bodyEs": "La cadencia ii–V–I es el motor de la armonía jazzística. En Do: Dm7–G7–Cmaj7, es decir ii–V–I. El segundo grado es menor con séptima, el quinto es dominante con séptima y el primero es mayor con séptima. Las notas guía son la tercera y la séptima: en Dm7, Fa y Do; en G7, Si y Fa; en Cmaj7, Mi y Si. Fijate cómo Fa se queda y Do baja a Si; después Si se queda y aparece Mi. Esa conducción suave es la que hace sonar el ii–V–I. Para completar el giro agregá el VI7, La7 en Do, como dominante del segundo grado, y volvés a empezar. Practicá la cadencia en Do, Fa, Si♭ y Mi♭ contando los grados.",
+      "bodyEn": "The ii–V–I cadence is the engine of jazz harmony. In C: Dm7–G7–Cmaj7, that is ii–V–I. The second degree is a minor seventh, the fifth a dominant seventh and the first a major seventh. The guide tones are the third and the seventh: in Dm7, F and C; in G7, B and F; in Cmaj7, E and B. Notice how F stays and C falls to B; then B stays and E appears. That smooth voice leading is what makes the ii–V–I sound. To complete the turn add VI7, A7 in C, as the dominant of the second degree, and start again. Practise the cadence in C, F, B♭ and E♭ while counting the degrees."
+    },
+    {
+      "id": "sec.m8-03.voicings",
+      "kind": "text",
+      "titleEs": "Voicings de tres y cuatro notas",
+      "titleEn": "Three- and four-note voicings",
+      "bodyEs": "Un voicing es la forma concreta de repartir las notas de un acorde. El shell de tres notas usa fundamental, tercera y séptima; el voicing sin fundamental deja que el bajo o la mano izquierda toque la fundamental y la derecha usa tercera, quinta, séptima y novena. En Do, Dm7 puede ser Fa–La–Do–Mi (3-5-7-9), G7 Fa–La–Si–Mi (7-9-3-13) y Cmaj7 Mi–Sol–Si–Re (3-5-7-9). Buscá que las voces se muevan poco: la nota más aguda y la más grave deben quedar cerca del acorde anterior. Evitá duplicar la fundamental en la derecha y dejá aire entre los ataques.",
+      "bodyEn": "A voicing is the concrete way of spreading a chord’s notes. The three-note shell uses root, third and seventh; the rootless voicing lets the bass or left hand play the root while the right hand uses third, fifth, seventh and ninth. In C, Dm7 can be F–A–C–E (3-5-7-9), G7 F–A–B–E (7-9-3-13) and Cmaj7 E–G–B–D (3-5-7-9). Keep the voices moving little: the top and bottom notes should stay close to the previous chord. Avoid doubling the root in the right hand and leave air between attacks."
+    },
+    {
+      "id": "sec.m8-03.demo-swing",
+      "kind": "score",
+      "titleEs": "Demo: swing en Do",
+      "titleEn": "Demo: swing in C",
+      "bodyEs": "Cuatro compases con la cadencia Dm7–G7–Cmaj7–La7 a 96 BPM. La mano izquierda sostiene las fundamentales y la derecha toca voicings sin fundamental en corcheas de swing. Escuchá cómo las voces se mueven poco entre acordes y cómo el comping deja respirar el pulso.",
+      "bodyEn": "Four bars with the Dm7–G7–Cmaj7–A7 cadence at 96 BPM. The left hand holds the roots and the right hand plays rootless voicings in swing eighths. Listen to how the voices move little between chords and how comping lets the pulse breathe.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 96,
+        "events": [
+          {
+            "id": "sec.m8-03.demo-swing.1.root",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Dm7"
+          },
+          {
+            "id": "sec.m8-03.demo-swing.1.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.1.2",
+            "measure": 1,
+            "beat": 0.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.1.3",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.1.4",
+            "measure": 1,
+            "beat": 1.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.1.5",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.1.6",
+            "measure": 1,
+            "beat": 2.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.1.7",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.1.8",
+            "measure": 1,
+            "beat": 3.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.2.root",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "G7"
+          },
+          {
+            "id": "sec.m8-03.demo-swing.2.1",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.2.2",
+            "measure": 2,
+            "beat": 0.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.2.3",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.2.4",
+            "measure": 2,
+            "beat": 1.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.2.5",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.2.6",
+            "measure": 2,
+            "beat": 2.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.2.7",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.2.8",
+            "measure": 2,
+            "beat": 3.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.3.root",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Cmaj7"
+          },
+          {
+            "id": "sec.m8-03.demo-swing.3.1",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.3.2",
+            "measure": 3,
+            "beat": 0.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.3.3",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.3.4",
+            "measure": 3,
+            "beat": 1.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.3.5",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.3.6",
+            "measure": 3,
+            "beat": 2.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.3.7",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.3.8",
+            "measure": 3,
+            "beat": 3.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.4.root",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "A7"
+          },
+          {
+            "id": "sec.m8-03.demo-swing.4.1",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.4.2",
+            "measure": 4,
+            "beat": 0.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.4.3",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.4.4",
+            "measure": 4,
+            "beat": 1.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.4.5",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.4.6",
+            "measure": 4,
+            "beat": 2.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.4.7",
+            "measure": 4,
+            "beat": 3,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 96,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-swing.4.8",
+            "measure": 4,
+            "beat": 3.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m8-03.demo-tema",
+      "kind": "score",
+      "titleEs": "Demo: «Tren de medianoche» (8 compases)",
+      "titleEn": "Demo: “Midnight Train” (8 bars)",
+      "bodyEs": "Ocho compases del ejemplo original «Tren de medianoche» en Do a 100 BPM: Dm7–G7–Cmaj7–La7 y otra vez Dm7–G7–Cmaj7–Cmaj7. La melodía usa las notas guía y la escala de Do mayor; la mano izquierda afirma la fundamental de cada compás. Cantá primero la melodía y después acompañate con los voicings.",
+      "bodyEn": "Eight bars of the original example “Midnight Train” in C at 100 BPM: Dm7–G7–Cmaj7–A7 and then Dm7–G7–Cmaj7–Cmaj7. The melody uses the guide tones and the C major scale; the left hand states the root of each bar. Sing the melody first and then accompany yourself with the voicings.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 100,
+        "events": [
+          {
+            "id": "sec.m8-03.demo-tema.1.root",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Dm7"
+          },
+          {
+            "id": "sec.m8-03.demo-tema.1.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.1.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.1.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.2.root",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "G7"
+          },
+          {
+            "id": "sec.m8-03.demo-tema.2.1",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.2.2",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.2.3",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.3.root",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Cmaj7"
+          },
+          {
+            "id": "sec.m8-03.demo-tema.3.1",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.3.2",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.3.3",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.4.root",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "A7"
+          },
+          {
+            "id": "sec.m8-03.demo-tema.4.1",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "#",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.4.2",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.4.3",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.5.root",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Dm7"
+          },
+          {
+            "id": "sec.m8-03.demo-tema.5.1",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.5.2",
+            "measure": 5,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.5.3",
+            "measure": 5,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.5.4",
+            "measure": 5,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.6.root",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "G7"
+          },
+          {
+            "id": "sec.m8-03.demo-tema.6.1",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.6.2",
+            "measure": 6,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.6.3",
+            "measure": 6,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.7.root",
+            "measure": 7,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Cmaj7"
+          },
+          {
+            "id": "sec.m8-03.demo-tema.7.1",
+            "measure": 7,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.7.2",
+            "measure": 7,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.7.3",
+            "measure": 7,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m8-03.demo-tema.8.root",
+            "measure": 8,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Cmaj7"
+          },
+          {
+            "id": "sec.m8-03.demo-tema.8.1",
+            "measure": 8,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 84,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m8-03.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Leer el swing, la cadencia y los voicings",
+      "titleEn": "Read swing, the cadence and the voicings",
+      "bodyEs": "Cuatro ejercicios preguntan por el patrón rítmico, cuatro por los grados de la progresión ii–V–I–VI, dos por el cifrado de un compás y dos por las notas del voicing. La partitura muestra la cadencia completa; la respuesta se deduce de los ataques, de los cifrados y de las notas escritas. Marcá el pulso en 2 y 4 y leé las voces de abajo hacia arriba.",
+      "bodyEn": "Four exercises ask about the rhythmic pattern, four about the degrees of the ii–V–I–VI progression, two about the chord symbol in a bar and two about the notes of the voicing. The score shows the complete cadence; the answer comes from the attacks, the symbols and the written notes. Mark beats 2 and 4 and read the voices from bottom to top."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tocá un ii–V–I en Do con notas guía",
+    "titleEn": "Play a ii–V–I in C with guide tones",
+    "instructionsEs": "Poné el metrónomo a 80 BPM y contá en 2 y 4. Mano izquierda: la fundamental de cada compás en redondas: Re3, Sol3, Do3 y La3. Mano derecha: las notas guía en redondas: Fa4+Do5 en Dm7, Fa4+Si4 en G7, Mi4+Si4 en Cmaj7 y Mi4+Do♯5 en La7. Tocá primero solo la mano izquierda, después solo las guías y finalmente las dos manos. Repetí el giro cuatro veces sin parar y cantá los grados ii–V–I–VI. Cuando el pulso esté estable, cambiá las redondas por un comping en contratiempos y dejá aire entre los acordes. Si aparece dolor, tensión o cansancio, pará o bajá el tempo.",
+    "instructionsEn": "Set the metronome to 80 BPM and count on 2 and 4. Left hand: the root of each bar in whole notes: D3, G3, C3 and A3. Right hand: the guide tones in whole notes: F4+C5 on Dm7, F4+B4 on G7, E4+B4 on Cmaj7 and E4+C♯5 on A7. Play the left hand alone first, then the guide tones alone and finally both hands. Repeat the turn four times without stopping and sing the degrees ii–V–I–VI. When the pulse is steady, change the whole notes for off-beat comping and leave air between chords. If pain, tension or fatigue appears, stop or slow down.",
+    "keys": [
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "#",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano izquierda: 5 en cada fundamental (Re3, Sol3, Do3, La3). Mano derecha: las guías con 1-3 o 1-2 según la comodidad; mantené la muñeca suelta y no levantes los dedos más de lo necesario. En el comping, acortá el acorde al soltar la muñeca y conservá el mismo movimiento en cada vuelta.",
+    "fingeringEn": "Left hand: 5 on each root (D3, G3, C3, A3). Right hand: the guide tones with 1-3 or 1-2 as comfortable; keep the wrist loose and do not lift the fingers more than needed. In comping, shorten the chord by releasing the wrist and keep the same motion on every turn.",
+    "tempoBpm": 80,
+    "checklistEs": [
+      "Toqué las fundamentales Re3–Sol3–Do3–La3",
+      "Toqué las guías Fa4+Do5, Fa4+Si4, Mi4+Si4 y Mi4+Do♯5",
+      "Conté el pulso en 2 y 4 sin perderlo",
+      "Repetí el giro ii–V–I–VI cuatro veces sin parar",
+      "Canté los grados ii–V–I–VI",
+      "Cambié las redondas por comping en contratiempos",
+      "Paré o bajé el tempo si apareció dolor, tensión o cansancio"
+    ],
+    "checklistEn": [
+      "I played the roots D3–G3–C3–A3",
+      "I played the guide tones F4+C5, F4+B4, E4+B4 and E4+C♯5",
+      "I counted the pulse on 2 and 4 without losing it",
+      "I repeated the ii–V–I–VI turn four times without stopping",
+      "I sang the degrees ii–V–I–VI",
+      "I changed the whole notes for off-beat comping",
+      "I stopped or slowed down if pain, tension or fatigue appeared"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 80,
+      "events": [
+        {
+          "id": "sec.m8-03.tarea.1.root",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "Dm7"
+        },
+        {
+          "id": "sec.m8-03.tarea.1.guides",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m8-03.tarea.2.root",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "G7"
+        },
+        {
+          "id": "sec.m8-03.tarea.2.guides",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m8-03.tarea.3.root",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "Cmaj7"
+        },
+        {
+          "id": "sec.m8-03.tarea.3.guides",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m8-03.tarea.4.root",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "A7"
+        },
+        {
+          "id": "sec.m8-03.tarea.4.guides",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "#",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 84,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

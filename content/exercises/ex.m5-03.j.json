@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-03.j",
+  "skillId": "skill.harmonic-function",
+  "type": "harmonic-function",
+  "promptEs": "En Do menor natural, ¿qué función cumple el acorde Mi♭ (Mi♭, Sol, Si♭)?",
+  "promptEn": "In C natural minor, what function does the chord E♭ (E♭, G, B♭) fulfil?",
+  "explanationEs": "En Do menor natural, el grado III es Mi♭. Es la relativa mayor y funciona como tónica: comparte dos notas con Do menor y sirve de reposo alternativo.",
+  "explanationEn": "In C natural minor, degree III is E♭. It is the relative major and works as a tonic: it shares two notes with C minor and serves as an alternative resting point.",
+  "difficulty": 2,
+  "key": "C",
+  "mode": "minor",
+  "degree": 3,
+  "choices": [
+    "Tónica (T)",
+    "Dominante (D)",
+    "Subdominante (S)"
+  ],
+  "choicesEn": [
+    "Tonic (T)",
+    "Dominant (D)",
+    "Subdominant (S)"
+  ]
+}

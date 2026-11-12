@@ -1,0 +1,501 @@
+{
+  "id": "ex.m6-01.b",
+  "skillId": "skill.motive-phrase",
+  "type": "phrase-analysis",
+  "promptEs": "¿Cuántos motivos distintos tiene esta melodía?",
+  "promptEn": "How many distinct motives does this melody have?",
+  "explanationEs": "La segmentación marca 2 motivos (compases 1-2, compases 5-6) repartidos entre 2 frases. Un motivo es la unidad melódica más pequeña con identidad propia: unas pocas notas con un ritmo y un contorno reconocibles. Al repetirse o variarse, los motivos construyen las frases.",
+  "explanationEn": "The segmentation marks 2 motives (bars 1-2, bars 5-6) across 2 phrases. A motive is the smallest melodic unit with its own identity: a few notes with a recognisable rhythm and contour. By repeating or varying, motives build the phrases.",
+  "difficulty": 1,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 84,
+    "events": [
+      {
+        "id": "ex.m6-01.b.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.5",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.6",
+        "measure": 2,
+        "beat": 2,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.7",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.8",
+        "measure": 3,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.9",
+        "measure": 3,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.10",
+        "measure": 3,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.11",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.12",
+        "measure": 5,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.13",
+        "measure": 5,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.14",
+        "measure": 5,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.15",
+        "measure": 5,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.16",
+        "measure": 6,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.17",
+        "measure": 6,
+        "beat": 2,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.18",
+        "measure": 7,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.19",
+        "measure": 7,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.20",
+        "measure": 7,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.21",
+        "measure": 7,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-01.b.22",
+        "measure": 8,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "segments": [
+    {
+      "id": "ex.m6-01.b.motivo-1",
+      "kind": "motive",
+      "startMeasure": 1,
+      "endMeasure": 2
+    },
+    {
+      "id": "ex.m6-01.b.motivo-2",
+      "kind": "motive",
+      "startMeasure": 5,
+      "endMeasure": 6
+    },
+    {
+      "id": "ex.m6-01.b.frase-1",
+      "kind": "phrase",
+      "startMeasure": 1,
+      "endMeasure": 4
+    },
+    {
+      "id": "ex.m6-01.b.frase-2",
+      "kind": "phrase",
+      "startMeasure": 5,
+      "endMeasure": 8
+    }
+  ],
+  "ask": "motive-count",
+  "choices": [
+    "1 motivo",
+    "2 motivos",
+    "3 motivos",
+    "4 motivos"
+  ],
+  "choicesEn": [
+    "1 motive",
+    "2 motives",
+    "3 motives",
+    "4 motives"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-03.a",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de Do mayor suena Do-Mi-Sol, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The C major chord sounds C-E-G, from low to high. What inversion is it?",
+  "explanationEs": "El bajo es Do, la fundamental del acorde, y las notas se apilan 1-3-5. Por eso está en estado fundamental, sin importar en qué octava se toque.",
+  "explanationEn": "The bass is C, the chord's root, and the notes stack 1-3-5. That is why it is in root position, no matter which octave it is played in.",
+  "difficulty": 1,
+  "root": { "step": "C", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "inversion": 0,
+  "ask": "inversion",
+  "choices": ["estado fundamental", "primera inversión", "segunda inversión"],
+  "choicesEn": ["root position", "first inversion", "second inversion"]
+}

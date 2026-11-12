@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-05.e",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "El acorde formado por Sol, Si, Re, Fa, La y Do, ¿qué calidad extendida tiene?",
+  "promptEn": "The chord made of G, B, D, F, A and C has which extended quality?",
+  "explanationEs": "Es un Sol11, o oncena de dominante: 1-3-5-♭7-9-11 (Sol-Si-Re-Fa-La-Do). Tiene tercera mayor Si, séptima menor Fa, novena La y oncena Do. La oncena Do choca con Si y en la práctica suele omitirse o tocarse como Sol sus4.",
+  "explanationEn": "It is a G11, or dominant eleventh: 1-3-5-♭7-9-11 (G-B-D-F-A-C). It has a major third B, a minor seventh F, a ninth A and an eleventh C. The eleventh C clashes with B, so in practice it is usually omitted or played as Gsus4.",
+  "difficulty": 3,
+  "root": { "step": "G", "accidental": "", "octave": 4 },
+  "quality": "dominant11",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["oncena mayor", "oncena de dominante", "oncena menor"],
+  "choicesEn": ["major eleventh", "dominant eleventh", "minor eleventh"]
+}

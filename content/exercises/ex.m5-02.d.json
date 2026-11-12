@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-02.d",
+  "skillId": "skill.roman-numeral",
+  "type": "roman-numeral",
+  "promptEs": "En Re mayor, ¿qué numeral romano nombra el acorde Si menor (Si, Re, Fa♯)?",
+  "promptEn": "In D major, which Roman numeral names the chord B minor (B, D, F♯)?",
+  "explanationEs": "En Re mayor, Si es el sexto grado. Su tríada Si-Re-Fa♯ es menor, así que el numeral va en minúscula: vi.",
+  "explanationEn": "In D major, B is the sixth degree. Its triad B-D-F♯ is minor, so the numeral is lowercase: vi.",
+  "difficulty": 2,
+  "key": "D",
+  "mode": "major",
+  "numeral": "vi",
+  "choices": [
+    "vi",
+    "ii",
+    "IV"
+  ],
+  "choicesEn": [
+    "vi",
+    "ii",
+    "IV"
+  ]
+}

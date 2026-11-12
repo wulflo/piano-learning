@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-04.g",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Mi♭7 (séptima de dominante) de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of an Eb7 (dominant seventh) from low to high, separated by spaces.",
+  "explanationEs": "Mi♭7 es 1-3-5-♭7: Mi♭, Sol, Si♭ y Re♭. La tercera es Sol, la quinta Si♭ y la séptima menor Re♭, diez semitonos arriba de Mi♭.",
+  "explanationEn": "Eb7 is 1-3-5-♭7: Eb, G, Bb and Db. The third is G, the fifth Bb and the minor seventh Db, ten semitones above Eb.",
+  "difficulty": 3,
+  "root": { "step": "E", "accidental": "b", "octave": 4 },
+  "quality": "dominant7",
+  "inversion": 0,
+  "ask": "notes"
+}

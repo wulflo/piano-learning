@@ -1,0 +1,291 @@
+{
+  "id": "ex.m7-05.k",
+  "skillId": "skill.arpeggiated-accompaniment",
+  "type": "arpeggiated",
+  "difficulty": 3,
+  "score": {
+    "clef": "bass",
+    "key": "Db",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 3,
+      "denominator": 4
+    },
+    "tempoBpm": 72,
+    "events": [
+      {
+        "id": "ex.m7-05.k.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false,
+        "chordSymbol": "Db"
+      },
+      {
+        "id": "ex.m7-05.k.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.k.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.k.4",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false,
+        "chordSymbol": "Db"
+      },
+      {
+        "id": "ex.m7-05.k.5",
+        "measure": 2,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.k.6",
+        "measure": 2,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.k.7",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false,
+        "chordSymbol": "Db"
+      },
+      {
+        "id": "ex.m7-05.k.8",
+        "measure": 3,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.k.9",
+        "measure": 3,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.k.10",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false,
+        "chordSymbol": "Db"
+      },
+      {
+        "id": "ex.m7-05.k.11",
+        "measure": 4,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-05.k.12",
+        "measure": 4,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 74,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "ask": "pattern",
+  "measure": 1,
+  "promptEs": "¿Qué patrón de acompañamiento hay en el compás 1 de Re♭ mayor?",
+  "promptEn": "Which accompaniment pattern is in measure 1 in Db major?",
+  "explanationEs": "El compás está en 3/4 y tiene 3 negras sueltas: Re♭3 La♭3 Fa3. La mano izquierda arpegia Re♭ mayor con el patrón 1-5-3.",
+  "explanationEn": "The measure is in 3/4 and has 3 single quarter notes: Db3 Ab3 F3. The left hand arpeggiates Db major with the 1-5-3 pattern.",
+  "choices": [
+    "Patrón de 3 notas",
+    "Patrón de 4 notas",
+    "Acordes en bloque"
+  ],
+  "choicesEn": [
+    "3-note pattern",
+    "4-note pattern",
+    "Block chords"
+  ]
+}

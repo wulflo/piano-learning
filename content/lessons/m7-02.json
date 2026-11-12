@@ -1,0 +1,751 @@
+{
+  "id": "lesson.m7-02",
+  "moduleId": "M7",
+  "slug": "arpegios-y-acordes-quebrados",
+  "titleEs": "Arpegios y acordes quebrados",
+  "titleEn": "Arpeggios and broken chords",
+  "summaryEs": "Cómo tocar las notas de un acorde en sucesión, con digitación estable en las doce tonalidades y un tempo que sube sin perder el pulso.",
+  "summaryEn": "How to play chord notes in succession, with stable fingering across all twelve keys and a tempo that rises without losing the pulse.",
+  "objectivesEs": [
+    "Distinguir un arpegio de un acorde quebrado y reconocer su dirección",
+    "Tocar arpegios mayores en las doce tonalidades básicas con la digitación correcta",
+    "Subir de 60 a 84 BPM sin perder el pulso, la claridad ni la soltura"
+  ],
+  "objectivesEn": [
+    "Tell an arpeggio from a broken chord and recognise its direction",
+    "Play major arpeggios in all twelve basic keys with the correct fingering",
+    "Rise from 60 to 84 BPM without losing the pulse, clarity or ease"
+  ],
+  "minutes": 18,
+  "prerequisites": [
+    "lesson.m7-01"
+  ],
+  "skillIds": [
+    "skill.arpeggio"
+  ],
+  "exerciseIds": [
+    "ex.m7-02.a",
+    "ex.m7-02.b",
+    "ex.m7-02.c",
+    "ex.m7-02.d",
+    "ex.m7-02.e",
+    "ex.m7-02.f",
+    "ex.m7-02.g",
+    "ex.m7-02.h",
+    "ex.m7-02.i",
+    "ex.m7-02.j",
+    "ex.m7-02.k",
+    "ex.m7-02.l",
+    "ex.m7-02.m"
+  ],
+  "sections": [
+    {
+      "id": "sec.m7-02.arpegio",
+      "kind": "text",
+      "titleEs": "Arpegio y acorde quebrado",
+      "titleEn": "Arpeggio and broken chord",
+      "bodyEs": "Un arpegio toca las notas de un acorde una después de otra, casi siempre de grave a agudo y después de vuelta. Un acorde quebrado también separa las notas, pero las alterna en un patrón, por ejemplo Do-Mi-Sol-Mi, para acompañar o para llenar un compás. La diferencia está en la dirección: el arpegio recorre el acorde completo; el quebrado va y vuelve entre sus notas. En los dos casos el oído escucha un acorde aunque las teclas no suenen juntas, y la mano necesita una digitación que permita repetir el patrón sin tensión.",
+      "bodyEn": "An arpeggio plays the notes of a chord one after another, usually from low to high and then back. A broken chord also separates the notes, but alternates them in a pattern, for example C-E-G-E, to accompany or fill a measure. The difference is direction: the arpeggio travels through the whole chord; the broken chord goes back and forth between its notes. In both cases the ear hears a chord even though the keys do not sound together, and the hand needs a fingering that lets you repeat the pattern without tension."
+    },
+    {
+      "id": "sec.m7-02.digitacion",
+      "kind": "text",
+      "titleEs": "Digitación en las doce tonalidades",
+      "titleEn": "Fingering in all twelve keys",
+      "bodyEs": "La digitación de un arpegio mayor depende de la tónica, no de las alteraciones de la tercera o la quinta. En la mano derecha, las tónicas de tecla blanca (Do, Re, Mi, Fa, Sol, La y Si) usan 1-2-3-5 en una octava; las tónicas de tecla negra (Re bemol, Mi bemol, Sol bemol, La bemol y Si bemol) usan 2-1-2-4. La mano izquierda es el espejo: 5-4-2-1 en las blancas y 5-3-2-1 en las negras. A dos octavas el grupo interior se repite: derecha 1-2-3-1-2-3-5 o 2-1-2-4-1-2-4; izquierda 5-4-2-1-4-2-1 o 5-3-2-1-3-2-1. Practicá cada tonalidad lento y sin apretar: si el pulgar tiene que saltar, la mano está mal colocada, no falta fuerza, y si aparece dolor o tensión, pará y descansá.",
+      "bodyEn": "Major arpeggio fingering depends on the tonic, not on the accidentals of the third or fifth. In the right hand, white-key tonics (C, D, E, F, G, A and B) use 1-2-3-5 over one octave; black-key tonics (D flat, E flat, G flat, A flat and B flat) use 2-1-2-4. The left hand mirrors it: 5-4-2-1 on white keys and 5-3-2-1 on black keys. Over two octaves the inner group repeats: right hand 1-2-3-1-2-3-5 or 2-1-2-4-1-2-4; left hand 5-4-2-1-4-2-1 or 5-3-2-1-3-2-1. Practise each key slowly and without squeezing: if the thumb has to jump, the hand is misplaced, not lacking strength, and if pain or tension appears, stop and rest."
+    },
+    {
+      "id": "sec.m7-02.demo-arpegio",
+      "kind": "score",
+      "titleEs": "Demo: arpegio de Do mayor",
+      "titleEn": "Demo: C major arpeggio",
+      "bodyEs": "El arpegio sube Do4-Mi4-Sol4-Do5 con digitación 1-2-3-5. Escuchá cómo las cuatro notas dibujan el acorde de Do mayor y cómo el meñique cierra la octava sin apretar. Repetilo bajando Do5-Sol4-Mi4-Do4 con 5-3-2-1.",
+      "bodyEn": "The arpeggio rises C4-E4-G4-C5 with 1-2-3-5 fingering. Listen for how the four notes outline the C major chord and how the little finger closes the octave without squeezing. Repeat it downwards, C5-G4-E4-C4, with 5-3-2-1.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m7-02.demo-arpegio.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-arpegio.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-arpegio.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-arpegio.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m7-02.demo-quebrado",
+      "kind": "score",
+      "titleEs": "Demo: acorde quebrado en Do",
+      "titleEn": "Demo: broken chord in C",
+      "bodyEs": "El patrón Do-Mi-Sol-Mi sube y vuelve dentro del acorde. La mano no cambia de posición: los dedos 1-2-3-2 se turnan y el pulgar queda libre para repetir. Este vaivén es la base de muchos acompañamientos y también sirve para estudiar la independencia entre los dedos.",
+      "bodyEn": "The C-E-G-E pattern rises and returns inside the chord. The hand does not change position: fingers 1-2-3-2 take turns and the thumb stays free to repeat. This back-and-forth is the basis of many accompaniments and also trains independence between the fingers.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m7-02.demo-quebrado.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-quebrado.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-quebrado.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-quebrado.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-quebrado.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-quebrado.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-quebrado.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-quebrado.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m7-02.demo-dos-octavas",
+      "kind": "score",
+      "titleEs": "Demo: arpegio de dos octavas",
+      "titleEn": "Demo: two-octave arpeggio",
+      "bodyEs": "En dos octavas el pulgar cruza después de Do5 para llegar a Mi5, y el patrón 1-2-3 se repite antes de cerrar con el meñique. Escuchá el cruce: no hay pausa ni golpe, el pulgar pasa por debajo de la mano y el peso sigue hacia arriba. Si el cruce suena fuerte, probá más lento y con la muñeca libre.",
+      "bodyEn": "Over two octaves the thumb crosses after C5 to reach E5, and the 1-2-3 pattern repeats before closing with the little finger. Listen to the crossing: there is no pause or bump, the thumb passes under the hand and the weight keeps moving upward. If the crossing sounds loud, try slower with a free wrist.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m7-02.demo-dos-octavas.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-dos-octavas.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-dos-octavas.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-dos-octavas.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-dos-octavas.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-dos-octavas.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-02.demo-dos-octavas.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 6
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m7-02.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce tonalidades, doce arpegios",
+      "titleEn": "Twelve keys, twelve arpeggios",
+      "bodyEs": "Los doce ejercicios recorren las tonalidades mayores básicas y preguntan la digitación o el orden de las notas del arpegio. Escuchá el arpegio antes de responder y mirá si la tónica cae en tecla blanca o negra. El último ejercicio es de práctica: subí el tempo de 60 a 72 y a 84 BPM sin perder el pulso.",
+      "bodyEn": "The twelve exercises visit the basic major keys and ask for the arpeggio fingering or note order. Listen to the arpeggio before answering and check whether the tonic falls on a white or black key. The last exercise is practice: raise the tempo from 60 to 72 and 84 BPM without losing the pulse."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Arpegio de Do con tempo progresivo",
+    "titleEn": "C major arpeggio with progressive tempo",
+    "instructionsEs": "Empezá a 60 BPM con el arpegio de Do mayor en la mano derecha: Do4-Mi4-Sol4-Do5 y de vuelta. Cuando salga limpio durante cuatro compases, subí a 72 y repetí; después probá 84. Cambiar de tempo no es correr: es mantener la misma digitación 1-2-3-5 al subir y 5-3-2-1 al bajar, con el pulso estable. Mantené los hombros bajos, la muñeca libre y los dedos cerca de las teclas. Si aparece dolor, tensión o cansancio, volvé al tempo anterior o pará: la velocidad es consecuencia de la soltura, no de la fuerza.",
+    "instructionsEn": "Start at 60 BPM with the C major arpeggio in the right hand: C4-E4-G4-C5 and back. When it is clean for four measures, move up to 72 and repeat; then try 84. Changing tempo is not running: it means keeping the same 1-2-3-5 fingering going up and 5-3-2-1 going down, with a steady pulse. Keep your shoulders down, your wrist free and your fingers close to the keys. If pain, tension or fatigue appears, return to the previous tempo or stop: speed is a consequence of ease, not force.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano derecha al subir: 1-2-3-5 para Do4-Mi4-Sol4-Do5; al bajar: 5-3-2-1. Mano izquierda en Do mayor: 5-4-2-1 para Do3-Mi3-Sol3-Do4. Mantené el pulgar relajado en los cruces y no levantes los hombros al acelerar.",
+    "fingeringEn": "Right hand going up: 1-2-3-5 for C4-E4-G4-C5; going down: 5-3-2-1. Left hand in C major: 5-4-2-1 for C3-E3-G3-C4. Keep the thumb relaxed during crossings and do not lift your shoulders as you speed up.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué el arpegio a 60 BPM con digitación 1-2-3-5 y 5-3-2-1",
+      "Subí a 72 BPM y mantuve el pulso cuatro compases",
+      "Llegué a 84 BPM sin perder claridad ni tensar hombros y muñecas",
+      "Paré o volví al tempo anterior si apareció dolor, tensión o cansancio"
+    ],
+    "checklistEn": [
+      "I played the arpeggio at 60 BPM with 1-2-3-5 and 5-3-2-1 fingering",
+      "I moved up to 72 BPM and kept the pulse for four measures",
+      "I reached 84 BPM without losing clarity or tensing my shoulders and wrists",
+      "I stopped or returned to the previous tempo if pain, tension or fatigue appeared"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "sec.m7-02.tarea.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-02.tarea.2",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-02.tarea.3",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-02.tarea.4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-02.tarea.5",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-02.tarea.6",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-02.tarea.7",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-02.tarea.8",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

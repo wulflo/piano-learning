@@ -1,0 +1,2863 @@
+{
+  "id": "piece.original.melodia-nivel-3",
+  "title": "Melodía en Do mayor (nivel 3)",
+  "composerDisplay": "PianoDesdeCero",
+  "level": 3,
+  "durationSeconds": 82.28571428571429,
+  "tags": [
+    "original",
+    "cc0",
+    "dos manos",
+    "nivel 3",
+    "textura",
+    "dinámica"
+  ],
+  "license": {
+    "license": "cc0-1.0",
+    "composer": {
+      "name": "PianoDesdeCero",
+      "birthYear": null,
+      "deathYear": null,
+      "anonymousTraditional": false
+    },
+    "source": "Obra original creada para este proyecto (CC0 1.0)",
+    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionDate": "2026-11-13",
+    "attribution": "Melodía en Do mayor (nivel 3) — PianoDesdeCero (CC0 1.0)",
+    "verifiedBy": "PianoDesdeCero",
+    "verifiedOn": "2026-11-13",
+    "notes": "Pieza original de nivel 3 en Do mayor y 4/4, 70 BPM, veinticuatro compases. Melodía en la derecha y bajo en blancas en la izquierda, con dinámica gradual (p a f y vuelta). Compuesta para este proyecto y dedicada al dominio público (CC0)."
+  },
+  "hands": {
+    "right": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 70,
+      "events": [
+        {
+          "id": "ev.original-nivel3.r001",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r002",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r003",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r004",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r005",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r006",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r007",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r008",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r009",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r010",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r011",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r012",
+          "measure": 3,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r013",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r014",
+          "measure": 4,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r015",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r016",
+          "measure": 4,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r017",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r018",
+          "measure": 5,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r019",
+          "measure": 5,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r020",
+          "measure": 5,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r021",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r022",
+          "measure": 6,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r023",
+          "measure": 6,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r024",
+          "measure": 6,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r025",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r026",
+          "measure": 7,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r027",
+          "measure": 7,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r028",
+          "measure": 7,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r029",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r030",
+          "measure": 8,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r031",
+          "measure": 8,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r032",
+          "measure": 8,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r033",
+          "measure": 9,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r034",
+          "measure": 9,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r035",
+          "measure": 9,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r036",
+          "measure": 9,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r037",
+          "measure": 10,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r038",
+          "measure": 10,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r039",
+          "measure": 10,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r040",
+          "measure": 10,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r041",
+          "measure": 11,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r042",
+          "measure": 11,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r043",
+          "measure": 11,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r044",
+          "measure": 11,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r045",
+          "measure": 12,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r046",
+          "measure": 12,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r047",
+          "measure": 12,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r048",
+          "measure": 12,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r049",
+          "measure": 13,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r050",
+          "measure": 13,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r051",
+          "measure": 13,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r052",
+          "measure": 13,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r053",
+          "measure": 14,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r054",
+          "measure": 14,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r055",
+          "measure": 14,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r056",
+          "measure": 14,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r057",
+          "measure": 15,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r058",
+          "measure": 15,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r059",
+          "measure": 15,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r060",
+          "measure": 15,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r061",
+          "measure": 16,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r062",
+          "measure": 16,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r063",
+          "measure": 16,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r064",
+          "measure": 16,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r065",
+          "measure": 17,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r066",
+          "measure": 17,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r067",
+          "measure": 17,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r068",
+          "measure": 17,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r069",
+          "measure": 18,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r070",
+          "measure": 18,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r071",
+          "measure": 18,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r072",
+          "measure": 18,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r073",
+          "measure": 19,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r074",
+          "measure": 19,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r075",
+          "measure": 19,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r076",
+          "measure": 19,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r077",
+          "measure": 20,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r078",
+          "measure": 20,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r079",
+          "measure": 20,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r080",
+          "measure": 20,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r081",
+          "measure": 21,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r082",
+          "measure": 21,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r083",
+          "measure": 21,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r084",
+          "measure": 21,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r085",
+          "measure": 22,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r086",
+          "measure": 22,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r087",
+          "measure": 22,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r088",
+          "measure": 22,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r089",
+          "measure": 23,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r090",
+          "measure": 23,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r091",
+          "measure": 23,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r092",
+          "measure": 23,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.r093",
+          "measure": 24,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    },
+    "left": {
+      "clef": "bass",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 70,
+      "events": [
+        {
+          "id": "ev.original-nivel3.l001",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l002",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l003",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l004",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l005",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l006",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l007",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l008",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l009",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l010",
+          "measure": 5,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l011",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l012",
+          "measure": 6,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l013",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l014",
+          "measure": 7,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l015",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l016",
+          "measure": 8,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l017",
+          "measure": 9,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l018",
+          "measure": 9,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l019",
+          "measure": 10,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l020",
+          "measure": 10,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l021",
+          "measure": 11,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l022",
+          "measure": 11,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l023",
+          "measure": 12,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l024",
+          "measure": 12,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l025",
+          "measure": 13,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l026",
+          "measure": 13,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l027",
+          "measure": 14,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l028",
+          "measure": 14,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l029",
+          "measure": 15,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l030",
+          "measure": 15,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l031",
+          "measure": 16,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l032",
+          "measure": 16,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l033",
+          "measure": 17,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l034",
+          "measure": 17,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l035",
+          "measure": 18,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l036",
+          "measure": 18,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l037",
+          "measure": 19,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l038",
+          "measure": 19,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l039",
+          "measure": 20,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l040",
+          "measure": 20,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l041",
+          "measure": 21,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l042",
+          "measure": 21,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l043",
+          "measure": 22,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l044",
+          "measure": 22,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l045",
+          "measure": 23,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l046",
+          "measure": 23,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original-nivel3.l047",
+          "measure": 24,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    }
+  },
+  "notesEs": "Pieza original de nivel 3 en Do mayor y 4/4: melodía en la derecha y bajo en blancas en la izquierda, con dinámica gradual, a 70 BPM. Veinticuatro compases.",
+  "notesEn": "Original level 3 piece in C major and 4/4: melody in the right hand and whole-note bass in the left, with gradual dynamics, at 70 BPM. Twenty-four measures.",
+  "fingeringEs": "Derecha: 1-2-3-5 en la melodía; Izquierda: 5-3-1 en el bajo, dos notas por compás.",
+  "fingeringEn": "Right hand: 1-2-3-5 in the melody; Left hand: 5-3-1 in the bass, two notes per measure."
+}

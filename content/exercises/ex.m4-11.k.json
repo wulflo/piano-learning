@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-11.k",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "Escribí las notas de Fa♯7/Mi de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of F♯7/E from low to high, separated by spaces.",
+  "explanationEs": "Mi es la séptima de Fa♯7, así que el acorde está en tercera inversión: Mi-Fa♯-La♯-Do♯. La séptima en el bajo es la posición más inestable de la séptima de dominante.",
+  "explanationEn": "E is the seventh of F♯7, so the chord is in third inversion: E-F♯-A♯-C♯. The seventh in the bass is the most unstable position of the dominant seventh.",
+  "difficulty": 3,
+  "root": { "step": "F", "accidental": "#", "octave": 4 },
+  "quality": "dominant7",
+  "slash": { "step": "E", "accidental": "", "octave": 4 },
+  "inversion": 3,
+  "ask": "notes"
+}

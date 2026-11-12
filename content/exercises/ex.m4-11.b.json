@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-11.b",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de Rem7 suena Fa-La-Do-Re, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The Dm7 chord sounds F-A-C-D, from low to high. What inversion is it?",
+  "explanationEs": "El bajo es Fa, la tercera de Rem7: es la primera inversión. Las notas son 3-5-7-1, con la fundamental Re arriba.",
+  "explanationEn": "The bass is F, the third of Dm7: it is the first inversion. The notes are 3-5-7-1, with the root D on top.",
+  "difficulty": 2,
+  "root": { "step": "D", "accidental": "", "octave": 4 },
+  "quality": "minor7",
+  "inversion": 1,
+  "ask": "inversion",
+  "choices": ["primera inversión", "estado fundamental", "segunda inversión", "tercera inversión"],
+  "choicesEn": ["first inversion", "root position", "second inversion", "third inversion"]
+}

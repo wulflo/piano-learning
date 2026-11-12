@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-02.c",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada formada por Re, Fa y La♭?",
+  "promptEn": "What quality does the triad made of D, F and Ab have?",
+  "explanationEs": "Es una tríada disminuida, 1-♭3-♭5: Re-Fa es una tercera menor y Fa-La♭ otra tercera menor. La quinta bemolada forma un tritono con la fundamental, la inestabilidad típica de la disminuida.",
+  "explanationEn": "It is a diminished triad, 1-♭3-♭5: D-F is a minor third and F-Ab another minor third. The flattened fifth forms a tritone with the root, the diminished triad's typical instability.",
+  "difficulty": 3,
+  "root": { "step": "D", "accidental": "", "octave": 4 },
+  "quality": "diminished",
+  "inversion": 0,
+  "choices": ["disminuido", "aumentado", "suspendido 2", "suspendido 4"],
+  "choicesEn": ["diminished", "augmented", "suspended 2", "suspended 4"]
+}

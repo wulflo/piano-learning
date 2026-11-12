@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-04.b",
+  "skillId": "skill.cadence",
+  "type": "cadence",
+  "promptEs": "En Sol mayor, ¿qué cadencia forman los acordes Do (Do, Mi, Sol) y Sol (Sol, Si, Re)?",
+  "promptEn": "In G major, what cadence do the chords C (C, E, G) and G (G, B, D) form?",
+  "explanationEs": "La cadencia plagal va de IV a I: Do (subdominante) resuelve en Sol (tónica). Suena más suave que la auténtica y se conoce como cadencia «amén».",
+  "explanationEn": "The plagal cadence goes from IV to I: C (subdominant) resolves to G (tonic). It sounds softer than the authentic cadence and is known as the «amen» cadence.",
+  "difficulty": 1,
+  "key": "G",
+  "mode": "major",
+  "fromDegree": 4,
+  "toDegree": 1,
+  "choices": [
+    "Plagal (IV-I)",
+    "Semicadencia (…-V)",
+    "Rota (V-vi)",
+    "Auténtica (V-I)"
+  ],
+  "choicesEn": [
+    "Plagal (IV-I)",
+    "Half cadence (…-V)",
+    "Deceptive (V-vi)",
+    "Authentic (V-I)"
+  ]
+}

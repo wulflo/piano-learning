@@ -1,0 +1,17 @@
+{
+  "id": "ex.m4-12.k",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "El acorde suena Fa, Sol, La, Si, Do y Re, de grave a agudo. ¿Qué cifrado le corresponde?",
+  "promptEn": "The chord sounds F, G, A, B, C and D, from low to high. Which symbol matches it?",
+  "explanationEs": "Es Sol11/Fa: Sol11 se construye Sol-Si-Re-Fa-La-Do y, con Fa en el bajo, queda Fa-Sol-La-Si-Do-Re. Fa es la séptima menor de Sol, así que es la tercera inversión; la oncena Do choca con la tercera Si y le da un color suspendido.",
+  "explanationEn": "It is G11/F: G11 is G-B-D-F-A-C and, with F in the bass, becomes F-G-A-B-C-D. F is the minor seventh of G, so it is the third inversion; the eleventh C clashes with the third B and gives it a suspended colour.",
+  "difficulty": 4,
+  "root": { "step": "G", "accidental": "", "octave": 4 },
+  "quality": "dominant11",
+  "slash": { "step": "F", "accidental": "", "octave": 4 },
+  "inversion": 3,
+  "ask": "symbol",
+  "choices": ["Sol11/Fa", "Sol9/Fa", "Sol11/Si"],
+  "choicesEn": ["G11/F", "G9/F", "G11/B"]
+}

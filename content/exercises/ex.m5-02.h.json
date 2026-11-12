@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-02.h",
+  "skillId": "skill.roman-numeral",
+  "type": "chord",
+  "promptEs": "En Sol mayor, ¿qué acorde forma el numeral V?",
+  "promptEn": "In G major, which chord does the numeral V form?",
+  "explanationEs": "El quinto grado de Sol mayor es Re. Su tríada Re-Fa♯-La es mayor, así que el numeral V corresponde al acorde Re.",
+  "explanationEn": "The fifth degree of G major is D. Its triad D-F♯-A is major, so the numeral V corresponds to the chord D.",
+  "difficulty": 2,
+  "root": {
+    "step": "D",
+    "accidental": "",
+    "octave": 4
+  },
+  "quality": "major",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Re",
+    "Rem",
+    "Re7",
+    "Rem7"
+  ],
+  "choicesEn": [
+    "D",
+    "Dm",
+    "D7",
+    "Dm7"
+  ]
+}

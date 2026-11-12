@@ -1,0 +1,423 @@
+{
+  "id": "lesson.m1-07",
+  "moduleId": "M1",
+  "slug": "puntillo-ligadura-tresillo",
+  "titleEs": "Puntillo, ligadura y tresillo",
+  "titleEn": "Dotted notes, ties and triplets",
+  "summaryEs": "El puntillo alarga una figura la mitad de su valor, la ligadura suma dos sonidos iguales y el tresillo agrupa tres figuras en el tiempo de dos.",
+  "summaryEn": "A dot lengthens a note by half its value, a tie adds two equal sounds together and a triplet fits three note values into the time of two.",
+  "objectivesEs": [
+    "Calcular la duración de figuras con puntillo",
+    "Reconocer y leer ligaduras de prolongación entre notas iguales",
+    "Distinguir el tresillo en compás simple y en compás compuesto"
+  ],
+  "objectivesEn": [
+    "Calculate the duration of dotted note values",
+    "Recognize and read ties between equal notes",
+    "Tell a triplet apart in simple and compound meter"
+  ],
+  "minutes": 14,
+  "prerequisites": ["lesson.m1-06"],
+  "skillIds": ["skill.rhythm-variants"],
+  "exerciseIds": [
+    "ex.m1-07.a",
+    "ex.m1-07.b",
+    "ex.m1-07.c",
+    "ex.m1-07.d",
+    "ex.m1-07.e",
+    "ex.m1-07.f"
+  ],
+  "sections": [
+    {
+      "id": "sec.m1-07.dot",
+      "kind": "text",
+      "titleEs": "El puntillo alarga la mitad",
+      "titleEn": "The dot lengthens by half",
+      "bodyEs": "El puntillo es un punto que se escribe a la derecha de una figura y alarga su duración en la mitad de su valor. Una negra dura un tiempo; una negra con puntillo dura un tiempo y medio, porque agrega media negra (una corchea). Una blanca con puntillo dura tres tiempos; una corchea con puntillo dura tres semicorcheas. El puntillo no cambia el pulso ni la posición de la nota: solo hace que se sostenga más.",
+      "bodyEn": "The dot is a point written to the right of a note value and it lengthens its duration by half its value. A quarter note lasts one beat; a dotted quarter note lasts one and a half beats, because it adds half a quarter note (an eighth note). A dotted half note lasts three beats; a dotted eighth note lasts three sixteenth notes. The dot does not change the beat or the position of the note: it only makes it sustain longer."
+    },
+    {
+      "id": "sec.m1-07.dot-demo",
+      "kind": "score",
+      "titleEs": "Puntillo en 4/4",
+      "titleEn": "The dot in 4/4",
+      "bodyEs": "La blanca con puntillo ocupa tres tiempos y la negra completa el cuarto. Escuchá que la primera nota se sostiene más que una blanca normal: el puntillo le agrega un tiempo.",
+      "bodyEn": "The dotted half note takes up three beats and the quarter note completes the fourth. Listen for the first note holding longer than a normal half note: the dot adds one beat to it.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-07.dot.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "half", "dots": 1, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-07.dot.g4",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 75,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-07.tie",
+      "kind": "text",
+      "titleEs": "La ligadura suma duraciones",
+      "titleEn": "A tie adds durations",
+      "bodyEs": "La ligadura de prolongación une dos notas de la misma altura para que suenen como una sola. La segunda nota no se vuelve a atacar: su duración se suma a la primera. Se usa mucho para sostener un sonido a través de la barra de compás, donde una figura sola no alcanza. No hay que confundirla con la ligadura de expresión, que agrupa notas distintas para indicar que se tocan ligadas.",
+      "bodyEn": "A tie joins two notes of the same pitch so that they sound as one. The second note is not struck again: its duration is added to the first. It is used a lot to hold a sound across the barline, where a single note value is not enough. Don't confuse it with the slur, which groups different notes to show that they are played legato."
+    },
+    {
+      "id": "sec.m1-07.tie-demo",
+      "kind": "score",
+      "titleEs": "Ligadura a través de la barra",
+      "titleEn": "A tie across the barline",
+      "bodyEs": "La nota Do4 del final del primer compás está ligada a la del inicio del segundo. Se toca una sola vez y se sostiene durante cuatro tiempos: dos del primer compás y dos del segundo. La barra de compás no interrumpe el sonido.",
+      "bodyEn": "The C4 at the end of the first measure is tied to the one at the start of the second. It is played only once and held for four beats: two in the first measure and two in the second. The barline does not interrupt the sound.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-07.tie.g4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-07.tie.c4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": true
+          },
+          {
+            "id": "score.m1-07.tie.c4-second",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-07.tie.g4-second",
+            "measure": 2,
+            "beat": 2,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-07.triplet",
+      "kind": "text",
+      "titleEs": "El tresillo: tres en el tiempo de dos",
+      "titleEn": "The triplet: three in the time of two",
+      "bodyEs": "El tresillo agrupa tres figuras en el tiempo que normalmente ocuparían dos de la misma clase. Se marca con un «3» sobre el grupo. En un compás simple, tres corcheas de tresillo ocupan el tiempo de dos corcheas, es decir, un pulso de negra. En un compás compuesto la subdivisión normal ya es ternaria —cada pulso tiene tres corcheas—, así que un grupo de tres corcheas no es un tresillo: es la subdivisión regular. Un tresillo verdadero en compás compuesto aparece en otro nivel, por ejemplo, tres negras en el tiempo de dos negras.",
+      "bodyEn": "A triplet groups three note values into the time that two of the same kind would normally take. It is marked with a “3” over the group. In a simple meter, three triplet eighth notes take the time of two normal eighth notes, that is, one quarter-note beat. In a compound meter the normal subdivision is already ternary —each beat has three eighth notes— so a group of three eighth notes is not a triplet: it is the regular subdivision. A true triplet in compound meter appears at another level, for example, three quarter notes in the time of two quarter notes."
+    },
+    {
+      "id": "sec.m1-07.triplet-simple",
+      "kind": "score",
+      "titleEs": "Tresillo en 4/4",
+      "titleEn": "Triplet in 4/4",
+      "bodyEs": "En 4/4, las tres corcheas de tresillo ocupan el primer pulso: duran lo mismo que dos corcheas normales. Contá «1-2-3» dentro de ese pulso y mantené los otros tres pulsos parejos. Si el tresillo se acelera, el compás entero se desarma.",
+      "bodyEn": "In 4/4, the three triplet eighth notes take up the first beat: they last the same as two normal eighth notes. Count “1-2-3” inside that beat and keep the other three beats even. If the triplet speeds up, the whole measure falls apart.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-07.triplet-simple.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "triplet" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-07.triplet-simple.e4",
+            "measure": 1,
+            "beat": 0.3333333333333333,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "triplet" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-07.triplet-simple.g4",
+            "measure": 1,
+            "beat": 0.6666666666666666,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "triplet" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-07.triplet-simple.c5",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 5 }],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-07.triplet-simple.g4-second",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-07.triplet-simple.e4-second",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-07.triplet-compound",
+      "kind": "score",
+      "titleEs": "Tresillo de negras en 6/8",
+      "titleEn": "Quarter-note triplet in 6/8",
+      "bodyEs": "En 6/8 la subdivisión normal de cada pulso ya son tres corcheas. Para escuchar un tresillo verdadero hay que subir de nivel: estas tres negras de tresillo ocupan el tiempo de dos negras y cruzan el segundo pulso del compás. La negra final completa la capacidad total. Es un recurso expresivo y rítmicamente más avanzado; no reemplaza la cuenta normal «1-2-3, 2-2-3».",
+      "bodyEn": "In 6/8 the normal subdivision of each beat is already three eighth notes. To hear a true triplet you have to go up a level: these three triplet quarter notes take the time of two quarter notes and cross the second beat of the measure. The final quarter note completes the total capacity. It is an expressive resource and rhythmically more advanced; it does not replace the normal count “1-2-3, 2-2-3”.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 6, "denominator": 8 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-07.triplet-compound.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "triplet" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-07.triplet-compound.e4",
+            "measure": 1,
+            "beat": 0.6666666666666666,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "triplet" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-07.triplet-compound.g4",
+            "measure": 1,
+            "beat": 1.3333333333333333,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "triplet" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-07.triplet-compound.c5",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 5 }],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-07.simple-vs-compound",
+      "kind": "callout",
+      "titleEs": "Simple y compuesto: la misma palabra, distinto nivel",
+      "titleEn": "Simple and compound: same word, different level",
+      "bodyEs": "En compás simple, el tresillo divide un pulso que normalmente se parte en dos. En compás compuesto, el pulso ya se parte en tres, así que el grupo regular de tres corcheas no lleva un «3» y no se llama tresillo. Cuando aparece un tresillo en compás compuesto, hay que mirar qué nivel está agrupando: casi siempre cruza los pulsos y produce un efecto de desplazamiento. Primero dominá la subdivisión ternaria normal; después probá el tresillo como color.",
+      "bodyEn": "In simple meter, a triplet divides a beat that normally splits in two. In compound meter, the beat already splits in three, so the regular group of three eighth notes does not carry a “3” and is not called a triplet. When a triplet appears in compound meter, you have to look at which level it is grouping: it almost always crosses beats and creates a displaced effect. First master the normal ternary subdivision; then try the triplet as a color."
+    },
+    {
+      "id": "sec.m1-07.counting",
+      "kind": "text",
+      "titleEs": "Cómo contar y verificar",
+      "titleEn": "How to count and check",
+      "bodyEs": "Para leer un compás con puntillos, ligaduras o tresillos, sumá las duraciones reales. El puntillo agrega la mitad; la ligadura suma las dos notas unidas; el tresillo de tres figuras dura lo mismo que dos figuras normales. Al terminar, compará el total con la capacidad del compás: cuatro tiempos en 4/4 y tres tiempos de negra en 6/8. Si el total no coincide, revisá si el puntillo o el tresillo se contaron dos veces.",
+      "bodyEn": "To read a measure with dots, ties or triplets, add up the real durations. The dot adds half; the tie adds the two joined notes together; a triplet of three note values lasts the same as two normal note values. When you finish, compare the total with the measure's capacity: four beats in 4/4 and three quarter-note beats in 6/8. If the total does not match, check whether the dot or the triplet was counted twice."
+    },
+    {
+      "id": "sec.m1-07.exercises",
+      "kind": "exercise",
+      "titleEs": "Completar compases y dictados rítmicos",
+      "titleEn": "Completing measures and rhythmic dictation",
+      "bodyEs": "Los ejercicios combinan figuras con puntillo, tresillos y dictados rítmicos. En los de completar, calculá la duración de la figura faltante; en los dictados, elegí la secuencia que coincide con el patrón. Verificá siempre que el compás quede completo.",
+      "bodyEn": "The exercises combine dotted note values, triplets and rhythmic dictation. In the completion ones, calculate the duration of the missing note value; in the dictation ones, choose the sequence that matches the pattern. Always check that the measure ends up complete."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Puntillo y tresillo en 4/4",
+    "titleEn": "Dot and triplet in 4/4",
+    "instructionsEs": "Tocá Do4 en 4/4 a 80 BPM. Primer compás: una blanca con puntillo (tres tiempos) y una negra (un tiempo). Segundo compás: tres corcheas de tresillo en el primer tiempo y tres negras en los tiempos restantes. Contá el tresillo «1-2-3» dentro del primer pulso y no aceleres el resto. Repetí cuatro veces y compará la duración del primer compás con la del segundo.",
+    "instructionsEn": "Play C4 in 4/4 at 80 BPM. First measure: a dotted half note (three beats) and a quarter note (one beat). Second measure: three triplet eighth notes on the first beat and three quarter notes on the remaining beats. Count the triplet “1-2-3” inside the first beat and don't speed up the rest. Repeat four times and compare the length of the first measure with the second.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Pulgar derecho (dedo 1) sobre Do4 en todo el ejercicio",
+    "fingeringEn": "Right thumb (finger 1) on C4 throughout the exercise",
+    "tempoBpm": 80,
+    "checklistEs": [
+      "Sostuve la blanca con puntillo durante tres tiempos",
+      "Toqué la negra final sin apurarla",
+      "Conté el tresillo dentro de un solo pulso",
+      "Mantuve el tempo estable en los dos compases"
+    ],
+    "checklistEn": [
+      "I held the dotted half note for three beats",
+      "I played the final quarter note without rushing it",
+      "I counted the triplet inside a single beat",
+      "I kept the tempo steady in both measures"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 80,
+      "events": [
+        {
+          "id": "task.m1-07.c4-dotted",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "half", "dots": 1, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-07.c4-quarter",
+          "measure": 1,
+          "beat": 3,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-07.c4-triplet-1",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "triplet" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 90,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-07.c4-triplet-2",
+          "measure": 2,
+          "beat": 0.3333333333333333,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "triplet" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-07.c4-triplet-3",
+          "measure": 2,
+          "beat": 0.6666666666666666,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "triplet" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-07.c4-quarter-2",
+          "measure": 2,
+          "beat": 1,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-07.c4-quarter-3",
+          "measure": 2,
+          "beat": 2,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-07.c4-quarter-4",
+          "measure": 2,
+          "beat": 3,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

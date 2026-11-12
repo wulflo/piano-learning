@@ -1,0 +1,72 @@
+{
+  "id": "ex.m5-11.b",
+  "skillId": "skill.augmented-sixth",
+  "type": "augmented-sixth",
+  "optional": true,
+  "promptEs": "En La menor, este acorde resuelve en la dominante. ¿Qué variante de sexta aumentada es?",
+  "promptEn": "In A minor, this chord resolves to the dominant. Which augmented sixth variant is it?",
+  "explanationEs": "El acorde es Fa-La-Si-Re♯. Conserva el ♭VI Fa y el ♯IV Re♯, y añade Si, el segundo grado de La menor. Esa cuarta nota, que no es la tónica ni el ♭3, distingue la variante francesa de la italiana y de la alemana.",
+  "explanationEn": "The chord is F-A-B-D♯. It keeps ♭VI F and ♯IV D♯, and adds B, the second degree of A minor. That fourth note, which is neither the tonic nor ♭3, distinguishes the French variant from the Italian and the German.",
+  "difficulty": 2,
+  "key": "A",
+  "mode": "minor",
+  "variant": "french",
+  "ask": "identify",
+  "score": {
+    "clef": "treble",
+    "key": "A",
+    "mode": "minor",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m5-11.b.chord",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "#",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Sexta aumentada italiana",
+    "Sexta aumentada francesa",
+    "Sexta aumentada alemana"
+  ],
+  "choicesEn": [
+    "Italian augmented sixth",
+    "French augmented sixth",
+    "German augmented sixth"
+  ]
+}

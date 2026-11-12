@@ -1,0 +1,31 @@
+{
+  "id": "ex.m5-05.k",
+  "skillId": "skill.common-progressions",
+  "type": "progression-completion",
+  "promptEs": "En Si♭ mayor, ¿qué grado completa la progresión I-V-?-IV?",
+  "promptEn": "In B♭ major, which degree completes the I-V-?-IV progression?",
+  "explanationEs": "La progresión pop I-V-vi-IV en Si♭ mayor es Si♭-Fa-Solm-Mi♭. El grado que falta es vi: la relativa menor de la tónica. Completa la serie I-V-vi-IV y vuelve a empezar.",
+  "explanationEn": "The pop progression I-V-vi-IV in B♭ major is B♭-F-Gm-E♭. The missing degree is vi: the tonic’s relative minor. It completes the series I-V-vi-IV and starts over.",
+  "difficulty": 2,
+  "key": "Bb",
+  "mode": "major",
+  "degrees": [
+    "I",
+    "V",
+    "vi",
+    "IV"
+  ],
+  "missingIndex": 2,
+  "choices": [
+    "vi",
+    "V",
+    "IV",
+    "I"
+  ],
+  "choicesEn": [
+    "vi",
+    "V",
+    "IV",
+    "I"
+  ]
+}

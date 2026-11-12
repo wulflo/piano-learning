@@ -1,0 +1,792 @@
+{
+  "id": "lesson.m6-06",
+  "moduleId": "M6",
+  "slug": "ornamentos",
+  "titleEs": "Ornamentos",
+  "titleEn": "Ornaments",
+  "summaryEs": "Cómo se ejecutan el trino, el mordente, el grupeto y la apoyatura, qué símbolos los representan y cómo resolverlos sin romper el pulso.",
+  "summaryEn": "How to play the trill, mordent, turn and appoggiatura, which symbols represent them and how to resolve them without breaking the pulse.",
+  "objectivesEs": [
+    "Reconocer el trino, el mordente, el grupeto y la apoyatura por su sonido",
+    "Explicar qué hace cada adorno con la nota principal",
+    "Ejecutar cada adorno manteniendo el pulso y el carácter de la frase"
+  ],
+  "objectivesEn": [
+    "Recognise the trill, mordent, turn and appoggiatura by their sound",
+    "Explain what each ornament does to the main note",
+    "Play each ornament while keeping the pulse and the character of the phrase"
+  ],
+  "minutes": 16,
+  "prerequisites": [
+    "lesson.m6-05"
+  ],
+  "skillIds": [
+    "skill.ornament"
+  ],
+  "exerciseIds": [
+    "ex.m6-06.a",
+    "ex.m6-06.b",
+    "ex.m6-06.c",
+    "ex.m6-06.d",
+    "ex.m6-06.e",
+    "ex.m6-06.f",
+    "ex.m6-06.g",
+    "ex.m6-06.h",
+    "ex.m6-06.i",
+    "ex.m6-06.j",
+    "ex.m6-06.k",
+    "ex.m6-06.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m6-06.adornos",
+      "kind": "text",
+      "titleEs": "Qué son los adornos",
+      "titleEn": "What ornaments are",
+      "bodyEs": "Los adornos son figuras pequeñas que decoran una nota principal y le dan brillo, expresividad o impulso. En la partitura aparecen como símbolos sobre la nota (trino, mordente, grupeto) o como notas pequeñas antes de ella (apoyatura). No son notas de relleno: forman parte de la melodía y deben ejecutarse con el pulso claro. Fueron muy frecuentes en el barroco y el clasicismo; los trinos de Bach y las apoyaturas de Mozart son ejemplos de dominio público donde el adorno cambia el carácter de la frase.",
+      "bodyEn": "Ornaments are small figures that decorate a main note and give it brilliance, expression or momentum. In the score they appear as symbols above the note (trill, mordent, turn) or as small notes before it (appoggiatura). They are not filler notes: they are part of the melody and must be played with a clear pulse. They were very common in the baroque and classical periods; Bach’s trills and Mozart’s appoggiaturas are public-domain examples where the ornament changes the character of the phrase."
+    },
+    {
+      "id": "sec.m6-06.ejecucion",
+      "kind": "text",
+      "titleEs": "Cómo se ejecuta cada adorno",
+      "titleEn": "How each ornament is played",
+      "bodyEs": "El trino alterna la nota principal con la superior de forma rápida y termina en la principal. El mordente baja una vez a la inferior y vuelve enseguida a la principal. El grupeto gira alrededor de la principal: superior, principal, inferior y principal. La apoyatura se apoya en una nota vecina, superior o inferior, antes de resolver en la principal, y toma parte de su valor; por eso se toca en el pulso y no antes. En los cuatro casos conviene estudiar primero la realización escrita con notas normales, con metrónomo lento, y solo después acelerar sin perder la claridad.",
+      "bodyEn": "The trill alternates the main note with the upper note quickly and ends on the main note. The mordent drops once to the lower note and returns at once to the main note. The turn circles the main note: upper, main, lower, main. The appoggiatura leans on a neighbour note, upper or lower, before resolving to the main note, and takes part of its value; that is why it is played on the beat and not before it. In all four cases it is best to study the written-out realisation with normal notes and a slow metronome first, and only then speed up without losing clarity."
+    },
+    {
+      "id": "sec.m6-06.demo-trino",
+      "kind": "score",
+      "titleEs": "Demo: trino",
+      "titleEn": "Demo: trill",
+      "bodyEs": "Sobre Do, el trino alterna Do y Re varias veces y cierra en Do. Escuchá cómo el adorno mantiene el pulso: las ocho corcheas del primer compás ocupan exactamente cuatro tiempos y la nota final llega a tiempo. El símbolo habitual es «tr» sobre la nota.",
+      "bodyEn": "On C, the trill alternates C and D several times and closes on C. Listen for how the ornament keeps the pulse: the eight eighth notes of the first bar fill exactly four beats and the final note arrives on time. The usual symbol is “tr” above the note.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m6-06.demo-trino.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-trino.2",
+            "measure": 1,
+            "beat": 0.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-trino.3",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-trino.4",
+            "measure": 1,
+            "beat": 1.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-trino.5",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-trino.6",
+            "measure": 1,
+            "beat": 2.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-trino.7",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-trino.8",
+            "measure": 1,
+            "beat": 3.5,
+            "value": {
+              "duration": "eighth",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-trino.9",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-06.demo-mordente",
+      "kind": "score",
+      "titleEs": "Demo: mordente",
+      "titleEn": "Demo: mordent",
+      "bodyEs": "Sobre Do, el mordente baja a Si y vuelve a Do en un solo gesto rápido. No es un trino: la alternancia ocurre una sola vez y la nota principal recupera enseguida el protagonismo. El símbolo es una línea ondulada corta sobre la nota.",
+      "bodyEn": "On C, the mordent drops to B and returns to C in a single quick gesture. It is not a trill: the alternation happens only once and the main note immediately takes over again. The symbol is a short wavy line above the note.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m6-06.demo-mordente.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-mordente.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-mordente.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-mordente.4",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-06.demo-grupeto",
+      "kind": "score",
+      "titleEs": "Demo: grupeto",
+      "titleEn": "Demo: turn",
+      "bodyEs": "Sobre Do, el grupeto hace Re-Do-Si-Do: pasa por la superior, la principal, la inferior y vuelve a la principal. Es un giro completo alrededor de la nota y su símbolo se parece a una ese acostada. Escuchá cómo el movimiento dibuja un pequeño círculo antes de continuar la frase.",
+      "bodyEn": "On C, the turn plays D-C-B-C: it passes through the upper note, the main note, the lower note and back to the main note. It is a complete circle around the note and its symbol looks like a sideways S. Listen for how the motion draws a small circle before the phrase continues.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m6-06.demo-grupeto.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-grupeto.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-grupeto.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-grupeto.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-grupeto.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-06.demo-apoyatura",
+      "kind": "score",
+      "titleEs": "Demo: apoyatura",
+      "titleEn": "Demo: appoggiatura",
+      "bodyEs": "La apoyatura suena como una nota pequeña que se apoya antes de la principal. En esta demo, el Re se apoya sobre el Do y toma la primera mitad del valor; el Do resuelve en la segunda mitad. El adorno se toca en el pulso, no antes, y por eso se escribe con una nota pequeña sin barra o con una pequeña línea oblicua.",
+      "bodyEn": "The appoggiatura sounds like a small note leaning before the main note. In this demo, D leans on C and takes the first half of the value; C resolves in the second half. The ornament is played on the beat, not before it, which is why it is written as a small note without a slash or with a small oblique line.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m6-06.demo-apoyatura.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-apoyatura.2",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-06.demo-apoyatura.3",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-06.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce realizaciones para identificar el adorno",
+      "titleEn": "Twelve realisations to identify the ornament",
+      "bodyEs": "Cada ejercicio escribe el adorno con notas normales y te pide reconocer cuál es. Escuchá con el botón «Escuchar melodía completa» y mirá la dirección de las notas: alternancia repetida con la superior (trino), un solo descenso y retorno (mordente), giro completo superior-principal-inferior-principal (grupeto) o dos notas con la vecina apoyada antes de la principal (apoyatura).",
+      "bodyEn": "Each exercise writes the ornament out with normal notes and asks you to recognise it. Listen with the “Listen to the full melody” button and look at the direction of the notes: repeated alternation with the upper note (trill), a single dip and return (mordent), a complete upper-main-lower-main circle (turn) or two notes with the neighbour leaning before the main note (appoggiatura)."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Ejecutá los cuatro adornos con pulso estable",
+    "titleEn": "Play the four ornaments with a steady pulse",
+    "instructionsEs": "A 72 BPM, tocá la realización del grupeto con la mano derecha y contá en voz alta los cuatro tiempos. Después repetí el ejercicio con el trino, el mordente y la apoyatura. En cada caso empezá lento y mantené el pulso del metrónomo: el adorno debe caber dentro del tiempo de la nota principal. Antes de terminar, tocá las cuatro demos seguidas y nombrá cada adorno en voz alta.",
+    "instructionsEn": "At 72 BPM, play the written-out turn with your right hand and count the four beats out loud. Then repeat the exercise with the trill, the mordent and the appoggiatura. In each case start slowly and keep the metronome pulse: the ornament must fit inside the value of the main note. Before finishing, play the four demos in a row and name each ornament out loud.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano derecha: usá 3-2-1-2 para el grupeto Re-Do-Si-Do y 3-2-3 para el mordente Do-Si-Do. En el trino, alterná 3 y 4 sin levantar demasiado los dedos; en la apoyatura, apoyá el peso en el primer dedo y resolvé con el segundo. La muñeca queda libre y el pulso no se detiene entre las notas.",
+    "fingeringEn": "Right hand: use 3-2-1-2 for the turn D-C-B-C and 3-2-3 for the mordent C-B-C. In the trill, alternate 3 and 4 without lifting the fingers too high; in the appoggiatura, place the weight on the first finger and resolve with the second. The wrist stays free and the pulse does not stop between notes.",
+    "tempoBpm": 72,
+    "checklistEs": [
+      "Toqué el grupeto contando los cuatro tiempos sin acelerar",
+      "Toqué el trino, el mordente y la apoyatura dentro del valor de la nota principal",
+      "Nombré los cuatro adornos después de escucharlos"
+    ],
+    "checklistEn": [
+      "I played the turn counting the four beats without speeding up",
+      "I played the trill, the mordent and the appoggiatura within the value of the main note",
+      "I named the four ornaments after listening to them"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 72,
+      "events": [
+        {
+          "id": "sec.m6-06.demo-grupeto.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-06.demo-grupeto.2",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-06.demo-grupeto.3",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-06.demo-grupeto.4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-06.demo-grupeto.5",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ex.m1-04.d",
+  "skillId": "skill.note-durations",
+  "type": "rhythm-completion",
+  "promptEs": "En 4/4 el compás tiene una corchea, una negra y una blanca. ¿Qué figura falta en el segundo lugar?",
+  "promptEn": "In 4/4 the measure has an eighth note, a quarter note, and a half note. Which note value is missing in the second position?",
+  "explanationEs": "La corchea dura medio tiempo, la negra uno y la blanca dos: suman tres y medio. Falta medio tiempo, que completa una corchea.",
+  "explanationEn": "The eighth note lasts half a beat, the quarter note one beat, and the half note two: together they add up to three and a half. Half a beat is missing, which an eighth note completes.",
+  "difficulty": 2,
+  "timeSignature": { "numerator": 4, "denominator": 4 },
+  "pattern": [
+    { "duration": "eighth", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "eighth", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "quarter", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "half", "dots": 0, "tuplet": "none", "rest": false }
+  ],
+  "missingIndex": 1,
+  "choices": ["Semicorchea", "Corchea", "Negra", "Blanca"],
+  "choicesEn": ["Sixteenth note", "Eighth note", "Quarter note", "Half note"]
+}

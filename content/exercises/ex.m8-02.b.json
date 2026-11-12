@@ -1,0 +1,702 @@
+{
+  "id": "ex.m8-02.b",
+  "skillId": "skill.blues",
+  "type": "style-pattern",
+  "promptEs": "Blues en Do. ¿Qué patrón rítmico tiene el acompañamiento del compás 2?",
+  "promptEn": "Blues in C. What rhythmic pattern does the accompaniment have in bar 2?",
+  "explanationEs": "La respuesta correcta es «Comping». El compás 2 tiene cuatro ataques en corcheas, todos en los contratiempos (1 y medio, 2 y medio, 3 y medio y 4 y medio). El comping deja aire entre los acordes y responde al canto o al solo, por eso no mantiene un ritmo continuo. Si los ataques estuvieran en los pulsos sería un patrón de negras.",
+  "explanationEn": "The correct answer is “Comping”. Bar 2 has four eighth-note attacks, all on the off-beats (the “and” of each beat). Comping leaves space between chords and answers the singer or the solo, so it does not keep a continuous rhythm. If the attacks fell on the beats it would be a quarter-note pattern.",
+  "difficulty": 3,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 96,
+    "events": [
+      {
+        "id": "ex.m8-02.b.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "C7"
+      },
+      {
+        "id": "ex.m8-02.b.2",
+        "measure": 1,
+        "beat": 0.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.3",
+        "measure": 1,
+        "beat": 1.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.4",
+        "measure": 1,
+        "beat": 2.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.5",
+        "measure": 1,
+        "beat": 3.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.6",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "F7"
+      },
+      {
+        "id": "ex.m8-02.b.7",
+        "measure": 2,
+        "beat": 0.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "E",
+            "accidental": "b",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.8",
+        "measure": 2,
+        "beat": 1.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "E",
+            "accidental": "b",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.9",
+        "measure": 2,
+        "beat": 2.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "E",
+            "accidental": "b",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.10",
+        "measure": 2,
+        "beat": 3.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "E",
+            "accidental": "b",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.11",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "C7"
+      },
+      {
+        "id": "ex.m8-02.b.12",
+        "measure": 3,
+        "beat": 0.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.13",
+        "measure": 3,
+        "beat": 1.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.14",
+        "measure": 3,
+        "beat": 2.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.15",
+        "measure": 3,
+        "beat": 3.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.16",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "G7"
+      },
+      {
+        "id": "ex.m8-02.b.17",
+        "measure": 4,
+        "beat": 0.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.18",
+        "measure": 4,
+        "beat": 1.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.19",
+        "measure": 4,
+        "beat": 2.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.b.20",
+        "measure": 4,
+        "beat": 3.5,
+        "value": {
+          "duration": "eighth",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 88,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "style": "blues",
+  "ask": "pattern",
+  "measure": 2,
+  "choices": [
+    "Shuffle",
+    "Negras",
+    "Comping",
+    "Medio tiempo"
+  ],
+  "choicesEn": [
+    "Shuffle",
+    "Quarters",
+    "Comping",
+    "Half-time"
+  ]
+}

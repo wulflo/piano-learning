@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-01.e",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Mi4 y Si♯4?",
+  "promptEn": "What interval is there between E4 and B♯4?",
+  "explanationEs": "De Mi a Si♯ hay una quinta. La quinta justa tiene siete semitonos y esta tiene ocho, así que es aumentada.",
+  "explanationEn": "From E to B♯ there is a fifth. A perfect fifth has seven semitones and this one has eight, so it is augmented.",
+  "difficulty": 3,
+  "lower": { "step": "E", "accidental": "", "octave": 4 },
+  "upper": { "step": "B", "accidental": "#", "octave": 4 },
+  "direction": "harmonic",
+  "choices": ["Quinta aumentada", "Quinta justa", "Sexta menor", "Quinta disminuida"],
+  "choicesEn": ["Augmented fifth", "Perfect fifth", "Minor sixth", "Diminished fifth"]
+}

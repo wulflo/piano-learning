@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-04.b",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "El acorde formado por Re, Fa♯, La y Do, ¿qué calidad de séptima tiene?",
+  "promptEn": "The chord made of D, F#, A and C has which seventh quality?",
+  "explanationEs": "Es un Re7, o séptima de dominante: 1-3-5-♭7. La séptima Do está diez semitonos arriba de Re, medio tono más baja que la séptima mayor.",
+  "explanationEn": "It is a D7, or dominant seventh: 1-3-5-♭7. The seventh C sits ten semitones above D, a semitone lower than the major seventh.",
+  "difficulty": 2,
+  "root": { "step": "D", "accidental": "", "octave": 4 },
+  "quality": "dominant7",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["séptima mayor", "séptima de dominante", "séptima menor", "séptima semidisminuida", "séptima disminuida"],
+  "choicesEn": ["major seventh", "dominant seventh", "minor seventh", "half-diminished seventh", "diminished seventh"]
+}

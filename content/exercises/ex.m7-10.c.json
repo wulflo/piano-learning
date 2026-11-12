@@ -1,0 +1,166 @@
+{
+  "id": "ex.m7-10.c",
+  "skillId": "skill.play-by-ear",
+  "type": "ear-melody",
+  "promptEs": "Escuchá la melodía oculta. ¿Cómo se mueve la melodía de la primera a la quinta nota?",
+  "promptEn": "Listen to the hidden melody. How does the melody move from the first to the fifth note?",
+  "explanationEs": "La respuesta correcta es «Sube por grado conjunto». La primera nota es Fa2 y la quinta es Do3: la melodía sube por salto. Las notas que quedan en la misma línea o en el mismo espacio se leen como grados conjuntos; cuando se salta una línea o un espacio, hay un salto. Para fijarla de oído, cantá la melodía antes de responder y volvé a escucharla después de ver la partitura revelada.",
+  "explanationEn": "The correct answer is “Moves up by step”. The first note is F2 and the fifth is C3: the melody moves up by leap. Notes that stay on the next line or the next space are read as steps; when a line or space is skipped, there is a leap. To fix it by ear, sing the melody before answering and listen again after the revealed score appears.",
+  "difficulty": 3,
+  "score": {
+    "clef": "bass",
+    "key": "F",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m7-10.c.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 2
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-10.c.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 2
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-10.c.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 2
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-10.c.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 2
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-10.c.5",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-10.c.6",
+        "measure": 2,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 2
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "ask": "motion",
+  "from": 0,
+  "to": 4,
+  "choices": [
+    "Sube por grado conjunto",
+    "Baja por grado conjunto",
+    "Sube por salto",
+    "Baja por salto",
+    "Repite la nota"
+  ],
+  "choicesEn": [
+    "Moves up by step",
+    "Moves down by step",
+    "Moves up by leap",
+    "Moves down by leap",
+    "Repeats the note"
+  ]
+}

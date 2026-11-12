@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-02.i",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "La sexta mayor La♭4-Fa5 se invierte subiendo La♭ una octava. ¿Cómo se llama el intervalo Fa5-La♭5?",
+  "promptEn": "The major sixth A♭4-F5 is inverted by raising A♭ an octave. What is the interval F5-A♭5 called?",
+  "explanationEs": "Fa5-La♭5 es una tercera menor: 6 + 3 = 9 y la calidad cambia de mayor a menor. El bemol se conserva.",
+  "explanationEn": "F5-A♭5 is a minor third: 6 + 3 = 9 and the quality changes from major to minor. The flat is kept.",
+  "difficulty": 2,
+  "lower": { "step": "F", "accidental": "", "octave": 5 },
+  "upper": { "step": "A", "accidental": "b", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Tercera menor", "Tercera mayor", "Sexta mayor", "Sexta menor"],
+  "choicesEn": ["Minor third", "Major third", "Major sixth", "Minor sixth"]
+}

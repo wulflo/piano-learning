@@ -1,0 +1,33 @@
+{
+  "id": "ex.m4-08.e",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Mi4 y Si4?",
+  "promptEn": "What interval is there between E4 and B4?",
+  "explanationEs": "De Mi a Si hay cuatro letras y siete semitonos: una quinta justa.",
+  "explanationEn": "From E to B there are four letters and seven semitones: a perfect fifth.",
+  "difficulty": 2,
+  "lower": {
+    "step": "E",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "B",
+    "accidental": "",
+    "octave": 4
+  },
+  "direction": "melodic",
+  "choices": [
+    "Quinta justa",
+    "Cuarta justa",
+    "Tercera justa",
+    "Cuarta aumentada"
+  ],
+  "choicesEn": [
+    "Perfect fifth",
+    "Perfect fourth",
+    "Perfect third",
+    "Augmented fourth"
+  ]
+}

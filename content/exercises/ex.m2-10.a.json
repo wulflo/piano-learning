@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-10.a",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de blues de Do?",
+  "promptEn": "How do you spell the C blues scale?",
+  "explanationEs": "La escala de blues de Do se deletrea C Eb F Gb G Bb C con la fórmula de la menor pentatónica más el bemol de la quinta.",
+  "explanationEn": "The C blues scale is spelled C Eb F Gb G Bb C with the minor pentatonic formula plus the lowered fifth.",
+  "difficulty": 2,
+  "tonic": "C",
+  "mode": "blues",
+  "choices": [
+    "C Eb F Gb G Bb C",
+    "C D# F# G A C",
+    "C D G A C"
+  ],
+  "choicesEn": [
+    "C Eb F Gb G Bb C",
+    "C D# F# G A C",
+    "C D G A C"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-01.c",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Re4 y Fa♯4?",
+  "promptEn": "What interval is there between D4 and F♯4?",
+  "explanationEs": "De Re a Fa♯ hay una tercera. La distancia es de cuatro semitonos, dos tonos, así que la tercera es mayor.",
+  "explanationEn": "From D to F♯ there is a third. The distance is four semitones, two whole tones, so the third is major.",
+  "difficulty": 2,
+  "lower": { "step": "D", "accidental": "", "octave": 4 },
+  "upper": { "step": "F", "accidental": "#", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Tercera mayor", "Tercera menor", "Cuarta disminuida", "Segunda mayor"],
+  "choicesEn": ["Major third", "Minor third", "Diminished fourth", "Major second"]
+}

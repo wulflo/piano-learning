@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-05.f",
+  "skillId": "skill.ear-interval",
+  "type": "ear-interval",
+  "promptEs": "¿Qué intervalo hay entre Do4 y Sol sostenido al escucharlos en forma ascendente?",
+  "promptEn": "What interval is there between C4 and G#4 when heard in ascending form?",
+  "explanationEs": "Do4 y Sol sostenido están separados por una quinta aumentada: ocho semitonos, la quinta justa más un semitono.",
+  "explanationEn": "C4 and G#4 are an augmented fifth apart: eight semitones, the perfect fifth plus one semitone.",
+  "difficulty": 3,
+  "lower": { "step": "C", "accidental": "", "octave": 4 },
+  "upper": { "step": "G", "accidental": "#", "octave": 4 },
+  "direction": "ascending",
+  "choices": ["Quinta aumentada", "Quinta justa", "Cuarta justa", "Tercera mayor"],
+  "choicesEn": ["Augmented fifth", "Perfect fifth", "Perfect fourth", "Major third"]
+}

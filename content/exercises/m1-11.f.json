@@ -1,0 +1,46 @@
+{
+  "id": "ex.m1-11.f",
+  "skillId": "skill.repeat-signs",
+  "type": "playback-order",
+  "promptEs": "Después de B aparece un D.C. al Coda, la indicación To Coda está en B y la coda es C. ¿Cuál es el orden?",
+  "explanationEs": "D.C. al Coda vuelve al principio y, al llegar a To Coda en B, salta a la coda C: A B A B C.",
+  "difficulty": 3,
+  "sections": [
+    {
+      "id": "sec-a",
+      "label": "A",
+      "repeat": false
+    },
+    {
+      "id": "sec-b",
+      "label": "B",
+      "repeat": false
+    },
+    {
+      "id": "sec-c",
+      "label": "C",
+      "repeat": false
+    }
+  ],
+  "answer": [
+    "sec-a",
+    "sec-b",
+    "sec-a",
+    "sec-b",
+    "sec-c"
+  ],
+  "choices": [
+    "A B A B C",
+    "A B C",
+    "A B A C",
+    "A B B C"
+  ],
+  "promptEn": "After B there is a D.C. al Coda, the To Coda indication is in B and the coda is C. What is the order?",
+  "explanationEn": "D.C. al Coda goes back to the beginning and, on reaching To Coda in B, jumps to coda C: A B A B C.",
+  "choicesEn": [
+    "A B A B C",
+    "A B C",
+    "A B A C",
+    "A B B C"
+  ]
+}

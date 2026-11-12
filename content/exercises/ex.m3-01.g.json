@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-01.g",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Fa♯4 y Sol4?",
+  "promptEn": "What interval is there between F♯4 and G4?",
+  "explanationEs": "De Fa♯ a Sol hay una segunda de un solo semitono, así que es menor.",
+  "explanationEn": "From F♯ to G there is a second of a single semitone, so it is minor.",
+  "difficulty": 1,
+  "lower": { "step": "F", "accidental": "#", "octave": 4 },
+  "upper": { "step": "G", "accidental": "", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Segunda menor", "Segunda mayor", "Unísono aumentado", "Tercera menor"],
+  "choicesEn": ["Minor second", "Major second", "Augmented unison", "Minor third"]
+}

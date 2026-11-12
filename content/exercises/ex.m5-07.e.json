@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-07.e",
+  "skillId": "skill.secondary-dominants",
+  "type": "secondary-dominant",
+  "promptEs": "En Mi mayor, ¿cómo se cifra el dominante secundario que resuelve en V?",
+  "promptEn": "In E major, how is the secondary dominant that resolves to V labelled?",
+  "explanationEs": "En Mi mayor, el dominante de V es Fa♯7 y se cifra V/V. Resuelve en Si (V): su tercera es la sensible de Si y sube un semitono.",
+  "explanationEn": "In E major, the dominant of V is F♯7 and it is labelled V/V. It resolves to B (V): its third is the leading tone of B and rises a semitone.",
+  "difficulty": 2,
+  "key": "E",
+  "mode": "major",
+  "target": 5,
+  "ask": "numeral",
+  "choices": [
+    "V/ii",
+    "V/IV",
+    "V/V",
+    "V/vi"
+  ],
+  "choicesEn": [
+    "V/ii",
+    "V/IV",
+    "V/V",
+    "V/vi"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ex.m1-03.g",
+  "skillId": "skill.accidentals",
+  "type": "interval",
+  "promptEs": "¿Qué distancia hay entre Fa♯4 y Sol♯4?",
+  "promptEn": "What is the distance between F♯4 and G♯4?",
+  "explanationEs": "Fa♯4 y Sol♯4 están separados por dos semitonos: hay un tono. Ambos son teclas negras.",
+  "explanationEn": "F♯4 and G♯4 are two semitones apart: it is a tone. Both are black keys.",
+  "difficulty": 2,
+  "lower": { "step": "F", "accidental": "#", "octave": 4 },
+  "upper": { "step": "G", "accidental": "#", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Semitono", "Tono", "Tono y medio", "Dos tonos"],
+  "choicesEn": ["Semitone", "Tone", "Tone and a half", "Two tones"]
+}

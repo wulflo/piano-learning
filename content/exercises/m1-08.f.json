@@ -1,0 +1,30 @@
+{
+  "id": "ex.m1-08.f",
+  "skillId": "skill.syncopation",
+  "type": "meter-accent",
+  "promptEs": "En 4/4, ¿qué pulsos acentúa el metrónomo aunque la melodía haga una síncopa?",
+  "explanationEs": "El metrónomo mantiene los pulsos fuertes 1 y 3; la síncopa desplaza el acento de la melodía, no el del compás.",
+  "difficulty": 1,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "accentedBeats": [
+    1,
+    3
+  ],
+  "choices": [
+    "1 y 3",
+    "1 y 2",
+    "2 y 4",
+    "Todos los pulsos por igual"
+  ],
+  "promptEn": "In 4/4, which beats does the metronome accent even if the melody is syncopated?",
+  "explanationEn": "The metronome keeps the strong beats 1 and 3; the syncopation shifts the accent of the melody, not the accent of the measure.",
+  "choicesEn": [
+    "1 and 3",
+    "1 and 2",
+    "2 and 4",
+    "All beats equally"
+  ]
+}

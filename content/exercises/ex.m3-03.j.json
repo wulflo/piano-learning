@@ -1,0 +1,17 @@
+{
+  "id": "ex.m3-03.j",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Escuchá el intervalo armónico y clasificalo según su función en la armonía tonal.",
+  "promptEn": "Listen to the harmonic interval and classify it by its function in tonal harmony.",
+  "explanationEs": "La4-Si♭4 es una segunda menor. Es una de las disonancias más ásperas por el semitono; en contexto puede sonar tensa o expresiva, no «incorrecta».",
+  "explanationEn": "A4-B♭4 is a minor second. It is one of the roughest dissonances because of the semitone; in context it can sound tense or expressive, not «incorrect».",
+  "difficulty": 3,
+  "lower": { "step": "A", "accidental": "", "octave": 4 },
+  "upper": { "step": "B", "accidental": "b", "octave": 4 },
+  "direction": "harmonic",
+  "answer": "Disonancia",
+  "answerEn": "Dissonance",
+  "choices": ["Consonancia imperfecta", "Disonancia", "Depende del contexto", "Consonancia perfecta"],
+  "choicesEn": ["Imperfect consonance", "Dissonance", "Depends on context", "Perfect consonance"]
+}

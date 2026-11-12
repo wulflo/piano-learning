@@ -1,0 +1,28 @@
+{
+  "id": "ex.m1-12.e",
+  "skillId": "skill.italian-terms",
+  "type": "italian-term",
+  "promptEs": "¿Qué significa legato?",
+  "explanationEs": "Legato es un término de articulación: pide conectar las notas sin silencio entre ellas, como una voz que canta una frase.",
+  "difficulty": 1,
+  "term": "legato",
+  "category": "articulation",
+  "meaningEs": "Conectar las notas sin silencio",
+  "exampleEs": "Como cantar una frase en una sola respiración.",
+  "choices": [
+    "Conectar las notas sin silencio",
+    "Tocar las notas cortas y separadas",
+    "Acentuar una nota",
+    "Sostener la nota con peso"
+  ],
+  "promptEn": "What does legato mean?",
+  "explanationEn": "Legato is an articulation term: it asks you to connect notes without silence between them, like a voice singing a phrase.",
+  "meaningEn": "Connect the notes without silence",
+  "exampleEn": "Like singing a phrase in one breath, with no gaps between notes.",
+  "choicesEn": [
+    "Connect the notes without silence",
+    "Play the notes short and separated",
+    "Accent a note",
+    "Hold the note with weight"
+  ]
+}

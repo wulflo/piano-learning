@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-06.a",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de Do menor melódica?",
+  "explanationEs": "Do menor melódica ascendente se deletrea C D Eb F G A B C con el sexto y el séptimo grados elevados.",
+  "difficulty": 2,
+  "tonic": "C",
+  "mode": "melodic-minor",
+  "choices": [
+    "C D Eb F G Ab B C",
+    "C D Eb F G Ab Bb C",
+    "C D Eb F G A B C"
+  ],
+  "promptEn": "How do you spell the C melodic minor scale?",
+  "explanationEn": "Ascending C melodic minor is spelled C D Eb F G A B C with the sixth and seventh degrees raised.",
+  "choicesEn": [
+    "C D Eb F G Ab B C",
+    "C D Eb F G Ab Bb C",
+    "C D Eb F G A B C"
+  ]
+}

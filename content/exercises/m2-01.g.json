@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-01.g",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de Fa sostenido mayor?",
+  "explanationEs": "Fa sostenido mayor se deletrea F# G# A# B C# D# E# F# con el patrón T-T-S-T-T-T-S.",
+  "difficulty": 3,
+  "tonic": "F#",
+  "mode": "major",
+  "choices": [
+    "F# G# A# B C# D# E# F#",
+    "F G A B C D E F",
+    "F# G A B C D E F"
+  ],
+  "promptEn": "How do you spell the F sharp major scale?",
+  "explanationEn": "F sharp major is spelled F# G# A# B C# D# E# F# with the W-W-H-W-W-W-H pattern.",
+  "choicesEn": [
+    "F# G# A# B C# D# E# F#",
+    "F G A B C D E F",
+    "F# G A B C D E F"
+  ]
+}

@@ -1,0 +1,1912 @@
+[
+  {
+    "id": "skill.keyboard-groups",
+    "kind": "keyboard-task",
+    "labelEs": "Reconocer grupos de dos y tres teclas negras",
+    "labelEn": "Recognize groups of two and three black keys",
+    "params": {
+      "groups": [
+        "2",
+        "3"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m0-01"
+    ]
+  },
+  {
+    "id": "skill.note-names",
+    "kind": "note-id",
+    "labelEs": "Nombrar notas en el teclado",
+    "labelEn": "Name notes on the keyboard",
+    "params": {
+      "range": "C2-C6",
+      "notation": [
+        "do",
+        "c"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m0-01",
+      "lesson.m0-02"
+    ]
+  },
+  {
+    "id": "skill.octave-numbers",
+    "kind": "note-id",
+    "labelEs": "Nombrar notas con su número de octava",
+    "labelEn": "Name notes with their octave number",
+    "params": {
+      "range": "C2-C6",
+      "notation": [
+        "do",
+        "c"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m0-02"
+    ]
+  },
+  {
+    "id": "skill.note-staff",
+    "kind": "note-id",
+    "labelEs": "Leer notas en el pentagrama",
+    "labelEn": "Read notes on the staff",
+    "params": {
+      "clefs": [
+        "treble",
+        "bass"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m0-02",
+      "lesson.m1-02"
+    ]
+  },
+  {
+    "id": "skill.posture",
+    "kind": "keyboard-task",
+    "labelEs": "Postura, banco y digitación relajada",
+    "labelEn": "Posture, bench and relaxed fingering",
+    "params": {
+      "hands": [
+        "right",
+        "left"
+      ],
+      "fiveFinger": true
+    },
+    "lessonIds": [
+      "lesson.m0-03"
+    ]
+  },
+  {
+    "id": "skill.practice-planning",
+    "kind": "keyboard-task",
+    "labelEs": "Planificar la práctica con metas medibles",
+    "labelEn": "Plan practice with measurable goals",
+    "params": {
+      "durations": [
+        "15",
+        "30",
+        "45"
+      ],
+      "fields": [
+        "meta",
+        "tiempo",
+        "error",
+        "registro"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m0-04"
+    ]
+  },
+  {
+    "id": "skill.course-orientation",
+    "kind": "keyboard-task",
+    "labelEs": "Orientar el punto de entrada al curso",
+    "labelEn": "Orient the course entry point",
+    "params": {
+      "items": "8",
+      "bands": [
+        "M0",
+        "M1",
+        "M2",
+        "M3"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m0-05"
+    ]
+  },
+  {
+    "id": "skill.major-scale",
+    "kind": "scale",
+    "labelEs": "Construir escalas mayores",
+    "labelEn": "Build major scales",
+    "params": {
+      "mode": "major",
+      "keys": "12"
+    },
+    "lessonIds": []
+  },
+  {
+    "id": "skill.interval-quality",
+    "kind": "interval",
+    "labelEs": "Medir intervalos por cantidad y calidad",
+    "labelEn": "Measure intervals by size and quality",
+    "params": {
+      "direction": [
+        "melodic",
+        "harmonic"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m3-01",
+      "lesson.m3-02",
+      "lesson.m3-03",
+      "lesson.m3-04",
+      "lesson.m4-08"
+    ]
+  },
+  {
+    "id": "skill.chord-quality",
+    "kind": "chord",
+    "labelEs": "Reconocer la calidad de un acorde",
+    "labelEn": "Recognize chord quality",
+    "params": {
+      "qualities": [
+        "major",
+        "minor",
+        "diminished",
+        "augmented",
+        "sus2",
+        "sus4"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m4-01",
+      "lesson.m4-02",
+      "lesson.m4-10"
+    ]
+  },
+  {
+    "id": "skill.chord-inversion",
+    "kind": "chord",
+    "labelEs": "Identificar inversiones y voicings",
+    "labelEn": "Identify inversions and voicings",
+    "params": {
+      "inversions": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "voicings": [
+        "close",
+        "open"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m4-03",
+      "lesson.m4-11"
+    ]
+  },
+  {
+    "id": "skill.chord-seventh",
+    "kind": "chord",
+    "labelEs": "Construir y reconocer acordes de séptima",
+    "labelEn": "Build and recognise seventh chords",
+    "params": {
+      "qualities": [
+        "major7",
+        "dominant7",
+        "minor7",
+        "half-diminished7",
+        "diminished7"
+      ],
+      "askNotes": true
+    },
+    "lessonIds": [
+      "lesson.m4-04",
+      "lesson.m4-10"
+    ]
+  },
+  {
+    "id": "skill.chord-quality-ear",
+    "kind": "ear-chord",
+    "labelEs": "Reconocer la calidad de un acorde de oído",
+    "labelEn": "Recognize chord quality by ear",
+    "params": {
+      "qualities": [
+        "major",
+        "minor",
+        "diminished",
+        "augmented",
+        "major7",
+        "dominant7",
+        "minor7",
+        "half-diminished7",
+        "diminished7"
+      ],
+      "styles": [
+        "block"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m4-10"
+    ]
+  },
+  {
+    "id": "skill.chord-extension",
+    "kind": "chord",
+    "labelEs": "Construir y reconocer acordes extendidos",
+    "labelEn": "Build and recognise extended chords",
+    "params": {
+      "extensions": [
+        "9",
+        "11",
+        "13"
+      ],
+      "qualities": [
+        "major9",
+        "dominant9",
+        "minor9",
+        "major11",
+        "dominant11",
+        "minor11",
+        "major13",
+        "dominant13",
+        "minor13"
+      ],
+      "omissions": true,
+      "askNotes": true
+    },
+    "lessonIds": [
+      "lesson.m4-05",
+      "lesson.m4-12"
+    ]
+  },
+  {
+    "id": "skill.chord-slash",
+    "kind": "chord",
+    "labelEs": "Leer y construir slash chords",
+    "labelEn": "Read and build slash chords",
+    "params": {
+      "basses": [
+        "chord-tone",
+        "non-chord-tone"
+      ],
+      "notations": [
+        "do",
+        "c"
+      ],
+      "askSymbol": true,
+      "askNotes": true
+    },
+    "lessonIds": [
+      "lesson.m4-06",
+      "lesson.m4-11",
+      "lesson.m4-12"
+    ]
+  },
+  {
+    "id": "skill.chord-notation",
+    "kind": "chord",
+    "labelEs": "Convertir cifrado latino y americano",
+    "labelEn": "Convert between Latin and American chord symbols",
+    "params": {
+      "notations": [
+        "do",
+        "c"
+      ],
+      "directions": [
+        "do-to-c",
+        "c-to-do"
+      ],
+      "keepQualitySuffix": true,
+      "translateBass": true
+    },
+    "lessonIds": [
+      "lesson.m4-07"
+    ]
+  },
+  {
+    "id": "skill.chord-symbol",
+    "kind": "chord",
+    "labelEs": "Leer y escribir cifrados desde las notas",
+    "labelEn": "Read and write chord symbols from notes",
+    "params": {
+      "directions": [
+        "symbol-to-notes",
+        "notes-to-symbol"
+      ],
+      "qualities": [
+        "major",
+        "minor",
+        "diminished",
+        "augmented",
+        "major7",
+        "dominant7",
+        "minor7",
+        "half-diminished7",
+        "diminished7"
+      ],
+      "notations": [
+        "do",
+        "c"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m4-09"
+    ]
+  },
+  {
+    "id": "skill.key-signature",
+    "kind": "key-signature",
+    "labelEs": "Leer armaduras",
+    "labelEn": "Read key signatures",
+    "params": {
+      "maxAccidentals": 7
+    },
+    "lessonIds": []
+  },
+  {
+    "id": "skill.ear-interval",
+    "kind": "ear-interval",
+    "labelEs": "Reconocer intervalos de oído",
+    "labelEn": "Recognize intervals by ear",
+    "params": {
+      "direction": [
+        "ascending",
+        "descending",
+        "harmonic"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m3-05"
+    ]
+  },
+  {
+    "id": "skill.ear-scale",
+    "kind": "ear-scale",
+    "labelEs": "Reconocer escalas y modos de oído",
+    "labelEn": "Recognize scales and modes by ear",
+    "params": {
+      "modes": "16",
+      "tonics": "12",
+      "comparison": true
+    },
+    "lessonIds": [
+      "lesson.m2-08",
+      "lesson.m2-10",
+      "lesson.m2-11"
+    ]
+  },
+  {
+    "id": "skill.ear-progression",
+    "kind": "ear-progression",
+    "labelEs": "Reconocer progresiones de acordes de oído",
+    "labelEn": "Recognize chord progressions by ear",
+    "params": {
+      "degrees": 4,
+      "modes": [
+        "major",
+        "minor"
+      ],
+      "playback": "block"
+    },
+    "lessonIds": [
+      "lesson.m2-07",
+      "lesson.m7-10"
+    ]
+  },
+  {
+    "id": "skill.self-observation",
+    "kind": "keyboard-task",
+    "labelEs": "Autoobservar postura, sonido y tensión",
+    "labelEn": "Self-observe posture, sound and tension",
+    "params": {
+      "tools": [
+        "mirror",
+        "recording"
+      ],
+      "tensionChecks": [
+        "shoulders",
+        "jaw",
+        "wrist",
+        "breath"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m0-06"
+    ]
+  },
+  {
+    "id": "skill.sound-parameters",
+    "kind": "sound-parameter",
+    "labelEs": "Reconocer altura, duración, intensidad y timbre",
+    "labelEn": "Recognize pitch, duration, intensity and timbre",
+    "params": {
+      "parameters": [
+        "pitch",
+        "duration",
+        "intensity",
+        "timbre"
+      ],
+      "timbreExamples": [
+        "piano",
+        "flute",
+        "organ",
+        "strings"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m1-01"
+    ]
+  },
+  {
+    "id": "skill.accidentals",
+    "kind": "interval",
+    "labelEs": "Usar alteraciones y medir tonos y semitonos",
+    "labelEn": "Use accidentals and measure tones and semitones",
+    "params": {
+      "accidentals": [
+        "#",
+        "b",
+        "natural"
+      ],
+      "tonics": [
+        "C",
+        "C#",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m1-03"
+    ]
+  },
+  {
+    "id": "skill.note-durations",
+    "kind": "rhythm",
+    "labelEs": "Leer figuras y silencios por su duración",
+    "labelEn": "Read note values and rests by duration",
+    "params": {
+      "durations": [
+        "whole",
+        "half",
+        "quarter",
+        "eighth",
+        "sixteenth",
+        "thirty-second"
+      ],
+      "rests": true,
+      "timeSignatures": [
+        "2/4",
+        "3/4",
+        "4/4"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m1-04"
+    ]
+  },
+  {
+    "id": "skill.simple-meter",
+    "kind": "rhythm",
+    "labelEs": "Reconocer compases simples y sus acentos",
+    "labelEn": "Recognize simple meters and their accents",
+    "params": {
+      "timeSignatures": [
+        "2/4",
+        "3/4",
+        "4/4"
+      ],
+      "accents": [
+        "strong",
+        "weak",
+        "semi-strong"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m1-05"
+    ]
+  },
+  {
+    "id": "skill.compound-meter",
+    "kind": "rhythm",
+    "labelEs": "Reconocer compases compuestos y su subdivisión ternaria",
+    "labelEn": "Recognize compound meters and their ternary subdivision",
+    "params": {
+      "timeSignatures": [
+        "6/8",
+        "9/8",
+        "12/8"
+      ],
+      "subdivision": "ternary",
+      "accents": [
+        "group-start"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m1-06"
+    ]
+  },
+  {
+    "id": "skill.rhythm-variants",
+    "kind": "rhythm",
+    "labelEs": "Leer puntillos, ligaduras y tresillos",
+    "labelEn": "Read dotted notes, ties and triplets",
+    "params": {
+      "dotted": true,
+      "ties": true,
+      "tuplets": [
+        "triplet"
+      ],
+      "timeSignatures": [
+        "4/4",
+        "6/8"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m1-07"
+    ]
+  },
+  {
+    "id": "skill.syncopation",
+    "kind": "rhythm",
+    "labelEs": "Reconocer síncopas y anacrusas",
+    "labelEn": "Recognize syncopation and anacrusis",
+    "params": {
+      "concepts": [
+        "syncopation",
+        "anacrusis",
+        "offbeat"
+      ],
+      "timeSignatures": [
+        "4/4"
+      ],
+      "metronomeAccents": [
+        "1",
+        "3"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m1-08"
+    ]
+  },
+  {
+    "id": "skill.tempo",
+    "kind": "rhythm",
+    "labelEs": "Leer términos de tempo y mantener un pulso estable",
+    "labelEn": "Read tempo terms and keep a steady pulse",
+    "params": {
+      "minBpm": 40,
+      "maxBpm": 240,
+      "terms": [
+        "grave",
+        "largo",
+        "lento",
+        "adagio",
+        "andante",
+        "moderato",
+        "allegretto",
+        "allegro",
+        "vivace",
+        "presto",
+        "prestissimo"
+      ],
+      "changes": [
+        "ritardando",
+        "accelerando",
+        "a-tempo",
+        "rubato"
+      ],
+      "persistentControl": true
+    },
+    "lessonIds": [
+      "lesson.m1-09"
+    ]
+  },
+  {
+    "id": "skill.dynamics-articulation",
+    "kind": "sound-parameter",
+    "labelEs": "Reconocer dinámicas y articulaciones",
+    "labelEn": "Recognize dynamics and articulations",
+    "params": {
+      "dynamics": [
+        "pp",
+        "p",
+        "mp",
+        "mf",
+        "f",
+        "ff"
+      ],
+      "articulations": [
+        "legato",
+        "staccato",
+        "accent"
+      ],
+      "minVelocity": 1,
+      "maxVelocity": 127
+    },
+    "lessonIds": [
+      "lesson.m1-10"
+    ]
+  },
+  {
+    "id": "skill.repeat-signs",
+    "kind": "keyboard-task",
+    "labelEs": "Seguir repeticiones, da capo, segno y coda",
+    "labelEn": "Follow repeats, da capo, segno and coda",
+    "params": {
+      "signs": [
+        "repeat",
+        "first-ending",
+        "second-ending",
+        "da-capo",
+        "dal-segno",
+        "fine",
+        "coda"
+      ],
+      "orderExercises": true
+    },
+    "lessonIds": [
+      "lesson.m1-11"
+    ]
+  },
+  {
+    "id": "skill.italian-terms",
+    "kind": "keyboard-task",
+    "labelEs": "Reconocer y aplicar términos italianos",
+    "labelEn": "Recognize and apply Italian terms",
+    "params": {
+      "terms": [
+        "adagio",
+        "allegro",
+        "andante",
+        "moderato",
+        "presto",
+        "ritardando",
+        "accelerando",
+        "rubato",
+        "crescendo",
+        "diminuendo",
+        "pianissimo",
+        "fortissimo",
+        "legato",
+        "staccato",
+        "accentato",
+        "tenuto",
+        "dolce",
+        "cantabile",
+        "espressivo",
+        "maestoso"
+      ],
+      "categories": [
+        "tempo",
+        "dynamics",
+        "articulation",
+        "character"
+      ],
+      "quiz": true,
+      "originalDefinitions": true
+    },
+    "lessonIds": [
+      "lesson.m1-12"
+    ]
+  },
+  {
+    "id": "skill.diatonic-chords",
+    "kind": "chord",
+    "labelEs": "Reconocer los acordes diatónicos",
+    "labelEn": "Recognise diatonic chords",
+    "params": {
+      "modes": [
+        "major",
+        "natural-minor",
+        "harmonic-minor"
+      ],
+      "chordTypes": [
+        "triad",
+        "seventh"
+      ],
+      "qualities": [
+        "major",
+        "minor",
+        "diminished",
+        "augmented",
+        "major7",
+        "dominant7",
+        "minor7",
+        "half-diminished7",
+        "diminished7"
+      ],
+      "keys": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ],
+      "notations": [
+        "do",
+        "c"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m5-01"
+    ]
+  },
+  {
+    "id": "skill.roman-numeral",
+    "kind": "roman-numeral",
+    "labelEs": "Leer y escribir números romanos",
+    "labelEn": "Read and write Roman numerals",
+    "params": {
+      "directions": [
+        "numeral-to-chord",
+        "chord-to-numeral"
+      ],
+      "modes": [
+        "major",
+        "minor"
+      ],
+      "qualities": [
+        "major",
+        "minor",
+        "diminished",
+        "major7",
+        "dominant7",
+        "minor7",
+        "half-diminished7"
+      ],
+      "notations": [
+        "do",
+        "c"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m5-02"
+    ]
+  },
+  {
+    "id": "skill.harmonic-function",
+    "kind": "roman-numeral",
+    "labelEs": "Clasificar funciones armónicas",
+    "labelEn": "Classify harmonic functions",
+    "params": {
+      "functions": [
+        "tonic",
+        "subdominant",
+        "dominant"
+      ],
+      "modes": [
+        "major",
+        "minor"
+      ],
+      "degrees": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "keys": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m5-03"
+    ]
+  },
+  {
+    "id": "skill.cadence",
+    "kind": "progression",
+    "labelEs": "Reconocer cadencias",
+    "labelEn": "Recognise cadences",
+    "params": {
+      "cadences": [
+        "authentic",
+        "plagal",
+        "half",
+        "deceptive"
+      ],
+      "modes": [
+        "major",
+        "minor"
+      ],
+      "degrees": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "keys": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m5-04"
+    ]
+  },
+  {
+    "id": "skill.common-progressions",
+    "kind": "progression",
+    "labelEs": "Completar progresiones comunes",
+    "labelEn": "Complete common progressions",
+    "params": {
+      "progressions": [
+        "I-V-vi-IV",
+        "ii-V-I"
+      ],
+      "modes": [
+        "major"
+      ],
+      "degrees": [
+        "I",
+        "ii",
+        "IV",
+        "V",
+        "vi"
+      ],
+      "keys": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m5-05"
+    ]
+  },
+  {
+    "id": "skill.twelve-bar-blues",
+    "kind": "progression",
+    "labelEs": "Completar el blues de 12 compases",
+    "labelEn": "Complete the twelve-bar blues",
+    "params": {
+      "variants": [
+        "basic",
+        "quick-change",
+        "minor"
+      ],
+      "modes": [
+        "major",
+        "minor"
+      ],
+      "degrees": [
+        "I7",
+        "IV7",
+        "V7",
+        "i7",
+        "iv7"
+      ],
+      "keys": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m5-06"
+    ]
+  },
+  {
+    "id": "skill.secondary-dominants",
+    "kind": "roman-numeral",
+    "labelEs": "Cifrar dominantes secundarios",
+    "labelEn": "Label secondary dominants",
+    "params": {
+      "labels": [
+        "V/V",
+        "V/ii"
+      ],
+      "targets": [
+        "5",
+        "2"
+      ],
+      "asks": [
+        "numeral",
+        "resolution"
+      ],
+      "modes": [
+        "major"
+      ],
+      "keys": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m5-07"
+    ]
+  },
+  {
+    "id": "skill.modal-mixture",
+    "kind": "roman-numeral",
+    "labelEs": "Cifrar acordes prestados",
+    "labelEn": "Label borrowed chords",
+    "params": {
+      "borrowed": [
+        "iv",
+        "bVI",
+        "bVII",
+        "bIII",
+        "ii°",
+        "v"
+      ],
+      "sourceMode": [
+        "parallel-minor",
+        "parallel-major"
+      ],
+      "modes": [
+        "major",
+        "minor"
+      ],
+      "keys": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m5-08"
+    ]
+  },
+  {
+    "id": "skill.modulation",
+    "kind": "roman-numeral",
+    "labelEs": "Analizar modulaciones con pivote",
+    "labelEn": "Analyse modulations with a pivot",
+    "params": {
+      "topics": [
+        "pivot-chord",
+        "voice-leading"
+      ],
+      "relationships": [
+        "dominant",
+        "subdominant"
+      ],
+      "modes": [
+        "major"
+      ],
+      "keys": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m5-09"
+    ]
+  },
+  {
+    "id": "skill.motive-phrase",
+    "kind": "form",
+    "labelEs": "Reconocer motivos y frases",
+    "labelEn": "Recognise motives and phrases",
+    "params": {
+      "topics": [
+        "motive",
+        "phrase",
+        "segmentation"
+      ],
+      "asks": [
+        "motive-count",
+        "phrase-count",
+        "phrase-end"
+      ],
+      "meters": [
+        "4/4",
+        "3/4"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m6-01"
+    ]
+  },
+  {
+    "id": "skill.musical-form",
+    "kind": "form",
+    "labelEs": "Reconocer períodos y formas",
+    "labelEn": "Recognise periods and forms",
+    "params": {
+      "topics": [
+        "period",
+        "binary-form",
+        "ternary-form"
+      ],
+      "forms": [
+        "binary",
+        "ternary",
+        "period"
+      ],
+      "sections": [
+        "AB",
+        "ABA"
+      ],
+      "meters": [
+        "4/4",
+        "3/4"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m6-02"
+    ]
+  },
+  {
+    "id": "skill.rondo-sonata",
+    "kind": "form",
+    "labelEs": "Reconocer rondó y forma sonata",
+    "labelEn": "Recognise rondo and sonata form",
+    "params": {
+      "topics": [
+        "rondo",
+        "sonata-form",
+        "sections"
+      ],
+      "forms": [
+        "rondo",
+        "sonata"
+      ],
+      "schemes": [
+        "ABACA",
+        "exposition-development-recapitulation"
+      ],
+      "meters": [
+        "4/4",
+        "3/4"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m6-03"
+    ]
+  },
+  {
+    "id": "skill.texture",
+    "kind": "texture",
+    "labelEs": "Reconocer texturas musicales",
+    "labelEn": "Recognise musical textures",
+    "params": {
+      "topics": [
+        "monophony",
+        "homophony",
+        "polyphony"
+      ],
+      "textures": [
+        "monophony",
+        "homophony",
+        "polyphony"
+      ],
+      "voices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "meters": [
+        "4/4",
+        "3/4"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m6-04"
+    ]
+  },
+  {
+    "id": "skill.counterpoint",
+    "kind": "counterpoint",
+    "labelEs": "Reconocer movimiento de voces y reglas de contrapunto",
+    "labelEn": "Recognise voice motion and counterpoint rules",
+    "params": {
+      "topics": [
+        "voice-motion",
+        "parallel-fifths",
+        "parallel-octaves"
+      ],
+      "motions": [
+        "parallel",
+        "similar",
+        "contrary",
+        "oblique"
+      ],
+      "rules": [
+        "avoid-parallel-perfects",
+        "prefer-contrary-motion"
+      ],
+      "meters": [
+        "4/4",
+        "3/4"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m6-05"
+    ]
+  },
+  {
+    "id": "skill.ornament",
+    "kind": "ornament",
+    "labelEs": "Reconocer y ejecutar ornamentos",
+    "labelEn": "Recognise and play ornaments",
+    "params": {
+      "topics": [
+        "trill",
+        "mordent",
+        "turn",
+        "appoggiatura"
+      ],
+      "ornaments": [
+        "trill",
+        "mordent",
+        "turn",
+        "appoggiatura"
+      ],
+      "rules": [
+        "upper-neighbour",
+        "lower-neighbour",
+        "on-the-beat"
+      ],
+      "meters": [
+        "4/4",
+        "3/4"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m6-06"
+    ]
+  },
+  {
+    "id": "skill.neapolitan",
+    "kind": "roman-numeral",
+    "labelEs": "Cifrar la napolitana",
+    "labelEn": "Label the Neapolitan chord",
+    "params": {
+      "numerals": [
+        "bII",
+        "bII6"
+      ],
+      "inversions": [
+        "root",
+        "first"
+      ],
+      "modes": [
+        "major",
+        "minor"
+      ],
+      "keys": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m5-10"
+    ]
+  },
+  {
+    "id": "skill.augmented-sixth",
+    "kind": "roman-numeral",
+    "labelEs": "Reconocer las sextas aumentadas",
+    "labelEn": "Recognise augmented sixth chords",
+    "params": {
+      "variants": [
+        "italian",
+        "french",
+        "german"
+      ],
+      "asks": [
+        "identify",
+        "resolve"
+      ],
+      "modes": [
+        "major",
+        "minor"
+      ],
+      "keys": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m5-11"
+    ]
+  },
+  {
+    "id": "skill.hand-independence",
+    "kind": "keyboard-task",
+    "labelEs": "Coordinar las dos manos sin tensión",
+    "labelEn": "Coordinate both hands without tension",
+    "params": {
+      "hands": [
+        "right",
+        "left"
+      ],
+      "patterns": [
+        "alternating",
+        "hold-and-move",
+        "simultaneous"
+      ],
+      "meters": [
+        "4/4",
+        "3/4"
+      ],
+      "tempoBpm": 60
+    },
+    "lessonIds": [
+      "lesson.m7-01"
+    ]
+  },
+  {
+    "id": "skill.arpeggio",
+    "kind": "keyboard-task",
+    "labelEs": "Tocar arpegios mayores con digitación estable",
+    "labelEn": "Play major arpeggios with stable fingering",
+    "params": {
+      "tonics": [
+        "C",
+        "G",
+        "D",
+        "A",
+        "E",
+        "B",
+        "F",
+        "Bb",
+        "Eb",
+        "Ab",
+        "Db",
+        "Gb"
+      ],
+      "hands": [
+        "right",
+        "left"
+      ],
+      "octaves": [
+        "1",
+        "2"
+      ],
+      "asks": [
+        "fingering",
+        "notes"
+      ],
+      "tempoBpm": [
+        "60",
+        "72",
+        "84"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m7-02"
+    ]
+  },
+  {
+    "id": "skill.pedal",
+    "kind": "keyboard-task",
+    "labelEs": "Cambiar el pedal de resonancia con el oído",
+    "labelEn": "Change the sustain pedal by ear",
+    "params": {
+      "patterns": [
+        "direct",
+        "syncopated"
+      ],
+      "changes": [
+        "harmony-change"
+      ],
+      "tempoBpm": [
+        "60",
+        "72"
+      ],
+      "listensFor": [
+        "mud",
+        "cut"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m7-03"
+    ]
+  },
+  {
+    "id": "skill.accompaniment",
+    "kind": "keyboard-task",
+    "labelEs": "Acompañar en bloque y leer cifrados",
+    "labelEn": "Accompany with block chords and read chord symbols",
+    "params": {
+      "patterns": [
+        "whole",
+        "half",
+        "quarter",
+        "bass-chord"
+      ],
+      "formats": [
+        "block",
+        "bass-chord"
+      ],
+      "symbols": [
+        "C",
+        "Am",
+        "F",
+        "G7",
+        "Dm"
+      ],
+      "tempoBpm": [
+        "60",
+        "72"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m7-04"
+    ]
+  },
+  {
+    "id": "skill.arpeggiated-accompaniment",
+    "kind": "keyboard-task",
+    "labelEs": "Acompañar con patrones arpegiados",
+    "labelEn": "Accompany with arpeggiated patterns",
+    "params": {
+      "patterns": [
+        "three-note",
+        "four-note"
+      ],
+      "keys": [
+        "C",
+        "G",
+        "D",
+        "A",
+        "E",
+        "B",
+        "F",
+        "Bb",
+        "Eb",
+        "Ab",
+        "Db",
+        "Gb"
+      ],
+      "meters": [
+        "3/4",
+        "4/4"
+      ],
+      "formats": [
+        "arpeggiated"
+      ],
+      "tempoBpm": [
+        "60",
+        "66",
+        "72"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m7-05"
+    ]
+  },
+  {
+    "id": "skill.alberti",
+    "kind": "keyboard-task",
+    "labelEs": "Acompañar con el bajo de Alberti",
+    "labelEn": "Accompany with the Alberti bass",
+    "params": {
+      "patterns": [
+        "1-5-3-5"
+      ],
+      "variants": [
+        "classic",
+        "inverted",
+        "three-note"
+      ],
+      "keys": [
+        "C",
+        "G",
+        "D",
+        "A",
+        "E",
+        "B",
+        "F",
+        "Bb",
+        "Eb",
+        "Ab",
+        "Db",
+        "Gb"
+      ],
+      "meters": [
+        "4/4"
+      ],
+      "formats": [
+        "alberti"
+      ],
+      "tempoBpm": [
+        "60",
+        "66",
+        "72"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m7-06"
+    ]
+  },
+  {
+    "id": "skill.walking-bass",
+    "kind": "keyboard-task",
+    "labelEs": "Caminar el bajo con notas de paso",
+    "labelEn": "Walk the bass with passing tones",
+    "params": {
+      "patterns": [
+        "chord-tones",
+        "passing-tones"
+      ],
+      "directions": [
+        "ascending",
+        "descending"
+      ],
+      "keys": [
+        "C",
+        "G",
+        "D",
+        "A",
+        "E",
+        "B",
+        "F",
+        "Bb",
+        "Eb",
+        "Ab",
+        "Db",
+        "Gb"
+      ],
+      "meters": [
+        "4/4"
+      ],
+      "formats": [
+        "walking-bass"
+      ],
+      "tempoBpm": [
+        "60",
+        "66",
+        "72"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m7-07"
+    ]
+  },
+  {
+    "id": "skill.stride",
+    "kind": "keyboard-task",
+    "labelEs": "Alternar bajo y acorde (stride)",
+    "labelEn": "Alternate bass and chord (stride)",
+    "params": {
+      "patterns": [
+        "bass-chord",
+        "alternating-bass"
+      ],
+      "keys": [
+        "C",
+        "G",
+        "D",
+        "A",
+        "E",
+        "B",
+        "F",
+        "Bb",
+        "Eb",
+        "Ab",
+        "Db",
+        "Gb"
+      ],
+      "meters": [
+        "4/4"
+      ],
+      "formats": [
+        "stride"
+      ],
+      "tempoBpm": [
+        "50",
+        "60",
+        "66"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m7-08"
+    ]
+  },
+  {
+    "id": "skill.sight-reading",
+    "kind": "keyboard-task",
+    "labelEs": "Leer a primera vista por intervalos",
+    "labelEn": "Read at sight by intervals",
+    "params": {
+      "methods": [
+        "interval"
+      ],
+      "levels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "keys": [
+        "C",
+        "G",
+        "D",
+        "A",
+        "E",
+        "B",
+        "F",
+        "Bb",
+        "Eb",
+        "Ab",
+        "Db",
+        "Gb"
+      ],
+      "clefs": [
+        "treble",
+        "bass"
+      ],
+      "meters": [
+        "4/4"
+      ],
+      "asks": [
+        "interval",
+        "note",
+        "motion"
+      ],
+      "tempoBpm": [
+        "50",
+        "60",
+        "72"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m7-09"
+    ]
+  },
+  {
+    "id": "skill.play-by-ear",
+    "kind": "ear-melody",
+    "labelEs": "Tocar melodías de oído",
+    "labelEn": "Play melodies by ear",
+    "params": {
+      "steps": [
+        "listen",
+        "sing",
+        "tonic",
+        "degrees",
+        "compare"
+      ],
+      "keys": [
+        "C",
+        "G",
+        "F",
+        "D"
+      ],
+      "clefs": [
+        "treble",
+        "bass"
+      ],
+      "asks": [
+        "interval",
+        "note",
+        "motion"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m7-10"
+    ]
+  },
+  {
+    "id": "skill.transposition",
+    "kind": "transposition",
+    "labelEs": "Transportar melodías por grados",
+    "labelEn": "Transpose melodies by degrees",
+    "params": {
+      "melodies": 3,
+      "fromKeys": [
+        "C",
+        "G",
+        "F",
+        "D"
+      ],
+      "toKeys": [
+        "G",
+        "D",
+        "Bb",
+        "A"
+      ],
+      "difficulties": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m7-10"
+    ]
+  },
+  {
+    "id": "skill.improvisation",
+    "kind": "keyboard-task",
+    "labelEs": "Improvisar un motivo sobre la rueda de acordes",
+    "labelEn": "Improvise a motif over the chord wheel",
+    "params": {
+      "wheel": [
+        "I",
+        "vi",
+        "ii",
+        "V"
+      ],
+      "keys": [
+        "C"
+      ],
+      "motifBars": 2,
+      "tempoBpm": [
+        "60"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m7-10"
+    ]
+  },
+  {
+    "id": "skill.lead-sheet",
+    "kind": "keyboard-task",
+    "labelEs": "Leer lead sheets y realizar voicings",
+    "labelEn": "Read lead sheets and realize voicings",
+    "params": {
+      "symbols": [
+        "C",
+        "Am7",
+        "Dm7",
+        "G7",
+        "D7",
+        "F7",
+        "Bb7",
+        "Cmaj7"
+      ],
+      "voicings": [
+        "shell",
+        "root-third-seventh",
+        "root-third-fifth"
+      ],
+      "keys": [
+        "C",
+        "G",
+        "F",
+        "D",
+        "Bb",
+        "Eb"
+      ],
+      "tempoBpm": [
+        "60",
+        "72"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m7-11"
+    ]
+  },
+  {
+    "id": "skill.pop-rock",
+    "kind": "keyboard-task",
+    "labelEs": "Acompañar pop/rock con patrones y progresiones",
+    "labelEn": "Accompany pop/rock with patterns and progressions",
+    "params": {
+      "progressions": [
+        "I–V–vi–IV",
+        "vi–IV–I–V",
+        "I–IV–vi–V",
+        "IV–I–V–vi"
+      ],
+      "patterns": [
+        "eighths",
+        "quarters",
+        "half-time",
+        "syncopated"
+      ],
+      "keys": [
+        "C",
+        "G",
+        "D",
+        "A"
+      ],
+      "tempoBpm": [
+        "80",
+        "92"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m8-01"
+    ]
+  },
+  {
+    "id": "skill.blues",
+    "kind": "keyboard-task",
+    "labelEs": "Acompañar blues con shuffle, comping y escala",
+    "labelEn": "Accompany blues with shuffle, comping and scale",
+    "params": {
+      "form": "I–IV–I–I–IV–IV–I–I–V–IV–I–V",
+      "patterns": [
+        "shuffle",
+        "comping",
+        "quarters",
+        "half-time"
+      ],
+      "scale": "blues",
+      "keys": [
+        "C",
+        "F",
+        "G",
+        "Bb"
+      ],
+      "tempoBpm": [
+        "80",
+        "96"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m8-02"
+    ]
+  },
+  {
+    "id": "skill.jazz",
+    "kind": "keyboard-task",
+    "labelEs": "Acompañar jazz con swing, ii–V–I y voicings",
+    "labelEn": "Accompany jazz with swing, ii–V–I and voicings",
+    "params": {
+      "progressions": [
+        "ii–V–I",
+        "ii–V–I–VI"
+      ],
+      "patterns": [
+        "swing",
+        "comping",
+        "quarters",
+        "syncopated"
+      ],
+      "voicings": [
+        "shell",
+        "rootless"
+      ],
+      "keys": [
+        "C",
+        "F",
+        "Bb",
+        "Eb"
+      ],
+      "tempoBpm": [
+        "80",
+        "100"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m8-03"
+    ]
+  },
+  {
+    "id": "skill.latin",
+    "kind": "keyboard-task",
+    "labelEs": "Acompañar bossa nova y salsa con patrones básicos",
+    "labelEn": "Accompany bossa nova and salsa with basic patterns",
+    "params": {
+      "styles": [
+        "bossa",
+        "montuno"
+      ],
+      "progression": "I–vi–ii–V",
+      "keys": [
+        "C",
+        "F",
+        "Bb",
+        "Eb"
+      ],
+      "tempoBpm": [
+        "80",
+        "120"
+      ]
+    },
+    "lessonIds": [
+      "lesson.m8-04"
+    ]
+  }
+]

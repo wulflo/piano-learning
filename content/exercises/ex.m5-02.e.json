@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-02.e",
+  "skillId": "skill.roman-numeral",
+  "type": "roman-numeral",
+  "promptEs": "En Fa mayor, ¿qué numeral romano nombra el acorde Do (Do, Mi, Sol)?",
+  "promptEn": "In F major, which Roman numeral names the chord C (C, E, G)?",
+  "explanationEs": "En Fa mayor, Do es el quinto grado. Su tríada Do-Mi-Sol es mayor, así que el numeral es V, el dominante que resuelve en Fa.",
+  "explanationEn": "In F major, C is the fifth degree. Its triad C-E-G is major, so the numeral is V, the dominant that resolves to F.",
+  "difficulty": 2,
+  "key": "F",
+  "mode": "major",
+  "numeral": "V",
+  "choices": [
+    "IV",
+    "V",
+    "I"
+  ],
+  "choicesEn": [
+    "IV",
+    "V",
+    "I"
+  ]
+}

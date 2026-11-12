@@ -1,0 +1,490 @@
+{
+  "id": "lesson.m1-06",
+  "moduleId": "M1",
+  "slug": "compases-compuestos",
+  "titleEs": "Compases compuestos",
+  "titleEn": "Compound meters",
+  "summaryEs": "En 6/8, 9/8 y 12/8 cada pulso es una negra con puntillo que se divide en tres corcheas; contar por grupos de tres es lo que cambia respecto de los compases simples.",
+  "summaryEn": "In 6/8, 9/8 and 12/8 each beat is a dotted quarter note divided into three eighth notes; counting in groups of three is what changes compared with simple meters.",
+  "objectivesEs": [
+    "Leer las indicaciones de compás 6/8, 9/8 y 12/8",
+    "Sentir el pulso de negra con puntillo y su subdivisión ternaria",
+    "Marcar los acentos de cada grupo de tres corcheas y completar compases compuestos"
+  ],
+  "objectivesEn": [
+    "Read the 6/8, 9/8 and 12/8 time signatures",
+    "Feel the dotted quarter-note beat and its ternary subdivision",
+    "Mark the accents of each group of three eighth notes and complete compound measures"
+  ],
+  "minutes": 14,
+  "prerequisites": ["lesson.m1-05"],
+  "skillIds": ["skill.compound-meter"],
+  "exerciseIds": [
+    "ex.m1-06.a",
+    "ex.m1-06.b",
+    "ex.m1-06.c",
+    "ex.m1-06.d",
+    "ex.m1-06.e",
+    "ex.m1-06.f",
+    "ex.m1-06.g",
+    "ex.m1-06.h"
+  ],
+  "sections": [
+    {
+      "id": "sec.m1-06.intro",
+      "kind": "text",
+      "titleEs": "Qué hace compuesto a un compás",
+      "titleEn": "What makes a meter compound",
+      "bodyEs": "Los compases compuestos se reconocen porque el numerador es múltiplo de 3 y mayor que 3: 6, 9 o 12. El denominador 8 indica que la unidad de escritura es la corchea, pero el pulso no es cada corchea: el pulso es una negra con puntillo, que dura tres corcheas. Así, 6/8 tiene dos pulsos, 9/8 tiene tres y 12/8 tiene cuatro. La subdivisión ternaria significa que cada pulso se divide en tres partes iguales, no en dos. Por eso se cuenta «1-2-3, 2-2-3» en 6/8 y no «1-2-3-4-5-6».",
+      "bodyEn": "Compound meters are recognized because the top number is a multiple of 3 and greater than 3: 6, 9 or 12. The denominator 8 means the unit of notation is the eighth note, but the beat is not every eighth note: the beat is a dotted quarter note, which lasts three eighth notes. So 6/8 has two beats, 9/8 has three and 12/8 has four. Ternary subdivision means each beat divides into three equal parts, not two. That is why you count “1-2-3, 2-2-3” in 6/8 and not “1-2-3-4-5-6”."
+    },
+    {
+      "id": "sec.m1-06.six-eight",
+      "kind": "score",
+      "titleEs": "6/8: dos pulsos de tres corcheas",
+      "titleEn": "6/8: two beats of three eighth notes",
+      "bodyEs": "Escuchá seis corcheas agrupadas de a tres. La primera corchea de cada grupo se acentúa: son dos pulsos por compás. Contá «1-2-3, 2-2-3» y sentí el segundo grupo como respuesta del primero.",
+      "bodyEn": "Listen to six eighth notes grouped in threes. The first eighth note of each group is accented: that makes two beats per measure. Count “1-2-3, 2-2-3” and feel the second group as the answer to the first.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 6, "denominator": 8 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-06.six.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 100,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.six.e4",
+            "measure": 1,
+            "beat": 0.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.six.g4",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.six.c5",
+            "measure": 1,
+            "beat": 1.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 5 }],
+            "hand": "right",
+            "velocity": 95,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.six.g4-second",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.six.e4-second",
+            "measure": 1,
+            "beat": 2.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-06.nine-eight",
+      "kind": "score",
+      "titleEs": "9/8: tres pulsos de tres corcheas",
+      "titleEn": "9/8: three beats of three eighth notes",
+      "bodyEs": "En 9/8 hay nueve corcheas y tres pulsos. Los acentos caen al inicio de cada grupo: corcheas 1, 4 y 7. Contá «1-2-3, 2-2-3, 3-2-3»; el vals se vuelve más amplio, pero la subdivisión sigue siendo ternaria.",
+      "bodyEn": "In 9/8 there are nine eighth notes and three beats. The accents fall at the start of each group: eighth notes 1, 4 and 7. Count “1-2-3, 2-2-3, 3-2-3”; the waltz becomes broader, but the subdivision stays ternary.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 9, "denominator": 8 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-06.nine.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 100,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.nine.d4",
+            "measure": 1,
+            "beat": 0.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.nine.e4",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.nine.f4",
+            "measure": 1,
+            "beat": 1.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "F", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.nine.g4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.nine.a4",
+            "measure": 1,
+            "beat": 2.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "A", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.nine.b4",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "B", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.nine.a4-second",
+            "measure": 1,
+            "beat": 3.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "A", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.nine.g4-second",
+            "measure": 1,
+            "beat": 4,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-06.twelve-eight",
+      "kind": "score",
+      "titleEs": "12/8: cuatro pulsos de tres corcheas",
+      "titleEn": "12/8: four beats of three eighth notes",
+      "bodyEs": "En 12/8 hay doce corcheas y cuatro pulsos. Los acentos caen en las corcheas 1, 4, 7 y 10. Es habitual en baladas, blues lentos y música de danza; contá «1-2-3, 2-2-3, 3-2-3, 4-2-3» sin acelerar.",
+      "bodyEn": "In 12/8 there are twelve eighth notes and four beats. The accents fall on eighth notes 1, 4, 7 and 10. It is common in ballads, slow blues and dance music; count “1-2-3, 2-2-3, 3-2-3, 4-2-3” without speeding up.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 12, "denominator": 8 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-06.twelve.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 100,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.twelve.e4",
+            "measure": 1,
+            "beat": 0.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.twelve.g4",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.twelve.c5",
+            "measure": 1,
+            "beat": 1.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 5 }],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.twelve.b4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "B", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.twelve.g4-second",
+            "measure": 1,
+            "beat": 2.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.twelve.f4",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "F", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.twelve.a4",
+            "measure": 1,
+            "beat": 3.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "A", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.twelve.c5-second",
+            "measure": 1,
+            "beat": 4,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 5 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.twelve.b4-second",
+            "measure": 1,
+            "beat": 4.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "B", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.twelve.g4-third",
+            "measure": 1,
+            "beat": 5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-06.twelve.e4-second",
+            "measure": 1,
+            "beat": 5.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-06.simple-vs-compound",
+      "kind": "callout",
+      "titleEs": "Simple no es lo mismo que compuesto",
+      "titleEn": "Simple is not the same as compound",
+      "bodyEs": "3/4 y 6/8 pueden durar lo mismo —tres negras o seis corcheas—, pero se agrupan distinto. En 3/4 hay tres pulsos de negra y cada pulso se divide en dos corcheas; en 6/8 hay dos pulsos de negra con puntillo y cada pulso se divide en tres corcheas. Si contás 3/4 como «1-2-3» con acento solo en el 1, y 6/8 como «1-2-3, 2-2-3» con acento al inicio de cada grupo, la diferencia se escucha y se siente.",
+      "bodyEn": "3/4 and 6/8 can last the same —three quarter notes or six eighth notes— but they are grouped differently. In 3/4 there are three quarter-note beats and each beat divides into two eighth notes; in 6/8 there are two dotted quarter-note beats and each beat divides into three eighth notes. If you count 3/4 as “1-2-3” with an accent only on 1, and 6/8 as “1-2-3, 2-2-3” with an accent at the start of each group, the difference is audible and tangible."
+    },
+    {
+      "id": "sec.m1-06.ternary-practice",
+      "kind": "audio",
+      "titleEs": "Practicar la subdivisión ternaria",
+      "titleEn": "Practicing ternary subdivision",
+      "bodyEs": "Encendé el metrónomo y elegí un compás de 6/8, 9/8 o 12/8. Marcá cada negra con puntillo como un pulso y decí tres sílabas por pulso: «1-2-3». El primer pulso de cada grupo lleva el acento; los otros dos son más suaves. Practicá primero sin tocar, después con una sola tecla y por último con una melodía corta. Si perdés el grupo, volvé a contar en voz alta y bajá el tempo.",
+      "bodyEn": "Turn on the metronome and choose a 6/8, 9/8 or 12/8 meter. Mark each dotted quarter note as one beat and say three syllables per beat: “1-2-3”. The first beat of each group carries the accent; the other two are softer. Practice first without playing, then with a single key and finally with a short melody. If you lose the group, go back to counting out loud and lower the tempo."
+    },
+    {
+      "id": "sec.m1-06.completing",
+      "kind": "text",
+      "titleEs": "Cómo completar compases compuestos",
+      "titleEn": "How to complete compound measures",
+      "bodyEs": "Para completar un compás compuesto, sumá las corcheas. En 6/8 entran seis corcheas, en 9/8 entran nueve y en 12/8 entran doce. Una negra con puntillo vale tres corcheas; una blanca con puntillo vale seis; una redonda con puntillo vale doce. Si el patrón ya suma parte del compás, restá lo escrito de la capacidad total y buscá la figura que coincida. Verificá siempre que el total vuelva a dar 6, 9 o 12 corcheas, según el compás.",
+      "bodyEn": "To complete a compound measure, add up the eighth notes. 6/8 holds six eighth notes, 9/8 holds nine and 12/8 holds twelve. A dotted quarter note is worth three eighth notes; a dotted half note is worth six; a dotted whole note is worth twelve. If the pattern already adds up to part of the measure, subtract what is written from the total capacity and look for the note value that matches. Always check that the total comes back to 6, 9 or 12 eighth notes, depending on the meter."
+    },
+    {
+      "id": "sec.m1-06.exercises",
+      "kind": "exercise",
+      "titleEs": "Completar compases y marcar acentos",
+      "titleEn": "Completing measures and marking accents",
+      "bodyEs": "Los primeros ejercicios piden la figura que completa un compás de 6/8, 9/8 o 12/8. Los últimos piden identificar en qué corcheas caen los acentos. Contá por grupos de tres y no pierdas de vista la capacidad total.",
+      "bodyEn": "The first exercises ask for the note value that completes a 6/8, 9/8 or 12/8 measure. The last ones ask you to identify which eighth notes carry the accents. Count in groups of three and keep the total capacity in sight."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tres corcheas por pulso en 6/8",
+    "titleEn": "Three eighth notes per beat in 6/8",
+    "instructionsEs": "Configurá el metrónomo en 6/8 a 80 BPM. Tocá Do4 en cada corchea con la mano derecha y contá «1-2-3, 2-2-3». Acentuá la primera corchea de cada grupo y mantené suaves la segunda y la tercera. Repetí cuatro compases sin perder la subdivisión; después probá 9/8 y 12/8 contando tres corcheas por pulso.",
+    "instructionsEn": "Set the metronome to 6/8 at 80 BPM. Play C4 on every eighth note with your right hand and count “1-2-3, 2-2-3”. Accent the first eighth note of each group and keep the second and third soft. Repeat four measures without losing the subdivision; then try 9/8 and 12/8, counting three eighth notes per beat.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Pulgar derecho (dedo 1) sobre Do4 durante todo el ejercicio",
+    "fingeringEn": "Right thumb (finger 1) on C4 throughout the exercise",
+    "tempoBpm": 80,
+    "checklistEs": [
+      "Configuré el metrónomo en 6/8 a 80 BPM",
+      "Conté «1-2-3, 2-2-3» y toqué tres corcheas por pulso",
+      "Acentué la primera corchea de cada grupo",
+      "Repetí cuatro compases y probé 9/8 y 12/8"
+    ],
+    "checklistEn": [
+      "I set the metronome to 6/8 at 80 BPM",
+      "I counted “1-2-3, 2-2-3” and played three eighth notes per beat",
+      "I accented the first eighth note of each group",
+      "I repeated four measures and tried 9/8 and 12/8"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 6, "denominator": 8 },
+      "tempoBpm": 80,
+      "events": [
+        {
+          "id": "task.m1-06.c4-group-1",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-06.c4-group-1-second",
+          "measure": 1,
+          "beat": 0.5,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-06.c4-group-1-third",
+          "measure": 1,
+          "beat": 1,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-06.c4-group-2",
+          "measure": 1,
+          "beat": 1.5,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 95,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-06.c4-group-2-second",
+          "measure": 1,
+          "beat": 2,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-06.c4-group-2-third",
+          "measure": 1,
+          "beat": 2.5,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

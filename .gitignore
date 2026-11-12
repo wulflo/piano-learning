@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+
+# Build y artefactos
+dist/
+dev-dist/
+coverage/
+*.tsbuildinfo
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+
+# Variables locales
+.env
+.env.local
+.env.*.local
+
+# Descarga intermedia de muestras (las versionadas viven en public/audio/samples)
+assets/audio/samples/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/*
+!.vscode/extensions.json
+.idea/

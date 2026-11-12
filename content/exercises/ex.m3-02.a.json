@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-02.a",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "La segunda mayor Do4-Re4 se invierte subiendo Do una octava. ¿Cómo se llama el intervalo Re4-Do5?",
+  "promptEn": "The major second C4-D4 is inverted by raising C an octave. What is the interval D4-C5 called?",
+  "explanationEs": "Re4-Do5 es una séptima menor: 2 + 7 = 9 y la calidad cambia de mayor a menor. Los semitonos también se complementan: 2 + 10 = 12.",
+  "explanationEn": "D4-C5 is a minor seventh: 2 + 7 = 9 and the quality changes from major to minor. The semitones complement each other too: 2 + 10 = 12.",
+  "difficulty": 2,
+  "lower": { "step": "D", "accidental": "", "octave": 4 },
+  "upper": { "step": "C", "accidental": "", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Séptima menor", "Séptima mayor", "Segunda mayor", "Sexta menor"],
+  "choicesEn": ["Minor seventh", "Major seventh", "Major second", "Minor sixth"]
+}

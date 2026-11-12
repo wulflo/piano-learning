@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-04.l",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Si dim7 (séptima disminuida) de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of a Bdim7 (diminished seventh) from low to high, separated by spaces.",
+  "explanationEs": "Si dim7 es 1-♭3-♭5-♭♭7: Si, Re, Fa y La♭. La séptima disminuida La♭ está a nueve semitonos de Si y el acorde se repite cada tres semitonos.",
+  "explanationEn": "Bdim7 is 1-♭3-♭5-♭♭7: B, D, F and Ab. The diminished seventh Ab is nine semitones above B and the chord repeats every three semitones.",
+  "difficulty": 4,
+  "root": { "step": "B", "accidental": "", "octave": 4 },
+  "quality": "diminished7",
+  "inversion": 0,
+  "ask": "notes"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ex.m5-05.i",
+  "skillId": "skill.common-progressions",
+  "type": "progression-completion",
+  "promptEs": "En La♭ mayor, ¿qué grado completa la progresión I-V-vi-??",
+  "promptEn": "In A♭ major, which degree completes the I-V-vi-? progression?",
+  "explanationEs": "La progresión pop I-V-vi-IV en La♭ mayor es La♭-Mi♭-Fam-Re♭. El grado que falta es IV: la subdominante. Completa la serie I-V-vi-IV y vuelve a empezar.",
+  "explanationEn": "The pop progression I-V-vi-IV in A♭ major is A♭-E♭-Fm-D♭. The missing degree is IV: the subdominant. It completes the series I-V-vi-IV and starts over.",
+  "difficulty": 3,
+  "key": "Ab",
+  "mode": "major",
+  "degrees": [
+    "I",
+    "V",
+    "vi",
+    "IV"
+  ],
+  "missingIndex": 3,
+  "choices": [
+    "IV",
+    "vi",
+    "I",
+    "V"
+  ],
+  "choicesEn": [
+    "IV",
+    "vi",
+    "I",
+    "V"
+  ]
+}

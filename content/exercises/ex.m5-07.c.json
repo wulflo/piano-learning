@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-07.c",
+  "skillId": "skill.secondary-dominants",
+  "type": "secondary-dominant",
+  "promptEs": "En Re mayor, ¿en qué grado resuelve V/V?",
+  "promptEn": "In D major, which degree does V/V resolve to?",
+  "explanationEs": "En Re mayor, V/V es Mi7 y resuelve en La (V). Su tercera es la sensible de La y sube un semitono al resolver.",
+  "explanationEn": "In D major, V/V is E7 and it resolves to A (V). Its third is the leading tone of A and rises a semitone when it resolves.",
+  "difficulty": 2,
+  "key": "D",
+  "mode": "major",
+  "target": 5,
+  "ask": "resolution",
+  "choices": [
+    "V",
+    "ii",
+    "IV",
+    "vi"
+  ],
+  "choicesEn": [
+    "V",
+    "ii",
+    "IV",
+    "vi"
+  ]
+}

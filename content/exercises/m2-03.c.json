@@ -1,0 +1,20 @@
+{
+  "id": "ex.m2-03.c",
+  "skillId": "skill.key-signature",
+  "type": "key-signature",
+  "promptEs": "¿En qué modo se escribe la escala de Sol mayor?",
+  "explanationEs": "Sol mayor es mayor: su relativa menor es Mi menor y su tercera, Si, está a cuatro semitonos de la tónica.",
+  "difficulty": 1,
+  "key": "G",
+  "mode": "major",
+  "choices": [
+    "Mayor",
+    "Menor"
+  ],
+  "promptEn": "In which mode is the G major scale written?",
+  "explanationEn": "G major is major: its relative minor is E minor and its third, B, is four semitones above the tonic.",
+  "choicesEn": [
+    "Major",
+    "Minor"
+  ]
+}

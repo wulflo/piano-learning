@@ -1,0 +1,261 @@
+{
+  "id": "lesson.m4-11",
+  "moduleId": "M4",
+  "slug": "inversiones-y-bajo",
+  "titleEs": "Inversiones y bajo: construir el voicing desde abajo",
+  "titleEn": "Inversions and bass: building the voicing from the bottom",
+  "summaryEs": "Cómo el bajo decide la inversión de una tríada o una séptima, cómo construir un voicing desde un bajo dado y cómo comprobar que todas las notas del acorde están en su lugar.",
+  "summaryEn": "How the bass decides the inversion of a triad or a seventh chord, how to build a voicing from a given bass and how to check that every chord tone is in place.",
+  "objectivesEs": [
+    "Identificar la inversión por la nota que suena en el bajo",
+    "Reconocer las cuatro posiciones de una séptima y las tres de una tríada",
+    "Construir las notas de un acorde a partir de un bajo indicado con barra",
+    "Comprobar que un voicing es válido: bajo correcto, notas completas y orden rotado"
+  ],
+  "objectivesEn": [
+    "Identify the inversion from the note sounding in the bass",
+    "Recognize the four positions of a seventh chord and the three of a triad",
+    "Build a chord's notes from a bass indicated with a slash",
+    "Check that a voicing is valid: correct bass, complete notes and rotated order"
+  ],
+  "minutes": 18,
+  "prerequisites": [
+    "lesson.m4-10"
+  ],
+  "skillIds": [
+    "skill.chord-inversion",
+    "skill.chord-slash"
+  ],
+  "exerciseIds": [
+    "ex.m4-11.a",
+    "ex.m4-11.b",
+    "ex.m4-11.c",
+    "ex.m4-11.d",
+    "ex.m4-11.e",
+    "ex.m4-11.f",
+    "ex.m4-11.g",
+    "ex.m4-11.h",
+    "ex.m4-11.i",
+    "ex.m4-11.j",
+    "ex.m4-11.k",
+    "ex.m4-11.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m4-11.intro",
+      "kind": "text",
+      "titleEs": "La inversión la decide el bajo",
+      "titleEn": "The bass decides the inversion",
+      "bodyEs": "Un acorde no cambia porque cambiemos el orden de sus notas: Do mayor sigue siendo Do-Mi-Sol en cualquier octava. Lo que cambia es la inversión, y la inversión la decide la nota más grave, el bajo. Si el bajo es la fundamental, el acorde está en estado fundamental; si es la tercera, está en primera inversión; si es la quinta, en segunda; y si es la séptima, en tercera. Una tríada tiene tres posiciones posibles y una séptima tiene cuatro. En M4-03 viste las tríadas y en M4-06 los slash chords; ahora vas a reunir las dos ideas para construir voicings completos desde un bajo dado.",
+      "bodyEn": "A chord does not change because we reorder its notes: C major is still C-E-G in any octave. What changes is the inversion, and the inversion is decided by the lowest note, the bass. If the bass is the root, the chord is in root position; if it is the third, it is in first inversion; if it is the fifth, second inversion; and if it is the seventh, third inversion. A triad has three possible positions and a seventh chord has four. In M4-03 you saw triads and in M4-06 slash chords; now you will bring both ideas together to build complete voicings from a given bass."
+    },
+    {
+      "id": "sec.m4-11.contar",
+      "kind": "text",
+      "titleEs": "Contar desde el bajo",
+      "titleEn": "Counting from the bass",
+      "bodyEs": "Para reconocer una inversión, ordená las notas de grave a agudo y mirá qué grado del acorde quedó abajo. En Do maj7, las cuatro posiciones son Do-Mi-Sol-Si (fundamental), Mi-Sol-Si-Do (primera), Sol-Si-Do-Mi (segunda) y Si-Do-Mi-Sol (tercera). La distancia entre las notas no cambia: lo que cambia es cuál de ellas toma el bajo y cuántas quedan arriba. En una tríada mayor, las posiciones son Do-Mi-Sol, Mi-Sol-Do y Sol-Do-Mi. Si el acorde es menor, disminuido o aumentado, el procedimiento es el mismo: identificá la fundamental, la tercera y la quinta, y rotá el orden hasta que el bajo sea la nota pedida.",
+      "bodyEn": "To recognize an inversion, order the notes from low to high and see which chord degree ended up at the bottom. In Cmaj7, the four positions are C-E-G-B (root), E-G-B-C (first), G-B-C-E (second) and B-C-E-G (third). The distance between the notes does not change: what changes is which of them takes the bass and how many remain above. In a major triad, the positions are C-E-G, E-G-C and G-C-E. If the chord is minor, diminished or augmented, the procedure is the same: identify the root, the third and the fifth, and rotate the order until the bass is the requested note."
+    },
+    {
+      "id": "sec.m4-11.construir",
+      "kind": "text",
+      "titleEs": "Construir con un bajo dado",
+      "titleEn": "Building from a given bass",
+      "bodyEs": "Cuando el cifrado trae una barra, la nota de la barra es el bajo. Para construir el voicing, poné esa nota primero y apilá arriba las demás notas del acorde, en el orden que corresponde a la inversión. Si el bajo es una nota del acorde, el resultado es una inversión y podés comprobarlo contando su grado: Do maj7/Mi es primera inversión porque Mi es la tercera; Do maj7/Sol es segunda porque Sol es la quinta; Do maj7/Si es tercera porque Si es la séptima. Si el bajo no pertenece al acorde, el resultado es un híbrido, como Do/Re, y el acorde completo se apila por encima del bajo. En los dos casos, el bajo indicado tiene que ser la nota más grave del voicing.",
+      "bodyEn": "When the symbol carries a slash, the note after the slash is the bass. To build the voicing, put that note first and stack the remaining chord tones above it in the order that corresponds to the inversion. If the bass is a chord tone, the result is an inversion and you can check it by counting its degree: Cmaj7/E is first inversion because E is the third; Cmaj7/G is second because G is the fifth; Cmaj7/B is third because B is the seventh. If the bass does not belong to the chord, the result is a hybrid, such as C/D, and the complete chord is stacked above the bass. In both cases, the indicated bass must be the lowest note of the voicing."
+    },
+    {
+      "id": "sec.m4-11.demo",
+      "kind": "score",
+      "titleEs": "Do maj7 en sus cuatro posiciones",
+      "titleEn": "Cmaj7 in its four positions",
+      "bodyEs": "Escuchá y mirá Do maj7 en estado fundamental (Do-Mi-Sol-Si), primera inversión (Mi-Sol-Si-Do), segunda (Sol-Si-Do-Mi) y tercera (Si-Do-Mi-Sol). Las cuatro versiones tienen las mismas notas y la misma calidad; solo cambia el bajo. En cifrado con barra se escriben Do maj7, Do maj7/Mi, Do maj7/Sol y Do maj7/Si. Escuchá cómo la tercera en el bajo vuelve el acorde más liviano, la quinta lo deja suspendido y la séptima lo vuelve inestable y con ganas de resolver.",
+      "bodyEn": "Listen to and look at Cmaj7 in root position (C-E-G-B), first inversion (E-G-B-C), second inversion (G-B-C-E) and third inversion (B-C-E-G). All four versions have the same notes and the same quality; only the bass changes. With slash notation they are written Cmaj7, Cmaj7/E, Cmaj7/G and Cmaj7/B. Listen to how the third in the bass makes the chord lighter, the fifth leaves it suspended and the seventh makes it unstable and eager to resolve.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "score.m4-11.root",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-11.first",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-11.second",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 },
+              { "step": "E", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-11.third",
+            "measure": 4,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "B", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 },
+              { "step": "E", "accidental": "", "octave": 5 },
+              { "step": "G", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m4-11.validar",
+      "kind": "text",
+      "titleEs": "Cómo comprobar que un voicing es válido",
+      "titleEn": "How to check that a voicing is valid",
+      "bodyEs": "Un voicing es válido si cumple tres condiciones. Primero, el bajo es exactamente la nota que pide el cifrado: si dice Do maj7/Mi, la nota más grave tiene que ser Mi. Segundo, están todas las notas del acorde, sin faltar la tercera ni la séptima cuando corresponden; una omisión puede ser aceptable en un voicing de jazz, pero no en el ejercicio básico. Tercero, el orden de las notas es una rotación del acorde: desde el bajo suben los grados en el mismo orden, sin saltos ni notas ajenas. Por ejemplo, Mi-Sol-Si-Do es válido para Do maj7/Mi, pero Mi-Sol-Do-Si no, porque la séptima quedó debajo de la fundamental. Comprobar estas tres condiciones es lo que llamamos un test de voicings válidos.",
+      "bodyEn": "A voicing is valid if it meets three conditions. First, the bass is exactly the note the symbol asks for: if it says Cmaj7/E, the lowest note must be E. Second, all chord tones are present, without missing the third or the seventh when they belong; an omission may be acceptable in a jazz voicing, but not in the basic exercise. Third, the order of the notes is a rotation of the chord: from the bass the degrees rise in the same order, with no skips or foreign notes. For example, E-G-B-C is valid for Cmaj7/E, but E-G-C-B is not, because the seventh ended up below the root. Checking these three conditions is what we call a valid-voicing test."
+    },
+    {
+      "id": "sec.m4-11.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios de inversión y bajo",
+      "titleEn": "Twelve inversion and bass exercises",
+      "bodyEs": "Los seis primeros ejercicios dan las notas de grave a agudo y piden la inversión; los seis últimos dan un cifrado con barra y piden las notas desde el bajo. Hay tríadas y séptimas, y aparecen las tres inversiones de la tríada y las cuatro posiciones de la séptima. En los ejercicios de notas, respondé con las notas separadas por espacios, empezando por el bajo. Comprobá siempre las tres condiciones del voicing: bajo correcto, todas las notas presentes y orden rotado.",
+      "bodyEn": "The first six exercises give the notes from low to high and ask for the inversion; the last six give a symbol with a slash and ask for the notes from the bass. There are triads and sevenths, and the three triad inversions and the four seventh positions appear. In the note exercises, answer with the notes separated by spaces, starting from the bass. Always check the three voicing conditions: correct bass, all notes present and rotated order."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tocá Do maj7 en las cuatro posiciones",
+    "titleEn": "Play Cmaj7 in all four positions",
+    "instructionsEs": "Tocá Do maj7 a 60 BPM en las cuatro posiciones de la demo, un compás por posición: Do-Mi-Sol-Si, Mi-Sol-Si-Do, Sol-Si-Do-Mi y Si-Do-Mi-Sol. Antes de cada una, decí qué grado queda en el bajo. Después elegí un bajo distinto, por ejemplo Mi, y construí el voicing sin mirar la partitura. Comprobá que el bajo sea la nota más grave y que estén las cuatro notas.",
+    "instructionsEn": "Play Cmaj7 at 60 BPM in the four demo positions, one bar per position: C-E-G-B, E-G-B-C, G-B-C-E and B-C-E-G. Before each one, say which degree is in the bass. Then choose a different bass, for example E, and build the voicing without looking at the score. Check that the bass is the lowest note and that all four notes are present.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "B", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 5 },
+      { "step": "E", "accidental": "", "octave": 5 },
+      { "step": "G", "accidental": "", "octave": 5 }
+    ],
+    "fingeringEs": "Mano derecha: 1-2-3-5 en cada posición. Mantené la posición de la mano y mové solo el dedo que pasa al bajo cuando cambia la inversión.",
+    "fingeringEn": "Right hand: 1-2-3-5 in each position. Keep the hand position and move only the finger that takes the bass when the inversion changes.",
+    "tempoBpm": 60,
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m4-11.root",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-11.first",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-11.second",
+          "measure": 3,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 },
+            { "step": "E", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-11.third",
+          "measure": 4,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "B", "accidental": "", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 },
+            { "step": "E", "accidental": "", "octave": 5 },
+            { "step": "G", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "checklistEs": [
+      "Toqué las cuatro posiciones y dije qué grado queda en el bajo",
+      "Construí un voicing con un bajo distinto sin mirar la partitura",
+      "Comprobé que el bajo era la nota más grave y que estaban todas las notas"
+    ],
+    "checklistEn": [
+      "I played all four positions and said which degree is in the bass",
+      "I built a voicing with a different bass without looking at the score",
+      "I checked that the bass was the lowest note and that all notes were present"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

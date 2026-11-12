@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-05.f",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "El acorde formado por La, Do, Mi, Sol, Si y Re, ¿qué calidad extendida tiene?",
+  "promptEn": "The chord made of A, C, E, G, B and D has which extended quality?",
+  "explanationEs": "Es un La m11, o oncena menor: 1-♭3-5-♭7-9-11 (La-Do-Mi-Sol-Si-Re). Tiene tercera menor Do, séptima menor Sol, novena Si y oncena Re. Aquí la oncena no choca con la tercera, así que el acorde completo es habitual.",
+  "explanationEn": "It is an Am11, or minor eleventh: 1-♭3-5-♭7-9-11 (A-C-E-G-B-D). It has a minor third C, a minor seventh G, a ninth B and an eleventh D. Here the eleventh does not clash with the third, so the full chord is common.",
+  "difficulty": 3,
+  "root": { "step": "A", "accidental": "", "octave": 4 },
+  "quality": "minor11",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["oncena mayor", "oncena de dominante", "oncena menor"],
+  "choicesEn": ["major eleventh", "dominant eleventh", "minor eleventh"]
+}

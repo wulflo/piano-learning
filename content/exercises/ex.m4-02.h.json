@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-02.h",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada formada por Sol, Si y Re♯?",
+  "promptEn": "What quality does the triad made of G, B and D# have?",
+  "explanationEs": "Es una tríada aumentada, 1-3-♯5: Sol-Si es una tercera mayor y Si-Re♯ otra tercera mayor. La quinta sostenida produce una sonoridad simétrica que no se apoya en una tónica clara.",
+  "explanationEn": "It is an augmented triad, 1-3-♯5: G-B is a major third and B-D# another major third. The raised fifth produces a symmetrical sound that does not rest on a clear tonic.",
+  "difficulty": 3,
+  "root": { "step": "G", "accidental": "", "octave": 4 },
+  "quality": "augmented",
+  "inversion": 0,
+  "choices": ["disminuido", "aumentado", "suspendido 2", "suspendido 4"],
+  "choicesEn": ["diminished", "augmented", "suspended 2", "suspended 4"]
+}

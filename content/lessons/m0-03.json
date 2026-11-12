@@ -1,0 +1,343 @@
+{
+  "id": "lesson.m0-03",
+  "moduleId": "M0",
+  "slug": "postura-banco-y-digitacion",
+  "titleEs": "Postura, banco y digitación",
+  "titleEn": "Posture, bench and fingering",
+  "summaryEs": "Una postura cómoda y una mano relajada valen más que tocar rápido: el cuerpo sostiene el sonido, no la tensión.",
+  "summaryEn": "A comfortable posture and a relaxed hand are worth more than playing fast: your body carries the sound, not tension.",
+  "objectivesEs": [
+    "Ajustar el banco y la distancia al teclado",
+    "Reconocer la forma relajada de la mano",
+    "Identificar señales de tensión y detenerse a tiempo"
+  ],
+  "objectivesEn": [
+    "Adjust the bench and your distance from the keyboard",
+    "Recognize the relaxed shape of the hand",
+    "Identify signs of tension and stop in time"
+  ],
+  "minutes": 10,
+  "prerequisites": [
+    "lesson.m0-02"
+  ],
+  "skillIds": [
+    "skill.posture"
+  ],
+  "exerciseIds": [],
+  "sections": [
+    {
+      "id": "sec.m0-03.seat",
+      "kind": "text",
+      "titleEs": "Cómo sentarte",
+      "titleEn": "How to sit",
+      "bodyEs": "Apoyá los pies en el piso y sentate en el borde delantero del banco, no hundido hacia atrás. La altura ideal deja tus antebrazos casi horizontales, con los codos un poco más abajo que las muñecas. La distancia al teclado debe permitir que los codos queden cerca del cuerpo, sin estirar los brazos ni encoger los hombros. Si el banco es muy alto, usá un cojín firme; si es muy bajo, una manta doblada. La espalda se mantiene larga y libre, no rígida.",
+      "bodyEn": "Rest your feet on the floor and sit on the front edge of the bench, not sunk back. The ideal height leaves your forearms almost horizontal, with your elbows slightly lower than your wrists. The distance to the keyboard should let your elbows stay close to your body, without stretching your arms or hunching your shoulders. If the bench is too high, use a firm cushion; if it is too low, a folded blanket. Keep your back long and free, not rigid."
+    },
+    {
+      "id": "sec.m0-03.hand",
+      "kind": "text",
+      "titleEs": "La forma de la mano",
+      "titleEn": "The shape of the hand",
+      "bodyEs": "Apoyá la mano sobre las teclas como si sostuvieras una pelota pequeña: dedos curvos, nudillos visibles y pulgar apoyado de costado, no aplastado. La muñeca queda alineada con el antebrazo, sin quebrarse hacia arriba ni hacia abajo. El peso del brazo cae desde el hombro y el dedo que toca; los demás quedan cerca de las teclas, sin levantarse como garfios. La digitación 1-2-3-4-5 corresponde a pulgar, índice, medio, anular y meñique.",
+      "bodyEn": "Rest your hand on the keys as if you were holding a small ball: curved fingers, visible knuckles and the thumb resting on its side, not flattened. The wrist stays aligned with the forearm, without breaking up or down. The weight of the arm falls from the shoulder into the playing finger; the others stay close to the keys, without lifting like hooks. Fingering 1-2-3-4-5 corresponds to thumb, index, middle, ring and little finger."
+    },
+    {
+      "id": "sec.m0-03.tension",
+      "kind": "callout",
+      "titleEs": "Señales de tensión",
+      "titleEn": "Signs of tension",
+      "bodyEs": "Detenete si sentís dolor o tensión, rigidez, hormigueo, hombros levantados, mandíbula apretada o una muñeca trabada. Sacudí suave las manos, respirá y volvé a empezar más lento. El dolor persistente no es parte del aprendizaje: si aparece, pará y consultá con un profesor o con un profesional de la salud. Esta app no reemplaza una evaluación presencial.",
+      "bodyEn": "Stop if you feel pain or tension, stiffness, tingling, raised shoulders, a clenched jaw or a locked wrist. Shake your hands gently, breathe and start again more slowly. Persistent pain is not part of learning: if it appears, stop and consult a teacher or a health professional. This app does not replace an in-person assessment."
+    },
+    {
+      "id": "sec.m0-03.score",
+      "kind": "score",
+      "titleEs": "Cinco notas, cinco dedos",
+      "titleEn": "Five notes, five fingers",
+      "bodyEs": "Este es el patrón de cinco dedos en Do mayor: Do4, Re4, Mi4, Fa4 y Sol4. Tocá cada nota con el dedo que indica la digitación y mantené la mano quieta; solo se mueve el dedo que suena.",
+      "bodyEn": "This is the five-finger pattern in C major: C4, D4, E4, F4 and G4. Play each note with the finger indicated by the fingering and keep your hand still; only the playing finger moves.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 5,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m0-03.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m0-03.d4",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m0-03.e4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m0-03.f4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m0-03.g4",
+            "measure": 1,
+            "beat": 4,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m0-03.limits",
+      "kind": "callout",
+      "titleEs": "Aprender sin profesor tiene límites",
+      "titleEn": "Learning without a teacher has limits",
+      "bodyEs": "La app puede mostrarte notas, digitaciones y ejemplos, pero no puede verte ni corregir tu postura en tiempo real. Usá un espejo o grabate con el teléfono para observar hombros, muñecas y mandíbula. Si algo duele o se repite durante semanas, buscá una clase puntual con un profesor: una corrección presencial ahorra meses de malos hábitos.",
+      "bodyEn": "The app can show you notes, fingerings and examples, but it cannot see you or correct your posture in real time. Use a mirror or record yourself with your phone to observe your shoulders, wrists and jaw. If something hurts or keeps coming back for weeks, look for a one-off lesson with a teacher: an in-person correction saves months of bad habits."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Cinco dedos, una mano relajada",
+    "titleEn": "Five fingers, one relaxed hand",
+    "instructionsEs": "Con la mano derecha, tocá Do4, Re4, Mi4, Fa4 y Sol4 usando los dedos 1, 2, 3, 4 y 5. Antes de empezar, revisá hombros, muñeca y mandíbula. Repetí tres veces muy lento; si aparece tensión, sacudí la mano y volvé a empezar.",
+    "instructionsEn": "With your right hand, play C4, D4, E4, F4 and G4 using fingers 1, 2, 3, 4 and 5. Before you start, check your shoulders, wrist and jaw. Repeat three times very slowly; if tension appears, shake your hand and start again.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "1 - 2 - 3 - 4 - 5 (mano derecha); pulgar sobre Do4",
+    "fingeringEn": "1 - 2 - 3 - 4 - 5 (right hand); thumb on C4",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Hombros y mandíbula relajados",
+      "Muñeca alineada con el antebrazo, sin quebrarse",
+      "Dedos curvos y pulgar apoyado de costado",
+      "Sonido parejo, sin apretar las teclas"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 5,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m0-03.c4",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-03.d4",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-03.e4",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-03.f4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-03.g4",
+          "measure": 1,
+          "beat": 4,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "checklistEn": [
+      "Shoulders and jaw relaxed",
+      "Wrist aligned with the forearm, without collapsing",
+      "Curved fingers and thumb resting on its side",
+      "Even sound, without pressing the keys"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

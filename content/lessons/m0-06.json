@@ -1,0 +1,241 @@
+{
+  "id": "lesson.m0-06",
+  "moduleId": "M0",
+  "slug": "practicar-sin-profesor-espejo-grabacion-y-tension",
+  "titleEs": "Practicar sin profesor: espejo, grabación y tensión",
+  "titleEn": "Practicing without a teacher: mirror, recording and tension",
+  "summaryEs": "Sin profesor al lado, el espejo y la grabación son tus ojos y oídos externos; una checklist de tensión evita convertir la práctica en una lesión.",
+  "summaryEn": "Without a teacher by your side, the mirror and recordings are your external eyes and ears; a tension checklist keeps practice from turning into an injury.",
+  "objectivesEs": [
+    "Usar el espejo para observar hombros, muñecas y mandíbula",
+    "Grabarse y escuchar la grabación con criterios concretos",
+    "Aplicar una checklist de tensión antes, durante y después de practicar"
+  ],
+  "objectivesEn": [
+    "Use the mirror to observe your shoulders, wrists and jaw",
+    "Record yourself and listen to the recording with concrete criteria",
+    "Apply a tension checklist before, during and after practicing"
+  ],
+  "minutes": 11,
+  "prerequisites": [
+    "lesson.m0-05"
+  ],
+  "skillIds": [
+    "skill.self-observation"
+  ],
+  "exerciseIds": [],
+  "sections": [
+    {
+      "id": "sec.m0-06.intro",
+      "kind": "text",
+      "titleEs": "El profesor que no está",
+      "titleEn": "The teacher who isn't there",
+      "bodyEs": "Aprender sin profesor no significa practicar a ciegas. Significa construir herramientas para verte y escucharte: un espejo, una grabación y una checklist de tensión. Ninguna reemplaza una clase presencial, pero las tres te avisan antes de que un mal hábito se instale. La regla es simple: si no podés observarlo, no podés corregirlo.",
+      "bodyEn": "Learning without a teacher does not mean practicing blindly. It means building tools to see and hear yourself: a mirror, a recording and a tension checklist. None of them replaces an in-person lesson, but all three warn you before a bad habit takes hold. The rule is simple: if you can't observe it, you can't correct it."
+    },
+    {
+      "id": "sec.m0-06.mirror",
+      "kind": "text",
+      "titleEs": "El espejo: mirá lo que no sentís",
+      "titleEn": "The mirror: look at what you don't feel",
+      "bodyEs": "Poné el espejo de costado, a la altura del teclado, para ver el perfil de hombros, codos, muñecas y manos. Revisá cuatro puntos: hombros abajo y sueltos, codos cerca del cuerpo, muñeca alineada con el antebrazo y dedos curvos sin garra. Mirá también la mandíbula y el cuello: suelen tensarse sin que lo notes. Practicá dos minutos frente al espejo y después dos minutos sin mirar, comparando la sensación con la imagen.",
+      "bodyEn": "Place the mirror to the side, at keyboard height, so you can see the profile of your shoulders, elbows, wrists and hands. Check four points: shoulders down and loose, elbows close to the body, wrist aligned with the forearm and curved fingers, not clawed. Also watch your jaw and neck: they often tense without you noticing. Practice for two minutes in front of the mirror and then two minutes without looking, comparing the feeling with the image."
+    },
+    {
+      "id": "sec.m0-06.recording",
+      "kind": "text",
+      "titleEs": "La grabación: escuchá lo que tocaste",
+      "titleEn": "The recording: listen to what you played",
+      "bodyEs": "Grabá con el teléfono una repetición corta, sin editar ni corregir. Escuchá la grabación una vez sin juzgar y otra con tres criterios: pulso parejo, notas limpias y sonido sin golpes. Anotá un solo problema por grabación; si intentás corregir todo a la vez, no corregís nada. Compará la grabación de hoy con la de la semana pasada: el avance real se escucha mejor que se recuerda. Borrá las grabaciones viejas cuando ya no aporten.",
+      "bodyEn": "Record a short repetition with your phone, without editing or correcting. Listen to the recording once without judging and once with three criteria: steady pulse, clean notes and sound without thumps. Write down one single problem per recording; if you try to correct everything at once, you correct nothing. Compare today's recording with last week's: real progress is easier to hear than to remember. Delete old recordings once they no longer help."
+    },
+    {
+      "id": "sec.m0-06.tension",
+      "kind": "callout",
+      "titleEs": "Checklist de tensión",
+      "titleEn": "Tension checklist",
+      "bodyEs": "Antes de tocar: pies en el piso, hombros abajo, mandíbula suelta, muñeca alineada. Durante: ¿estoy apretando los dientes?, ¿los hombros subieron?, ¿la muñeca se quebró?, ¿el dedo que no toca está rígido?, ¿me falta el aire? Después: sacudí las manos, giré los hombros y respirá lento. Si aparece dolor, hormigueo o rigidez que no pasa, detenete. El dolor no es un indicador de esfuerzo: es una señal de alarma.",
+      "bodyEn": "Before playing: feet on the floor, shoulders down, jaw loose, wrist aligned. During: am I clenching my teeth? have my shoulders risen? has my wrist broken? is the finger that isn't playing stiff? am I short of breath? After: shake your hands, roll your shoulders and breathe slowly. If pain, tingling or stiffness that doesn't pass appears, stop. Pain is not an indicator of effort: it is a warning sign."
+    },
+    {
+      "id": "sec.m0-06.limits",
+      "kind": "callout",
+      "titleEs": "Advertencia honesta",
+      "titleEn": "An honest warning",
+      "bodyEs": "El espejo y la grabación no reemplazan a un profesor ni a un profesional de la salud. No pueden ver un ángulo que no muestra la cámara ni corregir una digitación en el momento. Si llevás semanas con dolor, si un dedo se traba o si no sabés cómo resolver un pasaje, buscá una clase puntual o una consulta presencial. Una corrección a tiempo ahorra meses de práctica equivocada.",
+      "bodyEn": "The mirror and recordings do not replace a teacher or a health professional. They cannot see an angle the camera doesn't show or correct a fingering in the moment. If you have had pain for weeks, if a finger gets stuck or if you don't know how to solve a passage, look for a one-off lesson or an in-person consultation. A timely correction saves months of practicing the wrong way."
+    },
+    {
+      "id": "sec.m0-06.protocol",
+      "kind": "exercise",
+      "titleEs": "Protocolo de autoobservación",
+      "titleEn": "Self-observation protocol",
+      "bodyEs": "Elegí un fragmento de dos compases. 1) Ajustá el espejo de costado y revisá los cuatro puntos de postura. 2) Tocá el fragmento lento, sin metrónomo. 3) Grabá una repetición. 4) Escuchá y anotá un solo problema. 5) Corregí ese problema en aislamiento, más lento. 6) Volvé a grabar y compará. 7) Cerrá con la checklist de tensión. Repetí el protocolo una vez por sesión durante una semana y guardá las notas.",
+      "bodyEn": "Choose a two-measure passage. 1) Set up the mirror to the side and check the four posture points. 2) Play the passage slowly, without a metronome. 3) Record one repetition. 4) Listen and write down a single problem. 5) Correct that problem in isolation, more slowly. 6) Record again and compare. 7) Finish with the tension checklist. Repeat the protocol once per session for a week and keep your notes."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Una repetición observada",
+    "titleEn": "One observed repetition",
+    "instructionsEs": "Tocá Do4-Sol4 con digitación 1-2-3-4-5 a 60 BPM. Antes de empezar, mirate en el espejo y revisá hombros, muñeca y mandíbula. Grabá una sola repetición, escuchala y anotá un problema. Corregilo en una segunda repetición más lenta y cerrá con la checklist de tensión.",
+    "instructionsEn": "Play C4-G4 with fingering 1-2-3-4-5 at 60 BPM. Before you start, look at yourself in the mirror and check your shoulders, wrist and jaw. Record a single repetition, listen to it and write down one problem. Correct it in a second, slower repetition and finish with the tension checklist.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "1 - 2 - 3 - 4 - 5 (mano derecha); pulgar sobre Do4",
+    "fingeringEn": "1 - 2 - 3 - 4 - 5 (right hand); thumb on C4",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Revisé hombros, muñeca y mandíbula en el espejo",
+      "Grabé y escuché una repetición completa",
+      "Anoté un solo problema concreto",
+      "Corregí ese problema más lento",
+      "Cerré con la checklist de tensión sin dolor"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 5,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m0-06.c4",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-06.d4",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-06.e4",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-06.f4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-06.g4",
+          "measure": 1,
+          "beat": 4,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "checklistEn": [
+      "I checked shoulders, wrist and jaw in the mirror",
+      "I recorded and listened to one full repetition",
+      "I wrote down one specific problem",
+      "I corrected that problem more slowly",
+      "I finished with the tension checklist and no pain"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

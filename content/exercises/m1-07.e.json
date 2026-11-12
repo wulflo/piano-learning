@@ -1,0 +1,53 @@
+{
+  "id": "ex.m1-07.e",
+  "skillId": "skill.rhythm-variants",
+  "type": "rhythm-completion",
+  "promptEs": "En 6/8 hay dos negras de tresillo. ¿Qué figura completa el tresillo?",
+  "explanationEs": "En 6/8 la subdivisión normal ya es ternaria; el tresillo de negras agrupa tres negras en el tiempo de dos. Si ya hay dos, falta una negra de tresillo.",
+  "difficulty": 3,
+  "timeSignature": {
+    "numerator": 6,
+    "denominator": 8
+  },
+  "pattern": [
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "triplet",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "triplet",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "triplet",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 1,
+  "choices": [
+    "Negra de tresillo",
+    "Negra",
+    "Blanca",
+    "Corchea"
+  ],
+  "promptEn": "In 6/8 there are two triplet quarter notes. Which note value completes the triplet?",
+  "explanationEn": "In 6/8 the normal subdivision is already ternary; the quarter-note triplet groups three quarter notes in the time of two. If there are already two, one triplet quarter note is missing.",
+  "choicesEn": [
+    "Triplet quarter note",
+    "Quarter note",
+    "Half note",
+    "Eighth note"
+  ]
+}

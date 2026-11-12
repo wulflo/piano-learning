@@ -1,0 +1,209 @@
+{
+  "id": "ex.m7-03.c",
+  "skillId": "skill.pedal",
+  "type": "pedal",
+  "promptEs": "¿Qué tipo de pedal se usa en el compás 1?",
+  "promptEn": "Which kind of pedal is used in measure 1?",
+  "explanationEs": "La pisada está exactamente sobre el ataque del acorde: es pedal directo. El acompañamiento gana resonancia sin adelantarse ni atrasarse respecto del pulso.",
+  "explanationEn": "The press sits exactly on the chord attack: it is direct pedal. The accompaniment gains resonance without getting ahead of or behind the beat.",
+  "difficulty": 1,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 72,
+    "events": [
+      {
+        "id": "ex.m7-03.c.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-03.c.2",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-03.c.3",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-03.c.4",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      }
+    ],
+    "pedals": [
+      {
+        "measure": 1,
+        "beat": 0,
+        "action": "press",
+        "kind": "direct"
+      },
+      {
+        "measure": 2,
+        "beat": 0,
+        "action": "release",
+        "kind": "direct"
+      },
+      {
+        "measure": 2,
+        "beat": 0,
+        "action": "press",
+        "kind": "direct"
+      },
+      {
+        "measure": 3,
+        "beat": 0,
+        "action": "release",
+        "kind": "direct"
+      },
+      {
+        "measure": 3,
+        "beat": 0,
+        "action": "press",
+        "kind": "direct"
+      },
+      {
+        "measure": 4,
+        "beat": 0,
+        "action": "release",
+        "kind": "direct"
+      },
+      {
+        "measure": 4,
+        "beat": 0,
+        "action": "press",
+        "kind": "direct"
+      },
+      {
+        "measure": 5,
+        "beat": 0,
+        "action": "release",
+        "kind": "direct"
+      }
+    ]
+  },
+  "ask": "pattern",
+  "measure": 1,
+  "beat": 1,
+  "choices": [
+    "Pedal directo",
+    "Pedal sincopado",
+    "Sin pedal"
+  ],
+  "choicesEn": [
+    "Direct pedal",
+    "Syncopated pedal",
+    "No pedal"
+  ]
+}

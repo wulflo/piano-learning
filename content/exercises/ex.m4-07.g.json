@@ -1,0 +1,12 @@
+{
+  "id": "ex.m4-07.g",
+  "skillId": "skill.chord-notation",
+  "type": "chord-notation",
+  "promptEs": "Escribí el cifrado latino equivalente al cifrado americano C7/Gm.",
+  "promptEn": "Write the Latin chord symbol equivalent to the American chord C7/Gm.",
+  "explanationEs": "C7/Gm se convierte en Do7/Solm: la letra C se traduce a Do y el G a Sol, manteniendo el 7 y la barra.",
+  "explanationEn": "C7/Gm becomes Do7/Solm: C becomes Do and G becomes Sol, keeping the 7 and the slash.",
+  "difficulty": 1,
+  "symbol": "C7/Gm",
+  "to": "do"
+}

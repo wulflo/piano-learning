@@ -1,0 +1,24 @@
+{
+  "id": "ex.m7-02.j",
+  "skillId": "skill.arpeggio",
+  "type": "arpeggio",
+  "promptEs": "¿Qué notas forman este arpegio de La bemol mayor a dos octavas?",
+  "promptEn": "Which notes make up this two-octave A-flat major arpeggio?",
+  "explanationEs": "La bemol mayor usa La♭-Do-Mi♭. A dos octavas el arpegio es La♭4-Do5-Mi♭5-La♭5-Do6-Mi♭6-La♭6 y se toca 2-1-2-4-1-2-4.",
+  "explanationEn": "A-flat major uses A♭-C-E♭. Over two octaves the arpeggio is A♭4-C5-E♭5-A♭5-C6-E♭6-A♭6 and uses 2-1-2-4-1-2-4.",
+  "difficulty": 3,
+  "tonic": "Ab",
+  "hand": "right",
+  "octaves": 2,
+  "ask": "notes",
+  "choices": [
+    "La♭4 Do5 Mi♭5 La♭5 Do6 Mi♭6 La♭6",
+    "La♭4 Do5 Mi♭5 La♭5 Do6 Mi♭6 La6",
+    "La♭4 Do5 Mi5 La♭5 Do6 Mi♭6 La♭6"
+  ],
+  "choicesEn": [
+    "A♭4 C5 E♭5 A♭5 C6 E♭6 A♭6",
+    "A♭4 C5 E♭5 A♭5 C6 E♭6 A6",
+    "A♭4 C5 E5 A♭5 C6 E♭6 A♭6"
+  ]
+}

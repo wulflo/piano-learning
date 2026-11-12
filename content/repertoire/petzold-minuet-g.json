@@ -1,0 +1,3221 @@
+{
+  "id": "piece.petzold.minuet-g",
+  "title": "Minueto en Sol mayor, BWV Anh. 114",
+  "composerDisplay": "Christian Petzold (atribuido a J. S. Bach)",
+  "level": 3,
+  "durationSeconds": 48,
+  "tags": [
+    "barroco",
+    "petzold",
+    "dos manos",
+    "minueto",
+    "grado 2"
+  ],
+  "license": {
+    "license": "public-domain",
+    "composer": {
+      "name": "Christian Petzold",
+      "birthYear": 1677,
+      "deathYear": 1733,
+      "anonymousTraditional": false
+    },
+    "source": "Minueto en Sol mayor, BWV Anh. 114, del Notebook for Anna Magdalena Bach (1725); verificada en IMSLP y Wikipedia",
+    "sourceUrl": "https://imslp.org/wiki/Minuet_in_G_major%2C_BWV_Anh.114_(Petzold%2C_Christian)",
+    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionDate": "2026-11-13",
+    "attribution": "Minueto en Sol mayor, BWV Anh. 114 — Christian Petzold (1677-1733), dominio público; transcripción y bajo de PianoDesdeCero",
+    "verifiedBy": "PianoDesdeCero",
+    "verifiedOn": "2026-11-13",
+    "notes": "Atribuido durante mucho tiempo a J. S. Bach; la ficha usa a Christian Petzold. Se parte del cuaderno de 1725 y no de la edición Bärenreiter de 1957. El bajo de redondas es una simplificación pedagógica propia."
+  },
+  "hands": {
+    "right": {
+      "clef": "treble",
+      "key": "G",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "tempoBpm": 120,
+      "events": [
+        {
+          "id": "ev.minuet-g.r001",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r002",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r003",
+          "measure": 1,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r004",
+          "measure": 1,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r005",
+          "measure": 1,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r006",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r007",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r008",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r009",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r010",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r011",
+          "measure": 3,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r012",
+          "measure": 3,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r013",
+          "measure": 3,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r014",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r015",
+          "measure": 4,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r016",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r017",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r018",
+          "measure": 5,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r019",
+          "measure": 5,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r020",
+          "measure": 5,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r021",
+          "measure": 5,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r022",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r023",
+          "measure": 6,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r024",
+          "measure": 6,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r025",
+          "measure": 6,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r026",
+          "measure": 6,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r027",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r028",
+          "measure": 7,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r029",
+          "measure": 7,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r030",
+          "measure": 7,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r031",
+          "measure": 7,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r032",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r033",
+          "measure": 9,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r034",
+          "measure": 9,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r035",
+          "measure": 9,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r036",
+          "measure": 9,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r037",
+          "measure": 9,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r038",
+          "measure": 10,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r039",
+          "measure": 10,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r040",
+          "measure": 10,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r041",
+          "measure": 11,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r042",
+          "measure": 11,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r043",
+          "measure": 11,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r044",
+          "measure": 11,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r045",
+          "measure": 11,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r046",
+          "measure": 12,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r047",
+          "measure": 12,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r048",
+          "measure": 12,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r049",
+          "measure": 13,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r050",
+          "measure": 13,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r051",
+          "measure": 13,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r052",
+          "measure": 13,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r053",
+          "measure": 13,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r054",
+          "measure": 14,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r055",
+          "measure": 14,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r056",
+          "measure": 14,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r057",
+          "measure": 14,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r058",
+          "measure": 14,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r059",
+          "measure": 15,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r060",
+          "measure": 15,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r061",
+          "measure": 15,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r062",
+          "measure": 15,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r063",
+          "measure": 15,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r064",
+          "measure": 16,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r065",
+          "measure": 17,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r066",
+          "measure": 17,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r067",
+          "measure": 17,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r068",
+          "measure": 17,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r069",
+          "measure": 17,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r070",
+          "measure": 18,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r071",
+          "measure": 18,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r072",
+          "measure": 18,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r073",
+          "measure": 18,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r074",
+          "measure": 18,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r075",
+          "measure": 19,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r076",
+          "measure": 19,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r077",
+          "measure": 19,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r078",
+          "measure": 19,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r079",
+          "measure": 19,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r080",
+          "measure": 20,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "#",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r081",
+          "measure": 20,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r082",
+          "measure": 20,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r083",
+          "measure": 20,
+          "beat": 2.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r084",
+          "measure": 21,
+          "beat": 0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r085",
+          "measure": 21,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r086",
+          "measure": 21,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "#",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r087",
+          "measure": 21,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r088",
+          "measure": 21,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r089",
+          "measure": 21,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r090",
+          "measure": 22,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r091",
+          "measure": 22,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r092",
+          "measure": 22,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r093",
+          "measure": 23,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r094",
+          "measure": 23,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r095",
+          "measure": 23,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "#",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r096",
+          "measure": 24,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r097",
+          "measure": 25,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r098",
+          "measure": 25,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r099",
+          "measure": 25,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r100",
+          "measure": 25,
+          "beat": 2.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r101",
+          "measure": 26,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r102",
+          "measure": 26,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r103",
+          "measure": 26,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r104",
+          "measure": 26,
+          "beat": 2.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r105",
+          "measure": 27,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r106",
+          "measure": 27,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r107",
+          "measure": 27,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r108",
+          "measure": 28,
+          "beat": 0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r109",
+          "measure": 28,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r110",
+          "measure": 28,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r111",
+          "measure": 28,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r112",
+          "measure": 28,
+          "beat": 2.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r113",
+          "measure": 29,
+          "beat": 0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r114",
+          "measure": 29,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r115",
+          "measure": 29,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r116",
+          "measure": 29,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r117",
+          "measure": 29,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r118",
+          "measure": 29,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r119",
+          "measure": 30,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r120",
+          "measure": 30,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r121",
+          "measure": 30,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r122",
+          "measure": 31,
+          "beat": 0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r123",
+          "measure": 31,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r124",
+          "measure": 31,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r125",
+          "measure": 31,
+          "beat": 2.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.r126",
+          "measure": 32,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "left": {
+      "clef": "bass",
+      "key": "G",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "tempoBpm": 120,
+      "events": [
+        {
+          "id": "ev.minuet-g.l01",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l02",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l03",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l04",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l05",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l06",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l07",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l08",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l09",
+          "measure": 9,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l10",
+          "measure": 10,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l11",
+          "measure": 11,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l12",
+          "measure": 12,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l13",
+          "measure": 13,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l14",
+          "measure": 14,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l15",
+          "measure": 15,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l16",
+          "measure": 16,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l17",
+          "measure": 17,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l18",
+          "measure": 18,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l19",
+          "measure": 19,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l20",
+          "measure": 20,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l21",
+          "measure": 21,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l22",
+          "measure": 22,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l23",
+          "measure": 23,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l24",
+          "measure": 24,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l25",
+          "measure": 25,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l26",
+          "measure": 26,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l27",
+          "measure": 27,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l28",
+          "measure": 28,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l29",
+          "measure": 29,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l30",
+          "measure": 30,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l31",
+          "measure": 31,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.minuet-g.l32",
+          "measure": 32,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 62,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "notesEs": "Minueto barroco en Sol mayor y compás de 3/4, con dos secciones de dieciséis compases. La mano derecha lleva la melodía con corcheas y la izquierda una blanca con puntillo por compás. Conviene practicar primero cada sección por separado y contar tres pulsos por compás.",
+  "notesEn": "Baroque minuet in G major and 3/4 time, with two sixteen-measure sections. The right hand carries the melody in eighth notes and the left plays one dotted half note per measure. Practise each section separately and count three beats per measure.",
+  "fingeringEs": "Derecha: la melodía se toca en posición de Sol mayor (1 en Sol4, 2 en La4, 3 en Si4, 4 en Do5, 5 en Re5); los pasajes agudos piden girar la muñeca sin levantar el codo. Izquierda: 5 en la fundamental de cada compás; en los compases 13-16 y 25-32 se puede usar 5-1 cuando la fundamental cambia de octava.",
+  "fingeringEn": "Right hand: play in G major position (1 on G4, 2 on A4, 3 on B4, 4 on C5, 5 on D5); the high passages ask for a relaxed wrist without lifting the elbow. Left hand: 5 on the root of each measure; in measures 13-16 and 25-32, use 5-1 when the root changes octave."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ex.m4-12.l",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "El acorde suena Sol♯, La, Si, Do♯ y Mi, de grave a agudo. ¿Qué cifrado le corresponde?",
+  "promptEn": "The chord sounds G#, A, B, C# and E, from low to high. Which symbol matches it?",
+  "explanationEs": "Es Lamaj9/Sol♯: La maj9 se construye La-Do♯-Mi-Sol♯-Si y, con Sol♯ en el bajo, queda Sol♯-La-Si-Do♯-Mi. Sol♯ es la séptima mayor de La, así que es la tercera inversión; la novena Si queda arriba.",
+  "explanationEn": "It is Amaj9/G#: Amaj9 is A-C#-E-G#-B and, with G# in the bass, becomes G#-A-B-C#-E. G# is the major seventh of A, so it is the third inversion; the ninth B sits on top.",
+  "difficulty": 4,
+  "root": { "step": "A", "accidental": "", "octave": 4 },
+  "quality": "major9",
+  "slash": { "step": "G", "accidental": "#", "octave": 4 },
+  "inversion": 3,
+  "ask": "symbol",
+  "choices": ["Lamaj9/Sol♯", "Lam9/Sol♯", "Lamaj9/Mi"],
+  "choicesEn": ["Amaj9/G♯", "Am9/G♯", "Amaj9/E"]
+}

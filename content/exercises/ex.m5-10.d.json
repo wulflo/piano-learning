@@ -1,0 +1,21 @@
+{
+  "id": "ex.m5-10.d",
+  "skillId": "skill.neapolitan",
+  "type": "chord",
+  "optional": true,
+  "promptEs": "Escribí las notas de la napolitana de Do mayor (Re♭ mayor) en primera inversión, de grave a agudo y separadas por espacios.",
+  "promptEn": "Write the notes of the Neapolitan of C major (D♭ major) in first inversion, from low to high and separated by spaces.",
+  "explanationEs": "La napolitana de Do mayor es Re♭-Fa-La♭. En primera inversión el bajo es la tercera, Fa, y las notas quedan Fa-La♭-Re♭. Esa disposición pone el bajo a un paso de la dominante Sol y suaviza la conducción de las voces.",
+  "explanationEn": "The Neapolitan of C major is D♭-F-A♭. In first inversion the bass is the third, F, so the notes become F-A♭-D♭. That voicing puts the bass one step away from the dominant G and smooths the voice leading.",
+  "difficulty": 3,
+  "root": {
+    "step": "D",
+    "accidental": "b",
+    "octave": 4
+  },
+  "quality": "major",
+  "inversion": 1,
+  "ask": "notes",
+  "choices": ["Fa La♭ Re♭", "Re♭ Fa La♭", "La♭ Re♭ Fa"],
+  "choicesEn": ["F Ab Db", "Db F Ab", "Ab Db F"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-02.j",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "La quinta aumentada La4-Mi♯5 se invierte subiendo La una octava. ¿Cómo se llama el intervalo Mi♯5-La5?",
+  "promptEn": "The augmented fifth A4-E♯5 is inverted by raising A an octave. What is the interval E♯5-A5 called?",
+  "explanationEs": "Mi♯5-La5 es una cuarta disminuida: 5 + 4 = 9 y la calidad aumentada se convierte en disminuida. La ortografía conserva Mi♯ y La.",
+  "explanationEn": "E♯5-A5 is a diminished fourth: 5 + 4 = 9 and the augmented quality becomes diminished. The spelling keeps E♯ and A.",
+  "difficulty": 3,
+  "lower": { "step": "E", "accidental": "#", "octave": 5 },
+  "upper": { "step": "A", "accidental": "", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Cuarta disminuida", "Cuarta justa", "Quinta aumentada", "Quinta justa"],
+  "choicesEn": ["Diminished fourth", "Perfect fourth", "Augmented fifth", "Perfect fifth"]
+}

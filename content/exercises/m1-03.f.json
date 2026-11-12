@@ -1,0 +1,15 @@
+{
+  "id": "ex.m1-03.f",
+  "skillId": "skill.accidentals",
+  "type": "interval",
+  "promptEs": "¿Qué distancia hay entre Fa4 y Fa♯4?",
+  "promptEn": "What is the distance between F4 and F♯4?",
+  "explanationEs": "Fa4 y Fa♯4 son teclas contiguas: hay un semitono. Fa♯ es la tecla negra inmediata a la derecha de Fa.",
+  "explanationEn": "F4 and F♯4 are adjacent keys: it is a semitone. F♯ is the black key immediately to the right of F.",
+  "difficulty": 1,
+  "lower": { "step": "F", "accidental": "", "octave": 4 },
+  "upper": { "step": "F", "accidental": "#", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Semitono", "Tono", "Tono y medio", "Dos tonos"],
+  "choicesEn": ["Semitone", "Tone", "Tone and a half", "Two tones"]
+}

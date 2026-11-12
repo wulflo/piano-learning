@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-01.k",
+  "skillId": "skill.diatonic-chords",
+  "type": "chord",
+  "promptEs": "En La menor armónica, ¿qué cifrado tiene la séptima diatónica del grado V?",
+  "promptEn": "In A harmonic minor, what is the symbol of the diatonic seventh on degree V?",
+  "explanationEs": "En La menor armónica, el grado V se construye sobre Mi: Mi-Sol♯-Si-Re. La tercera es mayor y la séptima Mi-Re es menor, así que la séptima es de dominante y se cifra Mi7. El Sol♯ viene de subir el séptimo grado de la escala.",
+  "explanationEn": "In A harmonic minor, degree V is built on E: E-G♯-B-D. The third is major and the seventh E-D is minor, so the seventh is dominant and its symbol is E7. G♯ comes from raising the seventh degree of the scale.",
+  "difficulty": 3,
+  "root": {
+    "step": "E",
+    "accidental": "",
+    "octave": 5
+  },
+  "quality": "dominant7",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Mim7",
+    "Mimaj7",
+    "Mim",
+    "Mi7"
+  ],
+  "choicesEn": [
+    "Em7",
+    "Emaj7",
+    "Em",
+    "E7"
+  ]
+}

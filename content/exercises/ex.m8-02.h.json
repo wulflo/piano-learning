@@ -1,0 +1,270 @@
+{
+  "id": "ex.m8-02.h",
+  "skillId": "skill.blues",
+  "type": "style-pattern",
+  "promptEs": "Blues en Bb. ¿Qué grados forman la progresión de los cuatro compases?",
+  "promptEn": "Blues in Bb. Which degrees form the four-bar progression?",
+  "explanationEs": "La respuesta correcta es «I–IV–I–V». En Si♭, Si♭7 es I, Mi♭7 es IV y Fa7 es V. La armadura de Si♭ mayor tiene Si♭ y Mi♭, de modo que los dos primeros cifrados se leen sin alteraciones. El blues funciona igual en las doce tonalidades: los grados no cambian, solo las notas.",
+  "explanationEn": "The correct answer is “I–IV–I–V”. In Bb, Bb7 is I, Eb7 is IV and F7 is V. The Bb major key signature has Bb and Eb, so the first two symbols are read without accidentals. The blues works the same in all twelve keys: the degrees do not change, only the notes.",
+  "difficulty": 3,
+  "score": {
+    "clef": "treble",
+    "key": "Bb",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 92,
+    "events": [
+      {
+        "id": "ex.m8-02.h.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "Bb7"
+      },
+      {
+        "id": "ex.m8-02.h.2",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "A",
+            "accidental": "b",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.h.3",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "Eb7"
+      },
+      {
+        "id": "ex.m8-02.h.4",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "b",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "b",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.h.5",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "Bb7"
+      },
+      {
+        "id": "ex.m8-02.h.6",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "b",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "A",
+            "accidental": "b",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m8-02.h.7",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false,
+        "chordSymbol": "F7"
+      },
+      {
+        "id": "ex.m8-02.h.8",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "E",
+            "accidental": "b",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 84,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "style": "blues",
+  "ask": "progression",
+  "measure": 1,
+  "choices": [
+    "IV–I–V–I",
+    "I–IV–V–IV",
+    "I–V–IV–I",
+    "I–IV–I–V"
+  ],
+  "choicesEn": [
+    "IV–I–V–I",
+    "I–IV–V–IV",
+    "I–V–IV–I",
+    "I–IV–I–V"
+  ]
+}

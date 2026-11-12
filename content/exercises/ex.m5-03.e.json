@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-03.e",
+  "skillId": "skill.harmonic-function",
+  "type": "harmonic-function",
+  "promptEs": "En Si♭ mayor, ¿qué función cumple el acorde Dom (Do, Mi♭, Sol)?",
+  "promptEn": "In B♭ major, what function does the chord Cm (C, E♭, G) fulfil?",
+  "explanationEs": "En Si♭ mayor, el grado ii es Dom. El segundo grado es la subdominante que prepara la dominante Fa; Do, Mi♭ y Sol forman su tríada menor.",
+  "explanationEn": "In B♭ major, degree ii is Cm. The second degree is the subdominant that prepares the dominant F; C, E♭ and G form its minor triad.",
+  "difficulty": 2,
+  "key": "Bb",
+  "mode": "major",
+  "degree": 2,
+  "choices": [
+    "Dominante (D)",
+    "Tónica (T)",
+    "Subdominante (S)"
+  ],
+  "choicesEn": [
+    "Dominant (D)",
+    "Tonic (T)",
+    "Subdominant (S)"
+  ]
+}

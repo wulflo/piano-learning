@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-01.j",
+  "skillId": "skill.diatonic-chords",
+  "type": "chord",
+  "promptEs": "En Sol menor, ¿qué cifrado tiene la séptima diatónica del grado i?",
+  "promptEn": "In G minor, what is the symbol of the diatonic seventh on degree i?",
+  "explanationEs": "En Sol menor natural, el grado i se construye sobre Sol: Sol-Si♭-Re-Fa. La tercera es menor y la séptima Sol-Fa es menor, así que la séptima es menor y se cifra Solm7.",
+  "explanationEn": "In G natural minor, degree i is built on G: G-B♭-D-F. The third is minor and the seventh G-F is minor, so the seventh is minor and its symbol is Gm7.",
+  "difficulty": 2,
+  "root": {
+    "step": "G",
+    "accidental": "",
+    "octave": 4
+  },
+  "quality": "minor7",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Sol7",
+    "Solmaj7",
+    "Solm",
+    "Solm7"
+  ],
+  "choicesEn": [
+    "G7",
+    "Gmaj7",
+    "Gm",
+    "Gm7"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "ex.m3-04.b",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Mirá y escuchá el fragmento en Sol mayor. ¿Qué intervalo hay entre la segunda nota (La4) y la cuarta (Re5)?",
+  "promptEn": "Look at and listen to the fragment in G major. What interval is there between the second note (A4) and the fourth note (D5)?",
+  "explanationEs": "De La4 a Re5 hay cuatro letras (La-Si-Do-Re) y cinco semitonos: cuarta justa. Es el salto que cierra la frase y deja abierto el registro superior.",
+  "explanationEn": "From A4 to D5 there are four letters (A-B-C-D) and five semitones: a perfect fourth. It is the leap that closes the phrase and opens up the upper register.",
+  "difficulty": 1,
+  "lower": {
+    "step": "A",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "D",
+    "accidental": "",
+    "octave": 5
+  },
+  "direction": "melodic",
+  "fragment": {
+    "clef": "treble",
+    "key": "G",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 76,
+    "events": [
+      {
+        "id": "frag.m3-04.b.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.b.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.b.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.b.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Cuarta justa",
+    "Cuarta aumentada",
+    "Quinta justa",
+    "Tercera mayor"
+  ],
+  "choicesEn": [
+    "Perfect fourth",
+    "Augmented fourth",
+    "Perfect fifth",
+    "Major third"
+  ]
+}

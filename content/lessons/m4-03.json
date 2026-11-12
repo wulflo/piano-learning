@@ -1,0 +1,272 @@
+{
+  "id": "lesson.m4-03",
+  "moduleId": "M4",
+  "slug": "inversiones-y-voicings-basicos",
+  "titleEs": "Inversiones y voicings básicos",
+  "titleEn": "Inversions and basic voicings",
+  "summaryEs": "Cómo cambia el bajo al invertir una tríada, cómo se escribe con cifrado slash y cómo elegir entre un voicing cercano y uno abierto.",
+  "summaryEn": "How the bass changes when a triad is inverted, how slash notation writes it and how to choose between a close and an open voicing.",
+  "objectivesEs": [
+    "Identificar qué nota del acorde queda en el bajo y nombrar la inversión",
+    "Construir la primera y la segunda inversión de una tríada",
+    "Leer y escribir el cifrado slash, por ejemplo Do/Mi y Do/Sol",
+    "Distinguir un voicing cercano de uno abierto y elegir el que conviene"
+  ],
+  "objectivesEn": [
+    "Identify which chord tone sits in the bass and name the inversion",
+    "Build the first and second inversion of a triad",
+    "Read and write slash notation, for example C/E and C/G",
+    "Tell a close voicing from an open one and choose the one that fits"
+  ],
+  "minutes": 18,
+  "prerequisites": [
+    "lesson.m4-02"
+  ],
+  "skillIds": [
+    "skill.chord-inversion"
+  ],
+  "exerciseIds": [
+    "ex.m4-03.a",
+    "ex.m4-03.b",
+    "ex.m4-03.c",
+    "ex.m4-03.d",
+    "ex.m4-03.e",
+    "ex.m4-03.f",
+    "ex.m4-03.g",
+    "ex.m4-03.h",
+    "ex.m4-03.i",
+    "ex.m4-03.j",
+    "ex.m4-03.k",
+    "ex.m4-03.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m4-03.intro",
+      "kind": "text",
+      "titleEs": "El bajo decide la inversión",
+      "titleEn": "The bass decides the inversion",
+      "bodyEs": "Un acorde no cambia de notas cuando se invierte: cambia el orden y, sobre todo, la nota más grave, que es el bajo real. En estado fundamental el bajo es la fundamental y las notas se apilan 1-3-5 (Do-Mi-Sol). En primera inversión el bajo es la tercera y el orden es 3-5-1 (Mi-Sol-Do). En segunda inversión el bajo es la quinta y el orden es 5-1-3 (Sol-Do-Mi). El cifrado slash nombra el bajo después de una barra: Do/Mi es Do mayor con Mi en el bajo y Do/Sol es Do mayor con Sol en el bajo. La inversión no cambia la calidad del acorde; solo cambia qué nota sostiene el sonido.",
+      "bodyEn": "A chord does not change its notes when it is inverted: the order changes and, above all, the lowest note, which is the actual bass. In root position the bass is the root and the notes stack 1-3-5 (C-E-G). In first inversion the bass is the third and the order is 3-5-1 (E-G-C). In second inversion the bass is the fifth and the order is 5-1-3 (G-C-E). Slash notation names the bass after a slash: C/E is C major with E in the bass and C/G is C major with G in the bass. Inversion does not change the chord's quality; it only changes which note supports the sound."
+    },
+    {
+      "id": "sec.m4-03.voicings",
+      "kind": "text",
+      "titleEs": "Voicings cercanos y abiertos",
+      "titleEn": "Close and open voicings",
+      "bodyEs": "Un voicing es la forma concreta de repartir las notas de un acorde. En un voicing cercano las tres notas quedan juntas, dentro del espacio de una octava: Do4-Mi4-Sol4, Mi4-Sol4-Do5 o Sol4-Do5-Mi5. En un voicing abierto se separan, por ejemplo Do4-Sol4-Mi5, con la quinta en el medio y la tercera una octava arriba. El bajo puede ser el mismo en los dos casos; lo que cambia es la distancia entre las voces. Los voicings cercanos suenan compactos y facilitan el movimiento suave entre acordes; los abiertos suenan más amplios y aireados. Al elegir uno, mirá el bajo y después buscá la posición que te permita moverte con el menor salto posible.",
+      "bodyEn": "A voicing is the concrete way of spreading a chord's notes. In a close voicing the three notes sit together, within the space of an octave: C4-E4-G4, E4-G4-C5 or G4-C5-E5. In an open voicing they are spread apart, for example C4-G4-E5, with the fifth in the middle and the third an octave above. The bass can be the same in both cases; what changes is the distance between the voices. Close voicings sound compact and make smooth movement between chords easier; open voicings sound wider and more airy. When choosing one, look at the bass first and then find the position that lets you move with the smallest leap."
+    },
+    {
+      "id": "sec.m4-03.demo",
+      "kind": "score",
+      "titleEs": "Do mayor en fundamental, primera, segunda y abierto",
+      "titleEn": "C major in root, first, second and open position",
+      "bodyEs": "Escuchá y mirá el mismo acorde de Do mayor cuatro veces. Primero en estado fundamental (Do-Mi-Sol), después en primera inversión (Mi-Sol-Do), luego en segunda inversión (Sol-Do-Mi) y al final con un voicing abierto (Do-Sol-Mi). Las notas son las mismas; seguí el bajo de cada compás y notá cómo cambia la sensación de estabilidad y cómo el voicing abierto deja más espacio entre las voces.",
+      "bodyEn": "Listen to and look at the same C major chord four times. First in root position (C-E-G), then in first inversion (E-G-C), then in second inversion (G-C-E) and finally with an open voicing (C-G-E). The notes are the same; follow the bass in each bar and notice how the sense of stability changes and how the open voicing leaves more space between the voices.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m4-03.fundamental",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-03.primera-inversion",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-03.segunda-inversion",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 },
+              { "step": "E", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-03.abierto",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m4-03.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios de inversión",
+      "titleEn": "Twelve inversion exercises",
+      "bodyEs": "Cada ejercicio te da las notas de una tríada ordenadas de grave a agudo y te pide su inversión. Primero identificá la fundamental del acorde y después mirá qué nota quedó en el bajo: si es la fundamental, es estado fundamental; si es la tercera, primera inversión; si es la quinta, segunda inversión. Las doce tónicas se reparten entre las tres posiciones.",
+      "bodyEn": "Each exercise gives you a triad's notes ordered from low to high and asks for its inversion. First identify the chord's root and then look at which note ended up in the bass: if it is the root, it is root position; if it is the third, first inversion; if it is the fifth, second inversion. The twelve roots are shared among the three positions."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca Do mayor en sus tres inversiones y en voicing abierto",
+    "titleEn": "Play C major in its three inversions and in an open voicing",
+    "instructionsEs": "Con la mano derecha, tocá Do mayor en estado fundamental (Do-Mi-Sol), en primera inversión (Mi-Sol-Do), en segunda inversión (Sol-Do-Mi) y con un voicing abierto (Do-Sol-Mi). Mantené el bajo de cada posición y escuchá cómo cambia el apoyo. Repetí a 60 BPM, primero cada acorde solo y después los cuatro seguidos.",
+    "instructionsEn": "With your right hand, play C major in root position (C-E-G), first inversion (E-G-C), second inversion (G-C-E) and with an open voicing (C-G-E). Keep the bass of each position and listen to how the support changes. Repeat at 60 BPM, first each chord on its own and then all four in a row.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 5 },
+      { "step": "E", "accidental": "", "octave": 5 }
+    ],
+    "fingeringEs": "Mano derecha: 1-3-5 en estado fundamental; 1-2-5 en las inversiones cercanas. En el voicing abierto, 1 para Do, 2 para Sol y 5 para Mi.",
+    "fingeringEn": "Right hand: 1-3-5 in root position; 1-2-5 in the close inversions. In the open voicing, 1 for C, 2 for G and 5 for E.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué las tres posiciones y comprobé que las notas eran las mismas",
+      "Identifiqué el bajo de cada acorde antes de tocarlo",
+      "Distinguí el voicing cercano del abierto por la separación entre las voces"
+    ],
+    "checklistEn": [
+      "I played the three positions and checked that the notes were the same",
+      "I identified each chord's bass before playing it",
+      "I told the close voicing from the open one by the spacing between the voices"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m4-03.fundamental",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-03.primera-inversion",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-03.segunda-inversion",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 },
+            { "step": "E", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-03.abierto",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

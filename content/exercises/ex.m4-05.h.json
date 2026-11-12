@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-05.h",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Do13 (trecena de dominante) de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of a C13 (dominant thirteenth) from low to high, separated by spaces.",
+  "explanationEs": "Do13 es 1-3-5-♭7-9-11-13: Do, Mi, Sol, Si♭, Re, Fa y La. La séptima Si♭ es menor, la novena Re, la oncena Fa y la trecena La. La oncena Fa choca con Mi y en la práctica se omite; un voicing típico es Do-Mi-Si♭-La.",
+  "explanationEn": "C13 is 1-3-5-♭7-9-11-13: C, E, G, Bb, D, F and A. The seventh Bb is minor, the ninth D, the eleventh F and the thirteenth A. The eleventh F clashes with E and is omitted in practice; a typical voicing is C-E-Bb-A.",
+  "difficulty": 4,
+  "root": { "step": "C", "accidental": "", "octave": 4 },
+  "quality": "dominant13",
+  "inversion": 0,
+  "ask": "notes"
+}

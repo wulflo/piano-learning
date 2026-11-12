@@ -1,0 +1,22 @@
+{
+  "id": "ex.m1-04.e",
+  "skillId": "skill.note-durations",
+  "type": "rhythm-completion",
+  "promptEs": "En 4/4 el compás tiene una blanca, una negra, una corchea, una semicorchea y un treintaidosavo. ¿Qué figura falta al final?",
+  "promptEn": "In 4/4 the measure has a half note, a quarter note, an eighth note, a sixteenth note, and a thirty-second note. Which note value is missing at the end?",
+  "explanationEs": "Las figuras presentes suman tres tiempos y siete octavos de tiempo. Falta un octavo de tiempo, que corresponde a un treintaidosavo (fusa).",
+  "explanationEn": "The note values present add up to three beats and seven eighths of a beat. An eighth of a beat is missing, which corresponds to a thirty-second note.",
+  "difficulty": 3,
+  "timeSignature": { "numerator": 4, "denominator": 4 },
+  "pattern": [
+    { "duration": "half", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "quarter", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "eighth", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "sixteenth", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "thirty-second", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "thirty-second", "dots": 0, "tuplet": "none", "rest": false }
+  ],
+  "missingIndex": 5,
+  "choices": ["Semicorchea", "Treintaidosavo (fusa)", "Corchea", "Negra"],
+  "choicesEn": ["Sixteenth note", "Thirty-second note", "Eighth note", "Quarter note"]
+}

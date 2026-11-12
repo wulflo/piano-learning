@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-03.e",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de Do sostenido menor suena Mi-Sol♯-Do♯, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The C# minor chord sounds E-G#-C#, from low to high. What inversion is it?",
+  "explanationEs": "El acorde de Do♯ menor es Do♯-Mi-Sol♯. Como el bajo es Mi, la tercera del acorde, está en primera inversión: las notas subieron un escalón y Do♯ quedó arriba.",
+  "explanationEn": "The C# minor chord is C#-E-G#. Since the bass is E, the chord's third, it is in first inversion: the notes moved up one step and C# ended up on top.",
+  "difficulty": 2,
+  "root": { "step": "C", "accidental": "#", "octave": 4 },
+  "quality": "minor",
+  "inversion": 1,
+  "ask": "inversion",
+  "choices": ["estado fundamental", "primera inversión", "segunda inversión"],
+  "choicesEn": ["root position", "first inversion", "second inversion"]
+}

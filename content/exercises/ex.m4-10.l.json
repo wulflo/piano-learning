@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-10.l",
+  "skillId": "skill.chord-quality-ear",
+  "type": "ear-chord",
+  "promptEs": "Escuchá el acorde y elegí su calidad.",
+  "promptEn": "Listen to the chord and choose its quality.",
+  "explanationEs": "La♭-Do es tercera mayor y La♭-Mi quinta aumentada: es un La♭ aumentado. La quinta aumentada crea una tensión que lo separa de La♭ mayor, que tendría Mi♭.",
+  "explanationEn": "A♭-C is a major third and A♭-E an augmented fifth: it is an A♭ augmented triad. The augmented fifth creates a tension that separates it from A♭ major, which would have E♭.",
+  "difficulty": 3,
+  "root": { "step": "A", "accidental": "b", "octave": 3 },
+  "quality": "augmented",
+  "inversion": 0,
+  "style": "block",
+  "choices": ["aumentado", "mayor", "menor", "disminuido"],
+  "choicesEn": ["augmented", "major", "minor", "diminished"]
+}

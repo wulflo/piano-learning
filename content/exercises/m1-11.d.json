@@ -1,0 +1,51 @@
+{
+  "id": "ex.m1-11.d",
+  "skillId": "skill.repeat-signs",
+  "type": "playback-order",
+  "promptEs": "Hay un segno en B, una indicación To Coda en C y una coda D. Después de C aparece un D.S. al Coda. ¿Cuál es el orden?",
+  "explanationEs": "D.S. al Coda vuelve al segno de B, toca hasta To Coda y salta a la coda D: A B C B D.",
+  "difficulty": 3,
+  "sections": [
+    {
+      "id": "sec-a",
+      "label": "A",
+      "repeat": false
+    },
+    {
+      "id": "sec-b",
+      "label": "B",
+      "repeat": false
+    },
+    {
+      "id": "sec-c",
+      "label": "C",
+      "repeat": false
+    },
+    {
+      "id": "sec-d",
+      "label": "D",
+      "repeat": false
+    }
+  ],
+  "answer": [
+    "sec-a",
+    "sec-b",
+    "sec-c",
+    "sec-b",
+    "sec-d"
+  ],
+  "choices": [
+    "A B C B D",
+    "A B C D",
+    "A B C B",
+    "A B B C D"
+  ],
+  "promptEn": "There is a segno in B, a To Coda indication in C and a coda D. After C there is a D.S. al Coda. What is the order?",
+  "explanationEn": "D.S. al Coda goes back to the segno in B, plays until To Coda and jumps to coda D: A B C B D.",
+  "choicesEn": [
+    "A B C B D",
+    "A B C D",
+    "A B C B",
+    "A B B C D"
+  ]
+}

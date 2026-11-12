@@ -1,0 +1,28 @@
+{
+  "id": "ex.m0-02.e",
+  "skillId": "skill.note-staff",
+  "type": "note-staff",
+  "promptEs": "¿Qué nota está en la segunda línea adicional debajo del pentagrama en clave de fa?",
+  "explanationEs": "Debajo del pentagrama de clave de fa, la primera línea adicional es Mi2 y la segunda es Do2 (C2). Es el Do grave que cierra el registro de M0-02.",
+  "difficulty": 3,
+  "target": {
+    "step": "C",
+    "accidental": "",
+    "octave": 2
+  },
+  "clef": "bass",
+  "choices": [
+    "Do1",
+    "Do2",
+    "Do3",
+    "Do4"
+  ],
+  "promptEn": "Which note is on the second ledger line below the bass staff?",
+  "explanationEn": "Below the bass staff, the first ledger line is E2 and the second is C2. It is the low C that closes the range of M0-02.",
+  "choicesEn": [
+    "C1",
+    "C2",
+    "C3",
+    "C4"
+  ]
+}

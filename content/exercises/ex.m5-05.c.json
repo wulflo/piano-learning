@@ -1,0 +1,31 @@
+{
+  "id": "ex.m5-05.c",
+  "skillId": "skill.common-progressions",
+  "type": "progression-completion",
+  "promptEs": "En Re mayor, ¿qué grado completa la progresión I-V-vi-??",
+  "promptEn": "In D major, which degree completes the I-V-vi-? progression?",
+  "explanationEs": "La progresión pop I-V-vi-IV en Re mayor es Re-La-Sim-Sol. El grado que falta es IV: la subdominante. Completa la serie I-V-vi-IV y vuelve a empezar.",
+  "explanationEn": "The pop progression I-V-vi-IV in D major is D-A-Bm-G. The missing degree is IV: the subdominant. It completes the series I-V-vi-IV and starts over.",
+  "difficulty": 2,
+  "key": "D",
+  "mode": "major",
+  "degrees": [
+    "I",
+    "V",
+    "vi",
+    "IV"
+  ],
+  "missingIndex": 3,
+  "choices": [
+    "IV",
+    "V",
+    "vi",
+    "I"
+  ],
+  "choicesEn": [
+    "IV",
+    "V",
+    "vi",
+    "I"
+  ]
+}

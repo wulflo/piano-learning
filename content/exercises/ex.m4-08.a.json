@@ -1,0 +1,33 @@
+{
+  "id": "ex.m4-08.a",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Do4 y Si4?",
+  "promptEn": "What interval is there between C4 and B4?",
+  "explanationEs": "De Do a Si hay seis letras y once semitonos: una séptima mayor. Las séptimas se nombran con su calidad: mayor con once semitonos, menor con diez.",
+  "explanationEn": "From C to B there are six letters and eleven semitones: a major seventh. Sevenths are named by quality: major with eleven semitones, minor with ten.",
+  "difficulty": 2,
+  "lower": {
+    "step": "C",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "B",
+    "accidental": "",
+    "octave": 4
+  },
+  "direction": "melodic",
+  "choices": [
+    "Séptima mayor",
+    "Séptima menor",
+    "Quinta justa",
+    "Tercera justa"
+  ],
+  "choicesEn": [
+    "Major seventh",
+    "Minor seventh",
+    "Perfect fifth",
+    "Perfect third"
+  ]
+}

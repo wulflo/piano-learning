@@ -1,0 +1,31 @@
+{
+  "id": "ex.m1-06.g",
+  "skillId": "skill.compound-meter",
+  "type": "meter-accent",
+  "promptEs": "En un compás de 9/8, ¿en qué corcheas caen los acentos?",
+  "explanationEs": "En 9/8 hay tres grupos de tres corcheas: los acentos caen en las corcheas 1, 4 y 7. Se siente como tres pulsos.",
+  "difficulty": 2,
+  "timeSignature": {
+    "numerator": 9,
+    "denominator": 8
+  },
+  "accentedBeats": [
+    1,
+    4,
+    7
+  ],
+  "choices": [
+    "1, 4 y 7: inicio de cada grupo de tres corcheas",
+    "1, 2 y 3",
+    "1, 5 y 9",
+    "Todas las corcheas"
+  ],
+  "promptEn": "In a 9/8 measure, on which eighth notes do the accents fall?",
+  "explanationEn": "In 9/8 there are three groups of three eighth notes: the accents fall on eighth notes 1, 4 and 7. It feels like three pulses.",
+  "choicesEn": [
+    "1, 4 and 7: the start of each group of three eighth notes",
+    "1, 2 and 3",
+    "1, 5 and 9",
+    "All the eighth notes"
+  ]
+}

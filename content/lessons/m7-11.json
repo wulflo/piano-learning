@@ -1,0 +1,1116 @@
+{
+  "id": "lesson.m7-11",
+  "moduleId": "M7",
+  "slug": "lead-sheets-y-cifrados",
+  "titleEs": "Lead sheets y cifrados",
+  "titleEn": "Lead sheets and chord symbols",
+  "summaryEs": "Cómo leer una melodía con cifrados, construir voicings de shell con fundamental, tercera y séptima, y acompañar una progresión desde una hoja principal.",
+  "summaryEn": "How to read a melody with chord symbols, build shell voicings with root, third and seventh, and accompany a progression from a lead sheet.",
+  "objectivesEs": [
+    "Leer la melodía y los cifrados de un lead sheet",
+    "Construir voicings de shell con la fundamental en la mano izquierda y las guías en la derecha",
+    "Acompañar una progresión y tocar la melodía sin escribir todas las notas"
+  ],
+  "objectivesEn": [
+    "Read the melody and chord symbols of a lead sheet",
+    "Build shell voicings with the root in the left hand and guide tones in the right",
+    "Accompany a progression and play the melody without writing every note"
+  ],
+  "minutes": 19,
+  "prerequisites": [
+    "lesson.m7-10"
+  ],
+  "skillIds": [
+    "skill.lead-sheet"
+  ],
+  "exerciseIds": [
+    "ex.m7-11.a",
+    "ex.m7-11.b",
+    "ex.m7-11.c",
+    "ex.m7-11.d",
+    "ex.m7-11.e",
+    "ex.m7-11.f",
+    "ex.m7-11.g",
+    "ex.m7-11.h",
+    "ex.m7-11.i",
+    "ex.m7-11.j",
+    "ex.m7-11.k",
+    "ex.m7-11.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m7-11.anatomia",
+      "kind": "text",
+      "titleEs": "Anatomía de un lead sheet",
+      "titleEn": "Anatomy of a lead sheet",
+      "bodyEs": "Un lead sheet es una hoja principal: la melodía va escrita en el pentagrama y la armonía se indica con cifrados encima. El cifrado dice qué acorde suena, no qué notas exactas debe tocar cada mano: esa decisión es el voicing. La fundamental se escribe con letra americana o latina (C o Do), la calidad cambia el sufijo (Am es menor, Cmaj7 es mayor con séptima, G7 es séptimo de dominante, Dm7 es menor con séptima) y una barra indica el bajo (C/E). Al leer, mirá primero la armadura, el compás y la forma; después la melodía; y por último los cifrados compás por compás. Un lead sheet se toca con la melodía en la mano derecha y el acompañamiento en la izquierda, o repartiendo voces entre las dos manos si la textura lo pide.",
+      "bodyEn": "A lead sheet is a principal sheet: the melody is written on the staff and the harmony is shown with chord symbols above it. The symbol tells you which chord sounds, not exactly which notes each hand must play: that decision is the voicing. The root is written with an American or Latin letter (C or Do), the quality changes the suffix (Am is minor, Cmaj7 is major seventh, G7 is a dominant seventh, Dm7 is minor seventh) and a slash indicates the bass (C/E). When reading, check the key signature, the meter and the form first; then the melody; and finally the symbols bar by bar. A lead sheet is played with the melody in the right hand and the accompaniment in the left, or by sharing voices between both hands when the texture asks for it."
+    },
+    {
+      "id": "sec.m7-11.voicing",
+      "kind": "text",
+      "titleEs": "Del cifrado al voicing de shell",
+      "titleEn": "From chord symbol to shell voicing",
+      "bodyEs": "Un voicing de shell reduce el acorde a tres notas: la fundamental y las dos guías, la tercera y la séptima. Paso 1: leé la fundamental y elegí su octava grave, cerca de Do3. Paso 2: en la mano derecha, tocá la tercera y la séptima; en una tríada, la tercera y la quinta. Paso 3: mantené las guías cerca del centro del teclado y evitá intervalos muy cerrados en el registro grave. Paso 4: uní los acordes por conducción de voces: conservá las notas comunes y mové las demás un semitono o un tono. Paso 5: comprobá que la tercera y la séptima estén presentes; sin ellas el acorde pierde su color. En Do: Cmaj7 = Do3 + Mi4 + Si4; Am7 = La3 + Do4 + Sol4; Dm7 = Re3 + Do4 + Fa4; G7 = Sol3 + Fa4 + Si4. El orden de las guías puede cambiar según la conducción; lo importante es que la fundamental esté abajo y la tercera y la séptima arriba. En una tríada como Do mayor, el shell es Do3 + Mi4 + Sol4.",
+      "bodyEn": "A shell voicing reduces the chord to three notes: the root and the two guide tones, the third and the seventh. Step 1: read the root and choose a low octave, around C3. Step 2: in the right hand, play the third and the seventh; in a triad, the third and the fifth. Step 3: keep the guide tones near the middle of the keyboard and avoid very close intervals in the low register. Step 4: connect the chords with voice leading: keep the common tones and move the others by a semitone or a whole tone. Step 5: check that the third and seventh are present; without them the chord loses its colour. In C: Cmaj7 = C3 + E4 + B4; Am7 = A3 + C4 + G4; Dm7 = D3 + C4 + F4; G7 = G3 + F4 + B4. The guide order can change with the voice leading; what matters is that the root is at the bottom and the third and seventh are above. In a triad such as C major, the shell is C3 + E4 + G4."
+    },
+    {
+      "id": "sec.m7-11.practica",
+      "kind": "text",
+      "titleEs": "Cómo practicar un lead sheet en cinco pasos",
+      "titleEn": "How to practise a lead sheet in five steps",
+      "bodyEs": "Paso 1: leé la forma completa y marcá los cifrados con lápiz. Paso 2: tocá la melodía sola, con una digitación cómoda y sin acompañamiento. Paso 3: cantá la fundamental de cada cifrado y comprobala en el teclado. Paso 4: construí el shell de cada acorde y unilo por conducción de voces. Paso 5: sumá la melodía y el acompañamiento, primero a 60 BPM y después al tempo de la canción. Si un pasaje se traba, separá las manos otra vez. No agregues extensiones ni adornos hasta que la fundamental, la tercera y la séptima estén firmes. La tarea de esta lección usa Cmaj7–Am7–Dm7–G7 para que escuches cómo las guías se mueven por grados y cómo se conservan las notas comunes. Tocá sin dolor ni tensión; si aparecen, pará o bajá el tempo.",
+      "bodyEn": "Step 1: read the whole form and mark the symbols in pencil. Step 2: play the melody alone, with comfortable fingering and no accompaniment. Step 3: sing the root of each symbol and check it on the keyboard. Step 4: build the shell of each chord and connect them with voice leading. Step 5: add the melody and the accompaniment, first at 60 BPM and then at the song tempo. If a passage gets stuck, separate the hands again. Do not add extensions or ornaments until the root, third and seventh are secure. The task for this lesson uses Cmaj7–Am7–Dm7–G7 so you can hear how the guide tones move by step and how common tones are kept. Play without pain or tension; if they appear, stop or slow down."
+    },
+    {
+      "id": "sec.m7-11.demo-lead",
+      "kind": "score",
+      "titleEs": "Demo: melodía y cifrados",
+      "titleEn": "Demo: melody and chord symbols",
+      "bodyEs": "Ocho compases en Do mayor con la melodía escrita y un cifrado por compás: C–Am7–Dm7–G7–C–Am7–Dm7–C. La melodía usa notas del acorde y algunas notas de paso; los cifrados indican la armonía, no la disposición exacta de las voces. Tocá primero la melodía sola, después solo los cifrados y finalmente las dos cosas. Escuchá cómo el último compás vuelve a la tónica.",
+      "bodyEn": "Eight bars in C major with the melody written out and one symbol per bar: C–Am7–Dm7–G7–C–Am7–Dm7–C. The melody uses chord tones and some passing notes; the symbols show the harmony, not the exact voicing. Play the melody alone first, then only the symbols and finally both together. Listen to how the last bar returns to the tonic.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "sec.m7-11.demo-lead.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-11.demo-lead.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Am7"
+          },
+          {
+            "id": "sec.m7-11.demo-lead.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.9",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Dm7"
+          },
+          {
+            "id": "sec.m7-11.demo-lead.10",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.11",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.12",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.13",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "G7"
+          },
+          {
+            "id": "sec.m7-11.demo-lead.14",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.15",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.16",
+            "measure": 4,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.17",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-11.demo-lead.18",
+            "measure": 5,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.19",
+            "measure": 5,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.20",
+            "measure": 5,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 6
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.21",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Am7"
+          },
+          {
+            "id": "sec.m7-11.demo-lead.22",
+            "measure": 6,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.23",
+            "measure": 6,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.24",
+            "measure": 6,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.25",
+            "measure": 7,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Dm7"
+          },
+          {
+            "id": "sec.m7-11.demo-lead.26",
+            "measure": 7,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.27",
+            "measure": 7,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.28",
+            "measure": 7,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 6
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-11.demo-lead.29",
+            "measure": 8,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-11.demo-voicing",
+      "kind": "score",
+      "titleEs": "Demo: voicings de shell",
+      "titleEn": "Demo: shell voicings",
+      "bodyEs": "Cuatro compases con el shell de Cmaj7–Am7–Dm7–G7. La mano izquierda toca la fundamental en la octava 3 y la derecha las guías en la octava 4. Escuchá las notas comunes y el movimiento pequeño de la tercera y la séptima: por eso el shell suena conectado y deja espacio para la melodía. Repetí la progresión con la mano izquierda sola y después cantá las guías mientras tocás.",
+      "bodyEn": "Four bars with the shell of Cmaj7–Am7–Dm7–G7. The left hand plays the root in octave 3 and the right hand the guide tones in octave 4. Listen to the common tones and the small movement of the third and seventh: that is why the shell sounds connected and leaves room for the melody. Repeat the progression with the left hand alone and then sing the guide tones while you play.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "sec.m7-11.demo-voicing.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Cmaj7"
+          },
+          {
+            "id": "sec.m7-11.demo-voicing.2",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Am7"
+          },
+          {
+            "id": "sec.m7-11.demo-voicing.3",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Dm7"
+          },
+          {
+            "id": "sec.m7-11.demo-voicing.4",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "G7"
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-11.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Leer la melodía y realizar los cifrados",
+      "titleEn": "Read the melody and realize the symbols",
+      "bodyEs": "Seis ejercicios de lectura preguntan por una nota de la melodía en un compás y pulso concretos. Seis ejercicios de voicing preguntan qué shell realiza el cifrado de un compás. En los dos casos la partitura muestra la melodía y los cifrados; la respuesta no está escrita en las notas del acompañamiento. Antes de responder, ubicá la fundamental, contá los pulsos y comprobá la tercera y la séptima.",
+      "bodyEn": "Six reading exercises ask for a melody note in a specific bar and beat. Six voicing exercises ask which shell realizes the symbol in a bar. In both cases the score shows the melody and the symbols; the answer is not written in the accompaniment notes. Before answering, locate the root, count the beats and check the third and the seventh."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Acompañá Cmaj7–Am7–Dm7–G7 con shell voicings",
+    "titleEn": "Accompany Cmaj7–Am7–Dm7–G7 with shell voicings",
+    "instructionsEs": "Poné el metrónomo a 60 BPM y tocá la progresión Cmaj7–Am7–Dm7–G7. Mano izquierda: la fundamental de cada acorde en octava 3, una redonda por compás: Do3, La3, Re3 y Sol3. Mano derecha: las guías, una redonda por compás: Mi4 + Si4, Do4 + Sol4, Do4 + Fa4 y Fa4 + Si4. Primero tocá solo la mano izquierda, después solo la derecha y finalmente las dos manos. Repetí cuatro vueltas y cantá la fundamental mientras tocás. Cuando el shell esté estable, tocá la melodía de la demo con la mano derecha y dejá la fundamental en la izquierda. Si una guía queda incómoda, buscá otra inversión sin perder la tercera y la séptima. Si aparece dolor, tensión o cansancio, pará o bajá el tempo.",
+    "instructionsEn": "Set the metronome to 60 BPM and play the progression Cmaj7–Am7–Dm7–G7. Left hand: the root of each chord in octave 3, one whole note per bar: C3, A3, D3 and G3. Right hand: the guide tones, one whole note per bar: E4 + B4, C4 + G4, C4 + F4 and F4 + B4. Play the left hand alone first, then the right hand alone and finally both hands. Do four turns and sing the root while you play. When the shell is stable, play the melody from the demo with the right hand and leave the root in the left. If a guide tone feels uncomfortable, try another inversion without losing the third and seventh. If pain, tension or fatigue appears, stop or slow down.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 6
+      }
+    ],
+    "fingeringEs": "Mano izquierda: 5 en la fundamental (Do3, La3, Re3, Sol3). Mano derecha: 1-3 para las guías (Mi4–Si4, Do4–Sol4, Do4–Fa4, Fa4–Si4); si la séptima queda lejos, usá 1-4. Melodía: 1-2-3-5 con el pulgar liviano y la muñeca suelta.",
+    "fingeringEn": "Left hand: 5 on the root (C3, A3, D3, G3). Right hand: 1-3 for the guide tones (E4–B4, C4–G4, C4–F4, F4–B4); if the seventh is far away, use 1-4. Melody: 1-2-3-5 with a light thumb and a relaxed wrist.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué las fundamentales Do3–La3–Re3–Sol3 con la mano izquierda sin detenerme",
+      "Construí las guías Mi4+Si4, Do4+Sol4, Do4+Fa4 y Fa4+Si4 con la mano derecha",
+      "Uní los acordes por conducción de voces y conservé las notas comunes",
+      "Toqué la melodía de la demo con la mano derecha y la fundamental con la izquierda",
+      "Canté la fundamental y escuché la tercera y la séptima mientras tocaba",
+      "Paré o bajé el tempo si apareció dolor, tensión o cansancio"
+    ],
+    "checklistEn": [
+      "I played the roots C3–A3–D3–G3 with the left hand without stopping",
+      "I built the guide tones E4+B4, C4+G4, C4+F4 and F4+B4 with the right hand",
+      "I connected the chords with voice leading and kept the common tones",
+      "I played the demo melody with the right hand and the root with the left",
+      "I sang the root and listened for the third and seventh while playing",
+      "I stopped or slowed down if pain, tension or fatigue appeared"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "sec.m7-11.demo-voicing.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "Cmaj7"
+        },
+        {
+          "id": "sec.m7-11.demo-voicing.2",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "Am7"
+        },
+        {
+          "id": "sec.m7-11.demo-voicing.3",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "Dm7"
+        },
+        {
+          "id": "sec.m7-11.demo-voicing.4",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "G7"
+        }
+      ],
+      "pedals": []
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

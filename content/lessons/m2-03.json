@@ -1,0 +1,121 @@
+{
+  "id": "lesson.m2-03",
+  "moduleId": "M2",
+  "slug": "relativas-y-homonimas",
+  "titleEs": "Relativas y homónimas",
+  "titleEn": "Relatives and homonyms",
+  "summaryEs": "Cómo se relacionan las tonalidades mayores con sus relativas menores y qué son las homónimas.",
+  "objectivesEs": [
+    "Diferenciar una tonalidad mayor de su relativa menor",
+    "Conocer los doce pares relativos correctos",
+    "Clasificar tonalidades por su modo con confianza"
+  ],
+  "minutes": 14,
+  "prerequisites": [
+    "lesson.m2-02"
+  ],
+  "skillIds": [
+    "skill.key-signature",
+    "skill.major-scale"
+  ],
+  "exerciseIds": [
+    "ex.m2-03.a",
+    "ex.m2-03.b",
+    "ex.m2-03.c"
+  ],
+  "sections": [
+    {
+      "id": "sec.m2-03.intro",
+      "kind": "text",
+      "titleEs": "Qué es una relativa",
+      "bodyEs": "Toda tonalidad mayor tiene una relativa menor: el sexto grado de la escala mayor, una tercera menor más abajo. La relativa comparte la armadura con la mayor, no la tónica: usa las mismas notas, pero su tónica es otra. La diferencia entre mayor y menor está en la tercera: mayor es una tercera mayor, menor es una tercera menor. Dos tonalidades con la misma tónica en modos distintos se llaman homónimas o paralelas: comparten la tónica, pero no la armadura ni el carácter.",
+      "titleEn": "What a relative minor is",
+      "bodyEn": "Every major key has a relative minor: the sixth degree of the major scale, a minor third below. The relative minor shares the key signature with the major, not the tonic: it uses the same notes, but its tonic is different. The difference between major and minor is the third: major has a major third, minor has a minor third. Two keys with the same tonic in different modes are called parallel keys: they share the tonic, but not the key signature or the character."
+    },
+    {
+      "id": "sec.m2-03.pairs",
+      "kind": "text",
+      "titleEs": "Los doce pares",
+      "bodyEs": "Cada una de las doce tonalidades mayores tiene su relativa menor: Do mayor con La menor, Sol mayor con Mi menor, Re mayor con Si menor, La mayor con Fa sostenido menor, Mi mayor con Do sostenido menor, Si mayor con Sol sostenido menor, Fa sostenido mayor con Re sostenido menor, Re bemol mayor con Si bemol menor, La bemol mayor con Fa menor, Mi bemol mayor con Do menor, Si bemol mayor con Sol menor y Fa mayor con Re menor. Son doce pares porque hay doce tonalidades mayores en el círculo de quintas.",
+      "titleEn": "The twelve pairs",
+      "bodyEn": "Each of the twelve major keys has its relative minor: C major with A minor, G major with E minor, D major with B minor, A major with F sharp minor, E major with C sharp minor, B major with G sharp minor, F sharp major with D sharp minor, D flat major with B flat minor, A flat major with F minor, E flat major with C minor, B flat major with G minor and F major with D minor. There are twelve pairs because there are twelve major keys in the circle of fifths."
+    },
+    {
+      "id": "sec.m2-03.exercises",
+      "kind": "exercise",
+      "titleEs": "Clasificación de tonalidades",
+      "bodyEs": "Cada ejercicio te pregunta en qué modo se escribe una escala: mayor o menor. Pensá en la tercera antes de responder: mayor sube dos semitonos desde la tónica, menor solo un. La relativa no cambia la tónica, cambia la tercera y la sexta, y por eso el mismo nombre de tonalidad puede aparecer en ambos modos.",
+      "titleEn": "Classifying keys",
+      "bodyEn": "Each exercise asks in which mode a scale is written: major or minor. Think about the third before answering: major rises two semitones from the tonic, minor only one. The relative minor does not change the tonic, it changes the third and the sixth, so the same key name can appear in both modes."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la escala menor de La",
+    "instructionsEs": "Tocá la escala menor de La (La, Si, Do, Re, Mi, Fa, Sol, La) con el patrón menor a 60 BPM, despacio y sin apuro.",
+    "keys": [
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano derecha en una octava: 1-2-3-4-5-4-3-2; para dos octavas: 1-2-3-4-5-4-3-2-1.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué las notas de la escala menor en orden",
+      "Seguí el patrón menor sin saltarme notas",
+      "Repetí la escala despacio con pulso de negra"
+    ],
+    "titleEn": "Play the A minor scale",
+    "instructionsEn": "Play the A minor scale (A, B, C, D, E, F, G, A) with the minor pattern at 60 BPM, slowly and without rushing.",
+    "fingeringEn": "Right hand in one octave: 1-2-3-4-5-4-3-2; for two octaves: 1-2-3-4-5-4-3-2-1.",
+    "checklistEn": [
+      "I played the minor scale notes in order",
+      "I followed the minor pattern without skipping notes",
+      "I repeated the scale slowly with a quarter-note pulse"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published",
+  "summaryEn": "How major keys relate to their relative minors and what parallel keys are.",
+  "objectivesEn": [
+    "Tell relative minors from parallel keys",
+    "Name the relative minor of each major key",
+    "Classify a scale as major or minor by its third"
+  ]
+}

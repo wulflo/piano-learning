@@ -1,0 +1,17 @@
+{
+  "id": "ex.m3-03.a",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Escuchá el intervalo armónico y clasificalo según su función en la armonía tonal.",
+  "promptEn": "Listen to the harmonic interval and classify it by its function in tonal harmony.",
+  "explanationEs": "Do4-Sol4 es una quinta justa. Las quintas y octavas justas forman consonancias perfectas: suenan estables y sin aspereza.",
+  "explanationEn": "C4-G4 is a perfect fifth. Perfect fifths and octaves form perfect consonances: they sound stable and without roughness.",
+  "difficulty": 1,
+  "lower": { "step": "C", "accidental": "", "octave": 4 },
+  "upper": { "step": "G", "accidental": "", "octave": 4 },
+  "direction": "harmonic",
+  "answer": "Consonancia perfecta",
+  "answerEn": "Perfect consonance",
+  "choices": ["Consonancia perfecta", "Consonancia imperfecta", "Disonancia", "Depende del contexto"],
+  "choicesEn": ["Perfect consonance", "Imperfect consonance", "Dissonance", "Depends on context"]
+}

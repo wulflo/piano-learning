@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-03.a",
+  "skillId": "skill.harmonic-function",
+  "type": "harmonic-function",
+  "promptEs": "En Do mayor, ¿qué función cumple el acorde Do (Do, Mi, Sol)?",
+  "promptEn": "In C major, what function does the chord C (C, E, G) fulfil?",
+  "explanationEs": "En Do mayor, el grado I es la tónica: el acorde de reposo al que vuelve la armonía. Do, Mi y Sol forman la tríada de Do mayor.",
+  "explanationEn": "In C major, degree I is the tonic: the chord of rest to which the harmony returns. C, E and G form the C major triad.",
+  "difficulty": 1,
+  "key": "C",
+  "mode": "major",
+  "degree": 1,
+  "choices": [
+    "Tónica (T)",
+    "Subdominante (S)",
+    "Dominante (D)"
+  ],
+  "choicesEn": [
+    "Tonic (T)",
+    "Subdominant (S)",
+    "Dominant (D)"
+  ]
+}

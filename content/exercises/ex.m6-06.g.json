@@ -1,0 +1,140 @@
+{
+  "id": "ex.m6-06.g",
+  "skillId": "skill.ornament",
+  "type": "ornament-execution",
+  "promptEs": "¿Qué adorno se ejecuta en esta realización?",
+  "promptEn": "Which ornament is played in this realisation?",
+  "explanationEs": "El giro pasa por la nota superior, la principal, la inferior y vuelve a la principal. Ese movimiento completo alrededor de la nota central es el grupeto.",
+  "explanationEn": "The figure passes through the upper note, the main note, the lower note and back to the main note. That complete circle around the central note is the turn.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 76,
+    "events": [
+      {
+        "id": "ex.m6-06.g.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.g.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.g.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.g.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.g.5",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "ornament": "turn",
+  "choices": [
+    "Trino: alternar la nota principal con la superior",
+    "Mordente: bajar a la inferior y volver a la principal",
+    "Grupeto: superior, principal, inferior y principal",
+    "Apoyatura: apoyarse en la vecina antes de la principal"
+  ],
+  "choicesEn": [
+    "Trill: alternate the main note with the upper note",
+    "Mordent: drop to the lower note and return to the main note",
+    "Turn: upper, main, lower, main",
+    "Appoggiatura: lean on the neighbour before the main note"
+  ]
+}

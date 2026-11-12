@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-05.k",
+  "skillId": "skill.ear-interval",
+  "type": "ear-interval",
+  "promptEs": "¿Qué intervalo armónico hay entre Do4 y Mi4 cuando suenan juntos?",
+  "promptEn": "What harmonic interval is there between C4 and E4 when they sound together?",
+  "explanationEs": "Con Do4 y Mi4 sonando a la vez formamos una tercera mayor dentro del acorde.",
+  "explanationEn": "With C4 and E4 sounding together we form a major third inside the chord.",
+  "difficulty": 2,
+  "lower": { "step": "C", "accidental": "", "octave": 4 },
+  "upper": { "step": "E", "accidental": "", "octave": 4 },
+  "direction": "harmonic",
+  "choices": ["Tercera mayor", "Tercera menor", "Segunda mayor", "Cuarta justa"],
+  "choicesEn": ["Major third", "Minor third", "Major second", "Perfect fourth"]
+}

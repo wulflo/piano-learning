@@ -1,0 +1,122 @@
+{
+  "id": "ex.m7-09.d",
+  "skillId": "skill.sight-reading",
+  "type": "sight-reading",
+  "promptEs": "La primera nota del fragmento es La2. ¿Qué nota es la cuarta?",
+  "promptEn": "The first note of the fragment is A2. What note is the fourth?",
+  "explanationEs": "Partí de La2 y leí por intervalos: Do♯3 queda a un intervalo de tercera mayor. En el pentagrama podés contar los grados desde la nota ancla sin volver a nombrar cada línea.",
+  "explanationEn": "Start from A2 and read by intervals: C#3 is an interval of major third away. On the staff you can count the steps from the anchor note without naming every line again.",
+  "difficulty": 2,
+  "score": {
+    "clef": "bass",
+    "key": "A",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m7-09.d.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 2
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-09.d.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 2
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-09.d.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-09.d.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "#",
+            "octave": 3
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "ask": "note",
+  "from": 0,
+  "to": 3,
+  "choices": [
+    "Do♯3",
+    "Re3",
+    "Si2",
+    "La2"
+  ],
+  "choicesEn": [
+    "C#3",
+    "D3",
+    "B2",
+    "A2"
+  ]
+}

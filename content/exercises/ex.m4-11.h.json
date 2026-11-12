@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-11.h",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "Escribí las notas de Sim7/La de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of Bm7/A from low to high, separated by spaces.",
+  "explanationEs": "La es la séptima de Sim7, así que el acorde está en tercera inversión: La-Si-Re-Fa♯. La séptima en el bajo deja el acorde inestable y con ganas de resolver.",
+  "explanationEn": "A is the seventh of Bm7, so the chord is in third inversion: A-B-D-F♯. The seventh in the bass leaves the chord unstable and eager to resolve.",
+  "difficulty": 3,
+  "root": { "step": "B", "accidental": "", "octave": 4 },
+  "quality": "minor7",
+  "slash": { "step": "A", "accidental": "", "octave": 4 },
+  "inversion": 3,
+  "ask": "notes"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-01.h",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Sol4 y Fa5?",
+  "promptEn": "What interval is there between G4 and F5?",
+  "explanationEs": "De Sol a Fa hay una séptima. La séptima mayor tiene once semitonos y esta tiene diez, así que es menor.",
+  "explanationEn": "From G to F there is a seventh. A major seventh has eleven semitones and this one has ten, so it is minor.",
+  "difficulty": 3,
+  "lower": { "step": "G", "accidental": "", "octave": 4 },
+  "upper": { "step": "F", "accidental": "", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Séptima menor", "Séptima mayor", "Sexta mayor", "Octava justa"],
+  "choicesEn": ["Minor seventh", "Major seventh", "Major sixth", "Perfect octave"]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ex.m1-12.a",
+  "skillId": "skill.italian-terms",
+  "type": "italian-term",
+  "promptEs": "¿Qué significa adagio?",
+  "explanationEs": "Adagio es un término de tempo: indica un tempo lento y tranquilo, como caminar sin apuro.",
+  "difficulty": 1,
+  "term": "adagio",
+  "category": "tempo",
+  "meaningEs": "Lento y tranquilo",
+  "exampleEs": "Se siente como caminar sin apuro y dejar que cada nota respire.",
+  "choices": [
+    "Lento y tranquilo",
+    "Rápido y animado",
+    "Muy fuerte",
+    "Cortado y separado"
+  ],
+  "promptEn": "What does adagio mean?",
+  "explanationEn": "Adagio is a tempo term: it indicates a slow, calm tempo, like walking without hurry.",
+  "meaningEn": "Slow and calm",
+  "exampleEn": "It feels like walking without hurry and letting each note breathe.",
+  "choicesEn": [
+    "Slow and calm",
+    "Fast and lively",
+    "Very loud",
+    "Short and separated"
+  ]
+}

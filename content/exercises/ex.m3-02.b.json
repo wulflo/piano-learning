@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-02.b",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "La séptima menor Do♯4-Si4 se invierte subiendo Do♯ una octava. ¿Cómo se llama el intervalo Si4-Do♯5?",
+  "promptEn": "The minor seventh C♯4-B4 is inverted by raising C♯ an octave. What is the interval B4-C♯5 called?",
+  "explanationEs": "Si4-Do♯5 es una segunda mayor: 7 + 2 = 9 y la calidad cambia de menor a mayor. La ortografía conserva Si y Do♯.",
+  "explanationEn": "B4-C♯5 is a major second: 7 + 2 = 9 and the quality changes from minor to major. The spelling keeps B and C♯.",
+  "difficulty": 2,
+  "lower": { "step": "B", "accidental": "", "octave": 4 },
+  "upper": { "step": "C", "accidental": "#", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Segunda mayor", "Segunda menor", "Séptima menor", "Tercera mayor"],
+  "choicesEn": ["Major second", "Minor second", "Minor seventh", "Major third"]
+}

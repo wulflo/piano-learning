@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-03.l",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de Si menor suena Fa♯-Si-Re, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The B minor chord sounds F#-B-D, from low to high. What inversion is it?",
+  "explanationEs": "El acorde de Si menor es Si-Re-Fa♯. El bajo es Fa♯, la quinta del acorde, por lo que está en segunda inversión: Si/Fa♯.",
+  "explanationEn": "The B minor chord is B-D-F#. The bass is F#, the chord's fifth, so it is in second inversion: B/F#.",
+  "difficulty": 3,
+  "root": { "step": "B", "accidental": "", "octave": 4 },
+  "quality": "minor",
+  "inversion": 2,
+  "ask": "inversion",
+  "choices": ["estado fundamental", "primera inversión", "segunda inversión"],
+  "choicesEn": ["root position", "first inversion", "second inversion"]
+}

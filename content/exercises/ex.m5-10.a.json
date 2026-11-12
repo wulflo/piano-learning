@@ -1,0 +1,16 @@
+{
+  "id": "ex.m5-10.a",
+  "skillId": "skill.neapolitan",
+  "type": "roman-numeral",
+  "optional": true,
+  "promptEs": "En Do mayor, el acorde Re♭ mayor (Re♭, Fa, La♭) aparece como subdominante de color. ¿Qué número romano le corresponde?",
+  "promptEn": "In C major, the D♭ major chord (D♭, F, A♭) appears as a dark-coloured subdominant. Which Roman numeral does it get?",
+  "explanationEs": "En Do mayor, el segundo grado es Re. La napolitana baja ese grado un semitono a Re♭ y construye una tríada mayor: Re♭-Fa-La♭. Se cifra ♭II porque la fundamental está rebajada y la cualidad es mayor. No es el ii diatónico (Re-Fa-La), que es menor.",
+  "explanationEn": "In C major the second degree is D. The Neapolitan lowers it by a semitone to D♭ and builds a major triad: D♭-F-A♭. It is labelled ♭II because the root is lowered and the quality is major. It is not the diatonic ii (D-F-A), which is minor.",
+  "difficulty": 2,
+  "key": "C",
+  "mode": "major",
+  "numeral": "bII",
+  "choices": ["bII", "ii", "bVII"],
+  "choicesEn": ["bII", "ii", "bVII"]
+}

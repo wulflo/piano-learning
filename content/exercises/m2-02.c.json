@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-02.c",
+  "skillId": "skill.key-signature",
+  "type": "key-signature",
+  "promptEs": "¿Cuántas notas alteradas tiene la armadura de Re mayor?",
+  "explanationEs": "La escala de Re mayor altera dos notas con sostenidos: Fa sostenido y Do sostenido.",
+  "difficulty": 2,
+  "key": "D",
+  "mode": "major",
+  "choices": [
+    "2 sostenidos",
+    "1 sostenido",
+    "Sin alteraciones"
+  ],
+  "promptEn": "How many altered notes does the key signature of D major have?",
+  "explanationEn": "The D major scale alters two notes with sharps: F sharp and C sharp.",
+  "choicesEn": [
+    "2 sharps",
+    "1 sharp",
+    "No accidentals"
+  ]
+}

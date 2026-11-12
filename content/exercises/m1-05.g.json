@@ -1,0 +1,29 @@
+{
+  "id": "ex.m1-05.g",
+  "skillId": "skill.simple-meter",
+  "type": "meter-accent",
+  "promptEs": "En un compás de 2/4, ¿cómo se acentúan los pulsos?",
+  "explanationEs": "En 2/4 el primer pulso es fuerte y el segundo es débil: se siente como «fuerte-débil», el pulso de una marcha.",
+  "difficulty": 1,
+  "timeSignature": {
+    "numerator": 2,
+    "denominator": 4
+  },
+  "accentedBeats": [
+    1
+  ],
+  "choices": [
+    "1 fuerte; 2 débil",
+    "1 y 2 fuertes",
+    "1 débil; 2 fuerte",
+    "Ningún pulso se acentúa"
+  ],
+  "promptEn": "In a 2/4 measure, how are the beats accented?",
+  "explanationEn": "In 2/4 the first beat is strong and the second is weak: it feels like “strong-weak”, the pulse of a march.",
+  "choicesEn": [
+    "1 strong; 2 weak",
+    "1 and 2 strong",
+    "1 weak; 2 strong",
+    "No beat is accented"
+  ]
+}

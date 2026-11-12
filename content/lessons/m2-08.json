@@ -1,0 +1,185 @@
+{
+  "id": "lesson.m2-08",
+  "moduleId": "M2",
+  "slug": "modos",
+  "titleEs": "Modos",
+  "titleEn": "Modes",
+  "summaryEs": "Los siete modos de la escala mayor, su patrón de semitonos y su color, con ejemplos y relativas.",
+  "summaryEn": "The seven modes of the major scale, their semitone pattern and their color, with examples and relatives.",
+  "objectivesEs": [
+    "Reconocer los siete modos mayores y su color",
+    "Tocar los patrones de semitonos de cada modo",
+    "Identificar el modo de una escala auditivamente"
+  ],
+  "objectivesEn": [
+    "Recognize the seven major modes and their color",
+    "Play the semitone patterns of each mode",
+    "Identify the mode of a scale by ear"
+  ],
+  "minutes": 14,
+  "prerequisites": [
+    "lesson.m2-07"
+  ],
+  "skillIds": [
+    "skill.major-scale",
+    "skill.ear-scale"
+  ],
+  "exerciseIds": [
+    "ex.m2-08.a",
+    "ex.m2-08.b"
+  ],
+  "sections": [
+    {
+      "id": "sec.m2-08.intro",
+      "kind": "text",
+      "titleEs": "Qué es un modo",
+      "titleEn": "What is a mode",
+      "bodyEs": "Un modo es una escala que toma prestada su patrón de grados a otra tonalidad distinta. Mientras la escala mayor usa el patrón T-T-S-T-T-T-S, cada modo usa una versión distinta de esos intervalos y semitonos, y por eso suena con un color distinto. Los siete modos derivados de la escala mayor son el Jónico, el Dórico, el Frigio, el Lídio, el Mixolidio, el Eólico y el Locrio.",
+      "bodyEn": "A mode is a scale that borrows its pattern of degrees from a different key. While the major scale uses the pattern W-W-H-W-W-W-H, each mode uses a different version of those intervals and semitones, and that is why it sounds with a different color. The seven modes derived from the major scale are Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, and Locrian."
+    },
+    {
+      "id": "sec.m2-08.modes",
+      "kind": "text",
+      "titleEs": "Los siete modos y su color",
+      "titleEn": "The seven modes and their color",
+      "bodyEs": "El Jónico conserva el patrón mayor T-T-S-T-T-T-S. El Dórico baja la tercera y la sexta un semitono. El Frigio baja la segunda y la tercera. El Lídio baja la cuarta. El Mixolidio mantiene la cuarta y baja la séptima. El Eólico es el menor natural. El Locrio baja la segunda, la tercera y la quinta. Cada modo cambia el color de la escala sin cambiar la tónica.",
+      "bodyEn": "Ionian keeps the major pattern W-W-H-W-W-W-H. Dorian lowers the third and the sixth by a semitone. Phrygian lowers the second and the third. Lydian lowers the fourth. Mixolydian keeps the fourth and lowers the seventh. Aeolian is the natural minor. Locrian lowers the second, the third, and the fifth. Each mode changes the color of the scale without changing the tonic."
+    },
+    {
+      "id": "sec.m2-08.relatives",
+      "kind": "text",
+      "titleEs": "Relativas de los modos",
+      "titleEn": "Relatives of the modes",
+      "bodyEs": "Cada modo se relaciona con su relativa: la escala menor natural es la relativa menor de la mayor, y los modos menores se entienden sobre su relativa mayor. Por ejemplo, el modo Dórico en Do comparte tónica con el La menor.",
+      "bodyEn": "Each mode is related to its relative: the natural minor scale is the relative minor of the major, and the minor modes are understood through their relative major. For example, the Dorian mode on C shares its tonic with A minor."
+    },
+    {
+      "id": "sec.m2-08.score",
+      "kind": "score",
+      "titleEs": "Escala de Lídio en Do",
+      "titleEn": "Lydian scale in C",
+      "bodyEs": "Escala de Lídio en Do: Do, Re, Mi, Fa sostenido, Sol, La, Si, con el patrón del modo Lídio en un compás de cuatro tiempos.",
+      "bodyEn": "Lydian scale in C: C, D, E, F♯, G, A, B, with the pattern of the Lydian mode in a four-beat measure.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m2-08.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-08.d4",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-08.e4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-08.f4",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "F", "accidental": "#", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-08.g4",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-08.a4",
+            "measure": 2,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "A", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-08.b4",
+            "measure": 2,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "B", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m2-08.exercises",
+      "kind": "exercise",
+      "titleEs": "Identificación auditiva de modos",
+      "titleEn": "Ear training for modes",
+      "bodyEs": "En los ejercicios de oído se escucha una escala y se elige el modo correcto. Escuchá si la escala suena estable, menor, brillante o con otra cualidad y comparila con los modos descritos.",
+      "bodyEn": "In the ear exercises you hear a scale and choose the correct mode. Listen to whether the scale sounds stable, minor, bright, or with another quality and compare it with the modes described."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la escala de Lídio en Do",
+    "titleEn": "Play the Lydian scale in C",
+    "instructionsEs": "Tocá la escala de Lídio en Do (Do, Re, Mi, Fa sostenido, Sol, La, Si) con el patrón del modo a 60 BPM, despacio y sin apuro.",
+    "instructionsEn": "Play the Lydian scale in C (C, D, E, F♯, G, A, B) with the pattern of the mode at 60 BPM, slowly and without rushing.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "#", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "A", "accidental": "", "octave": 4 },
+      { "step": "B", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha en dos octavas: 1-2-3-4-5-4-3-2 / 1-2-3-4-5-4-3-2-1.",
+    "fingeringEn": "Right hand in two octaves: 1-2-3-4-5-4-3-2 / 1-2-3-4-5-4-3-2-1.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué los grados de la escala de Lídio en orden",
+      "Mantuve el patrón del modo sin saltarme notas",
+      "Repetí la escala despacio con pulso de negra"
+    ],
+    "checklistEn": [
+      "I played the degrees of the Lydian scale in order",
+      "I kept the pattern of the mode without skipping notes",
+      "I repeated the scale slowly with a quarter-note pulse"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

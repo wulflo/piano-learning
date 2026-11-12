@@ -1,0 +1,17 @@
+{
+  "id": "ex.m4-06.d",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "El acorde suena Si, Do, Mi y Sol, de grave a agudo. ¿Qué slash chord es?",
+  "promptEn": "The chord sounds B, C, E and G, from low to high. Which slash chord is it?",
+  "explanationEs": "Es Do/Si: Do mayor con Si en el bajo. Las notas son Si-Do-Mi-Sol; Si no pertenece a la tríada Do-Mi-Sol y queda a un semitono de Do. El resultado suena como un Do maj7 con la séptima en el bajo, un híbrido con más tensión que una inversión. En cifrado americano se escribe C/B.",
+  "explanationEn": "It is C/B: C major with B in the bass. The notes are B-C-E-G; B is not part of the C-E-G triad and sits a semitone below C. The result sounds like a Cmaj7 with the seventh in the bass, a hybrid with more tension than an inversion. In American notation it is written C/B.",
+  "difficulty": 3,
+  "root": { "step": "C", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "slash": { "step": "B", "accidental": "", "octave": 3 },
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": ["Do/Si", "Do/Re", "Do/Mi"],
+  "choicesEn": ["C/B", "C/D", "C/E"]
+}

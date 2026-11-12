@@ -1,0 +1,30 @@
+{
+  "id": "ex.m2-07.m",
+  "skillId": "skill.ear-progression",
+  "type": "ear-progression",
+  "promptEs": "Escuchá la progresión en Do mayor y elegí sus grados.",
+  "promptEn": "Listen to the progression in C major and choose its degrees.",
+  "explanationEs": "La progresión I-IV-V-I va de la tónica a la subdominante, pasa por la dominante y vuelve a la tónica. Es el recorrido tonal más básico y el que mejor deja oír el reposo final.",
+  "explanationEn": "The I-IV-V-I progression moves from the tonic to the subdominant, passes through the dominant, and returns to the tonic. It is the most basic tonal path and the one that best lets you hear the final resolution.",
+  "difficulty": 2,
+  "key": "C",
+  "mode": "major",
+  "degrees": [
+    "I",
+    "IV",
+    "V",
+    "I"
+  ],
+  "choices": [
+    "I IV V I",
+    "I V vi IV",
+    "ii V I IV",
+    "I vi IV V"
+  ],
+  "choicesEn": [
+    "I IV V I",
+    "I V vi IV",
+    "ii V I IV",
+    "I vi IV V"
+  ]
+}

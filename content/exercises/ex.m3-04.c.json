@@ -1,0 +1,145 @@
+{
+  "id": "ex.m3-04.c",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Mirá y escuchá el fragmento en Re mayor. ¿Qué intervalo hay entre la primera nota (Re4) y la cuarta (La4)?",
+  "promptEn": "Look at and listen to the fragment in D major. What interval is there between the first note (D4) and the fourth note (A4)?",
+  "explanationEs": "De Re4 a La4 hay cinco letras (Re-Mi-Fa-Sol-La) y siete semitonos: quinta justa. La frase agrega Re5 al final para completar la octava sobre la tónica.",
+  "explanationEn": "From D4 to A4 there are five letters (D-E-F-G-A) and seven semitones: a perfect fifth. The phrase adds D5 at the end to complete the octave above the tonic.",
+  "difficulty": 1,
+  "lower": {
+    "step": "D",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "A",
+    "accidental": "",
+    "octave": 4
+  },
+  "direction": "melodic",
+  "fragment": {
+    "clef": "treble",
+    "key": "D",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 76,
+    "events": [
+      {
+        "id": "frag.m3-04.c.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.c.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.c.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "#",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.c.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.c.5",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Quinta justa",
+    "Quinta disminuida",
+    "Cuarta justa",
+    "Sexta mayor"
+  ],
+  "choicesEn": [
+    "Perfect fifth",
+    "Diminished fifth",
+    "Perfect fourth",
+    "Major sixth"
+  ]
+}

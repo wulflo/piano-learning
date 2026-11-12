@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-03.l",
+  "skillId": "skill.harmonic-function",
+  "type": "harmonic-function",
+  "promptEs": "En Si menor natural, ¿qué función cumple el acorde La (La, Do♯, Mi)?",
+  "promptEn": "In B natural minor, what function does the chord A (A, C♯, E) fulfil?",
+  "explanationEs": "En Si menor natural, el grado VII es La. El séptimo grado cumple función dominante; en Si menor armónica se convierte en vii° (La♯°) con la sensible.",
+  "explanationEn": "In B natural minor, degree VII is A. The seventh degree has a dominant function; in harmonic minor it becomes vii° (A♯°) with the leading tone.",
+  "difficulty": 3,
+  "key": "B",
+  "mode": "minor",
+  "degree": 7,
+  "choices": [
+    "Tónica (T)",
+    "Subdominante (S)",
+    "Dominante (D)"
+  ],
+  "choicesEn": [
+    "Tonic (T)",
+    "Subdominant (S)",
+    "Dominant (D)"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ex.m0-02.b",
+  "skillId": "skill.octave-numbers",
+  "type": "note-keyboard",
+  "promptEs": "¿Qué nombre completo tiene el Do más grave del teclado de tres octavas de la app?",
+  "explanationEs": "El teclado de la app empieza en Do3 (C3). Es el Do más grave de las tres octavas visibles; Do4 es el Do central.",
+  "difficulty": 1,
+  "target": {
+    "step": "C",
+    "accidental": "",
+    "octave": 3
+  },
+  "choices": [
+    "Do2",
+    "Do3",
+    "Do4",
+    "Do5"
+  ],
+  "promptEn": "What is the full name of the lowest C on the app three-octave keyboard?",
+  "explanationEn": "The app keyboard starts at C3. It is the lowest C of the three visible octaves; C4 is middle C.",
+  "choicesEn": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+  ]
+}

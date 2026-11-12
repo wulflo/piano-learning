@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-06.g",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Re/Fa♯ de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of a D/F# from low to high, separated by spaces.",
+  "explanationEs": "Re/Fa♯ es Re mayor con Fa♯ en el bajo: Fa♯-La-Re. Fa♯ es la tercera del acorde, así que es la primera inversión y el bajo va primero. En cifrado americano se escribe D/F#.",
+  "explanationEn": "D/F# is D major with F# in the bass: F#-A-D. F# is the chord's third, so it is the first inversion and the bass comes first. In American notation it is written D/F#.",
+  "difficulty": 3,
+  "root": { "step": "D", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "slash": { "step": "F", "accidental": "#", "octave": 4 },
+  "inversion": 1,
+  "ask": "notes"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-11.f",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de La menor suena Mi-La-Do, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The A minor chord sounds E-A-C, from low to high. What inversion is it?",
+  "explanationEs": "El bajo es Mi, la quinta de La menor: es la segunda inversión. Las notas son 5-1-3, y la tercera Do queda arriba.",
+  "explanationEn": "The bass is E, the fifth of A minor: it is the second inversion. The notes are 5-1-3, and the third C sits on top.",
+  "difficulty": 2,
+  "root": { "step": "A", "accidental": "", "octave": 4 },
+  "quality": "minor",
+  "inversion": 2,
+  "ask": "inversion",
+  "choices": ["segunda inversión", "primera inversión", "estado fundamental"],
+  "choicesEn": ["second inversion", "first inversion", "root position"]
+}

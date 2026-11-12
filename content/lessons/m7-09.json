@@ -1,0 +1,1228 @@
+{
+  "id": "lesson.m7-09",
+  "moduleId": "M7",
+  "slug": "lectura-a-primera-vista",
+  "titleEs": "Lectura a primera vista",
+  "titleEn": "Sight-reading",
+  "summaryEs": "La lectura a primera vista: el método por intervalos, cuatro niveles graduados y fragmentos generados para leer sin detenerse.",
+  "summaryEn": "Sight-reading: the interval method, four graduated levels and generated fragments to read without stopping.",
+  "objectivesEs": [
+    "Leer un fragmento corto por intervalos desde una nota ancla",
+    "Elegir la distancia y la dirección del movimiento sin nombrar cada nota",
+    "Mantener el pulso y seguir leyendo aunque aparezca un error"
+  ],
+  "objectivesEn": [
+    "Read a short fragment by intervals from an anchor note",
+    "Judge the distance and direction of the motion without naming every note",
+    "Keep the pulse and keep reading even if a mistake appears"
+  ],
+  "minutes": 20,
+  "prerequisites": [
+    "lesson.m7-08"
+  ],
+  "skillIds": [
+    "skill.sight-reading"
+  ],
+  "exerciseIds": [
+    "ex.m7-09.a",
+    "ex.m7-09.b",
+    "ex.m7-09.c",
+    "ex.m7-09.d",
+    "ex.m7-09.e",
+    "ex.m7-09.f",
+    "ex.m7-09.g",
+    "ex.m7-09.h",
+    "ex.m7-09.i",
+    "ex.m7-09.j",
+    "ex.m7-09.k",
+    "ex.m7-09.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m7-09.que-es",
+      "kind": "text",
+      "titleEs": "Qué es leer a primera vista",
+      "titleEn": "What sight-reading is",
+      "bodyEs": "Leer a primera vista es tocar una música que no conocés sin detenerte a corregir cada nota. No es adivinar: es reconocer rápido la armadura, el compás, el registro y el dibujo de la melodía, y mantener el pulso mientras los ojos van un paso adelante de las manos. La meta no es tocar perfecto la primera vez, sino sostener el tiempo y la continuidad. Un error corregido en marcha enseña más que diez compases repetidos hasta la perfección. Por eso se practica con fragmentos cortos, lentos y graduados: primero segundos, después terceras, luego saltos, y finalmente las dos claves y los saltos de octava.",
+      "bodyEn": "Sight-reading means playing music you do not know without stopping to fix every note. It is not guessing: it means quickly recognising the key signature, the meter, the register and the shape of the melody, and keeping the pulse while your eyes move one step ahead of your hands. The goal is not to play perfectly the first time, but to keep the time and the continuity. A mistake corrected on the move teaches more than ten measures repeated to perfection. That is why it is practised with short, slow, graduated fragments: seconds first, then thirds, then leaps, and finally both clefs and octave leaps."
+    },
+    {
+      "id": "sec.m7-09.intervalos",
+      "kind": "text",
+      "titleEs": "El método de lectura por intervalos",
+      "titleEn": "The interval reading method",
+      "bodyEs": "El método por intervalos reemplaza el nombre de cada nota por la distancia entre notas. Primero buscás una nota ancla: la primera nota o una línea que reconocés de memoria (en clave de sol, la segunda línea es Sol; en clave de fa, la cuarta línea es Fa). Después leés el resto por movimiento: si la nota siguiente está en la línea o el espacio contiguo, hay una segunda; si se salta una línea o un espacio, hay una tercera; si el salto es mayor, usás una nota de referencia intermedia. La dirección también se lee: sube, baja o repite. Así el ojo trabaja con formas y distancias, no con siete nombres por compás. Leé siempre un paso adelante y no vuelvas la vista a las manos.",
+      "bodyEn": "The interval method replaces the name of every note with the distance between notes. First you find an anchor note: the first note or a line you know by heart (in treble clef the second line is G; in bass clef the fourth line is F). Then you read the rest by motion: if the next note is on the next line or space, it is a second; if a line or space is skipped, it is a third; if the leap is larger, you use an intermediate reference note. Direction is read too: up, down or repeat. That way the eye works with shapes and distances, not with seven names per measure. Always read one step ahead and do not look back at your hands."
+    },
+    {
+      "id": "sec.m7-09.graduacion",
+      "kind": "text",
+      "titleEs": "Cuatro niveles de lectura",
+      "titleEn": "Four reading levels",
+      "bodyEs": "Los fragmentos se gradúan en cuatro niveles. Nivel 1: una sola medida en 4/4, movimiento por segundos y unísonos, dentro del pentagrama, con la nota inicial como ancla. Nivel 2: aparecen las terceras y las primeras notas fuera de la línea principal, todavía en una medida. Nivel 3: dos medidas con cuartas y quintas, cambios de dirección y alguna nota en línea adicional. Nivel 4: saltos de sexta, séptima y octava, las dos claves y fragmentos de dos medidas. En todos los niveles el tempo es lento (50 a 60 BPM) y la consigna es no parar. Si el nivel 4 se vuelve adivinanza, volvé al 3: la lectura se construye desde la seguridad, no desde la velocidad.",
+      "bodyEn": "Fragments are graded in four levels. Level 1: a single 4/4 measure, motion by seconds and unisons, inside the staff, with the first note as the anchor. Level 2: thirds appear, along with the first notes outside the main line, still in one measure. Level 3: two measures with fourths and fifths, changes of direction and the occasional note on a ledger line. Level 4: sixths, sevenths and octaves, both clefs and two-measure fragments. At every level the tempo is slow (50 to 60 BPM) and the instruction is not to stop. If level 4 turns into guessing, go back to level 3: reading is built from security, not speed."
+    },
+    {
+      "id": "sec.m7-09.demo-grados",
+      "kind": "score",
+      "titleEs": "Demo: lectura por grados conjuntos",
+      "titleEn": "Demo: reading by steps",
+      "bodyEs": "Ocho negras en Do mayor que suben y bajan por grados conjuntos. La primera nota, Do4, es el ancla. Cada nota siguiente está en la línea o el espacio contiguo: todas son segundas. Leé el fragmento sin nombrar las notas una por una: mirá la dirección y contá los pasos.",
+      "bodyEn": "Eight quarter notes in C major moving up and down by steps. The first note, C4, is the anchor. Every following note is on the next line or space: they are all seconds. Read the fragment without naming every note: look at the direction and count the steps.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "sec.m7-09.demo-grados.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-grados.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-grados.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-grados.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-grados.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-grados.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-grados.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-grados.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-09.demo-saltos",
+      "kind": "score",
+      "titleEs": "Demo: lectura con saltos en clave de fa",
+      "titleEn": "Demo: reading leaps in bass clef",
+      "bodyEs": "El mismo método en clave de fa: la cuarta línea es Fa y la primera nota del fragmento, Mi2, sirve de ancla. Hay segundos, terceras y un salto de cuarta. Antes de tocar, marcá con el dedo las notas que se repiten o que cambian de dirección; después leé el fragmento completo sin detenerte.",
+      "bodyEn": "The same method in bass clef: the fourth line is F and the first note, E2, works as the anchor. There are seconds, thirds and a fourth leap. Before playing, point at the notes that repeat or change direction; then read the whole fragment without stopping.",
+      "score": {
+        "clef": "bass",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "sec.m7-09.demo-saltos.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 2
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-saltos.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 2
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-saltos.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 2
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-saltos.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 2
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-saltos.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 2
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-saltos.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 2
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-saltos.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-saltos.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 2
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-09.ejemplo",
+      "kind": "text",
+      "titleEs": "Un ejemplo original: Lectura en Do",
+      "titleEn": "An original example: Reading in C",
+      "bodyEs": "Lectura en Do es un fragmento original de cuatro compases y dieciséis negras. La primera frase sube por grados conjuntos y se apoya en Sol4; la segunda cambia de dirección, salta a Si4 y culmina en Mi5 antes de volver a Do5. Leelo primero marcando solo las notas ancla (Do4, Sol4, Do5), después completá las notas intermedias por intervalos y finalmente tocá todo a 50 BPM sin parar. Si te equivocás, seguí: la continuidad es parte de la lectura.",
+      "bodyEn": "Reading in C is an original four-measure fragment of sixteen quarter notes. The first phrase rises by steps and rests on G4; the second changes direction, leaps to B4 and peaks on E5 before returning to C5. Read it first marking only the anchor notes (C4, G4, C5), then fill in the intermediate notes by intervals, and finally play the whole thing at 50 BPM without stopping. If you make a mistake, keep going: continuity is part of reading."
+    },
+    {
+      "id": "sec.m7-09.demo-estudio",
+      "kind": "score",
+      "titleEs": "Demo: Lectura en Do",
+      "titleEn": "Demo: Reading in C",
+      "bodyEs": "Escuchá el fragmento completo a 50 BPM. Fijate cómo la melodía camina por grados conjuntos, salta una tercera al comienzo de la segunda frase y usa Mi5 como punto más alto. Cantá la melodía mientras la escuchás y después intentá leerla con la partitura delante.",
+      "bodyEn": "Listen to the complete fragment at 50 BPM. Notice how the melody walks by steps, leaps a third at the start of the second phrase and uses E5 as its highest point. Sing the melody while you listen, then try to read it with the score in front of you.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 50,
+        "events": [
+          {
+            "id": "sec.m7-09.demo-estudio.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.9",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.10",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.11",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.12",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.13",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.14",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.15",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-09.demo-estudio.16",
+            "measure": 4,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-09.estudio",
+      "kind": "text",
+      "titleEs": "Cómo estudiar sin detenerte",
+      "titleEn": "How to practise without stopping",
+      "bodyEs": "Antes de tocar, dedicá treinta segundos a mirar la partitura: armadura, compás, primera y última nota, notas repetidas y saltos. Marcá el pulso con el pie o el metrónomo a 50 BPM. Tocá una mano sola si hace falta, pero no te detengas en cada error: seguí y corregí en el compás siguiente. Hacé tres pasadas: la primera lenta y con dudas, la segunda más continua y la tercera al tempo. Si una nota se resiste, aislala un momento y volvé al fragmento completo. Subí a 60 y 72 BPM solo cuando puedas leer sin parar. Si aparece dolor, tensión o cansancio en manos, muñecas o brazos, pará, bajá el tempo o tocá una sola mano. La lectura se sostiene con los ojos adelante y el pulso estable.",
+      "bodyEn": "Before playing, spend thirty seconds looking at the score: key signature, meter, first and last note, repeated notes and leaps. Mark the pulse with your foot or a metronome at 50 BPM. Play one hand alone if needed, but do not stop at every mistake: keep going and correct in the next measure. Do three passes: the first slow and hesitant, the second more continuous and the third at tempo. If one note resists, isolate it for a moment and return to the whole fragment. Raise to 60 and 72 BPM only when you can read without stopping. If pain, tension or fatigue appears in your hands, wrists or arms, stop, slow down or play with one hand only. Reading is held by eyes ahead and a steady pulse."
+    },
+    {
+      "id": "sec.m7-09.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Leer intervalos, notas y movimientos",
+      "titleEn": "Reading intervals, notes and motion",
+      "bodyEs": "Los ejercicios muestran fragmentos cortos generados en las doce tonalidades mayores, en clave de sol y de fa. Unos preguntan el intervalo entre dos notas; otros piden una nota concreta a partir de la nota ancla; otros, la dirección y el tamaño del movimiento. Antes de responder, buscá el ancla, contá las líneas y los espacios y fijate si la melodía sube, baja o repite.",
+      "bodyEn": "The exercises show short generated fragments in all twelve major keys, in treble and bass clef. Some ask for the interval between two notes; others ask for a specific note from the anchor note; others ask for the direction and size of the motion. Before answering, find the anchor, count the lines and spaces and check whether the melody moves up, down or repeats."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Lectura en Do a primera vista",
+    "titleEn": "Reading in C at sight",
+    "instructionsEs": "Poné el metrónomo a 50 BPM. Mirá la partitura de Lectura en Do durante treinta segundos: armadura sin alteraciones, compás de 4/4, primera nota Do4 y nota más aguda Mi5. Marcá las notas ancla Do4, Sol4 y Do5 y leé el resto por intervalos, con los ojos un paso adelante. Tocá el fragmento completo con la mano derecha sin detenerte; si aparece un error, seguí y corregí en el compás siguiente. Hacé tres pasadas y subí a 60 y 72 BPM solo cuando puedas leer sin parar y con el pulso estable. Si aparece dolor, tensión o cansancio, pará o bajá el tempo.",
+    "instructionsEn": "Set the metronome to 50 BPM. Look at the Reading in C score for thirty seconds: no accidentals in the key signature, 4/4 meter, first note C4 and highest note E5. Mark the anchor notes C4, G4 and C5 and read the rest by intervals, with your eyes one step ahead. Play the whole fragment with the right hand without stopping; if a mistake appears, keep going and correct in the next measure. Do three passes and raise to 60 and 72 BPM only when you can read without stopping and with a steady pulse. If pain, tension or fatigue appears, stop or slow down.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "Mano derecha: 1-2-3-5 para Do4-Re4-Mi4-Sol4 al comenzar, y 1-2-3 en los pasos siguientes. Mantené la mano cerca de las teclas y cambiá de posición solo cuando el salto lo pida. Si una nota queda incómoda, probá otra digitación sin perder el pulso.",
+    "fingeringEn": "Right hand: 1-2-3-5 for C4-D4-E4-G4 at the start, and 1-2-3 on the following steps. Keep the hand close to the keys and change position only when the leap requires it. If a note feels uncomfortable, try another fingering without losing the pulse.",
+    "tempoBpm": 50,
+    "checklistEs": [
+      "Miré la armadura, el compás y las notas ancla antes de tocar",
+      "Leí por intervalos y no nombré cada nota desde cero",
+      "Mantuve el pulso a 50 BPM sin detenerme en los errores",
+      "Hice tres pasadas y subí a 60 y 72 BPM solo cuando la lectura quedó continua",
+      "Mantuve los ojos un paso adelante y no miré las manos",
+      "Paré o bajé el tempo si apareció dolor, tensión o cansancio"
+    ],
+    "checklistEn": [
+      "I looked at the key signature, the meter and the anchor notes before playing",
+      "I read by intervals instead of naming every note from scratch",
+      "I kept the pulse at 50 BPM without stopping at mistakes",
+      "I did three passes and raised to 60 and 72 BPM only once the reading was continuous",
+      "I kept my eyes one step ahead and did not look at my hands",
+      "I stopped or slowed down if pain, tension or fatigue appeared"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 50,
+      "events": [
+        {
+          "id": "sec.m7-09.demo-estudio.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.2",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.3",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.5",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.6",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.7",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.8",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.9",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.10",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.11",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.12",
+          "measure": 3,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.13",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.14",
+          "measure": 4,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.15",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-09.demo-estudio.16",
+          "measure": 4,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

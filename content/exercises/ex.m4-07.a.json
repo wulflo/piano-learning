@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-07.a",
+  "skillId": "skill.chord-notation",
+  "type": "chord-notation",
+  "promptEs": "Convertí el cifrado Do7/Solm a notación americana.",
+  "promptEn": "Convert the chord Do7/Solm to American notation.",
+  "explanationEs": "Do7/Solm es Do mayor con séptima menor y Sol en el bajo. El 7 se conserva y la barra se traduce también: Do7/Solm → C7/Gm.",
+  "explanationEn": "Do7/Solm is C major with a minor seventh and G in the bass. The 7 stays and the slash goes across as well: Do7/Solm → C7/Gm.",
+  "difficulty": 1,
+  "symbol": "Do7/Solm",
+  "to": "c",
+  "choices": ["C7/Gm", "Cm7/G", "C7/Do"],
+  "choicesEn": ["C7/Gm", "Cm7/G", "C7/Do"]
+}

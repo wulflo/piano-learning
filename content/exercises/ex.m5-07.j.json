@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-07.j",
+  "skillId": "skill.secondary-dominants",
+  "type": "secondary-dominant",
+  "promptEs": "En Mi♭ mayor, ¿en qué grado resuelve V/ii?",
+  "promptEn": "In E♭ major, which degree does V/ii resolve to?",
+  "explanationEs": "En Mi♭ mayor, V/ii es Do7 y resuelve en Fam (ii). Su tercera es la sensible de Fam y sube un semitono al resolver.",
+  "explanationEn": "In E♭ major, V/ii is C7 and it resolves to Fm (ii). Its third is the leading tone of Fm and rises a semitone when it resolves.",
+  "difficulty": 3,
+  "key": "Eb",
+  "mode": "major",
+  "target": 2,
+  "ask": "resolution",
+  "choices": [
+    "V",
+    "IV",
+    "vi",
+    "ii"
+  ],
+  "choicesEn": [
+    "V",
+    "IV",
+    "vi",
+    "ii"
+  ]
+}

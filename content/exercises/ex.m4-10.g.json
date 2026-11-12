@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-10.g",
+  "skillId": "skill.chord-quality-ear",
+  "type": "ear-chord",
+  "promptEs": "Escuchá el acorde y elegí su calidad.",
+  "promptEn": "Listen to the chord and choose its quality.",
+  "explanationEs": "Fa-La es tercera mayor y Fa-Do quinta justa: es un Fa mayor. La tercera luminosa y la quinta estable lo distinguen de la tríada menor y de las inestables.",
+  "explanationEn": "F-A is a major third and F-C a perfect fifth: it is an F major triad. The bright third and stable fifth distinguish it from the minor triad and from the unstable ones.",
+  "difficulty": 2,
+  "root": { "step": "F", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "inversion": 0,
+  "style": "block",
+  "choices": ["mayor", "menor", "disminuido", "aumentado"],
+  "choicesEn": ["major", "minor", "diminished", "augmented"]
+}

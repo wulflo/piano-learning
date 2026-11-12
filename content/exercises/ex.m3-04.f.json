@@ -1,0 +1,145 @@
+{
+  "id": "ex.m3-04.f",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Mirá y escuchá el fragmento en Fa mayor. ¿Qué intervalo hay entre la tercera nota (La4) y la última (Fa5)?",
+  "promptEn": "Look at and listen to the fragment in F major. What interval is there between the third note (A4) and the last note (F5)?",
+  "explanationEs": "De La4 a Fa5 hay seis letras (La-Si-Do-Re-Mi-Fa) y ocho semitonos: sexta menor. El salto amplio contrasta con los grados conjuntos anteriores.",
+  "explanationEn": "From A4 to F5 there are six letters (A-B-C-D-E-F) and eight semitones: a minor sixth. The wide leap contrasts with the preceding stepwise motion.",
+  "difficulty": 1,
+  "lower": {
+    "step": "A",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "F",
+    "accidental": "",
+    "octave": 5
+  },
+  "direction": "melodic",
+  "fragment": {
+    "clef": "treble",
+    "key": "F",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 76,
+    "events": [
+      {
+        "id": "frag.m3-04.f.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.f.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.f.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.f.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.f.5",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Sexta menor",
+    "Sexta mayor",
+    "Quinta justa",
+    "Séptima menor"
+  ],
+  "choicesEn": [
+    "Minor sixth",
+    "Major sixth",
+    "Perfect fifth",
+    "Minor seventh"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-09.g",
+  "skillId": "skill.chord-symbol",
+  "type": "chord",
+  "promptEs": "El acorde suena Sol, Si♭, Re y Fa, de grave a agudo. ¿Qué cifrado latino le corresponde?",
+  "promptEn": "The chord sounds G, B♭, D and F, from low to high. Which American chord symbol matches it?",
+  "explanationEs": "Sol es la fundamental; Sol-Si♭ es una tercera menor, Sol-Re una quinta justa y Sol-Fa una séptima menor. La calidad es menor con séptima menor, así que el cifrado es Solm7. En americano se escribe Gm7.",
+  "explanationEn": "G is the root; G-B♭ is a minor third, G-D a perfect fifth and G-F a minor seventh. The quality is minor with a minor seventh, so the symbol is Gm7. In Latin notation it is written Solm7.",
+  "difficulty": 2,
+  "root": { "step": "G", "accidental": "", "octave": 4 },
+  "quality": "minor7",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": ["Solm7", "Solmaj7", "Sol7"],
+  "choicesEn": ["Gm7", "Gmaj7", "G7"]
+}

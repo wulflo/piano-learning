@@ -1,0 +1,75 @@
+{
+  "id": "ex.m3-04.i",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Mirá y escuchá el acorde de Si disminuido. ¿Qué intervalo hay entre la fundamental (Si4) y la quinta (Fa5)?",
+  "promptEn": "Look at and listen to the B diminished chord. What interval is there between the root (B4) and the fifth (F5)?",
+  "explanationEs": "La tríada disminuida tiene una quinta disminuida: de Si4 a Fa5 hay cinco letras y seis semitonos. Es un tritono, el mismo intervalo que la cuarta aumentada con otra escritura.",
+  "explanationEn": "The diminished triad has a diminished fifth: from B4 to F5 there are five letters and six semitones. It is a tritone, the same interval as the augmented fourth written differently.",
+  "difficulty": 2,
+  "lower": {
+    "step": "B",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "F",
+    "accidental": "",
+    "octave": 5
+  },
+  "direction": "harmonic",
+  "fragment": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "frag.m3-04.i.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Quinta disminuida",
+    "Quinta justa",
+    "Cuarta aumentada",
+    "Sexta menor"
+  ],
+  "choicesEn": [
+    "Diminished fifth",
+    "Perfect fifth",
+    "Augmented fourth",
+    "Minor sixth"
+  ]
+}

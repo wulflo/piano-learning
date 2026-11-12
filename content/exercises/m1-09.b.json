@@ -1,0 +1,24 @@
+{
+  "id": "ex.m1-09.b",
+  "skillId": "skill.tempo",
+  "type": "tempo-term",
+  "promptEs": "¿Qué término de tempo corresponde a 90 BPM?",
+  "explanationEs": "A 90 BPM el tempo es moderato (76-107 BPM): un punto medio, ni lento ni rápido.",
+  "difficulty": 2,
+  "term": "moderato",
+  "bpm": 90,
+  "choices": [
+    "Moderato",
+    "Largo",
+    "Vivace",
+    "Prestissimo"
+  ],
+  "promptEn": "Which tempo term corresponds to 90 BPM?",
+  "explanationEn": "At 90 BPM the tempo is moderato (76-107 BPM): a middle point, neither slow nor fast.",
+  "choicesEn": [
+    "Moderato",
+    "Largo",
+    "Vivace",
+    "Prestissimo"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ex.m1-04.f",
+  "skillId": "skill.note-durations",
+  "type": "rhythm-completion",
+  "promptEs": "En 4/4 hay una negra, un silencio y una blanca. ¿Qué silencio completa el compás?",
+  "promptEn": "In 4/4 there is a quarter note, a rest, and a half note. Which rest completes the measure?",
+  "explanationEs": "La negra y la blanca suman tres tiempos. Falta un tiempo de silencio, que se escribe con un silencio de negra.",
+  "explanationEn": "The quarter note and the half note add up to three beats. One beat of rest is missing, which is written with a quarter rest.",
+  "difficulty": 2,
+  "timeSignature": { "numerator": 4, "denominator": 4 },
+  "pattern": [
+    { "duration": "quarter", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "quarter", "dots": 0, "tuplet": "none", "rest": true },
+    { "duration": "half", "dots": 0, "tuplet": "none", "rest": false }
+  ],
+  "missingIndex": 1,
+  "choices": [
+    "Silencio de blanca",
+    "Silencio de negra",
+    "Silencio de corchea",
+    "Silencio de redonda"
+  ],
+  "choicesEn": [
+    "Half rest",
+    "Quarter rest",
+    "Eighth rest",
+    "Whole rest"
+  ]
+}

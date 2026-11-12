@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-11.b",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de tonos enteros de Do?",
+  "promptEn": "How do you spell the C whole-tone scale?",
+  "explanationEs": "La escala de tonos enteros de Do se deletrea con seis notas separadas por tonos enteros: Do, Re, Mi, Fa sostenido, Sol sostenido y La sostenido.",
+  "explanationEn": "The C whole-tone scale is spelled with six notes separated by whole tones: C, D, E, F♯, G♯, and A♯.",
+  "difficulty": 2,
+  "tonic": "C",
+  "mode": "whole-tone",
+  "choices": [
+    "C D E F# G# A# C",
+    "C D F G A C",
+    "C D E F G A B C"
+  ],
+  "choicesEn": [
+    "C D E F# G# A# C",
+    "C D F G A C",
+    "C D E F G A B C"
+  ]
+}

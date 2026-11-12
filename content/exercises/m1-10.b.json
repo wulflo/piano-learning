@@ -1,0 +1,24 @@
+{
+  "id": "ex.m1-10.b",
+  "skillId": "skill.dynamics-articulation",
+  "type": "dynamic-mark",
+  "promptEs": "Escuchá el Do4 muy fuerte. ¿Qué marca dinámica le corresponde?",
+  "explanationEs": "La nota suena muy fuerte: corresponde a ff (fortissimo). En la app se representa con una velocity alta, dentro del rango de ff.",
+  "difficulty": 1,
+  "marking": "ff",
+  "velocity": 112,
+  "choices": [
+    "ff",
+    "f",
+    "mp",
+    "pp"
+  ],
+  "promptEn": "Listen to C4 very loud. Which dynamic mark does it match?",
+  "explanationEn": "The note sounds very loud: it matches ff (fortissimo). In the app it is represented with a high velocity, inside the ff range.",
+  "choicesEn": [
+    "ff",
+    "f",
+    "mp",
+    "pp"
+  ]
+}

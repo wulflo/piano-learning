@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-12.a",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "Escribí las notas de Do maj9/Mi de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of Cmaj9/E from low to high, separated by spaces.",
+  "explanationEs": "Mi es la tercera de Do maj9, así que el acorde está en primera inversión: Mi-Sol-Si-Do-Re. La novena Re queda por encima de la fundamental Do y no se omite ninguna nota.",
+  "explanationEn": "E is the third of Cmaj9, so the chord is in first inversion: E-G-B-C-D. The ninth D sits above the root C and no note is omitted.",
+  "difficulty": 4,
+  "root": { "step": "C", "accidental": "", "octave": 4 },
+  "quality": "major9",
+  "slash": { "step": "E", "accidental": "", "octave": 4 },
+  "inversion": 1,
+  "ask": "notes"
+}

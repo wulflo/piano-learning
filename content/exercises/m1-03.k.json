@@ -1,0 +1,15 @@
+{
+  "id": "ex.m1-03.k",
+  "skillId": "skill.accidentals",
+  "type": "interval",
+  "promptEs": "¿Qué distancia hay entre Si♭4 y Do5?",
+  "promptEn": "What is the distance between B♭4 and C5?",
+  "explanationEs": "Si♭4 y Do5 están separados por dos semitonos: hay un tono. Si♭ es la tecla negra inmediata a la izquierda de Si.",
+  "explanationEn": "B♭4 and C5 are two semitones apart: it is a tone. B♭ is the black key immediately to the left of B.",
+  "difficulty": 2,
+  "lower": { "step": "B", "accidental": "b", "octave": 4 },
+  "upper": { "step": "C", "accidental": "", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Semitono", "Tono", "Tono y medio", "Dos tonos"],
+  "choicesEn": ["Semitone", "Tone", "Tone and a half", "Two tones"]
+}

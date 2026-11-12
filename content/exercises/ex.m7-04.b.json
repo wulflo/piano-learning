@@ -1,0 +1,159 @@
+{
+  "id": "ex.m7-04.b",
+  "skillId": "skill.accompaniment",
+  "type": "accompaniment",
+  "promptEs": "¿Qué patrón de acompañamiento hay en el compás 2?",
+  "promptEn": "Which accompaniment pattern is in measure 2?",
+  "explanationEs": "El compás 2 mantiene el mismo patrón de acordes redondos, ahora sobre Fa. La figura no cambia: un ataque por compás y resonancia hasta el compás siguiente.",
+  "explanationEn": "Measure 2 keeps the same whole-note chord pattern, now on F. The figure does not change: one attack per measure and ring until the next measure.",
+  "difficulty": 1,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 72,
+    "events": [
+      {
+        "id": "ex.m7-04.b.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-04.b.2",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-04.b.3",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-04.b.4",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "ask": "pattern",
+  "measure": 2,
+  "choices": [
+    "Acordes redondos",
+    "Acordes blancos",
+    "Acordes en negras"
+  ],
+  "choicesEn": [
+    "Whole-note chords",
+    "Half-note chords",
+    "Quarter-note chords"
+  ]
+}

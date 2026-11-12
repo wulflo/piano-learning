@@ -1,0 +1,1321 @@
+{
+  "id": "lesson.m6-05",
+  "moduleId": "M6",
+  "slug": "contrapunto-basico",
+  "titleEs": "Contrapunto básico",
+  "titleEn": "Basic counterpoint",
+  "summaryEs": "Cómo se mueven dos voces independientes, qué es el movimiento paralelo, similar, contrario y oblicuo, y qué reglas simples evitan las quintas y octavas paralelas.",
+  "summaryEn": "How two independent voices move, what parallel, similar, contrary and oblique motion are, and which simple rules avoid parallel fifths and octaves.",
+  "objectivesEs": [
+    "Nombrar los cuatro tipos de movimiento entre dos voces",
+    "Reconocer quintas y octavas paralelas al escuchar y leer",
+    "Aplicar la regla de preferir el movimiento contrario y las consonancias"
+  ],
+  "objectivesEn": [
+    "Name the four types of motion between two voices",
+    "Recognise parallel fifths and octaves by ear and in the score",
+    "Apply the rule of preferring contrary motion and consonances"
+  ],
+  "minutes": 18,
+  "prerequisites": [
+    "lesson.m6-04"
+  ],
+  "skillIds": [
+    "skill.counterpoint"
+  ],
+  "exerciseIds": [
+    "ex.m6-05.a",
+    "ex.m6-05.b",
+    "ex.m6-05.c",
+    "ex.m6-05.d",
+    "ex.m6-05.e",
+    "ex.m6-05.f",
+    "ex.m6-05.g",
+    "ex.m6-05.h",
+    "ex.m6-05.i",
+    "ex.m6-05.j",
+    "ex.m6-05.k",
+    "ex.m6-05.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m6-05.contrapunto",
+      "kind": "text",
+      "titleEs": "Qué es el contrapunto",
+      "titleEn": "What counterpoint is",
+      "bodyEs": "El contrapunto combina dos o más voces independientes, es decir, melodías que suenan a la vez. Cada voz tiene su propio contorno y su propio ritmo, y ninguna se limita a acompañar a la otra: si quitás una, la otra sigue teniendo sentido. En el contrapunto básico se trabaja con dos voces y se cuidan dos cosas: que cada línea sea cantable y que los intervalos entre ellas suenen bien en los puntos de encuentro. Las invenciones de Bach y la polifonía vocal de Palestrina son ejemplos de dominio público donde estas reglas se escuchan en acción.",
+      "bodyEn": "Counterpoint combines two or more independent melodies sounding at once. Each voice has its own contour and rhythm, and neither merely accompanies the other: if you remove one, the other still makes sense. Basic counterpoint works with two voices and takes care of two things: that each line is singable and that the intervals between them sound well at the meeting points. Bach’s inventions and Palestrina’s vocal polyphony are public-domain examples where these rules can be heard in action."
+    },
+    {
+      "id": "sec.m6-05.movimiento",
+      "kind": "text",
+      "titleEs": "Los cuatro movimientos de las voces",
+      "titleEn": "The four kinds of voice motion",
+      "bodyEs": "Cuando dos voces pasan de un intervalo al siguiente pueden hacer cuatro cosas. En el movimiento paralelo avanzan en la misma dirección y conservan el mismo intervalo: Do-Mi seguido de Re-Fa. En el movimiento similar avanzan en la misma dirección, pero el intervalo cambia: Do-Mi seguido de Re-Sol. En el movimiento contrario una voz sube y la otra baja: Do-Sol seguido de Re-Mi. En el movimiento oblicuo una voz se mueve y la otra repite la misma nota. Reconocer estas cuatro relaciones es el primer paso para analizar y escribir contrapunto.",
+      "bodyEn": "When two voices move from one interval to the next they can do four things. In parallel motion they move in the same direction and keep the same interval: C-E followed by D-F. In similar motion they move in the same direction, but the interval changes: C-E followed by D-G. In contrary motion one voice rises and the other falls: C-G followed by D-E. In oblique motion one voice moves and the other repeats the same note. Recognising these four relationships is the first step in analysing and writing counterpoint."
+    },
+    {
+      "id": "sec.m6-05.demo-contrapunto",
+      "kind": "score",
+      "titleEs": "Demo: contrapunto a dos voces",
+      "titleEn": "Demo: two-voice counterpoint",
+      "bodyEs": "La voz superior y la voz inferior conversan durante seis compases. Escuchá cómo a veces se mueven en sentido contrario, a veces una se queda mientras la otra camina y cómo evitan llegar juntas a una quinta o una octava por movimiento paralelo. En el último compás las dos voces se encuentran en Do, pero llegan por movimiento contrario: la superior baja y la inferior sube. Ese final estable es el objetivo del contrapunto básico.",
+      "bodyEn": "The upper and lower voices converse for six bars. Listen for how they sometimes move in opposite directions, sometimes one stays while the other walks, and how they avoid arriving together on a fifth or an octave by parallel motion. In the last bar the two voices meet on C, but they arrive by contrary motion: the upper voice falls and the lower rises. That stable ending is the goal of basic counterpoint.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "sec.m6-05.demo-contrapunto.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.2",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.3",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.4",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.5",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.6",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.7",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.8",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.9",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.10",
+            "measure": 5,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.11",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.12",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.13",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.14",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.15",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.16",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.17",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.18",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.19",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.20",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.21",
+            "measure": 5,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-contrapunto.22",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-05.reglas",
+      "kind": "text",
+      "titleEs": "Reglas simples del contrapunto",
+      "titleEn": "Simple counterpoint rules",
+      "bodyEs": "La regla más famosa prohíbe las quintas y las octavas paralelas: dos voces no deben avanzar en la misma dirección conservando una quinta o una octava, porque suenan huecas y pierden independencia. Después se prefiere el movimiento contrario, sobre todo para llegar a la tónica o a un intervalo perfecto. En los pulsos fuertes conviene usar consonancias (terceras, sextas, quintas y octavas bien preparadas) y dejar las disonancias para los pulsos débiles o para un paso controlado. También se evita que las voces se crucen sin necesidad y se busca que cada una tenga un contorno cantable. Estas reglas son guías para principiantes, no una lista de prohibiciones absolutas: la música de Palestrina y Bach las usa con flexibilidad.",
+      "bodyEn": "The most famous rule forbids parallel fifths and parallel octaves: two voices should not move in the same direction while keeping a fifth or an octave, because they sound hollow and lose independence. Next, contrary motion is preferred, especially when arriving at the tonic or at a perfect interval. On strong beats it is better to use consonances (thirds, sixths, fifths and octaves that are properly prepared) and leave dissonances for weak beats or for a controlled step. Voices should also avoid unnecessary crossing, and each should have a singable contour. These rules are guides for beginners, not a list of absolute prohibitions: the music of Palestrina and Bach uses them flexibly."
+    },
+    {
+      "id": "sec.m6-05.demo-quintas",
+      "kind": "score",
+      "titleEs": "Demo: qué no hacer, quintas paralelas",
+      "titleEn": "Demo: what not to do, parallel fifths",
+      "bodyEs": "Las dos voces suben juntas y el intervalo entre ellas es siempre una quinta: Do-Sol, Re-La, Mi-Si, Fa-Do. Escuchá cómo el sonido se vuelve hueco y las dos líneas parecen fundirse. Esta es la quinta paralela que las reglas piden evitar. Una solución sencilla sería mover la voz inferior en sentido contrario, por ejemplo Do-Sol hacia Re-Mi, y así recuperar la independencia.",
+      "bodyEn": "Both voices rise together and the interval between them is always a fifth: C-G, D-A, E-B, F-C. Listen for how the sound becomes hollow and the two lines seem to merge. This is the parallel fifth that the rules ask you to avoid. A simple solution would be to move the lower voice in the opposite direction, for example C-G to D-E, and so recover the independence.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "sec.m6-05.demo-quintas.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-quintas.2",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-quintas.3",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-quintas.4",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-quintas.5",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-quintas.6",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-quintas.7",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m6-05.demo-quintas.8",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 2,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m6-05.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejemplos para analizar el movimiento",
+      "titleEn": "Twelve examples to analyse the motion",
+      "bodyEs": "Cada ejercicio muestra dos voces y te pide identificar cómo se mueven o si se cumple la regla de las quintas y octavas. Escuchá con el botón «Escuchar melodía completa» y seguí la partitura. Para el movimiento, compará la dirección de las dos voces y fijate si el intervalo cambia. Para las reglas, buscá dos intervalos perfectos seguidos que avancen en la misma dirección.",
+      "bodyEn": "Each exercise shows two voices and asks you to identify how they move or whether the rule on fifths and octaves is kept. Listen with the “Listen to the full melody” button and follow the score. For the motion, compare the direction of the two voices and check whether the interval changes. For the rules, look for two perfect intervals in a row moving in the same direction."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tocá las dos voces y escuchá su independencia",
+    "titleEn": "Play both voices and listen to their independence",
+    "instructionsEs": "Tocá la demo de contrapunto a 80 BPM. Empezá con la voz superior en la mano derecha y la inferior en la izquierda; después invertí las manos para escuchar cada línea desde el otro registro. En los compases donde una voz se queda, mantené la tecla mientras la otra se mueve. Antes de terminar, cantá la voz inferior mientras tocás la superior.",
+    "instructionsEn": "Play the counterpoint demo at 80 BPM. Start with the upper voice in the right hand and the lower voice in the left; then swap hands to hear each line from the other register. In the bars where one voice stays, hold the key while the other moves. Before finishing, sing the lower voice while playing the upper one.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano derecha en posición de Do central para la voz inferior y mano izquierda una octava abajo; al invertir, la mano izquierda toma la voz superior. Mantené los dedos cerca de las teclas y no levantes la muñeca cuando una voz se queda sonando. El objetivo es que las dos líneas se escuchen separadas, no como un bloque.",
+    "fingeringEn": "Right hand around middle C for the lower voice and left hand an octave below; when you swap, the left hand takes the upper voice. Keep the fingers close to the keys and do not lift the wrist when one voice keeps sounding. The goal is for the two lines to be heard separately, not as a block.",
+    "tempoBpm": 80,
+    "checklistEs": [
+      "Toqué las dos voces sin perder el pulso",
+      "Mantuve la voz que se queda mientras la otra se movía",
+      "Canté una voz mientras tocaba la otra y escuché su independencia"
+    ],
+    "checklistEn": [
+      "I played both voices without losing the pulse",
+      "I held the voice that stays while the other moved",
+      "I sang one voice while playing the other and heard their independence"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 80,
+      "events": [
+        {
+          "id": "sec.m6-05.demo-contrapunto.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.2",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.3",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.4",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.5",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.6",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.7",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.8",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.9",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.10",
+          "measure": 5,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.11",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.12",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 2,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.13",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 2,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.14",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 2,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.15",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 2,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.16",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 2,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.17",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 2,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.18",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 2,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.19",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 2,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.20",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 2,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.21",
+          "measure": 5,
+          "beat": 2,
+          "value": {
+            "duration": "half",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 2,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m6-05.demo-contrapunto.22",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 2,
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

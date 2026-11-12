@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-03.j",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de Fa mayor suena Do-Fa-La, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The F major chord sounds C-F-A, from low to high. What inversion is it?",
+  "explanationEs": "El acorde de Fa mayor es Fa-La-Do. El bajo es Do, la quinta, por lo que está en segunda inversión, Fa/Do. Las notas son las mismas que en estado fundamental, pero el bajo cambió.",
+  "explanationEn": "The F major chord is F-A-C. The bass is C, the fifth, so it is in second inversion, F/C. The notes are the same as in root position, but the bass changed.",
+  "difficulty": 3,
+  "root": { "step": "F", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "inversion": 2,
+  "ask": "inversion",
+  "choices": ["estado fundamental", "primera inversión", "segunda inversión"],
+  "choicesEn": ["root position", "first inversion", "second inversion"]
+}

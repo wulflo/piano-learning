@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-02.l",
+  "skillId": "skill.roman-numeral",
+  "type": "chord",
+  "promptEs": "En Si♭ mayor, ¿qué acorde forma el numeral vii°?",
+  "promptEn": "In B♭ major, which chord does the numeral vii° form?",
+  "explanationEs": "El séptimo grado de Si♭ mayor es La. Su tríada La-Do-Mi♭ tiene quinta disminuida, así que el numeral vii° corresponde al acorde Ladim.",
+  "explanationEn": "The seventh degree of B♭ major is A. Its triad A-C-E♭ has a diminished fifth, so the numeral vii° corresponds to the chord Adim.",
+  "difficulty": 3,
+  "root": {
+    "step": "A",
+    "accidental": "",
+    "octave": 4
+  },
+  "quality": "diminished",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Ladim",
+    "Lam",
+    "La",
+    "La7"
+  ],
+  "choicesEn": [
+    "Adim",
+    "Am",
+    "A",
+    "A7"
+  ]
+}

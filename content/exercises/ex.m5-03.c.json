@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-03.c",
+  "skillId": "skill.harmonic-function",
+  "type": "harmonic-function",
+  "promptEs": "En Re mayor, ¿qué función cumple el acorde La (La, Do♯, Mi)?",
+  "promptEn": "In D major, what function does the chord A (A, C♯, E) fulfil?",
+  "explanationEs": "En Re mayor, el grado V es La. La dominante contiene la sensible Do♯ y crea la tensión que resuelve en la tónica Re.",
+  "explanationEn": "In D major, degree V is A. The dominant contains the leading tone C♯ and creates the tension that resolves to the tonic D.",
+  "difficulty": 2,
+  "key": "D",
+  "mode": "major",
+  "degree": 5,
+  "choices": [
+    "Tónica (T)",
+    "Dominante (D)",
+    "Subdominante (S)"
+  ],
+  "choicesEn": [
+    "Tonic (T)",
+    "Dominant (D)",
+    "Subdominant (S)"
+  ]
+}

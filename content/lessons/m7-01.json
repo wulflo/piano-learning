@@ -1,0 +1,736 @@
+{
+  "id": "lesson.m7-01",
+  "moduleId": "M7",
+  "slug": "independencia-de-manos",
+  "titleEs": "Independencia de manos",
+  "titleEn": "Hand independence",
+  "summaryEs": "Cómo separar el ataque de cada mano: estudiar por manos, sostener una mientras la otra se mueve y unir las dos sin tensión.",
+  "summaryEn": "How to separate each hand’s attack: practise hands alone, hold one while the other moves, and join both without tension.",
+  "objectivesEs": [
+    "Reconocer qué mano ataca en cada pulso de una partitura de dos manos",
+    "Tocar patrones en los que una mano sostiene y la otra se mueve",
+    "Unir las manos a tempo lento, sin tensión ni dolor"
+  ],
+  "objectivesEn": [
+    "Recognise which hand attacks on each beat of a two-hand score",
+    "Play patterns where one hand holds while the other moves",
+    "Join both hands at a slow tempo, without tension or pain"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m6-06"
+  ],
+  "skillIds": [
+    "skill.hand-independence"
+  ],
+  "exerciseIds": [
+    "ex.m7-01.a",
+    "ex.m7-01.b",
+    "ex.m7-01.c",
+    "ex.m7-01.d",
+    "ex.m7-01.e",
+    "ex.m7-01.f",
+    "ex.m7-01.g",
+    "ex.m7-01.h",
+    "ex.m7-01.i",
+    "ex.m7-01.j",
+    "ex.m7-01.k",
+    "ex.m7-01.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m7-01.independencia",
+      "kind": "text",
+      "titleEs": "Qué es la independencia de manos",
+      "titleEn": "What hand independence is",
+      "bodyEs": "La independencia de manos no significa que cada mano haga lo que quiera: significa que cada una puede cumplir su propio ritmo y su propia articulación sin arrastrar a la otra. En la partitura cada nota pertenece a una mano, y saber qué mano ataca en cada pulso es el primer paso para leer y tocar música a dos manos. Al principio conviene exagerar la diferencia: una mano sostiene una nota larga mientras la otra camina, o una toca legato mientras la otra toca staccato. La coordinación llega con repeticiones cortas y lentas, no con fuerza.",
+      "bodyEn": "Hand independence does not mean each hand does whatever it wants: it means each hand can keep its own rhythm and articulation without dragging the other along. In the score every note belongs to one hand, and knowing which hand attacks on each beat is the first step to reading and playing two-hand music. At first it helps to exaggerate the difference: one hand holds a long note while the other walks, or one plays legato while the other plays staccato. Coordination comes from short, slow repetitions, not from force."
+    },
+    {
+      "id": "sec.m7-01.estudio",
+      "kind": "text",
+      "titleEs": "Cómo estudiar sin tensión",
+      "titleEn": "How to practise without tension",
+      "bodyEs": "Estudiá primero la mano derecha y después la mano izquierda, por separado, con el metrónomo lento y contando en voz alta. Cuando cada mano salga sin dudar, uní las dos durante un compás y volvé a separarlas si aparece rigidez. Mantené los hombros bajos, las muñecas libres y los dedos cerca de las teclas; la fuerza sale del peso del brazo, no de apretar. Hacé pausas cortas y pará enseguida si sentís dolor, tensión o cansancio. La meta no es tocar rápido, sino que cada mano llegue al pulso con la misma claridad cuando están juntas.",
+      "bodyEn": "Practise each hand alone first, with a slow metronome and counting out loud. When each hand is secure, join them for one measure and separate them again if stiffness appears. Keep your shoulders down, your wrists free and your fingers close to the keys; power comes from the weight of the arm, not from squeezing. Take short breaks and stop at once if you feel pain, tension or fatigue. The goal is not speed but for each hand to reach the beat with the same clarity when they are together."
+    },
+    {
+      "id": "sec.m7-01.demo-sostener",
+      "kind": "score",
+      "titleEs": "Demo: una mano sostiene, la otra camina",
+      "titleEn": "Demo: one hand holds, the other walks",
+      "bodyEs": "La mano derecha sostiene un Do5 redondo mientras la izquierda toca cuatro negras: Do4, Mi4, Sol4 y Mi4. Escuchá que la derecha no vuelve a atacar en los pulsos 2, 3 y 4; solo la izquierda empieza notas nuevas. Ese contraste entre sostener y moverse es la base de la independencia.",
+      "bodyEn": "The right hand holds a whole-note C5 while the left hand plays four quarter notes: C4, E4, G4 and E4. Listen for how the right hand does not attack again on beats 2, 3 and 4; only the left hand begins new notes. That contrast between holding and moving is the foundation of independence.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "sec.m7-01.demo-sostener.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-01.demo-sostener.2",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-01.demo-sostener.3",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-01.demo-sostener.4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-01.demo-sostener.5",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m7-01.demo-alternar",
+      "kind": "score",
+      "titleEs": "Demo: manos alternadas",
+      "titleEn": "Demo: alternating hands",
+      "bodyEs": "Cada blanca cambia de mano: derecha, izquierda, derecha, izquierda. El ataque se mueve de un lado al otro sin superponerse, y cada mano tiene tiempo de preparar la siguiente nota. Practicá esta alternancia contando «uno, dos, tres, cuatro» y sintiendo cómo el peso pasa de un brazo al otro.",
+      "bodyEn": "Each half note changes hands: right, left, right, left. The attack moves from one side to the other without overlapping, and each hand has time to prepare its next note. Practise this alternation counting “one, two, three, four” and feeling the weight move from one arm to the other.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "sec.m7-01.demo-alternar.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-01.demo-alternar.2",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-01.demo-alternar.3",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-01.demo-alternar.4",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m7-01.demo-juntas",
+      "kind": "score",
+      "titleEs": "Demo: ataques simultáneos",
+      "titleEn": "Demo: simultaneous attacks",
+      "bodyEs": "En el primer compás las dos manos atacan juntas en los pulsos 1 y 3; en el segundo, las dos sostienen una blanca desde el pulso 1. Escuchá cómo el ataque simultáneo no es un choque: las dos notas suenan como un solo gesto y después cada mano sigue su propia duración.",
+      "bodyEn": "In the first measure both hands attack together on beats 1 and 3; in the second, both hold a half note from beat 1. Listen for how a simultaneous attack is not a collision: the two notes sound as a single gesture and then each hand continues its own duration.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "sec.m7-01.demo-juntas.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-01.demo-juntas.2",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-01.demo-juntas.3",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-01.demo-juntas.4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-01.demo-juntas.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-01.demo-juntas.6",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "half",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m7-01.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ataques para identificar la mano",
+      "titleEn": "Twelve attacks to identify the hand",
+      "bodyEs": "Cada ejercicio muestra una partitura de dos manos y pregunta qué mano ataca en un compás y un pulso concretos. Mirá las dos voces por separado: la mano derecha aparece en el pentagrama superior y la izquierda en el inferior. Recordá que una nota larga no vuelve a atacar y que las dos manos pueden atacar al mismo tiempo.",
+      "bodyEn": "Each exercise shows a two-hand score and asks which hand attacks in a specific measure and beat. Look at the two voices separately: the right hand appears on the upper staff and the left hand on the lower one. Remember that a long note does not attack again and that both hands can attack at the same time."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Uní las manos con pulso lento",
+    "titleEn": "Join both hands at a slow pulse",
+    "instructionsEs": "A 60 BPM, tocá primero la mano derecha sola y después la izquierda sola. Cuando cada una salga sin dudar, uní las dos: en el compás 1 la izquierda hace cuatro negras mientras la derecha sostiene un Do5; en el compás 2 se invierten los papeles. Mantené los hombros bajos y las muñecas libres. Si aparece dolor, tensión o cansancio, pará y descansá: la independencia se construye con repeticiones cortas, no con fuerza.",
+    "instructionsEn": "At 60 BPM, play the right hand alone first and then the left hand alone. When each one is secure, join them: in measure 1 the left hand plays four quarter notes while the right hand holds a C5; in measure 2 the roles swap. Keep your shoulders down and your wrists free. If pain, tension or fatigue appears, stop and rest: independence is built with short repetitions, not with force.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano derecha: 1-2-3-2 para Do5-Mi5-Sol5-Mi5. Mano izquierda: 5-3-2-3 para Do4-Mi4-Sol4-Mi4. Mantené los dedos curvados y cerca de las teclas, sin levantar los hombros; el peso del brazo pasa al dedo que toca y se libera al terminar cada nota.",
+    "fingeringEn": "Right hand: 1-2-3-2 for C5-E5-G5-E5. Left hand: 5-3-2-3 for C4-E4-G4-E4. Keep your fingers curved and close to the keys without lifting your shoulders; the weight of the arm passes into the playing finger and releases after each note.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué cada mano sola antes de unirlas",
+      "Mantuve el pulso de 60 BPM sin tensar hombros ni muñecas",
+      "Paré si apareció dolor o tensión y retomé más lento"
+    ],
+    "checklistEn": [
+      "I played each hand alone before joining them",
+      "I kept the 60 BPM pulse without tensing my shoulders or wrists",
+      "I stopped if pain or tension appeared and resumed more slowly"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "sec.m7-01.tarea.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-01.tarea.2",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-01.tarea.3",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-01.tarea.4",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-01.tarea.5",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-01.tarea.6",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-01.tarea.7",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-01.tarea.8",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-01.tarea.9",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-01.tarea.10",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

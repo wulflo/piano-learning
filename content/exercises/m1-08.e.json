@@ -1,0 +1,49 @@
+{
+  "id": "ex.m1-08.e",
+  "skillId": "skill.syncopation",
+  "type": "anacrusis-completion",
+  "promptEs": "La anacrusa dura dos tiempos. ¿Qué figura completa el compás final?",
+  "explanationEs": "La anacrusa de dos tiempos deja dos tiempos para el compás final: una blanca completa el compás.",
+  "difficulty": 1,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "pickup": [
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "pattern": [
+    {
+      "duration": "half",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 0,
+  "choices": [
+    "Blanca",
+    "Negra",
+    "Redonda",
+    "Corchea"
+  ],
+  "promptEn": "The anacrusis lasts two beats. Which note value completes the final measure?",
+  "explanationEn": "The two-beat anacrusis leaves two beats for the final measure: a half note completes the measure.",
+  "choicesEn": [
+    "Half note",
+    "Quarter note",
+    "Whole note",
+    "Eighth note"
+  ]
+}

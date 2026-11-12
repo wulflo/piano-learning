@@ -1,0 +1,30 @@
+{
+  "id": "ex.m7-10.j",
+  "skillId": "skill.ear-progression",
+  "type": "ear-progression",
+  "promptEs": "¿Qué grados forman la rueda de acordes que suena?",
+  "promptEn": "Which degrees form the chord wheel you hear?",
+  "explanationEs": "La rueda I–vi–ii–V en Sol mayor es Sol–Mim–Lam–Re. La tónica cambia, pero los grados y el dibujo de la rueda son los mismos.",
+  "explanationEn": "The I–vi–ii–V wheel in G major is G–Em–Am–D. The tonic changes, but the degrees and the shape of the wheel stay the same.",
+  "difficulty": 2,
+  "key": "G",
+  "mode": "major",
+  "degrees": [
+    "I",
+    "vi",
+    "ii",
+    "V"
+  ],
+  "choices": [
+    "I vi ii V",
+    "I IV V I",
+    "I V vi IV",
+    "ii V I vi"
+  ],
+  "choicesEn": [
+    "I vi ii V",
+    "I IV V I",
+    "I V vi IV",
+    "ii V I vi"
+  ]
+}

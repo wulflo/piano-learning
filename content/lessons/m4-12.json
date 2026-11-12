@@ -1,0 +1,285 @@
+{
+  "id": "lesson.m4-12",
+  "moduleId": "M4",
+  "slug": "extensiones-con-bajo",
+  "titleEs": "Extensiones con bajo: 9, 11 y 13 sobre un slash",
+  "titleEn": "Extensions with a bass: 9, 11 and 13 over a slash",
+  "summaryEs": "Cómo construir acordes de novena, oncena y trecena con un bajo indicado, cómo leer el cifrado con barra y cómo comprobar que el voicing conserva todas las tensiones y sube desde el bajo.",
+  "summaryEn": "How to build ninth, eleventh and thirteenth chords with a specified bass, how to read slash notation and how to check that the voicing keeps every tension and rises from the bass.",
+  "objectivesEs": [
+    "Construir acordes extendidos de 9, 11 y 13 desde un bajo indicado con barra",
+    "Reconocer el grado que ocupa el bajo y la inversión resultante",
+    "Leer y escribir el cifrado latino y americano de un acorde extendido con bajo",
+    "Comprobar que el voicing sube desde el bajo y que no faltan tensiones"
+  ],
+  "objectivesEn": [
+    "Build extended 9, 11 and 13 chords from a bass indicated with a slash",
+    "Recognize which degree sits in the bass and the resulting inversion",
+    "Read and write Latin and American symbols for extended slash chords",
+    "Check that the voicing rises from the bass and that no tensions are missing"
+  ],
+  "minutes": 20,
+  "prerequisites": [
+    "lesson.m4-11"
+  ],
+  "skillIds": [
+    "skill.chord-extension",
+    "skill.chord-slash"
+  ],
+  "exerciseIds": [
+    "ex.m4-12.a",
+    "ex.m4-12.b",
+    "ex.m4-12.c",
+    "ex.m4-12.d",
+    "ex.m4-12.e",
+    "ex.m4-12.f",
+    "ex.m4-12.g",
+    "ex.m4-12.h",
+    "ex.m4-12.i",
+    "ex.m4-12.j",
+    "ex.m4-12.k",
+    "ex.m4-12.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m4-12.intro",
+      "kind": "text",
+      "titleEs": "La extensión no cambia el bajo",
+      "titleEn": "The extension does not change the bass",
+      "bodyEs": "En M4-05 viste que la novena, la oncena y la trecena son tensiones que se apilan sobre la séptima. En M4-11 viste que el bajo decide la inversión y que un cifrado con barra fija la nota más grave. Ahora combinamos las dos ideas: el acorde extendido conserva todas sus tensiones y el bajo sigue siendo exactamente la nota que indica la barra. Si el cifrado dice Do maj9/Mi, el acorde es Do maj9 y el bajo es Mi; no es un acorde distinto ni una tríada con una nota agregada. La extensión aporta color y el bajo aporta posición. Las dos cosas se leen del mismo cifrado y las dos tienen que aparecer en el voicing.",
+      "bodyEn": "In M4-05 you saw that the ninth, eleventh and thirteenth are tensions stacked above the seventh. In M4-11 you saw that the bass decides the inversion and that a symbol with a slash fixes the lowest note. Now we combine both ideas: the extended chord keeps every tension and the bass is still exactly the note after the slash. If the symbol says Cmaj9/E, the chord is Cmaj9 and the bass is E; it is not a different chord or a triad with an added note. The extension provides colour and the bass provides position. Both are read from the same symbol and both must appear in the voicing."
+    },
+    {
+      "id": "sec.m4-12.construir",
+      "kind": "text",
+      "titleEs": "Construir el voicing completo",
+      "titleEn": "Building the complete voicing",
+      "bodyEs": "El procedimiento tiene cuatro pasos. Primero, construí el acorde completo desde la fundamental: 1-3-5-7-9-11-13. Una novena tiene cinco notas, una oncena seis y una trecena siete. Segundo, ubicá el grado del bajo: si la barra trae la tercera, el bajo es el grado 3; si trae la séptima, es el grado 7. Tercero, poné esa nota abajo y apilá las demás por altura, sin saltarte ninguna. Cuarto, comprobá que el bajo sea la nota más grave, que estén todas las notas y que no haya dobles alteraciones. Por ejemplo, Do maj9/E se construye Do-Mi-Sol-Si-Re y, con Mi en el bajo, queda Mi-Sol-Si-Do-Re. Re m9/Do se construye Re-Fa-La-Do-Mi y, con Do en el bajo, queda Do-Re-Mi-Fa-La. Fijate que la novena Re o Mi queda por encima de la fundamental: es un intervalo compuesto y no se toca pegado a la raíz.",
+      "bodyEn": "The procedure has four steps. First, build the complete chord from the root: 1-3-5-7-9-11-13. A ninth has five notes, an eleventh six and a thirteenth seven. Second, locate the bass degree: if the slash brings the third, the bass is degree 3; if it brings the seventh, it is degree 7. Third, put that note at the bottom and stack the rest by height, without skipping any. Fourth, check that the bass is the lowest note, that every note is present and that there are no double accidentals. For example, Cmaj9/E is built C-E-G-B-D and, with E in the bass, becomes E-G-B-C-D. Dm9/C is built D-F-A-C-E and, with C in the bass, becomes C-D-E-F-A. Notice that the ninth D or E sits above the root: it is a compound interval and is not played right next to the root."
+    },
+    {
+      "id": "sec.m4-12.cifrado",
+      "kind": "text",
+      "titleEs": "Leer y escribir el cifrado",
+      "titleEn": "Reading and writing the symbol",
+      "bodyEs": "El cifrado de un acorde extendido con bajo se arma en tres partes: fundamental, calidad con extensión y bajo después de la barra. En cifrado latino, Do maj9/Mi; en americano, Cmaj9/E. La barra va después de la calidad, nunca en medio: Do/Mi maj9 es incorrecto. Para leerlo, construí primero el acorde desde la fundamental y después rotá el orden hasta que el bajo quede abajo. Para escribirlo, identificá la fundamental por la nota más grave del acorde completo, la calidad por la tercera, la séptima y la tensión, y el bajo por la nota que suena abajo. Una trecena no lista sus siete notas en el símbolo: el cifrado resume la pila completa y el intérprete decide las omisiones. En estos ejercicios no omitimos ninguna nota, para que puedas comprobar la construcción completa.",
+      "bodyEn": "The symbol of an extended slash chord has three parts: root, quality with extension and bass after the slash. In Latin notation, Domaj9/Mi; in American notation, Cmaj9/E. The slash goes after the quality, never in the middle: Do/Mi maj9 is wrong. To read it, first build the chord from the root and then rotate the order until the bass is at the bottom. To write it, identify the root from the lowest note of the complete chord, the quality from the third, the seventh and the tension, and the bass from the note sounding at the bottom. A thirteenth does not list its seven notes in the symbol: the symbol summarizes the full stack and the performer decides the omissions. In these exercises we omit nothing, so you can check the complete construction."
+    },
+    {
+      "id": "sec.m4-12.demo",
+      "kind": "score",
+      "titleEs": "Cuatro extensiones con bajo",
+      "titleEn": "Four extensions with a bass",
+      "bodyEs": "Escuchá y mirá cuatro acordes extendidos con bajo, uno por compás. Do maj9/Mi (Mi-Sol-Si-Do-Re) tiene la tercera en el bajo y una novena mayor. Re m9/Do (Do-Re-Mi-Fa-La) tiene la séptima en el bajo y una novena menor. Sol11/Fa (Fa-Sol-La-Si-Do-Re) tiene la séptima en el bajo y suma la oncena Do, que choca con la tercera Si y le da un color suspendido. La♭maj13/Do (Do-Mi♭-Sol-La♭-Si♭-Re♭-Fa) tiene la tercera en el bajo y las siete notas del acorde. Compará cómo cambia el color cuando el bajo es la tercera o la séptima, y cómo las tensiones 9, 11 y 13 se van acumulando.",
+      "bodyEn": "Listen to and look at four extended slash chords, one per bar. Cmaj9/E (E-G-B-C-D) has the third in the bass and a major ninth. Dm9/C (C-D-E-F-A) has the seventh in the bass and a minor ninth. G11/F (F-G-A-B-C-D) has the seventh in the bass and adds the eleventh C, which clashes with the third B and gives it a suspended colour. A♭maj13/C (C-E♭-G-A♭-B♭-D♭-F) has the third in the bass and all seven chord tones. Compare how the colour changes when the bass is the third or the seventh, and how the 9, 11 and 13 tensions accumulate.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m4-12.maj9",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 },
+              { "step": "D", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-12.minor9",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 5 },
+              { "step": "D", "accidental": "", "octave": 5 },
+              { "step": "E", "accidental": "", "octave": 5 },
+              { "step": "F", "accidental": "", "octave": 5 },
+              { "step": "A", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-12.dominant11",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "F", "accidental": "", "octave": 5 },
+              { "step": "G", "accidental": "", "octave": 5 },
+              { "step": "A", "accidental": "", "octave": 5 },
+              { "step": "B", "accidental": "", "octave": 5 },
+              { "step": "C", "accidental": "", "octave": 6 },
+              { "step": "D", "accidental": "", "octave": 6 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-12.major13",
+            "measure": 4,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 5 },
+              { "step": "E", "accidental": "b", "octave": 5 },
+              { "step": "G", "accidental": "", "octave": 5 },
+              { "step": "A", "accidental": "b", "octave": 5 },
+              { "step": "B", "accidental": "b", "octave": 5 },
+              { "step": "D", "accidental": "b", "octave": 6 },
+              { "step": "F", "accidental": "", "octave": 6 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m4-12.errores",
+      "kind": "text",
+      "titleEs": "Errores frecuentes",
+      "titleEn": "Common mistakes",
+      "bodyEs": "El error más común es olvidar la séptima: sin ella, la novena, la oncena o la trecena quedan flotando y el acorde pierde su calidad. Otro error es dejar el bajo en una octava que no es la más grave, o repetir la nota del bajo dentro del acorde. También se confunde una inversión con un híbrido: si el bajo pertenece al acorde, es una inversión; si no pertenece, el acorde completo se apila encima del bajo. En los acordes extendidos hay que revisar además las alteraciones: una trecena de La♭ usa Si♭, Re♭ y Mi♭, no dobles bemoles. Y no hay que omitir tensiones en estos ejercicios: la consigna es escribir el voicing completo, aunque en la práctica musical muchas veces se omitan la quinta o la oncena.",
+      "bodyEn": "The most common mistake is forgetting the seventh: without it, the ninth, eleventh or thirteenth floats and the chord loses its quality. Another mistake is leaving the bass in an octave that is not the lowest, or repeating the bass note inside the chord. Inversions are also confused with hybrids: if the bass belongs to the chord, it is an inversion; if it does not, the complete chord is stacked above the bass. In extended chords you also have to check the accidentals: an A♭ thirteenth uses B♭, D♭ and E♭, not double flats. And do not omit tensions in these exercises: the task is to write the complete voicing, even though in real music the fifth or the eleventh is often left out."
+    },
+    {
+      "id": "sec.m4-12.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios de extensiones con bajo",
+      "titleEn": "Twelve extended slash-chord exercises",
+      "bodyEs": "Los seis primeros ejercicios dan un cifrado con barra y piden las notas de grave a agudo, empezando por el bajo. Los seis últimos dan las notas de grave a agudo y piden el cifrado. Hay novenas, oncenas y trecenas mayores, de dominante y menores, y las doce tónicas aparecen una vez. La dificultad es alta: en cada respuesta tenés que conservar la séptima, todas las tensiones y el bajo indicado. Escribí las notas separadas por espacios y comprobá que el voicing suba desde el bajo.",
+      "bodyEn": "The first six exercises give a symbol with a slash and ask for the notes from low to high, starting from the bass. The last six give the notes from low to high and ask for the symbol. There are major, dominant and minor ninths, elevenths and thirteenths, and the twelve roots appear once. The difficulty is high: in every answer you must keep the seventh, all tensions and the indicated bass. Write the notes separated by spaces and check that the voicing rises from the bass."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tocá cuatro extensiones con bajo",
+    "titleEn": "Play four extended slash chords",
+    "instructionsEs": "Tocá los cuatro acordes de la demo a 54 BPM, un compás por acorde: Do maj9/Mi, Re m9/Do, Sol11/Fa y La♭maj13/Do. Antes de cada uno, decí qué grado queda en el bajo y cuántas notas tiene el acorde. Después elegí Re m9/La, construí el voicing sin mirar la partitura y comprobá que La sea la nota más grave y que estén las cinco notas. Si la trecena te queda lejos, repartí las siete notas entre las dos manos sin cambiar el bajo.",
+    "instructionsEn": "Play the four demo chords at 54 BPM, one bar per chord: Cmaj9/E, Dm9/C, G11/F and A♭maj13/C. Before each one, say which degree is in the bass and how many notes the chord has. Then choose Dm9/A, build the voicing without looking at the score and check that A is the lowest note and that all five notes are present. If the thirteenth is out of reach, split the seven notes between both hands without changing the bass.",
+    "keys": [
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "B", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 5 },
+      { "step": "D", "accidental": "", "octave": 5 },
+      { "step": "E", "accidental": "b", "octave": 5 },
+      { "step": "E", "accidental": "", "octave": 5 },
+      { "step": "F", "accidental": "", "octave": 5 },
+      { "step": "G", "accidental": "", "octave": 5 },
+      { "step": "A", "accidental": "b", "octave": 5 },
+      { "step": "A", "accidental": "", "octave": 5 },
+      { "step": "B", "accidental": "b", "octave": 5 },
+      { "step": "B", "accidental": "", "octave": 5 },
+      { "step": "C", "accidental": "", "octave": 6 },
+      { "step": "D", "accidental": "b", "octave": 6 },
+      { "step": "D", "accidental": "", "octave": 6 },
+      { "step": "F", "accidental": "", "octave": 6 }
+    ],
+    "fingeringEs": "Mano derecha: 1-2-3-4-5 en las novenas. En las oncenas y trecenas, mantené el bajo con el dedo 5 o pasalo a la mano izquierda y repartí el resto sin mover el bajo.",
+    "fingeringEn": "Right hand: 1-2-3-4-5 on the ninths. On elevenths and thirteenths, keep the bass with finger 5 or move it to the left hand and share the rest without moving the bass.",
+    "tempoBpm": 54,
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 54,
+      "events": [
+        {
+          "id": "task.m4-12.maj9",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 },
+            { "step": "D", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-12.minor9",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 5 },
+            { "step": "D", "accidental": "", "octave": 5 },
+            { "step": "E", "accidental": "", "octave": 5 },
+            { "step": "F", "accidental": "", "octave": 5 },
+            { "step": "A", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-12.dominant11",
+          "measure": 3,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "F", "accidental": "", "octave": 5 },
+            { "step": "G", "accidental": "", "octave": 5 },
+            { "step": "A", "accidental": "", "octave": 5 },
+            { "step": "B", "accidental": "", "octave": 5 },
+            { "step": "C", "accidental": "", "octave": 6 },
+            { "step": "D", "accidental": "", "octave": 6 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-12.major13",
+          "measure": 4,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 5 },
+            { "step": "E", "accidental": "b", "octave": 5 },
+            { "step": "G", "accidental": "", "octave": 5 },
+            { "step": "A", "accidental": "b", "octave": 5 },
+            { "step": "B", "accidental": "b", "octave": 5 },
+            { "step": "D", "accidental": "b", "octave": 6 },
+            { "step": "F", "accidental": "", "octave": 6 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "checklistEs": [
+      "Toqué los cuatro acordes y dije qué grado queda en el bajo",
+      "Construí Re m9/La sin mirar la partitura y comprobé el bajo y las cinco notas",
+      "Revisé que no faltara la séptima ni ninguna tensión"
+    ],
+    "checklistEn": [
+      "I played all four chords and said which degree is in the bass",
+      "I built Dm9/A without looking at the score and checked the bass and all five notes",
+      "I checked that the seventh and every tension were present"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

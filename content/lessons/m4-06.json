@@ -1,0 +1,278 @@
+{
+  "id": "lesson.m4-06",
+  "moduleId": "M4",
+  "slug": "slash-chords",
+  "titleEs": "Slash chords: acordes con bajo especificado",
+  "titleEn": "Slash chords: chords with a specified bass",
+  "summaryEs": "El cifrado con barra: qué nota va en el bajo, la diferencia entre inversión y acorde híbrido, y cómo leer y construir slash chords en cifrado latino y americano.",
+  "summaryEn": "Slash notation: which note sits in the bass, the difference between an inversion and a hybrid chord, and how to read and build slash chords in Latin and American notation.",
+  "objectivesEs": [
+    "Leer un cifrado con barra e identificar la nota del bajo",
+    "Distinguir una inversión (Do/Mi, Do/Sol) de un acorde híbrido (Do/Re, Do/Si)",
+    "Construir las notas de un slash chord colocando el bajo primero",
+    "Pasar del cifrado latino al americano y viceversa"
+  ],
+  "objectivesEn": [
+    "Read slash notation and identify the bass note",
+    "Tell an inversion (C/E, C/G) from a hybrid chord (C/D, C/B)",
+    "Build the notes of a slash chord with the bass first",
+    "Switch between Latin and American slash symbols"
+  ],
+  "minutes": 18,
+  "prerequisites": [
+    "lesson.m4-05"
+  ],
+  "skillIds": [
+    "skill.chord-slash"
+  ],
+  "exerciseIds": [
+    "ex.m4-06.a",
+    "ex.m4-06.b",
+    "ex.m4-06.c",
+    "ex.m4-06.d",
+    "ex.m4-06.e",
+    "ex.m4-06.f",
+    "ex.m4-06.g",
+    "ex.m4-06.h",
+    "ex.m4-06.i",
+    "ex.m4-06.j",
+    "ex.m4-06.k",
+    "ex.m4-06.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m4-06.intro",
+      "kind": "text",
+      "titleEs": "La barra manda el bajo",
+      "titleEn": "The slash sets the bass",
+      "bodyEs": "Un slash chord se escribe con una barra: el acorde va antes y la nota del bajo después. Do/Mi significa Do mayor con Mi en el bajo; Do/Sol, Do mayor con Sol en el bajo. La barra no cambia la calidad del acorde: cambia qué nota suena abajo. Si el bajo es una nota de la tríada, el resultado es una inversión: Do/Mi es la primera inversión y Do/Sol la segunda. Si el bajo no pertenece a la tríada, el resultado es un acorde híbrido: Do/Re es Do mayor con Re en el bajo y Do/Si es Do mayor con Si, que suena como un Do maj7 con la séptima en el bajo. El cifrado latino usa Do/Mi y el americano C/E; la calidad se lee antes de la barra y el bajo después. No confundas Do/Mi con Do m7: la barra indica bajo, no séptima.",
+      "bodyEn": "A slash chord is written with a slash: the chord comes first and the bass note after. C/E means C major with E in the bass; C/G means C major with G in the bass. The slash does not change the chord quality: it changes which note sounds at the bottom. If the bass is a note of the triad, the result is an inversion: C/E is the first inversion and C/G the second. If the bass is not part of the triad, the result is a hybrid chord: C/D is C major with D in the bass and C/B is C major with B, which sounds like a Cmaj7 with the seventh in the bass. Latin notation uses Do/Mi and American notation C/E; the quality is read before the slash and the bass after. Do not confuse C/E with Cm7: the slash sets the bass, not a seventh."
+    },
+    {
+      "id": "sec.m4-06.voicing",
+      "kind": "text",
+      "titleEs": "Cómo se colocan las notas",
+      "titleEn": "How the notes are placed",
+      "bodyEs": "El bajo va primero y el acorde se coloca por encima, sin invadir el registro grave. Para escribir Do/Re desde el bajo: Re, Do, Mi y Sol. Para Do/Si: Si, Do, Mi y Sol, o Si, Mi, Sol y Do si se abre el voicing. Las notas del acorde no cambian de nombre: Do/Re sigue teniendo Do, Mi y Sol arriba, y el Re del bajo no se convierte en la fundamental. En un cifrado con barra, el bajo puede ser una nota del acorde, una tensión o un pedal; en todos los casos manda la nota que está después de la barra. Al tocar, dejá el bajo en la mano izquierda o en el registro grave y el acorde en la derecha, y escuchá si el bajo es una inversión estable o un híbrido con más tensión.",
+      "bodyEn": "The bass comes first and the chord sits above it, without crowding the low register. To write C/D from the bass: D, C, E and G. For C/B: B, C, E and G, or B, E, G and C if the voicing is spread. The chord notes do not change names: C/D still has C, E and G above, and the bass D does not become the root. In slash notation the bass can be a chord tone, a tension or a pedal; in every case the note after the slash is in charge. When playing, keep the bass in the left hand or the low register and the chord in the right hand, and listen to whether the bass makes a stable inversion or a more tense hybrid."
+    },
+    {
+      "id": "sec.m4-06.demo",
+      "kind": "score",
+      "titleEs": "Cuatro slash chords sobre Do",
+      "titleEn": "Four slash chords on C",
+      "bodyEs": "Escuchá cuatro slash chords, uno por compás: Do/Mi (Mi-Sol-Do, primera inversión), Do/Sol (Sol-Do-Mi, segunda inversión), Do/Re (Re-Do-Mi-Sol, bajo que no pertenece a la tríada) y Do/Si (Si-Do-Mi-Sol, un Do mayor con Si en el bajo que suena como Do maj7 con la séptima abajo). Los dos primeros son inversiones: el bajo es una nota del acorde. Los dos últimos son híbridos: el bajo agrega una nota ajena y cambia el color. En los cuatro, el bajo es la nota más grave y el acorde queda por encima. En cifrado americano son C/E, C/G, C/D y C/B.",
+      "bodyEn": "Listen to four slash chords, one per bar: C/E (E-G-C, first inversion), C/G (G-C-E, second inversion), C/D (D-C-E-G, a bass that is not part of the triad) and C/B (B-C-E-G, a C major with B in the bass that sounds like Cmaj7 with the seventh below). The first two are inversions: the bass is a chord tone. The last two are hybrids: the bass adds a foreign note and changes the colour. In all four, the bass is the lowest note and the chord sits above it. In American notation they are C/E, C/G, C/D and C/B.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m4-06.mi",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-06.sol",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-06.re",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-06.si",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m4-06.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios de slash chords",
+      "titleEn": "Twelve slash-chord exercises",
+      "bodyEs": "Los primeros seis ejercicios dan las notas de grave a agudo y preguntan qué slash chord es; los otros seis dan el cifrado con barra y piden escribir las notas desde el bajo. Para leer el cifrado, mirá primero qué acorde hay antes de la barra y después qué nota está en el bajo. Para construir las notas, poné el bajo primero y colocá el acorde arriba; si el bajo ya es una nota del acorde, usá la inversión que corresponde. Las respuestas se escriben con las notas separadas por espacios y sin octavas.",
+      "bodyEn": "The first six exercises give the notes from low to high and ask which slash chord it is; the other six give the slash symbol and ask you to write the notes from the bass. To read the symbol, first look at the chord before the slash and then at the bass note. To build the notes, put the bass first and place the chord above it; if the bass is already a chord tone, use the matching inversion. Answers use note names separated by spaces and no octaves."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca cuatro slash chords sobre Do",
+    "titleEn": "Play four slash chords on C",
+    "instructionsEs": "Tocá los cuatro slash chords de la demo a 60 BPM. En Do/Mi y Do/Sol, el bajo es una nota del acorde: Mi y Sol. En Do/Re y Do/Si, el bajo es una nota ajena a la tríada: Re y Si. Tocá el bajo con la mano izquierda y el acorde con la derecha, manteniendo el bajo en el registro grave. Escuchá cómo Do/Mi y Do/Sol suenan estables y cómo Do/Re y Do/Si agregan tensión.",
+    "instructionsEn": "Play the four demo slash chords at 60 BPM. In C/E and C/G the bass is a chord tone: E and G. In C/D and C/B the bass is foreign to the triad: D and B. Play the bass with your left hand and the chord with your right, keeping the bass in the low register. Listen to how C/E and C/G sound stable while C/D and C/B add tension.",
+    "keys": [
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 5 },
+      { "step": "G", "accidental": "", "octave": 3 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 3 },
+      { "step": "B", "accidental": "", "octave": 3 }
+    ],
+    "fingeringEs": "Mano izquierda: 5 o 1 para el bajo. Mano derecha: 1-2-3 para las tríadas y 1-2-4 si el voicing se abre.",
+    "fingeringEn": "Left hand: 5 or 1 for the bass. Right hand: 1-2-3 for the triads and 1-2-4 if the voicing opens up.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué el bajo antes que el acorde y lo mantuve en el registro grave",
+      "Distinguí las inversiones Do/Mi y Do/Sol de los híbridos Do/Re y Do/Si",
+      "Escuché la tensión del semitono Si-Do en Do/Si"
+    ],
+    "checklistEn": [
+      "I played the bass before the chord and kept it in the low register",
+      "I told the inversions C/E and C/G from the hybrids C/D and C/B",
+      "I heard the tension of the B-C semitone in C/B"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m4-06.mi",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-06.sol",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-06.re",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "D", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-06.si",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "B", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

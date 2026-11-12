@@ -1,0 +1,24 @@
+{
+  "id": "ex.m7-02.d",
+  "skillId": "skill.arpeggio",
+  "type": "arpeggio",
+  "promptEs": "¿Qué digitación conviene para este arpegio de Re mayor en una octava?",
+  "promptEn": "Which fingering suits this one-octave D major arpeggio?",
+  "explanationEs": "Re es una tecla blanca aunque su tercera sea Fa sostenido. La digitación sigue siendo 1-2-3-5: lo que decide el patrón es la tónica, no las alteraciones de la tercera o la quinta.",
+  "explanationEn": "D is a white key even though its third is F sharp. The fingering is still 1-2-3-5: the tonic decides the pattern, not the accidentals of the third or fifth.",
+  "difficulty": 2,
+  "tonic": "D",
+  "hand": "right",
+  "octaves": 1,
+  "ask": "fingering",
+  "choices": [
+    "1-2-3-5",
+    "2-1-2-4",
+    "1-2-3-1"
+  ],
+  "choicesEn": [
+    "1-2-3-5",
+    "2-1-2-4",
+    "1-2-3-1"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-01.f",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Fa4 y Si4?",
+  "promptEn": "What interval is there between F4 and B4?",
+  "explanationEs": "De Fa a Si hay una cuarta. La cuarta justa tiene cinco semitonos y esta tiene seis, así que es aumentada.",
+  "explanationEn": "From F to B there is a fourth. A perfect fourth has five semitones and this one has six, so it is augmented.",
+  "difficulty": 3,
+  "lower": { "step": "F", "accidental": "", "octave": 4 },
+  "upper": { "step": "B", "accidental": "", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Cuarta aumentada", "Cuarta justa", "Quinta disminuida", "Tercera mayor"],
+  "choicesEn": ["Augmented fourth", "Perfect fourth", "Diminished fifth", "Major third"]
+}

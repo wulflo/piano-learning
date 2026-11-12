@@ -1,0 +1,15 @@
+{
+  "id": "ex.m1-03.l",
+  "skillId": "skill.accidentals",
+  "type": "interval",
+  "promptEs": "¿Qué distancia hay entre Si4 y Do5?",
+  "promptEn": "What is the distance between B4 and C5?",
+  "explanationEs": "Si4 y Do5 son notas blancas contiguas, sin tecla negra entre ellas: hay un semitono natural.",
+  "explanationEn": "B4 and C5 are adjacent white keys with no black key between them: it is a natural semitone.",
+  "difficulty": 1,
+  "lower": { "step": "B", "accidental": "", "octave": 4 },
+  "upper": { "step": "C", "accidental": "", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Semitono", "Tono", "Tono y medio", "Dos tonos"],
+  "choicesEn": ["Semitone", "Tone", "Tone and a half", "Two tones"]
+}

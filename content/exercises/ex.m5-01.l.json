@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-01.l",
+  "skillId": "skill.diatonic-chords",
+  "type": "chord",
+  "promptEs": "En Si menor, ¿qué cifrado tiene la séptima diatónica del grado ii?",
+  "promptEn": "In B minor, what is the symbol of the diatonic seventh on degree ii?",
+  "explanationEs": "En Si menor natural, el grado ii se construye sobre Do♯: Do♯-Mi-Sol-Si. La quinta Do♯-Sol es disminuida y la séptima Do♯-Si es menor, así que la séptima es semidisminuida y se cifra Do♯m7b5.",
+  "explanationEn": "In B natural minor, degree ii is built on C♯: C♯-E-G-B. The fifth C♯-G is diminished and the seventh C♯-B is minor, so the seventh is half-diminished and its symbol is C♯m7b5.",
+  "difficulty": 3,
+  "root": {
+    "step": "C",
+    "accidental": "#",
+    "octave": 5
+  },
+  "quality": "half-diminished7",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Do♯°7",
+    "Do♯m7",
+    "Do♯maj7",
+    "Do♯m7b5"
+  ],
+  "choicesEn": [
+    "C♯°7",
+    "C♯m7",
+    "C♯maj7",
+    "C♯m7b5"
+  ]
+}

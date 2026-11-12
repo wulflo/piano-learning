@@ -1,0 +1,27 @@
+{
+  "id": "ex.m0-02.a",
+  "skillId": "skill.octave-numbers",
+  "type": "note-keyboard",
+  "promptEs": "Si el Do central es Do4 (C4), ¿qué nombre completo tiene el mismo Do una octava más arriba?",
+  "explanationEs": "Una octava más arriba del Do central está Do5 (C5). El nombre de la nota no cambia; cambia el número de octava.",
+  "difficulty": 1,
+  "target": {
+    "step": "C",
+    "accidental": "",
+    "octave": 5
+  },
+  "choices": [
+    "Do3",
+    "Do4",
+    "Do5",
+    "Do6"
+  ],
+  "promptEn": "If middle C is C4, what is the full name of the same C one octave higher?",
+  "explanationEn": "One octave above middle C is C5. The note name does not change; the octave number does.",
+  "choicesEn": [
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+  ]
+}

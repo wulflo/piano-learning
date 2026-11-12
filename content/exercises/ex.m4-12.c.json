@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-12.c",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "Escribí las notas de Mi♭maj11/Sol de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of E♭maj11/G from low to high, separated by spaces.",
+  "explanationEs": "Sol es la tercera de Mi♭maj11, así que el acorde está en primera inversión: Sol-Si♭-Re-Mi♭-Fa-La♭. La oncena La♭ es la tensión más aguda y la séptima Re queda entre las notas del medio.",
+  "explanationEn": "G is the third of Ebmaj11, so the chord is in first inversion: G-Bb-D-Eb-F-Ab. The eleventh Ab is the highest tension and the seventh D sits among the middle notes.",
+  "difficulty": 4,
+  "root": { "step": "E", "accidental": "b", "octave": 4 },
+  "quality": "major11",
+  "slash": { "step": "G", "accidental": "", "octave": 4 },
+  "inversion": 1,
+  "ask": "notes"
+}

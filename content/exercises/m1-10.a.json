@@ -1,0 +1,24 @@
+{
+  "id": "ex.m1-10.a",
+  "skillId": "skill.dynamics-articulation",
+  "type": "dynamic-mark",
+  "promptEs": "Escuchá el Do4 muy suave. ¿Qué marca dinámica le corresponde?",
+  "explanationEs": "La nota suena muy suave: corresponde a pp (pianissimo). En la app se representa con una velocity baja, dentro del rango de pp.",
+  "difficulty": 1,
+  "marking": "pp",
+  "velocity": 30,
+  "choices": [
+    "pp",
+    "p",
+    "mf",
+    "ff"
+  ],
+  "promptEn": "Listen to C4 very soft. Which dynamic mark does it match?",
+  "explanationEn": "The note sounds very soft: it matches pp (pianissimo). In the app it is represented with a low velocity, inside the pp range.",
+  "choicesEn": [
+    "pp",
+    "p",
+    "mf",
+    "ff"
+  ]
+}

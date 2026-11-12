@@ -1,0 +1,13 @@
+{
+  "id": "ex.m1-03.m",
+  "skillId": "skill.accidentals",
+  "type": "note-keyboard",
+  "promptEs": "Tocá la nota enarmónica de Re♭4 que se escribe con sostenido.",
+  "promptEn": "Play the enharmonic note of D♭4 that is written with a sharp.",
+  "explanationEs": "Re♭4 y Do♯4 son la misma tecla: la tecla negra entre Do y Re. Cambia el nombre, no la altura.",
+  "explanationEn": "D♭4 and C♯4 are the same key: the black key between C and D. The name changes, not the pitch.",
+  "difficulty": 2,
+  "target": { "step": "C", "accidental": "#", "octave": 4 },
+  "choices": ["Do♯4", "Re♭4", "Mi♭4", "Si4"],
+  "choicesEn": ["C♯4", "D♭4", "E♭4", "B4"]
+}

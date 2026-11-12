@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-08.a",
+  "skillId": "skill.ear-scale",
+  "type": "ear-scale",
+  "tonic": "C",
+  "promptEs": "¿Qué modo tiene la escala Do Re Mi Fa sostenido Sol La Si?",
+  "promptEn": "Which mode has the scale C D E F♯ G A B?",
+  "explanationEs": "La escala Do Re Mi Fa sostenido Sol La Si es la escala de Lídio: mayor con el cuarto grado elevado.",
+  "explanationEn": "The scale C D E F♯ G A B is the Lydian scale: major with a raised fourth degree.",
+  "difficulty": 3,
+  "mode": "lydian",
+  "choices": [
+    "Lídio",
+    "Dórico",
+    "Mayor"
+  ],
+  "choicesEn": [
+    "Lydian",
+    "Dorian",
+    "Major"
+  ]
+}

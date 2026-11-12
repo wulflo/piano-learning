@@ -1,0 +1,68 @@
+{
+  "id": "ex.m7-10.f",
+  "skillId": "skill.transposition",
+  "type": "transposition",
+  "promptEs": "¿Cómo queda esta melodía si la transponés de Sol mayor a Re mayor?",
+  "explanationEs": "La melodía G4 B4 D5 G5 en Sol mayor se transporta a Re mayor bajando 5 semitonos: D4 F#4 A4 D5.",
+  "difficulty": 1,
+  "fromKey": "G",
+  "toKey": "D",
+  "melody": [
+    {
+      "step": "G",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "B",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "D",
+      "accidental": "",
+      "octave": 5
+    },
+    {
+      "step": "G",
+      "accidental": "",
+      "octave": 5
+    }
+  ],
+  "answer": [
+    {
+      "step": "D",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "F",
+      "accidental": "#",
+      "octave": 4
+    },
+    {
+      "step": "A",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "D",
+      "accidental": "",
+      "octave": 5
+    }
+  ],
+  "promptEn": "How does this melody sound if you transpose it from G major to D major?",
+  "explanationEn": "G4 B4 D5 G5 in G major becomes D4 F#4 A4 D5 in D major: the shape 1-3-5-8 is kept and every note moves to the same degrees in the new key.",
+  "choices": [
+    "D4 F#4 A4 D5",
+    "D4 F#4 A4 C5",
+    "D4 F4 A4 D5",
+    "C4 E4 G4 C5"
+  ],
+  "choicesEn": [
+    "D4 F#4 A4 D5",
+    "D4 F#4 A4 C5",
+    "D4 F4 A4 D5",
+    "C4 E4 G4 C5"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-04.c",
+  "skillId": "skill.cadence",
+  "type": "cadence",
+  "promptEs": "En Re mayor, ¿qué cadencia forman los acordes Re (Re, Fa♯, La) y La (La, Do♯, Mi)?",
+  "promptEn": "In D major, what cadence do the chords D (D, F♯, A) and A (A, C♯, E) form?",
+  "explanationEs": "La semicadencia termina en V: Re llega a La y deja la frase abierta, con la dominante pidiendo continuación. No cierra la tonalidad.",
+  "explanationEn": "The half cadence ends on V: D reaches A and leaves the phrase open, with the dominant asking for continuation. It does not close the key.",
+  "difficulty": 2,
+  "key": "D",
+  "mode": "major",
+  "fromDegree": 1,
+  "toDegree": 5,
+  "choices": [
+    "Semicadencia (…-V)",
+    "Rota (V-vi)",
+    "Auténtica (V-I)",
+    "Plagal (IV-I)"
+  ],
+  "choicesEn": [
+    "Half cadence (…-V)",
+    "Deceptive (V-vi)",
+    "Authentic (V-I)",
+    "Plagal (IV-I)"
+  ]
+}

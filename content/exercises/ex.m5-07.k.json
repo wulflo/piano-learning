@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-07.k",
+  "skillId": "skill.secondary-dominants",
+  "type": "secondary-dominant",
+  "promptEs": "En Si♭ mayor, ¿en qué grado resuelve V/V?",
+  "promptEn": "In B♭ major, which degree does V/V resolve to?",
+  "explanationEs": "En Si♭ mayor, V/V es Do7 y resuelve en Fa (V). Su tercera es la sensible de Fa y sube un semitono al resolver.",
+  "explanationEn": "In B♭ major, V/V is C7 and it resolves to F (V). Its third is the leading tone of F and rises a semitone when it resolves.",
+  "difficulty": 2,
+  "key": "Bb",
+  "mode": "major",
+  "target": 5,
+  "ask": "resolution",
+  "choices": [
+    "ii",
+    "V",
+    "IV",
+    "vi"
+  ],
+  "choicesEn": [
+    "ii",
+    "V",
+    "IV",
+    "vi"
+  ]
+}

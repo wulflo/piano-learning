@@ -1,0 +1,3605 @@
+{
+  "schemaVersion": 1,
+  "exercises": [
+    {
+      "id": "ex.m0-01.a",
+      "skillId": "skill.keyboard-groups",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m0-01.b",
+      "skillId": "skill.keyboard-groups",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m0-01.c",
+      "skillId": "skill.note-names",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m0-02.a",
+      "skillId": "skill.octave-numbers",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m0-02.b",
+      "skillId": "skill.octave-numbers",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m0-02.c",
+      "skillId": "skill.note-staff",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m0-02.d",
+      "skillId": "skill.note-staff",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m0-02.e",
+      "skillId": "skill.note-staff",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m1-01.a",
+      "skillId": "skill.sound-parameters",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-01.b",
+      "skillId": "skill.sound-parameters",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-01.c",
+      "skillId": "skill.sound-parameters",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-01.d",
+      "skillId": "skill.sound-parameters",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-02.a",
+      "skillId": "skill.note-staff",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-02.b",
+      "skillId": "skill.note-staff",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-02.c",
+      "skillId": "skill.note-staff",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-02.d",
+      "skillId": "skill.note-staff",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-03.a",
+      "skillId": "skill.accidentals",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-03.b",
+      "skillId": "skill.accidentals",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-03.c",
+      "skillId": "skill.accidentals",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-03.d",
+      "skillId": "skill.accidentals",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-03.e",
+      "skillId": "skill.accidentals",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-03.f",
+      "skillId": "skill.accidentals",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-03.g",
+      "skillId": "skill.accidentals",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-03.h",
+      "skillId": "skill.accidentals",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-03.i",
+      "skillId": "skill.accidentals",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-03.j",
+      "skillId": "skill.accidentals",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-03.k",
+      "skillId": "skill.accidentals",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-03.l",
+      "skillId": "skill.accidentals",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-03.m",
+      "skillId": "skill.accidentals",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-03.n",
+      "skillId": "skill.accidentals",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-04.a",
+      "skillId": "skill.note-durations",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-04.b",
+      "skillId": "skill.note-durations",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-04.c",
+      "skillId": "skill.note-durations",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-04.d",
+      "skillId": "skill.note-durations",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-04.e",
+      "skillId": "skill.note-durations",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m1-04.f",
+      "skillId": "skill.note-durations",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-04.g",
+      "skillId": "skill.note-durations",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-04.h",
+      "skillId": "skill.note-durations",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m1-04.i",
+      "skillId": "skill.note-durations",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-04.j",
+      "skillId": "skill.note-durations",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-05.a",
+      "skillId": "skill.simple-meter",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-05.b",
+      "skillId": "skill.simple-meter",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-05.c",
+      "skillId": "skill.simple-meter",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-05.d",
+      "skillId": "skill.simple-meter",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-05.e",
+      "skillId": "skill.simple-meter",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-05.f",
+      "skillId": "skill.simple-meter",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-05.g",
+      "skillId": "skill.simple-meter",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-05.h",
+      "skillId": "skill.simple-meter",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-05.i",
+      "skillId": "skill.simple-meter",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-06.a",
+      "skillId": "skill.compound-meter",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-06.b",
+      "skillId": "skill.compound-meter",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-06.c",
+      "skillId": "skill.compound-meter",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-06.d",
+      "skillId": "skill.compound-meter",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-06.e",
+      "skillId": "skill.compound-meter",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m1-06.f",
+      "skillId": "skill.compound-meter",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-06.g",
+      "skillId": "skill.compound-meter",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-06.h",
+      "skillId": "skill.compound-meter",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-07.a",
+      "skillId": "skill.rhythm-variants",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-07.b",
+      "skillId": "skill.rhythm-variants",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-07.c",
+      "skillId": "skill.rhythm-variants",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m1-07.d",
+      "skillId": "skill.rhythm-variants",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-07.e",
+      "skillId": "skill.rhythm-variants",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m1-07.f",
+      "skillId": "skill.rhythm-variants",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m1-08.a",
+      "skillId": "skill.syncopation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-08.b",
+      "skillId": "skill.syncopation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-08.c",
+      "skillId": "skill.syncopation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-08.d",
+      "skillId": "skill.syncopation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m1-08.e",
+      "skillId": "skill.syncopation",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-08.f",
+      "skillId": "skill.syncopation",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-09.a",
+      "skillId": "skill.tempo",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-09.b",
+      "skillId": "skill.tempo",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-09.c",
+      "skillId": "skill.tempo",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-09.d",
+      "skillId": "skill.tempo",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m1-09.e",
+      "skillId": "skill.tempo",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-09.f",
+      "skillId": "skill.tempo",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-10.a",
+      "skillId": "skill.dynamics-articulation",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-10.b",
+      "skillId": "skill.dynamics-articulation",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-10.c",
+      "skillId": "skill.dynamics-articulation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-10.d",
+      "skillId": "skill.dynamics-articulation",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-10.e",
+      "skillId": "skill.dynamics-articulation",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-10.f",
+      "skillId": "skill.dynamics-articulation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-11.a",
+      "skillId": "skill.repeat-signs",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-11.b",
+      "skillId": "skill.repeat-signs",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-11.c",
+      "skillId": "skill.repeat-signs",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-11.d",
+      "skillId": "skill.repeat-signs",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m1-11.e",
+      "skillId": "skill.repeat-signs",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m1-11.f",
+      "skillId": "skill.repeat-signs",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m1-12.a",
+      "skillId": "skill.italian-terms",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-12.b",
+      "skillId": "skill.italian-terms",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-12.c",
+      "skillId": "skill.italian-terms",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-12.d",
+      "skillId": "skill.italian-terms",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m1-12.e",
+      "skillId": "skill.italian-terms",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m1-12.f",
+      "skillId": "skill.italian-terms",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m2-01.a",
+      "skillId": "skill.major-scale",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m2-01.b",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-01.c",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-01.d",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-01.e",
+      "skillId": "skill.major-scale",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-01.f",
+      "skillId": "skill.major-scale",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-01.g",
+      "skillId": "skill.major-scale",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-01.h",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-01.i",
+      "skillId": "skill.major-scale",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-01.j",
+      "skillId": "skill.major-scale",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-01.k",
+      "skillId": "skill.major-scale",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-01.l",
+      "skillId": "skill.major-scale",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-01.m",
+      "skillId": "skill.key-signature",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m2-01.n",
+      "skillId": "skill.key-signature",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-01.o",
+      "skillId": "skill.key-signature",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-02.a",
+      "skillId": "skill.key-signature",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m2-02.b",
+      "skillId": "skill.key-signature",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m2-02.c",
+      "skillId": "skill.key-signature",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-02.d",
+      "skillId": "skill.key-signature",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-02.e",
+      "skillId": "skill.key-signature",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-02.f",
+      "skillId": "skill.key-signature",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-02.g",
+      "skillId": "skill.key-signature",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-02.h",
+      "skillId": "skill.key-signature",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m2-02.i",
+      "skillId": "skill.key-signature",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-02.j",
+      "skillId": "skill.key-signature",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-02.k",
+      "skillId": "skill.key-signature",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-02.l",
+      "skillId": "skill.key-signature",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-03.a",
+      "skillId": "skill.key-signature",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m2-03.b",
+      "skillId": "skill.key-signature",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-03.c",
+      "skillId": "skill.key-signature",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m2-04.a",
+      "skillId": "skill.sound-parameters",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-04.b",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-05.a",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-05.b",
+      "skillId": "skill.sound-parameters",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-06.a",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-06.b",
+      "skillId": "skill.sound-parameters",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.a",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.b",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.c",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.d",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.e",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.f",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.g",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.h",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.i",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.j",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.k",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.l",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-07.m",
+      "skillId": "skill.ear-progression",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-08.a",
+      "skillId": "skill.ear-scale",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-08.b",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-09.a",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-09.b",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-10.a",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-10.b",
+      "skillId": "skill.ear-scale",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m2-11.a",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-11.b",
+      "skillId": "skill.major-scale",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m2-11.c",
+      "skillId": "skill.ear-scale",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-01.a",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-01.b",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-01.c",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-01.d",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-01.e",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-01.f",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-01.g",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-01.h",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-01.i",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-01.j",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-01.k",
+      "skillId": "skill.interval-quality",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m3-01.l",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-02.a",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-02.b",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-02.c",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-02.d",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-02.e",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-02.f",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-02.g",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-02.h",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-02.i",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-02.j",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-02.k",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-02.l",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-03.a",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-03.b",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-03.c",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-03.d",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-03.e",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-03.f",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-03.g",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-03.h",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-03.i",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-03.j",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-03.k",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-03.l",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-04.a",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-04.b",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-04.c",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-04.d",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-04.e",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-04.f",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-04.g",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-04.h",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-04.i",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-04.j",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-04.k",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-04.l",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-05.a",
+      "skillId": "skill.ear-interval",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m3-05.b",
+      "skillId": "skill.ear-interval",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-05.c",
+      "skillId": "skill.ear-interval",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-05.d",
+      "skillId": "skill.ear-interval",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-05.e",
+      "skillId": "skill.ear-interval",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-05.f",
+      "skillId": "skill.ear-interval",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-05.g",
+      "skillId": "skill.ear-interval",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-05.h",
+      "skillId": "skill.ear-interval",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-05.i",
+      "skillId": "skill.ear-interval",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m3-05.j",
+      "skillId": "skill.ear-interval",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-05.k",
+      "skillId": "skill.ear-interval",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m3-05.l",
+      "skillId": "skill.ear-interval",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-01.a",
+      "skillId": "skill.chord-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-01.b",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-01.c",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-01.d",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-01.e",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-01.f",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-01.g",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-01.h",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-01.i",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-01.j",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-01.k",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-01.l",
+      "skillId": "skill.chord-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-02.a",
+      "skillId": "skill.chord-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-02.b",
+      "skillId": "skill.chord-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-02.c",
+      "skillId": "skill.chord-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-02.d",
+      "skillId": "skill.chord-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-02.e",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-02.f",
+      "skillId": "skill.chord-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-02.g",
+      "skillId": "skill.chord-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-02.h",
+      "skillId": "skill.chord-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-02.i",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-02.j",
+      "skillId": "skill.chord-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-02.k",
+      "skillId": "skill.chord-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-02.l",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-03.a",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-03.b",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-03.c",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-03.d",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-03.e",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-03.f",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-03.g",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-03.h",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-03.i",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-03.j",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-03.k",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-03.l",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-04.a",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-04.b",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-04.c",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-04.d",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-04.e",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-04.f",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-04.g",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-04.h",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-04.i",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-04.j",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-04.k",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-04.l",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-05.a",
+      "skillId": "skill.chord-extension",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-05.b",
+      "skillId": "skill.chord-extension",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-05.c",
+      "skillId": "skill.chord-extension",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-05.d",
+      "skillId": "skill.chord-extension",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-05.e",
+      "skillId": "skill.chord-extension",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-05.f",
+      "skillId": "skill.chord-extension",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-05.g",
+      "skillId": "skill.chord-extension",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-05.h",
+      "skillId": "skill.chord-extension",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-05.i",
+      "skillId": "skill.chord-extension",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-05.j",
+      "skillId": "skill.chord-extension",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-05.k",
+      "skillId": "skill.chord-extension",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-05.l",
+      "skillId": "skill.chord-extension",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-06.a",
+      "skillId": "skill.chord-slash",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-06.b",
+      "skillId": "skill.chord-slash",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-06.c",
+      "skillId": "skill.chord-slash",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-06.d",
+      "skillId": "skill.chord-slash",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-06.e",
+      "skillId": "skill.chord-slash",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-06.f",
+      "skillId": "skill.chord-slash",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-06.g",
+      "skillId": "skill.chord-slash",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-06.h",
+      "skillId": "skill.chord-slash",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-06.i",
+      "skillId": "skill.chord-slash",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-06.j",
+      "skillId": "skill.chord-slash",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-06.k",
+      "skillId": "skill.chord-slash",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-06.l",
+      "skillId": "skill.chord-slash",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-07.a",
+      "skillId": "skill.chord-notation",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-07.b",
+      "skillId": "skill.chord-notation",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-07.c",
+      "skillId": "skill.chord-notation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-07.d",
+      "skillId": "skill.chord-notation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-07.e",
+      "skillId": "skill.chord-notation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-07.f",
+      "skillId": "skill.chord-notation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-07.g",
+      "skillId": "skill.chord-notation",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-07.h",
+      "skillId": "skill.chord-notation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-07.i",
+      "skillId": "skill.chord-notation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-07.j",
+      "skillId": "skill.chord-notation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-07.k",
+      "skillId": "skill.chord-notation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-07.l",
+      "skillId": "skill.chord-notation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-08.a",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-08.b",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-08.c",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-08.d",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-08.e",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-08.f",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-08.g",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-08.h",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-08.i",
+      "skillId": "skill.interval-quality",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-08.j",
+      "skillId": "skill.interval-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-08.k",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-08.l",
+      "skillId": "skill.interval-quality",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-09.a",
+      "skillId": "skill.chord-symbol",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-09.b",
+      "skillId": "skill.chord-symbol",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-09.c",
+      "skillId": "skill.chord-symbol",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-09.d",
+      "skillId": "skill.chord-symbol",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-09.e",
+      "skillId": "skill.chord-symbol",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-09.f",
+      "skillId": "skill.chord-symbol",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-09.g",
+      "skillId": "skill.chord-symbol",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-09.h",
+      "skillId": "skill.chord-symbol",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-09.i",
+      "skillId": "skill.chord-symbol",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-09.j",
+      "skillId": "skill.chord-symbol",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-09.k",
+      "skillId": "skill.chord-symbol",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-09.l",
+      "skillId": "skill.chord-symbol",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-10.a",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-10.b",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-10.c",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-10.d",
+      "skillId": "skill.chord-quality",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-10.e",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-10.f",
+      "skillId": "skill.chord-seventh",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-10.g",
+      "skillId": "skill.chord-quality-ear",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-10.h",
+      "skillId": "skill.chord-quality-ear",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-10.i",
+      "skillId": "skill.chord-quality-ear",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-10.j",
+      "skillId": "skill.chord-quality-ear",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-10.k",
+      "skillId": "skill.chord-quality-ear",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-10.l",
+      "skillId": "skill.chord-quality-ear",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-11.a",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-11.b",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-11.c",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-11.d",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-11.e",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m4-11.f",
+      "skillId": "skill.chord-inversion",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-11.g",
+      "skillId": "skill.chord-slash",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-11.h",
+      "skillId": "skill.chord-slash",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-11.i",
+      "skillId": "skill.chord-slash",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-11.j",
+      "skillId": "skill.chord-slash",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m4-11.k",
+      "skillId": "skill.chord-slash",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-11.l",
+      "skillId": "skill.chord-slash",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m4-12.a",
+      "skillId": "skill.chord-extension",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-12.b",
+      "skillId": "skill.chord-extension",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-12.c",
+      "skillId": "skill.chord-extension",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-12.d",
+      "skillId": "skill.chord-extension",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-12.e",
+      "skillId": "skill.chord-extension",
+      "difficulty": 5
+    },
+    {
+      "id": "ex.m4-12.f",
+      "skillId": "skill.chord-extension",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-12.g",
+      "skillId": "skill.chord-slash",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-12.h",
+      "skillId": "skill.chord-slash",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-12.i",
+      "skillId": "skill.chord-slash",
+      "difficulty": 5
+    },
+    {
+      "id": "ex.m4-12.j",
+      "skillId": "skill.chord-slash",
+      "difficulty": 5
+    },
+    {
+      "id": "ex.m4-12.k",
+      "skillId": "skill.chord-slash",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m4-12.l",
+      "skillId": "skill.chord-slash",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m5-01.a",
+      "skillId": "skill.diatonic-chords",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-01.b",
+      "skillId": "skill.diatonic-chords",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-01.c",
+      "skillId": "skill.diatonic-chords",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-01.d",
+      "skillId": "skill.diatonic-chords",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-01.e",
+      "skillId": "skill.diatonic-chords",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-01.f",
+      "skillId": "skill.diatonic-chords",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-01.g",
+      "skillId": "skill.diatonic-chords",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-01.h",
+      "skillId": "skill.diatonic-chords",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-01.i",
+      "skillId": "skill.diatonic-chords",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-01.j",
+      "skillId": "skill.diatonic-chords",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-01.k",
+      "skillId": "skill.diatonic-chords",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-01.l",
+      "skillId": "skill.diatonic-chords",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-02.a",
+      "skillId": "skill.roman-numeral",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-02.b",
+      "skillId": "skill.roman-numeral",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-02.c",
+      "skillId": "skill.roman-numeral",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-02.d",
+      "skillId": "skill.roman-numeral",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-02.e",
+      "skillId": "skill.roman-numeral",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-02.f",
+      "skillId": "skill.roman-numeral",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-02.g",
+      "skillId": "skill.roman-numeral",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-02.h",
+      "skillId": "skill.roman-numeral",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-02.i",
+      "skillId": "skill.roman-numeral",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-02.j",
+      "skillId": "skill.roman-numeral",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-02.k",
+      "skillId": "skill.roman-numeral",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-02.l",
+      "skillId": "skill.roman-numeral",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-03.a",
+      "skillId": "skill.harmonic-function",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-03.b",
+      "skillId": "skill.harmonic-function",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-03.c",
+      "skillId": "skill.harmonic-function",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-03.d",
+      "skillId": "skill.harmonic-function",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-03.e",
+      "skillId": "skill.harmonic-function",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-03.f",
+      "skillId": "skill.harmonic-function",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-03.g",
+      "skillId": "skill.harmonic-function",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-03.h",
+      "skillId": "skill.harmonic-function",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-03.i",
+      "skillId": "skill.harmonic-function",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-03.j",
+      "skillId": "skill.harmonic-function",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-03.k",
+      "skillId": "skill.harmonic-function",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-03.l",
+      "skillId": "skill.harmonic-function",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-04.a",
+      "skillId": "skill.cadence",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-04.b",
+      "skillId": "skill.cadence",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-04.c",
+      "skillId": "skill.cadence",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-04.d",
+      "skillId": "skill.cadence",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-04.e",
+      "skillId": "skill.cadence",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-04.f",
+      "skillId": "skill.cadence",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-04.g",
+      "skillId": "skill.cadence",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-04.h",
+      "skillId": "skill.cadence",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-04.i",
+      "skillId": "skill.cadence",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-04.j",
+      "skillId": "skill.cadence",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-04.k",
+      "skillId": "skill.cadence",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-04.l",
+      "skillId": "skill.cadence",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-05.a",
+      "skillId": "skill.common-progressions",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-05.b",
+      "skillId": "skill.common-progressions",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-05.c",
+      "skillId": "skill.common-progressions",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-05.d",
+      "skillId": "skill.common-progressions",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-05.e",
+      "skillId": "skill.common-progressions",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-05.f",
+      "skillId": "skill.common-progressions",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-05.g",
+      "skillId": "skill.common-progressions",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-05.h",
+      "skillId": "skill.common-progressions",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-05.i",
+      "skillId": "skill.common-progressions",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-05.j",
+      "skillId": "skill.common-progressions",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-05.k",
+      "skillId": "skill.common-progressions",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-05.l",
+      "skillId": "skill.common-progressions",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-06.a",
+      "skillId": "skill.twelve-bar-blues",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-06.b",
+      "skillId": "skill.twelve-bar-blues",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-06.c",
+      "skillId": "skill.twelve-bar-blues",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-06.d",
+      "skillId": "skill.twelve-bar-blues",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-06.e",
+      "skillId": "skill.twelve-bar-blues",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-06.f",
+      "skillId": "skill.twelve-bar-blues",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-06.g",
+      "skillId": "skill.twelve-bar-blues",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-06.h",
+      "skillId": "skill.twelve-bar-blues",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-06.i",
+      "skillId": "skill.twelve-bar-blues",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-06.j",
+      "skillId": "skill.twelve-bar-blues",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-06.k",
+      "skillId": "skill.twelve-bar-blues",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-06.l",
+      "skillId": "skill.twelve-bar-blues",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-07.a",
+      "skillId": "skill.secondary-dominants",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-07.b",
+      "skillId": "skill.secondary-dominants",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-07.c",
+      "skillId": "skill.secondary-dominants",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-07.d",
+      "skillId": "skill.secondary-dominants",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-07.e",
+      "skillId": "skill.secondary-dominants",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-07.f",
+      "skillId": "skill.secondary-dominants",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-07.g",
+      "skillId": "skill.secondary-dominants",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-07.h",
+      "skillId": "skill.secondary-dominants",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-07.i",
+      "skillId": "skill.secondary-dominants",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-07.j",
+      "skillId": "skill.secondary-dominants",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-07.k",
+      "skillId": "skill.secondary-dominants",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-07.l",
+      "skillId": "skill.secondary-dominants",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-08.a",
+      "skillId": "skill.modal-mixture",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-08.b",
+      "skillId": "skill.modal-mixture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-08.c",
+      "skillId": "skill.modal-mixture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-08.d",
+      "skillId": "skill.modal-mixture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-08.e",
+      "skillId": "skill.modal-mixture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-08.f",
+      "skillId": "skill.modal-mixture",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-08.g",
+      "skillId": "skill.modal-mixture",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-08.h",
+      "skillId": "skill.modal-mixture",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-08.i",
+      "skillId": "skill.modal-mixture",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-08.j",
+      "skillId": "skill.modal-mixture",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-08.k",
+      "skillId": "skill.modal-mixture",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-08.l",
+      "skillId": "skill.modal-mixture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-09.a",
+      "skillId": "skill.modulation",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m5-09.b",
+      "skillId": "skill.modulation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-09.c",
+      "skillId": "skill.modulation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-09.d",
+      "skillId": "skill.modulation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-09.e",
+      "skillId": "skill.modulation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-09.f",
+      "skillId": "skill.modulation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-09.g",
+      "skillId": "skill.modulation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-09.h",
+      "skillId": "skill.modulation",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-09.i",
+      "skillId": "skill.modulation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-09.j",
+      "skillId": "skill.modulation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-09.k",
+      "skillId": "skill.modulation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-09.l",
+      "skillId": "skill.modulation",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-10.a",
+      "skillId": "skill.neapolitan",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-10.b",
+      "skillId": "skill.neapolitan",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-10.c",
+      "skillId": "skill.neapolitan",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-10.d",
+      "skillId": "skill.neapolitan",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-11.a",
+      "skillId": "skill.augmented-sixth",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-11.b",
+      "skillId": "skill.augmented-sixth",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m5-11.c",
+      "skillId": "skill.augmented-sixth",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m5-11.d",
+      "skillId": "skill.augmented-sixth",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-01.a",
+      "skillId": "skill.motive-phrase",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m6-01.b",
+      "skillId": "skill.motive-phrase",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m6-01.c",
+      "skillId": "skill.motive-phrase",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m6-01.d",
+      "skillId": "skill.motive-phrase",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m6-01.e",
+      "skillId": "skill.motive-phrase",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m6-01.f",
+      "skillId": "skill.motive-phrase",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m6-01.g",
+      "skillId": "skill.motive-phrase",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m6-01.h",
+      "skillId": "skill.motive-phrase",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m6-01.i",
+      "skillId": "skill.motive-phrase",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-01.j",
+      "skillId": "skill.motive-phrase",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-01.k",
+      "skillId": "skill.motive-phrase",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-01.l",
+      "skillId": "skill.motive-phrase",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-02.a",
+      "skillId": "skill.musical-form",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-02.b",
+      "skillId": "skill.musical-form",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-02.c",
+      "skillId": "skill.musical-form",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-02.d",
+      "skillId": "skill.musical-form",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-02.e",
+      "skillId": "skill.musical-form",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-02.f",
+      "skillId": "skill.musical-form",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-02.g",
+      "skillId": "skill.musical-form",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-02.h",
+      "skillId": "skill.musical-form",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-02.i",
+      "skillId": "skill.musical-form",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-02.j",
+      "skillId": "skill.musical-form",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-02.k",
+      "skillId": "skill.musical-form",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m6-02.l",
+      "skillId": "skill.musical-form",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m6-03.a",
+      "skillId": "skill.rondo-sonata",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-03.b",
+      "skillId": "skill.rondo-sonata",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-03.c",
+      "skillId": "skill.rondo-sonata",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-03.d",
+      "skillId": "skill.rondo-sonata",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-03.e",
+      "skillId": "skill.rondo-sonata",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-03.f",
+      "skillId": "skill.rondo-sonata",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-03.g",
+      "skillId": "skill.rondo-sonata",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m6-03.h",
+      "skillId": "skill.rondo-sonata",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m6-03.i",
+      "skillId": "skill.rondo-sonata",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m6-03.j",
+      "skillId": "skill.rondo-sonata",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m6-03.k",
+      "skillId": "skill.rondo-sonata",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m6-03.l",
+      "skillId": "skill.rondo-sonata",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m6-04.a",
+      "skillId": "skill.texture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-04.b",
+      "skillId": "skill.texture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-04.c",
+      "skillId": "skill.texture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-04.d",
+      "skillId": "skill.texture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-04.e",
+      "skillId": "skill.texture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-04.f",
+      "skillId": "skill.texture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-04.g",
+      "skillId": "skill.texture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-04.h",
+      "skillId": "skill.texture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-04.i",
+      "skillId": "skill.texture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-04.j",
+      "skillId": "skill.texture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-04.k",
+      "skillId": "skill.texture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-04.l",
+      "skillId": "skill.texture",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-05.a",
+      "skillId": "skill.counterpoint",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-05.b",
+      "skillId": "skill.counterpoint",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-05.c",
+      "skillId": "skill.counterpoint",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-05.d",
+      "skillId": "skill.counterpoint",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-05.e",
+      "skillId": "skill.counterpoint",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-05.f",
+      "skillId": "skill.counterpoint",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-05.g",
+      "skillId": "skill.counterpoint",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-05.h",
+      "skillId": "skill.counterpoint",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-05.i",
+      "skillId": "skill.counterpoint",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m6-05.j",
+      "skillId": "skill.counterpoint",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m6-05.k",
+      "skillId": "skill.counterpoint",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m6-05.l",
+      "skillId": "skill.counterpoint",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m6-06.a",
+      "skillId": "skill.ornament",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-06.b",
+      "skillId": "skill.ornament",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-06.c",
+      "skillId": "skill.ornament",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-06.d",
+      "skillId": "skill.ornament",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-06.e",
+      "skillId": "skill.ornament",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-06.f",
+      "skillId": "skill.ornament",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-06.g",
+      "skillId": "skill.ornament",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-06.h",
+      "skillId": "skill.ornament",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-06.i",
+      "skillId": "skill.ornament",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-06.j",
+      "skillId": "skill.ornament",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-06.k",
+      "skillId": "skill.ornament",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m6-06.l",
+      "skillId": "skill.ornament",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-01.a",
+      "skillId": "skill.hand-independence",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-01.b",
+      "skillId": "skill.hand-independence",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-01.c",
+      "skillId": "skill.hand-independence",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-01.d",
+      "skillId": "skill.hand-independence",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-01.e",
+      "skillId": "skill.hand-independence",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-01.f",
+      "skillId": "skill.hand-independence",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-01.g",
+      "skillId": "skill.hand-independence",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-01.h",
+      "skillId": "skill.hand-independence",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-01.i",
+      "skillId": "skill.hand-independence",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-01.j",
+      "skillId": "skill.hand-independence",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-01.k",
+      "skillId": "skill.hand-independence",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-01.l",
+      "skillId": "skill.hand-independence",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-02.a",
+      "skillId": "skill.arpeggio",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-02.b",
+      "skillId": "skill.arpeggio",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-02.c",
+      "skillId": "skill.arpeggio",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-02.d",
+      "skillId": "skill.arpeggio",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-02.e",
+      "skillId": "skill.arpeggio",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-02.f",
+      "skillId": "skill.arpeggio",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-02.g",
+      "skillId": "skill.arpeggio",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-02.h",
+      "skillId": "skill.arpeggio",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-02.i",
+      "skillId": "skill.arpeggio",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-02.j",
+      "skillId": "skill.arpeggio",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-02.k",
+      "skillId": "skill.arpeggio",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-02.l",
+      "skillId": "skill.arpeggio",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-02.m",
+      "skillId": "skill.arpeggio",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-03.a",
+      "skillId": "skill.pedal",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-03.b",
+      "skillId": "skill.pedal",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-03.c",
+      "skillId": "skill.pedal",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-03.d",
+      "skillId": "skill.pedal",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-03.e",
+      "skillId": "skill.pedal",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-03.f",
+      "skillId": "skill.pedal",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-03.g",
+      "skillId": "skill.pedal",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-03.h",
+      "skillId": "skill.pedal",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-03.i",
+      "skillId": "skill.pedal",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-03.j",
+      "skillId": "skill.pedal",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-04.a",
+      "skillId": "skill.accompaniment",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-04.b",
+      "skillId": "skill.accompaniment",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-04.c",
+      "skillId": "skill.accompaniment",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-04.d",
+      "skillId": "skill.accompaniment",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-04.e",
+      "skillId": "skill.accompaniment",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-04.f",
+      "skillId": "skill.accompaniment",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-04.g",
+      "skillId": "skill.accompaniment",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-04.h",
+      "skillId": "skill.accompaniment",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-04.i",
+      "skillId": "skill.accompaniment",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-04.j",
+      "skillId": "skill.accompaniment",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-05.a",
+      "skillId": "skill.arpeggiated-accompaniment",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-05.b",
+      "skillId": "skill.arpeggiated-accompaniment",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-05.c",
+      "skillId": "skill.arpeggiated-accompaniment",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-05.d",
+      "skillId": "skill.arpeggiated-accompaniment",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-05.e",
+      "skillId": "skill.arpeggiated-accompaniment",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-05.f",
+      "skillId": "skill.arpeggiated-accompaniment",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-05.g",
+      "skillId": "skill.arpeggiated-accompaniment",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-05.h",
+      "skillId": "skill.arpeggiated-accompaniment",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-05.i",
+      "skillId": "skill.arpeggiated-accompaniment",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-05.j",
+      "skillId": "skill.arpeggiated-accompaniment",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-05.k",
+      "skillId": "skill.arpeggiated-accompaniment",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-05.l",
+      "skillId": "skill.arpeggiated-accompaniment",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-06.a",
+      "skillId": "skill.alberti",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-06.b",
+      "skillId": "skill.alberti",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-06.c",
+      "skillId": "skill.alberti",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-06.d",
+      "skillId": "skill.alberti",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-06.e",
+      "skillId": "skill.alberti",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-06.f",
+      "skillId": "skill.alberti",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-06.g",
+      "skillId": "skill.alberti",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-06.h",
+      "skillId": "skill.alberti",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-06.i",
+      "skillId": "skill.alberti",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-06.j",
+      "skillId": "skill.alberti",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-06.k",
+      "skillId": "skill.alberti",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-06.l",
+      "skillId": "skill.alberti",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-07.a",
+      "skillId": "skill.walking-bass",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-07.b",
+      "skillId": "skill.walking-bass",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-07.c",
+      "skillId": "skill.walking-bass",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-07.d",
+      "skillId": "skill.walking-bass",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-07.e",
+      "skillId": "skill.walking-bass",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-07.f",
+      "skillId": "skill.walking-bass",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-07.g",
+      "skillId": "skill.walking-bass",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-07.h",
+      "skillId": "skill.walking-bass",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-07.i",
+      "skillId": "skill.walking-bass",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-07.j",
+      "skillId": "skill.walking-bass",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m7-07.k",
+      "skillId": "skill.walking-bass",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-07.l",
+      "skillId": "skill.walking-bass",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m7-08.a",
+      "skillId": "skill.stride",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-08.b",
+      "skillId": "skill.stride",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-08.c",
+      "skillId": "skill.stride",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-08.d",
+      "skillId": "skill.stride",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-08.e",
+      "skillId": "skill.stride",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-08.f",
+      "skillId": "skill.stride",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-08.g",
+      "skillId": "skill.stride",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-08.h",
+      "skillId": "skill.stride",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-08.i",
+      "skillId": "skill.stride",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-08.j",
+      "skillId": "skill.stride",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m7-08.k",
+      "skillId": "skill.stride",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-08.l",
+      "skillId": "skill.stride",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m7-09.a",
+      "skillId": "skill.sight-reading",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-09.b",
+      "skillId": "skill.sight-reading",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-09.c",
+      "skillId": "skill.sight-reading",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-09.d",
+      "skillId": "skill.sight-reading",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-09.e",
+      "skillId": "skill.sight-reading",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-09.f",
+      "skillId": "skill.sight-reading",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-09.g",
+      "skillId": "skill.sight-reading",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-09.h",
+      "skillId": "skill.sight-reading",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-09.i",
+      "skillId": "skill.sight-reading",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-09.j",
+      "skillId": "skill.sight-reading",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m7-09.k",
+      "skillId": "skill.sight-reading",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m7-09.l",
+      "skillId": "skill.sight-reading",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m7-10.a",
+      "skillId": "skill.play-by-ear",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-10.b",
+      "skillId": "skill.play-by-ear",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-10.c",
+      "skillId": "skill.play-by-ear",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-10.d",
+      "skillId": "skill.play-by-ear",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m7-10.e",
+      "skillId": "skill.transposition",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-10.f",
+      "skillId": "skill.transposition",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-10.g",
+      "skillId": "skill.transposition",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-10.h",
+      "skillId": "skill.transposition",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-10.i",
+      "skillId": "skill.ear-progression",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-10.j",
+      "skillId": "skill.ear-progression",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-10.k",
+      "skillId": "skill.ear-progression",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-10.l",
+      "skillId": "skill.ear-progression",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-11.a",
+      "skillId": "skill.lead-sheet",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m7-11.b",
+      "skillId": "skill.lead-sheet",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-11.c",
+      "skillId": "skill.lead-sheet",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-11.d",
+      "skillId": "skill.lead-sheet",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-11.e",
+      "skillId": "skill.lead-sheet",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m7-11.f",
+      "skillId": "skill.lead-sheet",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-11.g",
+      "skillId": "skill.lead-sheet",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-11.h",
+      "skillId": "skill.lead-sheet",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m7-11.i",
+      "skillId": "skill.lead-sheet",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m7-11.j",
+      "skillId": "skill.lead-sheet",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m7-11.k",
+      "skillId": "skill.lead-sheet",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m7-11.l",
+      "skillId": "skill.lead-sheet",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m8-01.a",
+      "skillId": "skill.pop-rock",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m8-01.b",
+      "skillId": "skill.pop-rock",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-01.c",
+      "skillId": "skill.pop-rock",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-01.d",
+      "skillId": "skill.pop-rock",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m8-01.e",
+      "skillId": "skill.pop-rock",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m8-01.f",
+      "skillId": "skill.pop-rock",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-01.g",
+      "skillId": "skill.pop-rock",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-01.h",
+      "skillId": "skill.pop-rock",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m8-01.i",
+      "skillId": "skill.pop-rock",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m8-01.j",
+      "skillId": "skill.pop-rock",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-01.k",
+      "skillId": "skill.pop-rock",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-01.l",
+      "skillId": "skill.pop-rock",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-02.a",
+      "skillId": "skill.blues",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-02.b",
+      "skillId": "skill.blues",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-02.c",
+      "skillId": "skill.blues",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-02.d",
+      "skillId": "skill.blues",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-02.e",
+      "skillId": "skill.blues",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m8-02.f",
+      "skillId": "skill.blues",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-02.g",
+      "skillId": "skill.blues",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-02.h",
+      "skillId": "skill.blues",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-02.i",
+      "skillId": "skill.blues",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-02.j",
+      "skillId": "skill.blues",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-02.k",
+      "skillId": "skill.blues",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-02.l",
+      "skillId": "skill.blues",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m8-03.a",
+      "skillId": "skill.jazz",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-03.b",
+      "skillId": "skill.jazz",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-03.c",
+      "skillId": "skill.jazz",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m8-03.d",
+      "skillId": "skill.jazz",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-03.e",
+      "skillId": "skill.jazz",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m8-03.f",
+      "skillId": "skill.jazz",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-03.g",
+      "skillId": "skill.jazz",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-03.h",
+      "skillId": "skill.jazz",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-03.i",
+      "skillId": "skill.jazz",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m8-03.j",
+      "skillId": "skill.jazz",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-03.k",
+      "skillId": "skill.jazz",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-03.l",
+      "skillId": "skill.jazz",
+      "difficulty": 4
+    },
+    {
+      "id": "ex.m8-04.a",
+      "skillId": "skill.latin",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-04.b",
+      "skillId": "skill.latin",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-04.c",
+      "skillId": "skill.latin",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-04.d",
+      "skillId": "skill.latin",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-04.e",
+      "skillId": "skill.latin",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m8-04.f",
+      "skillId": "skill.latin",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-04.g",
+      "skillId": "skill.latin",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-04.h",
+      "skillId": "skill.latin",
+      "difficulty": 3
+    },
+    {
+      "id": "ex.m8-04.i",
+      "skillId": "skill.latin",
+      "difficulty": 1
+    },
+    {
+      "id": "ex.m8-04.j",
+      "skillId": "skill.latin",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-04.k",
+      "skillId": "skill.latin",
+      "difficulty": 2
+    },
+    {
+      "id": "ex.m8-04.l",
+      "skillId": "skill.latin",
+      "difficulty": 3
+    }
+  ]
+}

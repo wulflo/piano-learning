@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-05.g",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Si♭ maj13 (trecena mayor) de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of a Bbmaj13 (major thirteenth) from low to high, separated by spaces.",
+  "explanationEs": "Si♭ maj13 es 1-3-5-7-9-11-13: Si♭, Re, Fa, La, Do, Mi♭ y Sol. La séptima La es mayor, la novena Do, la oncena Mi♭ y la trecena Sol, 21 semitonos arriba de Si♭. En la práctica se omiten Fa y Mi♭.",
+  "explanationEn": "Bbmaj13 is 1-3-5-7-9-11-13: Bb, D, F, A, C, Eb and G. The seventh A is major, the ninth C, the eleventh Eb and the thirteenth G, 21 semitones above Bb. In practice F and Eb are omitted.",
+  "difficulty": 4,
+  "root": { "step": "B", "accidental": "b", "octave": 4 },
+  "quality": "major13",
+  "inversion": 0,
+  "ask": "notes"
+}

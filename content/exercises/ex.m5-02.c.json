@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-02.c",
+  "skillId": "skill.roman-numeral",
+  "type": "roman-numeral",
+  "promptEs": "En La menor armónica, ¿qué numeral romano nombra el acorde Mi (Mi, Sol♯, Si)?",
+  "promptEn": "In A harmonic minor, which Roman numeral names the chord E (E, G♯, B)?",
+  "explanationEs": "En La menor armónica, Mi es el quinto grado y su tercera Mi-Sol♯ es mayor, así que el numeral va en mayúscula: V. La menor natural tendría Mim (v).",
+  "explanationEn": "In A harmonic minor, E is the fifth degree and its third E-G♯ is major, so the numeral is uppercase: V. Natural minor would have Em (v).",
+  "difficulty": 3,
+  "key": "A",
+  "mode": "minor",
+  "numeral": "V",
+  "choices": [
+    "v",
+    "V",
+    "VII"
+  ],
+  "choicesEn": [
+    "v",
+    "V",
+    "VII"
+  ]
+}

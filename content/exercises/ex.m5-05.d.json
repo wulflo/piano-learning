@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-05.d",
+  "skillId": "skill.common-progressions",
+  "type": "progression-completion",
+  "promptEs": "En Mi♭ mayor, ¿qué grado completa la progresión ?-V-I?",
+  "promptEn": "In E♭ major, which degree completes the ?-V-I progression?",
+  "explanationEs": "La progresión jazz ii-V-I en Mi♭ mayor es Fam-Si♭-Mi♭. El grado que falta es ii: el ii prepara la dominante, el V resuelve y el I cierra. Es la cadencia más usada del jazz y del pop sofisticado.",
+  "explanationEn": "The jazz progression ii-V-I in E♭ major is Fm-B♭-E♭. The missing degree is ii: ii prepares the dominant, V resolves and I closes. It is the most used cadence in jazz and sophisticated pop.",
+  "difficulty": 3,
+  "key": "Eb",
+  "mode": "major",
+  "degrees": [
+    "ii",
+    "V",
+    "I"
+  ],
+  "missingIndex": 0,
+  "choices": [
+    "ii",
+    "V",
+    "I",
+    "IV"
+  ],
+  "choicesEn": [
+    "ii",
+    "V",
+    "I",
+    "IV"
+  ]
+}

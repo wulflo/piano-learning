@@ -1,0 +1,120 @@
+{
+  "id": "ex.m7-10.a",
+  "skillId": "skill.play-by-ear",
+  "type": "ear-melody",
+  "promptEs": "Escuchá la melodía oculta. La primera nota del fragmento es Do4. ¿Qué nota es la cuarta?",
+  "promptEn": "Listen to the hidden melody. The first note of the fragment is C4. What note is the fourth?",
+  "explanationEs": "La respuesta correcta es «Re4». Partí de Do4 y leí por intervalos: Re4 queda a un intervalo de segunda mayor. En el pentagrama podés contar los grados desde la nota ancla sin volver a nombrar cada línea. Para fijarla de oído, cantá la melodía antes de responder y volvé a escucharla después de ver la partitura revelada.",
+  "explanationEn": "The correct answer is “D4”. Start from C4 and read by intervals: D4 is an interval of major second away. On the staff you can count the steps from the anchor note without naming every line again. To fix it by ear, sing the melody before answering and listen again after the revealed score appears.",
+  "difficulty": 1,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m7-10.a.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-10.a.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-10.a.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-10.a.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "ask": "note",
+  "from": 0,
+  "to": 3,
+  "choices": [
+    "Re4",
+    "Do4",
+    "Mi4"
+  ],
+  "choicesEn": [
+    "D4",
+    "C4",
+    "E4"
+  ]
+}

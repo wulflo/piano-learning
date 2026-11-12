@@ -1,0 +1,25 @@
+{
+  "id": "ex.m5-08.i",
+  "skillId": "skill.modal-mixture",
+  "type": "borrowed-chord",
+  "promptEs": "En La♭ mayor, el acorde Sol♭ mayor (Sol♭, Si♭, Re♭) se toma prestado del modo paralelo. ¿Qué número romano le corresponde?",
+  "promptEn": "In A♭ major, the chord G♭ major (G♭, B♭, D♭) is borrowed from the parallel mode. Which Roman numeral does it get?",
+  "explanationEs": "En La♭ mayor, Sol♭ mayor es el ♭VII del modo paralelo, la subtónica y se cifra bVII. El intercambio modal conserva la fundamental del grado pero cambia su cualidad y, a veces, añade una alteración.",
+  "explanationEn": "In A♭ major, G♭ major is the ♭VII of the parallel mode, the subtonic and it is labelled bVII. Modal mixture keeps the root of the degree but changes its quality and sometimes adds an accidental.",
+  "difficulty": 3,
+  "key": "Ab",
+  "mode": "major",
+  "numeral": "bVII",
+  "choices": [
+    "vii°",
+    "bVII",
+    "IV",
+    "v"
+  ],
+  "choicesEn": [
+    "vii°",
+    "bVII",
+    "IV",
+    "v"
+  ]
+}

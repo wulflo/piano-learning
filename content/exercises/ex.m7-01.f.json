@@ -1,0 +1,118 @@
+{
+  "id": "ex.m7-01.f",
+  "skillId": "skill.hand-independence",
+  "type": "hand-coordination",
+  "promptEs": "¿Qué mano ataca en el compás 2, pulso 3?",
+  "promptEn": "Which hand attacks in measure 2, beat 3?",
+  "explanationEs": "En el compás 2 la derecha ataca Mi5 en el pulso 1 y la izquierda responde con Fa4 en el pulso 3. Cada mano toca una blanca, así que el ataque del pulso 3 es solo de la izquierda.",
+  "explanationEn": "In measure 2 the right hand attacks E5 on beat 1 and the left hand answers with F4 on beat 3. Each hand plays a half note, so the attack on beat 3 belongs only to the left hand.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m7-01.f.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-01.f.2",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-01.f.3",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-01.f.4",
+        "measure": 2,
+        "beat": 2,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "left",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "measure": 2,
+  "beat": 3,
+  "choices": [
+    "Ambas manos",
+    "Mano izquierda",
+    "Mano derecha"
+  ],
+  "choicesEn": [
+    "Both hands",
+    "Left hand",
+    "Right hand"
+  ]
+}

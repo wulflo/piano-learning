@@ -1,0 +1,17 @@
+{
+  "id": "ex.m3-03.f",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Escuchá el intervalo armónico y clasificalo según su función en la armonía tonal.",
+  "promptEn": "Listen to the harmonic interval and classify it by its function in tonal harmony.",
+  "explanationEs": "Fa4-Re5 es una sexta mayor. También es una consonancia imperfecta; su estabilidad depende del contexto armónico, pero no se cuenta entre las disonancias.",
+  "explanationEn": "F4-D5 is a major sixth. It is also an imperfect consonance; its stability depends on the harmonic context, but it is not counted among the dissonances.",
+  "difficulty": 2,
+  "lower": { "step": "F", "accidental": "", "octave": 4 },
+  "upper": { "step": "D", "accidental": "", "octave": 5 },
+  "direction": "harmonic",
+  "answer": "Consonancia imperfecta",
+  "answerEn": "Imperfect consonance",
+  "choices": ["Consonancia imperfecta", "Disonancia", "Depende del contexto", "Consonancia perfecta"],
+  "choicesEn": ["Imperfect consonance", "Dissonance", "Depends on context", "Perfect consonance"]
+}

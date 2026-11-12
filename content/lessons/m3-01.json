@@ -1,0 +1,235 @@
+{
+  "id": "lesson.m3-01",
+  "moduleId": "M3",
+  "slug": "intervalos-cantidad-y-calidad",
+  "titleEs": "Intervalos: cantidad y calidad",
+  "titleEn": "Intervals: size and quality",
+  "summaryEs": "Cómo medir la distancia entre dos notas con dos datos: la cantidad de letras y la calidad en semitonos.",
+  "summaryEn": "How to measure the distance between two notes with two facts: the number of letters and the quality in semitones.",
+  "objectivesEs": [
+    "Contar la cantidad de un intervalo de segunda a octava",
+    "Distinguir intervalos justos, mayores, menores, aumentados y disminuidos",
+    "Medir intervalos en las doce tónicas y comprobar la calidad por semitonos"
+  ],
+  "objectivesEn": [
+    "Count the size of an interval from a second to an octave",
+    "Tell perfect, major, minor, augmented and diminished intervals apart",
+    "Measure intervals from all twelve tonics and check the quality by semitones"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m2-12"
+  ],
+  "skillIds": [
+    "skill.interval-quality"
+  ],
+  "exerciseIds": [
+    "ex.m3-01.a",
+    "ex.m3-01.b",
+    "ex.m3-01.c",
+    "ex.m3-01.d",
+    "ex.m3-01.e",
+    "ex.m3-01.f",
+    "ex.m3-01.g",
+    "ex.m3-01.h",
+    "ex.m3-01.i",
+    "ex.m3-01.j",
+    "ex.m3-01.k",
+    "ex.m3-01.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m3-01.intro",
+      "kind": "text",
+      "titleEs": "Dos notas, dos datos",
+      "titleEn": "Two notes, two facts",
+      "bodyEs": "Un intervalo es la distancia entre dos notas. Para nombrarlo no alcanza con contar teclas: hacen falta dos datos. La cantidad dice cuántas letras hay entre las dos notas, contando las dos. La calidad dice cuántos semitonos caben en esa distancia y si el intervalo es justo, mayor, menor, aumentado o disminuido. Por ejemplo, Do-Mi es una tercera y su calidad es mayor; Do-Mi bemol también es una tercera, pero su calidad es menor.",
+      "bodyEn": "An interval is the distance between two notes. Naming it takes more than counting keys: you need two facts. The size says how many letters lie between the two notes, counting both. The quality says how many semitones fit in that distance and whether the interval is perfect, major, minor, augmented or diminished. For example, C-E is a third and its quality is major; C-E flat is also a third, but its quality is minor."
+    },
+    {
+      "id": "sec.m3-01.cantidad",
+      "kind": "text",
+      "titleEs": "La cantidad: contar letras",
+      "titleEn": "The size: counting letters",
+      "bodyEs": "La cantidad se cuenta con las letras de la escala, no con las teclas. Se empieza en la primera nota y se cuenta uno por cada letra hasta la segunda, incluyendo las dos: Do a Re es una segunda, Do a Mi una tercera, Do a Fa una cuarta, Do a Sol una quinta, Do a La una sexta, Do a Si una séptima y Do a Do una octava. La misma nota repetida es un unísono. Cuando el intervalo pasa de la octava se llama compuesto: novena, undécima o decimotercera; para reducirlo a la octava se le restan siete. Así, una novena es una segunda más una octava.",
+      "bodyEn": "The size is counted with the letters of the scale, not with the keys. Start on the first note and count one for each letter up to the second, including both: C to D is a second, C to E a third, C to F a fourth, C to G a fifth, C to A a sixth, C to B a seventh and C to C an octave. The same note repeated is a unison. When the interval goes beyond the octave it is called compound: ninth, eleventh or thirteenth; to reduce it to the octave you subtract seven. Thus a ninth is a second plus an octave."
+    },
+    {
+      "id": "sec.m3-01.calidad",
+      "kind": "text",
+      "titleEs": "La calidad: contar semitonos",
+      "titleEn": "The quality: counting semitones",
+      "bodyEs": "La calidad depende de los semitonos. Las segundas, terceras, sextas y séptimas pueden ser mayores o menores. Las cuartas, quintas, octavas y unísonos son justos. Si un intervalo tiene un semitono más que su versión justa o mayor, es aumentado; si tiene un semitono menos que uno justo, es disminuido; si tiene dos semitonos menos que uno mayor, es disminuido. Con esos datos: Do-Mi es una tercera mayor (4 semitonos), Do-Mi bemol una tercera menor (3), Do-Fa una cuarta justa (5), Fa-Si una cuarta aumentada (6), Si-Fa una quinta disminuida (6) y Do-Sol una quinta justa (7). La octava justa tiene 12 semitonos.",
+      "bodyEn": "The quality depends on the semitones. Seconds, thirds, sixths and sevenths can be major or minor. Fourths, fifths, octaves and unisons are perfect. If an interval has one semitone more than its perfect or major version, it is augmented; if it has one semitone less than a perfect one, it is diminished; if it has two semitones less than a major one, it is diminished. With those facts: C-E is a major third (4 semitones), C-E flat a minor third (3), C-F a perfect fourth (5), F-B an augmented fourth (6), B-F a diminished fifth (6) and C-G a perfect fifth (7). The perfect octave has 12 semitones."
+    },
+    {
+      "id": "sec.m3-01.demo",
+      "kind": "score",
+      "titleEs": "La misma cantidad, distinta calidad",
+      "titleEn": "Same size, different quality",
+      "bodyEs": "Escuchá y mirá cuatro intervalos armónicos desde Do. Do-Mi es una tercera mayor, Do-Mi bemol una tercera menor, Do-Fa una cuarta justa y Do-Fa sostenido una cuarta aumentada. La cantidad no cambia el número de letras, pero los semitonos sí cambian la calidad y el color sonoro.",
+      "bodyEn": "Listen to and look at four harmonic intervals from C. C-E is a major third, C-E flat a minor third, C-F a perfect fourth and C-F sharp an augmented fourth. The size keeps the same number of letters, but the semitones change the quality and the sound colour.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "score.m3-01.maj3",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-01.min3",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-01.perf4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-01.aug4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "#", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 84,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m3-01.exercises",
+      "kind": "exercise",
+      "titleEs": "Medir intervalos en las doce tónicas",
+      "titleEn": "Measure intervals from all twelve tonics",
+      "bodyEs": "Cada ejercicio parte de una tónica distinta y te pide nombrar la cantidad y la calidad del intervalo. Contá primero las letras para la cantidad y después los semitonos para la calidad. El botón de reproducción te deja escuchar el intervalo melódico o armónico antes de responder.",
+      "bodyEn": "Each exercise starts from a different tonic and asks you to name the size and quality of the interval. Count the letters first for the size and then the semitones for the quality. The play button lets you hear the melodic or harmonic interval before answering."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tocá una tercera mayor y una quinta justa",
+    "titleEn": "Play a major third and a perfect fifth",
+    "instructionsEs": "Con la mano derecha, tocá Do4-Mi4 (tercera mayor) y después Do4-Sol4 (quinta justa). Escuchá la diferencia de color y repetí a 60 BPM sin apuro.",
+    "instructionsEn": "With your right hand, play C4-E4 (major third) and then C4-G4 (perfect fifth). Listen to the difference in colour and repeat at 60 BPM without rushing.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: pulgar en Do y dedo 3 en Mi; después pulgar en Do y dedo 5 en Sol.",
+    "fingeringEn": "Right hand: thumb on C and finger 3 on E; then thumb on C and finger 5 on G.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué Do-Mi y reconocí la tercera mayor",
+      "Toqué Do-Sol y reconocí la quinta justa",
+      "Comparé las dos calidades sin tensar la mano"
+    ],
+    "checklistEn": [
+      "I played C-E and recognised the major third",
+      "I played C-G and recognised the perfect fifth",
+      "I compared the two qualities without tensing my hand"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m3-01.maj3",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-01.perf5",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

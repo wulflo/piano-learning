@@ -1,0 +1,17 @@
+{
+  "id": "ex.m3-03.l",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Escuchá el intervalo armónico y clasificalo según su función en la armonía tonal.",
+  "promptEn": "Listen to the harmonic interval and classify it by its function in tonal harmony.",
+  "explanationEs": "Si4-Si5 es una octava justa. La octava es una consonancia perfecta: las dos voces se funden y el intervalo suena vacío y estable.",
+  "explanationEn": "B4-B5 is a perfect octave. The octave is a perfect consonance: the two voices blend and the interval sounds empty and stable.",
+  "difficulty": 1,
+  "lower": { "step": "B", "accidental": "", "octave": 4 },
+  "upper": { "step": "B", "accidental": "", "octave": 5 },
+  "direction": "harmonic",
+  "answer": "Consonancia perfecta",
+  "answerEn": "Perfect consonance",
+  "choices": ["Depende del contexto", "Consonancia perfecta", "Consonancia imperfecta", "Disonancia"],
+  "choicesEn": ["Depends on context", "Perfect consonance", "Imperfect consonance", "Dissonance"]
+}

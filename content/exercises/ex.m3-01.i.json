@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-01.i",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre La♭4 y Fa5?",
+  "promptEn": "What interval is there between A♭4 and F5?",
+  "explanationEs": "De La♭ a Fa hay una sexta de nueve semitonos, un semitono más que la sexta menor: es mayor.",
+  "explanationEn": "From A♭ to F there is a sixth of nine semitones, one semitone more than a minor sixth: it is major.",
+  "difficulty": 3,
+  "lower": { "step": "A", "accidental": "b", "octave": 4 },
+  "upper": { "step": "F", "accidental": "", "octave": 5 },
+  "direction": "harmonic",
+  "choices": ["Sexta mayor", "Sexta menor", "Séptima menor", "Quinta aumentada"],
+  "choicesEn": ["Major sixth", "Minor sixth", "Minor seventh", "Augmented fifth"]
+}

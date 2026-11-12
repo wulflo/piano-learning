@@ -1,0 +1,12 @@
+{
+  "id": "ex.m4-07.j",
+  "skillId": "skill.chord-notation",
+  "type": "chord-notation",
+  "promptEs": "Escribí el cifrado latino equivalente al cifrado americano F♯dim7.",
+  "promptEn": "Write the Latin chord symbol equivalent to the American chord F♯dim7.",
+  "explanationEs": "F♯dim7 se convierte en Fa♯dim7: F♯ pasa a Fa♯ y la disminución se mantiene.",
+  "explanationEn": "F♯dim7 becomes Fa♯dim7: F♯ becomes Fa♯ and the diminished qualifier is kept.",
+  "difficulty": 3,
+  "symbol": "F♯dim7",
+  "to": "do"
+}

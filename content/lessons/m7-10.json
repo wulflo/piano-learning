@@ -1,0 +1,1056 @@
+{
+  "id": "lesson.m7-10",
+  "moduleId": "M7",
+  "slug": "tocar-de-oido-transposicion-improvisacion",
+  "titleEs": "Tocar de oído, transposición e improvisación",
+  "titleEn": "Playing by ear, transposition and improvisation",
+  "summaryEs": "Los cinco pasos para tocar de oído, la transposición por grados, la rueda de acordes I–vi–ii–V y la improvisación con tres notas.",
+  "summaryEn": "The five steps for playing by ear, transposition by degrees, the I–vi–ii–V chord wheel and improvisation with three notes.",
+  "objectivesEs": [
+    "Reconstruir una melodía de oído con los cinco pasos y responder sin ver la partitura",
+    "Transportar una melodía corta conservando sus intervalos y grados",
+    "Improvisar un motivo de tres notas sobre la rueda I–vi–ii–V en Do"
+  ],
+  "objectivesEn": [
+    "Reconstruct a melody by ear with the five steps and answer without seeing the score",
+    "Transpose a short melody while keeping its intervals and degrees",
+    "Improvise a three-note motif over the I–vi–ii–V wheel in C"
+  ],
+  "minutes": 20,
+  "prerequisites": [
+    "lesson.m7-09"
+  ],
+  "skillIds": [
+    "skill.play-by-ear",
+    "skill.transposition",
+    "skill.ear-progression",
+    "skill.improvisation"
+  ],
+  "exerciseIds": [
+    "ex.m7-10.a",
+    "ex.m7-10.b",
+    "ex.m7-10.c",
+    "ex.m7-10.d",
+    "ex.m7-10.e",
+    "ex.m7-10.f",
+    "ex.m7-10.g",
+    "ex.m7-10.h",
+    "ex.m7-10.i",
+    "ex.m7-10.j",
+    "ex.m7-10.k",
+    "ex.m7-10.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m7-10.oido",
+      "kind": "text",
+      "titleEs": "Tocar de oído en cinco pasos",
+      "titleEn": "Playing by ear in five steps",
+      "bodyEs": "Tocar de oído no es adivinar: es reconstruir lo que escuchaste con cinco pasos. Paso 1: escuchá la melodía completa sin tocar y cantala o tarareala. Paso 2: encontrá la tónica; probá si la última nota descansa en Do, Sol, etc. Paso 3: ubicá la primera nota y cantá el primer intervalo. Paso 4: traducí el dibujo a grados (1, 2, 3, 5) en vez de nombres. Paso 5: tocá la respuesta y compará; si falla, reducí a dos o tres notas y repetí. La melodía oculta de los ejercicios suena sin partitura: escuchá, cantá y recién después respondé. No uses el ensayo y error: cada escucha debe tener una hipótesis.",
+      "bodyEn": "Playing by ear is not guessing: it means rebuilding what you heard with five steps. Step 1: listen to the whole melody without playing and sing or hum it. Step 2: find the tonic; check whether the last note rests on C, G, and so on. Step 3: locate the first note and sing the first interval. Step 4: translate the shape into degrees (1, 2, 3, 5) instead of names. Step 5: play the answer and compare; if it fails, reduce it to two or three notes and repeat. The hidden melody in the exercises sounds without a score: listen, sing and only then answer. Do not use trial and error: every listen should have a hypothesis."
+    },
+    {
+      "id": "sec.m7-10.transponer",
+      "kind": "text",
+      "titleEs": "Transponer sin leer: mover la forma",
+      "titleEn": "Transposing without reading: moving the shape",
+      "bodyEs": "Transponer es mover una melodía conservando sus intervalos y grados. Paso 1: identificá la tonalidad de origen y el grado de la primera nota. Paso 2: elegí la tónica de destino y cantá la escala. Paso 3: mové cada nota la misma distancia; si la melodía sube una segunda, todas suben una segunda. Paso 4: comprobá la armadura y la ortografía (Fa♯ en Sol mayor, Si♭ en Fa mayor). Paso 5: tocá en la nueva tonalidad y cantá mientras tocás. Para no depender de la memoria visual, transportá por grados: 1-2-3-5 en Do se convierte en 1-2-3-5 en Sol. Practicá una frase corta en las doce tonalidades, primero con la mano derecha sola y después con la izquierda.",
+      "bodyEn": "Transposing means moving a melody while keeping its intervals and degrees. Step 1: identify the source key and the degree of the first note. Step 2: choose the target tonic and sing the scale. Step 3: move every note by the same distance; if the melody rises a second, every note rises a second. Step 4: check the key signature and the spelling (F-sharp in G major, B-flat in F major). Step 5: play in the new key and sing while you play. To avoid relying on visual memory, transpose by degrees: 1-2-3-5 in C becomes 1-2-3-5 in G. Practise a short phrase in all twelve keys, first with the right hand alone and then with the left."
+    },
+    {
+      "id": "sec.m7-10.rueda",
+      "kind": "text",
+      "titleEs": "La rueda de acordes I–vi–ii–V",
+      "titleEn": "The I–vi–ii–V chord wheel",
+      "bodyEs": "La rueda de acordes es una progresión de cuatro pasos que se repite y sirve para acompañar, improvisar y transportar: I–vi–ii–V. En Do mayor: Do–Lam–Rem–Sol (o Sol7). La rueda vuelve al I y puede girar indefinidamente; por eso se usa en pop, jazz y canciones infantiles. Las doce ruedas mayores son: Do–Lam–Rem–Sol; Sol–Mim–Lam–Re; Re–Sim–Mim–La; La–Fa♯m–Sim–Mi; Mi–Do♯m–Fa♯m–Si; Si–Sol♯m–Do♯m–Fa♯; Fa♯–Re♯m–Sol♯m–Do♯; Fa–Rem–Solm–Do; Si♭–Solm–Dom–Fa; Mi♭–Dom–Fam–Si♭; La♭–Fam–Si♭m–Mi♭; Re♭–Si♭m–Mi♭m–La♭. La mano izquierda toca la fundamental y el acorde; la derecha improvisa con las notas del acorde y la escala. Si una rueda se traba, bajá el tempo y repetí solo los dos primeros acordes.",
+      "bodyEn": "The chord wheel is a four-step progression that repeats and serves to accompany, improvise and transpose: I–vi–ii–V. In C major: C–Am–Dm–G (or G7). The wheel returns to I and can spin indefinitely; that is why it is used in pop, jazz and children’s songs. The twelve major wheels are: C–Am–Dm–G; G–Em–Am–D; D–Bm–Em–A; A–F♯m–Bm–E; E–C♯m–F♯m–B; B–G♯m–C♯m–F♯; F♯–D♯m–G♯m–C♯; F–Dm–Gm–C; B♭–Gm–Cm–F; E♭–Cm–Fm–B♭; A♭–Fm–B♭m–E♭; D♭–B♭m–E♭m–A♭. The left hand plays the root and the chord; the right hand improvises with the chord tones and the scale. If a wheel gets stuck, slow down and repeat only the first two chords."
+    },
+    {
+      "id": "sec.m7-10.improvisar",
+      "kind": "text",
+      "titleEs": "Improvisar con tres notas y un ritmo",
+      "titleEn": "Improvising with three notes and a rhythm",
+      "bodyEs": "Improvisar no es tocar muchas notas: es elegir pocas y escucharlas. Paso 1: quedate con tres notas del acorde (por ejemplo 1-3-5). Paso 2: inventá un ritmo de dos compases con negras y silencios. Paso 3: repetí el motivo y respondelo con una variante. Paso 4: dejá espacios y escuchá la rueda. Paso 5: si querés más movimiento, agregá la segunda y la sexta como notas de paso, pero volvé a las notas del acorde en los pulsos fuertes. Improvisá sobre I–vi–ii–V en Do con Do-Mi-Sol, La-Do-Mi, Re-Fa-La y Sol-Si-Re-Fa. No hay notas equivocadas mientras la mano izquierda sostenga la rueda y la derecha elija notas de la escala: si una nota no convence, repetila como parte del motivo en vez de corregirla a mitad de frase.",
+      "bodyEn": "Improvisation is not about playing many notes: it is about choosing a few and listening to them. Step 1: keep three notes of the chord (for example 1-3-5). Step 2: invent a two-bar rhythm with quarter notes and rests. Step 3: repeat the motif and answer it with a variant. Step 4: leave space and listen to the wheel. Step 5: if you want more movement, add the second and the sixth as passing tones, but return to the chord tones on the strong beats. Improvise over I–vi–ii–V in C with C-E-G, A-C-E, D-F-A and G-B-D-F. There are no wrong notes while the left hand holds the wheel and the right hand chooses notes from the scale: if a note does not convince you, repeat it as part of the motif instead of correcting it in the middle of the phrase."
+    },
+    {
+      "id": "sec.m7-10.demo-rueda",
+      "kind": "score",
+      "titleEs": "Demo: la rueda de acordes en Do",
+      "titleEn": "Demo: the chord wheel in C",
+      "bodyEs": "Cuatro acordes en bloque, uno por compás: Do (I), Lam (vi), Rem (ii) y Sol (V). Escuchá cómo la rueda se aleja de la tónica y vuelve a prepararla. Después repetila con la mano izquierda y cantá los grados en voz alta.",
+      "bodyEn": "Four block chords, one per bar: C (I), Am (vi), Dm (ii) and G (V). Listen to how the wheel moves away from the tonic and prepares it again. Then repeat it with the left hand and sing the degrees out loud.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "sec.m7-10.demo-rueda.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-10.demo-rueda.2",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Am"
+          },
+          {
+            "id": "sec.m7-10.demo-rueda.3",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Dm"
+          },
+          {
+            "id": "sec.m7-10.demo-rueda.4",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "G"
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-10.demo-motivo",
+      "kind": "score",
+      "titleEs": "Demo: un motivo improvisado sobre la rueda",
+      "titleEn": "Demo: an improvised motif over the wheel",
+      "bodyEs": "El cifrado indica la rueda y la melodía usa solo tres notas del acorde por compás. El motivo se repite y cambia al final; el último compás resuelve en Do5. Tocá la melodía tal como está, después cambiá una nota y escuchá si el motivo sigue sonando.",
+      "bodyEn": "The chord symbols show the wheel and the melody uses only three chord tones per bar. The motif repeats and changes at the end; the last bar resolves on C5. Play the melody as written, then change one note and listen to whether the motif still works.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "sec.m7-10.demo-motivo.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Am"
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.9",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "Dm"
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.10",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.11",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.12",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.13",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "G7"
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.14",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.15",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.16",
+            "measure": 4,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-10.demo-motivo.17",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 72,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-10.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Escuchar, transportar y reconocer la rueda",
+      "titleEn": "Listen, transpose and recognise the wheel",
+      "bodyEs": "Cuatro ejercicios de melodía oculta te piden escuchar sin partitura y responder un intervalo, una nota o un movimiento; la melodía se revela al corregir. Cuatro ejercicios de transposición muestran una melodía y piden su versión en otra tonalidad. Cuatro dictados de progresión piden reconocer la rueda I–vi–ii–V en distintas tonalidades. Antes de responder, cantá la melodía o los grados y usá las repeticiones con intención.",
+      "bodyEn": "Four hidden-melody exercises ask you to listen without a score and answer an interval, a note or a motion; the melody is revealed when you submit. Four transposition exercises show a melody and ask for its version in another key. Four progression dictations ask you to recognise the I–vi–ii–V wheel in different keys. Before answering, sing the melody or the degrees and use the repetitions with a purpose."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Improvisá sobre la rueda en Do",
+    "titleEn": "Improvise over the wheel in C",
+    "instructionsEs": "Poné el metrónomo a 60 BPM. Mano izquierda: un acorde por compás, en redondas: Do, Lam, Rem y Sol7. Mano derecha: elegí tres notas del acorde y tocá un motivo de dos compases; repetilo y cambialo al final. Primero solo la izquierda, después solo la derecha y finalmente las dos manos. Hacé cuatro vueltas a la rueda y escuchá si el último compás resuelve en Do. Si una nota queda fuera del pulso, reducí el motivo a dos notas. Si aparece dolor, tensión o cansancio, pará o bajá el tempo.",
+    "instructionsEn": "Set the metronome to 60 BPM. Left hand: one chord per bar, as whole notes: C, Am, Dm and G7. Right hand: choose three chord tones and play a two-bar motif; repeat it and change it at the end. First the left hand alone, then the right hand alone and finally both hands. Do four turns of the wheel and listen to whether the last bar resolves on C. If a note falls outside the pulse, reduce the motif to two notes. If pain, tension or fatigue appears, stop or slow down.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "Mano izquierda: 5-3-1 para las tríadas en posición fundamental (Do3-Mi3-Sol3, La2-Do3-Mi3, Re3-Fa3-La3, Sol2-Si2-Re3-Fa3). Mano derecha: 1-2-3 o 1-2-3-5 según el motivo, siempre cerca de las teclas. Si una nota queda incómoda, probá otra inversión sin perder el pulso.",
+    "fingeringEn": "Left hand: 5-3-1 for the root-position triads (C3-E3-G3, A2-C3-E3, D3-F3-A3, G2-B2-D3-F3). Right hand: 1-2-3 or 1-2-3-5 depending on the motif, always close to the keys. If a note feels uncomfortable, try another inversion without losing the pulse.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué la rueda Do–Lam–Rem–Sol7 con la mano izquierda sin detenerme",
+      "Elegí tres notas del acorde y mantuve un motivo de dos compases",
+      "Repetí el motivo y lo cambié al final en vez de improvisar sin forma",
+      "Dejé espacios y escuché la rueda mientras tocaba",
+      "Hice cuatro vueltas y verifiqué que el final resolviera en Do",
+      "Paré o bajé el tempo si apareció dolor, tensión o cansancio"
+    ],
+    "checklistEn": [
+      "I played the C–Am–Dm–G7 wheel with the left hand without stopping",
+      "I chose three chord tones and kept a two-bar motif",
+      "I repeated the motif and changed it at the end instead of improvising without shape",
+      "I left space and listened to the wheel while playing",
+      "I did four turns and checked that the ending resolved on C",
+      "I stopped or slowed down if pain, tension or fatigue appeared"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "sec.m7-10.demo-motivo.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "C"
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.2",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.3",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.5",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "Am"
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.6",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.7",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.8",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.9",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "Dm"
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.10",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.11",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.12",
+          "measure": 3,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.13",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "G7"
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.14",
+          "measure": 4,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.15",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.16",
+          "measure": 4,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-10.demo-motivo.17",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 72,
+          "tieToNext": false,
+          "chordSymbol": "C"
+        }
+      ],
+      "pedals": []
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

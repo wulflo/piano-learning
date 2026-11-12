@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-09.i",
+  "skillId": "skill.chord-symbol",
+  "type": "chord",
+  "promptEs": "El acorde suena Re♭, Fa, La♭ y Do, de grave a agudo. ¿Qué cifrado latino le corresponde?",
+  "promptEn": "The chord sounds D♭, F, A♭ and C, from low to high. Which American chord symbol matches it?",
+  "explanationEs": "Re♭ es la fundamental; Re♭-Fa es una tercera mayor, Re♭-La♭ una quinta justa y Re♭-Do una séptima mayor, once semitonos arriba. La calidad es mayor con séptima mayor: Re♭maj7. En americano se escribe D♭maj7.",
+  "explanationEn": "D♭ is the root; D♭-F is a major third, D♭-A♭ a perfect fifth and D♭-C a major seventh, eleven semitones above. The quality is major with a major seventh: D♭maj7. In Latin notation it is written Re♭maj7.",
+  "difficulty": 2,
+  "root": { "step": "D", "accidental": "b", "octave": 4 },
+  "quality": "major7",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": ["Re♭maj7", "Re♭7", "Re♭m7"],
+  "choicesEn": ["D♭maj7", "D♭7", "D♭m7"]
+}

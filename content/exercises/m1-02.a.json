@@ -1,0 +1,14 @@
+{
+  "id": "ex.m1-02.a",
+  "skillId": "skill.note-staff",
+  "type": "note-staff",
+  "promptEs": "¿Qué nota está en la segunda línea del pentagrama en clave de sol?",
+  "promptEn": "Which note is on the second line of the staff in treble clef?",
+  "explanationEs": "En clave de sol, la segunda línea es Sol4 (G4). Es el punto de referencia de la clave: el dibujo de la clave de sol rodea esa línea.",
+  "explanationEn": "In treble clef, the second line is G4. It is the clef's reference point: the treble clef symbol circles that line.",
+  "difficulty": 1,
+  "target": { "step": "G", "accidental": "", "octave": 4 },
+  "clef": "treble",
+  "choices": ["Fa4", "Sol4", "La4", "Si4"],
+  "choicesEn": ["F4", "G4", "A4", "B4"]
+}

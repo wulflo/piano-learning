@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-02.c",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "La segunda menor Re4-Mi♭4 se invierte subiendo Re una octava. ¿Cómo se llama el intervalo Mi♭4-Re5?",
+  "promptEn": "The minor second D4-E♭4 is inverted by raising D an octave. What is the interval E♭4-D5 called?",
+  "explanationEs": "Mi♭4-Re5 es una séptima mayor: 2 + 7 = 9 y la calidad cambia de menor a mayor. El bemol se mantiene: no se reescribe Mi♭ como Re♯.",
+  "explanationEn": "E♭4-D5 is a major seventh: 2 + 7 = 9 and the quality changes from minor to major. The flat stays: E♭ is not rewritten as D♯.",
+  "difficulty": 2,
+  "lower": { "step": "E", "accidental": "b", "octave": 4 },
+  "upper": { "step": "D", "accidental": "", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Séptima mayor", "Séptima menor", "Segunda menor", "Octava justa"],
+  "choicesEn": ["Major seventh", "Minor seventh", "Minor second", "Perfect octave"]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ex.m5-09.j",
+  "skillId": "skill.modulation",
+  "type": "pivot-chord",
+  "promptEs": "En una modulación de Mi♭ mayor a La♭ mayor, Fam (Fa, La♭, Do) es el acorde pivote. ¿Qué número romano tiene en Mi♭ mayor?",
+  "promptEn": "In a modulation from E♭ major to A♭ major, Fm (F, A♭, C) is the pivot chord. Which Roman numeral does it have in E♭ major?",
+  "explanationEs": "Fam conserva las mismas notas en las dos tonalidades: es ii en Mi♭ mayor y vi en La♭ mayor. Por eso sirve de puente; después, un acorde que ya solo pertenece a La♭ mayor (como su V7) confirma la modulación.",
+  "explanationEn": "Fm keeps the same notes in both keys: it is ii in E♭ major and vi in A♭ major. That is why it works as a bridge; afterwards, a chord that belongs only to A♭ major (such as its V7) confirms the modulation.",
+  "difficulty": 3,
+  "fromKey": "Eb",
+  "toKey": "Ab",
+  "degreeFrom": 2,
+  "degreeTo": 6,
+  "ask": "source",
+  "choices": [
+    "ii",
+    "vi",
+    "V",
+    "iii"
+  ],
+  "choicesEn": [
+    "ii",
+    "vi",
+    "V",
+    "iii"
+  ]
+}

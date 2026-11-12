@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-12.d",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "Escribí las notas de Fa♯m11/Mi de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of F♯m11/E from low to high, separated by spaces.",
+  "explanationEs": "Mi es la séptima menor de Fa♯m11, así que el acorde está en tercera inversión: Mi-Fa♯-Sol♯-La-Si-Do♯. La novena Sol♯ y la oncena Si se mantienen, y la tercera La queda en el medio.",
+  "explanationEn": "E is the minor seventh of F#m11, so the chord is in third inversion: E-F#-G#-A-B-C#. The ninth G# and the eleventh B are kept, and the third A sits in the middle.",
+  "difficulty": 4,
+  "root": { "step": "F", "accidental": "#", "octave": 4 },
+  "quality": "minor11",
+  "slash": { "step": "E", "accidental": "", "octave": 4 },
+  "inversion": 3,
+  "ask": "notes"
+}

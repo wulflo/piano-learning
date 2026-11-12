@@ -1,0 +1,331 @@
+{
+  "id": "lesson.m3-04",
+  "moduleId": "M3",
+  "slug": "intervalos-en-contexto",
+  "titleEs": "Intervalos en contexto",
+  "titleEn": "Intervals in context",
+  "summaryEs": "Cómo cambia un intervalo según viva en una melodía, en un acorde o en un voicing concreto.",
+  "summaryEn": "How an interval changes depending on whether it lives in a melody, a chord or a specific voicing.",
+  "objectivesEs": [
+    "Reconocer intervalos dentro de una frase melódica y no solo entre dos notas aisladas",
+    "Explicar cómo los intervalos apilados definen la calidad de un acorde",
+    "Distinguir el mismo intervalo en posiciones e inversiones diferentes"
+  ],
+  "objectivesEn": [
+    "Recognise intervals inside a melodic phrase, not only between two isolated notes",
+    "Explain how stacked intervals define a chord's quality",
+    "Tell the same interval apart in different positions and inversions"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m3-03"
+  ],
+  "skillIds": [
+    "skill.interval-quality"
+  ],
+  "exerciseIds": [
+    "ex.m3-04.a",
+    "ex.m3-04.b",
+    "ex.m3-04.c",
+    "ex.m3-04.d",
+    "ex.m3-04.e",
+    "ex.m3-04.f",
+    "ex.m3-04.g",
+    "ex.m3-04.h",
+    "ex.m3-04.i",
+    "ex.m3-04.j",
+    "ex.m3-04.k",
+    "ex.m3-04.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m3-04.intro",
+      "kind": "text",
+      "titleEs": "Un intervalo no vive solo",
+      "titleEn": "An interval does not live alone",
+      "bodyEs": "Medir un intervalo entre dos notas aisladas es el primer paso, pero la música rara vez presenta notas aisladas. Un intervalo aparece dentro de una melodía, entre las voces de un acorde o como parte de un acompañamiento. La misma distancia puede sonar como un salto expresivo, como el esqueleto de un acorde o como una tensión que pide resolver. En esta lección vas a identificar intervalos dentro de fragmentos reales y a notar qué aporta el contexto.",
+      "bodyEn": "Measuring an interval between two isolated notes is the first step, but music rarely presents isolated notes. An interval appears inside a melody, between the voices of a chord or as part of an accompaniment. The same distance can sound like an expressive leap, like the skeleton of a chord or like a tension that asks to resolve. In this lesson you will identify intervals inside real fragments and notice what context adds."
+    },
+    {
+      "id": "sec.m3-04.melodia",
+      "kind": "text",
+      "titleEs": "Intervalos dentro de una melodía",
+      "titleEn": "Intervals inside a melody",
+      "bodyEs": "En una melodía, los intervalos se encadenan. Los grados conjuntos, de segunda, mantienen el movimiento cerca y cantable; los saltos de tercera, cuarta o quinta cambian el carácter de la frase. La dirección importa: subir una sexta no se percibe igual que bajarla. También importa el lugar métrico: un salto en el primer pulso del compás pesa más que el mismo salto en un pulso débil. Cuando el salto supera la octava aparece un intervalo compuesto, como la novena o la décima, que se lee como una octava más un intervalo simple.",
+      "bodyEn": "In a melody, intervals chain together. Stepwise motion by second keeps movement close and singable; leaps of a third, fourth or fifth change the character of the phrase. Direction matters: leaping up a sixth does not feel the same as leaping down. Metric placement matters too: a leap on the first beat of a bar carries more weight than the same leap on a weak beat. When a leap exceeds the octave, a compound interval appears, such as a ninth or a tenth, which is read as an octave plus a simple interval."
+    },
+    {
+      "id": "sec.m3-04.acordes",
+      "kind": "text",
+      "titleEs": "Intervalos apilados: el acorde",
+      "titleEn": "Stacked intervals: the chord",
+      "bodyEs": "Un acorde es un conjunto de intervalos que suenan a la vez. Una tríada mayor apila una tercera mayor y una quinta justa sobre la fundamental; una tríada menor cambia la tercera por una menor; una disminuida achica también la quinta y una aumentada agranda la quinta. Por eso la calidad del acorde se reconoce escuchando sus intervalos internos. La inversión cambia qué intervalo queda en el bajo: el mismo acorde de Do mayor suena con una quinta entre el bajo y la nota superior en posición fundamental, y con una sexta menor en primera inversión.",
+      "bodyEn": "A chord is a set of intervals sounding together. A major triad stacks a major third and a perfect fifth above the root; a minor triad lowers the third; a diminished triad also lowers the fifth, and an augmented triad raises it. That is why chord quality is recognised by hearing its internal intervals. Inversion changes which interval sits in the bass: the same C major chord has a fifth between bass and top note in root position, and a minor sixth in first inversion."
+    },
+    {
+      "id": "sec.m3-04.contexto",
+      "kind": "text",
+      "titleEs": "Lo que el contexto cambia",
+      "titleEn": "What context changes",
+      "bodyEs": "Un intervalo de segunda mayor entre dos notas seguidas suena como un paso; el mismo intervalo entre dos voces simultáneas puede sonar áspero. Una quinta justa es estable en un acorde, pero dos quintas paralelas entre voces extremas llaman la atención en el contrapunto clásico. Y una décima mayor no es «una tercera más grande» sin más: suena amplia y abierta por la octava que contiene. Al identificar intervalos en fragmentos, preguntate primero qué notas forman el intervalo, después cómo están colocadas y por último qué función cumplen en la frase o en el acorde.",
+      "bodyEn": "A major second between two consecutive notes sounds like a step; the same interval between two simultaneous voices can sound rough. A perfect fifth is stable inside a chord, yet two parallel fifths between outer voices draw attention in classical counterpoint. And a major tenth is not simply «a bigger third»: it sounds wide and open because of the octave it contains. When identifying intervals in fragments, first ask which notes form the interval, then how they are placed, and finally what function they serve in the phrase or chord."
+    },
+    {
+      "id": "sec.m3-04.demo-melodia",
+      "kind": "score",
+      "titleEs": "Una frase con saltos",
+      "titleEn": "A phrase with leaps",
+      "bodyEs": "Escuchá y mirá esta frase en Do mayor. Las primeras cuatro notas suben por grados conjuntos hasta Mi y después saltan a Sol: la tercera mayor Do-Mi y la cuarta justa Mi-Sol son intervalos distintos dentro de la misma melodía. En el segundo compás la frase desciende y el salto de Sexta menor aparece entre La y Do. Cantá la frase y señalá cada intervalo antes de mirar el pentagrama.",
+      "bodyEn": "Listen to and look at this phrase in C major. The first four notes rise stepwise to E and then leap to G: the major third C-E and the perfect fourth E-G are different intervals inside the same melody. In the second bar the phrase descends and a minor sixth appears between A and C. Sing the phrase and point to each interval before looking at the staff.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 76,
+        "events": [
+          {
+            "id": "score.m3-04.mel.1",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-04.mel.2",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-04.mel.3",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-04.mel.4",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-04.mel.5",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "A", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-04.mel.6",
+            "measure": 2,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-04.mel.7",
+            "measure": 2,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 5 }],
+            "hand": "right",
+            "velocity": 76,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m3-04.demo-acorde",
+      "kind": "score",
+      "titleEs": "El mismo acorde, dos posiciones",
+      "titleEn": "The same chord, two positions",
+      "bodyEs": "Escuchá y mirá el acorde de Do mayor en posición fundamental (Do4-Mi4-Sol4) y después en primera inversión (Mi4-Sol4-Do5). Las notas son las mismas, pero el bajo cambia: en el primer caso el intervalo entre el bajo y la nota superior es una quinta justa; en el segundo es una sexta menor. Esa diferencia es la que hace que una inversión suene más liviana o más inestable que la posición fundamental.",
+      "bodyEn": "Listen to and look at the C major chord in root position (C4-E4-G4) and then in first inversion (E4-G4-C5). The notes are the same, but the bass changes: in the first case the interval between bass and top note is a perfect fifth; in the second it is a minor sixth. That difference is what makes an inversion sound lighter or less settled than root position.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m3-04.chord.root",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-04.chord.first-inversion",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m3-04.exercises",
+      "kind": "exercise",
+      "titleEs": "Identificar intervalos en fragmentos",
+      "titleEn": "Identify intervals in fragments",
+      "bodyEs": "Cada ejercicio muestra y reproduce un fragmento breve: una melodía o un acorde. Antes de responder, mirá qué notas forman el intervalo preguntado y escuchá cómo suenan dentro del fragmento. Algunas preguntas piden el intervalo entre dos notas de una melodía; otras, entre dos voces de un acorde. La explicación conecta el intervalo con su función en el contexto.",
+      "bodyEn": "Each exercise shows and plays a short fragment: a melody or a chord. Before answering, look at which notes form the requested interval and listen to how they sound inside the fragment. Some questions ask for the interval between two notes of a melody; others ask for the interval between two voices of a chord. The explanation connects the interval with its function in context."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tocá intervalos dentro de una frase y un acorde",
+    "titleEn": "Play intervals inside a phrase and a chord",
+    "instructionsEs": "Con la mano derecha, tocá la melodía Do4-Re4-Mi4-Sol4 y escuchá la tercera mayor entre Do y Mi. Después tocá el acorde de Do mayor (Do4-Mi4-Sol4) y escuchá la quinta entre Do y Sol. Por último, tocá Do4-Mi5 para oír una décima mayor. Repetí a 60 BPM y fijate cómo cambia el mismo tipo de intervalo según el contexto.",
+    "instructionsEn": "With your right hand, play the melody C4-D4-E4-G4 and listen to the major third between C and E. Then play the C major chord (C4-E4-G4) and listen to the fifth between C and G. Finally, play C4-E5 to hear a major tenth. Repeat at 60 BPM and notice how the same kind of interval changes with context.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 5 }
+    ],
+    "fingeringEs": "Mano derecha: 1-2-3-5 para Do-Re-Mi-Sol; acorde Do-Mi-Sol con 1-3-5; para Do4-Mi5 usá 1 y 5 con la mano relajada.",
+    "fingeringEn": "Right hand: 1-2-3-5 for C-D-E-G; C-E-G chord with 1-3-5; for C4-E5 use 1 and 5 with a relaxed hand.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué la melodía Do-Re-Mi-Sol y reconocí la tercera mayor entre Do y Mi",
+      "Toqué el acorde de Do mayor y escuché la quinta justa entre Do y Sol",
+      "Comparé la décima mayor Do4-Mi5 con la tercera mayor y noté la diferencia de registro"
+    ],
+    "checklistEn": [
+      "I played the melody C-D-E-G and recognised the major third between C and E",
+      "I played the C major chord and heard the perfect fifth between C and G",
+      "I compared the major tenth C4-E5 with the major third and noticed the register difference"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m3-04.mel.1",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-04.mel.2",
+          "measure": 1,
+          "beat": 1,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-04.mel.3",
+          "measure": 1,
+          "beat": 2,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-04.mel.4",
+          "measure": 1,
+          "beat": 3,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-04.chord",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-04.compound",
+          "measure": 2,
+          "beat": 2,
+          "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

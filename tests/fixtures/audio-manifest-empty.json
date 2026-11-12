@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "instrument": "salamander-grand-piano",
+  "attribution": "Salamander Grand Piano by Alexander Holm, CC BY 3.0",
+  "license": "CC-BY-3.0",
+  "sourceUrl": "https://tonejs.github.io/audio/salamander/",
+  "expectedSamples": 30,
+  "samples": []
+}

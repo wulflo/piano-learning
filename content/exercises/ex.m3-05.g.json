@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-05.g",
+  "skillId": "skill.ear-interval",
+  "type": "ear-interval",
+  "promptEs": "¿Qué intervalo hay entre Mi4 y Do4 al escucharlos en forma descendente?",
+  "promptEn": "What interval is there between E4 and C4 when heard in descending form?",
+  "explanationEs": "Al escuchar Mi4 y Do4 en forma descendente la distancia sigue siendo una tercera mayor, pero suena distinta a la ascendente.",
+  "explanationEn": "When hearing E4 and C4 in descending form the distance is still a major third, but it sounds different from the ascending one.",
+  "difficulty": 2,
+  "lower": { "step": "E", "accidental": "", "octave": 4 },
+  "upper": { "step": "C", "accidental": "", "octave": 4 },
+  "direction": "descending",
+  "choices": ["Tercera mayor", "Tercera menor", "Segunda mayor", "Cuarta justa"],
+  "choicesEn": ["Major third", "Minor third", "Major second", "Perfect fourth"]
+}

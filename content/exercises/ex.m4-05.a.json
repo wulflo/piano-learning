@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-05.a",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "El acorde formado por Do, Mi, Sol, Si y Re, ¿qué calidad extendida tiene?",
+  "promptEn": "The chord made of C, E, G, B and D has which extended quality?",
+  "explanationEs": "Es un Do maj9, o novena mayor: 1-3-5-7-9 (Do-Mi-Sol-Si-Re). La séptima Si es mayor y la novena Re está a 14 semitonos de Do. En la práctica se suele omitir Sol.",
+  "explanationEn": "It is a Cmaj9, or major ninth: 1-3-5-7-9 (C-E-G-B-D). The seventh B is major and the ninth D sits 14 semitones above C. In practice G is usually omitted.",
+  "difficulty": 2,
+  "root": { "step": "C", "accidental": "", "octave": 4 },
+  "quality": "major9",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["novena mayor", "novena de dominante", "novena menor"],
+  "choicesEn": ["major ninth", "dominant ninth", "minor ninth"]
+}

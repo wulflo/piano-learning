@@ -1,0 +1,1183 @@
+{
+  "id": "piece.chopin.prelude-op28-4",
+  "title": "Preludio en Mi menor, Op. 28 N.º 4",
+  "composerDisplay": "Frédéric Chopin",
+  "level": 2,
+  "durationSeconds": 17.142857142857142,
+  "tags": [
+    "romántico",
+    "chopin",
+    "dos manos",
+    "preludio",
+    "versión simplificada"
+  ],
+  "license": {
+    "license": "public-domain",
+    "composer": {
+      "name": "Frédéric Chopin",
+      "birthYear": 1810,
+      "deathYear": 1849,
+      "anonymousTraditional": false
+    },
+    "source": "Preludio en Mi menor, Op. 28 N.º 4, de Chopin; versión simplificada propia basada en la edición Peters (1879) vía Mutopia",
+    "sourceUrl": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=468",
+    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionDate": "2026-11-13",
+    "attribution": "Preludio en Mi menor, Op. 28 N.º 4 — Frédéric Chopin (1810-1849), dominio público; versión simplificada y digitación de PianoDesdeCero",
+    "verifiedBy": "PianoDesdeCero",
+    "verifiedOn": "2026-11-13",
+    "notes": "Versión simplificada de los primeros cuatro compases del preludio (Largo, Mi menor, 2/2, 56 BPM). La derecha lleva la melodía descendente y la izquierda un patrón repetido de acordes. Se omiten las voces dobles, los matices y el resto del preludio por ser una versión de estudio."
+  },
+  "hands": {
+    "right": {
+      "clef": "treble",
+      "key": "E",
+      "mode": "minor",
+      "timeSignature": {
+        "numerator": 2,
+        "denominator": 2
+      },
+      "tempoBpm": 56,
+      "events": [
+        {
+          "id": "ev.chopin-prelude.r001",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.r002",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.r003",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.r004",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.r005",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.r006",
+          "measure": 3,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.r007",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "half",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.r008",
+          "measure": 4,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "#",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    },
+    "left": {
+      "clef": "bass",
+      "key": "E",
+      "mode": "minor",
+      "timeSignature": {
+        "numerator": 2,
+        "denominator": 2
+      },
+      "tempoBpm": 56,
+      "events": [
+        {
+          "id": "ev.chopin-prelude.l001",
+          "measure": 1,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l002",
+          "measure": 1,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l003",
+          "measure": 1,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l004",
+          "measure": 1,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l005",
+          "measure": 1,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l006",
+          "measure": 1,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l007",
+          "measure": 1,
+          "beat": 3.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l008",
+          "measure": 1,
+          "beat": 3.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l009",
+          "measure": 2,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l010",
+          "measure": 2,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l011",
+          "measure": 2,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l012",
+          "measure": 2,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l013",
+          "measure": 2,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l014",
+          "measure": 2,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l015",
+          "measure": 2,
+          "beat": 3.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l016",
+          "measure": 2,
+          "beat": 3.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l017",
+          "measure": 3,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l018",
+          "measure": 3,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l019",
+          "measure": 3,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l020",
+          "measure": 3,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l021",
+          "measure": 3,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l022",
+          "measure": 3,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l023",
+          "measure": 3,
+          "beat": 3.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l024",
+          "measure": 3,
+          "beat": 3.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l025",
+          "measure": 4,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l026",
+          "measure": 4,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l027",
+          "measure": 4,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l028",
+          "measure": 4,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l029",
+          "measure": 4,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l030",
+          "measure": 4,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l031",
+          "measure": 4,
+          "beat": 3.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.chopin-prelude.l032",
+          "measure": 4,
+          "beat": 3.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 60,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    }
+  },
+  "notesEs": "Versión simplificada en Mi menor y 2/2 del Preludio Op. 28 N.º 4 de Chopin: melodía descendente en la derecha y patrón repetido en la izquierda, a 56 BPM. Fragmento de estudio de cuatro compases.",
+  "notesEn": "Simplified version in E minor and 2/2 of Chopin’s Prelude Op. 28 No. 4: descending melody in the right hand and a repeated pattern in the left, at 56 BPM. Four-measure study fragment.",
+  "fingeringEs": "Derecha: 1-2-3-5 en la melodía; Izquierda: 5-3-1 en el patrón repetido, manteniendo el legato.",
+  "fingeringEn": "Right hand: 1-2-3-5 in the melody; Left hand: 5-3-1 in the repeated pattern, keeping the legato."
+}

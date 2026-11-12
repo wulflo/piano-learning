@@ -1,0 +1,30 @@
+{
+  "id": "ex.m7-10.l",
+  "skillId": "skill.ear-progression",
+  "type": "ear-progression",
+  "promptEs": "¿Qué grados forman la rueda de acordes que suena?",
+  "promptEn": "Which degrees form the chord wheel you hear?",
+  "explanationEs": "La rueda I–vi–ii–V en Re mayor es Re–Sim–Mim–La. La armadura tiene Fa♯ y Do♯, y esos sostenidos aparecen en los acordes de la rueda.",
+  "explanationEn": "The I–vi–ii–V wheel in D major is D–Bm–Em–A. The key signature has F-sharp and C-sharp, and those sharps appear in the chords of the wheel.",
+  "difficulty": 3,
+  "key": "D",
+  "mode": "major",
+  "degrees": [
+    "I",
+    "vi",
+    "ii",
+    "V"
+  ],
+  "choices": [
+    "I vi ii V",
+    "I IV V I",
+    "I V vi IV",
+    "ii V I vi"
+  ],
+  "choicesEn": [
+    "I vi ii V",
+    "I IV V I",
+    "I V vi IV",
+    "ii V I vi"
+  ]
+}

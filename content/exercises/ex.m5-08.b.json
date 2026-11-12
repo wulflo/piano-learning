@@ -1,0 +1,25 @@
+{
+  "id": "ex.m5-08.b",
+  "skillId": "skill.modal-mixture",
+  "type": "borrowed-chord",
+  "promptEs": "En Sol mayor, el acorde Si♭ mayor (Si♭, Re, Fa) se toma prestado del modo paralelo. ¿Qué número romano le corresponde?",
+  "promptEn": "In G major, the chord B♭ major (B♭, D, F) is borrowed from the parallel mode. Which Roman numeral does it get?",
+  "explanationEs": "En Sol mayor, Si♭ mayor es el ♭III del modo paralelo, la mediante menor y se cifra bIII. El intercambio modal conserva la fundamental del grado pero cambia su cualidad y, a veces, añade una alteración.",
+  "explanationEn": "In G major, B♭ major is the ♭III of the parallel mode, the minor mediant and it is labelled bIII. Modal mixture keeps the root of the degree but changes its quality and sometimes adds an accidental.",
+  "difficulty": 2,
+  "key": "G",
+  "mode": "major",
+  "numeral": "bIII",
+  "choices": [
+    "bIII",
+    "iii",
+    "bVI",
+    "IV"
+  ],
+  "choicesEn": [
+    "bIII",
+    "iii",
+    "bVI",
+    "IV"
+  ]
+}

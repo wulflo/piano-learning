@@ -1,0 +1,15 @@
+{
+  "id": "ex.m1-03.b",
+  "skillId": "skill.accidentals",
+  "type": "interval",
+  "promptEs": "¿Qué distancia hay entre Do♯4 y Re♯4?",
+  "promptEn": "What is the distance between C♯4 and D♯4?",
+  "explanationEs": "Do♯4 y Re♯4 están separados por dos semitonos: hay un tono. El sostenido se mantiene en ambas notas.",
+  "explanationEn": "C♯4 and D♯4 are two semitones apart: it is a tone. The sharp stays on both notes.",
+  "difficulty": 1,
+  "lower": { "step": "C", "accidental": "#", "octave": 4 },
+  "upper": { "step": "D", "accidental": "#", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Semitono", "Tono", "Tono y medio", "Dos tonos"],
+  "choicesEn": ["Semitone", "Tone", "Tone and a half", "Two tones"]
+}

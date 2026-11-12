@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-04.d",
+  "skillId": "skill.cadence",
+  "type": "cadence",
+  "promptEs": "En Fa mayor, ¿qué cadencia forman los acordes Do (Do, Mi, Sol) y Rem (Re, Fa, La)?",
+  "promptEn": "In F major, what cadence do the chords C (C, E, G) and Dm (D, F, A) form?",
+  "explanationEs": "La cadencia rota o engañosa va de V a vi: Do resuelve en Rem en lugar de Fa. La frase parece que va a cerrar, pero se desvía a la relativa menor.",
+  "explanationEn": "The deceptive cadence goes from V to vi: C resolves to Dm instead of F. The phrase seems about to close, but it swerves to the relative minor.",
+  "difficulty": 2,
+  "key": "F",
+  "mode": "major",
+  "fromDegree": 5,
+  "toDegree": 6,
+  "choices": [
+    "Rota (V-vi)",
+    "Auténtica (V-I)",
+    "Plagal (IV-I)",
+    "Semicadencia (…-V)"
+  ],
+  "choicesEn": [
+    "Deceptive (V-vi)",
+    "Authentic (V-I)",
+    "Plagal (IV-I)",
+    "Half cadence (…-V)"
+  ]
+}

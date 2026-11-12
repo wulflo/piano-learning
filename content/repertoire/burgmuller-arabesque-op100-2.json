@@ -1,0 +1,1148 @@
+{
+  "id": "piece.burgmuller.arabesque-op100-2",
+  "title": "L’Arabesque, Op. 100 N.º 2",
+  "composerDisplay": "Friedrich Burgmüller",
+  "level": 2,
+  "durationSeconds": 6.315789473684211,
+  "tags": [
+    "romántico",
+    "burgmüller",
+    "dos manos",
+    "estudio",
+    "arabesque"
+  ],
+  "license": {
+    "license": "public-domain",
+    "composer": {
+      "name": "Johann Friedrich Franz Burgmüller",
+      "birthYear": 1806,
+      "deathYear": 1874,
+      "anonymousTraditional": false
+    },
+    "source": "L’Arabesque, N.º 2 de las 25 Études faciles et progressives, Op. 100, de Burgmüller; fragmento pedagógico propio basado en la edición Litolff (Mutopia)",
+    "sourceUrl": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=203",
+    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionDate": "2026-11-13",
+    "attribution": "L’Arabesque, Op. 100 N.º 2 — Friedrich Burgmüller (1806-1874), dominio público; transcripción y digitación de PianoDesdeCero",
+    "verifiedBy": "PianoDesdeCero",
+    "verifiedOn": "2026-11-13",
+    "notes": "Fragmento pedagógico de los primeros ocho compases del estudio (Allegro scherzando, La menor, 2/4, 152 BPM). La mano derecha lleva el tema ágil y la izquierda el bajo en acordes. Se omiten las repeticiones y el resto del estudio por ser un fragmento de estudio."
+  },
+  "hands": {
+    "right": {
+      "clef": "treble",
+      "key": "A",
+      "mode": "minor",
+      "timeSignature": {
+        "numerator": 2,
+        "denominator": 4
+      },
+      "tempoBpm": 152,
+      "events": [
+        {
+          "id": "ev.burgmuller-arabesque.r001",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r002",
+          "measure": 1,
+          "beat": 0.25,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r003",
+          "measure": 1,
+          "beat": 0.5,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r004",
+          "measure": 1,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r005",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r006",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r007",
+          "measure": 2,
+          "beat": 0.25,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r008",
+          "measure": 2,
+          "beat": 0.5,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r009",
+          "measure": 2,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r010",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r011",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r012",
+          "measure": 3,
+          "beat": 0.25,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r013",
+          "measure": 3,
+          "beat": 0.5,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r014",
+          "measure": 3,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r015",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r016",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r017",
+          "measure": 4,
+          "beat": 0.25,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r018",
+          "measure": 4,
+          "beat": 0.5,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r019",
+          "measure": 4,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r020",
+          "measure": 4,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r021",
+          "measure": 5,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r022",
+          "measure": 5,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r023",
+          "measure": 5,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r024",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r025",
+          "measure": 6,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": true
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r026",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r027",
+          "measure": 7,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r028",
+          "measure": 7,
+          "beat": 1,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r029",
+          "measure": 7,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r030",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.r031",
+          "measure": 8,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    },
+    "left": {
+      "clef": "bass",
+      "key": "A",
+      "mode": "minor",
+      "timeSignature": {
+        "numerator": 2,
+        "denominator": 4
+      },
+      "tempoBpm": 152,
+      "events": [
+        {
+          "id": "ev.burgmuller-arabesque.l001",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l002",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l003",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l004",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l005",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l006",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l007",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l008",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l009",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l010",
+          "measure": 5,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l011",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l012",
+          "measure": 6,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l013",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l014",
+          "measure": 7,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l015",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.burgmuller-arabesque.l016",
+          "measure": 8,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    }
+  },
+  "notesEs": "Fragmento en La menor y 2/4 del estudio L’Arabesque de Burgmüller: tema ágil en la derecha y bajo en acordes en la izquierda, a 152 BPM. Fragmento pedagógico de ocho compases.",
+  "notesEn": "Fragment in A minor and 2/4 from Burgmüller’s L’Arabesque study: nimble theme in the right hand and chordal bass in the left, at 152 BPM. Eight-measure pedagogical fragment.",
+  "fingeringEs": "Derecha: 1-2-3-5 en las escalas y 1-3-5 en los acordes; Izquierda: 5-3-1 en el bajo, manteniendo el staccato ligero.",
+  "fingeringEn": "Right hand: 1-2-3-5 in the scales and 1-3-5 in the chords; Left hand: 5-3-1 in the bass, keeping a light staccato."
+}

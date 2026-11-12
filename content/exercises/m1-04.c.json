@@ -1,0 +1,18 @@
+{
+  "id": "ex.m1-04.c",
+  "skillId": "skill.note-durations",
+  "type": "rhythm-completion",
+  "promptEs": "En 3/4 el compás termina con una negra. ¿Qué figura falta al principio para completar los tres tiempos?",
+  "promptEn": "In 3/4 the measure ends with a quarter note. Which note value is missing at the beginning to complete the three beats?",
+  "explanationEs": "En 3/4 entran tres negras. La negra final ocupa un tiempo, así que faltan dos: una blanca.",
+  "explanationEn": "In 3/4 there are three quarter notes. The final quarter note takes one beat, so two are missing: a half note.",
+  "difficulty": 1,
+  "timeSignature": { "numerator": 3, "denominator": 4 },
+  "pattern": [
+    { "duration": "half", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "quarter", "dots": 0, "tuplet": "none", "rest": false }
+  ],
+  "missingIndex": 0,
+  "choices": ["Redonda", "Blanca", "Negra", "Semicorchea"],
+  "choicesEn": ["Whole note", "Half note", "Quarter note", "Sixteenth note"]
+}

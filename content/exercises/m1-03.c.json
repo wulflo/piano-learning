@@ -1,0 +1,15 @@
+{
+  "id": "ex.m1-03.c",
+  "skillId": "skill.accidentals",
+  "type": "interval",
+  "promptEs": "¿Qué distancia hay entre Re4 y Re♯4?",
+  "promptEn": "What is the distance between D4 and D♯4?",
+  "explanationEs": "Re4 y Re♯4 son teclas contiguas: hay un semitono. La tecla negra inmediata a la derecha de Re es Re♯.",
+  "explanationEn": "D4 and D♯4 are adjacent keys: it is a semitone. The black key immediately to the right of D is D♯.",
+  "difficulty": 1,
+  "lower": { "step": "D", "accidental": "", "octave": 4 },
+  "upper": { "step": "D", "accidental": "#", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Semitono", "Tono", "Tono y medio", "Dos tonos"],
+  "choicesEn": ["Semitone", "Tone", "Tone and a half", "Two tones"]
+}

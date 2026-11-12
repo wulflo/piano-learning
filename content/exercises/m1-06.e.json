@@ -1,0 +1,41 @@
+{
+  "id": "ex.m1-06.e",
+  "skillId": "skill.compound-meter",
+  "type": "rhythm-completion",
+  "promptEs": "En 12/8 ya hay una blanca con puntillo. ¿Qué figura completa el compás?",
+  "explanationEs": "En 12/8 entran doce corcheas, que son dos blancas con puntillo de seis corcheas cada una. Si ya hay una, falta la segunda blanca con puntillo.",
+  "difficulty": 3,
+  "timeSignature": {
+    "numerator": 12,
+    "denominator": 8
+  },
+  "pattern": [
+    {
+      "duration": "half",
+      "dots": 1,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "half",
+      "dots": 1,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 1,
+  "choices": [
+    "Blanca con puntillo",
+    "Blanca",
+    "Redonda",
+    "Negra con puntillo"
+  ],
+  "promptEn": "In 12/8 there is already a dotted half note. Which note value completes the measure?",
+  "explanationEn": "Twelve eighth notes fit in 12/8, which is two dotted half notes of six eighth notes each. If there is already one, the second dotted half note is missing.",
+  "choicesEn": [
+    "Dotted half note",
+    "Half note",
+    "Whole note",
+    "Dotted quarter note"
+  ]
+}

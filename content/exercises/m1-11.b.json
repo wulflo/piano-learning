@@ -1,0 +1,40 @@
+{
+  "id": "ex.m1-11.b",
+  "skillId": "skill.repeat-signs",
+  "type": "playback-order",
+  "promptEs": "A y B están cada una entre signos de repetición. ¿Cuál es el orden de reproducción?",
+  "explanationEs": "Cada sección se repite una vez: primero A dos veces y después B dos veces. El orden es A A B B.",
+  "difficulty": 2,
+  "sections": [
+    {
+      "id": "sec-a",
+      "label": "A",
+      "repeat": true
+    },
+    {
+      "id": "sec-b",
+      "label": "B",
+      "repeat": true
+    }
+  ],
+  "answer": [
+    "sec-a",
+    "sec-a",
+    "sec-b",
+    "sec-b"
+  ],
+  "choices": [
+    "A A B B",
+    "A B A B",
+    "A B",
+    "A A B"
+  ],
+  "promptEn": "A and B are each between repeat signs. What is the playback order?",
+  "explanationEn": "Each section is repeated once: first A twice and then B twice. The order is A A B B.",
+  "choicesEn": [
+    "A A B B",
+    "A B A B",
+    "A B",
+    "A A B"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ex.m4-06.f",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "El acorde suena Si, Re y Sol, de grave a agudo. ¿Qué slash chord es?",
+  "promptEn": "The chord sounds B, D and G, from low to high. Which slash chord is it?",
+  "explanationEs": "Es Sol/Si: Sol mayor con Si en el bajo. Las notas son Si-Re-Sol; Si es la tercera del acorde, así que es la primera inversión. En cifrado americano se escribe G/B.",
+  "explanationEn": "It is G/B: G major with B in the bass. The notes are B-D-G; B is the chord's third, so it is the first inversion. In American notation it is written G/B.",
+  "difficulty": 2,
+  "root": { "step": "G", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "slash": { "step": "B", "accidental": "", "octave": 3 },
+  "inversion": 1,
+  "ask": "symbol",
+  "choices": ["Sol/Si", "Sol/Re", "Sol/Do"],
+  "choicesEn": ["G/B", "G/D", "G/C"]
+}

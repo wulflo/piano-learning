@@ -1,0 +1,1473 @@
+{
+  "id": "lesson.m7-05",
+  "moduleId": "M7",
+  "slug": "acompanamiento-arpegiado",
+  "titleEs": "Acompañamiento arpegiado",
+  "titleEn": "Arpeggiated accompaniment",
+  "summaryEs": "Cómo acompañar con patrones arpegiados de 3 y 4 notas en las doce tonalidades, mantener el tempo estable y tocar sin tensión.",
+  "summaryEn": "How to accompany with 3- and 4-note arpeggiated patterns in all twelve keys, keep a steady tempo and play without tension.",
+  "objectivesEs": [
+    "Tocar patrones arpegiados de 3 notas (1-5-3) y de 4 notas (1-5-3-5)",
+    "Elegir el patrón según el compás y mantener el pulso con el metrónomo",
+    "Acompañar una progresión en las doce tonalidades sin tensión"
+  ],
+  "objectivesEn": [
+    "Play 3-note (1-5-3) and 4-note (1-5-3-5) arpeggiated patterns",
+    "Choose the pattern for the meter and keep the pulse with the metronome",
+    "Accompany a progression in all twelve keys without tension"
+  ],
+  "minutes": 18,
+  "prerequisites": [
+    "lesson.m7-04"
+  ],
+  "skillIds": [
+    "skill.arpeggiated-accompaniment"
+  ],
+  "exerciseIds": [
+    "ex.m7-05.a",
+    "ex.m7-05.b",
+    "ex.m7-05.c",
+    "ex.m7-05.d",
+    "ex.m7-05.e",
+    "ex.m7-05.f",
+    "ex.m7-05.g",
+    "ex.m7-05.h",
+    "ex.m7-05.i",
+    "ex.m7-05.j",
+    "ex.m7-05.k",
+    "ex.m7-05.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m7-05.bloque-arpegio",
+      "kind": "text",
+      "titleEs": "Del bloque al arpegio",
+      "titleEn": "From block chords to arpeggios",
+      "bodyEs": "En el acompañamiento en bloque todas las notas del acorde suenan juntas. En el acompañamiento arpegiado se tocan una por una, en un orden que se repite: el acorde se despliega en el tiempo y la mano izquierda dibuja una pequeña melodía de acompañamiento. El resultado es más liviano y deja aire para la melodía de la derecha. El pedal puede unir las notas, pero primero conviene estudiarlo sin pedal para escuchar cada ataque. La dificultad no está en las notas —son las mismas del acorde— sino en la constancia del patrón y en la igualdad del sonido.",
+      "bodyEn": "In block accompaniment all the chord notes sound together. In arpeggiated accompaniment they are played one at a time, in a repeating order: the chord unfolds over time and the left hand draws a small accompaniment melody. The result is lighter and leaves room for the right-hand melody. The pedal can join the notes, but first practise without it to hear every attack. The difficulty is not in the notes —they are the same chord notes— but in keeping the pattern steady and the sound even."
+    },
+    {
+      "id": "sec.m7-05.patrones",
+      "kind": "text",
+      "titleEs": "Patrones de 3 y 4 notas",
+      "titleEn": "3- and 4-note patterns",
+      "bodyEs": "El patrón de 3 notas usa fundamental, quinta y tercera (1-5-3) y encaja en un compás de tres tiempos: tres ataques, uno por pulso. El de 4 notas agrega la quinta al final (1-5-3-5) y encaja en 4/4: cuatro ataques, uno por pulso. La quinta que vuelve da continuidad y prepara el compás siguiente. En las doce tonalidades mayores, la fundamental cambia de tecla y a veces de octava; la tercera y la quinta se adaptan a la armadura. Buscá la posición que comparta notas con el acorde anterior: si cambiás de Do a Fa, la nota Do puede quedar como quinta y evitar un salto. El patrón es una plantilla; la digitación se ajusta a la forma de la mano, sin estirar.",
+      "bodyEn": "The 3-note pattern uses root, fifth and third (1-5-3) and fits triple meter: three attacks, one per beat. The 4-note pattern adds the fifth back at the end (1-5-3-5) and fits 4/4: four attacks, one per beat. The returning fifth gives continuity and prepares the next measure. In all twelve major keys the root changes key and sometimes octave; the third and fifth follow the key signature. Look for the position that shares notes with the previous chord: if you move from C to F, the note C can stay as the fifth and avoid a leap. The pattern is a template; fingering adapts to the shape of the hand, without stretching."
+    },
+    {
+      "id": "sec.m7-05.demo-tres-notas",
+      "kind": "score",
+      "titleEs": "Demo: patrón de 3 notas en Do",
+      "titleEn": "Demo: 3-note pattern in C",
+      "bodyEs": "Do mayor en 3/4: Do3–Sol3–Mi3, repetido durante cuatro compases. Escuchá cómo la mano izquierda marca el pulso y deja respirar el acorde. Las tres notas tienen la misma duración y la misma intensidad; el pulso fuerte no se grita, solo se apoya.",
+      "bodyEn": "C major in 3/4: C3–G3–E3, repeated for four measures. Listen for how the left hand marks the pulse and lets the chord breathe. The three notes have the same duration and the same intensity; the strong beat is not shouted, just supported.",
+      "score": {
+        "clef": "bass",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 3,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m7-05.demo-tres-notas.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-05.demo-tres-notas.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-tres-notas.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-tres-notas.4",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-05.demo-tres-notas.5",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-tres-notas.6",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-tres-notas.7",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-05.demo-tres-notas.8",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-tres-notas.9",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-tres-notas.10",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-05.demo-tres-notas.11",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-tres-notas.12",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-05.demo-cuatro-notas",
+      "kind": "score",
+      "titleEs": "Demo: patrón de 4 notas en Do",
+      "titleEn": "Demo: 4-note pattern in C",
+      "bodyEs": "Do mayor en 4/4: Do3–Sol3–Mi3–Sol3. La quinta vuelve al final y el patrón queda listo para repetirse. Compará con la demo anterior: las notas son las mismas, pero el compás y la cantidad de ataques cambian el carácter. Mantené el volumen parejo en los cuatro pulsos.",
+      "bodyEn": "C major in 4/4: C3–G3–E3–G3. The fifth returns at the end and the pattern is ready to repeat. Compare it with the previous demo: the notes are the same, but the meter and the number of attacks change the character. Keep the volume even across the four beats.",
+      "score": {
+        "clef": "bass",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.9",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.10",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.11",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.12",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.13",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.14",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.15",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-cuatro-notas.16",
+            "measure": 4,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-05.tempo",
+      "kind": "text",
+      "titleEs": "Tempo estable y conducción",
+      "titleEn": "Steady tempo and leading",
+      "bodyEs": "La tarea del acompañamiento es sostener el pulso sin robarle protagonismo a la melodía. Empezá a 60 BPM con el metrónomo en cada pulso: si una nota llega tarde, bajá el tempo antes de repetir. Probá primero el patrón de 3 notas en 3/4 y después el de 4 notas en 4/4 sobre la misma progresión. Cuando los dos salgan parejos, subí de a 6 BPM (60, 66, 72) sin perder la igualdad. Si aparece dolor o tensión en manos, muñecas o brazos, pará, bajá el tempo o tocá una sola mano. El pedal va al final: primero el pulso y la limpieza, después la resonancia.",
+      "bodyEn": "The job of the accompaniment is to hold the pulse without stealing focus from the melody. Start at 60 BPM with the metronome on every beat: if a note arrives late, slow down before repeating. Try the 3-note pattern in 3/4 first and then the 4-note pattern in 4/4 on the same progression. When both are even, raise the tempo by 6 BPM (60, 66, 72) without losing the evenness. If pain or tension appears in your hands, wrists or arms, stop, slow down or play with one hand only. Pedal comes last: pulse and cleanliness first, resonance afterwards."
+    },
+    {
+      "id": "sec.m7-05.demo-progresion",
+      "kind": "score",
+      "titleEs": "Demo: Do–Fa–Sol–Do arpegiado",
+      "titleEn": "Demo: arpeggiated C–F–G–C",
+      "bodyEs": "La progresión Do–Fa–Sol–Do con el patrón de 4 notas en la izquierda. Escuchá los cambios de acorde en el primer pulso de cada compás y cómo el patrón sigue sin cortes. En Fa y en Sol la mano se mueve lo mínimo: buscá las notas comunes y mantené la digitación que ya conocés.",
+      "bodyEn": "The C–F–G–C progression with the 4-note pattern in the left hand. Listen for the chord changes on the first beat of each measure and how the pattern continues without a break. In F and G the hand moves as little as possible: look for common tones and keep the fingering you already know.",
+      "score": {
+        "clef": "bass",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m7-05.demo-progresion.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.2",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.3",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.5",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false,
+            "chordSymbol": "F"
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.6",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.7",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.8",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.9",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false,
+            "chordSymbol": "G"
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.10",
+            "measure": 3,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.11",
+            "measure": 3,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.12",
+            "measure": 3,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.13",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false,
+            "chordSymbol": "C"
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.14",
+            "measure": 4,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.15",
+            "measure": 4,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-05.demo-progresion.16",
+            "measure": 4,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              }
+            ],
+            "hand": "left",
+            "voice": 1,
+            "velocity": 74,
+            "tieToNext": false
+          }
+        ],
+        "pedals": []
+      }
+    },
+    {
+      "id": "sec.m7-05.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Leer patrones y ordenar las notas",
+      "titleEn": "Reading patterns and ordering notes",
+      "bodyEs": "Los ejercicios muestran un compás de acompañamiento arpegiado. Unos preguntan si el patrón tiene 3 o 4 notas; otros piden el orden exacto en que la mano izquierda ataca las notas. Antes de responder, contá los ataques del compás, mirá el numerador y leé las notas de grave a agudo en el orden en que suenan.",
+      "bodyEn": "The exercises show one measure of arpeggiated accompaniment. Some ask whether the pattern has 3 or 4 notes; others ask the exact order in which the left hand plays the notes. Before answering, count the attacks in the measure, check the numerator and read the notes from low to high in the order they sound."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Acompañamiento arpegiado en Do a tempo estable",
+    "titleEn": "Arpeggiated accompaniment in C at a steady tempo",
+    "instructionsEs": "Poné el metrónomo a 60 BPM. Tocá con la mano izquierda el patrón de 3 notas Do3–Sol3–Mi3 en 3/4 y después el de 4 notas Do3–Sol3–Mi3–Sol3 en 4/4. Repetí cada patrón cuatro compases seguidos sin cortar el pulso y con el mismo volumen en todas las notas. Pasá a la progresión Do–Fa–Sol–Do manteniendo las notas comunes y la digitación. Cuando los dos patrones salgan parejos, subí a 66 y después a 72 BPM, siempre sin perder la estabilidad. Si aparece dolor o tensión, pará o bajá el tempo.",
+    "instructionsEn": "Set the metronome to 60 BPM. Play the 3-note pattern C3–G3–E3 in 3/4 with the left hand, then the 4-note pattern C3–G3–E3–G3 in 4/4. Repeat each pattern for four measures without breaking the pulse and with the same volume on every note. Move on to the C–F–G–C progression keeping common tones and fingering. Once both patterns are even, raise the tempo to 66 and then 72 BPM, always without losing stability. If pain or tension appears, stop or slow down.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "Mano izquierda en Do: 5-2-1 para Do3–Sol3–Mi3 y 5-2-1-2 para Do3–Sol3–Mi3–Sol3. En Fa: 5-3-1 para Fa3–Do4–La3 y 5-3-1-3 para Fa3–Do4–La3–Do4. En Sol: 5-2-1 para Sol3–Re4–Si3 y 5-2-1-2 para Sol3–Re4–Si3–Re4. Ajustá la digitación a tu mano sin estirar entre notas.",
+    "fingeringEn": "Left hand in C: 5-2-1 for C3–G3–E3 and 5-2-1-2 for C3–G3–E3–G3. In F: 5-3-1 for F3–C4–A3 and 5-3-1-3 for F3–C4–A3–C4. In G: 5-2-1 for G3–D4–B3 and 5-2-1-2 for G3–D4–B3–D4. Adjust the fingering to your hand without stretching between notes.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué el patrón de 3 notas a 60 BPM sin cortar el pulso",
+      "Toqué el patrón de 4 notas a 60 BPM con volumen parejo",
+      "Mantuve la progresión Do–Fa–Sol–Do buscando notas comunes",
+      "Subí a 66 y 72 BPM solo cuando el patrón quedó estable",
+      "Paré o bajé el tempo si apareció dolor o tensión"
+    ],
+    "checklistEn": [
+      "I played the 3-note pattern at 60 BPM without breaking the pulse",
+      "I played the 4-note pattern at 60 BPM with even volume",
+      "I kept the C–F–G–C progression looking for common tones",
+      "I raised the tempo to 66 and 72 BPM only once the pattern was steady",
+      "I stopped or slowed down if pain or tension appeared"
+    ],
+    "demoScore": {
+      "clef": "bass",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 72,
+      "events": [
+        {
+          "id": "sec.m7-05.demo-progresion.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false,
+          "chordSymbol": "C"
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.2",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.3",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.5",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false,
+          "chordSymbol": "F"
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.6",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.7",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.8",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.9",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false,
+          "chordSymbol": "G"
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.10",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.11",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.12",
+          "measure": 3,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.13",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false,
+          "chordSymbol": "C"
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.14",
+          "measure": 4,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.15",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-05.demo-progresion.16",
+          "measure": 4,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "voice": 1,
+          "velocity": 74,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

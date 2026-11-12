@@ -1,0 +1,27 @@
+{
+  "id": "ex.m5-09.h",
+  "skillId": "skill.modulation",
+  "type": "pivot-chord",
+  "promptEs": "En una modulación de Fa mayor a Si♭ mayor, Solm (Sol, Si♭, Re) es el acorde pivote. ¿Qué número romano tiene en Fa mayor?",
+  "promptEn": "In a modulation from F major to B♭ major, Gm (G, B♭, D) is the pivot chord. Which Roman numeral does it have in F major?",
+  "explanationEs": "Solm conserva las mismas notas en las dos tonalidades: es ii en Fa mayor y vi en Si♭ mayor. Por eso sirve de puente; después, un acorde que ya solo pertenece a Si♭ mayor (como su V7) confirma la modulación.",
+  "explanationEn": "Gm keeps the same notes in both keys: it is ii in F major and vi in B♭ major. That is why it works as a bridge; afterwards, a chord that belongs only to B♭ major (such as its V7) confirms the modulation.",
+  "difficulty": 2,
+  "fromKey": "F",
+  "toKey": "Bb",
+  "degreeFrom": 2,
+  "degreeTo": 6,
+  "ask": "source",
+  "choices": [
+    "ii",
+    "vi",
+    "V",
+    "iii"
+  ],
+  "choicesEn": [
+    "ii",
+    "vi",
+    "V",
+    "iii"
+  ]
+}

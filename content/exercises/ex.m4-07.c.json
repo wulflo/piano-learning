@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-07.c",
+  "skillId": "skill.chord-notation",
+  "type": "chord-notation",
+  "promptEs": "Convertí el cifrado Si♭maj7/Re a notación americana.",
+  "promptEn": "Convert the chord Si♭maj7/Re to American notation.",
+  "explanationEs": "Si♭maj7/Re es Si♭ mayor séptima con Re en el bajo. Si♭ pasa a B♭ y Re pasa a D: Si♭maj7/Re → B♭maj7/D.",
+  "explanationEn": "Si♭maj7/Re is B♭ major seventh with D in the bass. Si♭ becomes B♭ and Re becomes D: Si♭maj7/Re → B♭maj7/D.",
+  "difficulty": 2,
+  "symbol": "Si♭maj7/Re",
+  "to": "c",
+  "choices": ["B♭maj7/D", "Bmaj7/D", "Cm7/D"],
+  "choicesEn": ["B♭maj7/D", "Bmaj7/D", "Cm7/D"]
+}

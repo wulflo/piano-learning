@@ -1,0 +1,25 @@
+{
+  "id": "ex.m5-08.h",
+  "skillId": "skill.modal-mixture",
+  "type": "borrowed-chord",
+  "promptEs": "En Re♭ mayor, el acorde La♭ menor (La♭, Do♭, Mi♭) se toma prestado del modo paralelo. ¿Qué número romano le corresponde?",
+  "promptEn": "In D♭ major, the chord A♭ minor (A♭, C♭, E♭) is borrowed from the parallel mode. Which Roman numeral does it get?",
+  "explanationEs": "En Re♭ mayor, La♭ menor es el v del modo paralelo, la dominante menor sin sensible y se cifra v. El intercambio modal conserva la fundamental del grado pero cambia su cualidad y, a veces, añade una alteración.",
+  "explanationEn": "In D♭ major, A♭ minor is the v of the parallel mode, the minor dominant without a leading tone and it is labelled v. Modal mixture keeps the root of the degree but changes its quality and sometimes adds an accidental.",
+  "difficulty": 3,
+  "key": "Db",
+  "mode": "major",
+  "numeral": "v",
+  "choices": [
+    "V",
+    "v",
+    "iv",
+    "bVII"
+  ],
+  "choicesEn": [
+    "V",
+    "v",
+    "iv",
+    "bVII"
+  ]
+}

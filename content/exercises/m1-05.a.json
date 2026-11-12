@@ -1,0 +1,35 @@
+{
+  "id": "ex.m1-05.a",
+  "skillId": "skill.simple-meter",
+  "type": "rhythm-completion",
+  "promptEs": "En 2/4, ¿qué figura ocupa todo el compás por sí sola?",
+  "explanationEs": "En 2/4 entran dos negras. Una blanca dura dos tiempos, así que ocupa el compás completo.",
+  "difficulty": 1,
+  "timeSignature": {
+    "numerator": 2,
+    "denominator": 4
+  },
+  "pattern": [
+    {
+      "duration": "half",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 0,
+  "choices": [
+    "Redonda",
+    "Blanca",
+    "Negra",
+    "Corchea"
+  ],
+  "promptEn": "In 2/4, which note value fills the whole measure by itself?",
+  "explanationEn": "Two quarter notes fit in 2/4. A half note lasts two beats, so it fills the whole measure.",
+  "choicesEn": [
+    "Whole note",
+    "Half note",
+    "Quarter note",
+    "Eighth note"
+  ]
+}

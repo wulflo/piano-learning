@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-03.k",
+  "skillId": "skill.harmonic-function",
+  "type": "harmonic-function",
+  "promptEs": "En Sol menor natural, ¿qué función cumple el acorde La° (La, Do, Mi♭)?",
+  "promptEn": "In G natural minor, what function does the chord A° (A, C, E♭) fulfil?",
+  "explanationEs": "En Sol menor natural, el grado ii° es La disminuido. La subdominante disminuida contiene el Do y el Mi♭ de la escala y empuja hacia la dominante Re.",
+  "explanationEn": "In G natural minor, degree ii° is A diminished. The diminished subdominant contains the scale’s C and E♭ and pushes towards the dominant D.",
+  "difficulty": 3,
+  "key": "G",
+  "mode": "minor",
+  "degree": 2,
+  "choices": [
+    "Subdominante (S)",
+    "Tónica (T)",
+    "Dominante (D)"
+  ],
+  "choicesEn": [
+    "Subdominant (S)",
+    "Tonic (T)",
+    "Dominant (D)"
+  ]
+}

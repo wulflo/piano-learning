@@ -1,0 +1,29 @@
+{
+  "id": "ex.m1-05.h",
+  "skillId": "skill.simple-meter",
+  "type": "meter-accent",
+  "promptEs": "En un compás de 3/4, ¿cómo se acentúan los pulsos?",
+  "explanationEs": "En 3/4 el primer pulso es fuerte y los otros dos son débiles: se siente como «fuerte-débil-débil», el pulso de un vals.",
+  "difficulty": 1,
+  "timeSignature": {
+    "numerator": 3,
+    "denominator": 4
+  },
+  "accentedBeats": [
+    1
+  ],
+  "choices": [
+    "1 fuerte; 2 y 3 débiles",
+    "1 y 3 fuertes; 2 débil",
+    "1 débil; 2 y 3 fuertes",
+    "Los tres pulsos son fuertes"
+  ],
+  "promptEn": "In a 3/4 measure, how are the beats accented?",
+  "explanationEn": "In 3/4 the first beat is strong and the other two are weak: it feels like “strong-weak-weak”, the pulse of a waltz.",
+  "choicesEn": [
+    "1 strong; 2 and 3 weak",
+    "1 and 3 strong; 2 weak",
+    "1 weak; 2 and 3 strong",
+    "All three beats are strong"
+  ]
+}

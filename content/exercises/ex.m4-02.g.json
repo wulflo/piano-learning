@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-02.g",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada formada por Fa♯, La y Do?",
+  "promptEn": "What quality does the triad made of F#, A and C have?",
+  "explanationEs": "Es una tríada disminuida, 1-♭3-♭5: Fa♯-La es una tercera menor y La-Do otra tercera menor. Fa♯-Do es un tritono, la distancia que hace inestable a la disminuida.",
+  "explanationEn": "It is a diminished triad, 1-♭3-♭5: F#-A is a minor third and A-C another minor third. F#-C is a tritone, the interval that makes the diminished triad unstable.",
+  "difficulty": 3,
+  "root": { "step": "F", "accidental": "#", "octave": 4 },
+  "quality": "diminished",
+  "inversion": 0,
+  "choices": ["disminuido", "aumentado", "suspendido 2", "suspendido 4"],
+  "choicesEn": ["diminished", "augmented", "suspended 2", "suspended 4"]
+}

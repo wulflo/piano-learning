@@ -1,0 +1,356 @@
+{
+  "id": "lesson.m5-05",
+  "moduleId": "M5",
+  "slug": "progresiones-comunes",
+  "titleEs": "Progresiones comunes",
+  "titleEn": "Common progressions",
+  "summaryEs": "Las dos progresiones que más se repiten en la música popular: I-V-vi-IV y ii-V-I, sus funciones, sus variantes y cómo transportarlas a las doce tonalidades.",
+  "summaryEn": "The two most repeated progressions in popular music: I-V-vi-IV and ii-V-I, their functions, their variants and how to transpose them to all twelve keys.",
+  "objectivesEs": [
+    "Reconocer y tocar las progresiones I-V-vi-IV y ii-V-I por sus grados",
+    "Explicar qué función cumple cada acorde dentro de la progresión",
+    "Transportar ambas progresiones a las doce tonalidades mayores"
+  ],
+  "objectivesEn": [
+    "Recognise and play the I-V-vi-IV and ii-V-I progressions by their degrees",
+    "Explain the function each chord fulfils inside the progression",
+    "Transpose both progressions to all twelve major keys"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m5-04"
+  ],
+  "skillIds": [
+    "skill.common-progressions"
+  ],
+  "exerciseIds": [
+    "ex.m5-05.a",
+    "ex.m5-05.b",
+    "ex.m5-05.c",
+    "ex.m5-05.d",
+    "ex.m5-05.e",
+    "ex.m5-05.f",
+    "ex.m5-05.g",
+    "ex.m5-05.h",
+    "ex.m5-05.i",
+    "ex.m5-05.j",
+    "ex.m5-05.k",
+    "ex.m5-05.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m5-05.intro",
+      "kind": "text",
+      "titleEs": "Qué es una progresión",
+      "titleEn": "What a progression is",
+      "bodyEs": "Una progresión es una serie de acordes que se repite y organiza una canción. Casi toda la música popular usa un puñado de progresiones, y dos destacan por su frecuencia: I-V-vi-IV, el motor del pop, y ii-V-I, la cadencia del jazz. Las dos recorren las funciones tónica, subdominante y dominante, pero lo hacen en distinto orden y con distinto carácter. Aprenderlas por grados permite tocarlas en cualquier tonalidad sin memorizar doce versiones distintas.",
+      "bodyEn": "A progression is a series of chords that repeats and organises a song. Almost all popular music uses a handful of progressions, and two stand out for their frequency: I-V-vi-IV, the engine of pop, and ii-V-I, the jazz cadence. Both travel through the tonic, subdominant and dominant functions, but in a different order and with a different character. Learning them by degree lets you play them in any key without memorising twelve separate versions."
+    },
+    {
+      "id": "sec.m5-05.pop",
+      "kind": "text",
+      "titleEs": "I-V-vi-IV: la progresión pop",
+      "titleEn": "I-V-vi-IV: the pop progression",
+      "bodyEs": "I-V-vi-IV encadena tónica, dominante, relativa menor y subdominante. El V crea la tensión, el vi la desvía hacia la relativa y el IV prepara el regreso al I. En Do mayor es Do-Sol-Lam-Fa. Una variante muy común empieza en el vi: vi-IV-I-V, la misma rueda girada. Otra, la progresión de los años cincuenta, es I-vi-IV-V: Do-Lam-Fa-Sol. Todas comparten la alternancia entre reposo y movimiento que las hace fáciles de recordar.",
+      "bodyEn": "I-V-vi-IV chains tonic, dominant, relative minor and subdominant. V creates the tension, vi swerves to the relative minor and IV prepares the return to I. In C major it is C-G-Am-F. A very common variant starts on vi: vi-IV-I-V, the same wheel rotated. Another, the fifties progression, is I-vi-IV-V: C-Am-F-G. All of them share the alternation between rest and motion that makes them easy to remember."
+    },
+    {
+      "id": "sec.m5-05.jazz",
+      "kind": "text",
+      "titleEs": "ii-V-I: la cadencia del jazz",
+      "titleEn": "ii-V-I: the jazz cadence",
+      "bodyEs": "ii-V-I es la cadencia más usada del jazz. El ii es la subdominante que prepara, el V es la dominante que resuelve y el I es la tónica que cierra. En Do mayor es Rem-Sol-Do. Con séptimas se escribe Rem7-Sol7-Domaj7: el tritono del Sol7 (Si-Fa) resuelve en las notas del Domaj7. La progresión avanza por quintas descendentes (Re-Sol-Do) y se puede encadenar: después del I, un nuevo ii-V-I en otra tonalidad permite modular.",
+      "bodyEn": "ii-V-I is the most used cadence in jazz. ii is the subdominant that prepares, V is the dominant that resolves and I is the tonic that closes. In C major it is Dm-G-C. With sevenths it is written Dm7-G7-Cmaj7: the tritone of G7 (B-F) resolves into the notes of Cmaj7. The progression moves by descending fifths (D-G-C) and can be chained: after I, a new ii-V-I in another key allows a modulation."
+    },
+    {
+      "id": "sec.m5-05.tonalidades",
+      "kind": "text",
+      "titleEs": "Las doce tonalidades",
+      "titleEn": "All twelve keys",
+      "bodyEs": "La progresión no depende de la tonalidad: los grados se mantienen y cambian las notas. En Do, I-V-vi-IV es Do-Sol-Lam-Fa; en Sol, Sol-Re-Mim-Do; en Re, Re-La-Sim-Sol; en La, La-Mi-Fa♯m-Re; en Mi, Mi-Si-Do♯m-La; en Si, Si-Fa♯-Sol♯m-Mi. Con bemoles: en Fa, Fa-Do-Rem-Si♭; en Si♭, Si♭-Fa-Solm-Mi♭; en Mi♭, Mi♭-Si♭-Dom-La♭; en La♭, La♭-Mi♭-Fam-Re♭; en Re♭, Re♭-La♭-Si♭m-Sol♭; en Fa♯, Fa♯-Do♯-Re♯m-Si. El ii-V-I se transporta igual: en Do es Rem-Sol-Do y en Sol es Lam-Re-Sol.",
+      "bodyEn": "The progression does not depend on the key: the degrees stay and the notes change. In C, I-V-vi-IV is C-G-Am-F; in G, G-D-Em-C; in D, D-A-Bm-G; in A, A-E-F♯m-D; in E, E-B-C♯m-A; in B, B-F♯-G♯m-E. With flats: in F, F-C-Dm-B♭; in B♭, B♭-F-Gm-E♭; in E♭, E♭-B♭-Cm-A♭; in A♭, A♭-E♭-Fm-D♭; in D♭, D♭-A♭-B♭m-G♭; in F♯, F♯-C♯-D♯m-B. ii-V-I transposes the same way: in C it is Dm-G-C and in G it is Am-D-G."
+    },
+    {
+      "id": "sec.m5-05.demo-pop",
+      "kind": "score",
+      "titleEs": "Demo: I-V-vi-IV en Do mayor",
+      "titleEn": "Demo: I-V-vi-IV in C major",
+      "bodyEs": "Cuatro acordes, uno por compás: Do (I), Sol (V), Lam (vi) y Fa (IV). Escuchá cómo el Sol crea la tensión, el Lam la desvía hacia la relativa menor y el Fa prepara la vuelta al principio. La rueda puede repetirse sin cerrar: por eso funciona como base de una canción entera.",
+      "bodyEn": "Four chords, one per bar: C (I), G (V), Am (vi) and F (IV). Listen to how G creates tension, Am swerves to the relative minor and F prepares the return to the beginning. The wheel can repeat without closing: that is why it works as the base of an entire song.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "sec.m5-05.pop-i",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-05.pop-v",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-05.pop-vi",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-05.pop-iv",
+            "measure": 4,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "F", "accidental": "", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 76,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-05.demo-jazz",
+      "kind": "score",
+      "titleEs": "Demo: ii-V-I en Do mayor con séptimas",
+      "titleEn": "Demo: ii-V-I in C major with sevenths",
+      "bodyEs": "Rem7 (ii7), Sol7 (V7) y Domaj7 (Imaj7), uno por compás. El Sol7 contiene el tritono Si-Fa, que resuelve en Do-Mi del acorde final. Escuchá la sensación de preparación, tensión y reposo en solo tres acordes.",
+      "bodyEn": "Dm7 (ii7), G7 (V7) and Cmaj7 (Imaj7), one per bar. G7 contains the tritone B-F, which resolves into C-E of the final chord. Listen to the feeling of preparation, tension and rest in only three chords.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m5-05.jazz-ii",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 3 },
+              { "step": "F", "accidental": "", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 76,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-05.jazz-v",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-05.jazz-i",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 3 },
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-05.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce progresiones para completar",
+      "titleEn": "Twelve progressions to complete",
+      "bodyEs": "Cada ejercicio muestra una tonalidad y una progresión con un grado oculto. Elegí el grado que falta. Recorren las doce tonalidades mayores y alternan I-V-vi-IV con ii-V-I, así que conviene pensar primero en la función del hueco: si es el reposo, la preparación o la tensión.",
+      "bodyEn": "Each exercise shows a key and a progression with one hidden degree. Choose the missing degree. They cover all twelve major keys and alternate I-V-vi-IV with ii-V-I, so it is best to think first about the function of the gap: whether it is rest, preparation or tension."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca I-V-vi-IV y ii-V-I en Do mayor",
+    "titleEn": "Play I-V-vi-IV and ii-V-I in C major",
+    "instructionsEs": "Tocá con la mano derecha, un acorde por compás y a 60 BPM. Primero la rueda pop: Do-Sol-Lam-Fa (I-V-vi-IV). Después la cadencia jazz: Rem-Sol-Do (ii-V-I). Decí los grados antes de cada acorde y escuchá cómo el Sol empuja hacia el Do.",
+    "instructionsEn": "Play with your right hand, one chord per bar at 60 BPM. First the pop wheel: C-G-Am-F (I-V-vi-IV). Then the jazz cadence: Dm-G-C (ii-V-I). Say the degrees before each chord and listen to how G pushes towards C.",
+    "keys": [
+      { "step": "D", "accidental": "", "octave": 3 },
+      { "step": "F", "accidental": "", "octave": 3 },
+      { "step": "G", "accidental": "", "octave": 3 },
+      { "step": "A", "accidental": "", "octave": 3 },
+      { "step": "B", "accidental": "", "octave": 3 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: 1-3-5 para todos los acordes en estado fundamental. Mantené la muñeca suelta y buscá el cambio mínimo entre Do, Sol y Lam.",
+    "fingeringEn": "Right hand: 1-3-5 for every root-position chord. Keep the wrist loose and look for the smallest movement between C, G and Am.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué I-V-vi-IV y ii-V-I en bloque sin tensar la muñeca",
+      "Pensé los grados antes de cada acorde y no solo las notas",
+      "Escuché la tensión del Sol y el reposo del Do final"
+    ],
+    "checklistEn": [
+      "I played I-V-vi-IV and ii-V-I as blocks without tensing my wrist",
+      "I thought in degrees before each chord, not only in notes",
+      "I heard the tension of G and the rest of the final C"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m5-05.pop-i",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-05.pop-v",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "", "octave": 3 },
+            { "step": "D", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-05.pop-vi",
+          "measure": 3,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-05.pop-iv",
+          "measure": 4,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "F", "accidental": "", "octave": 3 },
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 76,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-05.jazz-ii",
+          "measure": 5,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "D", "accidental": "", "octave": 3 },
+            { "step": "F", "accidental": "", "octave": 3 },
+            { "step": "A", "accidental": "", "octave": 3 }
+          ],
+          "hand": "right",
+          "velocity": 76,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-05.jazz-v",
+          "measure": 6,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "", "octave": 3 },
+            { "step": "D", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-05.jazz-i",
+          "measure": 7,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-07.g",
+  "skillId": "skill.secondary-dominants",
+  "type": "secondary-dominant",
+  "promptEs": "En Fa♯ mayor, ¿en qué grado resuelve V/V?",
+  "promptEn": "In F♯ major, which degree does V/V resolve to?",
+  "explanationEs": "En Fa♯ mayor, V/V es Sol♯7 y resuelve en Do♯ (V). Su tercera es la sensible de Do♯ y sube un semitono al resolver.",
+  "explanationEn": "In F♯ major, V/V is G♯7 and it resolves to C♯ (V). Its third is the leading tone of C♯ and rises a semitone when it resolves.",
+  "difficulty": 3,
+  "key": "F#",
+  "mode": "major",
+  "target": 5,
+  "ask": "resolution",
+  "choices": [
+    "ii",
+    "vi",
+    "IV",
+    "V"
+  ],
+  "choicesEn": [
+    "ii",
+    "vi",
+    "IV",
+    "V"
+  ]
+}

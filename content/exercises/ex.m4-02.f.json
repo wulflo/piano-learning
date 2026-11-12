@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-02.f",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada formada por Fa, Sol y Do?",
+  "promptEn": "What quality does the triad made of F, G and C have?",
+  "explanationEs": "Es una tríada suspendida 2, 1-2-5: Fa-Sol es una segunda mayor y Sol-Do una cuarta justa. Al no tener tercera no es mayor ni menor; la segunda puede resolver subiendo a la tercera, Fa-Sol-Do hacia Fa-La-Do.",
+  "explanationEn": "It is a suspended 2 triad, 1-2-5: F-G is a major second and G-C a perfect fourth. With no third it is neither major nor minor; the second can resolve up to the third, F-G-C to F-A-C.",
+  "difficulty": 1,
+  "root": { "step": "F", "accidental": "", "octave": 4 },
+  "quality": "sus2",
+  "inversion": 0,
+  "choices": ["disminuido", "aumentado", "suspendido 2", "suspendido 4"],
+  "choicesEn": ["diminished", "augmented", "suspended 2", "suspended 4"]
+}

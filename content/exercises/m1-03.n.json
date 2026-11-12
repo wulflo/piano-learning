@@ -1,0 +1,13 @@
+{
+  "id": "ex.m1-03.n",
+  "skillId": "skill.accidentals",
+  "type": "note-keyboard",
+  "promptEs": "Tocá la nota enarmónica de Sol♭4 que se escribe con sostenido.",
+  "promptEn": "Play the enharmonic note of G♭4 that is written with a sharp.",
+  "explanationEs": "Sol♭4 y Fa♯4 son la misma tecla: la tecla negra entre Fa y Sol. Cambia el nombre, no la altura.",
+  "explanationEn": "G♭4 and F♯4 are the same key: the black key between F and G. The name changes, not the pitch.",
+  "difficulty": 2,
+  "target": { "step": "F", "accidental": "#", "octave": 4 },
+  "choices": ["Fa♯4", "Sol♭4", "Sol♯4", "Fa4"],
+  "choicesEn": ["F♯4", "G♭4", "G♯4", "F4"]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "lesson.m2-10",
+  "moduleId": "M2",
+  "slug": "escala-de-blues",
+  "titleEs": "Escala de blues",
+  "titleEn": "Blues scale",
+  "summaryEs": "La escala de blues: la fórmula de la menor pentatónica con el bemol de la quinta y sus doce tonalidades.",
+  "summaryEn": "The blues scale: the minor pentatonic formula with the lowered fifth and its twelve keys.",
+  "objectivesEs": [
+    "Reconocer la fórmula de la escala de blues",
+    "Tocar la escala de blues en las doce tonalidades",
+    "Crear melodías con la escala de blues"
+  ],
+  "objectivesEn": [
+    "Recognize the formula of the blues scale",
+    "Play the blues scale in all twelve keys",
+    "Create melodies with the blues scale"
+  ],
+  "minutes": 14,
+  "prerequisites": [
+    "lesson.m2-09"
+  ],
+  "skillIds": [
+    "skill.major-scale",
+    "skill.ear-scale"
+  ],
+  "exerciseIds": [
+    "ex.m2-10.a",
+    "ex.m2-10.b"
+  ],
+  "sections": [
+    {
+      "id": "sec.m2-10.intro",
+      "kind": "text",
+      "titleEs": "Qué es la escala de blues",
+      "titleEn": "What is the blues scale",
+      "bodyEs": "La escala de blues se construye con la fórmula de la menor pentatónica más una nota: el bemol de la quinta. En Do la escala de blues toma las notas Do, Do sostenido, Fa sostenido, Sol y La, y se escribe con los grados tónica, tercera, quinta, séptima y octava de la menor. Esa nota extra le da al blues su color particular y lo acerca a la protesta y la expresión.",
+      "bodyEn": "The blues scale is built with the minor pentatonic formula plus one note: the lowered fifth. In C the blues scale takes the notes C, D♯, F♯, G, and A, and it is written with the tonic, third, fifth, seventh, and octave degrees of the minor scale. That extra note gives the blues its particular color and brings it closer to protest and expression."
+    },
+    {
+      "id": "sec.m2-10.twelve",
+      "kind": "text",
+      "titleEs": "Las doce tonalidades",
+      "titleEn": "The twelve keys",
+      "bodyEs": "La escala de blues se construye sobre la menor pentatónica de cada tonalidad, así que existe una por tonalidad: blues de Do, de Sol, de Re, de La, de Mi, de Si, de Fa sostenido, de Fa, de Mi bemol, de Si bemol, de Fa bemol y de Re bemol. Cada una comparte la fórmula con la menor pentatónica de su tonalidad más el bemol de la quinta.",
+      "bodyEn": "The blues scale is built on the minor pentatonic of each key, so there is one per key: C blues, G blues, D blues, A blues, E blues, B blues, F♯ blues, F blues, E♭ blues, B♭ blues, F♭ blues, and D♭ blues. Each one shares the formula of the minor pentatonic of its key plus the lowered fifth."
+    },
+    {
+      "id": "sec.m2-10.score",
+      "kind": "score",
+      "titleEs": "Escala de blues de Do",
+      "titleEn": "C blues scale",
+      "bodyEs": "Escala de blues de Do: Do, Do sostenido, Fa sostenido, Sol y La, con la fórmula de la menor pentatónica más el bemol de la quinta en un compás de cuatro tiempos.",
+      "bodyEn": "C blues scale: C, D♯, F♯, G, and A, with the minor pentatonic formula plus the lowered fifth in a four-beat measure.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m2-10.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-10.d4",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "D", "accidental": "#", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-10.f4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "F", "accidental": "#", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-10.g4",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-10.a4",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "A", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m2-10.exercises",
+      "kind": "exercise",
+      "titleEs": "Fórmula y audio del blues",
+      "titleEn": "Blues formula and audio",
+      "bodyEs": "En los ejercicios se escribe la escala de blues con su fórmula y se identifica el modo de audio. La respuesta correcta lista las notas con el bemol de la quinta.",
+      "bodyEn": "In the exercises you write the blues scale with its formula and identify the mode by ear. The correct answer lists the notes with the lowered fifth."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la escala de blues de Do",
+    "titleEn": "Play the C blues scale",
+    "instructionsEs": "Tocá la escala de blues de Do (Do, Do sostenido, Fa sostenido, Sol y La) con la mano derecha a 60 BPM, despacio y sin apuro.",
+    "instructionsEn": "Play the C blues scale (C, D♯, F♯, G, and A) with your right hand at 60 BPM, slowly and without rushing.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "#", "octave": 4 },
+      { "step": "F", "accidental": "#", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "A", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha en una octava: 1-2-3-4-5 para la escala de blues de Do.",
+    "fingeringEn": "Right hand in one octave: 1-2-3-4-5 for the C blues scale.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué los grados de la escala de blues en orden",
+      "Mantuve la fórmula de la escala sin saltarme notas",
+      "Repetí la escala despacio con pulso de negra"
+    ],
+    "checklistEn": [
+      "I played the degrees of the blues scale in order",
+      "I kept the formula of the scale without skipping notes",
+      "I repeated the scale slowly with a quarter-note pulse"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

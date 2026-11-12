@@ -1,0 +1,20 @@
+{
+  "id": "ex.m2-03.b",
+  "skillId": "skill.key-signature",
+  "type": "key-signature",
+  "promptEs": "¿En qué modo se escribe la escala de Mi menor?",
+  "explanationEs": "Mi menor es la paralela menor de Mi mayor: comparte la tónica pero baja la tercera, la sexta y la séptima un semitono.",
+  "difficulty": 2,
+  "key": "E",
+  "mode": "minor",
+  "choices": [
+    "Menor",
+    "Mayor"
+  ],
+  "promptEn": "In which mode is the E minor scale written?",
+  "explanationEn": "E minor is the parallel minor of E major: it shares the tonic but lowers the third, sixth and seventh by a semitone.",
+  "choicesEn": [
+    "Minor",
+    "Major"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ex.m1-03.h",
+  "skillId": "skill.accidentals",
+  "type": "interval",
+  "promptEs": "¿Qué distancia hay entre Sol4 y Sol♯4?",
+  "promptEn": "What is the distance between G4 and G♯4?",
+  "explanationEs": "Sol4 y Sol♯4 son teclas contiguas: hay un semitono. El sostenido sube Sol un semitono.",
+  "explanationEn": "G4 and G♯4 are adjacent keys: it is a semitone. The sharp raises G by a semitone.",
+  "difficulty": 1,
+  "lower": { "step": "G", "accidental": "", "octave": 4 },
+  "upper": { "step": "G", "accidental": "#", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Semitono", "Tono", "Tono y medio", "Dos tonos"],
+  "choicesEn": ["Semitone", "Tone", "Tone and a half", "Two tones"]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ex.m5-08.l",
+  "skillId": "skill.modal-mixture",
+  "type": "borrowed-chord",
+  "promptEs": "En Fa mayor, el acorde Re disminuido (Re, Fa, La♭) se toma prestado del modo paralelo. ¿Qué número romano le corresponde?",
+  "promptEn": "In F major, the chord D diminished (D, F, A♭) is borrowed from the parallel mode. Which Roman numeral does it get?",
+  "explanationEs": "En Fa mayor, Re disminuido es el ii° del modo paralelo, el segundo grado disminuido y se cifra ii°. El intercambio modal conserva la fundamental del grado pero cambia su cualidad y, a veces, añade una alteración.",
+  "explanationEn": "In F major, D diminished is the ii° of the parallel mode, the diminished second degree and it is labelled ii°. Modal mixture keeps the root of the degree but changes its quality and sometimes adds an accidental.",
+  "difficulty": 2,
+  "key": "F",
+  "mode": "major",
+  "numeral": "ii°",
+  "choices": [
+    "ii",
+    "ii°",
+    "IV",
+    "bVII"
+  ],
+  "choicesEn": [
+    "ii",
+    "ii°",
+    "IV",
+    "bVII"
+  ]
+}

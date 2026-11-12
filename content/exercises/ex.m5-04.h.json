@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-04.h",
+  "skillId": "skill.cadence",
+  "type": "cadence",
+  "promptEs": "En Mi menor, ¿qué cadencia forman los acordes Lam (La, Do, Mi) y Mim (Mi, Sol, Si)?",
+  "promptEn": "In E minor, what cadence do the chords Am (A, C, E) and Em (E, G, B) form?",
+  "explanationEs": "La cadencia plagal en menor va de iv a i: Lam resuelve en Mim. Las dos tríadas son menores y el cierre es íntimo, sin la tensión de la sensible.",
+  "explanationEn": "The plagal cadence in minor goes from iv to i: Am resolves to Em. Both triads are minor and the close is intimate, without the tension of a leading tone.",
+  "difficulty": 2,
+  "key": "E",
+  "mode": "minor",
+  "fromDegree": 4,
+  "toDegree": 1,
+  "choices": [
+    "Plagal (IV-I)",
+    "Auténtica (V-I)",
+    "Semicadencia (…-V)",
+    "Rota (V-vi)"
+  ],
+  "choicesEn": [
+    "Plagal (IV-I)",
+    "Authentic (V-I)",
+    "Half cadence (…-V)",
+    "Deceptive (V-vi)"
+  ]
+}

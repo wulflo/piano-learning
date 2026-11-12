@@ -1,0 +1,32 @@
+{
+  "id": "ex.m1-06.h",
+  "skillId": "skill.compound-meter",
+  "type": "meter-accent",
+  "promptEs": "En un compás de 12/8, ¿en qué corcheas caen los acentos?",
+  "explanationEs": "En 12/8 hay cuatro grupos de tres corcheas: los acentos caen en las corcheas 1, 4, 7 y 10. Se siente como cuatro pulsos.",
+  "difficulty": 2,
+  "timeSignature": {
+    "numerator": 12,
+    "denominator": 8
+  },
+  "accentedBeats": [
+    1,
+    4,
+    7,
+    10
+  ],
+  "choices": [
+    "1, 4, 7 y 10: inicio de cada grupo de tres corcheas",
+    "1, 3, 5, 7, 9 y 11",
+    "1 y 12",
+    "Solo la 1"
+  ],
+  "promptEn": "In a 12/8 measure, on which eighth notes do the accents fall?",
+  "explanationEn": "In 12/8 there are four groups of three eighth notes: the accents fall on eighth notes 1, 4, 7 and 10. It feels like four pulses.",
+  "choicesEn": [
+    "1, 4, 7 and 10: the start of each group of three eighth notes",
+    "1, 3, 5, 7, 9 and 11",
+    "1 and 12",
+    "Only 1"
+  ]
+}

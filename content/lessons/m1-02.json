@@ -1,0 +1,229 @@
+{
+  "id": "lesson.m1-02",
+  "moduleId": "M1",
+  "slug": "pentagrama-claves-y-do-central",
+  "titleEs": "Pentagrama, claves y Do central",
+  "titleEn": "Staff, clefs and middle C",
+  "summaryEs": "El pentagrama tiene cinco líneas y cuatro espacios; la clave decide qué nota corresponde a cada posición y el Do central es el puente entre las dos claves.",
+  "summaryEn": "The staff has five lines and four spaces; the clef decides which note belongs to each position, and middle C is the bridge between the two clefs.",
+  "objectivesEs": [
+    "Leer las líneas y los espacios del pentagrama",
+    "Distinguir la clave de sol de la clave de fa",
+    "Ubicar el Do central en ambas claves y en el teclado"
+  ],
+  "objectivesEn": [
+    "Read the lines and spaces of the staff",
+    "Tell the treble clef from the bass clef",
+    "Locate middle C in both clefs and on the keyboard"
+  ],
+  "minutes": 12,
+  "prerequisites": ["lesson.m1-01"],
+  "skillIds": ["skill.note-staff"],
+  "exerciseIds": [
+    "ex.m1-02.a",
+    "ex.m1-02.b",
+    "ex.m1-02.c",
+    "ex.m1-02.d"
+  ],
+  "sections": [
+    {
+      "id": "sec.m1-02.staff",
+      "kind": "text",
+      "titleEs": "Cinco líneas, cuatro espacios",
+      "titleEn": "Five lines, four spaces",
+      "bodyEs": "El pentagrama es un conjunto de cinco líneas horizontales y los cuatro espacios que quedan entre ellas. Las notas se escriben sobre una línea o dentro de un espacio, y se leen de abajo hacia arriba. Cuanto más arriba está la nota, más aguda suena. Las líneas adicionales, llamadas líneas de ledger, permiten escribir notas que quedan por encima o por debajo del pentagrama.",
+      "bodyEn": "The staff is a set of five horizontal lines plus the four spaces between them. Notes are written on a line or inside a space, and they are read from bottom to top. The higher a note sits, the higher it sounds. Ledger lines let you write notes that fall above or below the staff."
+    },
+    {
+      "id": "sec.m1-02.treble",
+      "kind": "text",
+      "titleEs": "Clave de sol",
+      "titleEn": "Treble clef",
+      "bodyEs": "La clave de sol se dibuja al comienzo del pentagrama y fija la nota Sol4 en la segunda línea. Desde ahí se cuentan las demás posiciones: las líneas, de abajo hacia arriba, son Mi4, Sol4, Si4, Re5 y Fa5; los espacios son Fa4, La4, Do5 y Mi5. El Do central (Do4) queda justo debajo del pentagrama, en la primera línea adicional inferior. La clave de sol se usa para la mano derecha y para las melodías agudas.",
+      "bodyEn": "The treble clef is drawn at the beginning of the staff and fixes the note G4 on the second line. From there you count the other positions: the lines, from bottom to top, are E4, G4, B4, D5, and F5; the spaces are F4, A4, C5, and E5. Middle C (C4) sits just below the staff, on the first ledger line below. The treble clef is used for the right hand and for high melodies."
+    },
+    {
+      "id": "sec.m1-02.treble-demo",
+      "kind": "score",
+      "titleEs": "Do central y tres líneas en clave de sol",
+      "titleEn": "Middle C and three lines in treble clef",
+      "bodyEs": "Mirá el Do4 en la primera línea adicional debajo del pentagrama y seguí con Mi4, Sol4 y Si4 sobre las tres primeras líneas. Si te equivocás, contá desde la segunda línea (Sol4) hacia arriba o hacia abajo.",
+      "bodyEn": "Look at C4 on the first ledger line below the staff and continue with E4, G4, and B4 on the first three lines. If you make a mistake, count from the second line (G4) up or down.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m1-02.treble.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-02.treble.e4",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-02.treble.g4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-02.treble.b4",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "B", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-02.bass",
+      "kind": "text",
+      "titleEs": "Clave de fa",
+      "titleEn": "Bass clef",
+      "bodyEs": "La clave de fa se dibuja al comienzo del pentagrama y fija la nota Fa3 en la cuarta línea. Las líneas, de abajo hacia arriba, son Sol2, Si2, Re3, Fa3 y La3; los espacios son La2, Do3, Mi3 y Sol3. El Do central (Do4) queda justo encima del pentagrama, en la primera línea adicional superior. La clave de fa se usa para la mano izquierda y para los registros graves.",
+      "bodyEn": "The bass clef is drawn at the beginning of the staff and fixes the note F3 on the fourth line. The lines, from bottom to top, are G2, B2, D3, F3, and A3; the spaces are A2, C3, E3, and G3. Middle C (C4) sits just above the staff, on the first ledger line above. The bass clef is used for the left hand and for low registers."
+    },
+    {
+      "id": "sec.m1-02.bass-demo",
+      "kind": "score",
+      "titleEs": "Do central y tres líneas en clave de fa",
+      "titleEn": "Middle C and three lines in bass clef",
+      "bodyEs": "El Do4 aparece ahora en la primera línea adicional arriba del pentagrama. Debajo están La3, Fa3 y Re3 sobre las líneas cuarta, tercera y segunda. El mismo Do central cambia de lugar según la clave, pero sigue siendo la misma tecla del piano.",
+      "bodyEn": "C4 now appears on the first ledger line above the staff. Below it are A3, F3, and D3 on the fourth, third, and second lines. The same middle C moves depending on the clef, but it is still the same key on the piano.",
+      "score": {
+        "clef": "bass",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m1-02.bass.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "left",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-02.bass.a3",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "A", "accidental": "", "octave": 3 }],
+            "hand": "left",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-02.bass.f3",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "F", "accidental": "", "octave": 3 }],
+            "hand": "left",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-02.bass.d3",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "D", "accidental": "", "octave": 3 }],
+            "hand": "left",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-02.middle-c",
+      "kind": "callout",
+      "titleEs": "El Do central une las claves",
+      "titleEn": "Middle C links the clefs",
+      "bodyEs": "Do4 es la misma tecla en el centro del piano, pero se escribe en lugares distintos: primera línea adicional debajo del pentagrama de sol y primera línea adicional encima del pentagrama de fa. En el gran pentagrama, las dos claves se unen y el Do central queda justo en el espacio entre ambos pentagramas. Si memorizás un solo punto de referencia, que sea ese: Do4.",
+      "bodyEn": "C4 is the same key in the middle of the piano, but it is written in different places: the first ledger line below the treble staff and the first ledger line above the bass staff. In the grand staff, the two clefs join and middle C falls right in the space between both staves. If you memorize just one reference point, make it that one: C4."
+    },
+    {
+      "id": "sec.m1-02.mnemonics",
+      "kind": "callout",
+      "titleEs": "Trucos para leer más rápido",
+      "titleEn": "Tricks for reading faster",
+      "bodyEs": "En clave de sol, las líneas de abajo hacia arriba son Mi-Sol-Si-Re-Fa y los espacios Fa-La-Do-Mi. En clave de fa, las líneas son Sol-Si-Re-Fa-La y los espacios La-Do-Mi-Sol. No hace falta recitar todo: alcanza con ubicar Sol4 en la segunda línea de sol, Fa3 en la cuarta línea de fa y contar desde ahí. Con la práctica, el reconocimiento se vuelve automático.",
+      "bodyEn": "In the treble clef, the lines from bottom to top are E-G-B-D-F and the spaces are F-A-C-E. In the bass clef, the lines are G-B-D-F-A and the spaces are A-C-E-G. You do not need to recite everything: it is enough to locate G4 on the second line of the treble staff, F3 on the fourth line of the bass staff, and count from there. With practice, recognition becomes automatic."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Encontrá el Do central",
+    "titleEn": "Find middle C",
+    "instructionsEs": "Buscá el Do central (Do4) en el teclado y tocá con el pulgar derecho. Después tocá el mismo Do4 con el pulgar izquierdo. Decí en voz alta «Do central» y señalá dónde se escribe en clave de sol y en clave de fa. Repetí tres veces sin mirar el teclado.",
+    "instructionsEn": "Find middle C (C4) on the keyboard and play it with your right thumb. Then play the same C4 with your left thumb. Say “middle C” out loud and point to where it is written in the treble clef and in the bass clef. Repeat three times without looking at the keyboard.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "1 (pulgar derecho) y 1 (pulgar izquierdo) sobre Do4",
+    "fingeringEn": "1 (right thumb) and 1 (left thumb) on C4",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Encontré Do4 sin contar todas las teclas",
+      "Toqué Do4 con el pulgar derecho y con el izquierdo",
+      "Señalé Do4 debajo del pentagrama de sol",
+      "Señalé Do4 encima del pentagrama de fa"
+    ],
+    "checklistEn": [
+      "I found C4 without counting every key",
+      "I played C4 with my right thumb and with my left thumb",
+      "I pointed to C4 below the treble staff",
+      "I pointed to C4 above the bass staff"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m1-02.c4",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-03.b",
+  "skillId": "skill.harmonic-function",
+  "type": "harmonic-function",
+  "promptEs": "En Sol mayor, ¿qué función cumple el acorde Do (Do, Mi, Sol)?",
+  "promptEn": "In G major, what function does the chord C (C, E, G) fulfil?",
+  "explanationEs": "En Sol mayor, el grado IV es Do. La subdominante abre el camino hacia la dominante: Do empuja la armonía hacia Re.",
+  "explanationEn": "In G major, degree IV is C. The subdominant opens the way to the dominant: C pushes the harmony towards D.",
+  "difficulty": 2,
+  "key": "G",
+  "mode": "major",
+  "degree": 4,
+  "choices": [
+    "Subdominante (S)",
+    "Dominante (D)",
+    "Tónica (T)"
+  ],
+  "choicesEn": [
+    "Subdominant (S)",
+    "Dominant (D)",
+    "Tonic (T)"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ex.m7-10.e",
+  "skillId": "skill.transposition",
+  "type": "transposition",
+  "promptEs": "¿Cómo queda esta melodía si la transponés de Do mayor a Sol mayor?",
+  "explanationEs": "La melodía C4 D4 E4 G4 en Do mayor se transporta a Sol mayor subiendo 7 semitonos: G4 A4 B4 D5.",
+  "difficulty": 1,
+  "fromKey": "C",
+  "toKey": "G",
+  "melody": [
+    {
+      "step": "C",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "D",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "E",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "G",
+      "accidental": "",
+      "octave": 4
+    }
+  ],
+  "answer": [
+    {
+      "step": "G",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "A",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "B",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "D",
+      "accidental": "",
+      "octave": 5
+    }
+  ],
+  "promptEn": "How does this melody sound if you transpose it from C major to G major?",
+  "explanationEn": "C4 D4 E4 G4 in C major becomes G4 A4 B4 D5 in G major: every note rises a perfect fifth (7 semitones).",
+  "choices": [
+    "G4 A4 B4 D5",
+    "G4 A4 B4 E5",
+    "G4 A4 C5 D5",
+    "F4 G4 A4 C5"
+  ],
+  "choicesEn": [
+    "G4 A4 B4 D5",
+    "G4 A4 B4 E5",
+    "G4 A4 C5 D5",
+    "F4 G4 A4 C5"
+  ]
+}

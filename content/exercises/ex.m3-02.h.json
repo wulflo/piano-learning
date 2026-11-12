@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-02.h",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "La cuarta aumentada Sol4-Do♯5 se invierte subiendo Sol una octava. ¿Cómo se llama el intervalo Do♯5-Sol5?",
+  "promptEn": "The augmented fourth G4-C♯5 is inverted by raising G an octave. What is the interval C♯5-G5 called?",
+  "explanationEs": "Do♯5-Sol5 es una quinta disminuida: 4 + 5 = 9 y la calidad aumentada se convierte en disminuida. No se reescribe Do♯ como Re♭.",
+  "explanationEn": "C♯5-G5 is a diminished fifth: 4 + 5 = 9 and the augmented quality becomes diminished. C♯ is not rewritten as D♭.",
+  "difficulty": 3,
+  "lower": { "step": "C", "accidental": "#", "octave": 5 },
+  "upper": { "step": "G", "accidental": "", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Quinta disminuida", "Quinta justa", "Cuarta aumentada", "Cuarta justa"],
+  "choicesEn": ["Diminished fifth", "Perfect fifth", "Augmented fourth", "Perfect fourth"]
+}

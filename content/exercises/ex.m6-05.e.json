@@ -1,0 +1,204 @@
+{
+  "id": "ex.m6-05.e",
+  "skillId": "skill.counterpoint",
+  "type": "counterpoint-analysis",
+  "promptEs": "¿Qué movimiento hay entre las dos voces?",
+  "promptEn": "What motion is there between the two voices?",
+  "explanationEs": "Una voz sube mientras la otra baja. El movimiento contrario mantiene las voces independientes y es la solución preferida para evitar quintas y octavas paralelas.",
+  "explanationEn": "One voice rises while the other falls. Contrary motion keeps the voices independent and is the preferred solution for avoiding parallel fifths and octaves.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 80,
+    "events": [
+      {
+        "id": "ex.m6-05.e.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.e.2",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.e.3",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.e.4",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.e.5",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 2,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.e.6",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 2,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.e.7",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 2,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.e.8",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 2,
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "ask": "motion",
+  "motion": "contrary",
+  "choices": [
+    "Movimiento paralelo",
+    "Movimiento similar",
+    "Movimiento contrario",
+    "Movimiento oblicuo"
+  ],
+  "choicesEn": [
+    "Parallel motion",
+    "Similar motion",
+    "Contrary motion",
+    "Oblique motion"
+  ]
+}

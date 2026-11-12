@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-01.d",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada construida sobre Eb con la regla 1-3-5?",
+  "promptEn": "What quality does the triad built on Eb with the 1-3-5 rule have?",
+  "explanationEs": "La tríada de Mi bemol menor se construye con la regla 1-3-5: Mi bemol, Sol bemol y Si bemol. La tercera, Mi bemol-Sol bemol, está a tres semitonos de la fundamental, así que su calidad es menor.",
+  "explanationEn": "The Eb minor triad is built with the 1-3-5 rule: Eb, Gb and Bb. The third, Eb-Gb, is three semitones above the root, so its quality is minor.",
+  "difficulty": 2,
+  "root": { "step": "E", "accidental": "b", "octave": 4 },
+  "quality": "minor",
+  "inversion": 0,
+  "choices": ["mayor", "menor", "disminuido", "aumentado"],
+  "choicesEn": ["major", "minor", "diminished", "augmented"]
+}

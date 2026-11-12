@@ -1,0 +1,239 @@
+{
+  "id": "lesson.m0-04",
+  "moduleId": "M0",
+  "slug": "como-practicar-metas-tiempo-error",
+  "titleEs": "Cómo practicar: metas, tiempo y error",
+  "titleEn": "How to practice: goals, time and error",
+  "summaryEs": "Practicar no es repetir hasta cansarse: es elegir una meta medible, darle un tiempo acotado y usar cada error como información.",
+  "summaryEn": "Practice is not repeating until you are tired: it is choosing a measurable goal, giving it a limited amount of time and using every mistake as information.",
+  "objectivesEs": [
+    "Convertir una intención vaga en una meta medible",
+    "Elegir sesiones de 15, 30 o 45 minutos con bloques claros",
+    "Registrar tempo y errores para no repetir los mismos fallos"
+  ],
+  "objectivesEn": [
+    "Turn a vague intention into a measurable goal",
+    "Choose 15, 30 or 45-minute sessions with clear blocks",
+    "Record tempo and mistakes so you don't repeat the same failures"
+  ],
+  "minutes": 10,
+  "prerequisites": [
+    "lesson.m0-03"
+  ],
+  "skillIds": [
+    "skill.practice-planning"
+  ],
+  "exerciseIds": [],
+  "sections": [
+    {
+      "id": "sec.m0-04.method",
+      "kind": "text",
+      "titleEs": "Meta, tiempo y error",
+      "titleEn": "Goal, time and error",
+      "bodyEs": "Una sesión útil tiene tres piezas: una meta concreta, un tiempo acotado y una forma de mirar el error. «Tocar mejor» no es una meta; «tocar Do-Re-Mi-Fa-Sol a 60 BPM sin errores, tres veces seguidas» sí lo es. El tiempo se decide antes de empezar: 15, 30 o 45 minutos. El error no se tapa ni se repite a ciegas: se identifica, se aísla y se practica lento.",
+      "bodyEn": "A useful session has three parts: a concrete goal, a limited time and a way of looking at mistakes. \"Play better\" is not a goal; \"play C-D-E-F-G at 60 BPM with no mistakes, three times in a row\" is. You decide the time before you start: 15, 30 or 45 minutes. A mistake is not covered up or repeated blindly: you identify it, isolate it and practice it slowly."
+    },
+    {
+      "id": "sec.m0-04.goals",
+      "kind": "text",
+      "titleEs": "Metas que se pueden medir",
+      "titleEn": "Goals you can measure",
+      "bodyEs": "Una meta medible tiene un número o una condición observable: tempo en BPM, cantidad de repeticiones seguidas, compases sin frenar, errores permitidos o duración sostenida. Empezá por una meta pequeña que puedas cumplir en la mitad de la sesión. Si la cumplís antes, subí el tempo de a 4 BPM o agregá una repetición; si no, bajá el tempo o reducí el fragmento. Siempre es mejor una meta chica cumplida que una meta enorme abandonada.",
+      "bodyEn": "A measurable goal has a number or an observable condition: tempo in BPM, number of repetitions in a row, measures without stopping, allowed mistakes or sustained duration. Start with a small goal you can meet in half the session. If you meet it early, raise the tempo by 4 BPM or add a repetition; if not, lower the tempo or shorten the passage. A small goal met is always better than a huge goal abandoned."
+    },
+    {
+      "id": "sec.m0-04.plan",
+      "kind": "exercise",
+      "titleEs": "Planificá tu próxima sesión",
+      "titleEn": "Plan your next session",
+      "bodyEs": "Planificá en un papel o en una nota cinco líneas antes de tocar. 1) Meta medible: por ejemplo, «cinco dedos a 60 BPM, tres repeticiones sin error». 2) Tiempo total: 15, 30 o 45 minutos. 3) Bloque principal: qué fragmento o ejercicio vas a trabajar. 4) Error esperado: qué fallo querés observar (dedo que se levanta, tempo que se acelera, nota que se traba). 5) Registro: anotá al final el tempo alcanzado, el error más frecuente y cómo se sintió el cuerpo. Guardá el plan para compararlo en la próxima sesión.",
+      "bodyEn": "Plan five lines on paper or in a note before you play. 1) Measurable goal: for example, \"five fingers at 60 BPM, three repetitions with no mistakes\". 2) Total time: 15, 30 or 45 minutes. 3) Main block: which passage or exercise you will work on. 4) Expected mistake: which failure you want to observe (a finger that lifts, a tempo that speeds up, a note that gets stuck). 5) Log: at the end, write down the tempo reached, the most frequent mistake and how your body felt. Keep the plan so you can compare it in the next session."
+    },
+    {
+      "id": "sec.m0-04.checklists",
+      "kind": "callout",
+      "titleEs": "Checklist de 15, 30 y 45 minutos",
+      "titleEn": "15, 30 and 45-minute checklist",
+      "bodyEs": "15 minutos: 3 de calentamiento y postura, 7 de meta principal, 3 de repaso y 2 de cierre tranquilo. 30 minutos: 5 de calentamiento, 10 de meta principal, 8 de repaso, 5 de repertorio o técnica y 2 de cierre. 45 minutos: 5 de calentamiento, 15 de meta principal, 10 de repaso, 10 de repertorio o técnica y 5 de cierre. El cierre siempre incluye algo que ya suene bien: terminar con una sensación positiva ayuda a volver mañana.",
+      "bodyEn": "15 minutes: 3 for warm-up and posture, 7 for the main goal, 3 for review and 2 for a calm close. 30 minutes: 5 for warm-up, 10 for the main goal, 8 for review, 5 for repertoire or technique and 2 to close. 45 minutes: 5 for warm-up, 15 for the main goal, 10 for review, 10 for repertoire or technique and 5 to close. The close always includes something that already sounds good: ending with a positive feeling helps you come back tomorrow."
+    },
+    {
+      "id": "sec.m0-04.error",
+      "kind": "callout",
+      "titleEs": "El error como información",
+      "titleEn": "Mistakes as information",
+      "bodyEs": "Cuando algo falla, no empieces de cero una y otra vez. Detectá el punto exacto, reducí el fragmento a dos o tres notas, bajá el tempo y repetí despacio con atención. Si el error sigue, cambiá la digitación o la forma de mirar la mano. Grabate una vez por sesión: el oído recuerda mejor que la memoria de lo que creés que tocaste. Repetir un error mil veces lo convierte en hábito.",
+      "bodyEn": "When something fails, don't start over again and again. Find the exact point, shorten the passage to two or three notes, lower the tempo and repeat slowly with attention. If the mistake persists, change the fingering or the way you look at your hand. Record yourself once per session: the ear remembers better than your memory of what you think you played. Repeating a mistake a thousand times turns it into a habit."
+    },
+    {
+      "id": "sec.m0-04.register",
+      "kind": "text",
+      "titleEs": "Registrar para avanzar",
+      "titleEn": "Log to move forward",
+      "bodyEs": "Anotá después de cada sesión: fecha, tiempo real, meta, tempo alcanzado, error más frecuente y una frase sobre cómo se sintió el cuerpo. No hace falta un sistema complicado; una libreta o una nota del teléfono alcanzan. Más adelante la app podrá guardar este progreso, pero el hábito de registrar empieza ahora. La comparación entre sesiones es lo que muestra el avance real, no la sensación del día.",
+      "bodyEn": "After each session, write down: date, actual time, goal, tempo reached, most frequent mistake and one sentence about how your body felt. You don't need a complicated system; a notebook or a note on your phone is enough. Later the app will be able to save this progress, but the habit of logging starts now. Comparing sessions is what shows real progress, not how you feel on a given day."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Sesión corta con meta medible",
+    "titleEn": "A short session with a measurable goal",
+    "instructionsEs": "Elegí una meta para el patrón de cinco dedos: por ejemplo, «Do4-Sol4 a 60 BPM, tres repeticiones sin error». Tocá con digitación 1-2-3-4-5, hacé pausas entre repeticiones y anotá el tempo y el error más frecuente. Cerrá con una repetición lenta y relajada.",
+    "instructionsEn": "Choose a goal for the five-finger pattern: for example, \"C4-G4 at 60 BPM, three repetitions with no mistakes\". Play with fingering 1-2-3-4-5, pause between repetitions and write down the tempo and the most frequent mistake. Finish with one slow, relaxed repetition.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "1 - 2 - 3 - 4 - 5 (mano derecha); pulgar sobre Do4",
+    "fingeringEn": "1 - 2 - 3 - 4 - 5 (right hand); thumb on C4",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Elegí una meta con tempo o cantidad de repeticiones",
+      "Practiqué el tiempo previsto con pausas",
+      "Anoté el error más frecuente",
+      "Terminé con una repetición lenta y tranquila"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 5,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m0-04.c4",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-04.d4",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-04.e4",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-04.f4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-04.g4",
+          "measure": 1,
+          "beat": 4,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "checklistEn": [
+      "I chose a goal with a tempo or a number of repetitions",
+      "I practiced for the planned time with breaks",
+      "I wrote down the most frequent mistake",
+      "I finished with one slow, calm repetition"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

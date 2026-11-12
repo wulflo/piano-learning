@@ -1,0 +1,39 @@
+{
+  "id": "ex.m5-06.b",
+  "skillId": "skill.twelve-bar-blues",
+  "type": "progression-completion",
+  "promptEs": "En Sol mayor, completá el blues de doce compases (variante con quick change): I7 ? I7 I7 IV7 IV7 I7 I7 V7 IV7 I7 V7",
+  "promptEn": "In G major, complete the twelve-bar blues (with a quick change): I7 ? I7 I7 IV7 IV7 I7 I7 V7 IV7 I7 V7",
+  "explanationEs": "La variante quick change del blues en Sol mayor adelanta el IV7 al segundo compás: Sol7, Do7 y Re7. El grado que falta es IV7, que ocupa el compás 2 de los doce.",
+  "explanationEn": "The quick-change blues in G major moves IV7 to the second bar: G7, C7 and D7. The missing degree is IV7, in bar 2 of twelve.",
+  "difficulty": 2,
+  "key": "G",
+  "mode": "major",
+  "degrees": [
+    "I7",
+    "IV7",
+    "I7",
+    "I7",
+    "IV7",
+    "IV7",
+    "I7",
+    "I7",
+    "V7",
+    "IV7",
+    "I7",
+    "V7"
+  ],
+  "missingIndex": 1,
+  "choices": [
+    "I7",
+    "IV7",
+    "V7",
+    "ii7"
+  ],
+  "choicesEn": [
+    "I7",
+    "IV7",
+    "V7",
+    "ii7"
+  ]
+}

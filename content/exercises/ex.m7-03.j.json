@@ -1,0 +1,209 @@
+{
+  "id": "ex.m7-03.j",
+  "skillId": "skill.pedal",
+  "type": "pedal",
+  "promptEs": "¿Qué hace el pedal en el compás 2, pulso 2?",
+  "promptEn": "What does the pedal do in measure 2, beat 2?",
+  "explanationEs": "El cambio llega un pulso tarde: el Do y el Fa quedaron sonando juntos y se escucha barro. Corregir el cambio —no tocar más fuerte— es el ejercicio de limpieza.",
+  "explanationEn": "The change arrives one beat late: C and F were left ringing together and the result sounds muddy. Fixing the change —not playing louder— is the cleaning exercise.",
+  "difficulty": 3,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 72,
+    "events": [
+      {
+        "id": "ex.m7-03.j.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-03.j.2",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-03.j.3",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-03.j.4",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      }
+    ],
+    "pedals": [
+      {
+        "measure": 1,
+        "beat": 0,
+        "action": "press",
+        "kind": "direct"
+      },
+      {
+        "measure": 2,
+        "beat": 1,
+        "action": "release",
+        "kind": "direct"
+      },
+      {
+        "measure": 2,
+        "beat": 1,
+        "action": "press",
+        "kind": "direct"
+      },
+      {
+        "measure": 3,
+        "beat": 1,
+        "action": "release",
+        "kind": "direct"
+      },
+      {
+        "measure": 3,
+        "beat": 1,
+        "action": "press",
+        "kind": "direct"
+      },
+      {
+        "measure": 4,
+        "beat": 1,
+        "action": "release",
+        "kind": "direct"
+      },
+      {
+        "measure": 4,
+        "beat": 1,
+        "action": "press",
+        "kind": "direct"
+      },
+      {
+        "measure": 5,
+        "beat": 0,
+        "action": "release",
+        "kind": "direct"
+      }
+    ]
+  },
+  "ask": "action",
+  "measure": 2,
+  "beat": 2,
+  "choices": [
+    "Pisar el pedal",
+    "Levantar el pedal",
+    "Cambiar el pedal"
+  ],
+  "choicesEn": [
+    "Press the pedal",
+    "Release the pedal",
+    "Change the pedal"
+  ]
+}

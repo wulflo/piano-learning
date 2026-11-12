@@ -1,0 +1,24 @@
+{
+  "id": "ex.m7-02.k",
+  "skillId": "skill.arpeggio",
+  "type": "arpeggio",
+  "promptEs": "¿Qué digitación usa la mano derecha en este arpegio de Re bemol mayor a dos octavas?",
+  "promptEn": "Which fingering does the right hand use in this two-octave D-flat major arpeggio?",
+  "explanationEs": "Re bemol es una tónica negra. El arpegio Re♭4-Fa4-La♭4-Re♭5-Fa5-La♭5-Re♭6 se toca 2-1-2-4-1-2-4, con el pulgar cruzando en cada Re bemol intermedio.",
+  "explanationEn": "D flat is a black-key tonic. The D♭4-F4-A♭4-D♭5-F5-A♭5-D♭6 arpeggio uses 2-1-2-4-1-2-4, with the thumb crossing at each middle D flat.",
+  "difficulty": 3,
+  "tonic": "Db",
+  "hand": "right",
+  "octaves": 2,
+  "ask": "fingering",
+  "choices": [
+    "2-1-2-4-1-2-4",
+    "1-2-3-1-2-3-5",
+    "2-1-2-4-1-2-3"
+  ],
+  "choicesEn": [
+    "2-1-2-4-1-2-4",
+    "1-2-3-1-2-3-5",
+    "2-1-2-4-1-2-3"
+  ]
+}

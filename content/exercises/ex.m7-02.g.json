@@ -1,0 +1,24 @@
+{
+  "id": "ex.m7-02.g",
+  "skillId": "skill.arpeggio",
+  "type": "arpeggio",
+  "promptEs": "¿Qué notas forman este arpegio de Si mayor?",
+  "promptEn": "Which notes make up this B major arpeggio?",
+  "explanationEs": "Si mayor se escribe Si-Re♯-Fa♯. El arpegio Si4-Re♯5-Fa♯5-Si5 se toca 1-2-3-5 y es el último de las tónicas blancas antes de las teclas negras.",
+  "explanationEn": "B major is spelled B-D♯-F♯. The B4-D♯5-F♯5-B5 arpeggio uses 1-2-3-5 and is the last white-key tonic before the black-key group.",
+  "difficulty": 2,
+  "tonic": "B",
+  "hand": "right",
+  "octaves": 1,
+  "ask": "notes",
+  "choices": [
+    "Si4 Re♯5 Fa♯5 Si5",
+    "Si4 Re5 Fa♯5 Si5",
+    "Si4 Re♯5 Fa5 Si5"
+  ],
+  "choicesEn": [
+    "B4 D#5 F#5 B5",
+    "B4 D5 F#5 B5",
+    "B4 D#5 F5 B5"
+  ]
+}

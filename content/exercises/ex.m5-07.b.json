@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-07.b",
+  "skillId": "skill.secondary-dominants",
+  "type": "secondary-dominant",
+  "promptEs": "En Sol mayor, ¿en qué grado resuelve V/ii?",
+  "promptEn": "In G major, which degree does V/ii resolve to?",
+  "explanationEs": "En Sol mayor, V/ii es Mi7 y resuelve en Lam (ii). Su tercera es la sensible de Lam y sube un semitono al resolver.",
+  "explanationEn": "In G major, V/ii is E7 and it resolves to Am (ii). Its third is the leading tone of Am and rises a semitone when it resolves.",
+  "difficulty": 2,
+  "key": "G",
+  "mode": "major",
+  "target": 2,
+  "ask": "resolution",
+  "choices": [
+    "V",
+    "vi",
+    "ii",
+    "IV"
+  ],
+  "choicesEn": [
+    "V",
+    "vi",
+    "ii",
+    "IV"
+  ]
+}

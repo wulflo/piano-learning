@@ -1,0 +1,33 @@
+{
+  "id": "ex.m4-08.c",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Re4 y Mi4?",
+  "promptEn": "What interval is there between D4 and E4?",
+  "explanationEs": "De Re a Mi hay dos letras y dos semitonos: una segunda mayor. Las segundas se nombran con su calidad: mayor con dos semitonos, menor con uno.",
+  "explanationEn": "From D to E there are two letters and two semitones: a major second. Seconds are named by quality: major with two semitones, minor with one.",
+  "difficulty": 1,
+  "lower": {
+    "step": "D",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "E",
+    "accidental": "",
+    "octave": 4
+  },
+  "direction": "melodic",
+  "choices": [
+    "Segunda mayor",
+    "Segunda menor",
+    "Tercera mayor",
+    "Unísono justo"
+  ],
+  "choicesEn": [
+    "Major second",
+    "Minor second",
+    "Major third",
+    "Perfect unison"
+  ]
+}

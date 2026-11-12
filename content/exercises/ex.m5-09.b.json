@@ -1,0 +1,27 @@
+{
+  "id": "ex.m5-09.b",
+  "skillId": "skill.modulation",
+  "type": "pivot-chord",
+  "promptEs": "En una modulación de Sol mayor a Re mayor, Mim (Mi, Sol, Si) es el acorde pivote. ¿Qué número romano tiene en Re mayor?",
+  "promptEn": "In a modulation from G major to D major, Em (E, G, B) is the pivot chord. Which Roman numeral does it have in D major?",
+  "explanationEs": "Mim conserva las mismas notas en las dos tonalidades: es vi en Sol mayor y ii en Re mayor. Por eso sirve de puente; después, un acorde que ya solo pertenece a Re mayor (como su V7) confirma la modulación.",
+  "explanationEn": "Em keeps the same notes in both keys: it is vi in G major and ii in D major. That is why it works as a bridge; afterwards, a chord that belongs only to D major (such as its V7) confirms the modulation.",
+  "difficulty": 2,
+  "fromKey": "G",
+  "toKey": "D",
+  "degreeFrom": 6,
+  "degreeTo": 2,
+  "ask": "target",
+  "choices": [
+    "ii",
+    "vi",
+    "V",
+    "iii"
+  ],
+  "choicesEn": [
+    "ii",
+    "vi",
+    "V",
+    "iii"
+  ]
+}

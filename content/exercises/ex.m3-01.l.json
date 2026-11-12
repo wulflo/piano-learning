@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-01.l",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Si4 y Si5?",
+  "promptEn": "What interval is there between B4 and B5?",
+  "explanationEs": "De Si4 a Si5 hay una octava de doce semitonos, así que es justa.",
+  "explanationEn": "From B4 to B5 there is an octave of twelve semitones, so it is perfect.",
+  "difficulty": 2,
+  "lower": { "step": "B", "accidental": "", "octave": 4 },
+  "upper": { "step": "B", "accidental": "", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Octava justa", "Octava aumentada", "Séptima mayor", "Unísono justo"],
+  "choicesEn": ["Perfect octave", "Augmented octave", "Major seventh", "Perfect unison"]
+}

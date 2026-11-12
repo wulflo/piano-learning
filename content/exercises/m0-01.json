@@ -1,0 +1,27 @@
+{
+  "id": "ex.m0-01.a",
+  "skillId": "skill.keyboard-groups",
+  "type": "note-keyboard",
+  "promptEs": "¿Qué nota es la tecla blanca inmediatamente a la izquierda de un grupo de dos teclas negras?",
+  "explanationEs": "El grupo de dos teclas negras marca el límite: la blanca a su izquierda es Do. Ese patrón se repite en todas las octavas.",
+  "difficulty": 1,
+  "target": {
+    "step": "C",
+    "accidental": "",
+    "octave": 4
+  },
+  "choices": [
+    "Do",
+    "Re",
+    "Mi",
+    "Fa"
+  ],
+  "promptEn": "Which note is the white key immediately to the left of a group of two black keys?",
+  "explanationEn": "The group of two black keys marks the boundary: the white key to its left is C. That pattern repeats in every octave.",
+  "choicesEn": [
+    "C",
+    "D",
+    "E",
+    "F"
+  ]
+}

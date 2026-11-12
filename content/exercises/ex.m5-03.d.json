@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-03.d",
+  "skillId": "skill.harmonic-function",
+  "type": "harmonic-function",
+  "promptEs": "En Fa mayor, ¿qué función cumple el acorde Rem (Re, Fa, La)?",
+  "promptEn": "In F major, what function does the chord Dm (D, F, A) fulfil?",
+  "explanationEs": "En Fa mayor, el grado vi es Rem. El sexto grado es la relativa menor de la tónica y cumple una función de tónica: reposa sin cerrar del todo.",
+  "explanationEn": "In F major, degree vi is Dm. The sixth degree is the tonic’s relative minor and has a tonic function: it rests without fully closing.",
+  "difficulty": 2,
+  "key": "F",
+  "mode": "major",
+  "degree": 6,
+  "choices": [
+    "Subdominante (S)",
+    "Tónica (T)",
+    "Dominante (D)"
+  ],
+  "choicesEn": [
+    "Subdominant (S)",
+    "Tonic (T)",
+    "Dominant (D)"
+  ]
+}

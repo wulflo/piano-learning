@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-05.j",
+  "skillId": "skill.ear-interval",
+  "type": "ear-interval",
+  "promptEs": "¿Qué intervalo armónico hay entre Do4 y Sol4 cuando suenan juntos?",
+  "promptEn": "What harmonic interval is there between C4 and G4 when they sound together?",
+  "explanationEs": "Con Do4 y Sol4 sonando a la vez formamos una quinta justa: la distancia entre las dos notas del acorde.",
+  "explanationEn": "With C4 and G4 sounding together we form a perfect fifth: the distance between the two chord notes.",
+  "difficulty": 2,
+  "lower": { "step": "C", "accidental": "", "octave": 4 },
+  "upper": { "step": "G", "accidental": "", "octave": 4 },
+  "direction": "harmonic",
+  "choices": ["Quinta justa", "Cuarta justa", "Tercera mayor", "Sexta mayor"],
+  "choicesEn": ["Perfect fifth", "Perfect fourth", "Major third", "Major sixth"]
+}

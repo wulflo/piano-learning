@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-01.a",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada construida sobre C con la regla 1-3-5?",
+  "promptEn": "What quality does the triad built on C with the 1-3-5 rule have?",
+  "explanationEs": "La tríada de Do mayor se construye con la regla 1-3-5: Do, Mi y Sol. La tercera, Do-Mi, está a cuatro semitonos de la fundamental, así que su calidad es mayor.",
+  "explanationEn": "The C major triad is built with the 1-3-5 rule: C, E and G. The third, C-E, is four semitones above the root, so its quality is major.",
+  "difficulty": 1,
+  "root": { "step": "C", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "inversion": 0,
+  "choices": ["mayor", "menor", "disminuido", "aumentado"],
+  "choicesEn": ["major", "minor", "diminished", "augmented"]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ex.m1-05.c",
+  "skillId": "skill.simple-meter",
+  "type": "rhythm-completion",
+  "promptEs": "En 4/4 ya hay dos negras. ¿Qué figura completa el compás?",
+  "explanationEs": "En 4/4 entran cuatro negras. Las dos negras ya escritas ocupan dos tiempos, así que faltan otros dos: una blanca.",
+  "difficulty": 1,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "pattern": [
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "half",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 2,
+  "choices": [
+    "Redonda",
+    "Blanca",
+    "Negra",
+    "Corchea"
+  ],
+  "promptEn": "In 4/4 there are already two quarter notes. Which note value completes the measure?",
+  "explanationEn": "Four quarter notes fit in 4/4. The two quarter notes already written take two beats, so another two are missing: a half note.",
+  "choicesEn": [
+    "Whole note",
+    "Half note",
+    "Quarter note",
+    "Eighth note"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-04.e",
+  "skillId": "skill.cadence",
+  "type": "cadence",
+  "promptEs": "En Si♭ mayor, ¿qué cadencia forman los acordes Dom (Do, Mi♭, Sol) y Fa (Fa, La, Do)?",
+  "promptEn": "In B♭ major, what cadence do the chords Cm (C, E♭, G) and F (F, A, C) form?",
+  "explanationEs": "La semicadencia puede llegar al V desde cualquier grado; aquí el ii (Dom) prepara el V (Fa). La frase queda suspendida en la dominante.",
+  "explanationEn": "A half cadence can reach V from any degree; here ii (Cm) prepares V (F). The phrase is left suspended on the dominant.",
+  "difficulty": 2,
+  "key": "Bb",
+  "mode": "major",
+  "fromDegree": 2,
+  "toDegree": 5,
+  "choices": [
+    "Semicadencia (…-V)",
+    "Plagal (IV-I)",
+    "Auténtica (V-I)",
+    "Rota (V-vi)"
+  ],
+  "choicesEn": [
+    "Half cadence (…-V)",
+    "Plagal (IV-I)",
+    "Authentic (V-I)",
+    "Deceptive (V-vi)"
+  ]
+}

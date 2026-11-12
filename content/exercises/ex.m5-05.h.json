@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-05.h",
+  "skillId": "skill.common-progressions",
+  "type": "progression-completion",
+  "promptEs": "En Sol mayor, ¿qué grado completa la progresión ?-V-I?",
+  "promptEn": "In G major, which degree completes the ?-V-I progression?",
+  "explanationEs": "La progresión jazz ii-V-I en Sol mayor es Lam-Re-Sol. El grado que falta es ii: el ii prepara la dominante, el V resuelve y el I cierra. Es la cadencia más usada del jazz y del pop sofisticado.",
+  "explanationEn": "The jazz progression ii-V-I in G major is Am-D-G. The missing degree is ii: ii prepares the dominant, V resolves and I closes. It is the most used cadence in jazz and sophisticated pop.",
+  "difficulty": 1,
+  "key": "G",
+  "mode": "major",
+  "degrees": [
+    "ii",
+    "V",
+    "I"
+  ],
+  "missingIndex": 0,
+  "choices": [
+    "ii",
+    "I",
+    "V",
+    "IV"
+  ],
+  "choicesEn": [
+    "ii",
+    "I",
+    "V",
+    "IV"
+  ]
+}

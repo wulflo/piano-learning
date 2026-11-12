@@ -1,0 +1,21 @@
+{
+  "id": "ex.m1-04.h",
+  "skillId": "skill.note-durations",
+  "type": "rhythm-completion",
+  "promptEs": "En 4/4 hay una blanca, una negra, una corchea y una semicorchea. ¿Qué figura falta al final?",
+  "promptEn": "In 4/4 there is a half note, a quarter note, an eighth note, and a sixteenth note. Which note value is missing at the end?",
+  "explanationEs": "La blanca, la negra, la corchea y la semicorchea suman tres tiempos y tres cuartos. Falta un cuarto de tiempo: una semicorchea.",
+  "explanationEn": "The half note, the quarter note, the eighth note, and the sixteenth note add up to three beats and three quarters. A quarter of a beat is missing: a sixteenth note.",
+  "difficulty": 3,
+  "timeSignature": { "numerator": 4, "denominator": 4 },
+  "pattern": [
+    { "duration": "half", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "quarter", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "eighth", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "sixteenth", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "sixteenth", "dots": 0, "tuplet": "none", "rest": false }
+  ],
+  "missingIndex": 4,
+  "choices": ["Semicorchea", "Treintaidosavo (fusa)", "Corchea", "Negra"],
+  "choicesEn": ["Sixteenth note", "Thirty-second note", "Eighth note", "Quarter note"]
+}

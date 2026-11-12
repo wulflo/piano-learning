@@ -1,0 +1,24 @@
+{
+  "id": "ex.m1-10.e",
+  "skillId": "skill.dynamics-articulation",
+  "type": "articulation",
+  "promptEs": "Escuchá el Do4 corto y separado. ¿Qué articulación es?",
+  "explanationEs": "La nota suena breve y se suelta enseguida: es staccato, indicado con un punto sobre la cabeza de la nota.",
+  "difficulty": 1,
+  "articulation": "staccato",
+  "midi": 60,
+  "beats": 0.5,
+  "velocity": 80,
+  "choices": [
+    "Staccato",
+    "Legato",
+    "Acento"
+  ],
+  "promptEn": "Listen to C4 short and separated. Which articulation is it?",
+  "explanationEn": "The note sounds brief and is released at once: it is staccato, shown with a dot above the notehead.",
+  "choicesEn": [
+    "Staccato",
+    "Legato",
+    "Accent"
+  ]
+}

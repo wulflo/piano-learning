@@ -1,0 +1,46 @@
+{
+  "id": "ex.m1-11.c",
+  "skillId": "skill.repeat-signs",
+  "type": "playback-order",
+  "promptEs": "Después de la sección C aparece un D.C. al Fine y el Fine está al final de B. ¿Cuál es el orden?",
+  "explanationEs": "D.C. al Fine vuelve al principio y termina en el Fine, sin tocar C otra vez: A B C A B.",
+  "difficulty": 2,
+  "sections": [
+    {
+      "id": "sec-a",
+      "label": "A",
+      "repeat": false
+    },
+    {
+      "id": "sec-b",
+      "label": "B",
+      "repeat": false
+    },
+    {
+      "id": "sec-c",
+      "label": "C",
+      "repeat": false
+    }
+  ],
+  "answer": [
+    "sec-a",
+    "sec-b",
+    "sec-c",
+    "sec-a",
+    "sec-b"
+  ],
+  "choices": [
+    "A B C A B",
+    "A B C",
+    "A B A B C",
+    "A B C A"
+  ],
+  "promptEn": "After section C there is a D.C. al Fine and the Fine is at the end of B. What is the order?",
+  "explanationEn": "D.C. al Fine goes back to the beginning and ends at the Fine, without playing C again: A B C A B.",
+  "choicesEn": [
+    "A B C A B",
+    "A B C",
+    "A B A B C",
+    "A B C A"
+  ]
+}

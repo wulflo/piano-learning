@@ -1,0 +1,235 @@
+{
+  "id": "lesson.m4-02",
+  "moduleId": "M4",
+  "slug": "triadas-disminuidas-aumentadas-y-sus",
+  "titleEs": "Tríadas disminuidas, aumentadas y sus",
+  "titleEn": "Diminished, augmented and suspended triads",
+  "summaryEs": "Las otras tres familias de tríadas: disminuida (1-♭3-♭5), aumentada (1-3-♯5), suspendida 2 (1-2-5) y suspendida 4 (1-4-5), con su sonido y su contexto de uso.",
+  "summaryEn": "The other three triad families: diminished (1-♭3-♭5), augmented (1-3-♯5), suspended 2 (1-2-5) and suspended 4 (1-4-5), with their sound and context.",
+  "objectivesEs": [
+    "Construir tríadas disminuidas y aumentadas a partir de la quinta alterada",
+    "Construir tríadas suspendidas de segunda y de cuarta, sin tercera",
+    "Reconocer de oído y por sus notas la calidad de una tríada disminuida, aumentada o suspendida",
+    "Entender cómo la tensión de una tríada suspendida resuelve a mayor o menor"
+  ],
+  "objectivesEn": [
+    "Build diminished and augmented triads from the altered fifth",
+    "Build suspended second and fourth triads, with no third",
+    "Recognise a diminished, augmented or suspended triad by ear and by its notes",
+    "Understand how a suspended triad's tension resolves to major or minor"
+  ],
+  "minutes": 18,
+  "prerequisites": [
+    "lesson.m4-01"
+  ],
+  "skillIds": [
+    "skill.chord-quality"
+  ],
+  "exerciseIds": [
+    "ex.m4-02.a",
+    "ex.m4-02.b",
+    "ex.m4-02.c",
+    "ex.m4-02.d",
+    "ex.m4-02.e",
+    "ex.m4-02.f",
+    "ex.m4-02.g",
+    "ex.m4-02.h",
+    "ex.m4-02.i",
+    "ex.m4-02.j",
+    "ex.m4-02.k",
+    "ex.m4-02.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m4-02.intro",
+      "kind": "text",
+      "titleEs": "Las tríadas que no son mayores ni menores",
+      "titleEn": "The triads that are neither major nor minor",
+      "bodyEs": "La tríada mayor (1-3-5) y la menor (1-♭3-5) no son las únicas. Si a la tríada menor se le baja también la quinta se obtiene la disminuida, 1-♭3-♭5: dos terceras menores apiladas, tres semitonos y otros tres. Si a la tríada mayor se le sube la quinta se obtiene la aumentada, 1-3-♯5: dos terceras mayores apiladas, cuatro semitonos y otros cuatro. Las tríadas suspendidas reemplazan la tercera por la segunda (suspendida 2, 1-2-5) o por la cuarta (suspendida 4, 1-4-5): no son mayores ni menores porque no tienen tercera, y suenan abiertas, con una tensión que pide resolver.",
+      "bodyEn": "The major triad (1-3-5) and the minor triad (1-♭3-5) are not the only ones. Lower the fifth of a minor triad and you get the diminished triad, 1-♭3-♭5: two stacked minor thirds, three semitones and three more. Raise the fifth of a major triad and you get the augmented triad, 1-3-♯5: two stacked major thirds, four semitones and four more. Suspended triads replace the third with the second (suspended 2, 1-2-5) or with the fourth (suspended 4, 1-4-5): they are neither major nor minor because they have no third, and they sound open, with a tension that asks to resolve."
+    },
+    {
+      "id": "sec.m4-02.contexto",
+      "kind": "text",
+      "titleEs": "Dónde aparecen y cómo se resuelven",
+      "titleEn": "Where they appear and how they resolve",
+      "bodyEs": "La disminuida es inestable y contiene un tritono entre la fundamental y la quinta; en mayor aparece sobre el séptimo grado (vii°) y en menor sobre el segundo (ii°), casi siempre camino de la tónica. La aumentada es simétrica: dividida en tres terceras mayores, suena ambigua y no tiene una tónica clara, por eso se usa como color pasajero. La suspendida 4 es la más común: la cuarta choca con la fundamental y resuelve bajando a la tercera, de modo que Do-Fa-Sol resuelve a Do-Mi-Sol; la suspendida 2 resuelve subiendo la segunda a la tercera. En los dos casos la nota suspendida se mueve y la tríada se vuelve mayor o menor.",
+      "bodyEn": "The diminished triad is unstable and contains a tritone between root and fifth; in major it appears on the seventh degree (vii°) and in minor on the second (ii°), almost always on the way to the tonic. The augmented triad is symmetrical: split into three major thirds, it sounds ambiguous and has no clear tonic, so it is used as passing colour. The suspended 4 is the most common: the fourth clashes with the root and resolves down to the third, so C-F-G resolves to C-E-G; the suspended 2 resolves by raising the second to the third. In both cases the suspended note moves and the triad becomes major or minor."
+    },
+    {
+      "id": "sec.m4-02.demo",
+      "kind": "score",
+      "titleEs": "Escuchá las cuatro calidades sobre Do",
+      "titleEn": "Hear the four qualities on C",
+      "bodyEs": "Escuchá y mirá cuatro acordes construidos sobre Do, uno por compás: disminuido (Do, Mi bemol, Sol bemol), aumentado (Do, Mi, Sol sostenido), suspendido 2 (Do, Re, Sol) y suspendido 4 (Do, Fa, Sol). Compará la quinta de los dos primeros con la quinta justa de la tríada mayor y fijate que los suspendidos no tienen tercera: por eso no suenan ni alegres ni tristes.",
+      "bodyEn": "Listen to and look at four chords built on C, one per bar: diminished (C, Eb, Gb), augmented (C, E, G#), suspended 2 (C, D, G) and suspended 4 (C, F, G). Compare the fifth of the first two with the perfect fifth of the major triad, and notice that the suspended chords have no third: that is why they sound neither happy nor sad.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m4-02.disminuida",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "b", "octave": 4 },
+              { "step": "G", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-02.aumentada",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "#", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-02.suspendida-2",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-02.suspendida-4",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m4-02.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios de calidad",
+      "titleEn": "Twelve chord-quality exercises",
+      "bodyEs": "Cada ejercicio te da las tres notas de una tríada y te pide su calidad. Las notas alcanzan para decidirla: mirá la quinta (justa, bemol o sostenida) y fijate si hay tercera o si en su lugar hay segunda o cuarta. Las doce tónicas se reparten entre las cuatro calidades.",
+      "bodyEn": "Each exercise gives you the three notes of a triad and asks for its quality. The notes are enough to decide: look at the fifth (perfect, flat or sharp) and check whether there is a third or, instead, a second or a fourth. The twelve roots are shared among the four qualities."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca un Do suspendido 4 y resuélvelo a Do mayor",
+    "titleEn": "Play a C suspended 4 and resolve it to C major",
+    "instructionsEs": "Con la mano derecha, tocá Do-Fa-Sol (suspendido 4) y después mové el Fa a Mi para llegar a Do-Mi-Sol (mayor). Repetí la resolución a 60 BPM, primero despacio y después con un pulso de negra, escuchando cómo la cuarta se convierte en tercera.",
+    "instructionsEn": "With your right hand, play C-F-G (suspended 4) and then move F to E to reach C-E-G (major). Repeat the resolution at 60 BPM, first slowly and then with a quarter-note pulse, listening to how the fourth becomes a third.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: 1-4-5 para el suspendido 4 y 1-3-5 para el mayor; el dedo 4 baja al 3 al resolver.",
+    "fingeringEn": "Right hand: 1-4-5 for the suspended 4 and 1-3-5 for the major chord; finger 4 moves to 3 when resolving.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué Do-Fa-Sol y comprobé que no hay tercera",
+      "Moví el Fa a Mi y llegué a Do-Mi-Sol",
+      "Repetí la resolución sin apuro y con un pulso estable"
+    ],
+    "checklistEn": [
+      "I played C-F-G and checked that there is no third",
+      "I moved F to E and reached C-E-G",
+      "I repeated the resolution slowly with a steady pulse"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m4-02.suspendida-4",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "F", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-02.resolucion-mayor",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

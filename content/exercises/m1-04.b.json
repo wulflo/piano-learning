@@ -1,0 +1,17 @@
+{
+  "id": "ex.m1-04.b",
+  "skillId": "skill.note-durations",
+  "type": "rhythm-completion",
+  "promptEs": "En 4/4, ¿qué figura ocupa todo el compás por sí sola?",
+  "promptEn": "In 4/4, which note value fills the whole measure by itself?",
+  "explanationEs": "La redonda dura cuatro tiempos en 4/4: es la única figura que llena el compás completo sin necesidad de otra.",
+  "explanationEn": "The whole note lasts four beats in 4/4: it is the only note value that fills the complete measure without needing another.",
+  "difficulty": 1,
+  "timeSignature": { "numerator": 4, "denominator": 4 },
+  "pattern": [
+    { "duration": "whole", "dots": 0, "tuplet": "none", "rest": false }
+  ],
+  "missingIndex": 0,
+  "choices": ["Redonda", "Blanca", "Negra", "Corchea"],
+  "choicesEn": ["Whole note", "Half note", "Quarter note", "Eighth note"]
+}

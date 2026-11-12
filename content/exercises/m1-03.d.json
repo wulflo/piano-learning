@@ -1,0 +1,15 @@
+{
+  "id": "ex.m1-03.d",
+  "skillId": "skill.accidentals",
+  "type": "interval",
+  "promptEs": "¿Qué distancia hay entre Mi♭4 y Fa4?",
+  "promptEn": "What is the distance between E♭4 and F4?",
+  "explanationEs": "Mi♭4 y Fa4 están separados por dos semitonos: hay un tono. Mi♭ es la tecla negra inmediata a la izquierda de Mi.",
+  "explanationEn": "E♭4 and F4 are two semitones apart: it is a tone. E♭ is the black key immediately to the left of E.",
+  "difficulty": 2,
+  "lower": { "step": "E", "accidental": "b", "octave": 4 },
+  "upper": { "step": "F", "accidental": "", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Semitono", "Tono", "Tono y medio", "Dos tonos"],
+  "choicesEn": ["Semitone", "Tone", "Tone and a half", "Two tones"]
+}

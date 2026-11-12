@@ -1,0 +1,33 @@
+{
+  "id": "ex.m4-08.h",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Fa♯4 y La4?",
+  "promptEn": "What interval is there between F♯4 and A4?",
+  "explanationEs": "De Fa♯ a La hay tres letras y tres semitonos: una tercera menor. Las terceras se nombran con su calidad: mayor con cuatro semitonos, menor con tres.",
+  "explanationEn": "From F♯ to A there are three letters and three semitones: a minor third. Thirds are named by quality: major with four semitones, minor with three.",
+  "difficulty": 2,
+  "lower": {
+    "step": "F",
+    "accidental": "#",
+    "octave": 4
+  },
+  "upper": {
+    "step": "A",
+    "accidental": "",
+    "octave": 4
+  },
+  "direction": "harmonic",
+  "choices": [
+    "Tercera menor",
+    "Tercera mayor",
+    "Segunda mayor",
+    "Cuarta justa"
+  ],
+  "choicesEn": [
+    "Minor third",
+    "Major third",
+    "Major second",
+    "Perfect fourth"
+  ]
+}

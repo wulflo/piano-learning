@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-02.g",
+  "skillId": "skill.roman-numeral",
+  "type": "chord",
+  "promptEs": "En Do mayor, ¿qué acorde forma el numeral IV?",
+  "promptEn": "In C major, which chord does the numeral IV form?",
+  "explanationEs": "El cuarto grado de Do mayor es Fa. Su tríada Fa-La-Do es mayor, así que el numeral IV corresponde al acorde Fa.",
+  "explanationEn": "The fourth degree of C major is F. Its triad F-A-C is major, so the numeral IV corresponds to the chord F.",
+  "difficulty": 2,
+  "root": {
+    "step": "F",
+    "accidental": "",
+    "octave": 4
+  },
+  "quality": "major",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Fa",
+    "Sol",
+    "Lam",
+    "Fam"
+  ],
+  "choicesEn": [
+    "F",
+    "G",
+    "Am",
+    "Fm"
+  ]
+}

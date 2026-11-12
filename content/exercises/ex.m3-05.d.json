@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-05.d",
+  "skillId": "skill.ear-interval",
+  "type": "ear-interval",
+  "promptEs": "¿Qué intervalo hay entre Re4 y Fa4 al escucharlos en forma ascendente?",
+  "promptEn": "What interval is there between D4 and F4 when heard in ascending form?",
+  "explanationEs": "Re4 y Fa4 están separados por una tercera menor: tres semitonos. La tercera menor suena más cercana y tensa que la mayor.",
+  "explanationEn": "D4 and F4 are a minor third apart: three semitones. The minor third sounds closer and tenser than the major one.",
+  "difficulty": 3,
+  "lower": { "step": "D", "accidental": "", "octave": 4 },
+  "upper": { "step": "F", "accidental": "", "octave": 4 },
+  "direction": "ascending",
+  "choices": ["Tercera menor", "Tercera mayor", "Segunda menor", "Segunda mayor"],
+  "choicesEn": ["Minor third", "Major third", "Minor second", "Major second"]
+}

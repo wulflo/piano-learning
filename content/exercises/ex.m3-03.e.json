@@ -1,0 +1,17 @@
+{
+  "id": "ex.m3-03.e",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Escuchá el intervalo armónico y clasificalo según su función en la armonía tonal.",
+  "promptEn": "Listen to the harmonic interval and classify it by its function in tonal harmony.",
+  "explanationEs": "Mi4-Do5 es una sexta menor. Las sextas son consonancias imperfectas: su color es cálido y menos rígido que el de una quinta.",
+  "explanationEn": "E4-C5 is a minor sixth. Sixths are imperfect consonances: their colour is warm and less rigid than that of a fifth.",
+  "difficulty": 2,
+  "lower": { "step": "E", "accidental": "", "octave": 4 },
+  "upper": { "step": "C", "accidental": "", "octave": 5 },
+  "direction": "harmonic",
+  "answer": "Consonancia imperfecta",
+  "answerEn": "Imperfect consonance",
+  "choices": ["Consonancia perfecta", "Consonancia imperfecta", "Disonancia", "Depende del contexto"],
+  "choicesEn": ["Perfect consonance", "Imperfect consonance", "Dissonance", "Depends on context"]
+}

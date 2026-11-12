@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-01.b",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de Sol mayor?",
+  "explanationEs": "Sol mayor se deletrea G A B C D E F# G con el patrón T-T-S-T-T-T-S.",
+  "difficulty": 2,
+  "tonic": "G",
+  "mode": "major",
+  "choices": [
+    "G A B C D E F# G",
+    "G A B C D E F G",
+    "G A B C D E F# A"
+  ],
+  "promptEn": "How do you spell the G major scale?",
+  "explanationEn": "G major is spelled G A B C D E F# G with the W-W-H-W-W-W-H pattern.",
+  "choicesEn": [
+    "G A B C D E F# G",
+    "G A B C D E F G",
+    "G A B C D E F# A"
+  ]
+}

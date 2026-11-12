@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-05.a",
+  "skillId": "skill.ear-interval",
+  "type": "ear-interval",
+  "promptEs": "¿Qué intervalo hay entre Do4 y Re4 al escucharlos en forma ascendente?",
+  "promptEn": "What interval is there between C4 and D4 when heard in ascending form?",
+  "explanationEs": "Do4 y Re4 están separados por una segunda mayor: dos tonos. Al escuchar la distancia ascendente la nombramos así.",
+  "explanationEn": "C4 and D4 are a major second apart: two whole tones. When heard in ascending form we name that distance a major second.",
+  "difficulty": 1,
+  "lower": { "step": "C", "accidental": "", "octave": 4 },
+  "upper": { "step": "D", "accidental": "", "octave": 4 },
+  "direction": "ascending",
+  "choices": ["Segunda mayor", "Segunda menor", "Tercera mayor", "Cuarta justa"],
+  "choicesEn": ["Major second", "Minor second", "Major third", "Perfect fourth"]
+}

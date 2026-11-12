@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-01.c",
+  "skillId": "skill.diatonic-chords",
+  "type": "chord",
+  "promptEs": "En Mi mayor, ¿qué cifrado tiene la tríada diatónica del grado V?",
+  "promptEn": "In E major, what is the symbol of the diatonic triad on degree V?",
+  "explanationEs": "En Mi mayor, el grado V se construye sobre Si: Si-Re♯-Fa♯. La tercera Si-Re♯ es mayor y la quinta Si-Fa♯ es justa, así que la tríada es mayor y se cifra Si.",
+  "explanationEn": "In E major, degree V is built on B: B-D♯-F♯. The third B-D♯ is major and the fifth B-F♯ is perfect, so the triad is major and its symbol is B.",
+  "difficulty": 1,
+  "root": {
+    "step": "B",
+    "accidental": "",
+    "octave": 4
+  },
+  "quality": "major",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Sim",
+    "Sim7",
+    "Si7",
+    "Si"
+  ],
+  "choicesEn": [
+    "Bm",
+    "Bm7",
+    "B7",
+    "B"
+  ]
+}

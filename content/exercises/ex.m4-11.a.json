@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-11.a",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de Do maj7 suena Do-Mi-Sol-Si, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The Cmaj7 chord sounds C-E-G-B, from low to high. What inversion is it?",
+  "explanationEs": "El bajo es Do, la fundamental de Do maj7: el acorde está en estado fundamental. Las notas suben 1-3-5-7 y ninguna otra nota quedó abajo.",
+  "explanationEn": "The bass is C, the root of Cmaj7: the chord is in root position. The notes rise 1-3-5-7 and no other note ended up at the bottom.",
+  "difficulty": 1,
+  "root": { "step": "C", "accidental": "", "octave": 4 },
+  "quality": "major7",
+  "inversion": 0,
+  "ask": "inversion",
+  "choices": ["estado fundamental", "primera inversión", "segunda inversión", "tercera inversión"],
+  "choicesEn": ["root position", "first inversion", "second inversion", "third inversion"]
+}

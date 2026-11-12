@@ -1,0 +1,49 @@
+{
+  "id": "ex.m1-08.d",
+  "skillId": "skill.syncopation",
+  "type": "anacrusis-completion",
+  "promptEs": "La anacrusa dura dos corcheas. ¿Qué figura completa el compás final de tres tiempos?",
+  "explanationEs": "Dos corcheas suman un tiempo; el compás final debe durar tres. Una blanca con puntillo dura tres tiempos y completa el compás final.",
+  "difficulty": 3,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "pickup": [
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "pattern": [
+    {
+      "duration": "half",
+      "dots": 1,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 0,
+  "choices": [
+    "Blanca con puntillo",
+    "Negra con puntillo",
+    "Redonda",
+    "Blanca"
+  ],
+  "promptEn": "The anacrusis lasts two eighth notes. Which note value completes the final three-beat measure?",
+  "explanationEn": "Two eighth notes add up to one beat; the final measure must last three. A dotted half note lasts three beats and completes the final measure.",
+  "choicesEn": [
+    "Dotted half note",
+    "Dotted quarter note",
+    "Whole note",
+    "Half note"
+  ]
+}

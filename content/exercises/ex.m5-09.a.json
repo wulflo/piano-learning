@@ -1,0 +1,27 @@
+{
+  "id": "ex.m5-09.a",
+  "skillId": "skill.modulation",
+  "type": "pivot-chord",
+  "promptEs": "En una modulación de Do mayor a Sol mayor, Lam (La, Do, Mi) es el acorde pivote. ¿Qué número romano tiene en Do mayor?",
+  "promptEn": "In a modulation from C major to G major, Am (A, C, E) is the pivot chord. Which Roman numeral does it have in C major?",
+  "explanationEs": "Lam conserva las mismas notas en las dos tonalidades: es vi en Do mayor y ii en Sol mayor. Por eso sirve de puente; después, un acorde que ya solo pertenece a Sol mayor (como su V7) confirma la modulación.",
+  "explanationEn": "Am keeps the same notes in both keys: it is vi in C major and ii in G major. That is why it works as a bridge; afterwards, a chord that belongs only to G major (such as its V7) confirms the modulation.",
+  "difficulty": 1,
+  "fromKey": "C",
+  "toKey": "G",
+  "degreeFrom": 6,
+  "degreeTo": 2,
+  "ask": "source",
+  "choices": [
+    "vi",
+    "ii",
+    "IV",
+    "iii"
+  ],
+  "choicesEn": [
+    "vi",
+    "ii",
+    "IV",
+    "iii"
+  ]
+}

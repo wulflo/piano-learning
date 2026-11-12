@@ -1,0 +1,24 @@
+{
+  "id": "ex.m1-10.d",
+  "skillId": "skill.dynamics-articulation",
+  "type": "articulation",
+  "promptEs": "Escuchá el Do4 sostenido y conectado con la nota siguiente. ¿Qué articulación es?",
+  "explanationEs": "La nota se sostiene y se conecta sin silencio: es legato, indicado con una ligadura de expresión.",
+  "difficulty": 1,
+  "articulation": "legato",
+  "midi": 60,
+  "beats": 4,
+  "velocity": 80,
+  "choices": [
+    "Legato",
+    "Staccato",
+    "Acento"
+  ],
+  "promptEn": "Listen to C4 held and connected to the next note. Which articulation is it?",
+  "explanationEn": "The note is held and connected without silence: it is legato, shown with a slur.",
+  "choicesEn": [
+    "Legato",
+    "Staccato",
+    "Accent"
+  ]
+}

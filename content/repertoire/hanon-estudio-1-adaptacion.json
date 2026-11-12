@@ -1,0 +1,1503 @@
+{
+  "id": "piece.hanon.estudio-1-adaptacion",
+  "title": "Estudio de cinco dedos (adaptación de Hanon N.º 1)",
+  "composerDisplay": "Charles-Louis Hanon (adaptación PianoDesdeCero)",
+  "level": 1,
+  "durationSeconds": 24.0,
+  "tags": [
+    "estudio",
+    "hanon",
+    "adaptación",
+    "dos manos",
+    "dominio público"
+  ],
+  "license": {
+    "license": "public-domain",
+    "composer": {
+      "name": "Charles-Louis Hanon",
+      "birthYear": 1819,
+      "deathYear": 1900,
+      "anonymousTraditional": false
+    },
+    "source": "Adaptación propia del ejercicio N.º 1 de «Le pianiste virtuose» (1873) de Hanon; edición de dominio público",
+    "sourceUrl": "https://imslp.org/wiki/Le_pianiste_virtuose_(Hanon,_Charles-Louis)",
+    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionDate": "2026-11-13",
+    "attribution": "Adaptación del ejercicio N.º 1 de Hanon — Charles-Louis Hanon (1819-1900), dominio público; adaptación y digitación de PianoDesdeCero",
+    "verifiedBy": "PianoDesdeCero",
+    "verifiedOn": "2026-11-13",
+    "notes": "Adaptación pedagógica del ejercicio de cinco dedos de Hanon: patrón 1-2-3-4-5-4-3-2 en negras, subiendo y bajando una octava, en Do mayor y 4/4, 80 BPM. La mano izquierda acompaña con una nota por compás. Fuente: «Le pianiste virtuose» (1873)."
+  },
+  "hands": {
+    "right": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 80,
+      "events": [
+        {
+          "id": "ev.hanon-estudio.r001",
+          "measure": 1,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r002",
+          "measure": 1,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r003",
+          "measure": 1,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r004",
+          "measure": 1,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r005",
+          "measure": 1,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r006",
+          "measure": 1,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r007",
+          "measure": 1,
+          "beat": 3.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r008",
+          "measure": 1,
+          "beat": 3.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r009",
+          "measure": 2,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r010",
+          "measure": 2,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r011",
+          "measure": 2,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r012",
+          "measure": 2,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r013",
+          "measure": 2,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r014",
+          "measure": 2,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r015",
+          "measure": 2,
+          "beat": 3.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r016",
+          "measure": 2,
+          "beat": 3.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r017",
+          "measure": 3,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r018",
+          "measure": 3,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r019",
+          "measure": 3,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r020",
+          "measure": 3,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r021",
+          "measure": 3,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r022",
+          "measure": 3,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r023",
+          "measure": 3,
+          "beat": 3.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r024",
+          "measure": 3,
+          "beat": 3.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r025",
+          "measure": 4,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r026",
+          "measure": 4,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r027",
+          "measure": 4,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r028",
+          "measure": 4,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r029",
+          "measure": 4,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r030",
+          "measure": 4,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r031",
+          "measure": 4,
+          "beat": 3.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r032",
+          "measure": 4,
+          "beat": 3.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r033",
+          "measure": 5,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r034",
+          "measure": 5,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r035",
+          "measure": 5,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r036",
+          "measure": 5,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r037",
+          "measure": 5,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r038",
+          "measure": 5,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r039",
+          "measure": 5,
+          "beat": 3.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r040",
+          "measure": 5,
+          "beat": 3.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r041",
+          "measure": 6,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r042",
+          "measure": 6,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r043",
+          "measure": 6,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r044",
+          "measure": 6,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r045",
+          "measure": 6,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r046",
+          "measure": 6,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r047",
+          "measure": 6,
+          "beat": 3.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r048",
+          "measure": 6,
+          "beat": 3.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r049",
+          "measure": 7,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r050",
+          "measure": 7,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r051",
+          "measure": 7,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r052",
+          "measure": 7,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r053",
+          "measure": 7,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r054",
+          "measure": 7,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r055",
+          "measure": 7,
+          "beat": 3.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r056",
+          "measure": 7,
+          "beat": 3.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r057",
+          "measure": 8,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r058",
+          "measure": 8,
+          "beat": 0.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r059",
+          "measure": 8,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r060",
+          "measure": 8,
+          "beat": 1.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r061",
+          "measure": 8,
+          "beat": 2.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r062",
+          "measure": 8,
+          "beat": 2.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r063",
+          "measure": 8,
+          "beat": 3.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.r064",
+          "measure": 8,
+          "beat": 3.5,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    },
+    "left": {
+      "clef": "bass",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 80,
+      "events": [
+        {
+          "id": "ev.hanon-estudio.l001",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.l002",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.l003",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.l004",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.l005",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.l006",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.l007",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.hanon-estudio.l008",
+          "measure": 8,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 2
+            }
+          ],
+          "hand": "left",
+          "velocity": 75,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    }
+  },
+  "notesEs": "Adaptación del ejercicio de cinco dedos de Hanon: patrón 1-2-3-4-5-4-3-2 en negras, subiendo y bajando, en Do mayor y 4/4, a 80 BPM. Ocho compases.",
+  "notesEn": "Adaptation of Hanon’s five-finger exercise: 1-2-3-4-5-4-3-2 pattern in eighth notes, up and down, in C major and 4/4, at 80 BPM. Eight measures.",
+  "fingeringEs": "Derecha: 1-2-3-4-5-4-3-2 en cada compás; Izquierda: 5-3-1, una nota por compás.",
+  "fingeringEn": "Right hand: 1-2-3-4-5-4-3-2 in each measure; Left hand: 5-3-1, one note per measure."
+}

@@ -1,0 +1,577 @@
+{
+  "id": "lesson.m5-09",
+  "moduleId": "M5",
+  "slug": "modulacion-y-conduccion-de-voces",
+  "titleEs": "Modulación y conducción de voces",
+  "titleEn": "Modulation and voice leading",
+  "summaryEs": "Cómo cambiar de tonalidad con un acorde pivote y cómo mover las voces para que la armonía suene limpia y dirigida.",
+  "summaryEn": "How to change key with a pivot chord and how to move the voices so the harmony sounds clean and directed.",
+  "objectivesEs": [
+    "Distinguir una modulación de una simple tonicización",
+    "Encontrar el acorde pivote entre dos tonalidades vecinas",
+    "Aplicar reglas básicas de conducción de voces: notas comunes, grados conjuntos y resolución de la sensible"
+  ],
+  "objectivesEn": [
+    "Tell a modulation from a simple tonicisation",
+    "Find the pivot chord between two neighbouring keys",
+    "Apply basic voice-leading rules: common tones, stepwise motion and leading-tone resolution"
+  ],
+  "minutes": 16,
+  "prerequisites": [
+    "lesson.m5-08"
+  ],
+  "skillIds": [
+    "skill.modulation"
+  ],
+  "exerciseIds": [
+    "ex.m5-09.a",
+    "ex.m5-09.b",
+    "ex.m5-09.c",
+    "ex.m5-09.d",
+    "ex.m5-09.e",
+    "ex.m5-09.f",
+    "ex.m5-09.g",
+    "ex.m5-09.h",
+    "ex.m5-09.i",
+    "ex.m5-09.j",
+    "ex.m5-09.k",
+    "ex.m5-09.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m5-09.intro",
+      "kind": "text",
+      "titleEs": "Qué es modular",
+      "titleEn": "What modulating means",
+      "bodyEs": "Modular es cambiar de tonalidad de forma estable. No basta con usar un acorde prestado o un dominante secundario: la nueva tonalidad tiene que quedar confirmada, normalmente con su propio V-I. La modulación puede ser pasajera o durar el resto de la pieza. Se diferencia de la tonicización en que esta última solo colorea un acorde breve, mientras que la modulación reorganiza el centro de gravedad de la música.",
+      "bodyEn": "Modulating means changing key in a stable way. It is not enough to use a borrowed chord or a secondary dominant: the new key has to be confirmed, usually with its own V-I. A modulation can be passing or last for the rest of the piece. It differs from tonicisation in that the latter only colours a brief chord, while a modulation reorganises the centre of gravity of the music."
+    },
+    {
+      "id": "sec.m5-09.pivote",
+      "kind": "text",
+      "titleEs": "El acorde pivote",
+      "titleEn": "The pivot chord",
+      "bodyEs": "El recurso más claro para modular es el acorde pivote: un acorde que pertenece a las dos tonalidades y se escucha primero en la vieja y después en la nueva. En una modulación de Do mayor a Sol mayor, Lam es vi en Do y ii en Sol: las tres notas son las mismas. Después del pivote aparece un acorde que ya solo pertenece a la nueva tonalidad, como Re7 (V7 de Sol), y una cadencia V-I confirma el cambio. Las tonalidades vecinas, como la dominante, la subdominante o la relativa menor, comparten muchos acordes y por eso son las más fáciles de enlazar.",
+      "bodyEn": "The clearest way to modulate is the pivot chord: a chord that belongs to both keys and is heard first in the old key and then in the new one. In a modulation from C major to G major, Am is vi in C and ii in G: the three notes are the same. After the pivot comes a chord that belongs only to the new key, such as D7 (V7 of G), and a V-I cadence confirms the change. Neighbouring keys, such as the dominant, the subdominant or the relative minor, share many chords and are therefore the easiest to link."
+    },
+    {
+      "id": "sec.m5-09.voces",
+      "kind": "text",
+      "titleEs": "Reglas básicas de conducción de voces",
+      "titleEn": "Basic voice-leading rules",
+      "bodyEs": "La conducción de voces estudia cómo se mueve cada nota de un acorde al siguiente. Las reglas esenciales son pocas. Primero, conservá las notas comunes: si un sonido está en los dos acordes, dejalo quieto. Segundo, mové las demás voces por grados conjuntos siempre que puedas. Tercero, resolvé la sensible hacia arriba y la séptima del dominante hacia abajo. Cuarto, evitá las quintas y las octavas paralelas entre las mismas dos voces. Y quinto, no cruces las voces ni las separes demasiado: la fundamental se puede duplicar, la sensible conviene no duplicarla.",
+      "bodyEn": "Voice leading studies how each note moves from one chord to the next. The essential rules are few. First, keep the common tones: if a note is in both chords, leave it still. Second, move the other voices by step whenever you can. Third, resolve the leading tone upwards and the dominant seventh downwards. Fourth, avoid parallel fifths and parallel octaves between the same two voices. And fifth, do not cross the voices or space them too widely: the root may be doubled, the leading tone is best not doubled."
+    },
+    {
+      "id": "sec.m5-09.resolucion",
+      "kind": "text",
+      "titleEs": "Sensible y séptima",
+      "titleEn": "Leading tone and seventh",
+      "bodyEs": "En un V7, la tercera es la sensible y la séptima es la nota que baja. En Sol7, la sensible Si sube a Do y el Fa baja a Mi. Esas dos resoluciones son las que hacen que el acorde de tónica suene como un reposo y no como otro acorde cualquiera. Si la sensible baja o la séptima sube, el oído pierde la dirección. En las voces interiores las reglas se relajan un poco, pero en el bajo y en la voz superior conviene respetarlas.",
+      "bodyEn": "In a V7, the third is the leading tone and the seventh is the note that falls. In G7, the leading tone B rises to C and F falls to E. Those two resolutions are what make the tonic chord sound like a resting point rather than just another chord. If the leading tone falls or the seventh rises, the ear loses its direction. In inner voices the rules relax a little, but in the bass and the top voice they should be respected."
+    },
+    {
+      "id": "sec.m5-09.demo-modulacion",
+      "kind": "score",
+      "titleEs": "Demo: modulación de Do a Sol con Lam como pivote",
+      "titleEn": "Demo: modulation from C to G with Am as the pivot",
+      "bodyEs": "Do (I de Do), Lam (vi de Do y ii de Sol), Re7 (V7 de Sol) y Sol (I de Sol). El Lam es el puente: las mismas notas cambian de función. El Re7 ya solo existe en Sol mayor y la llegada a Sol confirma la nueva tonalidad.",
+      "bodyEn": "C (I of C), Am (vi of C and ii of G), D7 (V7 of G) and G (I of G). Am is the bridge: the same notes change function. D7 exists only in G major and the arrival on G confirms the new key.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "sec.m5-09.mod-c",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-09.mod-am",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-09.mod-d7",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "F",
+                "accidental": "#",
+                "octave": 3
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-09.mod-g",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 84,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-09.demo-voces",
+      "kind": "score",
+      "titleEs": "Demo: conducción de voces en Sol7-Do",
+      "titleEn": "Demo: voice leading in G7-C",
+      "bodyEs": "Sol7 (Sol, Si, Re, Fa) resuelve en Do (Sol, Do, Mi). El Sol se mantiene como nota común, el Si sube a Do, el Fa baja a Mi y el Re sube a Mi. Ninguna voz salta y no hay quintas ni octavas paralelas: el acorde final suena limpio y dirigido.",
+      "bodyEn": "G7 (G, B, D, F) resolves to C (G, C, E). G is kept as a common tone, B rises to C, F falls to E and D rises to E. No voice leaps and there are no parallel fifths or octaves: the final chord sounds clean and directed.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 66,
+        "events": [
+          {
+            "id": "sec.m5-09.voces-g7",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-09.voces-c",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 3
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-09.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce modulaciones para analizar",
+      "titleEn": "Twelve modulations to analyse",
+      "bodyEs": "Cada ejercicio te da dos tonalidades vecinas y el acorde pivote. Elegí el número romano que le corresponde en la tonalidad que indica la pregunta. Recorren modulaciones a la dominante (Do a Sol, Sol a Re, etc.) y a la subdominante (Do a Fa, Fa a Si♭, etc.). Recordá que el pivote mantiene las mismas notas y cambia de función.",
+      "bodyEn": "Each exercise gives you two neighbouring keys and the pivot chord. Choose the Roman numeral it has in the key named by the question. They cover modulations to the dominant (C to G, G to D, etc.) and to the subdominant (C to F, F to B♭, etc.). Remember that the pivot keeps the same notes and changes function."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la modulación de Do a Sol y la resolución Sol7-Do",
+    "titleEn": "Play the modulation from C to G and the G7-C resolution",
+    "instructionsEs": "Tocá con la mano derecha, un acorde por compás y a 60 BPM. Primero la modulación: Do, Lam, Re7 y Sol. Después la resolución: Sol7 y Do. Antes del Lam, decí «pivote»; antes del Re7, decí «ya es de Sol». Escuchá cómo el Si del Sol7 sube a Do y el Fa baja a Mi.",
+    "instructionsEn": "Play with your right hand, one chord per bar at 60 BPM. First the modulation: C, Am, D7 and G. Then the resolution: G7 and C. Before Am, say “pivot”; before D7, say “already in G”. Listen to how B in G7 rises to C and F falls to E.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 3
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "#",
+        "octave": 3
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "Mano derecha: 1-3-5 para las tríadas y 1-2-3-5 para Re7 y Sol7. Mantené la muñeca suelta y buscá que el Sol quede como nota común entre Sol7 y Do.",
+    "fingeringEn": "Right hand: 1-3-5 for the triads and 1-2-3-5 for D7 and G7. Keep the wrist loose and try to keep G as a common tone between G7 and C.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué la modulación y la resolución sin perder el pulso",
+      "Reconocí el Lam como pivote entre Do y Sol",
+      "Escuché la sensible Si subir a Do y la séptima Fa bajar a Mi"
+    ],
+    "checklistEn": [
+      "I played the modulation and the resolution without losing the pulse",
+      "I recognised Am as the pivot between C and G",
+      "I heard the leading tone B rise to C and the seventh F fall to E"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m5-09.c",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-09.am",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-09.d7",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 3
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-09.g",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-09.g7",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-09.c-final",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

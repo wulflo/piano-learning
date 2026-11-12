@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-01.h",
+  "skillId": "skill.diatonic-chords",
+  "type": "chord",
+  "promptEs": "En Mi♭ menor, ¿qué cifrado tiene la tríada diatónica del grado III?",
+  "promptEn": "In E♭ minor, what is the symbol of the diatonic triad on degree III?",
+  "explanationEs": "En Mi♭ menor natural, el grado III se construye sobre Sol♭: Sol♭-Si♭-Re♭. La tercera Sol♭-Si♭ es mayor y la quinta Sol♭-Re♭ es justa, así que la tríada es mayor y se cifra Sol♭.",
+  "explanationEn": "In E♭ natural minor, degree III is built on G♭: G♭-B♭-D♭. The third G♭-B♭ is major and the fifth G♭-D♭ is perfect, so the triad is major and its symbol is G♭.",
+  "difficulty": 1,
+  "root": {
+    "step": "G",
+    "accidental": "b",
+    "octave": 4
+  },
+  "quality": "major",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Sol♭m",
+    "Sol♭7",
+    "Sol♭maj7",
+    "Sol♭"
+  ],
+  "choicesEn": [
+    "G♭m",
+    "G♭7",
+    "G♭maj7",
+    "G♭"
+  ]
+}

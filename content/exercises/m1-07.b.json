@@ -1,0 +1,47 @@
+{
+  "id": "ex.m1-07.b",
+  "skillId": "skill.rhythm-variants",
+  "type": "rhythm-completion",
+  "promptEs": "En 4/4, ¿qué figura completa el primer pulso y medio si después siguen una corchea y una blanca?",
+  "explanationEs": "La negra con puntillo dura un pulso y medio: una negra más una corchea. Con la corchea y la blanca se completan los cuatro tiempos.",
+  "difficulty": 2,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "pattern": [
+    {
+      "duration": "quarter",
+      "dots": 1,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "half",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 0,
+  "choices": [
+    "Negra con puntillo",
+    "Negra",
+    "Blanca con puntillo",
+    "Corchea con puntillo"
+  ],
+  "promptEn": "In 4/4, which note value fills the first beat and a half if an eighth note and a half note follow?",
+  "explanationEn": "The dotted quarter note lasts one beat and a half: a quarter note plus an eighth note. With the eighth note and the half note the four beats are completed.",
+  "choicesEn": [
+    "Dotted quarter note",
+    "Quarter note",
+    "Dotted half note",
+    "Dotted eighth note"
+  ]
+}

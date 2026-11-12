@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-10.b",
+  "skillId": "skill.ear-scale",
+  "type": "ear-scale",
+  "tonic": "C",
+  "promptEs": "¿Qué modo tiene la escala de blues de Do?",
+  "promptEn": "Which mode is the C blues scale?",
+  "explanationEs": "La escala de blues de Do se considera el modo Blues: la menor pentatónica con el bemol de la quinta.",
+  "explanationEn": "The C blues scale is considered the Blues mode: the minor pentatonic with the lowered fifth.",
+  "difficulty": 3,
+  "mode": "blues",
+  "choices": [
+    "Blues",
+    "Menor pentatónica",
+    "Mayor"
+  ],
+  "choicesEn": [
+    "Blues",
+    "Minor pentatonic",
+    "Major"
+  ]
+}

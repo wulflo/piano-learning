@@ -1,0 +1,24 @@
+{
+  "id": "ex.m7-02.b",
+  "skillId": "skill.arpeggio",
+  "type": "arpeggio",
+  "promptEs": "¿Qué notas forman este arpegio de Sol mayor?",
+  "promptEn": "Which notes make up this G major arpeggio?",
+  "explanationEs": "Sol mayor se escribe Sol-Si-Re. El arpegio sube Sol4-Si4-Re5-Sol5 y se toca 1-2-3-5, porque Sol es una tecla blanca. La tercera es Si, no Do.",
+  "explanationEn": "G major is spelled G-B-D. The arpeggio rises G4-B4-D5-G5 and uses 1-2-3-5 because G is a white key. The third is B, not C.",
+  "difficulty": 1,
+  "tonic": "G",
+  "hand": "right",
+  "octaves": 1,
+  "ask": "notes",
+  "choices": [
+    "Sol4 Si4 Re5 Sol5",
+    "Sol4 Do5 Re5 Sol5",
+    "Sol4 Si4 Re5 Fa5"
+  ],
+  "choicesEn": [
+    "G4 B4 D5 G5",
+    "G4 C5 D5 G5",
+    "G4 B4 D5 F5"
+  ]
+}

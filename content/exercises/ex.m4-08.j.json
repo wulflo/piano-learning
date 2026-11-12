@@ -1,0 +1,33 @@
+{
+  "id": "ex.m4-08.j",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Do♭4 y Do♭5?",
+  "promptEn": "What interval is there between Db4 and Db5?",
+  "explanationEs": "De Do♭ a Do♭ hay siete letras y doce semitonos: una octava justa. La octava repite la nota con una distancia de doce semitonos.",
+  "explanationEn": "From Db to Db there are seven letters and twelve semitones: a perfect octave. The octave repeats the note with a distance of twelve semitones.",
+  "difficulty": 2,
+  "lower": {
+    "step": "D",
+    "accidental": "b",
+    "octave": 4
+  },
+  "upper": {
+    "step": "D",
+    "accidental": "b",
+    "octave": 5
+  },
+  "direction": "melodic",
+  "choices": [
+    "Octava justa",
+    "Octava aumentada",
+    "Séptima mayor",
+    "Unísono justo"
+  ],
+  "choicesEn": [
+    "Perfect octave",
+    "Augmented octave",
+    "Major seventh",
+    "Perfect unison"
+  ]
+}

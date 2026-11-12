@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-04.a",
+  "skillId": "skill.cadence",
+  "type": "cadence",
+  "promptEs": "En Do mayor, ¿qué cadencia forman los acordes Sol (Sol, Si, Re) y Do (Do, Mi, Sol)?",
+  "promptEn": "In C major, what cadence do the chords G (G, B, D) and C (C, E, G) form?",
+  "explanationEs": "La cadencia auténtica va de V a I: Sol (dominante) resuelve en Do (tónica) y cierra la frase. Es la cadencia conclusiva por excelencia.",
+  "explanationEn": "The authentic cadence goes from V to I: G (dominant) resolves to C (tonic) and closes the phrase. It is the conclusive cadence par excellence.",
+  "difficulty": 1,
+  "key": "C",
+  "mode": "major",
+  "fromDegree": 5,
+  "toDegree": 1,
+  "choices": [
+    "Auténtica (V-I)",
+    "Plagal (IV-I)",
+    "Semicadencia (…-V)",
+    "Rota (V-vi)"
+  ],
+  "choicesEn": [
+    "Authentic (V-I)",
+    "Plagal (IV-I)",
+    "Half cadence (…-V)",
+    "Deceptive (V-vi)"
+  ]
+}

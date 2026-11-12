@@ -1,0 +1,17 @@
+{
+  "id": "ex.m3-03.g",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Escuchá el intervalo armónico y clasificalo según su función en la armonía tonal.",
+  "promptEn": "Listen to the harmonic interval and classify it by its function in tonal harmony.",
+  "explanationEs": "Fa♯4-Do5 es una quinta disminuida, un tritono. Su tensión pide resolución; se clasifica como disonancia.",
+  "explanationEn": "F♯4-C5 is a diminished fifth, a tritone. Its tension asks for resolution; it is classified as a dissonance.",
+  "difficulty": 3,
+  "lower": { "step": "F", "accidental": "#", "octave": 4 },
+  "upper": { "step": "C", "accidental": "", "octave": 5 },
+  "direction": "harmonic",
+  "answer": "Disonancia",
+  "answerEn": "Dissonance",
+  "choices": ["Disonancia", "Depende del contexto", "Consonancia perfecta", "Consonancia imperfecta"],
+  "choicesEn": ["Dissonance", "Depends on context", "Perfect consonance", "Imperfect consonance"]
+}

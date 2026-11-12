@@ -1,0 +1,887 @@
+{
+  "id": "lesson.m7-03",
+  "moduleId": "M7",
+  "slug": "pedal",
+  "titleEs": "Pedal",
+  "titleEn": "Pedal",
+  "summaryEs": "Cómo usar el pedal de resonancia para unir sonidos sin mezclar armonías: pedal directo, pedal sincopado y cambios limpios guiados por el oído.",
+  "summaryEn": "How to use the sustain pedal to connect sounds without mixing harmonies: direct pedal, syncopated pedal and clean changes guided by the ear.",
+  "objectivesEs": [
+    "Entender qué hace el pedal de resonancia y qué no cambia",
+    "Distinguir el pedal directo del sincopado y saber cuándo usar cada uno",
+    "Cambiar el pedal en cada cambio de armonía y escuchar si queda barro"
+  ],
+  "objectivesEn": [
+    "Understand what the sustain pedal does and what it does not change",
+    "Tell direct pedal from syncopated pedal and know when to use each",
+    "Change the pedal at every harmony change and listen for muddiness"
+  ],
+  "minutes": 16,
+  "prerequisites": [
+    "lesson.m7-02"
+  ],
+  "skillIds": [
+    "skill.pedal"
+  ],
+  "exerciseIds": [
+    "ex.m7-03.a",
+    "ex.m7-03.b",
+    "ex.m7-03.c",
+    "ex.m7-03.d",
+    "ex.m7-03.e",
+    "ex.m7-03.f",
+    "ex.m7-03.g",
+    "ex.m7-03.h",
+    "ex.m7-03.i",
+    "ex.m7-03.j"
+  ],
+  "sections": [
+    {
+      "id": "sec.m7-03.que-hace",
+      "kind": "text",
+      "titleEs": "Qué hace el pedal de resonancia",
+      "titleEn": "What the sustain pedal does",
+      "bodyEs": "El pedal de resonancia, el de la derecha, levanta los apagadores: mientras está pisado, las cuerdas siguen vibrando aunque sueltes las teclas. No cambia las notas ni la digitación; cambia cuánto duran y cómo se mezclan. Por eso puede embellecer un acompañamiento o arruinarlo: si lo dejás pisado a través de un cambio de armonía, el acorde anterior sigue sonando sobre el nuevo y el oído escucha barro. En el piano acústico el pedal también agrega resonancia simpática; en el digital conviene comprobar que el control sea continuo y no un simple interruptor.",
+      "bodyEn": "The sustain pedal, the right one, lifts the dampers: while it is down, the strings keep vibrating even after you release the keys. It does not change the notes or the fingering; it changes how long they last and how they blend. That is why it can improve an accompaniment or ruin it: if you keep it down through a harmony change, the previous chord keeps sounding over the new one and the ear hears mud. On an acoustic piano the pedal also adds sympathetic resonance; on a digital one, check that the control is continuous and not a simple switch."
+    },
+    {
+      "id": "sec.m7-03.directo-sincopado",
+      "kind": "text",
+      "titleEs": "Pedal directo y pedal sincopado",
+      "titleEn": "Direct and syncopated pedal",
+      "bodyEs": "En el pedal directo la pisada coincide con el ataque del acorde: se pisa al mismo tiempo que la mano toca. Es fácil de coordinar y sirve para estudiar y para acompañamientos sencillos, pero exige levantar y volver a pisar en cada cambio de armonía. En el pedal sincopado se levanta el pedal en el instante del cambio y se vuelve a pisar justo después del ataque, sobre el contratiempo. Así el acorde nuevo se escucha limpio desde su primera nota y la resonancia se recoge medio pulso más tarde. El sincopado es más difícil porque la mano y el pie no se mueven juntos, pero produce cambios más suaves cuando hay acordes seguidos.",
+      "bodyEn": "With direct pedal the press coincides with the chord attack: you press at the same time the hand plays. It is easy to coordinate and works for practice and simple accompaniments, but it demands releasing and pressing again at every harmony change. With syncopated pedal you release at the instant of the change and press again just after the attack, off the beat. That way the new chord is heard cleanly from its first note and the resonance is caught half a beat later. Syncopated pedal is harder because the hand and foot do not move together, but it produces smoother changes when chords follow one another."
+    },
+    {
+      "id": "sec.m7-03.demo-directo",
+      "kind": "score",
+      "titleEs": "Demo: pedal directo en Do–Fa–Sol–Do",
+      "titleEn": "Demo: direct pedal in C–F–G–C",
+      "bodyEs": "Cada acorde dura un compás y el pedal se cambia justo en el ataque siguiente. Escuchá cómo el sonido se une sin que las armonías se pisen: cuando entra el Fa, el Do ya se apagó. Probá tocar la misma progresión sin pedal y compará la continuidad.",
+      "bodyEn": "Each chord lasts one measure and the pedal changes right on the next attack. Listen for how the sound connects without the harmonies stepping on each other: when F enters, C has already stopped. Try the same progression without pedal and compare the continuity.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m7-03.demo-directo.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 76,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-03.demo-directo.2",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 76,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-03.demo-directo.3",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 76,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-03.demo-directo.4",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 76,
+            "tieToNext": false
+          }
+        ],
+        "pedals": [
+          {
+            "measure": 1,
+            "beat": 0,
+            "action": "press",
+            "kind": "direct"
+          },
+          {
+            "measure": 2,
+            "beat": 0,
+            "action": "release",
+            "kind": "direct"
+          },
+          {
+            "measure": 2,
+            "beat": 0,
+            "action": "press",
+            "kind": "direct"
+          },
+          {
+            "measure": 3,
+            "beat": 0,
+            "action": "release",
+            "kind": "direct"
+          },
+          {
+            "measure": 3,
+            "beat": 0,
+            "action": "press",
+            "kind": "direct"
+          },
+          {
+            "measure": 4,
+            "beat": 0,
+            "action": "release",
+            "kind": "direct"
+          },
+          {
+            "measure": 4,
+            "beat": 0,
+            "action": "press",
+            "kind": "direct"
+          },
+          {
+            "measure": 5,
+            "beat": 0,
+            "action": "release",
+            "kind": "direct"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m7-03.demo-sincopado",
+      "kind": "score",
+      "titleEs": "Demo: pedal sincopado",
+      "titleEn": "Demo: syncopated pedal",
+      "bodyEs": "Ahora el pedal se levanta en el ataque y se vuelve a pisar medio pulso después. El resultado es más suave: el acorde nuevo aparece limpio y la resonancia entra un instante más tarde. Escuchá el pie por separado: «arriba en el cambio, abajo en el contratiempo».",
+      "bodyEn": "Now the pedal is released on the attack and pressed again half a beat later. The result is smoother: the new chord appears cleanly and the resonance enters a moment later. Listen to the foot on its own: “up on the change, down off the beat”.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m7-03.demo-sincopado.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 76,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-03.demo-sincopado.2",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 76,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-03.demo-sincopado.3",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 76,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-03.demo-sincopado.4",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 76,
+            "tieToNext": false
+          }
+        ],
+        "pedals": [
+          {
+            "measure": 1,
+            "beat": 0.5,
+            "action": "press",
+            "kind": "syncopated"
+          },
+          {
+            "measure": 2,
+            "beat": 0,
+            "action": "release",
+            "kind": "syncopated"
+          },
+          {
+            "measure": 2,
+            "beat": 0.5,
+            "action": "press",
+            "kind": "syncopated"
+          },
+          {
+            "measure": 3,
+            "beat": 0,
+            "action": "release",
+            "kind": "syncopated"
+          },
+          {
+            "measure": 3,
+            "beat": 0.5,
+            "action": "press",
+            "kind": "syncopated"
+          },
+          {
+            "measure": 4,
+            "beat": 0,
+            "action": "release",
+            "kind": "syncopated"
+          },
+          {
+            "measure": 4,
+            "beat": 0.5,
+            "action": "press",
+            "kind": "syncopated"
+          },
+          {
+            "measure": 5,
+            "beat": 0,
+            "action": "release",
+            "kind": "syncopated"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m7-03.demo-limpieza",
+      "kind": "score",
+      "titleEs": "Demo: cambio sucio y ejercicio de limpieza",
+      "titleEn": "Demo: dirty change and cleaning exercise",
+      "bodyEs": "Acá el cambio llega un pulso tarde a propósito. El Do y el Fa quedan sonando juntos y aparece el barro armónico. Comparalo con la primera demo: la diferencia no está en la fuerza ni en la velocidad, sino en el momento de levantar el pedal. Ejercicio de limpieza: tocá la progresión muy lento y levantá el pedal exactamente en el ataque del acorde nuevo; repetí hasta que no quede ninguna nota vieja sonando.",
+      "bodyEn": "Here the change arrives one beat late on purpose. C and F are left ringing together and harmonic mud appears. Compare it with the first demo: the difference is not in force or speed but in when the pedal is released. Cleaning exercise: play the progression very slowly and release the pedal exactly on the new chord attack; repeat until no old note is left ringing.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "sec.m7-03.demo-limpieza.1",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 76,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-03.demo-limpieza.2",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 76,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-03.demo-limpieza.3",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 76,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m7-03.demo-limpieza.4",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "voice": 1,
+            "velocity": 76,
+            "tieToNext": false
+          }
+        ],
+        "pedals": [
+          {
+            "measure": 1,
+            "beat": 0,
+            "action": "press",
+            "kind": "direct"
+          },
+          {
+            "measure": 2,
+            "beat": 1,
+            "action": "release",
+            "kind": "direct"
+          },
+          {
+            "measure": 2,
+            "beat": 1,
+            "action": "press",
+            "kind": "direct"
+          },
+          {
+            "measure": 3,
+            "beat": 1,
+            "action": "release",
+            "kind": "direct"
+          },
+          {
+            "measure": 3,
+            "beat": 1,
+            "action": "press",
+            "kind": "direct"
+          },
+          {
+            "measure": 4,
+            "beat": 1,
+            "action": "release",
+            "kind": "direct"
+          },
+          {
+            "measure": 4,
+            "beat": 1,
+            "action": "press",
+            "kind": "direct"
+          },
+          {
+            "measure": 5,
+            "beat": 0,
+            "action": "release",
+            "kind": "direct"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m7-03.limpieza",
+      "kind": "text",
+      "titleEs": "Limpieza y advertencia de oído",
+      "titleEn": "Cleaning and listening warning",
+      "bodyEs": "El pedal tapa los errores: con demasiada resonancia, una nota equivocada o un ritmo irregular suenan «llenos» y es más difícil detectarlos. Por eso conviene estudiar primero sin pedal y agregarlo cuando la digitación y el pulso estén claros. Para limpiar un cambio, pensá «levantar en el ataque, pisar después» y escuchá si queda alguna nota anterior. Si el acorde se mezcla, no toques más fuerte: corregí el momento del pie. Si el sonido se corta, el pedal se levantó antes de tiempo. Esta advertencia de oído es la parte más importante de la lección: el pie debe obedecer a lo que escuchás, no a lo que creés que tocaste. Si sentís dolor o tensión en el pie, el tobillo o la espalda, pará y revisá la postura antes de seguir.",
+      "bodyEn": "The pedal hides mistakes: with too much resonance, a wrong note or an uneven rhythm sounds “full” and is harder to detect. That is why it is best to practise without pedal first and add it once fingering and pulse are clear. To clean a change, think “release on the attack, press after” and listen for any previous note still ringing. If the chord blends, do not play louder: fix the timing of the foot. If the sound cuts off, the pedal was released too early. This listening warning is the most important part of the lesson: the foot must obey what you hear, not what you think you played. If you feel pain or tension in your foot, ankle or back, stop and review your posture before going on."
+    },
+    {
+      "id": "sec.m7-03.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Leer las marcas de pedal",
+      "titleEn": "Read the pedal marks",
+      "bodyEs": "Los ejercicios muestran una partitura con marcas «Ped.» y «*». Antes de responder, escuchá la progresión, mirá si la pisada cae en el ataque o después, y fijate si en el punto hay una pisada, un levantamiento o un cambio. Recordá que un cambio limpio se escribe con las dos marcas en el mismo pulso.",
+      "bodyEn": "The exercises show a score with “Ped.” and “*” marks. Before answering, listen to the progression, check whether the press falls on the attack or after it, and see whether the point has a press, a release or a change. Remember that a clean change is written with both marks on the same beat."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Cambio de pedal en cuatro acordes",
+    "titleEn": "Pedal change across four chords",
+    "instructionsEs": "Tocá la progresión Do–Fa–Sol–Do con acordes en bloque, primero sin pedal, a 60 BPM. Cuando los acordes estén limpios, agregá el pedal directo: pisá con el ataque y levantá junto con el ataque siguiente. Después probá el pedal sincopado: levantá en el ataque y volvé a pisar medio pulso después. Escuchá en cada cambio si queda alguna nota del acorde anterior; si hay barro, corregí el pie antes de subir a 72 BPM. Mantené el talón apoyado, el tobillo suelto y los hombros bajos; si aparece dolor o tensión, pará.",
+    "instructionsEn": "Play the C–F–G–C progression with block chords, first without pedal, at 60 BPM. Once the chords are clean, add direct pedal: press with the attack and release on the next attack. Then try syncopated pedal: release on the attack and press again half a beat later. At every change, listen for any note from the previous chord; if there is mud, fix the foot before moving up to 72 BPM. Keep your heel on the floor, your ankle loose and your shoulders down; if pain or tension appears, stop.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano derecha en bloque: 1-3-5 para Do4-Mi4-Sol4 y 1-3-5 para Fa4-La4-Do5. El pedal se coordina con el ataque del acorde, no con la digitación: primero asegurá la mano y después sumá el pie.",
+    "fingeringEn": "Right hand in block: 1-3-5 for C4-E4-G4 and 1-3-5 for F4-A4-C5. The pedal coordinates with the chord attack, not with the fingering: secure the hand first and then add the foot.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué Do–Fa–Sol–Do sin pedal y con acordes limpios",
+      "Agregué pedal directo y cambié en cada ataque",
+      "Probé pedal sincopado levantando en el ataque y pisando después",
+      "Escuché cada cambio y corregí el pie cuando quedó barro",
+      "Mantuve el tobillo suelto y paré ante dolor o tensión"
+    ],
+    "checklistEn": [
+      "I played C–F–G–C without pedal and with clean chords",
+      "I added direct pedal and changed on every attack",
+      "I tried syncopated pedal, releasing on the attack and pressing after",
+      "I listened to every change and fixed the foot when mud remained",
+      "I kept my ankle loose and stopped if pain or tension appeared"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 72,
+      "events": [
+        {
+          "id": "sec.m7-03.demo-directo.1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 76,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-03.demo-directo.2",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 76,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-03.demo-directo.3",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 76,
+          "tieToNext": false
+        },
+        {
+          "id": "sec.m7-03.demo-directo.4",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "voice": 1,
+          "velocity": 76,
+          "tieToNext": false
+        }
+      ],
+      "pedals": [
+        {
+          "measure": 1,
+          "beat": 0,
+          "action": "press",
+          "kind": "direct"
+        },
+        {
+          "measure": 2,
+          "beat": 0,
+          "action": "release",
+          "kind": "direct"
+        },
+        {
+          "measure": 2,
+          "beat": 0,
+          "action": "press",
+          "kind": "direct"
+        },
+        {
+          "measure": 3,
+          "beat": 0,
+          "action": "release",
+          "kind": "direct"
+        },
+        {
+          "measure": 3,
+          "beat": 0,
+          "action": "press",
+          "kind": "direct"
+        },
+        {
+          "measure": 4,
+          "beat": 0,
+          "action": "release",
+          "kind": "direct"
+        },
+        {
+          "measure": 4,
+          "beat": 0,
+          "action": "press",
+          "kind": "direct"
+        },
+        {
+          "measure": 5,
+          "beat": 0,
+          "action": "release",
+          "kind": "direct"
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

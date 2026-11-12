@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-03.g",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de Sol mayor suena Si-Re-Sol, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The G major chord sounds B-D-G, from low to high. What inversion is it?",
+  "explanationEs": "El acorde de Sol mayor es Sol-Si-Re. Como el bajo es Si, la tercera, está en primera inversión; su cifrado slash es Sol/Si.",
+  "explanationEn": "The G major chord is G-B-D. Since the bass is B, the third, it is in first inversion; its slash notation is G/B.",
+  "difficulty": 2,
+  "root": { "step": "G", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "inversion": 1,
+  "ask": "inversion",
+  "choices": ["estado fundamental", "primera inversión", "segunda inversión"],
+  "choicesEn": ["root position", "first inversion", "second inversion"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-05.i",
+  "skillId": "skill.ear-interval",
+  "type": "ear-interval",
+  "promptEs": "¿Qué intervalo hay entre Fa4 y Do4 al escucharlos en forma descendente?",
+  "promptEn": "What interval is there between F4 and C4 when heard in descending form?",
+  "explanationEs": "Fa4 y Do4 están separados por una cuarta justa descendente: cinco semitonos.",
+  "explanationEn": "F4 and C4 are a perfect fourth apart in descending form: five semitones.",
+  "difficulty": 3,
+  "lower": { "step": "F", "accidental": "", "octave": 4 },
+  "upper": { "step": "C", "accidental": "", "octave": 4 },
+  "direction": "descending",
+  "choices": ["Cuarta justa", "Quinta justa", "Tercera mayor", "Sexta mayor"],
+  "choicesEn": ["Perfect fourth", "Perfect fifth", "Major third", "Major sixth"]
+}

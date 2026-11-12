@@ -1,0 +1,17 @@
+{
+  "id": "ex.m3-03.c",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Escuchá el intervalo armónico y clasificalo según su función en la armonía tonal.",
+  "promptEn": "Listen to the harmonic interval and classify it by its function in tonal harmony.",
+  "explanationEs": "Re4-Fa4 es una tercera menor. Las terceras y sextas, mayores o menores, son consonancias imperfectas: suenan suaves y estables, pero con más color que una quinta.",
+  "explanationEn": "D4-F4 is a minor third. Major and minor thirds and sixths are imperfect consonances: they sound soft and stable, but with more colour than a fifth.",
+  "difficulty": 2,
+  "lower": { "step": "D", "accidental": "", "octave": 4 },
+  "upper": { "step": "F", "accidental": "", "octave": 4 },
+  "direction": "harmonic",
+  "answer": "Consonancia imperfecta",
+  "answerEn": "Imperfect consonance",
+  "choices": ["Disonancia", "Depende del contexto", "Consonancia perfecta", "Consonancia imperfecta"],
+  "choicesEn": ["Dissonance", "Depends on context", "Perfect consonance", "Imperfect consonance"]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "lesson.m0-05",
+  "moduleId": "M0",
+  "slug": "diagnostico-inicial-y-mapa-del-curso",
+  "titleEs": "Diagnóstico inicial y mapa del curso",
+  "titleEn": "Initial diagnostic and course map",
+  "summaryEs": "Ocho preguntas para orientarte y un mapa de M0 a M8. El resultado sugiere un punto de entrada, pero nunca bloquea el acceso.",
+  "summaryEn": "Eight questions to get your bearings and a map from M0 to M8. The result suggests a starting point, but it never blocks access.",
+  "objectivesEs": [
+    "Responder las 8 preguntas del diagnóstico sin presión de examen",
+    "Interpretar el puntaje y elegir un punto de entrada razonable",
+    "Ubicar los módulos M0-M8 en el mapa del curso"
+  ],
+  "objectivesEn": [
+    "Answer the 8 diagnostic questions without exam pressure",
+    "Interpret the score and choose a reasonable starting point",
+    "Locate modules M0-M8 on the course map"
+  ],
+  "minutes": 12,
+  "prerequisites": [
+    "lesson.m0-04"
+  ],
+  "skillIds": [
+    "skill.course-orientation"
+  ],
+  "exerciseIds": [],
+  "sections": [
+    {
+      "id": "sec.m0-05.intro",
+      "kind": "text",
+      "titleEs": "No es un examen",
+      "titleEn": "It's not an exam",
+      "bodyEs": "El diagnóstico inicial tiene 8 preguntas sobre teclado, notas, pentagrama, pulso, intervalos, escalas, acordes y hábitos de práctica. No hay respuestas que te hagan perder el acceso: el resultado solo sugiere dónde empezar. Si dudás, elegí la opción intermedia; si no sabés algo, está bien. El objetivo es orientarte, no etiquetarte.",
+      "bodyEn": "The initial diagnostic has 8 questions about the keyboard, notes, the staff, pulse, intervals, scales, chords and practice habits. There are no answers that make you lose access: the result only suggests where to start. If you are unsure, choose the middle option; if you don't know something, that's fine. The goal is to orient you, not to label you."
+    },
+    {
+      "id": "sec.m0-05.questions",
+      "kind": "exercise",
+      "titleEs": "Respondé las 8 preguntas",
+      "titleEn": "Answer the 8 questions",
+      "bodyEs": "Las ocho áreas son: 1) grupos de dos y tres teclas negras; 2) nombres de notas con octava (Do4, C4, La3); 3) lectura en clave de sol y de fa; 4) pulso estable con metrónomo; 5) intervalos por cantidad y calidad; 6) escalas mayores y menores en varias tonalidades; 7) tríadas y séptimas básicas; 8) práctica con metas medibles y registro. Respondé con «todavía no», «con ayuda o dudas» o «sí, sin dudar». El resultado no bloquea el acceso al curso.",
+      "bodyEn": "The eight areas are: 1) groups of two and three black keys; 2) note names with their octave (C4, A3); 3) reading in treble and bass clef; 4) steady pulse with a metronome; 5) intervals by size and quality; 6) major and minor scales in several keys; 7) basic triads and sevenths; 8) practice with measurable goals and logging. Answer with \"not yet\", \"with help or unsure\" or \"yes, without hesitation\". The result does not block access to the course."
+    },
+    {
+      "id": "sec.m0-05.bands",
+      "kind": "callout",
+      "titleEs": "Cómo leer el resultado",
+      "titleEn": "How to read the result",
+      "bodyEs": "0-4 puntos: empezá por M0 (Orientación) y seguí el recorrido completo. 5-8: podés empezar en M1 (Fundamentos), repasando M0 si algo no está firme. 9-12: probá M2 (Escalas y tonalidades) y usá M1 como referencia. 13-16: podés empezar en M3 (Intervalos) o M4 (Acordes). En todos los casos el mapa queda abierto: podés entrar a cualquier módulo, repasar o volver atrás.",
+      "bodyEn": "0-4 points: start with M0 (Orientation) and follow the full path. 5-8: you can start at M1 (Fundamentals), reviewing M0 if something is not solid. 9-12: try M2 (Scales and keys) and use M1 as a reference. 13-16: you can start at M3 (Intervals) or M4 (Chords). In every case the map stays open: you can enter any module, review or go back."
+    },
+    {
+      "id": "sec.m0-05.map",
+      "kind": "text",
+      "titleEs": "Mapa del curso",
+      "titleEn": "Course map",
+      "bodyEs": "M0 Orientación: teclado, notas, postura y método de práctica. M1 Fundamentos: pentagrama, ritmo, compases, dinámica y signos. M2 Escalas y tonalidades: mayor, menores, modos, armaduras y círculo de quintas. M3 Intervalos: cantidad, calidad, inversión y oído. M4 Acordes: tríadas, séptimas, inversiones, extensiones y cifrado. M5 Armonía funcional: funciones, cadencias, progresiones y modulación. M6 Melodía, forma y textura: motivo, frase, formas, texturas y ornamentos. M7 Técnica de teclado: independencia, arpegios, pedal, acompañamiento, lectura e improvisación. M8 Estilos: pop/rock, blues, jazz básico y ritmos latinos, como recorrido opcional. El mapa visual con estados bloqueado/disponible/completado llegará con la pantalla del curso.",
+      "bodyEn": "M0 Orientation: keyboard, notes, posture and practice method. M1 Fundamentals: staff, rhythm, meters, dynamics and signs. M2 Scales and keys: major, minor, modes, key signatures and the circle of fifths. M3 Intervals: size, quality, inversion and ear. M4 Chords: triads, sevenths, inversions, extensions and chord symbols. M5 Functional harmony: functions, cadences, progressions and modulation. M6 Melody, form and texture: motive, phrase, forms, textures and ornaments. M7 Keyboard technique: independence, arpeggios, pedal, accompaniment, sight-reading and improvisation. M8 Styles: pop/rock, blues, basic jazz and Latin rhythms, as an optional path. The visual map with locked/available/completed states will arrive with the course screen."
+    },
+    {
+      "id": "sec.m0-05.career",
+      "kind": "callout",
+      "titleEs": "El mapa no es una carrera",
+      "titleEn": "The map is not a race",
+      "bodyEs": "Podés saltear un módulo si el diagnóstico y tu experiencia lo justifican, pero conviene volver a los prerrequisitos cuando aparezca una duda. M8 es opcional y no bloquea M7. Avanzar no es completar casillas: es poder tocar, leer y entender con autonomía. Si un módulo se siente demasiado rápido, quedate una sesión más; si se siente lento, probá el siguiente sin miedo.",
+      "bodyEn": "You can skip a module if the diagnostic and your experience justify it, but it is worth going back to the prerequisites when a doubt appears. M8 is optional and does not block M7. Moving forward is not about completing boxes: it is about being able to play, read and understand on your own. If a module feels too fast, stay one more session; if it feels slow, try the next one without fear."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Probá tu punto de partida",
+    "titleEn": "Test your starting point",
+    "instructionsEs": "Tocá el patrón de cinco dedos Do4-Sol4 con digitación 1-2-3-4-5. Usalo como termómetro: si te sale lento pero sin tensión, estás listo para practicar; si te trabás, volvé a M0-03 y M0-04 antes de seguir. Anotá tempo y sensación.",
+    "instructionsEn": "Play the five-finger pattern C4-G4 with fingering 1-2-3-4-5. Use it as a thermometer: if it comes out slowly but without tension, you are ready to practice; if you get stuck, go back to M0-03 and M0-04 before continuing. Write down the tempo and how it felt.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "1 - 2 - 3 - 4 - 5 (mano derecha); pulgar sobre Do4",
+    "fingeringEn": "1 - 2 - 3 - 4 - 5 (right hand); thumb on C4",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué el patrón completo sin tensión",
+      "Anoté el tempo y la sensación corporal",
+      "Elegí un punto de entrada según el diagnóstico",
+      "Sé que puedo cambiar de módulo sin perder el acceso"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 5,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m0-05.c4",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-05.d4",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-05.e4",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-05.f4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-05.g4",
+          "measure": 1,
+          "beat": 4,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "checklistEn": [
+      "I played the whole pattern without tension",
+      "I noted the tempo and how my body felt",
+      "I chose a starting point based on the diagnostic",
+      "I know I can change modules without losing access"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

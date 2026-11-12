@@ -1,0 +1,41 @@
+{
+  "id": "ex.m1-07.a",
+  "skillId": "skill.rhythm-variants",
+  "type": "rhythm-completion",
+  "promptEs": "En 4/4, ¿qué figura con puntillo ocupa tres tiempos y, junto con una negra, completa el compás?",
+  "explanationEs": "El puntillo agrega la mitad del valor: la blanca con puntillo dura tres tiempos y la negra completa el cuarto.",
+  "difficulty": 1,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "pattern": [
+    {
+      "duration": "half",
+      "dots": 1,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 0,
+  "choices": [
+    "Blanca con puntillo",
+    "Negra con puntillo",
+    "Redonda con puntillo",
+    "Corchea con puntillo"
+  ],
+  "promptEn": "In 4/4, which dotted note value takes three beats and, together with a quarter note, completes the measure?",
+  "explanationEn": "The dot adds half the value: the dotted half note lasts three beats and the quarter note completes the fourth.",
+  "choicesEn": [
+    "Dotted half note",
+    "Dotted quarter note",
+    "Dotted whole note",
+    "Dotted eighth note"
+  ]
+}

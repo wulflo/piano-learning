@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-04.i",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Sol m7 (séptima menor) de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of a Gm7 (minor seventh) from low to high, separated by spaces.",
+  "explanationEs": "Sol m7 es 1-♭3-5-♭7: Sol, Si♭, Re y Fa. La tercera menor es Si♭, la quinta Re y la séptima menor Fa, diez semitonos arriba de Sol.",
+  "explanationEn": "Gm7 is 1-♭3-5-♭7: G, Bb, D and F. The minor third is Bb, the fifth D and the minor seventh F, ten semitones above G.",
+  "difficulty": 3,
+  "root": { "step": "G", "accidental": "", "octave": 4 },
+  "quality": "minor7",
+  "inversion": 0,
+  "ask": "notes"
+}

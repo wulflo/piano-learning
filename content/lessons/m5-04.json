@@ -1,0 +1,430 @@
+{
+  "id": "lesson.m5-04",
+  "moduleId": "M5",
+  "slug": "cadencias",
+  "titleEs": "Cadencias",
+  "titleEn": "Cadences",
+  "summaryEs": "Cómo termina una frase musical: la cadencia auténtica, la plagal, la semicadencia y la rota, qué grados usan y qué sensación deja cada una.",
+  "summaryEn": "How a musical phrase ends: the authentic, plagal, half and deceptive cadences, which degrees they use and what feeling each one leaves.",
+  "objectivesEs": [
+    "Reconocer las cadencias auténtica, plagal, semicadencia y rota por sus grados",
+    "Distinguir el cierre conclusivo del cierre suave y de la frase abierta",
+    "Clasificar cadencias en tonalidades mayores y menores y tocar las cuatro en Do mayor"
+  ],
+  "objectivesEn": [
+    "Recognise the authentic, plagal, half and deceptive cadences by their degrees",
+    "Tell a conclusive close from a soft close and from an open phrase",
+    "Classify cadences in major and minor keys and play all four in C major"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m5-03"
+  ],
+  "skillIds": [
+    "skill.cadence"
+  ],
+  "exerciseIds": [
+    "ex.m5-04.a",
+    "ex.m5-04.b",
+    "ex.m5-04.c",
+    "ex.m5-04.d",
+    "ex.m5-04.e",
+    "ex.m5-04.f",
+    "ex.m5-04.g",
+    "ex.m5-04.h",
+    "ex.m5-04.i",
+    "ex.m5-04.j",
+    "ex.m5-04.k",
+    "ex.m5-04.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m5-04.intro",
+      "kind": "text",
+      "titleEs": "Qué es una cadencia",
+      "titleEn": "What a cadence is",
+      "bodyEs": "Una cadencia es la fórmula armónica con la que termina una frase musical. Cumple la misma función que un signo de puntuación: puede cerrar con firmeza, cerrar con suavidad, dejar la idea abierta o desviarse hacia otro lugar. La cadencia se describe por los dos acordes que la forman, casi siempre en los grados finales de la frase. Reconocerla de oído y por escrito es una de las herramientas más útiles para entender cómo se organiza una pieza.",
+      "bodyEn": "A cadence is the harmonic formula that ends a musical phrase. It works like punctuation: it can close firmly, close softly, leave the idea open or swerve somewhere else. A cadence is described by the two chords that form it, almost always the final degrees of the phrase. Recognising it by ear and on paper is one of the most useful tools for understanding how a piece is organised."
+    },
+    {
+      "id": "sec.m5-04.autentica",
+      "kind": "text",
+      "titleEs": "Cadencia auténtica (V-I)",
+      "titleEn": "Authentic cadence (V-I)",
+      "bodyEs": "La cadencia auténtica va de la dominante a la tónica: V-I. Es el cierre más fuerte porque el V contiene la sensible, que sube a la tónica, y su fundamental cae una quinta justa. Cuando el V y el I están en estado fundamental y la melodía termina en la tónica, se habla de cadencia auténtica perfecta; si alguno está invertido o la melodía no cierra en la tónica, es imperfecta. En menor se usa el V de la menor armónica, con la sensible subida: en La menor, Mi-Lam.",
+      "bodyEn": "The authentic cadence goes from the dominant to the tonic: V-I. It is the strongest close because V contains the leading tone, which rises to the tonic, and its root falls a perfect fifth. When V and I are in root position and the melody ends on the tonic, it is called a perfect authentic cadence; if either chord is inverted or the melody does not end on the tonic, it is imperfect. In minor the V of harmonic minor is used, with the raised leading tone: in A minor, E-Am."
+    },
+    {
+      "id": "sec.m5-04.plagal",
+      "kind": "text",
+      "titleEs": "Cadencia plagal (IV-I)",
+      "titleEn": "Plagal cadence (IV-I)",
+      "bodyEs": "La cadencia plagal va de la subdominante a la tónica: IV-I. No tiene sensible, así que no empuja con la misma fuerza que la dominante, y por eso suena más suave y reposada. Es la conocida cadencia «amén» de los himnos. En menor va de iv a i, con las dos tríadas menores: en Mi menor, Lam-Mim. También existe la cadencia plagal con el ii en lugar del IV, que algunos llaman plagal extendida.",
+      "bodyEn": "The plagal cadence goes from the subdominant to the tonic: IV-I. It has no leading tone, so it does not push as strongly as the dominant, and that is why it sounds softer and more restful. It is the well-known «amen» cadence of hymns. In minor it goes from iv to i, with both triads minor: in E minor, Am-Em. There is also a plagal cadence with ii instead of IV, sometimes called an extended plagal."
+    },
+    {
+      "id": "sec.m5-04.semicadencia",
+      "kind": "text",
+      "titleEs": "Semicadencia (…-V)",
+      "titleEn": "Half cadence (…-V)",
+      "bodyEs": "La semicadencia termina en la dominante y deja la frase abierta, como una coma. Puede llegar al V desde cualquier grado: I-V, ii-V o incluso IV-V. No cierra la tonalidad; al contrario, crea la expectativa de una continuación que resolverá más adelante. En el análisis se marca como semicadencia siempre que la frase termina en V, aunque el acorde anterior cambie.",
+      "bodyEn": "The half cadence ends on the dominant and leaves the phrase open, like a comma. It can reach V from any degree: I-V, ii-V or even IV-V. It does not close the key; on the contrary, it creates the expectation of a continuation that will resolve later. In analysis it is marked as a half cadence whenever the phrase ends on V, even if the preceding chord changes."
+    },
+    {
+      "id": "sec.m5-04.rota",
+      "kind": "text",
+      "titleEs": "Cadencia rota o engañosa (V-vi)",
+      "titleEn": "Deceptive cadence (V-vi)",
+      "bodyEs": "La cadencia rota, también llamada engañosa, va de V a vi: la dominante parece que va a resolver en la tónica, pero se desvía a la relativa menor. En Do mayor, Sol resuelve en Lam en lugar de Do; en menor, V-VI, como Sol-La♭ en Do menor. El oído espera el cierre y recibe un color más oscuro. No es un error: es un recurso expresivo que alarga la frase o prepara otra sección.",
+      "bodyEn": "The deceptive cadence goes from V to vi: the dominant seems about to resolve to the tonic, but it swerves to the relative minor. In C major, G resolves to Am instead of C; in minor, V-VI, such as G-A♭ in C minor. The ear expects a close and receives a darker colour. It is not a mistake: it is an expressive resource that extends the phrase or prepares another section."
+    },
+    {
+      "id": "sec.m5-04.distinguir",
+      "kind": "text",
+      "titleEs": "Cómo distinguirlas",
+      "titleEn": "How to tell them apart",
+      "bodyEs": "Mirá el segundo acorde y después el primero. Si termina en I y viene del V, es auténtica; si viene del IV o del iv, es plagal. Si termina en V, es semicadencia. Si termina en vi o VI viniendo del V, es rota. En menor, comprobá la sensible: un V mayor con sensible indica menor armónica; un v menor sin sensible suena más antiguo o modal. Escuchá las cuatro demos seguidas: el mismo Do mayor cambia de sentido según el par de acordes.",
+      "bodyEn": "Look at the second chord and then the first. If it ends on I and comes from V, it is authentic; if it comes from IV or iv, it is plagal. If it ends on V, it is a half cadence. If it ends on vi or VI coming from V, it is deceptive. In minor, check the leading tone: a major V with a leading tone indicates harmonic minor; a minor v without one sounds older or modal. Listen to the four demos in a row: the same C major changes meaning depending on the pair of chords."
+    },
+    {
+      "id": "sec.m5-04.demo-autentica",
+      "kind": "score",
+      "titleEs": "Demo: cadencia auténtica en Do mayor",
+      "titleEn": "Demo: authentic cadence in C major",
+      "bodyEs": "V-I: Sol (Sol, Si, Re) resuelve en Do (Do, Mi, Sol). La sensible Si sube a Do y el bajo salta de Sol a Do. Es el cierre más conclusivo de los cuatro.",
+      "bodyEn": "V-I: G (G, B, D) resolves to C (C, E, G). The leading tone B rises to C and the bass leaps from G to C. It is the most conclusive close of the four.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "sec.m5-04.autentica-v",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-04.autentica-i",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-04.demo-plagal",
+      "kind": "score",
+      "titleEs": "Demo: cadencia plagal en Do mayor",
+      "titleEn": "Demo: plagal cadence in C major",
+      "bodyEs": "IV-I: Fa (Fa, La, Do) resuelve en Do (Do, Mi, Sol). Sin sensible y con el bajo saltando una quinta, el cierre suena más suave que el auténtico.",
+      "bodyEn": "IV-I: F (F, A, C) resolves to C (C, E, G). Without a leading tone and with the bass leaping a fifth, the close sounds softer than the authentic one.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "sec.m5-04.plagal-iv",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "F", "accidental": "", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 76,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-04.plagal-i",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-04.demo-semicadencia",
+      "kind": "score",
+      "titleEs": "Demo: semicadencia en Do mayor",
+      "titleEn": "Demo: half cadence in C major",
+      "bodyEs": "I-V: Do (Do, Mi, Sol) llega a Sol (Sol, Si, Re) y se detiene. La frase queda suspendida en la dominante, esperando una continuación que todavía no llega.",
+      "bodyEn": "I-V: C (C, E, G) reaches G (G, B, D) and stops. The phrase is suspended on the dominant, waiting for a continuation that has not arrived yet.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "sec.m5-04.semicadencia-i",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-04.semicadencia-v",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-04.demo-rota",
+      "kind": "score",
+      "titleEs": "Demo: cadencia rota en Do mayor",
+      "titleEn": "Demo: deceptive cadence in C major",
+      "bodyEs": "V-vi: Sol (Sol, Si, Re) resuelve en Lam (La, Do, Mi) en lugar de Do. La sensible Si sube a Do, pero el bajo cae a La: el oído esperaba el cierre y recibe la relativa menor.",
+      "bodyEn": "V-vi: G (G, B, D) resolves to Am (A, C, E) instead of C. The leading tone B rises to C, but the bass falls to A: the ear expected a close and receives the relative minor.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "sec.m5-04.rota-v",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-04.rota-vi",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 76,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-04.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce cadencias para clasificar",
+      "titleEn": "Twelve cadences to classify",
+      "bodyEs": "Cada ejercicio te da una tonalidad y dos acordes con sus notas. Elegí qué cadencia forman: auténtica, plagal, semicadencia o rota. Fijate en el segundo acorde para saber si hay cierre o suspensión, y en el primero para distinguir el tipo de cierre.",
+      "bodyEn": "Each exercise gives you a key and two chords with their notes. Choose which cadence they form: authentic, plagal, half or deceptive. Look at the second chord to see whether there is a close or a suspension, and at the first to tell the type of close."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca las cuatro cadencias en Do mayor",
+    "titleEn": "Play all four cadences in C major",
+    "instructionsEs": "Tocá con la mano derecha, un acorde por compás y a 60 BPM: Sol-Do (auténtica), Fa-Do (plagal), Do-Sol (semicadencia) y Sol-Lam (rota). Antes de cada par, decí en voz baja qué cadencia es. Escuchá cómo cambia la sensación de cierre al cambiar el segundo acorde.",
+    "instructionsEn": "Play with your right hand, one chord per bar at 60 BPM: G-C (authentic), F-C (plagal), C-G (half) and G-Am (deceptive). Before each pair, say quietly which cadence it is. Listen to how the feeling of closure changes when the second chord changes.",
+    "keys": [
+      { "step": "F", "accidental": "", "octave": 3 },
+      { "step": "G", "accidental": "", "octave": 3 },
+      { "step": "A", "accidental": "", "octave": 3 },
+      { "step": "B", "accidental": "", "octave": 3 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: 1-3-5 para Do, Fa y Lam; 1-2-4 para Sol, con el Si bajo el dedo 2. Mantené la muñeca suelta y cambia de acorde sin levantar los dedos más de lo necesario.",
+    "fingeringEn": "Right hand: 1-3-5 for C, F and Am; 1-2-4 for G, with B under finger 2. Keep the wrist loose and change chords without lifting the fingers more than necessary.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué las cuatro cadencias en bloque sin tensar la muñeca",
+      "Reconocí el cierre fuerte de Sol-Do y el suave de Fa-Do",
+      "Sentí la frase abierta de Do-Sol y la desviación de Sol-Lam"
+    ],
+    "checklistEn": [
+      "I played all four cadences as blocks without tensing my wrist",
+      "I recognised the strong close of G-C and the soft close of F-C",
+      "I felt the open phrase of C-G and the swerve of G-Am"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m5-04.autentica-v",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "", "octave": 3 },
+            { "step": "D", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-04.autentica-i",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-04.plagal-iv",
+          "measure": 3,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "F", "accidental": "", "octave": 3 },
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 76,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-04.plagal-i",
+          "measure": 4,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-04.semicadencia-i",
+          "measure": 5,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-04.semicadencia-v",
+          "measure": 6,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "", "octave": 3 },
+            { "step": "D", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-04.rota-v",
+          "measure": 7,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "", "octave": 3 },
+            { "step": "D", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-04.rota-vi",
+          "measure": 8,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 76,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

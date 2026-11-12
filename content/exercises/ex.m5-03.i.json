@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-03.i",
+  "skillId": "skill.harmonic-function",
+  "type": "harmonic-function",
+  "promptEs": "En Re menor armónica, ¿qué función cumple el acorde La (La, Do♯, Mi)?",
+  "promptEn": "In D harmonic minor, what function does the chord A (A, C♯, E) fulfil?",
+  "explanationEs": "En Re menor armónica, el grado V es La. La sensible Do♯ convierte el acorde en dominante y lo hace resolver en Rem.",
+  "explanationEn": "In D harmonic minor, degree V is A. The leading tone C♯ turns the chord into a dominant and makes it resolve to Dm.",
+  "difficulty": 3,
+  "key": "D",
+  "mode": "minor",
+  "degree": 5,
+  "choices": [
+    "Subdominante (S)",
+    "Dominante (D)",
+    "Tónica (T)"
+  ],
+  "choicesEn": [
+    "Subdominant (S)",
+    "Dominant (D)",
+    "Tonic (T)"
+  ]
+}

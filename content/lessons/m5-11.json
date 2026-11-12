@@ -1,0 +1,597 @@
+{
+  "id": "lesson.m5-11",
+  "moduleId": "M5",
+  "slug": "sextas-aumentadas",
+  "titleEs": "Sextas aumentadas",
+  "titleEn": "Augmented sixth chords",
+  "summaryEs": "La sexta aumentada sobre el ♭VI, sus variantes italiana, francesa y alemana, y su resolución hacia la dominante.",
+  "summaryEn": "The augmented sixth built on ♭VI, its Italian, French and German variants, and how it resolves to the dominant.",
+  "objectivesEs": [
+    "Reconocer el intervalo de sexta aumentada entre el ♭VI y el ♯IV",
+    "Distinguir las variantes italiana, francesa y alemana por sus notas",
+    "Tocar y resolver las tres variantes en La menor"
+  ],
+  "objectivesEn": [
+    "Recognise the augmented sixth interval between ♭VI and ♯IV",
+    "Tell the Italian, French and German variants apart by their notes",
+    "Play and resolve all three variants in A minor"
+  ],
+  "minutes": 14,
+  "optional": true,
+  "prerequisites": [
+    "lesson.m5-08"
+  ],
+  "skillIds": [
+    "skill.augmented-sixth"
+  ],
+  "exerciseIds": [
+    "ex.m5-11.a",
+    "ex.m5-11.b",
+    "ex.m5-11.c",
+    "ex.m5-11.d"
+  ],
+  "sections": [
+    {
+      "id": "sec.m5-11.intervalo",
+      "kind": "text",
+      "titleEs": "El intervalo que da nombre al acorde",
+      "titleEn": "The interval that names the chord",
+      "bodyEs": "La sexta aumentada se construye sobre el sexto grado rebajado de la escala, el ♭VI, y lleva el cuarto grado subido, el ♯IV. Entre esas dos notas hay una sexta aumentada: en La menor, Fa y Re♯. Ese intervalo no pertenece a la escala, pero tiene una dirección muy clara: se abre por semitono hacia la octava de la dominante. Fa baja a Mi y Re♯ sube a Mi, de modo que la tensión se resuelve en el acorde de dominante, Mi mayor.",
+      "bodyEn": "The augmented sixth is built on the lowered sixth degree of the scale, ♭VI, and includes the raised fourth degree, ♯IV. Those two notes form an augmented sixth: in A minor, F and D♯. The interval does not belong to the scale, but it has a very clear direction: it opens by semitone to the octave of the dominant. F falls to E and D♯ rises to E, so the tension resolves into the dominant chord, E major."
+    },
+    {
+      "id": "sec.m5-11.variantes",
+      "kind": "text",
+      "titleEs": "Italiana, francesa y alemana",
+      "titleEn": "Italian, French and German",
+      "bodyEs": "Las tres variantes comparten el ♭VI y el ♯IV y se distinguen por las notas que añaden. La italiana suma la tónica y tiene tres notas: en La menor, Fa-La-Re♯. La francesa añade el segundo grado y tiene cuatro: Fa-La-Si-Re♯. La alemana añade el tercer grado rebajado y también tiene cuatro: Fa-La-Do-Re♯. En Do menor serían La♭-Do-Fa♯, La♭-Do-Re-Fa♯ y La♭-Do-Mi♭-Fa♯. La alemana suena como un acorde de séptima de dominante escrito de otra manera, pero su función y su resolución son las de una subdominante.",
+      "bodyEn": "All three variants share ♭VI and ♯IV and differ in the notes they add. The Italian adds the tonic and has three notes: in A minor, F-A-D♯. The French adds the second degree and has four: F-A-B-D♯. The German adds the lowered third degree and also has four: F-A-C-D♯. In C minor they would be A♭-C-F♯, A♭-C-D-F♯ and A♭-C-E♭-F♯. The German sounds like a dominant seventh chord spelled another way, but its function and resolution are those of a subdominant."
+    },
+    {
+      "id": "sec.m5-11.demo",
+      "kind": "score",
+      "titleEs": "Demo: las tres variantes y su resolución en La menor",
+      "titleEn": "Demo: the three variants and their resolution in A minor",
+      "bodyEs": "Primero la italiana Fa-La-Re♯ y la dominante Mi mayor; después la francesa Fa-La-Si-Re♯ y la dominante; por último la alemana Fa-La-Do-Re♯, que pasa por un 6/4 cadencial (Mi-La-Do) antes de llegar a la dominante. Escuchá cómo Fa y Re♯ se abren hacia Mi en todos los casos y cómo la alemana evita las quintas paralelas con ese paso intermedio.",
+      "bodyEn": "First the Italian F-A-D♯ and the dominant E major; then the French F-A-B-D♯ and the dominant; finally the German F-A-C-D♯, which passes through a cadential 6/4 (E-A-C) before reaching the dominant. Listen to how F and D♯ open out to E in every case, and how the German avoids parallel fifths with that intermediate step.",
+      "score": {
+        "clef": "treble",
+        "key": "A",
+        "mode": "minor",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "sec.m5-11.demo-it",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "#",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-11.demo-it-v",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "#",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-11.demo-fr",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "D",
+                "accidental": "#",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-11.demo-fr-v",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "#",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-11.demo-ger",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              },
+              {
+                "step": "D",
+                "accidental": "#",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-11.demo-ger-cad64",
+            "measure": 6,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-11.demo-ger-v",
+            "measure": 7,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              },
+              {
+                "step": "G",
+                "accidental": "#",
+                "octave": 4
+              },
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-11.resolucion",
+      "kind": "text",
+      "titleEs": "Resolución y uso",
+      "titleEn": "Resolution and use",
+      "bodyEs": "Las tres variantes resuelven en la dominante, casi siempre en primera inversión o con la fundamental duplicada. La alemana necesita un cuidado especial: si va directamente a la dominante en posición fundamental, el ♭3 y el ♭VI pueden producir quintas paralelas; por eso es habitual intercalar un 6/4 cadencial, como en la demo. La sexta aumentada es frecuente en el barroco y el clasicismo, a menudo para preparar una cadencia en menor, y también aparece en el repertorio romántico y en el cine por su color intenso y su resolución contundente.",
+      "bodyEn": "All three variants resolve to the dominant, usually in first inversion or with a doubled root. The German needs special care: if it goes directly to a root-position dominant, ♭3 and ♭VI can produce parallel fifths, so a cadential 6/4 is often inserted, as in the demo. The augmented sixth is common in the baroque and classical periods, often preparing a cadence in minor, and it also appears in Romantic repertoire and film music for its intense colour and decisive resolution."
+    },
+    {
+      "id": "sec.m5-11.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Cuatro ejercicios opcionales",
+      "titleEn": "Four optional exercises",
+      "bodyEs": "Estos ejercicios son de ampliación: podés hacerlos después de M5-08, pero la ruta obligatoria no depende de ellos. Los tres primeros muestran una sexta aumentada y piden reconocer la variante; el cuarto pregunta a qué grado resuelve la alemana. Antes de responder, identificá el ♭VI y el ♯IV y contá qué notas añade el acorde.",
+      "bodyEn": "These exercises are optional extension work: you can do them after M5-08, but the required route does not depend on them. The first three show an augmented sixth and ask you to recognise the variant; the fourth asks which degree the German resolves to. Before answering, identify ♭VI and ♯IV and count the notes the chord adds."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca las tres sextas aumentadas en La menor",
+    "titleEn": "Play the three augmented sixths in A minor",
+    "instructionsEs": "Tocá con la mano derecha y a 60 BPM: italiana Fa-La-Re♯ y dominante Mi-Sol♯-Si; francesa Fa-La-Si-Re♯ y dominante; alemana Fa-La-Do-Re♯, 6/4 cadencial Mi-La-Do y dominante. Decí la variante antes de cada acorde y escuchá cómo Fa y Re♯ se abren hacia Mi.",
+    "instructionsEn": "Play with your right hand at 60 BPM: Italian F-A-D♯ and dominant E-G♯-B; French F-A-B-D♯ and dominant; German F-A-C-D♯, cadential 6/4 E-A-C and dominant. Say the variant before each chord and listen to how F and D♯ open out to E.",
+    "keys": [
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "#",
+        "octave": 5
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "#",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano derecha: 1-3-5 para las tríadas y 1-2-3-5 o 1-2-4-5 para los acordes de cuatro notas. Buscá el movimiento mínimo: Fa baja a Mi y Re♯ sube a Mi; las demás voces se quedan o se mueven un paso.",
+    "fingeringEn": "Right hand: 1-3-5 for the triads and 1-2-3-5 or 1-2-4-5 for the four-note chords. Look for the smallest movement: F falls to E and D♯ rises to E; the other voices stay or move by step.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué las tres variantes y sus resoluciones sin perder el pulso",
+      "Dije italiana, francesa o alemana antes de cada acorde",
+      "Escuché la sexta Fa-Re♯ abrirse hacia la octava Mi-Mi"
+    ],
+    "checklistEn": [
+      "I played all three variants and their resolutions without losing the pulse",
+      "I said Italian, French or German before each chord",
+      "I heard the sixth F-D♯ open out to the octave E-E"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "A",
+      "mode": "minor",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m5-11.it",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "#",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-11.it-v",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-11.fr",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "#",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-11.fr-v",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-11.ger",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            },
+            {
+              "step": "D",
+              "accidental": "#",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-11.ger-cad64",
+          "measure": 6,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-11.ger-v",
+          "measure": 7,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "G",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

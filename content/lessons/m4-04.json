@@ -1,0 +1,321 @@
+{
+  "id": "lesson.m4-04",
+  "moduleId": "M4",
+  "slug": "septimas",
+  "titleEs": "Séptimas: maj7, 7, m7, m7♭5 y dim7",
+  "titleEn": "Sevenths: maj7, 7, m7, m7♭5 and dim7",
+  "summaryEs": "Las cinco calidades de acorde de séptima, su fórmula, su cifrado y el uso de cada una: séptima mayor, de dominante, menor, semidisminuida y disminuida.",
+  "summaryEn": "The five seventh-chord qualities, their formula, chord symbols and use: major, dominant, minor, half-diminished and diminished seventh.",
+  "objectivesEs": [
+    "Construir las cinco calidades de séptima sobre cualquier fundamental",
+    "Leer y escribir el cifrado maj7, 7, m7, m7♭5 y dim7",
+    "Reconocer la calidad de un acorde de séptima a partir de sus notas",
+    "Escribir las notas de un acorde de séptima a partir de su cifrado"
+  ],
+  "objectivesEn": [
+    "Build the five seventh-chord qualities on any root",
+    "Read and write the maj7, 7, m7, m7♭5 and dim7 symbols",
+    "Recognise a seventh chord's quality from its notes",
+    "Write the notes of a seventh chord from its symbol"
+  ],
+  "minutes": 20,
+  "prerequisites": [
+    "lesson.m4-03"
+  ],
+  "skillIds": [
+    "skill.chord-seventh"
+  ],
+  "exerciseIds": [
+    "ex.m4-04.a",
+    "ex.m4-04.b",
+    "ex.m4-04.c",
+    "ex.m4-04.d",
+    "ex.m4-04.e",
+    "ex.m4-04.f",
+    "ex.m4-04.g",
+    "ex.m4-04.h",
+    "ex.m4-04.i",
+    "ex.m4-04.j",
+    "ex.m4-04.k",
+    "ex.m4-04.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m4-04.intro",
+      "kind": "text",
+      "titleEs": "La tríada más una séptima",
+      "titleEn": "The triad plus a seventh",
+      "bodyEs": "Un acorde de séptima agrega una cuarta nota a la tríada: la séptima contada desde la fundamental. Según cómo sean la tercera, la quinta y la séptima, aparecen cinco calidades. La séptima mayor usa 1-3-5-7 (0, 4, 7 y 11 semitonos) y se cifra maj7: Do maj7 es Do-Mi-Sol-Si. La séptima de dominante baja la séptima, 1-3-5-♭7 (0, 4, 7 y 10), y se cifra solo con 7: Do7 es Do-Mi-Sol-Si♭. La séptima menor baja la tercera y la séptima, 1-♭3-5-♭7 (0, 3, 7 y 10), y se cifra m7: Do m7 es Do-Mi♭-Sol-Si♭. La séptima semidisminuida baja la tercera, la quinta y la séptima, 1-♭3-♭5-♭7 (0, 3, 6 y 10), y se cifra m7♭5: Do m7♭5 es Do-Mi♭-Sol♭-Si♭. La séptima disminuida baja también la séptima, 1-♭3-♭5-♭♭7 (0, 3, 6 y 9), y se cifra dim7: Do dim7 es Do-Mi♭-Sol♭-Si♭♭, donde Si♭♭ suena igual que La.",
+      "bodyEn": "A seventh chord adds a fourth note to the triad: the seventh counted from the root. Depending on the third, fifth and seventh, five qualities appear. The major seventh uses 1-3-5-7 (0, 4, 7 and 11 semitones) and is written maj7: Cmaj7 is C-E-G-B. The dominant seventh lowers the seventh, 1-3-5-♭7 (0, 4, 7 and 10), and is written with just 7: C7 is C-E-G-Bb. The minor seventh lowers the third and the seventh, 1-♭3-5-♭7 (0, 3, 7 and 10), and is written m7: Cm7 is C-Eb-G-Bb. The half-diminished seventh lowers the third, fifth and seventh, 1-♭3-♭5-♭7 (0, 3, 6 and 10), and is written m7♭5: Cm7♭5 is C-Eb-Gb-Bb. The diminished seventh also lowers the seventh, 1-♭3-♭5-♭♭7 (0, 3, 6 and 9), and is written dim7: Cdim7 is C-Eb-Gb-Bbb, where Bbb sounds the same as A."
+    },
+    {
+      "id": "sec.m4-04.uso",
+      "kind": "text",
+      "titleEs": "Para qué sirve cada séptima",
+      "titleEn": "What each seventh is for",
+      "bodyEs": "La séptima mayor suena estable y luminosa, y se usa como color de tónica o de subdominante. La de dominante es la séptima con más tensión: su tritono entre la tercera y la séptima pide resolver, normalmente bajando la séptima y subiendo la tercera hacia la tónica. La séptima menor es el color habitual de la tónica menor y de las áreas de subdominante. La séptima semidisminuida aparece sobre todo en el segundo grado de menor y prepara la dominante. La séptima disminuida es simétrica, inestable y ambigua, y suele funcionar como paso cromático o como dominante sin fundamental. El cifrado no dice la inversión: para eso se agrega el bajo con una barra, como en Do7/Mi.",
+      "bodyEn": "The major seventh sounds stable and bright, and is used as colour for the tonic or subdominant. The dominant seventh is the most tense seventh: its tritone between the third and the seventh asks to resolve, usually by lowering the seventh and raising the third towards the tonic. The minor seventh is the usual colour of the minor tonic and of subdominant areas. The half-diminished seventh appears mostly on the second degree of minor and prepares the dominant. The diminished seventh is symmetrical, unstable and ambiguous, and usually works as a chromatic step or as a dominant without a root. The symbol does not show the inversion: for that, the bass is added with a slash, as in C7/E."
+    },
+    {
+      "id": "sec.m4-04.demo",
+      "kind": "score",
+      "titleEs": "Escuchá las cinco séptimas sobre Do",
+      "titleEn": "Hear the five sevenths on C",
+      "bodyEs": "Escuchá y mirá cinco acordes construidos sobre Do, uno por compás: Do maj7 (Do-Mi-Sol-Si), Do7 (Do-Mi-Sol-Si♭), Do m7 (Do-Mi♭-Sol-Si♭), Do m7♭5 (Do-Mi♭-Sol♭-Si♭) y Do dim7 (Do-Mi♭-Sol♭-Si♭♭). Las cuatro primeras comparten la fundamental Do y cambian la tercera, la quinta o la séptima; la última es simétrica y queda sin una tónica clara. Compará sobre todo la séptima: Si natural en maj7, Si♭ en las otras tres y Si♭♭ (La) en dim7.",
+      "bodyEn": "Listen to and look at five chords built on C, one per bar: Cmaj7 (C-E-G-B), C7 (C-E-G-Bb), Cm7 (C-Eb-G-Bb), Cm7♭5 (C-Eb-Gb-Bb) and Cdim7 (C-Eb-Gb-Bbb). The first four share the root C and change the third, fifth or seventh; the last is symmetrical and has no clear tonic. Compare the seventh above all: B natural in maj7, Bb in the other three and Bbb (A) in dim7.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m4-04.maj7",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-04.dominante",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-04.menor",
+            "measure": 3,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "b", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-04.semidisminuida",
+            "measure": 4,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "b", "octave": 4 },
+              { "step": "G", "accidental": "b", "octave": 4 },
+              { "step": "B", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-04.disminuida",
+            "measure": 5,
+            "beat": 0,
+            "value": {
+              "duration": "whole",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "b", "octave": 4 },
+              { "step": "G", "accidental": "b", "octave": 4 },
+              { "step": "B", "accidental": "bb", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m4-04.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios de séptimas",
+      "titleEn": "Twelve seventh-chord exercises",
+      "bodyEs": "Los primeros seis ejercicios dan las cuatro notas y preguntan la calidad; los otros seis dan el cifrado y piden escribir las notas de grave a agudo, separadas por espacios. Las doce tónicas aparecen una vez cada una y las cinco calidades se reparten entre los dos bloques. Para responder, mirá la tercera, la quinta y la séptima, o construí el acorde contando semitonos desde la fundamental.",
+      "bodyEn": "The first six exercises give the four notes and ask for the quality; the other six give the symbol and ask you to write the notes from low to high, separated by spaces. The twelve roots appear once each and the five qualities are shared between the two blocks. To answer, look at the third, fifth and seventh, or build the chord by counting semitones from the root."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca las cinco séptimas sobre Do",
+    "titleEn": "Play the five sevenths on C",
+    "instructionsEs": "Con la mano derecha, tocá las cinco calidades sobre Do en orden: Do maj7 (Do-Mi-Sol-Si), Do7 (Do-Mi-Sol-Si♭), Do m7 (Do-Mi♭-Sol-Si♭), Do m7♭5 (Do-Mi♭-Sol♭-Si♭) y Do dim7 (Do-Mi♭-Sol♭-Si♭♭). Mantené la fundamental y cambiá solo las notas necesarias. Repetí a 60 BPM y escuchá la séptima de cada acorde antes de pasar al siguiente.",
+    "instructionsEn": "With your right hand, play the five qualities on C in order: Cmaj7 (C-E-G-B), C7 (C-E-G-Bb), Cm7 (C-Eb-G-Bb), Cm7♭5 (C-Eb-Gb-Bb) and Cdim7 (C-Eb-Gb-Bbb). Keep the root and change only the notes you need. Repeat at 60 BPM and listen to each chord's seventh before moving to the next.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "B", "accidental": "", "octave": 4 },
+      { "step": "B", "accidental": "b", "octave": 4 },
+      { "step": "E", "accidental": "b", "octave": 4 },
+      { "step": "G", "accidental": "b", "octave": 4 },
+      { "step": "B", "accidental": "bb", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: 1-2-3-5 para las séptimas. En dim7, Si♭♭ se toca en la tecla de La.",
+    "fingeringEn": "Right hand: 1-2-3-5 for the sevenths. In dim7, Bbb is played on the A key.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué las cinco calidades manteniendo Do en la fundamental",
+      "Escuché la diferencia entre Si natural, Si♭ y Si♭♭",
+      "Repetí la secuencia sin apuro y con un pulso estable"
+    ],
+    "checklistEn": [
+      "I played the five qualities keeping C as the root",
+      "I heard the difference between B natural, Bb and Bbb",
+      "I repeated the sequence slowly with a steady pulse"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m4-04.maj7",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-04.dominante",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "b", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-04.menor",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "b", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "b", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-04.semidisminuida",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "b", "octave": 4 },
+            { "step": "G", "accidental": "b", "octave": 4 },
+            { "step": "B", "accidental": "b", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-04.disminuida",
+          "measure": 5,
+          "beat": 0,
+          "value": {
+            "duration": "whole",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "b", "octave": 4 },
+            { "step": "G", "accidental": "b", "octave": 4 },
+            { "step": "B", "accidental": "bb", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

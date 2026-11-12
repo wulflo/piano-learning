@@ -1,0 +1,46 @@
+{
+  "id": "ex.m1-07.d",
+  "skillId": "skill.rhythm-variants",
+  "type": "rhythm-dictation",
+  "promptEs": "Escuchá el dictado en 4/4. ¿Qué secuencia de figuras lo representa?",
+  "explanationEs": "El dictado suma cuatro tiempos: la negra con puntillo dura un tiempo y medio, la corchea medio tiempo y la blanca dos tiempos.",
+  "difficulty": 2,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "pattern": [
+    {
+      "duration": "quarter",
+      "dots": 1,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "half",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "choices": [
+    "Negra con puntillo, Corchea, Blanca",
+    "Negra, Corchea, Blanca",
+    "Negra con puntillo, Semicorchea, Blanca",
+    "Blanca con puntillo, Corchea, Negra"
+  ],
+  "promptEn": "Listen to the dictation in 4/4. Which sequence of note values represents it?",
+  "explanationEn": "The dictation adds up to four beats: the dotted quarter note lasts one beat and a half, the eighth note half a beat and the half note two beats.",
+  "choicesEn": [
+    "Dotted quarter note, Eighth note, Half note",
+    "Quarter note, Eighth note, Half note",
+    "Dotted quarter note, Sixteenth note, Half note",
+    "Dotted half note, Eighth note, Quarter note"
+  ]
+}

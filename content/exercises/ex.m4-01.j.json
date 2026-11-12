@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-01.j",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada construida sobre A con la regla 1-3-5?",
+  "promptEn": "What quality does the triad built on A with the 1-3-5 rule have?",
+  "explanationEs": "La tríada de La menor se construye con la regla 1-3-5: La, Do y Mi. La tercera, La-Do, está a tres semitonos de la fundamental, así que su calidad es menor.",
+  "explanationEn": "The A minor triad is built with the 1-3-5 rule: A, C and E. The third, A-C, is three semitones above the root, so its quality is minor.",
+  "difficulty": 2,
+  "root": { "step": "A", "accidental": "", "octave": 4 },
+  "quality": "minor",
+  "inversion": 0,
+  "choices": ["mayor", "menor", "disminuido", "aumentado"],
+  "choicesEn": ["major", "minor", "diminished", "augmented"]
+}

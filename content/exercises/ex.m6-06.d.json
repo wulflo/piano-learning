@@ -1,0 +1,119 @@
+{
+  "id": "ex.m6-06.d",
+  "skillId": "skill.ornament",
+  "type": "ornament-execution",
+  "promptEs": "¿Qué adorno se ejecuta en esta realización?",
+  "promptEn": "Which ornament is played in this realisation?",
+  "explanationEs": "La melodía baja una vez a la nota inferior y vuelve enseguida a la principal. Ese único descenso y retorno es el mordente; si repitiera la alternancia muchas veces sería un trino.",
+  "explanationEn": "The melody drops once to the lower note and returns at once to the main note. That single dip and return is the mordent; if it repeated the alternation many times it would be a trill.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 76,
+    "events": [
+      {
+        "id": "ex.m6-06.d.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.d.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.d.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "half",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-06.d.4",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "ornament": "mordent",
+  "choices": [
+    "Trino: alternar la nota principal con la superior",
+    "Mordente: bajar a la inferior y volver a la principal",
+    "Grupeto: superior, principal, inferior y principal",
+    "Apoyatura: apoyarse en la vecina antes de la principal"
+  ],
+  "choicesEn": [
+    "Trill: alternate the main note with the upper note",
+    "Mordent: drop to the lower note and return to the main note",
+    "Turn: upper, main, lower, main",
+    "Appoggiatura: lean on the neighbour before the main note"
+  ]
+}

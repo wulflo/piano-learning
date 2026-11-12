@@ -1,0 +1,64 @@
+{
+  "id": "ex.m5-11.d",
+  "skillId": "skill.augmented-sixth",
+  "type": "augmented-sixth",
+  "optional": true,
+  "promptEs": "En La menor, esta sexta aumentada alemana resuelve en un acorde de la tonalidad. ¿A qué grado resuelve?",
+  "promptEn": "In A minor, this German augmented sixth resolves to a chord of the key. Which degree does it resolve to?",
+  "explanationEs": "La sexta aumentada alemana Fa-La-Do-Re♯ resuelve en la dominante, Mi mayor (V). Las voces externas se abren: Fa baja a Mi y Re♯ sube a Mi, formando una octava. Para evitar quintas paralelas entre Fa-Do y Mi-Si, lo habitual es pasar antes por el 6/4 cadencial Mi-La-Do, como muestra la lección.",
+  "explanationEn": "The German augmented sixth F-A-C-D♯ resolves to the dominant, E major (V). The outer voices open out: F falls to E and D♯ rises to E, forming an octave. To avoid parallel fifths between F-C and E-B, it usually passes through the cadential 6/4 E-A-C first, as the lesson shows.",
+  "difficulty": 2,
+  "key": "A",
+  "mode": "minor",
+  "variant": "german",
+  "ask": "resolve",
+  "score": {
+    "clef": "treble",
+    "key": "A",
+    "mode": "minor",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m5-11.d.chord",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          },
+          {
+            "step": "D",
+            "accidental": "#",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": ["V", "I", "vi"],
+  "choicesEn": ["V", "I", "vi"]
+}

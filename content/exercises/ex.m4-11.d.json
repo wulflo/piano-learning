@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-11.d",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de Famaj7 suena Mi-Fa-La-Do, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The Fmaj7 chord sounds E-F-A-C, from low to high. What inversion is it?",
+  "explanationEs": "El bajo es Mi, la séptima de Famaj7: es la tercera inversión. Las notas son 7-1-3-5, con la séptima abajo y la fundamental justo arriba.",
+  "explanationEn": "The bass is E, the seventh of Fmaj7: it is the third inversion. The notes are 7-1-3-5, with the seventh at the bottom and the root right above it.",
+  "difficulty": 3,
+  "root": { "step": "F", "accidental": "", "octave": 4 },
+  "quality": "major7",
+  "inversion": 3,
+  "ask": "inversion",
+  "choices": ["tercera inversión", "segunda inversión", "primera inversión", "estado fundamental"],
+  "choicesEn": ["third inversion", "second inversion", "first inversion", "root position"]
+}

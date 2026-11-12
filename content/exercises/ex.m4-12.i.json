@@ -1,0 +1,17 @@
+{
+  "id": "ex.m4-12.i",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "El acorde suena Re, Mi, Fa♯, Sol, La, Si y Do♯, de grave a agudo. ¿Qué cifrado le corresponde?",
+  "promptEn": "The chord sounds D, E, F#, G, A, B and C#, from low to high. Which symbol matches it?",
+  "explanationEs": "Es Mim13/Re: Mi m13 se construye Mi-Sol-Si-Re-Fa♯-La-Do♯ y, con Re en el bajo, queda Re-Mi-Fa♯-Sol-La-Si-Do♯. Re es la séptima menor de Mi, así que es la tercera inversión; están las siete notas, incluidas la novena Fa♯, la oncena La y la trecena Do♯.",
+  "explanationEn": "It is Em13/D: Em13 is E-G-B-D-F#-A-C# and, with D in the bass, becomes D-E-F#-G-A-B-C#. D is the minor seventh of E, so it is the third inversion; all seven notes are present, including the ninth F#, the eleventh A and the thirteenth C#.",
+  "difficulty": 5,
+  "root": { "step": "E", "accidental": "", "octave": 4 },
+  "quality": "minor13",
+  "slash": { "step": "D", "accidental": "", "octave": 4 },
+  "inversion": 3,
+  "ask": "symbol",
+  "choices": ["Mim13/Re", "Mim11/Re", "Mim13/Si"],
+  "choicesEn": ["Em13/D", "Em11/D", "Em13/B"]
+}

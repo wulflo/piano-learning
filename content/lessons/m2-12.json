@@ -1,0 +1,83 @@
+{
+  "id": "lesson.m2-12",
+  "moduleId": "M2",
+  "slug": "digitacion-de-escalas",
+  "titleEs": "Digitación de escalas",
+  "titleEn": "Scale fingering",
+  "summaryEs": "Las reglas de pulgar y la digitación de las doce escalas mayores y doce menores.",
+  "summaryEn": "The thumb rules and the fingering of the twelve major and twelve minor scales.",
+  "objectivesEs": [
+    "Conocer las reglas de pulgar para tocar escalas",
+    "Aplicar la digitación a las escalas mayores",
+    "Aplicar la digitación a las escalas menores"
+  ],
+  "objectivesEn": [
+    "Know the thumb rules for playing scales",
+    "Apply the fingering to the major scales",
+    "Apply the fingering to the minor scales"
+  ],
+  "minutes": 14,
+  "prerequisites": [
+    "lesson.m2-11"
+  ],
+  "skillIds": [
+    "skill.major-scale"
+  ],
+  "sections": [
+    {
+      "id": "sec.m2-12.intro",
+      "kind": "text",
+      "titleEs": "Reglas de pulgar",
+      "titleEn": "Thumb rules",
+      "bodyEs": "En las escalas el pulgar sigue la regla de relajación y apoyo: el pulgar del piano se apoya en la cejilla sin cruzar la mano, y alterna con el dedo 5 de la misma mano. Para las doce escalas mayores y las doce menores se repite el patrón de grados con la digitación adecuada: los grados se asignan a los dedos de la mano derecha empezando en el pulgar para la tónica y continuando con los dedos 2 a 5.",
+      "bodyEn": "In scales the thumb follows the rule of relaxation and support: the thumb rests on the key without crossing the hand, and it alternates with finger 5 of the same hand. For the twelve major and the twelve minor scales you repeat the pattern of degrees with the right fingering: degrees are assigned to the fingers of the right hand starting with the thumb on the tonic and continuing with fingers 2 to 5."
+    },
+    {
+      "id": "sec.m2-12.digitacion",
+      "kind": "text",
+      "titleEs": "Digitación de las escalas",
+      "titleEn": "Fingering of the scales",
+      "bodyEs": "Para las doce escalas mayores y las doce menores se usa la misma lógica de digitación: la tónica se toca con el pulgar relajado, la segunda con el dedo 2, la tercera con el dedo 3, la cuarta con el dedo 4, la quinta con el dedo 5 y las repeticiones con la técnica de la escala. La digitación depende del patrón de semitonos, no solo de la letra de la nota.",
+      "bodyEn": "For the twelve major and the twelve minor scales you use the same fingering logic: the tonic is played with a relaxed thumb, the second with finger 2, the third with finger 3, the fourth with finger 4, the fifth with finger 5, and the repetitions with the scale technique. The fingering depends on the semitone pattern, not just on the note letter."
+    },
+    {
+      "id": "sec.m2-12.practica",
+      "kind": "text",
+      "titleEs": "Práctica con tarea",
+      "titleEn": "Practice with a task",
+      "bodyEs": "La tarea de esta lección pide tocar una escala mayor completa con la digitación correcta y con tempo progresivo desde el metrónomo.",
+      "bodyEn": "The task for this lesson asks you to play a full major scale with the correct fingering and at a progressive tempo from the metronome."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la escala mayor de Do con digitación",
+    "titleEn": "Play the C major scale with fingering",
+    "instructionsEs": "Tocá la escala mayor de Do (Do, Re, Mi, Fa, Sol, La, Si, Do) con la digitación de la escala a 60 BPM, despacio y sin apuro.",
+    "instructionsEn": "Play the C major scale (C, D, E, F, G, A, B, C) with the scale fingering at 60 BPM, slowly and without rushing.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "A", "accidental": "", "octave": 4 },
+      { "step": "B", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 5 }
+    ],
+    "fingeringEs": "Mano derecha: pulgar en la tónica (C) y dedos 1 a 5 para los grados siguientes; 1-2-3-4-5-4-3-2.",
+    "fingeringEn": "Right hand: thumb on the tonic (C) and fingers 1 to 5 for the following degrees; 1-2-3-4-5-4-3-2.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué la escala mayor de Do con la digitación correcta",
+      "Mantuve la relajación del pulgar sin tensión",
+      "Repetí la escala despacio con pulso de negra"
+    ],
+    "checklistEn": [
+      "I played the C major scale with the correct fingering",
+      "I kept my thumb relaxed without tension",
+      "I repeated the scale slowly with a quarter-note pulse"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

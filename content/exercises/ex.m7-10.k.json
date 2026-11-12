@@ -1,0 +1,30 @@
+{
+  "id": "ex.m7-10.k",
+  "skillId": "skill.ear-progression",
+  "type": "ear-progression",
+  "promptEs": "¿Qué grados forman la rueda de acordes que suena?",
+  "promptEn": "Which degrees form the chord wheel you hear?",
+  "explanationEs": "La rueda I–vi–ii–V en Fa mayor es Fa–Rem–Solm–Do. Fijate que el cuarto grado de la escala es Si♭ y por eso el acorde de Sol es Solm.",
+  "explanationEn": "The I–vi–ii–V wheel in F major is F–Dm–Gm–C. Notice that the fourth degree of the scale is B-flat, which is why the chord on G is Gm.",
+  "difficulty": 2,
+  "key": "F",
+  "mode": "major",
+  "degrees": [
+    "I",
+    "vi",
+    "ii",
+    "V"
+  ],
+  "choices": [
+    "I vi ii V",
+    "I IV V I",
+    "I V vi IV",
+    "ii V I vi"
+  ],
+  "choicesEn": [
+    "I vi ii V",
+    "I IV V I",
+    "I V vi IV",
+    "ii V I vi"
+  ]
+}

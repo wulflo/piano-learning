@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-01.d",
+  "skillId": "skill.diatonic-chords",
+  "type": "chord",
+  "promptEs": "En Fa♯ mayor, ¿qué cifrado tiene la séptima diatónica del grado vii?",
+  "promptEn": "In F♯ major, what is the symbol of the diatonic seventh on degree vii?",
+  "explanationEs": "En Fa♯ mayor, el grado vii se construye sobre Mi♯: Mi♯-Sol♯-Si-Re♯. La quinta Mi♯-Si es disminuida y la séptima Mi♯-Re♯ es menor, así que la séptima es semidisminuida y se cifra Mi♯m7b5.",
+  "explanationEn": "In F♯ major, degree vii is built on E♯: E♯-G♯-B-D♯. The fifth E♯-B is diminished and the seventh E♯-D♯ is minor, so the seventh is half-diminished and its symbol is E♯m7b5.",
+  "difficulty": 3,
+  "root": {
+    "step": "E",
+    "accidental": "#",
+    "octave": 5
+  },
+  "quality": "half-diminished7",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Mi♯m7b5",
+    "Mi♯°7",
+    "Mi♯m7",
+    "Mi♯maj7"
+  ],
+  "choicesEn": [
+    "E♯m7b5",
+    "E♯°7",
+    "E♯m7",
+    "E♯maj7"
+  ]
+}

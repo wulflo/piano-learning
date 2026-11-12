@@ -1,0 +1,25 @@
+{
+  "id": "ex.m5-08.c",
+  "skillId": "skill.modal-mixture",
+  "type": "borrowed-chord",
+  "promptEs": "En Re mayor, el acorde Sol menor (Sol, Si♭, Re) se toma prestado del modo paralelo. ¿Qué número romano le corresponde?",
+  "promptEn": "In D major, the chord G minor (G, B♭, D) is borrowed from the parallel mode. Which Roman numeral does it get?",
+  "explanationEs": "En Re mayor, Sol menor es el iv del modo paralelo, la subdominante menor y se cifra iv. El intercambio modal conserva la fundamental del grado pero cambia su cualidad y, a veces, añade una alteración.",
+  "explanationEn": "In D major, G minor is the iv of the parallel mode, the minor subdominant and it is labelled iv. Modal mixture keeps the root of the degree but changes its quality and sometimes adds an accidental.",
+  "difficulty": 2,
+  "key": "D",
+  "mode": "major",
+  "numeral": "iv",
+  "choices": [
+    "IV",
+    "iv",
+    "ii°",
+    "bVII"
+  ],
+  "choicesEn": [
+    "IV",
+    "iv",
+    "ii°",
+    "bVII"
+  ]
+}

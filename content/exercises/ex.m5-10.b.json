@@ -1,0 +1,16 @@
+{
+  "id": "ex.m5-10.b",
+  "skillId": "skill.neapolitan",
+  "type": "roman-numeral",
+  "optional": true,
+  "promptEs": "En La menor, el acorde Si♭ mayor (Si♭, Re, Fa) funciona como napolitana. ¿Qué número romano le corresponde?",
+  "promptEn": "In A minor, the B♭ major chord (B♭, D, F) works as a Neapolitan. Which Roman numeral does it get?",
+  "explanationEs": "En La menor el segundo grado ya es Si♭, así que la napolitana es directamente Si♭ mayor: Si♭-Re-Fa. Se cifra ♭II. No confundirla con el ii° diatónico (Si-Re-Fa), que tiene la quinta disminuida.",
+  "explanationEn": "In A minor the second degree is already B♭, so the Neapolitan is simply B♭ major: B♭-D-F. It is labelled ♭II. Do not confuse it with the diatonic ii° (B-D-F), which has a diminished fifth.",
+  "difficulty": 2,
+  "key": "A",
+  "mode": "minor",
+  "numeral": "bII",
+  "choices": ["bII", "ii°", "bVII"],
+  "choicesEn": ["bII", "ii°", "bVII"]
+}

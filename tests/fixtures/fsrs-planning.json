@@ -1,0 +1,516 @@
+{
+  "clock": "2026-01-01T09:00:00.000Z",
+  "params": {
+    "desiredRetention": 0.9,
+    "maximumInterval": 365,
+    "fuzz": false
+  },
+  "cases": [
+    {
+      "name": "nuevo-good",
+      "initial": "new",
+      "ratings": [
+        "good"
+      ],
+      "expected": [
+        {
+          "rating": "good",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "learning",
+          "due": "2026-01-01T09:10:00.000Z",
+          "scheduledDays": 0,
+          "reps": 1,
+          "lapses": 0,
+          "learningStep": 1,
+          "logState": "learning",
+          "logId": "skill.fixture.log.1767258000000"
+        }
+      ]
+    },
+    {
+      "name": "nuevo-easy",
+      "initial": "new",
+      "ratings": [
+        "easy"
+      ],
+      "expected": [
+        {
+          "rating": "easy",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "review",
+          "due": "2026-01-09T09:00:00.000Z",
+          "scheduledDays": 8,
+          "reps": 1,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767258000000"
+        }
+      ]
+    },
+    {
+      "name": "nuevo-hard",
+      "initial": "new",
+      "ratings": [
+        "hard"
+      ],
+      "expected": [
+        {
+          "rating": "hard",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "learning",
+          "due": "2026-01-01T09:05:30.000Z",
+          "scheduledDays": 0,
+          "reps": 1,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "learning",
+          "logId": "skill.fixture.log.1767258000000"
+        }
+      ]
+    },
+    {
+      "name": "nuevo-again",
+      "initial": "new",
+      "ratings": [
+        "again"
+      ],
+      "expected": [
+        {
+          "rating": "again",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "learning",
+          "due": "2026-01-01T09:01:00.000Z",
+          "scheduledDays": 0,
+          "reps": 1,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "learning",
+          "logId": "skill.fixture.log.1767258000000"
+        }
+      ]
+    },
+    {
+      "name": "nuevo-good-good-good",
+      "initial": "new",
+      "ratings": [
+        "good",
+        "good",
+        "good"
+      ],
+      "expected": [
+        {
+          "rating": "good",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "learning",
+          "due": "2026-01-01T09:10:00.000Z",
+          "scheduledDays": 0,
+          "reps": 1,
+          "lapses": 0,
+          "learningStep": 1,
+          "logState": "learning",
+          "logId": "skill.fixture.log.1767258000000"
+        },
+        {
+          "rating": "good",
+          "at": "2026-01-01T09:10:00.000Z",
+          "state": "review",
+          "due": "2026-01-03T09:10:00.000Z",
+          "scheduledDays": 2,
+          "reps": 2,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767258600000"
+        },
+        {
+          "rating": "good",
+          "at": "2026-01-03T09:10:00.000Z",
+          "state": "review",
+          "due": "2026-01-14T09:10:00.000Z",
+          "scheduledDays": 11,
+          "reps": 3,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767431400000"
+        }
+      ]
+    },
+    {
+      "name": "nuevo-hasta-graduar",
+      "initial": "new",
+      "ratings": [
+        "good",
+        "good",
+        "good",
+        "good",
+        "good",
+        "good"
+      ],
+      "expected": [
+        {
+          "rating": "good",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "learning",
+          "due": "2026-01-01T09:10:00.000Z",
+          "scheduledDays": 0,
+          "reps": 1,
+          "lapses": 0,
+          "learningStep": 1,
+          "logState": "learning",
+          "logId": "skill.fixture.log.1767258000000"
+        },
+        {
+          "rating": "good",
+          "at": "2026-01-01T09:10:00.000Z",
+          "state": "review",
+          "due": "2026-01-03T09:10:00.000Z",
+          "scheduledDays": 2,
+          "reps": 2,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767258600000"
+        },
+        {
+          "rating": "good",
+          "at": "2026-01-03T09:10:00.000Z",
+          "state": "review",
+          "due": "2026-01-14T09:10:00.000Z",
+          "scheduledDays": 11,
+          "reps": 3,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767431400000"
+        },
+        {
+          "rating": "good",
+          "at": "2026-01-14T09:10:00.000Z",
+          "state": "review",
+          "due": "2026-03-01T09:10:00.000Z",
+          "scheduledDays": 46,
+          "reps": 4,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1768381800000"
+        },
+        {
+          "rating": "good",
+          "at": "2026-03-01T09:10:00.000Z",
+          "state": "review",
+          "due": "2026-08-11T09:10:00.000Z",
+          "scheduledDays": 163,
+          "reps": 5,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1772356200000"
+        },
+        {
+          "rating": "good",
+          "at": "2026-08-11T09:10:00.000Z",
+          "state": "review",
+          "due": "2027-08-11T09:10:00.000Z",
+          "scheduledDays": 365,
+          "reps": 6,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1786439400000"
+        }
+      ]
+    },
+    {
+      "name": "learning-good",
+      "initial": {
+        "due": "2026-01-01T09:00:00.000Z",
+        "stability": 2.3065,
+        "difficulty": 2.11810397,
+        "elapsedDays": 0,
+        "scheduledDays": 0,
+        "reps": 1,
+        "lapses": 0,
+        "state": "learning",
+        "learningStep": 1,
+        "lastReview": "2025-12-31T08:50:00.000Z"
+      },
+      "ratings": [
+        "good"
+      ],
+      "expected": [
+        {
+          "rating": "good",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "review",
+          "due": "2026-01-08T09:00:00.000Z",
+          "scheduledDays": 7,
+          "reps": 2,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767258000000"
+        }
+      ]
+    },
+    {
+      "name": "nuevo-easy-good",
+      "initial": "new",
+      "ratings": [
+        "easy",
+        "good"
+      ],
+      "expected": [
+        {
+          "rating": "easy",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "review",
+          "due": "2026-01-09T09:00:00.000Z",
+          "scheduledDays": 8,
+          "reps": 1,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767258000000"
+        },
+        {
+          "rating": "good",
+          "at": "2026-01-09T09:00:00.000Z",
+          "state": "review",
+          "due": "2026-02-17T09:00:00.000Z",
+          "scheduledDays": 39,
+          "reps": 2,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767949200000"
+        }
+      ]
+    },
+    {
+      "name": "repaso-good",
+      "initial": {
+        "due": "2026-01-01T09:00:00.000Z",
+        "stability": 10,
+        "difficulty": 5,
+        "elapsedDays": 3,
+        "scheduledDays": 3,
+        "reps": 3,
+        "lapses": 0,
+        "state": "review",
+        "learningStep": 0,
+        "lastReview": "2025-12-29T09:00:00.000Z"
+      },
+      "ratings": [
+        "good"
+      ],
+      "expected": [
+        {
+          "rating": "good",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "review",
+          "due": "2026-01-19T09:00:00.000Z",
+          "scheduledDays": 18,
+          "reps": 4,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767258000000"
+        }
+      ]
+    },
+    {
+      "name": "repaso-hard-easy",
+      "initial": {
+        "due": "2026-01-01T09:00:00.000Z",
+        "stability": 10,
+        "difficulty": 5,
+        "elapsedDays": 3,
+        "scheduledDays": 3,
+        "reps": 3,
+        "lapses": 0,
+        "state": "review",
+        "learningStep": 0,
+        "lastReview": "2025-12-29T09:00:00.000Z"
+      },
+      "ratings": [
+        "hard",
+        "easy"
+      ],
+      "expected": [
+        {
+          "rating": "hard",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "review",
+          "due": "2026-01-16T09:00:00.000Z",
+          "scheduledDays": 15,
+          "reps": 4,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767258000000"
+        },
+        {
+          "rating": "easy",
+          "at": "2026-01-16T09:00:00.000Z",
+          "state": "review",
+          "due": "2026-03-14T09:00:00.000Z",
+          "scheduledDays": 57,
+          "reps": 5,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1768554000000"
+        }
+      ]
+    },
+    {
+      "name": "repaso-again",
+      "initial": {
+        "due": "2026-01-01T09:00:00.000Z",
+        "stability": 10,
+        "difficulty": 5,
+        "elapsedDays": 3,
+        "scheduledDays": 3,
+        "reps": 3,
+        "lapses": 0,
+        "state": "review",
+        "learningStep": 0,
+        "lastReview": "2025-12-29T09:00:00.000Z"
+      },
+      "ratings": [
+        "again"
+      ],
+      "expected": [
+        {
+          "rating": "again",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "relearning",
+          "due": "2026-01-01T09:10:00.000Z",
+          "scheduledDays": 0,
+          "reps": 4,
+          "lapses": 1,
+          "learningStep": 0,
+          "logState": "relearning",
+          "logId": "skill.fixture.log.1767258000000"
+        }
+      ]
+    },
+    {
+      "name": "repaso-again-good",
+      "initial": {
+        "due": "2026-01-01T09:00:00.000Z",
+        "stability": 10,
+        "difficulty": 5,
+        "elapsedDays": 3,
+        "scheduledDays": 3,
+        "reps": 3,
+        "lapses": 0,
+        "state": "review",
+        "learningStep": 0,
+        "lastReview": "2025-12-29T09:00:00.000Z"
+      },
+      "ratings": [
+        "again",
+        "good"
+      ],
+      "expected": [
+        {
+          "rating": "again",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "relearning",
+          "due": "2026-01-01T09:10:00.000Z",
+          "scheduledDays": 0,
+          "reps": 4,
+          "lapses": 1,
+          "learningStep": 0,
+          "logState": "relearning",
+          "logId": "skill.fixture.log.1767258000000"
+        },
+        {
+          "rating": "good",
+          "at": "2026-01-01T09:10:00.000Z",
+          "state": "review",
+          "due": "2026-01-02T09:10:00.000Z",
+          "scheduledDays": 1,
+          "reps": 5,
+          "lapses": 1,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767258600000"
+        }
+      ]
+    },
+    {
+      "name": "relearning-good",
+      "initial": {
+        "due": "2026-01-01T09:00:00.000Z",
+        "stability": 10,
+        "difficulty": 5,
+        "elapsedDays": 3,
+        "scheduledDays": 3,
+        "reps": 4,
+        "lapses": 1,
+        "state": "relearning",
+        "learningStep": 0,
+        "lastReview": "2025-12-30T09:00:00.000Z"
+      },
+      "ratings": [
+        "good"
+      ],
+      "expected": [
+        {
+          "rating": "good",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "review",
+          "due": "2026-01-17T09:00:00.000Z",
+          "scheduledDays": 16,
+          "reps": 5,
+          "lapses": 1,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767258000000"
+        }
+      ]
+    },
+    {
+      "name": "repaso-intervalo-maximo",
+      "initial": {
+        "due": "2026-01-01T09:00:00.000Z",
+        "stability": 500,
+        "difficulty": 5,
+        "elapsedDays": 3,
+        "scheduledDays": 3,
+        "reps": 3,
+        "lapses": 0,
+        "state": "review",
+        "learningStep": 0,
+        "lastReview": "2025-12-29T09:00:00.000Z"
+      },
+      "params": {
+        "desiredRetention": 0.9,
+        "maximumInterval": 30,
+        "fuzz": false
+      },
+      "ratings": [
+        "good"
+      ],
+      "expected": [
+        {
+          "rating": "good",
+          "at": "2026-01-01T09:00:00.000Z",
+          "state": "review",
+          "due": "2026-01-31T09:00:00.000Z",
+          "scheduledDays": 30,
+          "reps": 4,
+          "lapses": 0,
+          "learningStep": 0,
+          "logState": "review",
+          "logId": "skill.fixture.log.1767258000000"
+        }
+      ]
+    }
+  ]
+}

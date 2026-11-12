@@ -1,0 +1,325 @@
+{
+  "id": "lesson.m1-04",
+  "moduleId": "M1",
+  "slug": "figuras-y-silencios",
+  "titleEs": "Figuras y silencios",
+  "titleEn": "Note values and rests",
+  "summaryEs": "Cada figura dura una fracción del compás y cada silencio dura lo mismo que su figura: aprender a contarlos es la base del ritmo.",
+  "summaryEn": "Each note value lasts a fraction of the measure and each rest lasts as long as its note: learning to count them is the foundation of rhythm.",
+  "objectivesEs": [
+    "Reconocer la redonda, la blanca, la negra, la corchea, la semicorchea y el treintaidosavo",
+    "Relacionar cada figura con su silencio equivalente",
+    "Completar compases simples sumando duraciones"
+  ],
+  "objectivesEn": [
+    "Recognize the whole note, half note, quarter note, eighth note, sixteenth note, and thirty-second note",
+    "Relate each note value to its equivalent rest",
+    "Complete simple measures by adding up durations"
+  ],
+  "minutes": 14,
+  "prerequisites": ["lesson.m1-03"],
+  "skillIds": ["skill.note-durations"],
+  "exerciseIds": [
+    "ex.m1-04.a",
+    "ex.m1-04.b",
+    "ex.m1-04.c",
+    "ex.m1-04.d",
+    "ex.m1-04.e",
+    "ex.m1-04.f",
+    "ex.m1-04.g",
+    "ex.m1-04.h",
+    "ex.m1-04.i",
+    "ex.m1-04.j"
+  ],
+  "sections": [
+    {
+      "id": "sec.m1-04.intro",
+      "kind": "text",
+      "titleEs": "Una figura, una duración",
+      "titleEn": "One symbol, one duration",
+      "bodyEs": "Las figuras no indican qué nota tocar, sino cuánto tiempo dura. La redonda dura un compás de 4/4 completo; la blanca, la mitad; la negra, un cuarto; la corchea, un octavo; la semicorchea, un dieciseisavo; y el treintaidosavo (también llamado fusa), un treintaidosavo. Cada figura tiene una forma distinta: la redonda es un óvalo vacío sin plica, la blanca es un óvalo vacío con plica, la negra es un óvalo relleno con plica, y las figuras más cortas agregan corchetes o barras de unión. Cuanto más corta es la figura, más rápido hay que contarla.",
+      "bodyEn": "Note values do not say which note to play, but how long it lasts. The whole note lasts a full 4/4 measure; the half note, half of it; the quarter note, a quarter; the eighth note, an eighth; the sixteenth note, a sixteenth; and the thirty-second note, a thirty-second. Each note value has a different shape: the whole note is an empty oval with no stem, the half note is an empty oval with a stem, the quarter note is a filled oval with a stem, and shorter values add flags or beams. The shorter the note value, the faster you have to count it."
+    },
+    {
+      "id": "sec.m1-04.figures-demo",
+      "kind": "score",
+      "titleEs": "Redonda, blanca, negra y corcheas",
+      "titleEn": "Whole, half, quarter, and eighth notes",
+      "bodyEs": "Primer compás: una redonda ocupa los cuatro tiempos. Segundo compás: una blanca ocupa dos tiempos y dos negras completan los otros dos. Tercer compás: dos corcheas ocupan el primer tiempo, una negra el segundo y una blanca los dos últimos. Escuchá cómo cada figura llena el compás sin sobrar ni faltar.",
+      "bodyEn": "First measure: a whole note fills all four beats. Second measure: a half note fills two beats and two quarter notes complete the other two. Third measure: two eighth notes fill the first beat, a quarter note the second, and a half note the last two. Listen to how each note value fills the measure without anything left over or missing.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m1-04.figures.c4-whole",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-04.figures.g4-half",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-04.figures.e4-quarter",
+            "measure": 2,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-04.figures.c4-quarter",
+            "measure": 2,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-04.figures.d4-eighth",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-04.figures.e4-eighth",
+            "measure": 3,
+            "beat": 0.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-04.figures.f4-quarter",
+            "measure": 3,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "F", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-04.figures.g4-half-final",
+            "measure": 3,
+            "beat": 2,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-04.short-values",
+      "kind": "text",
+      "titleEs": "Semicorcheas y treintaidosavos",
+      "titleEn": "Sixteenth and thirty-second notes",
+      "bodyEs": "Cuando las figuras se hacen más cortas, los corchetes se acumulan. La corchea lleva un corchete, la semicorchea dos y el treintaidosavo tres. En la práctica se agrupan con barras de unión para que el compás se lea por bloques: dos corcheas forman un tiempo, cuatro semicorcheas forman un tiempo y ocho treintaidosavos forman un tiempo. No hace falta tocar todo a la máxima velocidad: primero se cuenta despacio y se subdivide el pulso en dos, cuatro u ocho partes iguales.",
+      "bodyEn": "As note values get shorter, the flags add up. The eighth note has one flag, the sixteenth note two, and the thirty-second note three. In practice they are grouped with beams so the measure can be read in blocks: two eighth notes make one beat, four sixteenth notes make one beat, and eight thirty-second notes make one beat. You do not need to play everything at top speed: first count slowly and subdivide the beat into two, four, or eight equal parts."
+    },
+    {
+      "id": "sec.m1-04.short-demo",
+      "kind": "score",
+      "titleEs": "Un compás con semicorcheas y treintaidosavos",
+      "titleEn": "A measure with sixteenth and thirty-second notes",
+      "bodyEs": "Este compás mezcla una blanca, una negra, una corchea, una semicorchea y dos treintaidosavos. Sumá las duraciones: dos tiempos de blanca, uno de negra y, en el cuarto tiempo, una corchea, una semicorchea y dos treintaidosavos completan los cuatro tiempos. Contá «1 y 2 y 3 y 4 y» y ubicá cada nota en su subdivisión.",
+      "bodyEn": "This measure mixes a half note, a quarter note, an eighth note, a sixteenth note, and two thirty-second notes. Add up the durations: two beats for the half note, one for the quarter note, and in the fourth beat an eighth note, a sixteenth note, and two thirty-second notes complete the four beats. Count “1 and 2 and 3 and 4 and” and place each note in its subdivision.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 50,
+        "events": [
+          {
+            "id": "score.m1-04.short.c5-half",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 5 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-04.short.g4-quarter",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-04.short.e4-eighth",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-04.short.d4-sixteenth",
+            "measure": 1,
+            "beat": 3.5,
+            "value": { "duration": "sixteenth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-04.short.c4-thirty-second",
+            "measure": 1,
+            "beat": 3.75,
+            "value": { "duration": "thirty-second", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-04.short.d4-thirty-second",
+            "measure": 1,
+            "beat": 3.875,
+            "value": { "duration": "thirty-second", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-04.rests",
+      "kind": "text",
+      "titleEs": "Los silencios también se cuentan",
+      "titleEn": "Rests are counted too",
+      "bodyEs": "Cada figura tiene un silencio que dura exactamente lo mismo: silencio de redonda, de blanca, de negra, de corchea, de semicorchea y de treintaidosavo. El silencio de redonda cuelga debajo de la cuarta línea; el de blanca se apoya sobre la tercera línea; los más cortos se dibujan con sus propios signos y corchetes. Un silencio no se toca, pero sí se cuenta: si dejas de contar, el siguiente ataque llega tarde. En los compases de la app, el silencio ocupa el mismo lugar que ocuparía su figura y completa el compás igual que una nota.",
+      "bodyEn": "Every note value has a rest that lasts exactly the same: whole rest, half rest, quarter rest, eighth rest, sixteenth rest, and thirty-second rest. The whole rest hangs below the fourth line; the half rest sits on the third line; the shorter ones are drawn with their own signs and flags. A rest is not played, but it is counted: if you stop counting, the next attack comes in late. In this app's measures, a rest takes the same place its note would and completes the measure just like a note."
+    },
+    {
+      "id": "sec.m1-04.completion",
+      "kind": "callout",
+      "titleEs": "Cómo completar un compás",
+      "titleEn": "How to complete a measure",
+      "bodyEs": "Primero calculá cuántos tiempos entran en el compás: en 4/4 son cuatro negras; en 3/4, tres; en 2/4, dos. Después sumá las duraciones de las figuras y silencios que ya están escritos. Lo que falta es la figura que completa el compás. Por ejemplo, en 4/4 una negra más una blanca suman tres tiempos, así que falta una negra. Si el resultado es medio tiempo, falta una corchea; si es un cuarto, falta una semicorchea; si es un octavo, falta un treintaidosavo.",
+      "bodyEn": "First work out how many beats fit in the measure: in 4/4 there are four quarter notes; in 3/4, three; in 2/4, two. Then add up the durations of the notes and rests already written. Whatever is missing is the note value that completes the measure. For example, in 4/4 a quarter note plus a half note add up to three beats, so one quarter note is missing. If the result is half a beat, an eighth note is missing; if it is a quarter of a beat, a sixteenth note; if it is an eighth of a beat, a thirty-second note."
+    },
+    {
+      "id": "sec.m1-04.exercises",
+      "kind": "exercise",
+      "titleEs": "Completar compases y reconocer duraciones",
+      "titleEn": "Complete measures and recognize durations",
+      "bodyEs": "Los primeros ejercicios te piden elegir la figura o el silencio que completa el compás. Los dos últimos son de escucha: primero contá el pulso y después elegí la secuencia de duraciones que escuchaste. Antes de responder, sumá los tiempos y verificá que el total coincida con la capacidad del compás.",
+      "bodyEn": "The first exercises ask you to choose the note or rest that completes the measure. The last two are listening exercises: first count the beat, then choose the sequence of durations you heard. Before answering, add up the beats and check that the total matches the measure's capacity."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Ritmo de blanca, negra y corcheas",
+    "titleEn": "Rhythm of half note, quarter note, and eighth notes",
+    "instructionsEs": "Contá en voz alta «1 y 2 y 3 y 4 y» a 60 BPM. Tocá el ritmo sobre Do4 con la mano derecha: una blanca (dos tiempos), una negra (un tiempo) y dos corcheas (medio tiempo cada una). La blanca se mantiene hasta el final de su duración y las corcheas se tocan parejas. Repetí a 80 BPM sin apurar la blanca.",
+    "instructionsEn": "Count “1 and 2 and 3 and 4 and” out loud at 60 BPM. Play the rhythm on C4 with your right hand: a half note (two beats), a quarter note (one beat), and two eighth notes (half a beat each). Hold the half note until the end of its duration and play the eighth notes evenly in pairs. Repeat at 80 BPM without rushing the half note.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Pulgar derecho (dedo 1) sobre Do4 para todo el ritmo",
+    "fingeringEn": "Right thumb (finger 1) on C4 for the whole rhythm",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Conté «1 y 2 y 3 y 4 y» sin perder el pulso",
+      "Mantuve la blanca completa sin cortarla antes",
+      "Toqué las dos corcheas parejas, sin apurarlas",
+      "Repetí a 80 BPM con la muñeca relajada"
+    ],
+    "checklistEn": [
+      "I counted “1 and 2 and 3 and 4 and” without losing the beat",
+      "I held the half note for its full value without cutting it short",
+      "I played the two eighth notes evenly, without rushing them",
+      "I repeated at 80 BPM with a relaxed wrist"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m1-04.c4-half",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-04.c4-quarter",
+          "measure": 1,
+          "beat": 2,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-04.c4-eighth-1",
+          "measure": 1,
+          "beat": 3,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-04.c4-eighth-2",
+          "measure": 1,
+          "beat": 3.5,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

@@ -1,0 +1,250 @@
+{
+  "id": "lesson.m4-09",
+  "moduleId": "M4",
+  "slug": "cifrado-a-notas-y-vuelta",
+  "titleEs": "Del cifrado a las notas y de las notas al cifrado",
+  "titleEn": "From chord symbols to notes and back",
+  "summaryEs": "Cómo leer un cifrado para construir sus notas y cómo resumir un acorde en un cifrado, en los dos sentidos, con tríadas y séptimas y en cifrado latino y americano.",
+  "summaryEn": "How to read a chord symbol to build its notes and how to sum up a chord as a symbol, in both directions, with triads and sevenths and in Latin and American notation.",
+  "objectivesEs": [
+    "Leer la fundamental y el sufijo de calidad de un cifrado",
+    "Construir las notas de tríadas y séptimas desde el cifrado",
+    "Reconocer la fundamental y la calidad de un acorde y escribir su cifrado",
+    "Pasar de cifrado latino a americano y volver sin perder la calidad"
+  ],
+  "objectivesEn": [
+    "Read the root and the quality suffix of a chord symbol",
+    "Build the notes of triads and sevenths from the symbol",
+    "Recognize the root and quality of a chord and write its symbol",
+    "Move from Latin to American notation and back without losing the quality"
+  ],
+  "minutes": 18,
+  "prerequisites": [
+    "lesson.m4-08"
+  ],
+  "skillIds": [
+    "skill.chord-symbol"
+  ],
+  "exerciseIds": [
+    "ex.m4-09.a",
+    "ex.m4-09.b",
+    "ex.m4-09.c",
+    "ex.m4-09.d",
+    "ex.m4-09.e",
+    "ex.m4-09.f",
+    "ex.m4-09.g",
+    "ex.m4-09.h",
+    "ex.m4-09.i",
+    "ex.m4-09.j",
+    "ex.m4-09.k",
+    "ex.m4-09.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m4-09.intro",
+      "kind": "text",
+      "titleEs": "Un cifrado es un atajo de dos sentidos",
+      "titleEn": "A chord symbol is a two-way shortcut",
+      "bodyEs": "Un cifrado resume un acorde en una fundamental y un sufijo de calidad: Do es una tríada mayor sobre Do, Rem es una tríada menor sobre Re y Si♭maj7 es una séptima mayor sobre Si♭. Leerlo es el primer sentido: del cifrado a las notas. Escribirlo es el segundo: de las notas al cifrado. Los dos sentidos usan la misma información, así que deberían devolverte al punto de partida. Si construís las notas de Solm7 y después reconocés en ellas una fundamental Sol, una tercera menor, una quinta justa y una séptima menor, volvés a Solm7. Esa ida y vuelta es la mejor forma de comprobar que entendiste el acorde y no solo lo memorizaste.",
+      "bodyEn": "A chord symbol sums up a chord with a root and a quality suffix: C is a major triad on C, Dm is a minor triad on D and B♭maj7 is a major seventh on B♭. Reading it is the first direction: from the symbol to the notes. Writing it is the second: from the notes to the symbol. Both directions use the same information, so they should take you back to the starting point. If you build the notes of Gm7 and then recognize in them a G root, a minor third, a perfect fifth and a minor seventh, you return to Gm7. That round trip is the best way to check that you understood the chord and did not just memorize it."
+    },
+    {
+      "id": "sec.m4-09.cifrado-a-notas",
+      "kind": "text",
+      "titleEs": "Del cifrado a las notas",
+      "titleEn": "From the symbol to the notes",
+      "bodyEs": "Para leer un cifrado, separá la fundamental del sufijo. La fundamental es la letra con su alteración; el sufijo dice la calidad y, con ella, los intervalos que se apilan sobre esa fundamental. Sin sufijo, la tríada es mayor: Do es 1-3-5, Do-Mi-Sol. La m minúscula vuelve menor la tercera: Rem es 1-♭3-5, Re-Fa-La. dim baja la tercera y la quinta, aug sube la quinta, sus2 y sus4 cambian la tercera por una segunda o una cuarta, maj7 agrega una séptima mayor y el 7 solo agrega una séptima menor. Así, Mi♭aug es 1-3-♯5, Mi♭-Sol-Si; Si♭maj7 es 1-3-5-7, Si♭-Re-Fa-La; La7 es 1-3-5-♭7, La-Do♯-Mi-Sol; Solm7 es 1-♭3-5-♭7, Sol-Si♭-Re-Fa; Sidim7 es 1-♭3-♭5-𝄫7, Si-Re-Fa-La♭; y Fa♯m7♭5 es 1-♭3-♭5-♭7, Fa♯-La-Do-Mi. La raíz se escribe con la letra que corresponde al cifrado, no con un enarmónico cómodo: Re♭maj7 lleva Re♭ y no Do♯.",
+      "bodyEn": "To read a chord symbol, separate the root from the suffix. The root is the letter with its accidental; the suffix states the quality and, with it, the intervals stacked above that root. With no suffix the triad is major: C is 1-3-5, C-E-G. A lowercase m makes the third minor: Dm is 1-♭3-5, D-F-A. dim lowers the third and the fifth, aug raises the fifth, sus2 and sus4 replace the third with a second or a fourth, maj7 adds a major seventh and a plain 7 adds a minor seventh. Thus E♭aug is 1-3-♯5, E♭-G-B; B♭maj7 is 1-3-5-7, B♭-D-F-A; A7 is 1-3-5-♭7, A-C♯-E-G; Gm7 is 1-♭3-5-♭7, G-B♭-D-F; Bdim7 is 1-♭3-♭5-𝄫7, B-D-F-A♭; and F♯m7♭5 is 1-♭3-♭5-♭7, F♯-A-C-E. The root keeps the letter the symbol asks for, not a convenient enharmonic: D♭maj7 uses D♭ and not C♯."
+    },
+    {
+      "id": "sec.m4-09.notas-a-cifrado",
+      "kind": "text",
+      "titleEs": "De las notas al cifrado",
+      "titleEn": "From the notes to the symbol",
+      "bodyEs": "Para escribir un cifrado, primero buscá la fundamental: la nota que da nombre al acorde, que no siempre es la más grave. Después medí los intervalos desde ella. Si hay tres notas, comprobá la tercera y la quinta: tercera mayor y quinta justa dan una tríada mayor sin sufijo; tercera menor y quinta justa dan m; quinta disminuida da dim; quinta aumentada da aug. Si hay cuatro notas, mirá la séptima: mayor es maj7, menor es 7, y con tercera menor y quinta disminuida la séptima menor da m7♭5, mientras que la séptima disminuida da dim7. Por ejemplo, Sol-Si♭-Re-Fa es Solm7; Si-Re-Fa-La♭ es Sidim7; Re♭-Fa-La♭-Do es Re♭maj7; Mi-Sol-Si-Re es Mim7; La♭-Do-Mi♭ es La♭; y Fa-La-Do es Fa. El orden de las notas no cambia el cifrado mientras la fundamental siga siendo la misma; si el bajo es otra nota del acorde, eso se escribe con una barra, como viste en M4-06.",
+      "bodyEn": "To write a chord symbol, first find the root: the note that names the chord, which is not always the lowest. Then measure the intervals from it. With three notes, check the third and the fifth: a major third and a perfect fifth give a major triad with no suffix; a minor third and a perfect fifth give m; a diminished fifth gives dim; an augmented fifth gives aug. With four notes, look at the seventh: major is maj7, minor is 7, and with a minor third and a diminished fifth the minor seventh gives m7♭5, while the diminished seventh gives dim7. For example, G-B♭-D-F is Gm7; B-D-F-A♭ is Bdim7; D♭-F-A♭-C is D♭maj7; E-G-B-D is Em7; A♭-C-E♭ is A♭; and F-A-C is F. The order of the notes does not change the symbol as long as the root stays the same; if the bass is another chord tone, that is written with a slash, as you saw in M4-06."
+    },
+    {
+      "id": "sec.m4-09.demo",
+      "kind": "score",
+      "titleEs": "Cuatro acordes, cuatro cifrados y su vuelta",
+      "titleEn": "Four chords, four symbols and the way back",
+      "bodyEs": "Escuchá y mirá cuatro acordes en posición fundamental: Do mayor (Do-Mi-Sol), Rem (Re-Fa-La), Si♭maj7 (Si♭-Re-Fa-La) y La7 (La-Do♯-Mi-Sol). Para cada uno, leé el cifrado y construí sus notas; después, mirá las notas y volvé al cifrado. La ida y vuelta tiene que conservar la fundamental, la calidad y la ortografía. En cifrado americano los mismos acordes se escriben C, Dm, B♭maj7 y A7.",
+      "bodyEn": "Listen to and look at four chords in root position: C major (C-E-G), Dm (D-F-A), B♭maj7 (B♭-D-F-A) and A7 (A-C♯-E-G). For each one, read the symbol and build its notes; then look at the notes and return to the symbol. The round trip must keep the root, the quality and the spelling. In American notation the same chords are written C, Dm, B♭maj7 and A7.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "score.m4-09.major",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-09.minor",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 },
+              { "step": "A", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-09.major7",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "B", "accidental": "b", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 },
+              { "step": "A", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-09.dominant7",
+            "measure": 4,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "#", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m4-09.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios de ida y vuelta",
+      "titleEn": "Twelve round-trip exercises",
+      "bodyEs": "Los seis primeros ejercicios dan un cifrado y piden sus notas; los seis últimos dan las notas y piden el cifrado. Hay tríadas mayores, menores, aumentadas y disminuidas, y séptimas mayores, de dominante, menores, semidisminuidas y disminuidas, repartidas por las doce tónicas. En los ejercicios de cifrado, respondé en la notación del idioma activo: latino en español y americano en inglés. Comprobá siempre la vuelta: si escribiste las notas, volvé a medir los intervalos desde la fundamental y confirmá que el cifrado coincide.",
+      "bodyEn": "The first six exercises give a symbol and ask for its notes; the last six give the notes and ask for the symbol. There are major, minor, augmented and diminished triads, and major, dominant, minor, half-diminished and diminished sevenths, spread over the twelve tonics. In the symbol exercises, answer in the notation of the active language: Latin in Spanish and American in English. Always check the way back: if you wrote the notes, measure the intervals from the root again and confirm that the symbol matches."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tocá los acordes y comprobá la ida y vuelta",
+    "titleEn": "Play the chords and check the round trip",
+    "instructionsEs": "Tocá los cuatro acordes de la demo a 60 BPM, uno por compás: Do, Rem, Si♭maj7 y La7. Para cada acorde, decí primero el cifrado y construí las notas; después mirá las teclas que tocaste y volvé al cifrado. Comprobá que la fundamental y la calidad no cambian y que el cifrado latino y el americano dicen lo mismo: Do = C, Rem = Dm, Si♭maj7 = B♭maj7 y La7 = A7.",
+    "instructionsEn": "Play the four demo chords at 60 BPM, one per bar: C, Dm, B♭maj7 and A7. For each chord, say the symbol first and build its notes; then look at the keys you played and return to the symbol. Check that the root and the quality do not change and that the Latin and American symbols say the same thing: Do = C, Rem = Dm, Si♭maj7 = B♭maj7 and La7 = A7.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "", "octave": 4 },
+      { "step": "A", "accidental": "", "octave": 4 },
+      { "step": "B", "accidental": "b", "octave": 3 },
+      { "step": "A", "accidental": "", "octave": 3 },
+      { "step": "C", "accidental": "#", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: 1-3-5 en las tríadas y 1-2-3-4 en las séptimas. Mano izquierda: 5 en la fundamental si tocás el bajo por separado.",
+    "fingeringEn": "Right hand: 1-3-5 on the triads and 1-2-3-4 on the sevenths. Left hand: 5 on the root if you play the bass separately.",
+    "tempoBpm": 60,
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m4-09.major",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-09.minor",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "D", "accidental": "", "octave": 4 },
+            { "step": "F", "accidental": "", "octave": 4 },
+            { "step": "A", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-09.major7",
+          "measure": 3,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "B", "accidental": "b", "octave": 3 },
+            { "step": "D", "accidental": "", "octave": 4 },
+            { "step": "F", "accidental": "", "octave": 4 },
+            { "step": "A", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-09.dominant7",
+          "measure": 4,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "#", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "checklistEs": [
+      "Toqué los cuatro acordes y dije su cifrado antes de construirlos",
+      "Volví de las notas al cifrado y comprobé que coincidía",
+      "Escribí cada acorde en cifrado latino y americano"
+    ],
+    "checklistEn": [
+      "I played the four chords and said their symbols before building them",
+      "I went back from the notes to the symbol and checked that it matched",
+      "I wrote each chord in Latin and American notation"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

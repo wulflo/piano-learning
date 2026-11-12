@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-01.a",
+  "skillId": "skill.diatonic-chords",
+  "type": "chord",
+  "promptEs": "En Do mayor, ¿qué cifrado tiene la tríada diatónica del grado IV?",
+  "promptEn": "In C major, what is the symbol of the diatonic triad on degree IV?",
+  "explanationEs": "En Do mayor, el grado IV se construye sobre Fa: Fa-La-Do. La tercera Fa-La es mayor y la quinta Fa-Do es justa, así que la tríada es mayor y se cifra Fa.",
+  "explanationEn": "In C major, degree IV is built on F: F-A-C. The third F-A is major and the fifth F-C is perfect, so the triad is major and its symbol is F.",
+  "difficulty": 1,
+  "root": {
+    "step": "F",
+    "accidental": "",
+    "octave": 4
+  },
+  "quality": "major",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Fa",
+    "Fam",
+    "Fa7",
+    "Famaj7"
+  ],
+  "choicesEn": [
+    "F",
+    "Fm",
+    "F7",
+    "Fmaj7"
+  ]
+}

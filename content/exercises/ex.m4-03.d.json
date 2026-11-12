@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-03.d",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de La menor suena La-Do-Mi, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The A minor chord sounds A-C-E, from low to high. What inversion is it?",
+  "explanationEs": "El bajo es La, la fundamental de La menor. La tercera es Do y la quinta es Mi, así que el acorde está en estado fundamental.",
+  "explanationEn": "The bass is A, the root of A minor. The third is C and the fifth is E, so the chord is in root position.",
+  "difficulty": 2,
+  "root": { "step": "A", "accidental": "", "octave": 4 },
+  "quality": "minor",
+  "inversion": 0,
+  "ask": "inversion",
+  "choices": ["estado fundamental", "primera inversión", "segunda inversión"],
+  "choicesEn": ["root position", "first inversion", "second inversion"]
+}

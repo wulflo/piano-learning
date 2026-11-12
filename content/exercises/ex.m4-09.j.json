@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-09.j",
+  "skillId": "skill.chord-symbol",
+  "type": "chord",
+  "promptEs": "El acorde suena Mi, Sol, Si y Re, de grave a agudo. ¿Qué cifrado latino le corresponde?",
+  "promptEn": "The chord sounds E, G, B and D, from low to high. Which American chord symbol matches it?",
+  "explanationEs": "Mi es la fundamental; Mi-Sol es una tercera menor, Mi-Si una quinta justa y Mi-Re una séptima menor. La calidad es menor con séptima menor: Mim7. En americano se escribe Em7.",
+  "explanationEn": "E is the root; E-G is a minor third, E-B a perfect fifth and E-D a minor seventh. The quality is minor with a minor seventh: Em7. In Latin notation it is written Mim7.",
+  "difficulty": 2,
+  "root": { "step": "E", "accidental": "", "octave": 4 },
+  "quality": "minor7",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": ["Mim7", "Mimaj7", "Mi7"],
+  "choicesEn": ["Em7", "Emaj7", "E7"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-06.l",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Lam/Mi de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of an Am/E from low to high, separated by spaces.",
+  "explanationEs": "Lam/Mi es La menor con Mi en el bajo: Mi-La-Do. Mi es la quinta del acorde, así que es la segunda inversión. En cifrado americano se escribe Am/E.",
+  "explanationEn": "Am/E is A minor with E in the bass: E-A-C. E is the chord's fifth, so it is the second inversion. In American notation it is written Am/E.",
+  "difficulty": 3,
+  "root": { "step": "A", "accidental": "", "octave": 4 },
+  "quality": "minor",
+  "slash": { "step": "E", "accidental": "", "octave": 4 },
+  "inversion": 2,
+  "ask": "notes"
+}

@@ -1,0 +1,299 @@
+{
+  "id": "lesson.m2-04",
+  "moduleId": "M2",
+  "slug": "menor-natural",
+  "titleEs": "Menor natural",
+  "titleEn": "Natural minor",
+  "summaryEs": "El patrón del menor natural, las doce tonalidades menores y la comparación de su sonido con el de la mayor.",
+  "objectivesEs": [
+    "Reconocer el patrón T-S-T-T-T-S-T del menor natural",
+    "Tocar las notas del menor en las doce tonalidades",
+    "Comparar el sonido del menor con el de su relativa mayor"
+  ],
+  "minutes": 14,
+  "prerequisites": [
+    "lesson.m2-03"
+  ],
+  "skillIds": [
+    "skill.major-scale"
+  ],
+  "exerciseIds": [
+    "ex.m2-04.a",
+    "ex.m2-04.b"
+  ],
+  "sections": [
+    {
+      "id": "sec.m2-04.intro",
+      "kind": "text",
+      "titleEs": "El patrón menor",
+      "bodyEs": "El menor natural se arma con el patrón T-S-T-T-S-T-T: tónica, segunda, tercera menor, cuarta, quinta, sexta menor, séptima y tónica. La tercera y la sexta son un semitono más bajas que las de la mayor, por eso el menor se escribe y suena distinto aunque comparta la armadura con su relativa mayor.",
+      "titleEn": "The minor pattern",
+      "bodyEn": "The natural minor scale is built with the W-H-W-W-H-W-W pattern: tonic, second, minor third, fourth, fifth, minor sixth, seventh and tonic. The third and the sixth are one semitone lower than in the major scale, which is why the minor scale is written and sounds different even though it shares its key signature with its relative major."
+    },
+    {
+      "id": "sec.m2-04.twelve",
+      "kind": "text",
+      "titleEs": "Las doce tonalidades menores",
+      "bodyEs": "De cada una de las doce tonalidades mayores se toma la relativa menor: La menor, Mi menor, Si menor, Fa sostenido menor, Do sostenido menor, Sol sostenido menor, Re sostenido menor, Si bemol menor, Fa menor, Do menor, Sol menor y Re menor. Cada una baja la tercera y la sexta respecto de su mayor, y por eso el patrón y los grados cambian aunque la armadura sea la misma.",
+      "titleEn": "The twelve minor keys",
+      "bodyEn": "From each of the twelve major keys we take the relative minor: A minor, E minor, B minor, F sharp minor, C sharp minor, G sharp minor, D sharp minor, B flat minor, F minor, C minor, G minor and D minor. Each one lowers the third and the sixth compared with its major, which is why the pattern and degrees change even though the key signature is the same."
+    },
+    {
+      "id": "sec.m2-04.score",
+      "kind": "score",
+      "titleEs": "Escala menor de Do",
+      "bodyEs": "Escala menor de Do: Do, Re, Mi bemol, Fa, Sol, La bemol, Si bemol, Do. El patrón T-S-T-T-T-S-T en dos compases de cuatro tiempos.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "minor",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m2-04.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-04.d4",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-04.eb4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "b",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-04.f4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-04.g4",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-04.ab4",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "b",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-04.bb4",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "b",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-04.c5",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          }
+        ]
+      },
+      "titleEn": "C minor scale",
+      "bodyEn": "C minor scale: C, D, E flat, F, G, A flat, B flat, C. The W-H-W-W-H-W-W pattern over two measures of four beats."
+    },
+    {
+      "id": "sec.m2-04.exercises",
+      "kind": "exercise",
+      "titleEs": "Patrón y sonido del menor",
+      "bodyEs": "El ejercicio compara el tercer grado del menor con el de la mayor: el menor baja un semitono respecto de su relativa mayor. Escuchá ambas notas y decidí cuál corresponde al menor antes de responder.",
+      "titleEn": "Minor pattern and sound",
+      "bodyEn": "The exercise compares the third degree of the minor with that of the major: the minor lowers it one semitone compared with its relative major. Listen to both notes and decide which one belongs to the minor before answering."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la escala menor de Do",
+    "instructionsEs": "Tocá la escala menor de Do (Do, Re, Mi bemol, Fa, Sol, La bemol, Si bemol, Do) con el patrón menor a 60 BPM, despacio y sin apuro.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "b",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "b",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "b",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano derecha en una octava: 1-2-3-4-5-4-3-2; para dos octavas: 1-2-3-4-5-4-3-2-1.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué la escala menor de Do en orden",
+      "Seguí el patrón menor sin saltarme notas",
+      "Repetí la escala despacio con pulso de negra"
+    ],
+    "titleEn": "Play the C minor scale",
+    "instructionsEn": "Play the C minor scale (C, D, E flat, F, G, A flat, B flat, C) with the minor pattern at 60 BPM, slowly and without rushing.",
+    "fingeringEn": "Right hand in one octave: 1-2-3-4-5-4-3-2; for two octaves: 1-2-3-4-5-4-3-2-1.",
+    "checklistEn": [
+      "I played the C minor scale in order",
+      "I followed the minor pattern without skipping notes",
+      "I repeated the scale slowly with a quarter-note pulse"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published",
+  "summaryEn": "The natural minor pattern, the twelve minor keys and how their sound compares with the major.",
+  "objectivesEn": [
+    "Build the natural minor scale with the W-H-W-W-H-W-W pattern",
+    "Name the twelve minor keys",
+    "Compare the sound of minor and major scales"
+  ]
+}

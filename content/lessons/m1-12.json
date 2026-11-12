@@ -1,0 +1,836 @@
+{
+  "id": "lesson.m1-12",
+  "moduleId": "M1",
+  "slug": "terminos-italianos",
+  "titleEs": "Términos italianos",
+  "titleEn": "Italian terms",
+  "summaryEs": "Veinte términos italianos de tempo, dinámica, articulación y carácter que aparecen en las partituras, con definiciones y ejemplos propios.",
+  "objectivesEs": [
+    "Reconocer 20 términos italianos por su categoría y significado",
+    "Relacionar cada término con un ejemplo musical concreto",
+    "Responder un quiz de términos sin depender de la memoria de una lista"
+  ],
+  "minutes": 16,
+  "prerequisites": [
+    "lesson.m1-11"
+  ],
+  "skillIds": [
+    "skill.italian-terms"
+  ],
+  "exerciseIds": [
+    "ex.m1-12.a",
+    "ex.m1-12.b",
+    "ex.m1-12.c",
+    "ex.m1-12.d",
+    "ex.m1-12.e",
+    "ex.m1-12.f"
+  ],
+  "sections": [
+    {
+      "id": "sec.m1-12.intro",
+      "kind": "text",
+      "titleEs": "Por qué se usan términos italianos",
+      "bodyEs": "Durante siglos la música escrita en Europa usó el italiano como lengua común para indicar cómo tocar. Por eso las partituras están llenas de palabras como adagio, forte o legato. No hace falta hablar italiano: alcanza con reconocer el término, ubicarlo en su categoría y asociarlo a un ejemplo sonoro. En esta lección los términos se agrupan en cuatro categorías: tempo (velocidad), dinámica (intensidad), articulación (ataque y unión) y carácter (expresión).",
+      "titleEn": "Why Italian terms are used",
+      "bodyEn": "For centuries, written music in Europe used Italian as the common language for showing how to play. That is why scores are full of words such as adagio, forte or legato. You do not need to speak Italian: it is enough to recognize the term, place it in its category and link it to a sound example. In this lesson the terms are grouped into four categories: tempo (speed), dynamics (loudness), articulation (attack and connection) and character (expression)."
+    },
+    {
+      "id": "sec.m1-12.tempo",
+      "kind": "text",
+      "titleEs": "Tempo: adagio, allegro, andante, moderato, presto, ritardando, accelerando y rubato",
+      "bodyEs": "Adagio indica un tempo lento y tranquilo; allegro, un tempo rápido y animado; andante, un paso moderado de caminata; moderato, un tempo medio; presto, un tempo muy rápido. Ritardando pide frenar gradualmente y accelerando, acelerar gradualmente. Rubato permite flexibilizar el tiempo con expresión, estirando una nota y recuperando después, sin perder el pulso general. Ejemplos: un adagio se siente como caminar sin apuro; un allegro, como trotar suave; un ritardando, como notas que se van espaciando al final de una frase.",
+      "titleEn": "Tempo: adagio, allegro, andante, moderato, presto, ritardando, accelerando and rubato",
+      "bodyEn": "Adagio indicates a slow, calm tempo; allegro, a fast, lively tempo; andante, a moderate walking pace; moderato, a medium tempo; presto, a very fast tempo. Ritardando asks you to slow down gradually and accelerando to speed up gradually. Rubato lets you flex time expressively, stretching a note and recovering later, without losing the overall pulse. Examples: an adagio feels like walking without hurry; an allegro, like a light jog; a ritardando, like notes spreading out at the end of a phrase."
+    },
+    {
+      "id": "sec.m1-12.dynamics",
+      "kind": "text",
+      "titleEs": "Dinámica: crescendo, diminuendo, pianissimo y fortissimo",
+      "bodyEs": "Crescendo significa aumentar la intensidad poco a poco; diminuendo, disminuirla poco a poco. Pianissimo es un grado muy suave, casi un susurro, y fortissimo es un grado muy fuerte y pleno. No son golpes: son grados de intensidad que se producen con la velocidad y el peso del dedo. Ejemplos: un crescendo puede ir de suave a fuerte en una misma frase; un diminuendo puede cerrar esa frase volviendo al silencio; un pianissimo parece un sonido apenas audible y un fortissimo llena la sala sin perder calidad.",
+      "titleEn": "Dynamics: crescendo, diminuendo, pianissimo and fortissimo",
+      "bodyEn": "Crescendo means gradually louder; diminuendo, gradually softer. Pianissimo is a very soft level, almost a whisper, and fortissimo is a very strong, full level. They are not hits: they are degrees of loudness produced by the speed and weight of the finger. Examples: a crescendo can go from soft to loud within one phrase; a diminuendo can close that phrase returning to silence; a pianissimo seems barely audible and a fortissimo fills the room without losing quality."
+    },
+    {
+      "id": "sec.m1-12.articulation",
+      "kind": "text",
+      "titleEs": "Articulación: legato, staccato, accentato y tenuto",
+      "bodyEs": "Legato significa conectar las notas sin silencio entre ellas; staccato, tocarlas cortas y separadas; accentato, destacar una nota con un ataque más fuerte; tenuto, sostenerla con una leve acentuación. Ejemplos: el legato se siente como cantar una frase en una sola respiración; el staccato, como pasos secos y breves; el accentato, como destacar una sílaba dentro de una palabra; el tenuto, como mantener una nota completa con peso.",
+      "titleEn": "Articulation: legato, staccato, accentato and tenuto",
+      "bodyEn": "Legato means connecting notes without silence between them; staccato, playing them short and separated; accentato, highlighting a note with a stronger attack; tenuto, holding it with a slight emphasis. Examples: legato feels like singing a phrase in one breath; staccato, like short, dry steps; accentato, like stressing one syllable inside a word; tenuto, like holding a note fully with weight."
+    },
+    {
+      "id": "sec.m1-12.character",
+      "kind": "text",
+      "titleEs": "Carácter: dolce, cantabile, espressivo y maestoso",
+      "bodyEs": "Dolce pide un sonido dulce y suave; cantabile, un carácter cantable, como si la melodía tuviera letra; espressivo, expresión y emoción en cada frase; maestoso, majestuosidad y grandeza. Ejemplos: dolce es una caricia en el sonido; cantabile es frasear como una voz; espressivo es dar intención a cada nota; maestoso es un final amplio y solemne. Estos términos no cambian las notas ni el ritmo: cambian la intención con que se tocan.",
+      "titleEn": "Character: dolce, cantabile, espressivo and maestoso",
+      "bodyEn": "Dolce asks for a sweet, soft sound; cantabile, a singing character, as if the melody had words; espressivo, expression and emotion in every phrase; maestoso, majesty and grandeur. Examples: dolce is a caress in the sound; cantabile is phrasing like a voice; espressivo is giving intention to every note; maestoso is a broad, solemn ending. These terms do not change the notes or the rhythm: they change the intention with which they are played."
+    },
+    {
+      "id": "sec.m1-12.andante-demo",
+      "kind": "score",
+      "titleEs": "Andante cantabile",
+      "bodyEs": "Esta frase está a 72 BPM, dentro de andante. Tocala cantabile y legato: las notas se conectan y la melodía se siente como una voz. No hay que apurarla; el carácter tranquilo es parte de la indicación.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "score.m1-12.andante.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.andante.d4",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.andante.e4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.andante.f4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.andante.g4",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.andante.f4-second",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.andante.e4-second",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.andante.d4-second",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 75,
+            "tieToNext": false
+          }
+        ]
+      },
+      "titleEn": "Andante cantabile",
+      "bodyEn": "This phrase is at 72 BPM, inside andante. Play it cantabile and legato: the notes connect and the melody feels like a voice. Do not rush it; the calm character is part of the indication."
+    },
+    {
+      "id": "sec.m1-12.allegro-demo",
+      "kind": "score",
+      "titleEs": "La misma frase en allegro",
+      "bodyEs": "La misma melodía a 132 BPM entra en allegro. Compará la sensación de movimiento con el ejemplo anterior: las notas no cambiaron, solo el tempo. Si además se toca staccato, cada nota se separa; si se toca legato, se conecta. El término de carácter orienta la intención, no la altura ni la figura.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 132,
+        "events": [
+          {
+            "id": "score.m1-12.allegro.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 95,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.allegro.d4",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.allegro.e4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.allegro.f4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 92,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.allegro.g4",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 100,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.allegro.f4-second",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 92,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.allegro.e4-second",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-12.allegro.d4-second",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 88,
+            "tieToNext": false
+          }
+        ]
+      },
+      "titleEn": "The same phrase at allegro",
+      "bodyEn": "The same melody at 132 BPM falls into allegro. Compare the feeling of movement with the previous example: the notes have not changed, only the tempo. If you also play staccato, each note separates; if you play legato, it connects. The character term guides the intention, not the pitch or the note value."
+    },
+    {
+      "id": "sec.m1-12.study",
+      "kind": "callout",
+      "titleEs": "Cómo estudiar el glosario",
+      "bodyEs": "Para cada término, asociá tres cosas: la categoría, una palabra clave en español y un ejemplo sonoro o gestual. No memorices la lista de corrido: agrupá por categoría y practicá con el quiz. Las definiciones y ejemplos de este glosario son redacción propia para este curso; no se copiaron de fuentes externas. Si encontrás otro término en una partitura, anotalo con su categoría y un ejemplo antes de buscarlo en un diccionario.",
+      "titleEn": "How to study the glossary",
+      "bodyEn": "For each term, link three things: the category, a key word in Spanish and a sound or gesture example. Do not memorize the list straight through: group by category and practice with the quiz. The definitions and examples in this glossary are original wording for this course; they were not copied from external sources. If you find another term in a score, write it down with its category and an example before looking it up in a dictionary."
+    },
+    {
+      "id": "sec.m1-12.exercises",
+      "kind": "exercise",
+      "titleEs": "Quiz de términos",
+      "bodyEs": "Cada ejercicio presenta un término y pide elegir su significado. Algunas opciones son de la misma categoría para que no alcance con adivinar por el contexto. Antes de responder, pensá en el ejemplo que acompaña al término y descartá las opciones que describen otra categoría.",
+      "titleEn": "Terms quiz",
+      "bodyEn": "Each exercise presents a term and asks you to choose its meaning. Some options belong to the same category so that guessing from context is not enough. Before answering, think about the example that goes with the term and rule out the options that describe another category."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "adagio",
+      "category": "tempo",
+      "meaningEs": "Tempo lento y tranquilo.",
+      "exampleEs": "Se siente como caminar sin apuro y dejar que cada nota respire.",
+      "meaningEn": "A slow, calm tempo.",
+      "exampleEn": "It feels like walking without hurry and letting each note breathe."
+    },
+    {
+      "term": "allegro",
+      "category": "tempo",
+      "meaningEs": "Tempo rápido y animado.",
+      "exampleEs": "Se siente como caminar ligero o trotar suave.",
+      "meaningEn": "A fast, lively tempo.",
+      "exampleEn": "It feels like walking lightly or jogging gently."
+    },
+    {
+      "term": "andante",
+      "category": "tempo",
+      "meaningEs": "Tempo moderado, con paso de caminata tranquila.",
+      "exampleEs": "Contá los pulsos como si caminaras a paso constante.",
+      "meaningEn": "A moderate tempo, at a calm walking pace.",
+      "exampleEn": "Count the pulses as if you were walking at a steady pace."
+    },
+    {
+      "term": "moderato",
+      "category": "tempo",
+      "meaningEs": "Tempo medio, ni lento ni rápido.",
+      "exampleEs": "Es el tempo de una conversación tranquila.",
+      "meaningEn": "A medium tempo, neither slow nor fast.",
+      "exampleEn": "It is the tempo of a calm conversation."
+    },
+    {
+      "term": "presto",
+      "category": "tempo",
+      "meaningEs": "Tempo muy rápido.",
+      "exampleEs": "Se siente como correr corto y parejo.",
+      "meaningEn": "A very fast tempo.",
+      "exampleEn": "It feels like a short, even run."
+    },
+    {
+      "term": "ritardando",
+      "category": "tempo",
+      "meaningEs": "Frenar gradualmente.",
+      "exampleEs": "Al final de una frase, las notas se van espaciando.",
+      "meaningEn": "Gradually slow down.",
+      "exampleEn": "At the end of a phrase, the notes spread further apart."
+    },
+    {
+      "term": "accelerando",
+      "category": "tempo",
+      "meaningEs": "Acelerar gradualmente.",
+      "exampleEs": "Las notas se acercan y el pulso gana velocidad.",
+      "meaningEn": "Gradually speed up.",
+      "exampleEn": "The notes get closer together and the pulse gains speed."
+    },
+    {
+      "term": "rubato",
+      "category": "tempo",
+      "meaningEs": "Flexibilizar el tiempo con expresión, sin perder el pulso general.",
+      "exampleEs": "Una melodía se demora en una nota y recupera después.",
+      "meaningEn": "Flex time expressively without losing the overall pulse.",
+      "exampleEn": "A melody lingers on one note and catches up afterwards."
+    },
+    {
+      "term": "crescendo",
+      "category": "dynamics",
+      "meaningEs": "Aumentar la intensidad poco a poco.",
+      "exampleEs": "Ir de suave a fuerte en una misma frase.",
+      "meaningEn": "Gradually get louder.",
+      "exampleEn": "Go from soft to loud within one phrase."
+    },
+    {
+      "term": "diminuendo",
+      "category": "dynamics",
+      "meaningEs": "Disminuir la intensidad poco a poco.",
+      "exampleEs": "Ir de fuerte a suave para cerrar una frase.",
+      "meaningEn": "Gradually get softer.",
+      "exampleEn": "Go from loud to soft to close a phrase."
+    },
+    {
+      "term": "pianissimo",
+      "category": "dynamics",
+      "meaningEs": "Grado muy suave de intensidad.",
+      "exampleEs": "Un sonido apenas audible, como un susurro.",
+      "meaningEn": "A very soft level of loudness.",
+      "exampleEn": "A barely audible sound, like a whisper."
+    },
+    {
+      "term": "fortissimo",
+      "category": "dynamics",
+      "meaningEs": "Grado muy fuerte de intensidad.",
+      "exampleEs": "Un sonido pleno y potente, sin golpear la tecla.",
+      "meaningEn": "A very loud level of loudness.",
+      "exampleEn": "A full, powerful sound without hitting the key."
+    },
+    {
+      "term": "legato",
+      "category": "articulation",
+      "meaningEs": "Conectar las notas sin silencio entre ellas.",
+      "exampleEs": "Como cantar una frase en una sola respiración.",
+      "meaningEn": "Connect notes without silence between them.",
+      "exampleEn": "Like singing a phrase in one breath."
+    },
+    {
+      "term": "staccato",
+      "category": "articulation",
+      "meaningEs": "Tocar las notas cortas y separadas.",
+      "exampleEs": "Como pequeños pasos secos y breves.",
+      "meaningEn": "Play notes short and separated.",
+      "exampleEn": "Like small, dry, brief steps."
+    },
+    {
+      "term": "accentato",
+      "category": "articulation",
+      "meaningEs": "Acentuar una nota con un ataque más fuerte.",
+      "exampleEs": "Como destacar una sílaba dentro de una palabra.",
+      "meaningEn": "Accent a note with a stronger attack.",
+      "exampleEn": "Like stressing one syllable inside a word."
+    },
+    {
+      "term": "tenuto",
+      "category": "articulation",
+      "meaningEs": "Sostener la nota con una leve acentuación.",
+      "exampleEs": "Mantener la nota completa, con peso y sin apuro.",
+      "meaningEn": "Hold the note with a slight emphasis.",
+      "exampleEn": "Keep the note full, with weight and without hurry."
+    },
+    {
+      "term": "dolce",
+      "category": "character",
+      "meaningEs": "Con dulzura y suavidad expresiva.",
+      "exampleEs": "Una caricia en el sonido.",
+      "meaningEn": "With sweetness and expressive softness.",
+      "exampleEn": "A caress in the sound."
+    },
+    {
+      "term": "cantabile",
+      "category": "character",
+      "meaningEs": "Con carácter cantable, como una voz.",
+      "exampleEs": "Frasear como si la melodía tuviera letra.",
+      "meaningEn": "With a singing character, like a voice.",
+      "exampleEn": "Phrase as if the melody had words."
+    },
+    {
+      "term": "espressivo",
+      "category": "character",
+      "meaningEs": "Con expresión y emoción.",
+      "exampleEs": "Dar intención a cada frase.",
+      "meaningEn": "With expression and emotion.",
+      "exampleEn": "Give intention to every phrase."
+    },
+    {
+      "term": "maestoso",
+      "category": "character",
+      "meaningEs": "Con majestuosidad y grandeza.",
+      "exampleEs": "Un final amplio y solemne.",
+      "meaningEn": "With majesty and grandeur.",
+      "exampleEn": "A broad and solemn ending."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Frase cantabile y carácter",
+    "instructionsEs": "Tocá la frase Do4-Re4-Mi4-Fa4-Sol4-Fa4-Mi4-Re4 en 4/4 a 90 BPM, primero cantabile y legato: conectá las notas y fraséalas como una voz. Después repetila a 132 BPM en allegro, manteniendo las notas parejas. Para terminar, tocá la última nota tenuto y buscá un carácter espressivo. Decí en voz alta qué término aplicás antes de cada versión.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "Mano derecha: 1-2-3-4-5-4-3-2 para la frase completa",
+    "tempoBpm": 90,
+    "checklistEs": [
+      "Toqué la frase cantabile y legato sin cortar las notas",
+      "Repetí a 132 BPM en allegro sin perder la claridad",
+      "Sostuve la última nota tenuto",
+      "Nombré el término y la categoría antes de cada versión"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 90,
+      "events": [
+        {
+          "id": "task.m1-12.c4",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-12.d4",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-12.e4",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-12.f4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-12.g4",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 88,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-12.f4-second",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-12.e4-second",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-12.d4-second",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 76,
+          "tieToNext": false
+        }
+      ]
+    },
+    "titleEn": "Cantabile phrase and character",
+    "instructionsEn": "Play the phrase C4-D4-E4-F4-G4-F4-E4-D4 in 4/4 at 90 BPM, first cantabile and legato: connect the notes and phrase them like a voice. Then repeat it at 132 BPM in allegro, keeping the notes even. To finish, play the last note tenuto and look for an espressivo character. Say out loud which term you are applying before each version.",
+    "fingeringEn": "Right hand: 1-2-3-4-5-4-3-2 for the whole phrase",
+    "checklistEn": [
+      "I played the phrase cantabile and legato without breaking the notes",
+      "I repeated it at 132 BPM in allegro without losing clarity",
+      "I held the last note tenuto",
+      "I named the term and its category before each version"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published",
+  "summaryEn": "Twenty Italian terms for tempo, dynamics, articulation and character that appear in scores, with definitions and original examples.",
+  "objectivesEn": [
+    "Recognize 20 Italian terms and place them in their category",
+    "Associate each term with its meaning and an example",
+    "Apply the terms when listening and playing a short phrase"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "lesson.m2-11",
+  "moduleId": "M2",
+  "slug": "cromaticas-y-tonos-enteros",
+  "titleEs": "Cromática y tonos enteros",
+  "titleEn": "Chromatic and whole-tone",
+  "summaryEs": "Las escalas cromática y de tonos enteros: los doce semitonos y las seis notas equidistantes.",
+  "summaryEn": "The chromatic and whole-tone scales: the twelve semitones and the six evenly spaced notes.",
+  "objectivesEs": [
+    "Reconocer los doce semitonos de la escala cromática",
+    "Tocar la escala de tonos enteros",
+    "Identificar la diferencia entre escala cromática y de tonos enteros"
+  ],
+  "objectivesEn": [
+    "Recognize the twelve semitones of the chromatic scale",
+    "Play the whole-tone scale",
+    "Identify the difference between the chromatic and whole-tone scales"
+  ],
+  "minutes": 14,
+  "prerequisites": [
+    "lesson.m2-10"
+  ],
+  "skillIds": [
+    "skill.major-scale",
+    "skill.ear-scale"
+  ],
+  "exerciseIds": [
+    "ex.m2-11.a",
+    "ex.m2-11.b",
+    "ex.m2-11.c"
+  ],
+  "sections": [
+    {
+      "id": "sec.m2-11.intro",
+      "kind": "text",
+      "titleEs": "Qué son las escalas especiales",
+      "titleEn": "What are special scales",
+      "bodyEs": "La escala cromática usa los doce semitonos posibles entre una tónica y su octava, y por eso toca todas las notas intermedias. La escala de tonos enteros usa solo seis notas con separaciones iguales, seis semitonos de intervalo. Ambas escapan del patrón T-T-S-T-T-T-S de la mayor y amplían el vocabulario melódico.",
+      "bodyEn": "The chromatic scale uses all twelve possible semitones between a tonic and its octave, so it touches every note in between. The whole-tone scale uses only six notes with equal spacing, an interval of six semitones. Both escape the major scale's W-W-H-W-W-W-H pattern and expand the melodic vocabulary."
+    },
+    {
+      "id": "sec.m2-11.score",
+      "kind": "score",
+      "titleEs": "Escala de tonos enteros en Do",
+      "titleEn": "Whole-tone scale in C",
+      "bodyEs": "Escala de tonos enteros en Do: Do, Re, Fa, Sol, La y Do, con seis notas equidistantes de seis semitonos.",
+      "bodyEn": "Whole-tone scale in C: C, D, F, G, A, and C, with six evenly spaced notes six semitones apart.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m2-11.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-11.d4",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-11.f4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "F", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-11.g4",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-11.a4",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "A", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m2-11.exercises",
+      "kind": "exercise",
+      "titleEs": "Escalas especiales",
+      "titleEn": "Special scales",
+      "bodyEs": "En los ejercicios se escribe la escala cromática y la escala de tonos enteros, y se identifica la que se escucha. La respuesta correcta lista las notas con el patrón correspondiente.",
+      "bodyEn": "In the exercises you write the chromatic scale and the whole-tone scale, and you identify the one you hear. The correct answer lists the notes with the corresponding pattern."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la escala de tonos enteros en Do",
+    "titleEn": "Play the whole-tone scale in C",
+    "instructionsEs": "Tocá la escala de tonos enteros en Do (Do, Re, Fa, Sol, La y Do) con la mano derecha a 60 BPM, despacio y sin apuro.",
+    "instructionsEn": "Play the whole-tone scale in C (C, D, F, G, A, and C) with your right hand at 60 BPM, slowly and without rushing.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "A", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha en una octava: 1-2-3-4-5 para la escala de tonos enteros en Do.",
+    "fingeringEn": "Right hand in one octave: 1-2-3-4-5 for the whole-tone scale in C.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué los grados de la escala de tonos enteros en orden",
+      "Mantuve las distancias iguales entre notas",
+      "Repetí la escala despacio con pulso de negra"
+    ],
+    "checklistEn": [
+      "I played the degrees of the whole-tone scale in order",
+      "I kept the equal distances between notes",
+      "I repeated the scale slowly with a quarter-note pulse"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-03.f",
+  "skillId": "skill.harmonic-function",
+  "type": "harmonic-function",
+  "promptEs": "En Mi mayor, ¿qué función cumple el acorde Re♯° (Re♯, Fa♯, La)?",
+  "promptEn": "In E major, what function does the chord D♯° (D♯, F♯, A) fulfil?",
+  "explanationEs": "En Mi mayor, el grado vii° es Re♯ disminuido. Comparte la función dominante del V: contiene la sensible Re♯ y conduce a la tónica Mi.",
+  "explanationEn": "In E major, degree vii° is D♯ diminished. It shares the dominant function of V: it contains the leading tone D♯ and leads to the tonic E.",
+  "difficulty": 3,
+  "key": "E",
+  "mode": "major",
+  "degree": 7,
+  "choices": [
+    "Dominante (D)",
+    "Subdominante (S)",
+    "Tónica (T)"
+  ],
+  "choicesEn": [
+    "Dominant (D)",
+    "Subdominant (S)",
+    "Tonic (T)"
+  ]
+}

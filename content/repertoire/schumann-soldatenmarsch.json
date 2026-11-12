@@ -1,0 +1,4803 @@
+{
+  "id": "piece.schumann.soldatenmarsch",
+  "title": "Soldatenmarsch (Marcha de los soldados), Op. 68 N.º 2",
+  "composerDisplay": "Robert Schumann",
+  "level": 2,
+  "durationSeconds": 48,
+  "tags": [
+    "romántico",
+    "schumann",
+    "dos manos",
+    "marcha",
+    "álbum para la juventud"
+  ],
+  "license": {
+    "license": "public-domain",
+    "composer": {
+      "name": "Robert Schumann",
+      "birthYear": 1810,
+      "deathYear": 1856,
+      "anonymousTraditional": false
+    },
+    "source": "Soldatenmarsch, N.º 2 del Album für die Jugend, Op. 68 (1848), de Robert Schumann; transcripción propia a partir de la edición Peters",
+    "sourceUrl": "https://imslp.org/wiki/Album_f%C3%BCr_die_Jugend%2C_Op.68_(Schumann%2C_Robert)",
+    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionDate": "2026-11-13",
+    "attribution": "Soldatenmarsch, Op. 68 N.º 2 — Robert Schumann (1810-1856), dominio público; transcripción y digitación de PianoDesdeCero",
+    "verifiedBy": "PianoDesdeCero",
+    "verifiedOn": "2026-11-13",
+    "notes": "Marcha en Sol mayor y 2/4 del Album für die Jugend. La mano derecha lleva la melodía con acordes y ritmo con puntillo; la izquierda marcha en el mismo ritmo. Se transcribe la repetición (compases 17-32) de forma desplegada. El bajo de la izquierda sigue la textura original de la edición Peters."
+  },
+  "hands": {
+    "right": {
+      "clef": "treble",
+      "key": "G",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 2,
+        "denominator": 4
+      },
+      "tempoBpm": 120,
+      "events": [
+        {
+          "id": "ev.soldatenmarsch.r001",
+          "measure": 1,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r002",
+          "measure": 1,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r003",
+          "measure": 1,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r004",
+          "measure": 2,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r005",
+          "measure": 2,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r006",
+          "measure": 3,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r007",
+          "measure": 3,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r008",
+          "measure": 4,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r009",
+          "measure": 4,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r010",
+          "measure": 5,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r011",
+          "measure": 5,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r012",
+          "measure": 5,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r013",
+          "measure": 6,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r014",
+          "measure": 6,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r015",
+          "measure": 7,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r016",
+          "measure": 7,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            },
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r017",
+          "measure": 8,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "#",
+              "octave": 5
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r018",
+          "measure": 8,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r019",
+          "measure": 9,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r020",
+          "measure": 9,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r021",
+          "measure": 9,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r022",
+          "measure": 10,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r023",
+          "measure": 10,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r024",
+          "measure": 11,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r025",
+          "measure": 11,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r026",
+          "measure": 12,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r027",
+          "measure": 12,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r028",
+          "measure": 13,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r029",
+          "measure": 13,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r030",
+          "measure": 13,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r031",
+          "measure": 14,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r032",
+          "measure": 14,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r033",
+          "measure": 15,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r034",
+          "measure": 15,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            },
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r035",
+          "measure": 16,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "#",
+              "octave": 5
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r036",
+          "measure": 16,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r037",
+          "measure": 17,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r038",
+          "measure": 17,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r039",
+          "measure": 17,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r040",
+          "measure": 18,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r041",
+          "measure": 18,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r042",
+          "measure": 19,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r043",
+          "measure": 19,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r044",
+          "measure": 20,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r045",
+          "measure": 20,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r046",
+          "measure": 21,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r047",
+          "measure": 21,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r048",
+          "measure": 21,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r049",
+          "measure": 22,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r050",
+          "measure": 22,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r051",
+          "measure": 23,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r052",
+          "measure": 23,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r053",
+          "measure": 24,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r054",
+          "measure": 24,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r055",
+          "measure": 25,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r056",
+          "measure": 25,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r057",
+          "measure": 25,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r058",
+          "measure": 26,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r059",
+          "measure": 26,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r060",
+          "measure": 27,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r061",
+          "measure": 27,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r062",
+          "measure": 28,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r063",
+          "measure": 28,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r064",
+          "measure": 29,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r065",
+          "measure": 29,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r066",
+          "measure": 29,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r067",
+          "measure": 30,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r068",
+          "measure": 30,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r069",
+          "measure": 31,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r070",
+          "measure": 31,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            },
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r071",
+          "measure": 32,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r072",
+          "measure": 33,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r073",
+          "measure": 33,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r074",
+          "measure": 33,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r075",
+          "measure": 34,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r076",
+          "measure": 34,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r077",
+          "measure": 35,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r078",
+          "measure": 35,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r079",
+          "measure": 36,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r080",
+          "measure": 36,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r081",
+          "measure": 37,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r082",
+          "measure": 37,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r083",
+          "measure": 37,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r084",
+          "measure": 38,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r085",
+          "measure": 38,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r086",
+          "measure": 39,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r087",
+          "measure": 39,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r088",
+          "measure": 40,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r089",
+          "measure": 40,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r090",
+          "measure": 41,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r091",
+          "measure": 41,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r092",
+          "measure": 41,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r093",
+          "measure": 42,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r094",
+          "measure": 42,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r095",
+          "measure": 43,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r096",
+          "measure": 43,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r097",
+          "measure": 44,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            },
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r098",
+          "measure": 44,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r099",
+          "measure": 45,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r100",
+          "measure": 45,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r101",
+          "measure": 45,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r102",
+          "measure": 46,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r103",
+          "measure": 46,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r104",
+          "measure": 47,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r105",
+          "measure": 47,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            },
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.r106",
+          "measure": 48,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 5
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    },
+    "left": {
+      "clef": "bass",
+      "key": "G",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 2,
+        "denominator": 4
+      },
+      "tempoBpm": 120,
+      "events": [
+        {
+          "id": "ev.soldatenmarsch.l001",
+          "measure": 1,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l002",
+          "measure": 1,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l003",
+          "measure": 1,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l004",
+          "measure": 2,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l005",
+          "measure": 2,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l006",
+          "measure": 3,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l007",
+          "measure": 3,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l008",
+          "measure": 4,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l009",
+          "measure": 4,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l010",
+          "measure": 5,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l011",
+          "measure": 5,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l012",
+          "measure": 5,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l013",
+          "measure": 6,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l014",
+          "measure": 6,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l015",
+          "measure": 7,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "#",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l016",
+          "measure": 7,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l017",
+          "measure": 8,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l018",
+          "measure": 8,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l019",
+          "measure": 9,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l020",
+          "measure": 9,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l021",
+          "measure": 9,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l022",
+          "measure": 10,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l023",
+          "measure": 10,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l024",
+          "measure": 11,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l025",
+          "measure": 11,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l026",
+          "measure": 12,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l027",
+          "measure": 12,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l028",
+          "measure": 13,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l029",
+          "measure": 13,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l030",
+          "measure": 13,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l031",
+          "measure": 14,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l032",
+          "measure": 14,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l033",
+          "measure": 15,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "#",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l034",
+          "measure": 15,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l035",
+          "measure": 16,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l036",
+          "measure": 16,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            },
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l037",
+          "measure": 17,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l038",
+          "measure": 17,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l039",
+          "measure": 17,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l040",
+          "measure": 18,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l041",
+          "measure": 18,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l042",
+          "measure": 19,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l043",
+          "measure": 19,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l044",
+          "measure": 20,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l045",
+          "measure": 20,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l046",
+          "measure": 21,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l047",
+          "measure": 21,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l048",
+          "measure": 21,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l049",
+          "measure": 22,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l050",
+          "measure": 22,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l051",
+          "measure": 23,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l052",
+          "measure": 23,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l053",
+          "measure": 24,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l054",
+          "measure": 24,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l055",
+          "measure": 25,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l056",
+          "measure": 25,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l057",
+          "measure": 25,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l058",
+          "measure": 26,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l059",
+          "measure": 26,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l060",
+          "measure": 27,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l061",
+          "measure": 27,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l062",
+          "measure": 28,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l063",
+          "measure": 28,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l064",
+          "measure": 29,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l065",
+          "measure": 29,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l066",
+          "measure": 29,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l067",
+          "measure": 30,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l068",
+          "measure": 30,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l069",
+          "measure": 31,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l070",
+          "measure": 31,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l071",
+          "measure": 32,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l072",
+          "measure": 33,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l073",
+          "measure": 33,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l074",
+          "measure": 33,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l075",
+          "measure": 34,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l076",
+          "measure": 34,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l077",
+          "measure": 35,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l078",
+          "measure": 35,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l079",
+          "measure": 36,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l080",
+          "measure": 36,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l081",
+          "measure": 37,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l082",
+          "measure": 37,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l083",
+          "measure": 37,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l084",
+          "measure": 38,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l085",
+          "measure": 38,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l086",
+          "measure": 39,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "#",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l087",
+          "measure": 39,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l088",
+          "measure": 40,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l089",
+          "measure": 40,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l090",
+          "measure": 41,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l091",
+          "measure": 41,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l092",
+          "measure": 41,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l093",
+          "measure": 42,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l094",
+          "measure": 42,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l095",
+          "measure": 43,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l096",
+          "measure": 43,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l097",
+          "measure": 44,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l098",
+          "measure": 44,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            },
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l099",
+          "measure": 45,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 1,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l100",
+          "measure": 45,
+          "beat": 0.75,
+          "value": {
+            "duration": "sixteenth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l101",
+          "measure": 45,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l102",
+          "measure": 46,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l103",
+          "measure": 46,
+          "beat": 1.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l104",
+          "measure": 47,
+          "beat": 0.0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l105",
+          "measure": 47,
+          "beat": 1.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.soldatenmarsch.l106",
+          "measure": 48,
+          "beat": 0.0,
+          "value": {
+            "duration": "eighth",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 3
+            }
+          ],
+          "hand": "left",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ],
+      "pedals": []
+    }
+  },
+  "notesEs": "Marcha en Sol mayor y 2/4 del Album für die Jugend de Schumann: melodía con acordes en la derecha y marcha en la izquierda, con ritmo de negra con puntillo y semicorchea. Se repiten los compases 17 a 32.",
+  "notesEn": "March in G major and 2/4 from Schumann’s Album for the Young: melody with chords in the right hand and a marching left hand, with dotted-eighth and sixteenth rhythm. Measures 17 to 32 are repeated.",
+  "fingeringEs": "Derecha: melodía con dedos 1-2-3-5 y acordes sostenidos con 1-3-5; Izquierda: marcha con 5-3-1 y 5-2-1, manteniendo el pulso estable.",
+  "fingeringEn": "Right hand: melody with fingers 1-2-3-5 and sustained chords with 1-3-5; Left hand: marching bass with 5-3-1 and 5-2-1, keeping a steady pulse."
+}

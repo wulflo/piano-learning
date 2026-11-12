@@ -1,0 +1,28 @@
+{
+  "id": "ex.m0-02.c",
+  "skillId": "skill.note-staff",
+  "type": "note-staff",
+  "promptEs": "¿Qué nota está en la segunda línea del pentagrama en clave de sol?",
+  "explanationEs": "Las líneas de la clave de sol, de abajo hacia arriba, son Mi4, Sol4, Si4, Re5 y Fa5. La segunda línea es Sol4 (G4).",
+  "difficulty": 2,
+  "target": {
+    "step": "G",
+    "accidental": "",
+    "octave": 4
+  },
+  "clef": "treble",
+  "choices": [
+    "Sol3",
+    "Sol4",
+    "Sol5",
+    "Sol6"
+  ],
+  "promptEn": "Which note is on the second line of the treble staff?",
+  "explanationEn": "The lines of the treble staff, from bottom to top, are E4, G4, B4, D5 and F5. The second line is G4.",
+  "choicesEn": [
+    "G3",
+    "G4",
+    "G5",
+    "G6"
+  ]
+}

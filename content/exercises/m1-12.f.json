@@ -1,0 +1,28 @@
+{
+  "id": "ex.m1-12.f",
+  "skillId": "skill.italian-terms",
+  "type": "italian-term",
+  "promptEs": "¿Qué significa staccato?",
+  "explanationEs": "Staccato es un término de articulación: pide tocar las notas cortas y separadas, como pequeños pasos secos.",
+  "difficulty": 1,
+  "term": "staccato",
+  "category": "articulation",
+  "meaningEs": "Tocar las notas cortas y separadas",
+  "exampleEs": "Como pequeños pasos secos y breves.",
+  "choices": [
+    "Tocar las notas cortas y separadas",
+    "Conectar las notas sin silencio",
+    "Acentuar una nota",
+    "Aumentar la intensidad"
+  ],
+  "promptEn": "What does staccato mean?",
+  "explanationEn": "Staccato is an articulation term: it asks you to play notes short and separated, like small dry steps.",
+  "meaningEn": "Play the notes short and separated",
+  "exampleEn": "Like small, dry, brief steps with a light release.",
+  "choicesEn": [
+    "Play the notes short and separated",
+    "Connect the notes without silence",
+    "Accent a note",
+    "Increase the loudness"
+  ]
+}

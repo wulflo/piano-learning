@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-07.d",
+  "skillId": "skill.chord-notation",
+  "type": "chord-notation",
+  "promptEs": "Convertí el cifrado Fa♯dim7 a notación americana.",
+  "promptEn": "Convert the chord F♯dim7 to American notation.",
+  "explanationEs": "Fa♯dim7 es Fa♯ menor disminuido séptima. Fa♯ pasa a F♯ y la disminución se conserva: Fa♯dim7 → F♯dim7.",
+  "explanationEn": "F♯dim7 is F♯ diminished seventh. Fa♯ becomes F♯ and the flat is kept: F♯dim7 → F♯dim7.",
+  "difficulty": 2,
+  "symbol": "Fa♯dim7",
+  "to": "c",
+  "choices": ["F♯dim7", "Fdim7", "Fdim"],
+  "choicesEn": ["F♯dim7", "Fdim7", "Fdim"]
+}

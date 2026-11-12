@@ -1,0 +1,75 @@
+{
+  "id": "piece.original.do-mayor",
+  "title": "Primera melodía en Do",
+  "composerDisplay": "PianoDesdeCero",
+  "level": 1,
+  "durationSeconds": 8,
+  "tags": ["original", "mano derecha", "grado 1"],
+  "license": {
+    "license": "cc0-1.0",
+    "composer": {
+      "name": "PianoDesdeCero",
+      "birthYear": null,
+      "deathYear": null,
+      "anonymousTraditional": false
+    },
+    "source": "Obra original creada para este proyecto",
+    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionDate": "2026-11-09",
+    "attribution": "Primera melodía en Do — PianoDesdeCero (CC0 1.0)",
+    "verifiedBy": "PianoDesdeCero",
+    "verifiedOn": "2026-11-09"
+  },
+  "hands": {
+    "right": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 72,
+      "events": [
+        {
+          "id": "ev.original.1",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original.2",
+          "measure": 1,
+          "beat": 1,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original.3",
+          "measure": 1,
+          "beat": 2,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "ev.original.4",
+          "measure": 1,
+          "beat": 3,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "F", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "notesEs": "Cuatro notas por grado conjunto para practicar pulsación y negras estables."
+}

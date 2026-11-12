@@ -1,0 +1,27 @@
+{
+  "id": "ex.m0-01.b",
+  "skillId": "skill.keyboard-groups",
+  "type": "note-keyboard",
+  "promptEs": "¿Qué nota es la tecla blanca inmediatamente a la izquierda del grupo de tres teclas negras?",
+  "explanationEs": "El grupo de tres teclas negras también sirve de referencia: la blanca justo a su izquierda es Fa. Probalo en varias octavas para confirmar que el patrón se repite.",
+  "difficulty": 1,
+  "target": {
+    "step": "F",
+    "accidental": "",
+    "octave": 4
+  },
+  "choices": [
+    "Do",
+    "Fa",
+    "Sol",
+    "La"
+  ],
+  "promptEn": "Which note is the white key immediately to the left of the group of three black keys?",
+  "explanationEn": "The group of three black keys also works as a reference: the white key just to its left is F. Try it in several octaves to confirm that the pattern repeats.",
+  "choicesEn": [
+    "C",
+    "F",
+    "G",
+    "A"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-03.g",
+  "skillId": "skill.harmonic-function",
+  "type": "harmonic-function",
+  "promptEs": "En La menor natural, ¿qué función cumple el acorde Lam (La, Do, Mi)?",
+  "promptEn": "In A natural minor, what function does the chord Am (A, C, E) fulfil?",
+  "explanationEs": "En La menor, el grado i es Lam. La tónica menor es el centro de reposo: la armonía vuelve a ella al final de la frase.",
+  "explanationEn": "In A minor, degree i is Am. The minor tonic is the centre of rest: the harmony returns to it at the end of the phrase.",
+  "difficulty": 1,
+  "key": "A",
+  "mode": "minor",
+  "degree": 1,
+  "choices": [
+    "Dominante (D)",
+    "Tónica (T)",
+    "Subdominante (S)"
+  ],
+  "choicesEn": [
+    "Dominant (D)",
+    "Tonic (T)",
+    "Subdominant (S)"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-05.c",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "El acorde formado por Mi, Sol, Si, Re y Fa♯, ¿qué calidad extendida tiene?",
+  "promptEn": "The chord made of E, G, B, D and F# has which extended quality?",
+  "explanationEs": "Es un Mi m9, o novena menor: 1-♭3-5-♭7-9 (Mi-Sol-Si-Re-Fa♯). Tiene tercera menor Sol, séptima menor Re y novena Fa♯. En la práctica se omite Si.",
+  "explanationEn": "It is an Em9, or minor ninth: 1-♭3-5-♭7-9 (E-G-B-D-F#). It has a minor third G, a minor seventh D and a ninth F#. In practice B is omitted.",
+  "difficulty": 3,
+  "root": { "step": "E", "accidental": "", "octave": 4 },
+  "quality": "minor9",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["novena mayor", "novena de dominante", "novena menor"],
+  "choicesEn": ["major ninth", "dominant ninth", "minor ninth"]
+}

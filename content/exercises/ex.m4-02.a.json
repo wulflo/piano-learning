@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-02.a",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada formada por Do, Mi♭ y Sol♭?",
+  "promptEn": "What quality does the triad made of C, Eb and Gb have?",
+  "explanationEs": "Es una tríada disminuida, 1-♭3-♭5: Do-Mi♭ es una tercera menor de tres semitonos y Mi♭-Sol♭ es otra tercera menor de tres semitonos. La quinta está bemolada y la tríada queda inestable.",
+  "explanationEn": "It is a diminished triad, 1-♭3-♭5: C-Eb is a minor third of three semitones and Eb-Gb is another minor third of three semitones. The fifth is flattened and the triad is unstable.",
+  "difficulty": 3,
+  "root": { "step": "C", "accidental": "", "octave": 4 },
+  "quality": "diminished",
+  "inversion": 0,
+  "choices": ["disminuido", "aumentado", "suspendido 2", "suspendido 4"],
+  "choicesEn": ["diminished", "augmented", "suspended 2", "suspended 4"]
+}

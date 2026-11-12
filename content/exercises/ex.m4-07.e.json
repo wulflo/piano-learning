@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-07.e",
+  "skillId": "skill.chord-notation",
+  "type": "chord-notation",
+  "promptEs": "Convertí el cifrado Solm7♭5 a notación americana.",
+  "promptEn": "Convert the chord Gm7♭5 to American notation.",
+  "explanationEs": "Solm7♭5 es Sol menor semidisminuido séptima. Sol pasa a G y la disminución se conserva: Solm7♭5 → Gm7♭5.",
+  "explanationEn": "Gm7♭5 is G half-diminished seventh. Sol becomes G and the flat is kept: Gm7♭5 → Gm7♭5.",
+  "difficulty": 3,
+  "symbol": "Solm7♭5",
+  "to": "c",
+  "choices": ["Gm7♭5", "Gm7b5", "Gdim7"],
+  "choicesEn": ["Gm7♭5", "Gm7b5", "Gdim7"]
+}

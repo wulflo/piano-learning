@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-10.e",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "El acorde formado por Mi, Sol, Si♭ y Re♭, ¿qué calidad tiene?",
+  "promptEn": "The chord made of E, G, B♭ and D♭, what quality does it have?",
+  "explanationEs": "Mi-Sol es tercera menor, Mi-Si♭ quinta disminuida y Mi-Re♭ séptima disminuida: es un Mi dim7. La quinta disminuida y la séptima disminuida lo vuelven simétrico y muy inestable.",
+  "explanationEn": "E-G is a minor third, E-B♭ a diminished fifth and E-D♭ a diminished seventh: it is an Edim7. The diminished fifth and diminished seventh make it symmetrical and very unstable.",
+  "difficulty": 3,
+  "root": { "step": "E", "accidental": "", "octave": 4 },
+  "quality": "diminished7",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["séptima disminuida", "séptima semidisminuida", "séptima menor", "séptima de dominante"],
+  "choicesEn": ["diminished seventh", "half-diminished seventh", "minor seventh", "dominant seventh"]
+}

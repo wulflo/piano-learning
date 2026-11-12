@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-07.f",
+  "skillId": "skill.chord-notation",
+  "type": "chord-notation",
+  "promptEs": "Convertí el cifrado La♭7 a notación americana.",
+  "promptEn": "Convert the chord A♭7 to American notation.",
+  "explanationEs": "La♭7 es La♭ séptima de dominante. La♭ pasa a A♭ y el 7 se conserva: La♭7 → A♭7.",
+  "explanationEn": "A♭7 is the dominant seventh above A♭. La♭ becomes A♭ and the 7 stays: A♭7 → A♭7.",
+  "difficulty": 3,
+  "symbol": "La♭7",
+  "to": "c",
+  "choices": ["A♭7", "Ab7", "Am7"],
+  "choicesEn": ["A♭7", "Ab7", "Am7"]
+}

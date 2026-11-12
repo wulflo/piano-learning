@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-05.l",
+  "skillId": "skill.ear-interval",
+  "type": "ear-interval",
+  "promptEs": "¿Qué intervalo armónico hay entre Re4 y Fa4 cuando suenan juntos?",
+  "promptEn": "What harmonic interval is there between D4 and F4 when they sound together?",
+  "explanationEs": "Con Re4 y Fa4 sonando a la vez formamos una tercera menor, que define la calidad de la tríada.",
+  "explanationEn": "With D4 and F4 sounding together we form a minor third, which defines the quality of the triad.",
+  "difficulty": 3,
+  "lower": { "step": "D", "accidental": "", "octave": 4 },
+  "upper": { "step": "F", "accidental": "", "octave": 4 },
+  "direction": "harmonic",
+  "choices": ["Tercera menor", "Tercera mayor", "Segunda menor", "Segunda mayor"],
+  "choicesEn": ["Minor third", "Major third", "Minor second", "Major second"]
+}

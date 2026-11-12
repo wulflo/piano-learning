@@ -1,0 +1,265 @@
+{
+  "id": "lesson.m4-10",
+  "moduleId": "M4",
+  "slug": "reconocer-calidad-de-acordes",
+  "titleEs": "Reconocer la calidad de un acorde",
+  "titleEn": "Recognizing chord quality",
+  "summaryEs": "Cómo distinguir las tríadas mayores, menores, disminuidas y aumentadas y las cinco séptimas por sus intervalos y de oído, con los pares que más se confunden.",
+  "summaryEn": "How to tell major, minor, diminished and augmented triads and the five sevenths apart by their intervals and by ear, with the pairs that are most often confused.",
+  "objectivesEs": [
+    "Distinguir las cuatro tríadas por su tercera y su quinta",
+    "Reconocer las cinco calidades de séptima por su quinta y su séptima",
+    "Elegir entre calidades cercanas sin confundir maj7 con 7 ni m7 con m7♭5",
+    "Identificar la calidad de un acorde de oído y comprobarla con sus intervalos"
+  ],
+  "objectivesEn": [
+    "Tell the four triads apart by their third and fifth",
+    "Recognize the five seventh qualities by their fifth and seventh",
+    "Choose between close qualities without confusing maj7 with 7 or m7 with m7♭5",
+    "Identify a chord quality by ear and check it with its intervals"
+  ],
+  "minutes": 18,
+  "prerequisites": [
+    "lesson.m4-09"
+  ],
+  "skillIds": [
+    "skill.chord-quality",
+    "skill.chord-seventh",
+    "skill.chord-quality-ear"
+  ],
+  "exerciseIds": [
+    "ex.m4-10.a",
+    "ex.m4-10.b",
+    "ex.m4-10.c",
+    "ex.m4-10.d",
+    "ex.m4-10.e",
+    "ex.m4-10.f",
+    "ex.m4-10.g",
+    "ex.m4-10.h",
+    "ex.m4-10.i",
+    "ex.m4-10.j",
+    "ex.m4-10.k",
+    "ex.m4-10.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m4-10.intro",
+      "kind": "text",
+      "titleEs": "La calidad es lo que cambia el color",
+      "titleEn": "Quality is what changes the color",
+      "bodyEs": "Dos acordes pueden compartir la fundamental y sonar completamente distintos. Lo que cambia no es la nota que les da nombre, sino la calidad: la combinación de tercera, quinta y, cuando hay cuatro notas, séptima. Do mayor, Do menor, Do disminuido y Do aumentado parten todos de Do, pero sus terceras y quintas dibujan colores diferentes. Lo mismo pasa con Do maj7, Do7, Do m7, Do m7♭5 y Do dim7: la fundamental sigue siendo Do y la séptima es la que decide. Reconocer la calidad es escuchar o mirar esas capas y nombrar el resultado. En esta lección vas a hacerlo primero con las notas a la vista y después solo con el oído.",
+      "bodyEn": "Two chords can share a root and sound completely different. What changes is not the note that names them but the quality: the combination of third, fifth and, when there are four notes, seventh. C major, C minor, C diminished and C augmented all start on C, but their thirds and fifths draw different colors. The same happens with Cmaj7, C7, Cm7, Cm7♭5 and Cdim7: the root is still C and the seventh decides. Recognizing quality means hearing or seeing those layers and naming the result. In this lesson you will do it first with the notes in view and then with your ear alone."
+    },
+    {
+      "id": "sec.m4-10.triadas",
+      "kind": "text",
+      "titleEs": "Las tríadas: tercera y quinta",
+      "titleEn": "Triads: third and fifth",
+      "bodyEs": "Una tríada tiene tres notas y se define por dos intervalos desde la fundamental. La tercera mayor con quinta justa da la tríada mayor, sin sufijo: Do-Mi-Sol. La tercera menor con quinta justa da la menor, m: Do-Mi♭-Sol. La tercera menor con quinta disminuida da la disminuida, dim: Do-Mi♭-Sol♭. La tercera mayor con quinta aumentada da la aumentada, aug: Do-Mi-Sol♯. La tercera es la que decide entre mayor y menor; la quinta es la que separa las disminuidas y aumentadas de las estables. Las suspendidas son la excepción: cambian la tercera por una segunda o una cuarta, y por eso no son ni mayores ni menores.",
+      "bodyEn": "A triad has three notes and is defined by two intervals from the root. A major third with a perfect fifth gives the major triad, with no suffix: C-E-G. A minor third with a perfect fifth gives the minor triad, m: C-E♭-G. A minor third with a diminished fifth gives the diminished triad, dim: C-E♭-G♭. A major third with an augmented fifth gives the augmented triad, aug: C-E-G♯. The third decides between major and minor; the fifth separates the diminished and augmented chords from the stable ones. Suspended chords are the exception: they replace the third with a second or a fourth, so they are neither major nor minor."
+    },
+    {
+      "id": "sec.m4-10.septimas",
+      "kind": "text",
+      "titleEs": "Las cinco séptimas: quinta y séptima",
+      "titleEn": "The five sevenths: fifth and seventh",
+      "bodyEs": "Con cuatro notas, la séptima se suma a la tercera y la quinta. Si la tríada es mayor y la séptima es mayor, el acorde es maj7: Do-Mi-Sol-Si. Si la tríada es mayor y la séptima es menor, es un 7 de dominante: Do-Mi-Sol-Si♭. Si la tríada es menor y la séptima es menor, es m7: Do-Mi♭-Sol-Si♭. Si la tríada es disminuida y la séptima es menor, es m7♭5, la semidisminuida: Do-Mi♭-Sol♭-Si♭. Si la tríada es disminuida y la séptima es disminuida, es dim7: Do-Mi♭-Sol♭-Si𝄫. La séptima disminuida queda un semitono más abajo que la menor y es la que da al dim7 su sonido simétrico. Los dos pares que más se confunden son maj7 con 7, que solo cambian la séptima, y m7 con m7♭5, que solo cambian la quinta. Escuchá primero la tercera, después la quinta y por último la séptima.",
+      "bodyEn": "With four notes, the seventh joins the third and the fifth. If the triad is major and the seventh is major, the chord is maj7: C-E-G-B. If the triad is major and the seventh is minor, it is a dominant 7: C-E-G-B♭. If the triad is minor and the seventh is minor, it is m7: C-E♭-G-B♭. If the triad is diminished and the seventh is minor, it is m7♭5, the half-diminished chord: C-E♭-G♭-B♭. If the triad is diminished and the seventh is diminished, it is dim7: C-E♭-G♭-B𝄫. The diminished seventh sits one semitone below the minor seventh and gives dim7 its symmetrical sound. The two pairs most often confused are maj7 with 7, which differ only in the seventh, and m7 with m7♭5, which differ only in the fifth. Listen to the third first, then the fifth and finally the seventh."
+    },
+    {
+      "id": "sec.m4-10.demo",
+      "kind": "score",
+      "titleEs": "Cuatro acordes que se confunden de a pares",
+      "titleEn": "Four chords that are confused in pairs",
+      "bodyEs": "Escuchá y mirá cuatro acordes en posición fundamental: Do maj7 (Do-Mi-Sol-Si), Do7 (Do-Mi-Sol-Si♭), Rem7 (Re-Fa-La-Do) y Rem7♭5 (Re-Fa-La♭-Do). Los dos primeros comparten tríada mayor y cambian solo la séptima; los dos últimos comparten tríada menor y cambian solo la quinta. Tocá cada par y quedate con la sensación: la séptima mayor de Do maj7 es más brillante y estable que la séptima menor de Do7, y la quinta disminuida de Rem7♭5 vuelve el acorde más inestable que Rem7. La calidad no está en la fundamental ni en el cifrado: está en esos intervalos.",
+      "bodyEn": "Listen to and look at four chords in root position: Cmaj7 (C-E-G-B), C7 (C-E-G-B♭), Dm7 (D-F-A-C) and Dm7♭5 (D-F-A♭-C). The first two share a major triad and change only the seventh; the last two share a minor triad and change only the fifth. Play each pair and keep the feeling: the major seventh of Cmaj7 is brighter and more stable than the minor seventh of C7, and the diminished fifth of Dm7♭5 makes the chord more unstable than Dm7. Quality is not in the root or the symbol: it is in those intervals.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "score.m4-10.major7",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-10.dominant7",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-10.minor7",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 },
+              { "step": "A", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-10.half-diminished7",
+            "measure": 4,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 },
+              { "step": "A", "accidental": "b", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m4-10.escuchar",
+      "kind": "text",
+      "titleEs": "Cómo escuchar la calidad",
+      "titleEn": "How to listen for quality",
+      "bodyEs": "Para reconocer un acorde de oído no hace falta adivinar la fundamental: alcanza con comparar la calidad con un modelo que ya tengas en la cabeza. Empezá por la tercera: si el acorde suena luminoso y abierto, es mayor; si suena más oscuro y cerrado, es menor. Después escuchá la quinta: si el acorde se sostiene, es justa; si queda flojo o inestable, puede ser disminuida o aumentada. Por último, buscá la séptima: una tensión suave y brillante es mayor; una tensión que pide resolver es menor. En los pares cercanos, cambiá una sola capa por vez: maj7 contra 7 y m7 contra m7♭5. Repetí el par hasta que la diferencia sea evidente y recién después pasá al siguiente.",
+      "bodyEn": "To recognize a chord by ear you do not need to guess the root: it is enough to compare the quality with a model you already have in mind. Start with the third: if the chord sounds bright and open, it is major; if it sounds darker and closed, it is minor. Then listen to the fifth: if the chord stands firm, it is perfect; if it feels weak or unstable, it may be diminished or augmented. Finally, look for the seventh: a soft, bright tension is major; a tension that wants to resolve is minor. With close pairs, change one layer at a time: maj7 against 7 and m7 against m7♭5. Repeat the pair until the difference is obvious and only then move to the next one."
+    },
+    {
+      "id": "sec.m4-10.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios de calidad",
+      "titleEn": "Twelve quality exercises",
+      "bodyEs": "Los seis primeros ejercicios muestran las notas y piden la calidad; los seis últimos hacen sonar el acorde y piden la misma respuesta de oído. Las opciones son calidades cercanas: en las séptimas, maj7, 7, m7, m7♭5 y dim7 comparten notas y se diferencian por la quinta o la séptima; en las tríadas, mayor, menor, disminuida y aumentada se diferencian por la tercera y la quinta. Antes de responder, identificá la tercera, después la quinta y, si hay cuatro notas, la séptima. En los ejercicios auditivos usá el botón «Escuchar acorde» y repetí el sonido todas las veces que necesites.",
+      "bodyEn": "The first six exercises show the notes and ask for the quality; the last six play the chord and ask for the same answer by ear. The choices are close qualities: among sevenths, maj7, 7, m7, m7♭5 and dim7 share notes and differ in the fifth or the seventh; among triads, major, minor, diminished and augmented differ in the third and the fifth. Before answering, identify the third, then the fifth and, if there are four notes, the seventh. In the listening exercises use the “Listen to the chord” button and repeat the sound as many times as you need."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Tocá los pares y escuchá qué capa cambia",
+    "titleEn": "Play the pairs and hear which layer changes",
+    "instructionsEs": "Tocá los cuatro acordes de la demo a 60 BPM, uno por compás: Do maj7, Do7, Rem7 y Rem7♭5. Primero tocá el par Do maj7–Do7 y cantá la séptima de cada uno; después el par Rem7–Rem7♭5 y cantá la quinta. Repetí cada par tres veces cambiando solo la nota que corresponde. Al final, tocá los cuatro seguidos y nombrá la calidad de cada uno antes de mirar la partitura.",
+    "instructionsEn": "Play the four demo chords at 60 BPM, one per bar: Cmaj7, C7, Dm7 and Dm7♭5. First play the Cmaj7–C7 pair and sing the seventh of each; then the Dm7–Dm7♭5 pair and sing the fifth. Repeat each pair three times changing only the relevant note. Finally, play all four in a row and name each quality before looking at the score.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "B", "accidental": "", "octave": 4 },
+      { "step": "B", "accidental": "b", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "", "octave": 4 },
+      { "step": "A", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 5 },
+      { "step": "A", "accidental": "b", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: 1-2-3-5 en las séptimas. Mantené la fundamental con el dedo 1 y mové solo el dedo de la nota que cambia.",
+    "fingeringEn": "Right hand: 1-2-3-5 on the sevenths. Hold the root with finger 1 and move only the finger of the note that changes.",
+    "tempoBpm": 60,
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m4-10.major7",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-10.dominant7",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "b", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-10.minor7",
+          "measure": 3,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "D", "accidental": "", "octave": 4 },
+            { "step": "F", "accidental": "", "octave": 4 },
+            { "step": "A", "accidental": "", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-10.half-diminished7",
+          "measure": 4,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "D", "accidental": "", "octave": 4 },
+            { "step": "F", "accidental": "", "octave": 4 },
+            { "step": "A", "accidental": "b", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "checklistEs": [
+      "Toqué los dos pares y canté la nota que cambia en cada uno",
+      "Diferencia la séptima mayor de Do maj7 de la menor de Do7",
+      "Diferencia la quinta justa de Rem7 de la disminuida de Rem7♭5"
+    ],
+    "checklistEn": [
+      "I played both pairs and sang the note that changes in each",
+      "I can tell the major seventh of Cmaj7 from the minor seventh of C7",
+      "I can tell the perfect fifth of Dm7 from the diminished fifth of Dm7♭5"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

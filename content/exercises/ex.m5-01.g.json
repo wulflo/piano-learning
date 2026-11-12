@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-01.g",
+  "skillId": "skill.diatonic-chords",
+  "type": "chord",
+  "promptEs": "En Do♯ menor, ¿qué cifrado tiene la tríada diatónica del grado iv?",
+  "promptEn": "In C♯ minor, what is the symbol of the diatonic triad on degree iv?",
+  "explanationEs": "En Do♯ menor natural, el grado iv se construye sobre Fa♯: Fa♯-La-Do♯. La tercera Fa♯-La es menor y la quinta Fa♯-Do♯ es justa, así que la tríada es menor y se cifra Fa♯m.",
+  "explanationEn": "In C♯ natural minor, degree iv is built on F♯: F♯-A-C♯. The third F♯-A is minor and the fifth F♯-C♯ is perfect, so the triad is minor and its symbol is F♯m.",
+  "difficulty": 1,
+  "root": {
+    "step": "F",
+    "accidental": "#",
+    "octave": 4
+  },
+  "quality": "minor",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Fa♯",
+    "Fa♯m",
+    "Fa♯7",
+    "Fa♯m7"
+  ],
+  "choicesEn": [
+    "F♯",
+    "F♯m",
+    "F♯7",
+    "F♯m7"
+  ]
+}

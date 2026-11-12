@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-04.b",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de Do menor?",
+  "explanationEs": "Do menor se deletrea C D Eb F G Ab Bb C con el patrón menor.",
+  "difficulty": 2,
+  "tonic": "C",
+  "mode": "natural-minor",
+  "choices": [
+    "C D Eb F G Ab Bb C",
+    "C D E F G A B C",
+    "C D Eb F G Ab Bb D"
+  ],
+  "promptEn": "How do you spell the C minor scale?",
+  "explanationEn": "C minor is spelled C D Eb F G Ab Bb C with the minor pattern.",
+  "choicesEn": [
+    "C D Eb F G Ab Bb C",
+    "C D E F G A B C",
+    "C D Eb F G Ab Bb D"
+  ]
+}

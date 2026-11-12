@@ -1,0 +1,384 @@
+{
+  "id": "lesson.m4-07",
+  "moduleId": "M4",
+  "slug": "cifrado-latino-americano",
+  "titleEs": "Cifrado latino y americano",
+  "titleEn": "Latin and American chord notation",
+  "summaryEs": "La tabla completa de equivalencias entre el cifrado latino (Do, Re, Mi…) y el americano (C, D, E…), las alteraciones, los sufijos de calidad y la conversión de acordes con barra en los dos sentidos.",
+  "summaryEn": "The complete table of equivalences between Latin (Do, Re, Mi…) and American (C, D, E…) chord notation, accidentals, quality suffixes and two-way conversion of slash chords.",
+  "objectivesEs": [
+    "Reconocer las siete notas en cifrado latino y americano",
+    "Distinguir las alteraciones ♭ y ♯ de sus formas ASCII b y #",
+    "Conservar el sufijo de calidad al cambiar de notación",
+    "Convertir un acorde con barra en los dos sentidos: Do7/Solm ↔ C7/Gm"
+  ],
+  "objectivesEn": [
+    "Recognise the seven notes in Latin and American notation",
+    "Tell the ♭ and ♯ accidentals from their ASCII forms b and #",
+    "Keep the quality suffix when switching notation",
+    "Convert a slash chord both ways: Do7/Solm ↔ C7/Gm"
+  ],
+  "minutes": 18,
+  "prerequisites": [
+    "lesson.m4-06"
+  ],
+  "skillIds": [
+    "skill.chord-notation"
+  ],
+  "exerciseIds": [
+    "ex.m4-07.a",
+    "ex.m4-07.b",
+    "ex.m4-07.c",
+    "ex.m4-07.d",
+    "ex.m4-07.e",
+    "ex.m4-07.f",
+    "ex.m4-07.g",
+    "ex.m4-07.h",
+    "ex.m4-07.i",
+    "ex.m4-07.j",
+    "ex.m4-07.k",
+    "ex.m4-07.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m4-07.intro",
+      "kind": "text",
+      "titleEs": "Dos nombres para las mismas notas",
+      "titleEn": "Two names for the same notes",
+      "bodyEs": "El cifrado latino nombra las notas en español —Do, Re, Mi, Fa, Sol, La y Si— y el americano usa las letras C, D, E, F, G, A y B. No son dos sistemas distintos de armonía: son dos formas de escribir lo mismo. La fundamental y el bajo cambian de nombre, pero la calidad, las extensiones y la barra no se traducen. Por eso Do7/Solm y C7/Gm describen exactamente el mismo acorde: Do mayor con séptima menor y Sol en el bajo. La tabla de notas es fija: Do = C, Re = D, Mi = E, Fa = F, Sol = G, La = A y Si = B.",
+      "bodyEn": "Latin notation names the notes in Spanish —Do, Re, Mi, Fa, Sol, La and Si— while American notation uses the letters C, D, E, F, G, A and B. They are not two different harmonic systems: they are two ways of writing the same thing. The root and the bass change their names, but the quality, the extensions and the slash do not translate. That is why Do7/Solm and C7/Gm describe exactly the same chord: C major with a minor seventh and G in the bass. The note table is fixed: Do = C, Re = D, Mi = E, Fa = F, Sol = G, La = A and Si = B."
+    },
+    {
+      "id": "sec.m4-07.tabla",
+      "kind": "text",
+      "titleEs": "La tabla completa",
+      "titleEn": "The complete table",
+      "bodyEs": "Notas: Do = C, Re = D, Mi = E, Fa = F, Sol = G, La = A, Si = B. Alteraciones: ♭ = b (bemol), ♯ = # (sostenido), ♭♭ = bb (doble bemol) y ♯♯ = ## o x (doble sostenido). Sufijos que se conservan iguales: m (menor), maj7 (séptima mayor), 7 (séptima de dominante), m7 (menor séptima), m7♭5 (semidisminuido), dim7 (disminuido), sus2 y sus4 (suspendidos), add9 (novena añadida) y 9, 11 y 13 (extensiones). La barra también se conserva y se traducen los dos lados: Do7/Solm = C7/Gm, Rem7 = Dm7, Mi♭maj7 = E♭maj7, Fa♯dim7 = F♯dim7, Solm7♭5 = Gm7♭5, La♭7 = A♭7, Si♭sus4 = B♭sus4 y Do/Re = C/D.",
+      "bodyEn": "Notes: Do = C, Re = D, Mi = E, Fa = F, Sol = G, La = A, Si = B. Accidentals: ♭ = b (flat), ♯ = # (sharp), ♭♭ = bb (double flat) and ♯♯ = ## or x (double sharp). Suffixes that stay the same: m (minor), maj7 (major seventh), 7 (dominant seventh), m7 (minor seventh), m7♭5 (half-diminished), dim7 (diminished), sus2 and sus4 (suspended), add9 (added ninth) and 9, 11 and 13 (extensions). The slash also stays and both sides are translated: Do7/Solm = C7/Gm, Rem7 = Dm7, Mi♭maj7 = E♭maj7, F♯dim7 = F♯dim7, Gm7♭5 = Gm7♭5, A♭7 = A♭7, B♭sus4 = B♭sus4 and C/D = C/D."
+    },
+    {
+      "id": "sec.m4-07.conversion",
+      "kind": "text",
+      "titleEs": "Cómo convertir sin perder nada",
+      "titleEn": "How to convert without losing anything",
+      "bodyEs": "Para pasar de latino a americano, separá el cifrado por la barra, traducí solo la nota del inicio y la nota del bajo, y dejá intactos el sufijo y la barra. Para volver, hacé lo mismo al revés. Do7 → C7, Solm → Gm y Do7/Solm → C7/Gm. En sentido inverso, C7/Gm → Do7/Solm. Cuidado con tres confusiones: Do/Mi no es Do m7, porque la barra fija el bajo y la m indica menor; en latino se suele escribir Do m7 con espacio, pero el cifrado del curso usa Dom7 sin espacio para que la barra no se confunda; y la letra B del americano es Si, no «be», así que B♭ es Si♭. Las alteraciones se pueden escribir con glifo (♭, ♯) o con ASCII (b, #): la conversión normaliza a glifo, pero al responder se aceptan las dos formas.",
+      "bodyEn": "To go from Latin to American notation, split the symbol at the slash, translate only the first note and the bass note, and leave the suffix and the slash untouched. To go back, do the same in reverse. Do7 → C7, Solm → Gm and Do7/Solm → C7/Gm. In the other direction, C7/Gm → Do7/Solm. Watch out for three traps: Do/Mi is not Do m7, because the slash sets the bass and the m means minor; Latin notation often writes Do m7 with a space, but this course writes Dom7 without one so the slash is not confusing; and the American letter B is Si, not “be”, so B♭ is Si♭. Accidentals can be written with a glyph (♭, ♯) or ASCII (b, #): conversion normalises to the glyph, but answers accept both forms."
+    },
+    {
+      "id": "sec.m4-07.demo",
+      "kind": "score",
+      "titleEs": "Ocho acordes y sus dos cifrados",
+      "titleEn": "Eight chords and their two symbols",
+      "bodyEs": "Escuchá ocho acordes, uno por compás, con su cifrado latino y americano: Do7/Solm = C7/Gm, Rem7 = Dm7, Mi♭maj7 = E♭maj7, Fa♯dim7 = F♯dim7, Solm7♭5 = Gm7♭5, La♭7 = A♭7, Si♭sus4 = B♭sus4 y Do/Re = C/D. La música es la misma: cambian los nombres, no las notas. El primer acorde y el último usan barra; los demás son acordes completos. Escuchá que Do7/Solm tiene Sol en el bajo, mientras que Rem7 y Si♭sus4 tienen la fundamental abajo.",
+      "bodyEn": "Listen to eight chords, one per bar, with their Latin and American symbols: Do7/Solm = C7/Gm, Rem7 = Dm7, E♭maj7 = E♭maj7, F♯dim7 = F♯dim7, Gm7♭5 = Gm7♭5, A♭7 = A♭7, B♭sus4 = B♭sus4 and C/D = C/D. The music is the same: the names change, not the notes. The first chord and the last one use a slash; the rest are complete chords. Listen to the G in the bass of C7/Gm, while Dm7 and B♭sus4 keep the root at the bottom.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m4-07.dom7-slash",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-07.re-m7",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 },
+              { "step": "A", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-07.mib-maj7",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "E", "accidental": "b", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "b", "octave": 4 },
+              { "step": "D", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-07.fa#-dim7",
+            "measure": 4,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "F", "accidental": "#", "octave": 4 },
+              { "step": "A", "accidental": "", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 },
+              { "step": "E", "accidental": "b", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-07.sol-m7b5",
+            "measure": 5,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "b", "octave": 4 },
+              { "step": "D", "accidental": "b", "octave": 5 },
+              { "step": "F", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-07.lab-7",
+            "measure": 6,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "A", "accidental": "b", "octave": 4 },
+              { "step": "C", "accidental": "", "octave": 5 },
+              { "step": "E", "accidental": "b", "octave": 5 },
+              { "step": "G", "accidental": "b", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-07.sib-sus4",
+            "measure": 7,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "B", "accidental": "b", "octave": 4 },
+              { "step": "E", "accidental": "b", "octave": 5 },
+              { "step": "F", "accidental": "", "octave": 5 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-07.do-slash-re",
+            "measure": 8,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 },
+              { "step": "G", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m4-07.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce conversiones en los dos sentidos",
+      "titleEn": "Twelve conversions in both directions",
+      "bodyEs": "Los primeros seis ejercicios dan un cifrado y piden su equivalente: tres del latino al americano y tres del americano al latino. Los otros seis hacen lo mismo sin opciones: escribí el cifrado completo, con la barra si la tiene. Para resolverlos, separá el cifrado por la barra, traducí la nota inicial y la del bajo, y copiá el sufijo y la barra sin cambios. Do7/Solm se convierte en C7/Gm; C7/Gm vuelve a Do7/Solm. Las alteraciones pueden escribirse con glifo o con ASCII.",
+      "bodyEn": "The first six exercises give a chord symbol and ask for its equivalent: three from Latin to American and three from American to Latin. The other six do the same without options: write the full symbol, with the slash if it has one. To solve them, split the symbol at the slash, translate the first note and the bass note, and copy the suffix and the slash unchanged. Do7/Solm becomes C7/Gm; C7/Gm goes back to Do7/Solm. Accidentals can be written with a glyph or with ASCII."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca ocho acordes y decí su cifrado",
+    "titleEn": "Play eight chords and name their symbols",
+    "instructionsEs": "Tocá los ocho acordes de la demo a 60 BPM, uno por compás. Antes de cada acorde, decí en voz alta su cifrado latino y su cifrado americano: Do7/Solm = C7/Gm, Rem7 = Dm7, Mi♭maj7 = E♭maj7, Fa♯dim7 = F♯dim7, Solm7♭5 = Gm7♭5, La♭7 = A♭7, Si♭sus4 = B♭sus4 y Do/Re = C/D. En los acordes con barra, tocá el bajo con la mano izquierda y el resto con la derecha; en los demás, mantené la fundamental en el bajo y escuchá la calidad.",
+    "instructionsEn": "Play the eight demo chords at 60 BPM, one per bar. Before each chord, say its Latin and American symbols aloud: Do7/Solm = C7/Gm, Rem7 = Dm7, E♭maj7 = E♭maj7, F♯dim7 = F♯dim7, Gm7♭5 = Gm7♭5, A♭7 = A♭7, B♭sus4 = B♭sus4 and C/D = C/D. In the slash chords, play the bass with your left hand and the rest with your right; in the others, keep the root in the bass and listen to the quality.",
+    "keys": [
+      { "step": "G", "accidental": "", "octave": 3 },
+      { "step": "D", "accidental": "", "octave": 3 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "B", "accidental": "b", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "", "octave": 4 },
+      { "step": "A", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 5 },
+      { "step": "E", "accidental": "b", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 5 },
+      { "step": "F", "accidental": "#", "octave": 4 },
+      { "step": "E", "accidental": "b", "octave": 5 },
+      { "step": "D", "accidental": "b", "octave": 5 },
+      { "step": "F", "accidental": "", "octave": 5 },
+      { "step": "A", "accidental": "b", "octave": 4 },
+      { "step": "G", "accidental": "b", "octave": 5 }
+    ],
+    "fingeringEs": "Mano izquierda: 5 para el bajo de Do7/Solm y de Do/Re. Mano derecha: 1-2-3-4 en los acordes de cuatro notas y 1-2-3 en el sus4.",
+    "fingeringEn": "Left hand: 5 for the bass of C7/Gm and C/D. Right hand: 1-2-3-4 on the four-note chords and 1-2-3 on the sus4.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué los ocho acordes y dije en voz alta sus dos cifrados",
+      "Traduje correctamente Do7/Solm como C7/Gm y volví a Do7/Solm",
+      "Diferencié la barra de la m: Do/Mi no es Do m7"
+    ],
+    "checklistEn": [
+      "I played the eight chords and said both symbols aloud",
+      "I translated Do7/Solm as C7/Gm correctly and back to Do7/Solm",
+      "I told the slash from the m: Do/Mi is not Do m7"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m4-07.dom7-slash",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "b", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-07.re-m7",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "D", "accidental": "", "octave": 4 },
+            { "step": "F", "accidental": "", "octave": 4 },
+            { "step": "A", "accidental": "", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-07.mib-maj7",
+          "measure": 3,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "E", "accidental": "b", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "b", "octave": 4 },
+            { "step": "D", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-07.fa#-dim7",
+          "measure": 4,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "F", "accidental": "#", "octave": 4 },
+            { "step": "A", "accidental": "", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 },
+            { "step": "E", "accidental": "b", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-07.sol-m7b5",
+          "measure": 5,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "b", "octave": 4 },
+            { "step": "D", "accidental": "b", "octave": 5 },
+            { "step": "F", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-07.lab-7",
+          "measure": 6,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "A", "accidental": "b", "octave": 4 },
+            { "step": "C", "accidental": "", "octave": 5 },
+            { "step": "E", "accidental": "b", "octave": 5 },
+            { "step": "G", "accidental": "b", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-07.sib-sus4",
+          "measure": 7,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "B", "accidental": "b", "octave": 4 },
+            { "step": "E", "accidental": "b", "octave": 5 },
+            { "step": "F", "accidental": "", "octave": 5 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-07.do-slash-re",
+          "measure": 8,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "D", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 },
+            { "step": "G", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

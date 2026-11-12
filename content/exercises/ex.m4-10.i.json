@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-10.i",
+  "skillId": "skill.chord-quality-ear",
+  "type": "ear-chord",
+  "promptEs": "Escuchá el acorde y elegí su calidad.",
+  "promptEn": "Listen to the chord and choose its quality.",
+  "explanationEs": "Si-Re es tercera menor y Si-Fa quinta disminuida: es un Si disminuido. La quinta disminuida es la que lo vuelve inestable y lo separa de Si menor, que tendría Fa♯.",
+  "explanationEn": "B-D is a minor third and B-F a diminished fifth: it is a B diminished triad. The diminished fifth makes it unstable and separates it from B minor, which would have F♯.",
+  "difficulty": 3,
+  "root": { "step": "B", "accidental": "", "octave": 3 },
+  "quality": "diminished",
+  "inversion": 0,
+  "style": "block",
+  "choices": ["disminuido", "menor", "mayor", "aumentado"],
+  "choicesEn": ["diminished", "minor", "major", "augmented"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-10.b",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "El acorde formado por Do♯, Mi♯, Sol♯ y Si, ¿qué calidad tiene?",
+  "promptEn": "The chord made of C♯, E♯, G♯ and B, what quality does it have?",
+  "explanationEs": "Do♯-Mi♯ es tercera mayor, Do♯-Sol♯ quinta justa y Do♯-Si séptima menor: es un Do♯7, una séptima de dominante. Mi♯ suena igual que Fa, pero se escribe Mi♯ para conservar la tercera del acorde.",
+  "explanationEn": "C♯-E♯ is a major third, C♯-G♯ a perfect fifth and C♯-B a minor seventh: it is a C♯7, a dominant seventh. E♯ sounds the same as F, but it is written E♯ to keep the chord's third.",
+  "difficulty": 2,
+  "root": { "step": "C", "accidental": "#", "octave": 4 },
+  "quality": "dominant7",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["séptima de dominante", "séptima mayor", "séptima menor", "séptima disminuida"],
+  "choicesEn": ["dominant seventh", "major seventh", "minor seventh", "diminished seventh"]
+}

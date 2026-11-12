@@ -1,0 +1,28 @@
+{
+  "id": "ex.m1-12.b",
+  "skillId": "skill.italian-terms",
+  "type": "italian-term",
+  "promptEs": "¿Qué significa allegro?",
+  "explanationEs": "Allegro es un término de tempo: indica un tempo rápido y animado, con sensación de movimiento.",
+  "difficulty": 1,
+  "term": "allegro",
+  "category": "tempo",
+  "meaningEs": "Rápido y animado",
+  "exampleEs": "Se siente como caminar ligero o trotar suave.",
+  "choices": [
+    "Rápido y animado",
+    "Lento y tranquilo",
+    "Muy suave",
+    "Conectado y sostenido"
+  ],
+  "promptEn": "What does allegro mean?",
+  "explanationEn": "Allegro is a tempo term: it indicates a fast, lively tempo, with a feeling of movement.",
+  "meaningEn": "Fast and lively",
+  "exampleEn": "It feels like a light jog that fills the phrase with energy.",
+  "choicesEn": [
+    "Fast and lively",
+    "Slow and calm",
+    "Very soft",
+    "Connected and held"
+  ]
+}

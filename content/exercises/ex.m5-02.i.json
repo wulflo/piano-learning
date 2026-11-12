@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-02.i",
+  "skillId": "skill.roman-numeral",
+  "type": "chord",
+  "promptEs": "En Re menor natural, ¿qué acorde forma el numeral i?",
+  "promptEn": "In D natural minor, which chord does the numeral i form?",
+  "explanationEs": "El primer grado de Re menor es Re. Su tríada Re-Fa-La es menor, así que el numeral i corresponde al acorde Rem.",
+  "explanationEn": "The first degree of D minor is D. Its triad D-F-A is minor, so the numeral i corresponds to the chord Dm.",
+  "difficulty": 2,
+  "root": {
+    "step": "D",
+    "accidental": "",
+    "octave": 4
+  },
+  "quality": "minor",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "Rem",
+    "Re",
+    "Re7",
+    "Rem7"
+  ],
+  "choicesEn": [
+    "Dm",
+    "D",
+    "D7",
+    "Dm7"
+  ]
+}

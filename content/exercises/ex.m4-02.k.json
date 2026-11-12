@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-02.k",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "¿Qué calidad tiene la tríada formada por Si♭, Re y Fa♯?",
+  "promptEn": "What quality does the triad made of Bb, D and F# have?",
+  "explanationEs": "Es una tríada aumentada, 1-3-♯5: Si♭-Re es una tercera mayor y Re-Fa♯ otra tercera mayor. La quinta sostenida es la que le da el color inestable y simétrico a la aumentada.",
+  "explanationEn": "It is an augmented triad, 1-3-♯5: Bb-D is a major third and D-F# another major third. The raised fifth gives the augmented triad its unstable, symmetrical colour.",
+  "difficulty": 3,
+  "root": { "step": "B", "accidental": "b", "octave": 4 },
+  "quality": "augmented",
+  "inversion": 0,
+  "choices": ["disminuido", "aumentado", "suspendido 2", "suspendido 4"],
+  "choicesEn": ["diminished", "augmented", "suspended 2", "suspended 4"]
+}

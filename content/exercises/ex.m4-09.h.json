@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-09.h",
+  "skillId": "skill.chord-symbol",
+  "type": "chord",
+  "promptEs": "El acorde suena Si, Re, Fa y La♭, de grave a agudo. ¿Qué cifrado latino le corresponde?",
+  "promptEn": "The chord sounds B, D, F and A♭, from low to high. Which American chord symbol matches it?",
+  "explanationEs": "Si es la fundamental; Si-Re es una tercera menor, Si-Fa una quinta disminuida y Si-La♭ una séptima disminuida, nueve semitonos arriba. La calidad es disminuida con séptima disminuida: Sidim7. En americano se escribe Bdim7.",
+  "explanationEn": "B is the root; B-D is a minor third, B-F a diminished fifth and B-A♭ a diminished seventh, nine semitones above. The quality is diminished with a diminished seventh: Bdim7. In Latin notation it is written Sidim7.",
+  "difficulty": 3,
+  "root": { "step": "B", "accidental": "", "octave": 4 },
+  "quality": "diminished7",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": ["Sidim7", "Sim7♭5", "Si7"],
+  "choicesEn": ["Bdim7", "Bm7♭5", "B7"]
+}

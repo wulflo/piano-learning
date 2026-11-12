@@ -1,0 +1,481 @@
+{
+  "id": "lesson.m2-02",
+  "moduleId": "M2",
+  "slug": "circulo-de-quintas",
+  "titleEs": "Círculo de quintas",
+  "titleEn": "Circle of fifths",
+  "summaryEs": "Cómo se relacionan las tonalidades del círculo de quintas, cómo crecen sus armaduras y qué relación tienen las tonalidades mayores con sus relativas menores.",
+  "objectivesEs": [
+    "Recorrer las doce posiciones del círculo de quintas mayores",
+    "Nombrar la armadura de cada tonalidad del círculo",
+    "Relacionar cada tonalidad mayor con su relativa menor"
+  ],
+  "minutes": 14,
+  "prerequisites": [
+    "lesson.m2-01"
+  ],
+  "skillIds": [
+    "skill.key-signature"
+  ],
+  "exerciseIds": [
+    "ex.m2-02.a",
+    "ex.m2-02.b",
+    "ex.m2-02.c",
+    "ex.m2-02.d",
+    "ex.m2-02.e",
+    "ex.m2-02.f",
+    "ex.m2-02.g",
+    "ex.m2-02.h",
+    "ex.m2-02.i",
+    "ex.m2-02.j",
+    "ex.m2-02.k",
+    "ex.m2-02.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m2-02.intro",
+      "kind": "text",
+      "titleEs": "Qué es el círculo de quintas",
+      "bodyEs": "El círculo de quintas es un diagrama que ordena las tonalidades por su relación de quintas justas: una quinta justa sube siete semitonos. Desde una tonalidad se desciende o asciende una quinta a otra tonalidad, y cada salto agrega o quita un sostenido o un bemol. El círculo se lee de siete bemoles a siete sostenidos, y cada posición tiene su propia armadura y su escala.",
+      "titleEn": "What the circle of fifths is",
+      "bodyEn": "The circle of fifths is a diagram that orders keys by their perfect-fifth relationship: a perfect fifth rises seven semitones. From one key you go down or up a fifth to another key, and each jump adds or removes a sharp or a flat. The circle is read from seven flats to seven sharps, and each position has its own key signature and scale."
+    },
+    {
+      "id": "sec.m2-02.positions",
+      "kind": "text",
+      "titleEs": "Las doce posiciones",
+      "bodyEs": "El recorrido clásico empieza en Do mayor y baja o sube por quintas: Do, Sol, Re, La, Mi, Si, Fa sostenido, Do sostenido, Re bemol, Mi bemol, Si bemol y Fa bemol, para volver al punto de partida. Son doce posiciones porque la octava se repite en la tónica. Cada posición agrega o quita una alteración respecto de la anterior, y con eso cambia toda la armonía y la escala de esa tonalidad.",
+      "titleEn": "The twelve positions",
+      "bodyEn": "The classic route starts at C major and goes up or down by fifths: C, G, D, A, E, B, F sharp, C sharp, D flat, A flat, E flat, B flat and F flat, returning to the starting point. There are twelve positions because the octave repeats at the tonic. Each position adds or removes one accidental compared with the previous one, and that changes the whole harmony and scale of that key."
+    },
+    {
+      "id": "sec.m2-02.score",
+      "kind": "score",
+      "titleEs": "Escala de Do mayor",
+      "bodyEs": "Escala de Do mayor: Do, Re, Mi, Fa, Sol, La, Si, Do. El patrón T-T-S-T-T-T-S en dos compases de cuatro tiempos.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m2-02.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-02.d4",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-02.e4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-02.f4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-02.g4",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-02.a4",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "A",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-02.b4",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "B",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-02.c5",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 5
+              }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          }
+        ]
+      },
+      "titleEn": "C major scale",
+      "bodyEn": "C major scale: C, D, E, F, G, A, B, C. The W-W-H-W-W-W-H pattern over two measures of four beats."
+    },
+    {
+      "id": "sec.m2-02.exercises",
+      "kind": "exercise",
+      "titleEs": "Armaduras del círculo",
+      "bodyEs": "Cada ejercicio del círculo te pregunta cuántas notas alteradas tiene la armadura de una tonalidad del recorrido. La respuesta correcta se obtiene del patrón T-T-S-T-T-T-S y de la posición de la tonalidad en el círculo. Revisá la armadura antes de tocar: el número de alteraciones cuenta sostenidos o bemoles, y cada quinta cambia la armonía de golpe.",
+      "titleEn": "Key signatures in the circle",
+      "bodyEn": "Each exercise in the circle asks how many altered notes the key signature of a key in the route has. The correct answer comes from the W-W-H-W-W-W-H pattern and the position of the key in the circle. Check the signature before playing: the number of accidentals counts sharps or flats, and each fifth changes the harmony at once."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la escala de Do mayor",
+    "instructionsEs": "Tocá la escala mayor de Do (Do, Re, Mi, Fa, Sol, La, Si, Do) con el patrón T-T-S-T-T-T-S a 60 BPM, despacio y sin apuro; después tocá su relativa menor, La menor, con el patrón menor.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano derecha en una octava: 1-2-3-4-5-4-3-2; para dos octavas: 1-2-3-4-5-4-3-2-1.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué la escala de Do con el patrón T-T-S-T-T-T-S",
+      "Repetí la escala despacio sin apuro",
+      "Tocqué la relativa menor con el patrón menor"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m2-02.c4",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-02.d4",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "D",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-02.e4",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "E",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-02.f4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "F",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-02.g4",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "G",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-02.a4",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "A",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-02.b4",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "B",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m2-02.c5",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        }
+      ]
+    },
+    "titleEn": "Play the C major scale",
+    "instructionsEn": "Play the C major scale (C, D, E, F, G, A, B, C) with the W-W-H-W-W-W-H pattern at 60 BPM, slowly and without rushing; then play its relative minor, A minor, with the minor pattern.",
+    "fingeringEn": "Right hand in one octave: 1-2-3-4-5-4-3-2; for two octaves: 1-2-3-4-5-4-3-2-1.",
+    "checklistEn": [
+      "I played the C scale with the W-W-H-W-W-W-H pattern",
+      "I repeated the scale slowly without rushing",
+      "I played the relative minor with the minor pattern"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published",
+  "summaryEn": "How the keys of the circle of fifths relate, how their key signatures grow and how major keys relate to their relative minors.",
+  "objectivesEn": [
+    "Identify the order of keys in the circle of fifths",
+    "Relate each key to the number of accidentals in its signature",
+    "Find the relative minor of a major key"
+  ]
+}

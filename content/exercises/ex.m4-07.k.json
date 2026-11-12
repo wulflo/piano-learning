@@ -1,0 +1,12 @@
+{
+  "id": "ex.m4-07.k",
+  "skillId": "skill.chord-notation",
+  "type": "chord-notation",
+  "promptEs": "Escribí el cifrado latino equivalente al cifrado americano Gm7♭5.",
+  "promptEn": "Write the Latin chord symbol equivalent to the American chord Gm7♭5.",
+  "explanationEs": "Gm7♭5 se convierte en Solm7♭5: G pasa a Sol y la semidisminución se mantiene.",
+  "explanationEn": "Gm7♭5 becomes Solm7♭5: G becomes Sol and the half-diminished qualifier is kept.",
+  "difficulty": 3,
+  "symbol": "Gm7♭5",
+  "to": "do"
+}

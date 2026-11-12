@@ -1,0 +1,33 @@
+{
+  "id": "ex.m4-08.l",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Si♭4 y Fa5?",
+  "promptEn": "What interval is there between Bb4 and F5?",
+  "explanationEs": "De Si♭ a Fa hay cuatro letras y siete semitonos: una quinta justa.",
+  "explanationEn": "From Bb to F there are four letters and seven semitones: a perfect fifth.",
+  "difficulty": 3,
+  "lower": {
+    "step": "B",
+    "accidental": "b",
+    "octave": 4
+  },
+  "upper": {
+    "step": "F",
+    "accidental": "",
+    "octave": 5
+  },
+  "direction": "harmonic",
+  "choices": [
+    "Quinta justa",
+    "Cuarta justa",
+    "Tercera justa",
+    "Cuarta aumentada"
+  ],
+  "choicesEn": [
+    "Perfect fifth",
+    "Perfect fourth",
+    "Perfect third",
+    "Augmented fourth"
+  ]
+}

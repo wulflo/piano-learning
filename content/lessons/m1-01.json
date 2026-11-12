@@ -1,0 +1,270 @@
+{
+  "id": "lesson.m1-01",
+  "moduleId": "M1",
+  "slug": "altura-duracion-intensidad-y-timbre",
+  "titleEs": "Altura, duración, intensidad y timbre",
+  "titleEn": "Pitch, duration, intensity and timbre",
+  "summaryEs": "Todo sonido musical se describe con cuatro parámetros: qué tan agudo es, cuánto dura, qué tan fuerte suena y qué color tiene.",
+  "summaryEn": "Every musical sound is described by four parameters: how high or low it is, how long it lasts, how loud it sounds, and what color it has.",
+  "objectivesEs": [
+    "Distinguir altura, duración, intensidad y timbre en un sonido",
+    "Relacionar cada parámetro con su representación musical",
+    "Tocar un patrón contrastando piano y forte sin cambiar el tempo"
+  ],
+  "objectivesEn": [
+    "Distinguish pitch, duration, intensity, and timbre in a sound",
+    "Relate each parameter to its musical notation",
+    "Play a pattern contrasting piano and forte without changing the tempo"
+  ],
+  "minutes": 12,
+  "prerequisites": ["lesson.m0-06"],
+  "skillIds": ["skill.sound-parameters"],
+  "exerciseIds": [
+    "ex.m1-01.a",
+    "ex.m1-01.b",
+    "ex.m1-01.c",
+    "ex.m1-01.d"
+  ],
+  "sections": [
+    {
+      "id": "sec.m1-01.intro",
+      "kind": "text",
+      "titleEs": "Cuatro preguntas para cualquier sonido",
+      "titleEn": "Four questions for any sound",
+      "bodyEs": "Cuando escuchás un sonido podés preguntarte cuatro cosas: ¿es agudo o grave? (altura), ¿es corto o largo? (duración), ¿es suave o fuerte? (intensidad) y ¿qué color tiene? (timbre). Las cuatro se combinan en cada nota. Una misma melodía puede ser aguda, lenta, suave y de piano, o grave, rápida, fuerte y de flauta: sigue siendo la misma melodía, pero cambian sus parámetros. Esta lección te enseña a separarlos para escuchar y tocar con más control.",
+      "bodyEn": "When you hear a sound, you can ask yourself four things: is it high or low? (pitch), is it short or long? (duration), is it soft or loud? (intensity), and what color does it have? (timbre). All four combine in every note. The same melody can be high, slow, soft, and played on a piano, or low, fast, loud, and played on a flute: it is still the same melody, but its parameters change. This lesson teaches you to separate them so you can listen and play with more control."
+    },
+    {
+      "id": "sec.m1-01.pitch",
+      "kind": "keyboard",
+      "titleEs": "Altura: agudo y grave",
+      "titleEn": "Pitch: high and low",
+      "bodyEs": "La altura es la frecuencia del sonido: más agudo significa más vibraciones por segundo. Escuchá Do3, Do4 y Do5. El nombre de la nota es el mismo; lo que cambia es la altura. En el teclado, moverse a la derecha sube la altura y moverse a la izquierda la baja. En el pentagrama, las notas más agudas se escriben más arriba.",
+      "bodyEn": "Pitch is the frequency of the sound: higher means more vibrations per second. Listen to C3, C4, and C5. The note name is the same; what changes is the pitch. On the keyboard, moving to the right raises the pitch and moving to the left lowers it. On the staff, higher notes are written higher up.",
+      "keys": [
+        { "step": "C", "accidental": "", "octave": 3 },
+        { "step": "C", "accidental": "", "octave": 4 },
+        { "step": "C", "accidental": "", "octave": 5 }
+      ]
+    },
+    {
+      "id": "sec.m1-01.duration",
+      "kind": "score",
+      "titleEs": "Duración: corto y largo",
+      "titleEn": "Duration: short and long",
+      "bodyEs": "La duración es cuánto tiempo suena una nota. En este compás de 4/4, Do4 dura dos pulsos (blanca), Re4 dura uno (negra) y Mi4 y Fa4 duran medio pulso cada uno (corcheas). La figura escrita indica la duración; el tempo decide cuántos segundos dura cada pulso. Una nota puede ser aguda y corta, o grave y larga: altura y duración son parámetros independientes.",
+      "bodyEn": "Duration is how long a note sounds. In this 4/4 measure, C4 lasts two beats (a half note), D4 lasts one beat (a quarter note), and E4 and F4 last half a beat each (eighth notes). The written note value indicates the duration; the tempo decides how many seconds each beat lasts. A note can be high and short, or low and long: pitch and duration are independent parameters.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m1-01.duration.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-01.duration.d4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-01.duration.e4",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-01.duration.f4",
+            "measure": 1,
+            "beat": 3.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "F", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-01.intensity",
+      "kind": "score",
+      "titleEs": "Intensidad: suave y fuerte",
+      "titleEn": "Intensity: soft and loud",
+      "bodyEs": "La intensidad es qué tan fuerte suena una nota. En el piano se controla con la velocidad y el peso con que el dedo baja la tecla, no apretando después. Escuchá tres veces la misma nota: la primera suave (piano), la segunda media (mezzo) y la tercera fuerte (forte). La altura y la duración no cambian; solo cambia la intensidad. En una partitura se escribe con indicaciones como p, mf y f.",
+      "bodyEn": "Intensity is how loud a note sounds. On the piano it is controlled by the speed and weight with which your finger presses the key, not by pressing harder afterward. Listen to the same note three times: the first softly (piano), the second at a medium level (mezzo), and the third loudly (forte). Pitch and duration do not change; only intensity changes. In a score it is written with markings such as p, mf, and f.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 3, "denominator": 4 },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m1-01.intensity.p",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 40,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-01.intensity.mf",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-01.intensity.f",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 120,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-01.timbre",
+      "kind": "text",
+      "titleEs": "Timbre: el color del sonido",
+      "titleEn": "Timbre: the color of the sound",
+      "bodyEs": "El timbre es lo que distingue una misma nota tocada por un piano, una flauta, un órgano o una cuerda. Si tocás Do4 con el mismo volumen y la misma duración en instrumentos distintos, la altura, la duración y la intensidad coinciden, pero el color cambia. En esta app el sonido base es de piano; por eso conviene imaginar o comparar con otros instrumentos. El timbre depende del material, la forma del instrumento y la manera de producir el sonido. Es el parámetro que más cuesta nombrar y el que más rápido reconoce el oído.",
+      "bodyEn": "Timbre is what distinguishes the same note played on a piano, a flute, an organ, or a string instrument. If you play C4 at the same volume and for the same duration on different instruments, the pitch, duration, and intensity match, but the color changes. In this app the default sound is a piano, so it helps to imagine or compare with other instruments. Timbre depends on the material, the shape of the instrument, and the way the sound is produced. It is the parameter that is hardest to name and the one the ear recognizes fastest."
+    },
+    {
+      "id": "sec.m1-01.listen",
+      "kind": "exercise",
+      "titleEs": "Ejercicio de escucha",
+      "titleEn": "Listening exercise",
+      "bodyEs": "Escuchá cada par A/B y elegí qué parámetro cambió: altura, duración, intensidad o timbre. En los cuatro ejercicios, el resto de los parámetros se mantiene igual. Consejo: primero preguntate si la nota subió o bajó (altura); si no cambió, fijate si dura más o menos (duración); después si suena más fuerte o más suave (intensidad); y al final, si el color del instrumento es distinto (timbre). Escuchá dos veces antes de responder.",
+      "bodyEn": "Listen to each A/B pair and choose which parameter changed: pitch, duration, intensity, or timbre. In all four exercises, the rest of the parameters stay the same. Tip: first ask yourself whether the note went up or down (pitch); if it did not change, check whether it lasts longer or shorter (duration); then whether it sounds louder or softer (intensity); and finally, whether the instrument's color is different (timbre). Listen twice before answering."
+    },
+    {
+      "id": "sec.m1-01.summary",
+      "kind": "callout",
+      "titleEs": "Resumen de los cuatro parámetros",
+      "titleEn": "Summary of the four parameters",
+      "bodyEs": "Altura: agudo o grave; se escribe más arriba o más abajo en el pentagrama. Duración: corto o largo; se escribe con figuras y silencios. Intensidad: suave o fuerte; se escribe con matices como p, mf y f. Timbre: color del instrumento o de la voz; se describe con palabras porque no tiene una figura propia. Cuando escuches música, probá nombrar los cuatro por separado: es el primer paso para entender lo que tocás.",
+      "bodyEn": "Pitch: high or low; it is written higher or lower on the staff. Duration: short or long; it is written with notes and rests. Intensity: soft or loud; it is written with dynamic markings such as p, mf, and f. Timbre: the color of the instrument or voice; it is described in words because it has no symbol of its own. When you listen to music, try naming all four separately: it is the first step toward understanding what you play."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Cinco dedos con dinámica",
+    "titleEn": "Five fingers with dynamics",
+    "instructionsEs": "Tocá Do4-Sol4 con digitación 1-2-3-4-5 a 60 BPM. Primera pasada: todo en piano (suave). Segunda pasada: todo en forte (fuerte), sin apurar el tempo. Tercera pasada: crescendo de piano a forte y diminuendo de vuelta. Mantené la misma altura y duración; solo cambia la intensidad.",
+    "instructionsEn": "Play C4–G4 with fingering 1-2-3-4-5 at 60 BPM. First pass: everything piano (soft). Second pass: everything forte (loud), without rushing the tempo. Third pass: crescendo from piano to forte and diminuendo back. Keep the same pitch and duration; only the intensity changes.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "1 - 2 - 3 - 4 - 5 (mano derecha); pulgar sobre Do4",
+    "fingeringEn": "1 - 2 - 3 - 4 - 5 (right hand); thumb on C4",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "La primera pasada fue claramente suave y la segunda fuerte",
+      "El tempo se mantuvo igual en las dos pasadas",
+      "El crescendo y el diminuendo fueron graduales",
+      "La muñeca y el brazo siguieron relajados",
+      "Cambié solo la intensidad, no la altura ni la duración"
+    ],
+    "checklistEn": [
+      "The first pass was clearly soft and the second one loud",
+      "The tempo stayed the same in both passes",
+      "The crescendo and diminuendo were gradual",
+      "My wrist and arm stayed relaxed",
+      "I changed only the intensity, not the pitch or the duration"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 5, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m1-01.c4",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 50,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-01.d4",
+          "measure": 1,
+          "beat": 1,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-01.e4",
+          "measure": 1,
+          "beat": 2,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 90,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-01.f4",
+          "measure": 1,
+          "beat": 3,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "F", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 70,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-01.g4",
+          "measure": 1,
+          "beat": 4,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 50,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

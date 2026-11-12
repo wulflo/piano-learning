@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-04.k",
+  "skillId": "skill.cadence",
+  "type": "cadence",
+  "promptEs": "En Sol menor, ¿qué cadencia forman los acordes Re (Re, Fa♯, La) y Solm (Sol, Si♭, Re)?",
+  "promptEn": "In G minor, what cadence do the chords D (D, F♯, A) and Gm (G, B♭, D) form?",
+  "explanationEs": "La cadencia auténtica en Sol menor usa el V de la menor armónica: Re (con Fa♯) resuelve en Solm. El Fa♯ conduce a Sol y afirma la tonalidad.",
+  "explanationEn": "The authentic cadence in G minor uses the V of harmonic minor: D (with F♯) resolves to Gm. F♯ leads to G and confirms the key.",
+  "difficulty": 3,
+  "key": "G",
+  "mode": "minor",
+  "fromDegree": 5,
+  "toDegree": 1,
+  "choices": [
+    "Auténtica (V-I)",
+    "Semicadencia (…-V)",
+    "Plagal (IV-I)",
+    "Rota (V-vi)"
+  ],
+  "choicesEn": [
+    "Authentic (V-I)",
+    "Half cadence (…-V)",
+    "Plagal (IV-I)",
+    "Deceptive (V-vi)"
+  ]
+}

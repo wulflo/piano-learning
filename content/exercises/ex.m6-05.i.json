@@ -1,0 +1,203 @@
+{
+  "id": "ex.m6-05.i",
+  "skillId": "skill.counterpoint",
+  "type": "counterpoint-analysis",
+  "promptEs": "¿Qué regla de contrapunto se cumple o se rompe?",
+  "promptEn": "Which counterpoint rule is kept or broken?",
+  "explanationEs": "Las dos voces avanzan en la misma dirección y el intervalo entre ellas es una quinta en cada paso. Esas quintas paralelas suenan huecas y borran la independencia de las voces; por eso se evitan en el contrapunto básico.",
+  "explanationEn": "The two voices move in the same direction and the interval between them is a fifth at each step. Those parallel fifths sound hollow and erase the independence of the voices; that is why they are avoided in basic counterpoint.",
+  "difficulty": 3,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 80,
+    "events": [
+      {
+        "id": "ex.m6-05.i.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.i.2",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.i.3",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.i.4",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.i.5",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 2,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.i.6",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 2,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.i.7",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 2,
+        "velocity": 78,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m6-05.i.8",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 2,
+        "velocity": 78,
+        "tieToNext": false
+      }
+    ]
+  },
+  "ask": "parallels",
+  "motion": "parallel",
+  "parallels": "fifths",
+  "choices": [
+    "No hay quintas ni octavas paralelas",
+    "Hay quintas paralelas",
+    "Hay octavas paralelas"
+  ],
+  "choicesEn": [
+    "No parallel fifths or octaves",
+    "There are parallel fifths",
+    "There are parallel octaves"
+  ]
+}

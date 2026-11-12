@@ -1,0 +1,119 @@
+{
+  "id": "lesson.m2-05",
+  "moduleId": "M2",
+  "slug": "menor-armonica",
+  "titleEs": "Menor armónica",
+  "titleEn": "Harmonic minor",
+  "summaryEs": "El menor armónico: cómo se eleva el séptimo grado y cómo cambia la ortografía respecto del menor natural.",
+  "objectivesEs": [
+    "Elevar el séptimo grado del menor armónico",
+    "Tonalidades menores con el séptimo grado elevado",
+    "Comparar la ortografía del menor armónico con la del menor natural"
+  ],
+  "minutes": 14,
+  "prerequisites": [
+    "lesson.m2-04"
+  ],
+  "skillIds": [
+    "skill.major-scale"
+  ],
+  "exerciseIds": [
+    "ex.m2-05.a",
+    "ex.m2-05.b"
+  ],
+  "sections": [
+    {
+      "id": "sec.m2-05.intro",
+      "kind": "text",
+      "titleEs": "El séptimo grado elevado",
+      "bodyEs": "El menor armónico se construye como el menor natural pero elevando un semitono el séptimo grado. Esa elevación crea una sensible que atrae la melodía hacia la tónica. El intervalo entre el sexto grado y el séptimo elevado es una segunda aumentada, y por eso el menor armónico tiene un color particular.",
+      "titleEn": "The raised seventh degree",
+      "bodyEn": "The harmonic minor scale is built like the natural minor scale but with the seventh degree raised by a semitone. That raise creates a leading tone that pulls the melody toward the tonic. The interval between the sixth degree and the raised seventh is an augmented second, which gives the harmonic minor its particular color."
+    },
+    {
+      "id": "sec.m2-05.twelve",
+      "kind": "text",
+      "titleEs": "Las doce tonalidades con séptimo elevado",
+      "bodyEs": "Cada una de las doce tonalidades menores tiene su versión armónica, con el séptimo grado elevado: La menor armónica sube el séptimo grado, Mi menor armónica sube el suyo, y así sucesivamente para las doce tonalidades menores. La ortografía correcta del séptimo grado elevado es la que el ejercicio de deletreo verifica: una sola nota distinta respecto del menor natural.",
+      "bodyEn": "Each of the twelve minor keys has its harmonic version, with the seventh degree raised: A harmonic minor raises its seventh, E harmonic minor raises its own, and so on for the twelve minor keys. The correct spelling of the raised seventh is what the spelling exercise checks: a single note different from natural minor.",
+      "titleEn": "The twelve keys with a raised seventh"
+    },
+    {
+      "id": "sec.m2-05.exercises",
+      "kind": "exercise",
+      "titleEs": "Séptimo grado armónico",
+      "bodyEs": "El ejercicio pide deletrear el menor armónico y comparar el sonido del séptimo grado elevado con el de la escala anterior. La respuesta correcta usa la ortografía del séptimo grado elevado.",
+      "bodyEn": "The exercise asks you to spell the harmonic minor scale and compare the sound of the raised seventh with the previous scale. The correct answer uses the spelling of the raised seventh.",
+      "titleEn": "The harmonic seventh degree"
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la escala menor armónica de Do",
+    "instructionsEs": "Tocá la escala menor armónica de Do (Do, Re, Mi bemol, Fa, Sol, La bemol, Si, Do) con el patrón menor a 60 BPM, despacio y sin apuro.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "D",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "E",
+        "accidental": "b",
+        "octave": 4
+      },
+      {
+        "step": "F",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "G",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "A",
+        "accidental": "b",
+        "octave": 4
+      },
+      {
+        "step": "B",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      }
+    ],
+    "fingeringEs": "Mano derecha en una octava: 1-2-3-4-5-4-3-2; para dos octavas: 1-2-3-4-5-4-3-2-1.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué la escala menor armónica de Do en orden",
+      "Seguí el patrón menor con el séptimo grado elevado",
+      "Repetí la escala despacio con pulso de negra"
+    ],
+    "titleEn": "Play the C harmonic minor scale",
+    "instructionsEn": "Play the C harmonic minor scale (C, D, E flat, F, G, A flat, B, C) with the minor pattern at 60 BPM, slowly and without rushing.",
+    "fingeringEn": "Right hand in one octave: 1-2-3-4-5-4-3-2; for two octaves: 1-2-3-4-5-4-3-2-1.",
+    "checklistEn": [
+      "I played the C harmonic minor scale in order",
+      "I followed the minor pattern with the raised seventh",
+      "I repeated the scale slowly with a quarter-note pulse"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published",
+  "summaryEn": "The harmonic minor scale: how the seventh degree is raised and how its spelling changes from natural minor.",
+  "objectivesEn": [
+    "Build the harmonic minor scale by raising the seventh degree",
+    "Spell the harmonic minor scale in the twelve minor keys",
+    "Recognize the sound of the raised seventh"
+  ]
+}

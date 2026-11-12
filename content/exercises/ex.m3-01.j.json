@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-01.j",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre La4 y Mi5?",
+  "promptEn": "What interval is there between A4 and E5?",
+  "explanationEs": "De La a Mi hay una quinta de siete semitonos, así que es justa.",
+  "explanationEn": "From A to E there is a fifth of seven semitones, so it is perfect.",
+  "difficulty": 2,
+  "lower": { "step": "A", "accidental": "", "octave": 4 },
+  "upper": { "step": "E", "accidental": "", "octave": 5 },
+  "direction": "harmonic",
+  "choices": ["Quinta justa", "Quinta aumentada", "Quinta disminuida", "Sexta menor"],
+  "choicesEn": ["Perfect fifth", "Augmented fifth", "Diminished fifth", "Minor sixth"]
+}

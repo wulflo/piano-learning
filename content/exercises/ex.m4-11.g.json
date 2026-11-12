@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-11.g",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "Escribí las notas de Si♭maj7/Re de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of B♭maj7/D from low to high, separated by spaces.",
+  "explanationEs": "Re es la tercera de Si♭maj7, así que el acorde está en primera inversión: Re-Fa-La-Si♭. El bajo Re es la nota más grave y las demás notas del acorde quedan por encima.",
+  "explanationEn": "D is the third of B♭maj7, so the chord is in first inversion: D-F-A-B♭. The bass D is the lowest note and the other chord tones sit above it.",
+  "difficulty": 2,
+  "root": { "step": "B", "accidental": "b", "octave": 4 },
+  "quality": "major7",
+  "slash": { "step": "D", "accidental": "", "octave": 4 },
+  "inversion": 1,
+  "ask": "notes"
+}

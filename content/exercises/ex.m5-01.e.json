@@ -1,0 +1,30 @@
+{
+  "id": "ex.m5-01.e",
+  "skillId": "skill.diatonic-chords",
+  "type": "chord",
+  "promptEs": "En La♭ mayor, ¿qué cifrado tiene la séptima diatónica del grado I?",
+  "promptEn": "In A♭ major, what is the symbol of the diatonic seventh on degree I?",
+  "explanationEs": "En La♭ mayor, el grado I se construye sobre La♭: La♭-Do-Mi♭-Sol. La tercera es mayor y la séptima La♭-Sol es mayor, así que la séptima es mayor y se cifra La♭maj7.",
+  "explanationEn": "In A♭ major, degree I is built on A♭: A♭-C-E♭-G. The third is major and the seventh A♭-G is major, so the seventh is major and its symbol is A♭maj7.",
+  "difficulty": 2,
+  "root": {
+    "step": "A",
+    "accidental": "b",
+    "octave": 4
+  },
+  "quality": "major7",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": [
+    "La♭7",
+    "La♭m7",
+    "La♭maj7",
+    "La♭"
+  ],
+  "choicesEn": [
+    "A♭7",
+    "A♭m7",
+    "A♭maj7",
+    "A♭"
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "id": "lesson.m1-05",
+  "moduleId": "M1",
+  "slug": "compases-simples",
+  "titleEs": "Compases simples",
+  "titleEn": "Simple meters",
+  "summaryEs": "El compás agrupa los pulsos y la indicación de compás dice cuántos entran y qué figura lleva el pulso; en 2/4, 3/4 y 4/4 el primer pulso se acentúa.",
+  "summaryEn": "Meter groups beats together, and the time signature tells you how many beats fit in each measure and which note value gets the beat; in 2/4, 3/4 and 4/4 the first beat is accented.",
+  "objectivesEs": [
+    "Leer la indicación de compás 2/4, 3/4 y 4/4",
+    "Distinguir pulsos fuertes, débiles y semifuertes",
+    "Marcar los acentos y completar compases simples con el metrónomo"
+  ],
+  "objectivesEn": [
+    "Read the 2/4, 3/4 and 4/4 time signatures",
+    "Tell strong, weak and medium-strong beats apart",
+    "Mark the accents and complete simple measures with the metronome"
+  ],
+  "minutes": 14,
+  "prerequisites": ["lesson.m1-04"],
+  "skillIds": ["skill.simple-meter"],
+  "exerciseIds": [
+    "ex.m1-05.a",
+    "ex.m1-05.b",
+    "ex.m1-05.c",
+    "ex.m1-05.d",
+    "ex.m1-05.e",
+    "ex.m1-05.f",
+    "ex.m1-05.g",
+    "ex.m1-05.h",
+    "ex.m1-05.i"
+  ],
+  "sections": [
+    {
+      "id": "sec.m1-05.intro",
+      "kind": "text",
+      "titleEs": "El compás y la indicación de compás",
+      "titleEn": "Meter and the time signature",
+      "bodyEs": "El compás divide la música en grupos de pulsos iguales. Las barras verticales separan un compás del siguiente y la indicación de compás aparece al principio del pentagrama. Se escribe con dos números: el de arriba indica cuántos pulsos entran en cada compás y el de abajo indica qué figura recibe un pulso. En 2/4, 3/4 y 4/4 el denominador es 4, así que el pulso es la negra: dos, tres o cuatro negras por compás. El numerador no dice qué notas tocar, sino cuántos pulsos hay que contar antes de volver al primer tiempo.",
+      "bodyEn": "Meter divides music into groups of equal beats. Vertical barlines separate one measure from the next, and the time signature appears at the beginning of the staff. It is written with two numbers: the top one tells you how many beats fit in each measure and the bottom one tells you which note value receives one beat. In 2/4, 3/4 and 4/4 the denominator is 4, so the beat is the quarter note: two, three or four quarter notes per measure. The top number does not tell you which notes to play, but how many beats to count before returning to beat one."
+    },
+    {
+      "id": "sec.m1-05.accents",
+      "kind": "text",
+      "titleEs": "Pulsos fuertes y débiles",
+      "titleEn": "Strong and weak beats",
+      "bodyEs": "Los pulsos de un compás no pesan todos igual. El primer pulso es el más fuerte y los demás son débiles, con una excepción: en 4/4 el tercer pulso es semifuerte. Por eso 2/4 suena como «fuerte-débil», 3/4 como «fuerte-débil-débil» y 4/4 como «fuerte-débil-semifuerte-débil». Esa acentuación se siente al caminar, al bailar o al dirigir: en 2/4 hay un paso por medio, en 3/4 un vals y en 4/4 un pulso más amplio. El acento no significa tocar siempre más fuerte: significa que el pulso se siente como punto de apoyo.",
+      "bodyEn": "The beats of a measure do not all weigh the same. The first beat is the strongest and the rest are weak, with one exception: in 4/4 the third beat is medium-strong. That is why 2/4 sounds like “strong-weak”, 3/4 like “strong-weak-weak” and 4/4 like “strong-weak-medium-strong-weak”. You feel that accentuation when you walk, dance or conduct: in 2/4 there is a step every two beats, in 3/4 a waltz and in 4/4 a broader pulse. The accent does not mean always playing louder: it means the beat feels like a point of support."
+    },
+    {
+      "id": "sec.m1-05.two-four",
+      "kind": "score",
+      "titleEs": "2/4: fuerte-débil",
+      "titleEn": "2/4: strong-weak",
+      "bodyEs": "Cada compás tiene dos negras. La primera se acentúa y la segunda se apoya. Contá «1-2, 1-2» y sentí el primer tiempo como el paso que marca el camino.",
+      "bodyEn": "Each measure has two quarter notes. The first is accented and the second is a support. Count “1-2, 1-2” and feel the first beat as the step that marks the path.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 2, "denominator": 4 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-05.two.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 100,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.two.e4",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.two.g4",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 100,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.two.c5",
+            "measure": 2,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 5 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-05.three-four",
+      "kind": "score",
+      "titleEs": "3/4: fuerte-débil-débil",
+      "titleEn": "3/4: strong-weak-weak",
+      "bodyEs": "Cada compás tiene tres negras. El primer tiempo es fuerte y los otros dos son débiles. Contá «1-2-3, 1-2-3» y pensá en un vals: el primer paso es el que impulsa, los otros dos giran alrededor.",
+      "bodyEn": "Each measure has three quarter notes. The first beat is strong and the other two are weak. Count “1-2-3, 1-2-3” and think of a waltz: the first step drives, the other two spin around it.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 3, "denominator": 4 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-05.three.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 100,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.three.e4",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 65,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.three.g4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 65,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.three.g4-second",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 100,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.three.e4-second",
+            "measure": 2,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 65,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.three.c4-second",
+            "measure": 2,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 65,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-05.four-four",
+      "kind": "score",
+      "titleEs": "4/4: fuerte-débil-semifuerte-débil",
+      "titleEn": "4/4: strong-weak-medium-strong-weak",
+      "bodyEs": "Cada compás tiene cuatro negras. El primer tiempo es fuerte, el segundo débil, el tercero semifuerte y el cuarto débil. Contá «1-2-3-4» y sentí el tercer tiempo como un segundo apoyo más suave que el primero. Es el compás más común en la música popular y en gran parte del repertorio clásico.",
+      "bodyEn": "Each measure has four quarter notes. The first beat is strong, the second weak, the third medium-strong and the fourth weak. Count “1-2-3-4” and feel the third beat as a second support, softer than the first. It is the most common meter in popular music and in much of the classical repertoire.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-05.four.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 100,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.four.e4",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.four.g4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.four.c5",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 5 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.four.c5-second",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 5 }],
+            "hand": "right",
+            "velocity": 100,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.four.g4-second",
+            "measure": 2,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.four.e4-second",
+            "measure": 2,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-05.four.c4-second",
+            "measure": 2,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 60,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-05.metronome",
+      "kind": "audio",
+      "titleEs": "Practicar con metrónomo",
+      "titleEn": "Practicing with the metronome",
+      "bodyEs": "El metrónomo marca cada pulso con un clic. Configuralo a 80 BPM y elegí el compás 2/4, 3/4 o 4/4: el primer clic de cada compás suena acentuado y los demás son más suaves. Contá en voz alta siguiendo los clics y marcá el primer pulso con un golpe más fuerte en la mesa o en el teclado. Si te adelantás o te atrasás, no corras: bajá el tempo y volvé a contar. La meta no es tocar rápido, sino mantener los pulsos parejos y sentir el acento sin pensarlo.",
+      "bodyEn": "The metronome marks every beat with a click. Set it to 80 BPM and choose 2/4, 3/4 or 4/4: the first click of each measure sounds accented and the rest are softer. Count out loud along with the clicks and mark the first beat with a stronger tap on the table or the keyboard. If you rush or drag, don't speed up: lower the tempo and start counting again. The goal is not to play fast, but to keep the beats even and feel the accent without thinking about it."
+    },
+    {
+      "id": "sec.m1-05.marking",
+      "kind": "callout",
+      "titleEs": "Cómo marcar y completar",
+      "titleEn": "How to mark and complete",
+      "bodyEs": "Para marcar los acentos, contá el compás completo y hacé más fuerte el primer pulso; en 4/4, el tercero lleva un apoyo intermedio. Para completar un compás, sumá las duraciones que ya están escritas y restá ese total de la capacidad del compás: en 2/4 entran dos negras, en 3/4 tres y en 4/4 cuatro. Si el resultado es una negra, falta una negra; si es una blanca, falta una blanca. Siempre verificá que el total vuelva a coincidir con la indicación de compás.",
+      "bodyEn": "To mark the accents, count the whole measure and make the first beat stronger; in 4/4, the third gets an intermediate support. To complete a measure, add up the durations already written and subtract that total from the measure's capacity: 2/4 holds two quarter notes, 3/4 holds three and 4/4 holds four. If the result is a quarter note, you need a quarter note; if it is a half note, you need a half note. Always check that the total matches the time signature again."
+    },
+    {
+      "id": "sec.m1-05.exercises",
+      "kind": "exercise",
+      "titleEs": "Completar compases y marcar acentos",
+      "titleEn": "Completing measures and marking accents",
+      "bodyEs": "Los primeros ejercicios piden la figura que completa un compás en 2/4, 3/4 o 4/4. Los últimos piden identificar qué pulsos se acentúan. Antes de responder, contá la capacidad del compás y compará con la suma de las figuras presentes.",
+      "bodyEn": "The first exercises ask for the note value that completes a measure in 2/4, 3/4 or 4/4. The last ones ask you to identify which beats are accented. Before answering, count the measure's capacity and compare it with the sum of the note values present."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Acentos en 4/4 con metrónomo",
+    "titleEn": "Accents in 4/4 with the metronome",
+    "instructionsEs": "Configurá el metrónomo a 80 BPM en 4/4. Tocá Do4 en cada pulso con la mano derecha: el primer pulso más fuerte, el segundo suave, el tercero con un apoyo intermedio y el cuarto suave. Contá «1-2-3-4» en voz alta y repetí cuatro compases sin perder el acento. Después probá el mismo ejercicio en 2/4 y en 3/4.",
+    "instructionsEn": "Set the metronome to 80 BPM in 4/4. Play C4 on every beat with your right hand: the first beat stronger, the second soft, the third with an intermediate support and the fourth soft. Count “1-2-3-4” out loud and repeat four measures without losing the accent. Then try the same exercise in 2/4 and 3/4.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Pulgar derecho (dedo 1) sobre Do4 para todo el compás",
+    "fingeringEn": "Right thumb (finger 1) on C4 for the whole measure",
+    "tempoBpm": 80,
+    "checklistEs": [
+      "Configuré el metrónomo a 80 BPM en 4/4",
+      "Acentué el primer pulso y mantuve suaves los pulsos 2 y 4",
+      "Toqué el tercer pulso con un apoyo intermedio",
+      "Repetí cuatro compases y después probé 2/4 y 3/4"
+    ],
+    "checklistEn": [
+      "I set the metronome to 80 BPM in 4/4",
+      "I accented the first beat and kept beats 2 and 4 soft",
+      "I played the third beat with an intermediate support",
+      "I repeated four measures and then tried 2/4 and 3/4"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 80,
+      "events": [
+        {
+          "id": "task.m1-05.c4-beat-1",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-05.c4-beat-2",
+          "measure": 1,
+          "beat": 1,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-05.c4-beat-3",
+          "measure": 1,
+          "beat": 2,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 85,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-05.c4-beat-4",
+          "measure": 1,
+          "beat": 3,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 60,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

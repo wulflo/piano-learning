@@ -1,0 +1,13 @@
+{
+  "id": "ex.m1-09.e",
+  "skillId": "skill.tempo",
+  "type": "tempo-stability",
+  "promptEs": "Configurá el metrónomo a 60 BPM en 4/4 y tocá una nota por pulso durante 16 pulsos. ¿Cómo sabés que el tempo fue estable?",
+  "explanationEs": "El tempo es estable si cada pulso se mantiene dentro de una tolerancia de ±3 BPM alrededor de 60 durante los 16 pulsos, sin adelantarte ni atrasarte de forma acumulada.",
+  "difficulty": 1,
+  "targetBpm": 60,
+  "beats": 16,
+  "toleranceBpm": 3,
+  "promptEn": "Set the metronome to 60 BPM in 4/4 and play one note per pulse for 16 pulses. How do you know the tempo was steady?",
+  "explanationEn": "The tempo is steady if every pulse stays within a tolerance of ±3 BPM around 60 during the 16 pulses, without getting ahead or falling behind in a cumulative way."
+}

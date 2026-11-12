@@ -1,0 +1,24 @@
+{
+  "id": "ex.m7-02.a",
+  "skillId": "skill.arpeggio",
+  "type": "arpeggio",
+  "promptEs": "¿Qué digitación usa la mano derecha en este arpegio de Do mayor?",
+  "promptEn": "Which fingering does the right hand use in this C major arpeggio?",
+  "explanationEs": "Do es una tónica de tecla blanca: el arpegio Do4-Mi4-Sol4-Do5 se toca 1-2-3-5. El pulgar abre, los dedos 2 y 3 cubren la tercera y la quinta, y el meñique cierra la octava.",
+  "explanationEn": "C is a white-key tonic: the C4-E4-G4-C5 arpeggio uses 1-2-3-5. The thumb opens, fingers 2 and 3 cover the third and fifth, and the little finger closes the octave.",
+  "difficulty": 1,
+  "tonic": "C",
+  "hand": "right",
+  "octaves": 1,
+  "ask": "fingering",
+  "choices": [
+    "1-2-3-5",
+    "1-2-3-1",
+    "2-1-2-4"
+  ],
+  "choicesEn": [
+    "1-2-3-5",
+    "1-2-3-1",
+    "2-1-2-4"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-11.c",
+  "skillId": "skill.ear-scale",
+  "type": "ear-scale",
+  "tonic": "C",
+  "promptEs": "¿Qué modo tiene la escala de tonos enteros de Do?",
+  "promptEn": "Which mode is the C whole-tone scale?",
+  "explanationEs": "La escala de tonos enteros de Do se considera el modo Tonos enteros: seis notas separadas por tonos enteros.",
+  "explanationEn": "The C whole-tone scale is considered the Whole-tone mode: six notes separated by whole tones.",
+  "difficulty": 3,
+  "mode": "whole-tone",
+  "choices": [
+    "Tonos enteros",
+    "Cromática",
+    "Mayor"
+  ],
+  "choicesEn": [
+    "Whole tone",
+    "Chromatic",
+    "Major"
+  ]
+}

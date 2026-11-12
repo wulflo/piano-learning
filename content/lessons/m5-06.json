@@ -1,0 +1,699 @@
+{
+  "id": "lesson.m5-06",
+  "moduleId": "M5",
+  "slug": "blues-de-12-compases",
+  "titleEs": "Blues de 12 compases",
+  "titleEn": "Twelve-bar blues",
+  "summaryEs": "La forma más importante del blues: doce compases en tres frases de cuatro, los acordes I7, IV7 y V7, la variante quick change y el blues menor.",
+  "summaryEn": "The most important blues form: twelve bars in three four-bar phrases, the I7, IV7 and V7 chords, the quick change and the minor blues.",
+  "objectivesEs": [
+    "Contar y reconocer la estructura de tres frases de cuatro compases",
+    "Tocar la progresión básica de doce compases con I7, IV7 y V7",
+    "Distinguir la variante quick change, el blues lento y el blues menor"
+  ],
+  "objectivesEn": [
+    "Count and recognise the three four-bar phrase structure",
+    "Play the basic twelve-bar progression with I7, IV7 and V7",
+    "Tell the quick change, slow blues and minor blues variants apart"
+  ],
+  "minutes": 16,
+  "prerequisites": [
+    "lesson.m5-05"
+  ],
+  "skillIds": [
+    "skill.twelve-bar-blues"
+  ],
+  "exerciseIds": [
+    "ex.m5-06.a",
+    "ex.m5-06.b",
+    "ex.m5-06.c",
+    "ex.m5-06.d",
+    "ex.m5-06.e",
+    "ex.m5-06.f",
+    "ex.m5-06.g",
+    "ex.m5-06.h",
+    "ex.m5-06.i",
+    "ex.m5-06.j",
+    "ex.m5-06.k",
+    "ex.m5-06.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m5-06.intro",
+      "kind": "text",
+      "titleEs": "Una forma de doce compases",
+      "titleEn": "A twelve-bar form",
+      "bodyEs": "El blues de doce compases es una de las formas más influyentes de la música popular. No es una progresión cualquiera: es un molde fijo de doce compases que se repite en cada vuelta y sobre el que se improvisa o se canta. Se cuenta en 4/4, con cuatro pulsos por compás, y se organiza en tres frases de cuatro compases: la primera presenta la idea, la segunda la repite o la responde y la tercera la resuelve. Esa simetría es la que hace que el blues se reconozca al instante.",
+      "bodyEn": "The twelve-bar blues is one of the most influential forms in popular music. It is not just any progression: it is a fixed twelve-bar mould that repeats on every chorus and over which musicians improvise or sing. It is counted in 4/4, with four beats per bar, and organised in three four-bar phrases: the first presents the idea, the second repeats or answers it and the third resolves it. That symmetry is what makes the blues instantly recognisable."
+    },
+    {
+      "id": "sec.m5-06.estructura",
+      "kind": "text",
+      "titleEs": "La estructura básica",
+      "titleEn": "The basic structure",
+      "bodyEs": "En la versión básica en mayor, los cuatro primeros compases son I7; los compases 5 y 6 pasan a IV7; los compases 7 y 8 vuelven a I7; el 9 es V7; el 10 es IV7; el 11 es I7; y el 12 es V7, el turnaround que empuja la vuelta al principio. En Do mayor: Do7 en los compases 1-4 y 7-8, Fa7 en 5-6 y 10, Sol7 en 9 y 12. Los acordes son séptimas de dominante aunque el I y el IV no cumplan función de dominante: ese color es parte del sonido del blues.",
+      "bodyEn": "In the basic major version, the first four bars are I7; bars 5 and 6 move to IV7; bars 7 and 8 return to I7; bar 9 is V7; bar 10 is IV7; bar 11 is I7; and bar 12 is V7, the turnaround that pushes back to the beginning. In C major: C7 in bars 1-4 and 7-8, F7 in 5-6 and 10, G7 in 9 and 12. The chords are dominant sevenths even though I and IV do not have a dominant function: that colour is part of the blues sound."
+    },
+    {
+      "id": "sec.m5-06.variantes",
+      "kind": "text",
+      "titleEs": "Variantes",
+      "titleEn": "Variants",
+      "bodyEs": "La variante quick change adelanta el IV7 al segundo compás: I7-IV7-I7-I7 en la primera frase. El blues lento estira el mismo molde a un tempo bajo y suele agregar más acordes, pero conserva los doce compases. El blues menor cambia el centro a i7 y usa iv7, con un V7 mayor que mantiene la sensible: i7-i7-i7-i7-iv7-iv7-i7-i7-V7-iv7-i7-V7. También existen turnarounds alternativos en los dos últimos compases, como I7-VI7-ii7-V7, que preparan la repetición con más movimiento.",
+      "bodyEn": "The quick-change variant moves IV7 to the second bar: I7-IV7-I7-I7 in the first phrase. Slow blues stretches the same mould to a low tempo and often adds more chords, but keeps the twelve bars. Minor blues shifts the centre to i7 and uses iv7, with a major V7 that keeps the leading tone: i7-i7-i7-i7-iv7-iv7-i7-i7-V7-iv7-i7-V7. There are also alternative turnarounds in the last two bars, such as I7-VI7-ii7-V7, which prepare the repeat with more motion."
+    },
+    {
+      "id": "sec.m5-06.contar",
+      "kind": "text",
+      "titleEs": "Cómo contarlo y escucharlo",
+      "titleEn": "How to count and hear it",
+      "bodyEs": "Contá cuatro pulsos por compás y agrupá de a cuatro compases: 1-2-3-4, 2-2-3-4, 3-2-3-4, 4-2-3-4 para la primera frase. Al llegar al compás 9, el V7 abre la última frase y el turnaround del 12 te devuelve al 1. Escuchá las dos demos: la primera es el molde básico en Do y la segunda es un quick change en Sol. Fijate en el momento en que aparece el IV7: en la básica espera al compás 5; en la quick change entra en el 2.",
+      "bodyEn": "Count four beats per bar and group in fours: 1-2-3-4, 2-2-3-4, 3-2-3-4, 4-2-3-4 for the first phrase. At bar 9, V7 opens the last phrase and the turnaround in bar 12 sends you back to 1. Listen to the two demos: the first is the basic mould in C and the second is a quick change in G. Notice when IV7 appears: in the basic version it waits until bar 5; in the quick change it enters in bar 2."
+    },
+    {
+      "id": "sec.m5-06.demo-basic",
+      "kind": "score",
+      "titleEs": "Demo: blues básico en Do mayor",
+      "titleEn": "Demo: basic blues in C major",
+      "bodyEs": "Doce compases, un acorde por compás: Do7 (1-4), Fa7 (5-6), Do7 (7-8), Sol7 (9), Fa7 (10), Do7 (11) y Sol7 (12). El Sol7 final es el turnaround: deja la armonía abierta para volver a empezar.",
+      "bodyEn": "Twelve bars, one chord per bar: C7 (1-4), F7 (5-6), C7 (7-8), G7 (9), F7 (10), C7 (11) and G7 (12). The final G7 is the turnaround: it leaves the harmony open to start again.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 90,
+        "events": [
+          {
+            "id": "sec.m5-06.basic-01",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 3 },
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "b", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.basic-02",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 3 },
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "b", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.basic-03",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 3 },
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "b", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.basic-04",
+            "measure": 4,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 3 },
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "b", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.basic-05",
+            "measure": 5,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "F", "accidental": "", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.basic-06",
+            "measure": 6,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "F", "accidental": "", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.basic-07",
+            "measure": 7,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 3 },
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "b", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.basic-08",
+            "measure": 8,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 3 },
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "b", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.basic-09",
+            "measure": 9,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.basic-10",
+            "measure": 10,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "F", "accidental": "", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.basic-11",
+            "measure": 11,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 3 },
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "b", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.basic-12",
+            "measure": 12,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-06.demo-quick",
+      "kind": "score",
+      "titleEs": "Demo: quick change en Sol mayor",
+      "titleEn": "Demo: quick change in G major",
+      "bodyEs": "La misma forma con el IV7 adelantado al compás 2: Sol7 (1), Do7 (2), Sol7 (3-4), Do7 (5-6), Sol7 (7-8), Re7 (9), Do7 (10), Sol7 (11) y Re7 (12). Escuchá cómo el Do7 temprano cambia el color de la primera frase.",
+      "bodyEn": "The same form with IV7 moved to bar 2: G7 (1), C7 (2), G7 (3-4), C7 (5-6), G7 (7-8), D7 (9), C7 (10), G7 (11) and D7 (12). Listen to how the early C7 changes the colour of the first phrase.",
+      "score": {
+        "clef": "treble",
+        "key": "G",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 90,
+        "events": [
+          {
+            "id": "sec.m5-06.quick-01",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.quick-02",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 3 },
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "b", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.quick-03",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.quick-04",
+            "measure": 4,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.quick-05",
+            "measure": 5,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 3 },
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "b", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.quick-06",
+            "measure": 6,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 3 },
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "b", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.quick-07",
+            "measure": 7,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.quick-08",
+            "measure": 8,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 78,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.quick-09",
+            "measure": 9,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 3 },
+              { "step": "F", "accidental": "#", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 84,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.quick-10",
+            "measure": 10,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 3 },
+              { "step": "E", "accidental": "", "octave": 3 },
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "b", "octave": 3 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.quick-11",
+            "measure": 11,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "G", "accidental": "", "octave": 3 },
+              { "step": "B", "accidental": "", "octave": 3 },
+              { "step": "D", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "sec.m5-06.quick-12",
+            "measure": 12,
+            "beat": 0,
+            "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "D", "accidental": "", "octave": 3 },
+              { "step": "F", "accidental": "#", "octave": 3 },
+              { "step": "A", "accidental": "", "octave": 3 },
+              { "step": "C", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m5-06.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce blues para completar",
+      "titleEn": "Twelve blues to complete",
+      "bodyEs": "Cada ejercicio muestra doce compases con un grado oculto y te pide que elijas el que falta. Hay seis blues básicos, tres quick change y tres menores, repartidos entre las doce tonalidades. Contá los compases en grupos de cuatro y pensá en la frase: la respuesta suele estar en el paso del I7 al IV7 o en el turnaround.",
+      "bodyEn": "Each exercise shows twelve bars with one hidden degree and asks you to choose the missing one. There are six basic blues, three quick changes and three minor blues, spread across all twelve keys. Count the bars in groups of four and think in phrases: the answer is usually in the move from I7 to IV7 or in the turnaround."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca el blues básico en Do mayor",
+    "titleEn": "Play the basic blues in C major",
+    "instructionsEs": "Tocá los doce compases con la mano derecha, un acorde por compás y a 60 BPM: Do7 en 1-4, Fa7 en 5-6, Do7 en 7-8, Sol7 en 9, Fa7 en 10, Do7 en 11 y Sol7 en 12. Contá en voz alta los grupos de cuatro compases y sentí el turnaround del final.",
+    "instructionsEn": "Play the twelve bars with your right hand, one chord per bar at 60 BPM: C7 in 1-4, F7 in 5-6, C7 in 7-8, G7 in 9, F7 in 10, C7 in 11 and G7 in 12. Count the four-bar groups out loud and feel the turnaround at the end.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 3 },
+      { "step": "E", "accidental": "", "octave": 3 },
+      { "step": "G", "accidental": "", "octave": 3 },
+      { "step": "B", "accidental": "b", "octave": 3 },
+      { "step": "F", "accidental": "", "octave": 3 },
+      { "step": "A", "accidental": "", "octave": 3 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "b", "octave": 4 },
+      { "step": "B", "accidental": "", "octave": 3 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "F", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: 1-2-3-4 para las séptimas en estado fundamental. Buscá el movimiento mínimo entre Do7 y Fa7 y mantené el pulso estable; el turnaround no se acelera.",
+    "fingeringEn": "Right hand: 1-2-3-4 for root-position sevenths. Look for the smallest movement between C7 and F7 and keep the pulse steady; the turnaround does not speed up.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué los doce compases sin perder el pulso",
+      "Conté la forma en tres grupos de cuatro compases",
+      "Reconocí el Sol7 del compás 9 y el turnaround del 12"
+    ],
+    "checklistEn": [
+      "I played the twelve bars without losing the pulse",
+      "I counted the form in three groups of four bars",
+      "I recognised the G7 in bar 9 and the turnaround in bar 12"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m5-06.01",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 3 },
+            { "step": "E", "accidental": "", "octave": 3 },
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "b", "octave": 3 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-06.02",
+          "measure": 2,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 3 },
+            { "step": "E", "accidental": "", "octave": 3 },
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "b", "octave": 3 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-06.03",
+          "measure": 3,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 3 },
+            { "step": "E", "accidental": "", "octave": 3 },
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "b", "octave": 3 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-06.04",
+          "measure": 4,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 3 },
+            { "step": "E", "accidental": "", "octave": 3 },
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "b", "octave": 3 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-06.05",
+          "measure": 5,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "F", "accidental": "", "octave": 3 },
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "b", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-06.06",
+          "measure": 6,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "F", "accidental": "", "octave": 3 },
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "b", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-06.07",
+          "measure": 7,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 3 },
+            { "step": "E", "accidental": "", "octave": 3 },
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "b", "octave": 3 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-06.08",
+          "measure": 8,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 3 },
+            { "step": "E", "accidental": "", "octave": 3 },
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "b", "octave": 3 }
+          ],
+          "hand": "right",
+          "velocity": 78,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-06.09",
+          "measure": 9,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "", "octave": 3 },
+            { "step": "D", "accidental": "", "octave": 4 },
+            { "step": "F", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 84,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-06.10",
+          "measure": 10,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "F", "accidental": "", "octave": 3 },
+            { "step": "A", "accidental": "", "octave": 3 },
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "b", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-06.11",
+          "measure": 11,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 3 },
+            { "step": "E", "accidental": "", "octave": 3 },
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "b", "octave": 3 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m5-06.12",
+          "measure": 12,
+          "beat": 0,
+          "value": { "duration": "whole", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "G", "accidental": "", "octave": 3 },
+            { "step": "B", "accidental": "", "octave": 3 },
+            { "step": "D", "accidental": "", "octave": 4 },
+            { "step": "F", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 82,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

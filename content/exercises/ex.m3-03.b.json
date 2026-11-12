@@ -1,0 +1,17 @@
+{
+  "id": "ex.m3-03.b",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Escuchá el intervalo armónico y clasificalo según su función en la armonía tonal.",
+  "promptEn": "Listen to the harmonic interval and classify it by its function in tonal harmony.",
+  "explanationEs": "Do♯4-Fa♯4 es una cuarta justa. Entre voces superiores puede integrarse como consonancia, pero sobre el bajo se trata como disonancia en la tradición tonal; por eso la respuesta más precisa es que depende del contexto.",
+  "explanationEn": "C♯4-F♯4 is a perfect fourth. Between upper voices it can blend as a consonance, but above the bass it is treated as a dissonance in the tonal tradition; the most accurate answer is therefore that it depends on context.",
+  "difficulty": 3,
+  "lower": { "step": "C", "accidental": "#", "octave": 4 },
+  "upper": { "step": "F", "accidental": "#", "octave": 4 },
+  "direction": "harmonic",
+  "answer": "Depende del contexto",
+  "answerEn": "Depends on context",
+  "choices": ["Consonancia imperfecta", "Disonancia", "Depende del contexto", "Consonancia perfecta"],
+  "choicesEn": ["Imperfect consonance", "Dissonance", "Depends on context", "Perfect consonance"]
+}

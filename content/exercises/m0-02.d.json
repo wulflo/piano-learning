@@ -1,0 +1,28 @@
+{
+  "id": "ex.m0-02.d",
+  "skillId": "skill.note-staff",
+  "type": "note-staff",
+  "promptEs": "¿Qué nota está en la segunda línea adicional arriba del pentagrama en clave de sol?",
+  "explanationEs": "Sobre el pentagrama, la primera línea adicional es La5 y la segunda es Do6 (C6). Por eso Do6 se escribe con dos líneas adicionales arriba.",
+  "difficulty": 3,
+  "target": {
+    "step": "C",
+    "accidental": "",
+    "octave": 6
+  },
+  "clef": "treble",
+  "choices": [
+    "Do4",
+    "Do5",
+    "Do6",
+    "Do7"
+  ],
+  "promptEn": "Which note is on the second ledger line above the treble staff?",
+  "explanationEn": "Above the staff, the first ledger line is A5 and the second is C6. That is why C6 is written with two ledger lines above.",
+  "choicesEn": [
+    "C4",
+    "C5",
+    "C6",
+    "C7"
+  ]
+}

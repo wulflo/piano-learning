@@ -1,0 +1,24 @@
+{
+  "id": "ex.m1-09.c",
+  "skillId": "skill.tempo",
+  "type": "tempo-term",
+  "promptEs": "¿Qué término de tempo corresponde a 132 BPM?",
+  "explanationEs": "A 132 BPM el tempo es allegro (120-155 BPM): rápido y con sensación de movimiento.",
+  "difficulty": 2,
+  "term": "allegro",
+  "bpm": 132,
+  "choices": [
+    "Allegro",
+    "Adagio",
+    "Grave",
+    "Lento"
+  ],
+  "promptEn": "Which tempo term corresponds to 132 BPM?",
+  "explanationEn": "At 132 BPM the tempo is allegro (120-155 BPM): fast and with a feeling of movement.",
+  "choicesEn": [
+    "Allegro",
+    "Adagio",
+    "Grave",
+    "Lento"
+  ]
+}

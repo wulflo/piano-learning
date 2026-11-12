@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-06.j",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Fa/Do de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of an F/C from low to high, separated by spaces.",
+  "explanationEs": "Fa/Do es Fa mayor con Do en el bajo: Do-Fa-La. Do es la quinta del acorde, así que es la segunda inversión. En cifrado americano se escribe F/C.",
+  "explanationEn": "F/C is F major with C in the bass: C-F-A. C is the chord's fifth, so it is the second inversion. In American notation it is written F/C.",
+  "difficulty": 3,
+  "root": { "step": "F", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "slash": { "step": "C", "accidental": "", "octave": 4 },
+  "inversion": 2,
+  "ask": "notes"
+}

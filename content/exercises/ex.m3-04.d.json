@@ -1,0 +1,125 @@
+{
+  "id": "ex.m3-04.d",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Mirá y escuchá el fragmento en La mayor. ¿Qué intervalo hay entre las dos primeras notas (La4 y Si4)?",
+  "promptEn": "Look at and listen to the fragment in A major. What interval is there between the first two notes (A4 and B4)?",
+  "explanationEs": "De La4 a Si4 hay dos letras (La-Si) y dos semitonos: segunda mayor. Es un paso, no un salto, y sostiene el inicio de la frase.",
+  "explanationEn": "From A4 to B4 there are two letters (A-B) and two semitones: a major second. It is a step, not a leap, and it supports the beginning of the phrase.",
+  "difficulty": 1,
+  "lower": {
+    "step": "A",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "B",
+    "accidental": "",
+    "octave": 4
+  },
+  "direction": "melodic",
+  "fragment": {
+    "clef": "treble",
+    "key": "A",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 76,
+    "events": [
+      {
+        "id": "frag.m3-04.d.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.d.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.d.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "#",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.d.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Segunda mayor",
+    "Segunda menor",
+    "Tercera mayor",
+    "Unísono justo"
+  ],
+  "choicesEn": [
+    "Major second",
+    "Minor second",
+    "Major third",
+    "Perfect unison"
+  ]
+}

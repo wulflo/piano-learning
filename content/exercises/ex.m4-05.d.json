@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-05.d",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "El acorde formado por Fa, La, Do, Mi, Sol y Si♭, ¿qué calidad extendida tiene?",
+  "promptEn": "The chord made of F, A, C, E, G and Bb has which extended quality?",
+  "explanationEs": "Es un Fa maj11, o oncena mayor: 1-3-5-7-9-11 (Fa-La-Do-Mi-Sol-Si♭). La séptima Mi es mayor, la novena Sol y la oncena Si♭. La oncena Si♭ choca con La y en la práctica se omite o se toca sin la tercera.",
+  "explanationEn": "It is an Fmaj11, or major eleventh: 1-3-5-7-9-11 (F-A-C-E-G-Bb). The seventh E is major, the ninth G and the eleventh Bb. The eleventh Bb clashes with A, so in practice it is omitted or the third is left out.",
+  "difficulty": 3,
+  "root": { "step": "F", "accidental": "", "octave": 4 },
+  "quality": "major11",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["oncena mayor", "oncena de dominante", "oncena menor"],
+  "choicesEn": ["major eleventh", "dominant eleventh", "minor eleventh"]
+}

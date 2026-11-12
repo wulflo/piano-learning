@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-12.b",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "Escribí las notas de Re m9/Do de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of Dm9/C from low to high, separated by spaces.",
+  "explanationEs": "Do es la séptima menor de Re m9, así que el acorde está en tercera inversión: Do-Re-Mi-Fa-La. La novena Mi queda por encima de la fundamental Re y la quinta La cierra el voicing.",
+  "explanationEn": "C is the minor seventh of Dm9, so the chord is in third inversion: C-D-E-F-A. The ninth E sits above the root D and the fifth A closes the voicing.",
+  "difficulty": 4,
+  "root": { "step": "D", "accidental": "", "octave": 4 },
+  "quality": "minor9",
+  "slash": { "step": "C", "accidental": "", "octave": 4 },
+  "inversion": 3,
+  "ask": "notes"
+}

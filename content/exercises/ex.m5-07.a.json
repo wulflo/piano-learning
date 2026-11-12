@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-07.a",
+  "skillId": "skill.secondary-dominants",
+  "type": "secondary-dominant",
+  "promptEs": "En Do mayor, ¿cómo se cifra el dominante secundario que resuelve en V?",
+  "promptEn": "In C major, how is the secondary dominant that resolves to V labelled?",
+  "explanationEs": "En Do mayor, el dominante de V es Re7 y se cifra V/V. Resuelve en Sol (V): su tercera es la sensible de Sol y sube un semitono.",
+  "explanationEn": "In C major, the dominant of V is D7 and it is labelled V/V. It resolves to G (V): its third is the leading tone of G and rises a semitone.",
+  "difficulty": 1,
+  "key": "C",
+  "mode": "major",
+  "target": 5,
+  "ask": "numeral",
+  "choices": [
+    "V/V",
+    "V/ii",
+    "V/vi",
+    "V/IV"
+  ],
+  "choicesEn": [
+    "V/V",
+    "V/ii",
+    "V/vi",
+    "V/IV"
+  ]
+}

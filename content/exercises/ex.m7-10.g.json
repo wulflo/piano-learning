@@ -1,0 +1,78 @@
+{
+  "id": "ex.m7-10.g",
+  "skillId": "skill.transposition",
+  "type": "transposition",
+  "promptEs": "¿Cómo queda esta melodía si la transponés de Fa mayor a Si bemol mayor?",
+  "explanationEs": "La melodía F4 G4 A4 Bb4 C5 en Fa mayor se transporta a Si bemol mayor subiendo 5 semitonos: Bb4 C5 D5 Eb5 F5.",
+  "difficulty": 2,
+  "fromKey": "F",
+  "toKey": "Bb",
+  "melody": [
+    {
+      "step": "F",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "G",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "A",
+      "accidental": "",
+      "octave": 4
+    },
+    {
+      "step": "B",
+      "accidental": "b",
+      "octave": 4
+    },
+    {
+      "step": "C",
+      "accidental": "",
+      "octave": 5
+    }
+  ],
+  "answer": [
+    {
+      "step": "B",
+      "accidental": "b",
+      "octave": 4
+    },
+    {
+      "step": "C",
+      "accidental": "",
+      "octave": 5
+    },
+    {
+      "step": "D",
+      "accidental": "",
+      "octave": 5
+    },
+    {
+      "step": "E",
+      "accidental": "b",
+      "octave": 5
+    },
+    {
+      "step": "F",
+      "accidental": "",
+      "octave": 5
+    }
+  ],
+  "promptEn": "How does this melody sound if you transpose it from F major to B-flat major?",
+  "explanationEn": "F4 G4 A4 Bb4 C5 in F major becomes Bb4 C5 D5 Eb5 F5 in B-flat major. The fourth degree needs E-flat and the whole melody rises a perfect fourth (5 semitones).",
+  "choices": [
+    "Bb4 C5 D5 Eb5 F5",
+    "Bb4 C5 D5 E5 F5",
+    "Bb4 C5 Eb5 F5 A5",
+    "Ab4 Bb4 C5 Db5 Eb5"
+  ],
+  "choicesEn": [
+    "Bb4 C5 D5 Eb5 F5",
+    "Bb4 C5 D5 E5 F5",
+    "Bb4 C5 Eb5 F5 A5",
+    "Ab4 Bb4 C5 Db5 Eb5"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ex.m1-03.j",
+  "skillId": "skill.accidentals",
+  "type": "interval",
+  "promptEs": "¿Qué distancia hay entre La4 y La♯4?",
+  "promptEn": "What is the distance between A4 and A♯4?",
+  "explanationEs": "La4 y La♯4 son teclas contiguas: hay un semitono. La♯ es la tecla negra inmediata a la derecha de La.",
+  "explanationEn": "A4 and A♯4 are adjacent keys: it is a semitone. A♯ is the black key immediately to the right of A.",
+  "difficulty": 1,
+  "lower": { "step": "A", "accidental": "", "octave": 4 },
+  "upper": { "step": "A", "accidental": "#", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Semitono", "Tono", "Tono y medio", "Dos tonos"],
+  "choicesEn": ["Semitone", "Tone", "Tone and a half", "Two tones"]
+}

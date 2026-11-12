@@ -1,0 +1,35 @@
+{
+  "id": "ex.m1-10.c",
+  "skillId": "skill.dynamics-articulation",
+  "type": "sound-parameter",
+  "promptEs": "Escuchá A y B. ¿Qué parámetro cambió?",
+  "explanationEs": "B suena mucho más fuerte que A: cambió la intensidad, es decir, la dinámica. La altura, la duración y el timbre se mantienen iguales.",
+  "difficulty": 2,
+  "parameter": "intensity",
+  "exampleA": {
+    "midi": 60,
+    "beats": 1,
+    "velocity": 35,
+    "timbre": "piano"
+  },
+  "exampleB": {
+    "midi": 60,
+    "beats": 1,
+    "velocity": 110,
+    "timbre": "piano"
+  },
+  "choices": [
+    "Altura (agudo/grave)",
+    "Duración (corto/largo)",
+    "Intensidad (suave/fuerte)",
+    "Timbre (color del sonido)"
+  ],
+  "promptEn": "Listen to A and B. Which parameter changed?",
+  "explanationEn": "B sounds much louder than A: the intensity, that is, the dynamics, changed. Pitch, duration and timbre stay the same.",
+  "choicesEn": [
+    "Pitch (high/low)",
+    "Duration (short/long)",
+    "Intensity (soft/loud)",
+    "Timbre (sound color)"
+  ]
+}

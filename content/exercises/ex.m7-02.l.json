@@ -1,0 +1,24 @@
+{
+  "id": "ex.m7-02.l",
+  "skillId": "skill.arpeggio",
+  "type": "arpeggio",
+  "promptEs": "¿Qué digitación usa la mano derecha en este arpegio de Sol bemol mayor a dos octavas?",
+  "promptEn": "Which fingering does the right hand use in this two-octave G-flat major arpeggio?",
+  "explanationEs": "Sol bemol es la última tónica negra del recorrido. El arpegio Sol♭4-Si♭4-Re♭5-Sol♭5-Si♭5-Re♭6-Sol♭6 se toca 2-1-2-4-1-2-4; si el pulgar cruza limpio, el resto del patrón se repite igual.",
+  "explanationEn": "G flat is the last black-key tonic in the tour. The G♭4-B♭4-D♭5-G♭5-B♭5-D♭6-G♭6 arpeggio uses 2-1-2-4-1-2-4; if the thumb crosses cleanly, the rest of the pattern repeats unchanged.",
+  "difficulty": 3,
+  "tonic": "Gb",
+  "hand": "right",
+  "octaves": 2,
+  "ask": "fingering",
+  "choices": [
+    "2-1-2-4-1-2-4",
+    "1-2-3-1-2-3-5",
+    "2-1-2-4-1-2-3"
+  ],
+  "choicesEn": [
+    "2-1-2-4-1-2-4",
+    "1-2-3-1-2-3-5",
+    "2-1-2-4-1-2-3"
+  ]
+}

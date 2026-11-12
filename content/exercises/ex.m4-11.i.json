@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-11.i",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "Escribí las notas de Do♯m7/Sol♯ de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of C♯m7/G♯ from low to high, separated by spaces.",
+  "explanationEs": "Sol♯ es la quinta de Do♯m7, así que el acorde está en segunda inversión: Sol♯-Si-Do♯-Mi. La quinta en el bajo deja la fundamental y la tercera arriba.",
+  "explanationEn": "G♯ is the fifth of C♯m7, so the chord is in second inversion: G♯-B-C♯-E. The fifth in the bass leaves the root and the third above.",
+  "difficulty": 3,
+  "root": { "step": "C", "accidental": "#", "octave": 4 },
+  "quality": "minor7",
+  "slash": { "step": "G", "accidental": "#", "octave": 4 },
+  "inversion": 2,
+  "ask": "notes"
+}

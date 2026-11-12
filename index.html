@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aprende teoria musical y piano desde cero con lecciones cortas, practica en tu teclado y repaso espaciado."
+    />
+    <meta name="theme-color" content="#fdfbff" />
+    <link rel="manifest" href="%BASE_URL%manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="%BASE_URL%icons/icon-192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="PianoDesdeCero" />
+    <script>
+      // Aplica el tema guardado antes de pintar para evitar el destello. El
+      // tema por defecto es claro (Material 3); si la persona eligió oscuro se
+      // respeta. Los valores antiguos («system») caen en claro.
+      try {
+        const raw = localStorage.getItem('pdc.settings.v1')
+        const theme = raw ? JSON.parse(raw).theme : 'light'
+        document.documentElement.dataset.theme = theme === 'dark' ? 'dark' : 'light'
+      } catch {
+        // Sin acceso a localStorage: se usa el tema claro por defecto.
+        document.documentElement.dataset.theme = 'light'
+      }
+    </script>
+    <title>PianoDesdeCero</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

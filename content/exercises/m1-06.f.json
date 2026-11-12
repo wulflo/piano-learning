@@ -1,0 +1,30 @@
+{
+  "id": "ex.m1-06.f",
+  "skillId": "skill.compound-meter",
+  "type": "meter-accent",
+  "promptEs": "En un compás de 6/8, ¿en qué corcheas caen los acentos?",
+  "explanationEs": "En 6/8 las corcheas se agrupan de a tres: los acentos caen en las corcheas 1 y 4. Se siente como dos pulsos, no como seis.",
+  "difficulty": 1,
+  "timeSignature": {
+    "numerator": 6,
+    "denominator": 8
+  },
+  "accentedBeats": [
+    1,
+    4
+  ],
+  "choices": [
+    "1 y 4: inicio de cada grupo de tres corcheas",
+    "1, 2, 3, 4, 5 y 6",
+    "1 y 6",
+    "Solo la 1"
+  ],
+  "promptEn": "In a 6/8 measure, on which eighth notes do the accents fall?",
+  "explanationEn": "In 6/8 the eighth notes are grouped in threes: the accents fall on eighth notes 1 and 4. It feels like two pulses, not six.",
+  "choicesEn": [
+    "1 and 4: the start of each group of three eighth notes",
+    "1, 2, 3, 4, 5 and 6",
+    "1 and 6",
+    "Only 1"
+  ]
+}

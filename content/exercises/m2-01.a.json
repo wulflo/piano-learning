@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-01.a",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala de Do mayor?",
+  "explanationEs": "Do mayor se deletrea C D E F G A B C con el patrón T-T-S-T-T-T-S.",
+  "difficulty": 1,
+  "tonic": "C",
+  "mode": "major",
+  "choices": [
+    "C D E F G A B C",
+    "C D E F G A B D",
+    "D E F G A B C D"
+  ],
+  "promptEn": "How do you spell the C major scale?",
+  "explanationEn": "C major is spelled C D E F G A B C with the W-W-H-W-W-W-H pattern.",
+  "choicesEn": [
+    "C D E F G A B C",
+    "C D E F G A B D",
+    "D E F G A B C D"
+  ]
+}

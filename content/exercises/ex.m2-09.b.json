@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-09.b",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala pentatónica menor de Do?",
+  "promptEn": "How do you spell the C minor pentatonic scale?",
+  "explanationEs": "La pentatónica menor de Do se deletrea C Eb F G Bb C: las cinco notas que forman el modo menor pentatónico.",
+  "explanationEn": "The C minor pentatonic is spelled C Eb F G Bb C: the five notes that make up the minor pentatonic mode.",
+  "difficulty": 2,
+  "tonic": "C",
+  "mode": "minor-pentatonic",
+  "choices": [
+    "C Eb F G Bb C",
+    "C D E G A C",
+    "C D G A C"
+  ],
+  "choicesEn": [
+    "C Eb F G Bb C",
+    "C D E G A C",
+    "C D G A C"
+  ]
+}

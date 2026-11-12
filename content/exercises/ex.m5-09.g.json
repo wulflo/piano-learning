@@ -1,0 +1,27 @@
+{
+  "id": "ex.m5-09.g",
+  "skillId": "skill.modulation",
+  "type": "pivot-chord",
+  "promptEs": "En una modulación de Do mayor a Fa mayor, Rem (Re, Fa, La) es el acorde pivote. ¿Qué número romano tiene en Fa mayor?",
+  "promptEn": "In a modulation from C major to F major, Dm (D, F, A) is the pivot chord. Which Roman numeral does it have in F major?",
+  "explanationEs": "Rem conserva las mismas notas en las dos tonalidades: es ii en Do mayor y vi en Fa mayor. Por eso sirve de puente; después, un acorde que ya solo pertenece a Fa mayor (como su V7) confirma la modulación.",
+  "explanationEn": "Dm keeps the same notes in both keys: it is ii in C major and vi in F major. That is why it works as a bridge; afterwards, a chord that belongs only to F major (such as its V7) confirms the modulation.",
+  "difficulty": 2,
+  "fromKey": "C",
+  "toKey": "F",
+  "degreeFrom": 2,
+  "degreeTo": 6,
+  "ask": "target",
+  "choices": [
+    "vi",
+    "ii",
+    "IV",
+    "iii"
+  ],
+  "choicesEn": [
+    "vi",
+    "ii",
+    "IV",
+    "iii"
+  ]
+}

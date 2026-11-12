@@ -1,0 +1,39 @@
+{
+  "id": "ex.m5-06.d",
+  "skillId": "skill.twelve-bar-blues",
+  "type": "progression-completion",
+  "promptEs": "En La menor, completá el blues de doce compases (variante menor): i7 i7 i7 i7 ? iv7 i7 i7 V7 iv7 i7 V7",
+  "promptEn": "In A minor, complete the twelve-bar blues (minor): i7 i7 i7 i7 ? iv7 i7 i7 V7 iv7 i7 V7",
+  "explanationEs": "El blues menor en La menor usa i7, iv7 y V7: Lam7, Rem7 y Mi7. El grado que falta es iv7; el V7 mayor conserva la sensible y mantiene la tensión del blues.",
+  "explanationEn": "The minor blues in A minor uses i7, iv7 and V7: Am7, Dm7 and E7. The missing degree is iv7; the major V7 keeps the leading tone and the blues tension.",
+  "difficulty": 3,
+  "key": "A",
+  "mode": "minor",
+  "degrees": [
+    "i7",
+    "i7",
+    "i7",
+    "i7",
+    "iv7",
+    "iv7",
+    "i7",
+    "i7",
+    "V7",
+    "iv7",
+    "i7",
+    "V7"
+  ],
+  "missingIndex": 4,
+  "choices": [
+    "iv7",
+    "i7",
+    "V7",
+    "VI7"
+  ],
+  "choicesEn": [
+    "iv7",
+    "i7",
+    "V7",
+    "VI7"
+  ]
+}

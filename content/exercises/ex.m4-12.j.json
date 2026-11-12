@@ -1,0 +1,17 @@
+{
+  "id": "ex.m4-12.j",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "El acorde suena La, Do, Mi♭, Fa, Sol, Si♭ y Re, de grave a agudo. ¿Qué cifrado le corresponde?",
+  "promptEn": "The chord sounds A, C, Eb, F, G, Bb and D, from low to high. Which symbol matches it?",
+  "explanationEs": "Es Fa13/La: Fa13 se construye Fa-La-Do-Mi♭-Sol-Si♭-Re y, con La en el bajo, queda La-Do-Mi♭-Fa-Sol-Si♭-Re. La es la tercera mayor de Fa, así que es la primera inversión; la trecena Re y la oncena Si♭ completan el acorde.",
+  "explanationEn": "It is F13/A: F13 is F-A-C-Eb-G-Bb-D and, with A in the bass, becomes A-C-Eb-F-G-Bb-D. A is the major third of F, so it is the first inversion; the thirteenth D and the eleventh Bb complete the chord.",
+  "difficulty": 5,
+  "root": { "step": "F", "accidental": "", "octave": 4 },
+  "quality": "dominant13",
+  "slash": { "step": "A", "accidental": "", "octave": 4 },
+  "inversion": 1,
+  "ask": "symbol",
+  "choices": ["Fa13/La", "Fa11/La", "Fa13/Do"],
+  "choicesEn": ["F13/A", "F11/A", "F13/C"]
+}

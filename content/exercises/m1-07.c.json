@@ -1,0 +1,59 @@
+{
+  "id": "ex.m1-07.c",
+  "skillId": "skill.rhythm-variants",
+  "type": "rhythm-completion",
+  "promptEs": "En 4/4 ya hay dos corcheas de tresillo. ¿Qué figura completa el tresillo del primer pulso?",
+  "explanationEs": "Tres corcheas de tresillo ocupan el tiempo de dos corcheas normales, es decir, un pulso de negra. Si ya hay dos, falta una corchea de tresillo.",
+  "difficulty": 3,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "pattern": [
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "triplet",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "triplet",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "triplet",
+      "rest": false
+    },
+    {
+      "duration": "half",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 1,
+  "choices": [
+    "Corchea de tresillo",
+    "Corchea",
+    "Semicorchea",
+    "Negra"
+  ],
+  "promptEn": "In 4/4 there are already two triplet eighth notes. Which note value completes the triplet of the first beat?",
+  "explanationEn": "Three triplet eighth notes take the time of two normal eighth notes, that is, one quarter-note beat. If there are already two, one triplet eighth note is missing.",
+  "choicesEn": [
+    "Triplet eighth note",
+    "Eighth note",
+    "Sixteenth note",
+    "Quarter note"
+  ]
+}

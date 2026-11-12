@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-03.k",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de La bemol mayor suena Mi♭-La♭-Do, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The Ab major chord sounds Eb-Ab-C, from low to high. What inversion is it?",
+  "explanationEs": "El acorde de La♭ mayor es La♭-Do-Mi♭. El bajo es Mi♭, la quinta, así que está en segunda inversión: La♭/Mi♭.",
+  "explanationEn": "The Ab major chord is Ab-C-Eb. The bass is Eb, the fifth, so it is in second inversion: Ab/Eb.",
+  "difficulty": 3,
+  "root": { "step": "A", "accidental": "b", "octave": 4 },
+  "quality": "major",
+  "inversion": 2,
+  "ask": "inversion",
+  "choices": ["estado fundamental", "primera inversión", "segunda inversión"],
+  "choicesEn": ["root position", "first inversion", "second inversion"]
+}

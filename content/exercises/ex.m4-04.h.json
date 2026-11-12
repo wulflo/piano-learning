@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-04.h",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Fa maj7 (séptima mayor) de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of an Fmaj7 (major seventh) from low to high, separated by spaces.",
+  "explanationEs": "Fa maj7 es 1-3-5-7: Fa, La, Do y Mi. La tercera es La, la quinta Do y la séptima mayor Mi, once semitonos arriba de Fa.",
+  "explanationEn": "Fmaj7 is 1-3-5-7: F, A, C and E. The third is A, the fifth C and the major seventh E, eleven semitones above F.",
+  "difficulty": 3,
+  "root": { "step": "F", "accidental": "", "octave": 4 },
+  "quality": "major7",
+  "inversion": 0,
+  "ask": "notes"
+}

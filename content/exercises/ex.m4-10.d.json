@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-10.d",
+  "skillId": "skill.chord-quality",
+  "type": "chord",
+  "promptEs": "El acorde formado por Mi♭, Sol y Si, ¿qué calidad de tríada tiene?",
+  "promptEn": "The chord made of E♭, G and B, what triad quality does it have?",
+  "explanationEs": "Mi♭-Sol es tercera mayor y Mi♭-Si es quinta aumentada: es un Mi♭ aumentado. La quinta aumentada es la que lo separa de la tríada mayor, que tendría Si♭ en lugar de Si.",
+  "explanationEn": "E♭-G is a major third and E♭-B is an augmented fifth: it is an E♭ augmented triad. The augmented fifth is what separates it from the major triad, which would have B♭ instead of B.",
+  "difficulty": 2,
+  "root": { "step": "E", "accidental": "b", "octave": 4 },
+  "quality": "augmented",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["aumentado", "mayor", "menor", "disminuido"],
+  "choicesEn": ["augmented", "major", "minor", "diminished"]
+}

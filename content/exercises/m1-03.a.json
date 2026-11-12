@@ -1,0 +1,15 @@
+{
+  "id": "ex.m1-03.a",
+  "skillId": "skill.accidentals",
+  "type": "interval",
+  "promptEs": "¿Qué distancia hay entre Do4 y Do♯4?",
+  "promptEn": "What is the distance between C4 and C♯4?",
+  "explanationEs": "Do4 y Do♯4 están en teclas contiguas: hay un semitono. El sostenido sube la nota un semitono.",
+  "explanationEn": "C4 and C♯4 are on adjacent keys: it is a semitone. The sharp raises the note by a semitone.",
+  "difficulty": 1,
+  "lower": { "step": "C", "accidental": "", "octave": 4 },
+  "upper": { "step": "C", "accidental": "#", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Semitono", "Tono", "Tono y medio", "Dos tonos"],
+  "choicesEn": ["Semitone", "Tone", "Tone and a half", "Two tones"]
+}

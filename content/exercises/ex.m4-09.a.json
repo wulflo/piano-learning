@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-09.a",
+  "skillId": "skill.chord-symbol",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Do mayor de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of a C major chord from low to high, separated by spaces.",
+  "explanationEs": "Do es la fundamental y el cifrado no lleva sufijo: la tríada mayor es 1-3-5, Do-Mi-Sol. En cifrado americano se escribe C.",
+  "explanationEn": "C is the root and the symbol has no suffix: the major triad is 1-3-5, C-E-G. In Latin notation it is written Do.",
+  "difficulty": 1,
+  "root": { "step": "C", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "inversion": 0,
+  "ask": "notes"
+}

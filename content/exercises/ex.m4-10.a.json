@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-10.a",
+  "skillId": "skill.chord-seventh",
+  "type": "chord",
+  "promptEs": "El acorde formado por Do, Mi, Sol y Si, ¿qué calidad tiene?",
+  "promptEn": "The chord made of C, E, G and B, what quality does it have?",
+  "explanationEs": "Do-Mi es tercera mayor, Do-Sol quinta justa y Do-Si séptima mayor: es un Do maj7. La séptima mayor queda a once semitonos de la fundamental y suena brillante y estable.",
+  "explanationEn": "C-E is a major third, C-G a perfect fifth and C-B a major seventh: it is a Cmaj7. The major seventh sits eleven semitones above the root and sounds bright and stable.",
+  "difficulty": 1,
+  "root": { "step": "C", "accidental": "", "octave": 4 },
+  "quality": "major7",
+  "inversion": 0,
+  "ask": "quality",
+  "choices": ["séptima mayor", "séptima de dominante", "séptima menor", "séptima semidisminuida", "séptima disminuida"],
+  "choicesEn": ["major seventh", "dominant seventh", "minor seventh", "half-diminished seventh", "diminished seventh"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ex.m4-06.c",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "El acorde suena Re, Do, Mi y Sol, de grave a agudo. ¿Qué slash chord es?",
+  "promptEn": "The chord sounds D, C, E and G, from low to high. Which slash chord is it?",
+  "explanationEs": "Es Do/Re: Do mayor con Re en el bajo. Las notas son Re-Do-Mi-Sol; Re no pertenece a la tríada Do-Mi-Sol, así que no es una inversión sino un acorde híbrido. El bajo agrega una segunda mayor y cambia el color. En cifrado americano se escribe C/D.",
+  "explanationEn": "It is C/D: C major with D in the bass. The notes are D-C-E-G; D is not part of the C-E-G triad, so it is not an inversion but a hybrid chord. The bass adds a major second and changes the colour. In American notation it is written C/D.",
+  "difficulty": 3,
+  "root": { "step": "C", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "slash": { "step": "D", "accidental": "", "octave": 3 },
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": ["Do/Re", "Do/Si", "Do/Sol"],
+  "choicesEn": ["C/D", "C/B", "C/G"]
+}

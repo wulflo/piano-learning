@@ -1,0 +1,209 @@
+{
+  "id": "ex.m7-03.g",
+  "skillId": "skill.pedal",
+  "type": "pedal",
+  "promptEs": "¿Qué hace el pedal en el compás 2, pulso 1?",
+  "promptEn": "What does the pedal do in measure 2, beat 1?",
+  "explanationEs": "En el ataque del nuevo acorde solo se levanta el pedal. La pisada sincopada llega medio pulso después, en el contratiempo, para recoger el sonido sin mezclar las armonías.",
+  "explanationEn": "On the new chord attack the pedal is only released. The syncopated press comes half a beat later, off the beat, catching the sound without mixing the harmonies.",
+  "difficulty": 2,
+  "score": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 72,
+    "events": [
+      {
+        "id": "ex.m7-03.g.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-03.g.2",
+        "measure": 2,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "A",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-03.g.3",
+        "measure": 3,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "B",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "D",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-03.g.4",
+        "measure": 4,
+        "beat": 0,
+        "value": {
+          "duration": "whole",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          },
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 76,
+        "tieToNext": false
+      }
+    ],
+    "pedals": [
+      {
+        "measure": 1,
+        "beat": 0.5,
+        "action": "press",
+        "kind": "syncopated"
+      },
+      {
+        "measure": 2,
+        "beat": 0,
+        "action": "release",
+        "kind": "syncopated"
+      },
+      {
+        "measure": 2,
+        "beat": 0.5,
+        "action": "press",
+        "kind": "syncopated"
+      },
+      {
+        "measure": 3,
+        "beat": 0,
+        "action": "release",
+        "kind": "syncopated"
+      },
+      {
+        "measure": 3,
+        "beat": 0.5,
+        "action": "press",
+        "kind": "syncopated"
+      },
+      {
+        "measure": 4,
+        "beat": 0,
+        "action": "release",
+        "kind": "syncopated"
+      },
+      {
+        "measure": 4,
+        "beat": 0.5,
+        "action": "press",
+        "kind": "syncopated"
+      },
+      {
+        "measure": 5,
+        "beat": 0,
+        "action": "release",
+        "kind": "syncopated"
+      }
+    ]
+  },
+  "ask": "action",
+  "measure": 2,
+  "beat": 1,
+  "choices": [
+    "Pisar el pedal",
+    "Levantar el pedal",
+    "Cambiar el pedal"
+  ],
+  "choicesEn": [
+    "Press the pedal",
+    "Release the pedal",
+    "Change the pedal"
+  ]
+}

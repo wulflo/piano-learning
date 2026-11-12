@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-09.f",
+  "skillId": "skill.chord-symbol",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un La7 de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of an A7 chord from low to high, separated by spaces.",
+  "explanationEs": "La7 es una séptima de dominante: 1-3-5-♭7, La-Do♯-Mi-Sol. El 7 sin maj agrega una séptima menor, diez semitonos arriba de La. En cifrado americano se escribe A7.",
+  "explanationEn": "A7 is a dominant seventh: 1-3-5-♭7, A-C♯-E-G. A plain 7 adds a minor seventh, ten semitones above A. In Latin notation it is written La7.",
+  "difficulty": 2,
+  "root": { "step": "A", "accidental": "", "octave": 4 },
+  "quality": "dominant7",
+  "inversion": 0,
+  "ask": "notes"
+}

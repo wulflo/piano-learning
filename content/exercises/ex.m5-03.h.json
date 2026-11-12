@@ -1,0 +1,23 @@
+{
+  "id": "ex.m5-03.h",
+  "skillId": "skill.harmonic-function",
+  "type": "harmonic-function",
+  "promptEs": "En Mi menor natural, ¿qué función cumple el acorde Lam (La, Do, Mi)?",
+  "promptEn": "In E natural minor, what function does the chord Am (A, C, E) fulfil?",
+  "explanationEs": "En Mi menor natural, el grado iv es Lam. La subdominante menor aleja de la tónica y prepara la dominante Si.",
+  "explanationEn": "In E natural minor, degree iv is Am. The minor subdominant moves away from the tonic and prepares the dominant B.",
+  "difficulty": 2,
+  "key": "E",
+  "mode": "minor",
+  "degree": 4,
+  "choices": [
+    "Tónica (T)",
+    "Subdominante (S)",
+    "Dominante (D)"
+  ],
+  "choicesEn": [
+    "Tonic (T)",
+    "Subdominant (S)",
+    "Dominant (D)"
+  ]
+}

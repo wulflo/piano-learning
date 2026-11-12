@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-09.k",
+  "skillId": "skill.chord-symbol",
+  "type": "chord",
+  "promptEs": "El acorde suena La♭, Do y Mi♭, de grave a agudo. ¿Qué cifrado latino le corresponde?",
+  "promptEn": "The chord sounds A♭, C and E♭, from low to high. Which American chord symbol matches it?",
+  "explanationEs": "La♭ es la fundamental; La♭-Do es una tercera mayor y La♭-Mi♭ una quinta justa. Es una tríada mayor y el cifrado no lleva sufijo: La♭. En americano se escribe A♭.",
+  "explanationEn": "A♭ is the root; A♭-C is a major third and A♭-E♭ a perfect fifth. It is a major triad and the symbol has no suffix: A♭. In Latin notation it is written La♭.",
+  "difficulty": 1,
+  "root": { "step": "A", "accidental": "b", "octave": 4 },
+  "quality": "major",
+  "inversion": 0,
+  "ask": "symbol",
+  "choices": ["La♭", "La♭m", "La♭7"],
+  "choicesEn": ["A♭", "A♭m", "A♭7"]
+}

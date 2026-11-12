@@ -1,0 +1,31 @@
+{
+  "id": "ex.m5-05.g",
+  "skillId": "skill.common-progressions",
+  "type": "progression-completion",
+  "promptEs": "En Fa♯ mayor, ¿qué grado completa la progresión I-?-vi-IV?",
+  "promptEn": "In F♯ major, which degree completes the I-?-vi-IV progression?",
+  "explanationEs": "La progresión pop I-V-vi-IV en Fa♯ mayor es Fa♯-Do♯-Re♯m-Si. El grado que falta es V: la dominante. Completa la serie I-V-vi-IV y vuelve a empezar.",
+  "explanationEn": "The pop progression I-V-vi-IV in F♯ major is F♯-C♯-D♯m-B. The missing degree is V: the dominant. It completes the series I-V-vi-IV and starts over.",
+  "difficulty": 3,
+  "key": "F#",
+  "mode": "major",
+  "degrees": [
+    "I",
+    "V",
+    "vi",
+    "IV"
+  ],
+  "missingIndex": 1,
+  "choices": [
+    "V",
+    "I",
+    "IV",
+    "vi"
+  ],
+  "choicesEn": [
+    "V",
+    "I",
+    "IV",
+    "vi"
+  ]
+}

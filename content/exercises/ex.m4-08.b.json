@@ -1,0 +1,33 @@
+{
+  "id": "ex.m4-08.b",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre Sol4 y Do5?",
+  "promptEn": "What interval is there between G4 and C5?",
+  "explanationEs": "De Sol a Do hay tres letras y cinco semitonos: una cuarta justa. La medición armónica cuenta los semitonos y la melódica las letras; en este par ambas coinciden.",
+  "explanationEn": "From G to C there are three letters and five semitones: a perfect fourth. Harmonic measurement counts semitones and melodic counts letters; in this pair they agree.",
+  "difficulty": 2,
+  "lower": {
+    "step": "G",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "C",
+    "accidental": "",
+    "octave": 5
+  },
+  "direction": "harmonic",
+  "choices": [
+    "Cuarta justa",
+    "Quinta justa",
+    "Cuarta aumentada",
+    "Tercera justa"
+  ],
+  "choicesEn": [
+    "Perfect fourth",
+    "Perfect fifth",
+    "Augmented fourth",
+    "Perfect third"
+  ]
+}

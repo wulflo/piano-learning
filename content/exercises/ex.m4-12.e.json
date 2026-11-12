@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-12.e",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "Escribí las notas de La♭maj13/Do de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of A♭maj13/C from low to high, separated by spaces.",
+  "explanationEs": "Do es la tercera de La♭maj13, así que el acorde está en primera inversión: Do-Mi♭-Sol-La♭-Si♭-Re♭-Fa. Son las siete notas del acorde, con la trecena Fa arriba y sin dobles bemoles.",
+  "explanationEn": "C is the third of Abmaj13, so the chord is in first inversion: C-Eb-G-Ab-Bb-Db-F. These are the seven chord tones, with the thirteenth F on top and no double flats.",
+  "difficulty": 5,
+  "root": { "step": "A", "accidental": "b", "octave": 4 },
+  "quality": "major13",
+  "slash": { "step": "C", "accidental": "", "octave": 4 },
+  "inversion": 1,
+  "ask": "notes"
+}

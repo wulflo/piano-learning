@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-05.b",
+  "skillId": "skill.ear-interval",
+  "type": "ear-interval",
+  "promptEs": "¿Qué intervalo hay entre Do4 y Mi4 al escucharlos en forma ascendente?",
+  "promptEn": "What interval is there between C4 and E4 when heard in ascending form?",
+  "explanationEs": "Do4 y Mi4 están separados por una tercera mayor: dos tonos y medio. Es la primera distancia que suena como una frase cantable.",
+  "explanationEn": "C4 and E4 are a major third apart: two whole tones and a half. It is the first distance that sounds like a singable phrase.",
+  "difficulty": 2,
+  "lower": { "step": "C", "accidental": "", "octave": 4 },
+  "upper": { "step": "E", "accidental": "", "octave": 4 },
+  "direction": "ascending",
+  "choices": ["Tercera mayor", "Tercera menor", "Segunda mayor", "Cuarta justa"],
+  "choicesEn": ["Major third", "Minor third", "Major second", "Perfect fourth"]
+}

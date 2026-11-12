@@ -1,0 +1,27 @@
+{
+  "id": "ex.m5-09.c",
+  "skillId": "skill.modulation",
+  "type": "pivot-chord",
+  "promptEs": "En una modulación de Re mayor a La mayor, Sim (Si, Re, Fa♯) es el acorde pivote. ¿Qué número romano tiene en Re mayor?",
+  "promptEn": "In a modulation from D major to A major, Bm (B, D, F♯) is the pivot chord. Which Roman numeral does it have in D major?",
+  "explanationEs": "Sim conserva las mismas notas en las dos tonalidades: es vi en Re mayor y ii en La mayor. Por eso sirve de puente; después, un acorde que ya solo pertenece a La mayor (como su V7) confirma la modulación.",
+  "explanationEn": "Bm keeps the same notes in both keys: it is vi in D major and ii in A major. That is why it works as a bridge; afterwards, a chord that belongs only to A major (such as its V7) confirms the modulation.",
+  "difficulty": 2,
+  "fromKey": "D",
+  "toKey": "A",
+  "degreeFrom": 6,
+  "degreeTo": 2,
+  "ask": "source",
+  "choices": [
+    "vi",
+    "ii",
+    "IV",
+    "iii"
+  ],
+  "choicesEn": [
+    "vi",
+    "ii",
+    "IV",
+    "iii"
+  ]
+}

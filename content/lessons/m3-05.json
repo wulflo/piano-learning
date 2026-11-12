@@ -1,0 +1,165 @@
+{
+  "id": "lesson.m3-05",
+  "moduleId": "M3",
+  "slug": "intervalos-de-oido",
+  "titleEs": "Intervalos de oído",
+  "titleEn": "Intervals by ear",
+  "summaryEs": "Cómo reconocés la extensión y la calidad de un intervalo escuchándolo, con entrenamiento de intervalos ascendentes, descendentes y armónicos.",
+  "summaryEn": "How to recognise an interval's size and quality by ear, with training on ascending, descending and harmonic intervals.",
+  "objectivesEs": [
+    "Reconocer la extensión de un intervalo al escuchar dos notas",
+    "Distinguir intervalos justos, mayores, menores, aumentados y disminuidos por oído",
+    "Entrenar intervalos ascendentes, descendentes y armónicos con dificultad progresiva"
+  ],
+  "objectivesEn": [
+    "Recognise an interval's size by hearing two notes",
+    "Distinguish perfect, major, minor, augmented and diminished intervals by ear",
+    "Train on ascending, descending and harmonic intervals with progressive difficulty"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m3-04"
+  ],
+  "skillIds": [
+    "skill.ear-interval"
+  ],
+  "exerciseIds": [
+    "ex.m3-05.a",
+    "ex.m3-05.b",
+    "ex.m3-05.c",
+    "ex.m3-05.d",
+    "ex.m3-05.e",
+    "ex.m3-05.f",
+    "ex.m3-05.g",
+    "ex.m3-05.h",
+    "ex.m3-05.i",
+    "ex.m3-05.j",
+    "ex.m3-05.k",
+    "ex.m3-05.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m3-05.intro",
+      "kind": "text",
+      "titleEs": "Escuchar dos notas",
+      "titleEn": "Hearing two notes",
+      "bodyEs": "Un intervalo de oído no se nombra sin escucharlo. La forma más honesta de entrenar es cantar: dos notas cantadas separadas por una distancia forman el intervalo. La referencia de esta lección es una frase corta en Do mayor. Escuchá y mirá la demo, cantá la distancia y comparala con lo que ya podés nombrar midiendo.",
+      "bodyEn": "An interval by ear is not named without hearing it. The most honest training is singing: two sung notes separated by a distance form the interval. The reference of this lesson is a short phrase in C major. Listen to and look at the demo, sing the distance and compare it with what you can already name by measuring."
+    },
+    {
+      "id": "sec.m3-05.entrenamiento",
+      "kind": "text",
+      "titleEs": "Entrenamiento: ascendente, descendente y armónico",
+      "titleEn": "Training: ascending, descending and harmonic",
+      "bodyEs": "El entrenamiento se organiza en tres modos de escucha. En el modo ascendente se escucha la distancia de la primera nota a la segunda, que suena más aguda. En el modo descendente se escucha de la nota más aguda a la más grave y la misma distancia suena distinta al nombrarla. En el modo armónico las dos notas suenan a la vez, como dos voces o como los miembros de un acorde; ahí la calidad del intervalo se escucha entre las notas, no en una línea.",
+      "bodyEn": "The training is organised in three listening modes. In ascending mode the distance from the first note to the second is heard, which sounds more acute. In descending mode the distance from the highest note to the lowest is heard and the same distance sounds different when named. In harmonic mode both notes sound at once, like two voices or members of a chord; there the interval quality is heard between the notes, not along a line."
+    },
+    {
+      "id": "sec.m3-05.demo",
+      "kind": "score",
+      "titleEs": "La tercera mayor: Do4 y Mi4",
+      "titleEn": "The major third: C4 and E4",
+      "bodyEs": "Escuchá y mirá esta referencia: Do4 y Mi4, separados por una tercera mayor. Cantá «do-mi» y tocá la distancia. Después probá la misma referencia en su forma descendente (Mi4 y Do4) y en su versión armónica.",
+      "bodyEn": "Listen to and look at this reference: C4 and E4, a major third apart. Sing «do-mi» and play the distance. Then try the same reference in descending form (E4 and C4) and in its harmonic version.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m3-05.ref.1",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m3-05.ref.2",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m3-05.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios de oído",
+      "titleEn": "Twelve ear exercises",
+      "bodyEs": "Cada ejercicio reproduce una pareja de notas y pregunta el intervalo. Los seis primeros trabajan el modo ascendente, los tres siguientes el modo descendente y los tres últimos el modo armónico. La dificultad sube de un segundo mayor a una quinta aumentada y las respuestas se corrigen con la regla «Recordá».",
+      "bodyEn": "Each exercise plays a pair of notes and asks for the interval. The first six train ascending mode, the next three descending mode and the last three harmonic mode. Difficulty rises from a major second to an augmented fifth and answers are corrected with the «Recordá» rule."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca los intervalos que escuchás",
+    "titleEn": "Play the intervals you hear",
+    "instructionsEs": "Con la mano derecha tocá Do4 y Mi4 y escuchá la tercera mayor. Después tocá Mi4 y Do4 para escuchar la misma tercera en su forma descendente y compará con la ascendente. Por último tocá Do4 y Sol4 para oír la quinta justa y distinguirla de la tercera.",
+    "instructionsEn": "With your right hand play C4 and E4 and hear the major third. Then play E4 and C4 to hear the same third in descending form and compare it with the ascending one. Finally play C4 and G4 to hear the perfect fifth and tell it apart from the third.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 }
+    ],
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué la tercera mayor Do4-Mi4 y escuché la distancia ascendente",
+      "Toqué la tercera descendente Mi4-Do4 y la comparé con la ascendente",
+      "Toqué la quinta justa Do4-Sol4 y la diferencié de la tercera"
+    ],
+    "checklistEn": [
+      "I played the major third C4-E4 and heard the ascending distance",
+      "I played the descending third E4-C4 and compared it with the ascending one",
+      "I played the perfect fifth C4-G4 and told it apart from the third"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m3-05.ref.1",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m3-05.ref.2",
+          "measure": 1,
+          "beat": 1,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

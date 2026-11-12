@@ -1,0 +1,16 @@
+{
+  "id": "ex.m4-11.c",
+  "skillId": "skill.chord-inversion",
+  "type": "chord",
+  "promptEs": "El acorde de Mim7 suena Si-Re-Mi-Sol, de grave a agudo. ¿Qué inversión es?",
+  "promptEn": "The Em7 chord sounds B-D-E-G, from low to high. What inversion is it?",
+  "explanationEs": "El bajo es Si, la quinta de Mim7: es la segunda inversión. Las notas son 5-7-1-3, y la fundamental Mi queda en medio del voicing.",
+  "explanationEn": "The bass is B, the fifth of Em7: it is the second inversion. The notes are 5-7-1-3, and the root E sits in the middle of the voicing.",
+  "difficulty": 2,
+  "root": { "step": "E", "accidental": "", "octave": 4 },
+  "quality": "minor7",
+  "inversion": 2,
+  "ask": "inversion",
+  "choices": ["segunda inversión", "primera inversión", "estado fundamental", "tercera inversión"],
+  "choicesEn": ["second inversion", "first inversion", "root position", "third inversion"]
+}

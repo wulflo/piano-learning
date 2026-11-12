@@ -1,0 +1,162 @@
+{
+  "id": "lesson.m2-09",
+  "moduleId": "M2",
+  "slug": "pentatonicas",
+  "titleEs": "Pentatónicas",
+  "titleEn": "Pentatonic scales",
+  "summaryEs": "Las escalas pentatónicas mayores y menores: cinco notas, la omisión de grados y la creación de acordes y melodías con ellas.",
+  "summaryEn": "The major and minor pentatonic scales: five notes, the omission of degrees, and creating chords and melodies with them.",
+  "objectivesEs": [
+    "Reconocer las escalas pentatónicas mayor y menor",
+    "Tocar las cinco notas de cada pentatónica",
+    "Crear melodías y acordes con las pentatónicas"
+  ],
+  "objectivesEn": [
+    "Recognize the major and minor pentatonic scales",
+    "Play the five notes of each pentatonic scale",
+    "Create melodies and chords with the pentatonic scales"
+  ],
+  "minutes": 14,
+  "prerequisites": [
+    "lesson.m2-08"
+  ],
+  "skillIds": [
+    "skill.major-scale"
+  ],
+  "exerciseIds": [
+    "ex.m2-09.a",
+    "ex.m2-09.b"
+  ],
+  "sections": [
+    {
+      "id": "sec.m2-09.intro",
+      "kind": "text",
+      "titleEs": "Qué es una pentatónica",
+      "titleEn": "What is a pentatonic scale",
+      "bodyEs": "Una pentatónica es una escala de cinco notas construida sobre la tonalidad omitiendo grados intermedios. La pentatónica mayor toma las notas tónica, segunda, tercera, quinta y séptima; la pentatónica menor toma la tónica, la tercera, la quinta, la séptima y la octava. Con solo cinco notas se pueden tocar melodías sin restricciones de disonancia y con mucha sensación de libertad.",
+      "bodyEn": "A pentatonic scale is a five-note scale built on a key by omitting intermediate degrees. The major pentatonic takes the tonic, second, third, fifth, and seventh; the minor pentatonic takes the tonic, third, fifth, seventh, and octave. With only five notes you can play melodies with no dissonance restrictions and a great sense of freedom."
+    },
+    {
+      "id": "sec.m2-09.major",
+      "kind": "text",
+      "titleEs": "Pentatónica mayor",
+      "titleEn": "Major pentatonic",
+      "bodyEs": "La pentatónica mayor de Do reúne las notas Do, Re, Mi, Sol y La: la tónica, la segunda, la tercera, la quinta y la séptima. Es la base de muchos acordes y melodías populares porque cubre los grados consonantes de la mayor sin incluir la cuarta ni la sexta.",
+      "bodyEn": "The C major pentatonic brings together the notes C, D, E, G, and A: the tonic, second, third, fifth, and seventh. It is the basis of many popular chords and melodies because it covers the consonant degrees of the major scale without including the fourth or the sixth."
+    },
+    {
+      "id": "sec.m2-09.minor",
+      "kind": "text",
+      "titleEs": "Pentatónica menor",
+      "titleEn": "Minor pentatonic",
+      "bodyEs": "La pentatónica menor de Do toma las notas Do, Re, Sol, La y Do: la tónica, la tercera, la quinta, la séptima y la octava. Al omitir la segunda y la sexta se pierde la tensión típica de la menor clásica y se obtiene un sonido abierto y cantable.",
+      "bodyEn": "The C minor pentatonic takes the notes C, D, G, A, and C: the tonic, third, fifth, seventh, and octave. By omitting the second and the sixth you lose the tension typical of classical minor and get an open, singable sound."
+    },
+    {
+      "id": "sec.m2-09.score",
+      "kind": "score",
+      "titleEs": "Escala pentatónica mayor de Do",
+      "titleEn": "C major pentatonic scale",
+      "bodyEs": "Escala pentatónica mayor de Do: Do, Re, Mi, Sol, La, con el patrón de cinco notas en un compás de cuatro tiempos.",
+      "bodyEn": "C major pentatonic scale: C, D, E, G, A, with the five-note pattern in a four-beat measure.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m2-09.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-09.d4",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "D", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-09.e4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-09.g4",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m2-09.a4",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "half", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "A", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 82,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m2-09.exercises",
+      "kind": "exercise",
+      "titleEs": "Creación con pentatónicas",
+      "titleEn": "Creating with pentatonic scales",
+      "bodyEs": "En los ejercicios de creación se escribe la escala pentatónica mayor y menor. La respuesta correcta lista las cinco notas de la escala y omite los grados que no forman parte del modo.",
+      "bodyEn": "In the creation exercises you write the major and the minor pentatonic scale. The correct answer lists the five notes of the scale and omits the degrees that are not part of the mode."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca la pentatónica mayor de Do",
+    "titleEn": "Play the C major pentatonic scale",
+    "instructionsEs": "Tocá la escala pentatónica mayor de Do (Do, Re, Mi, Sol, La) con la mano derecha a 60 BPM, despacio y sin apuro.",
+    "instructionsEn": "Play the C major pentatonic scale (C, D, E, G, A) with your right hand at 60 BPM, slowly and without rushing.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "D", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "G", "accidental": "", "octave": 4 },
+      { "step": "A", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha en una octava: 1-2-3-4-5 para la pentatónica mayor de Do.",
+    "fingeringEn": "Right hand in one octave: 1-2-3-4-5 for the C major pentatonic.",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué los grados de la pentatónica mayor en orden",
+      "Mantuve la escala sin saltarme notas",
+      "Repetí la escala despacio con pulso de negra"
+    ],
+    "checklistEn": [
+      "I played the degrees of the major pentatonic in order",
+      "I kept the scale without skipping notes",
+      "I repeated the scale slowly with a quarter-note pulse"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

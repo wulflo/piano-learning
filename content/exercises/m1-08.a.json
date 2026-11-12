@@ -1,0 +1,58 @@
+{
+  "id": "ex.m1-08.a",
+  "skillId": "skill.syncopation",
+  "type": "rhythm-dictation",
+  "promptEs": "Escuchá el dictado en 4/4. ¿Qué secuencia de figuras produce la síncopa?",
+  "explanationEs": "La síncopa aparece porque las negras empiezan en la parte débil de cada pulso y se prolongan sobre el pulso siguiente. La secuencia suma cuatro tiempos.",
+  "difficulty": 2,
+  "timeSignature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "pattern": [
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "eighth",
+      "dots": 0,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "choices": [
+    "Corchea, Negra, Negra, Negra, Corchea",
+    "Negra, Negra, Negra, Negra",
+    "Corchea, Corchea, Negra, Negra, Corchea",
+    "Negra, Corchea, Negra, Corchea, Negra"
+  ],
+  "promptEn": "Listen to the dictation in 4/4. Which sequence of note values produces the syncopation?",
+  "explanationEn": "The syncopation appears because the quarter notes start on the weak part of each beat and extend over the next beat. The sequence adds up to four beats.",
+  "choicesEn": [
+    "Eighth note, Quarter note, Quarter note, Quarter note, Eighth note",
+    "Quarter note, Quarter note, Quarter note, Quarter note",
+    "Eighth note, Eighth note, Quarter note, Quarter note, Eighth note",
+    "Quarter note, Eighth note, Quarter note, Eighth note, Quarter note"
+  ]
+}

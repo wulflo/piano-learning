@@ -1,0 +1,15 @@
+{
+  "id": "ex.m1-03.e",
+  "skillId": "skill.accidentals",
+  "type": "interval",
+  "promptEs": "¿Qué distancia hay entre Mi4 y Fa4?",
+  "promptEn": "What is the distance between E4 and F4?",
+  "explanationEs": "Mi4 y Fa4 son notas blancas contiguas, sin tecla negra entre ellas: hay un semitono natural.",
+  "explanationEn": "E4 and F4 are adjacent white keys with no black key between them: it is a natural semitone.",
+  "difficulty": 1,
+  "lower": { "step": "E", "accidental": "", "octave": 4 },
+  "upper": { "step": "F", "accidental": "", "octave": 4 },
+  "direction": "melodic",
+  "choices": ["Semitono", "Tono", "Tono y medio", "Dos tonos"],
+  "choicesEn": ["Semitone", "Tone", "Tone and a half", "Two tones"]
+}

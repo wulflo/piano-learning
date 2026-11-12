@@ -1,0 +1,226 @@
+{
+  "id": "lesson.m4-08",
+  "moduleId": "M4",
+  "slug": "medir-intervalos",
+  "titleEs": "Medir intervalos",
+  "titleEn": "Measuring intervals",
+  "summaryEs": "Cómo medir la distancia entre dos notas con la cantidad de letras y la calidad en semitonos, en medición melódica y armónica, en las doce tónicas.",
+  "summaryEn": "How to measure the distance between two notes with the number of letters and the quality in semitones, in melodic and harmonic measurement, over the twelve tonics.",
+  "objectivesEs": [
+    "Contar la cantidad de un intervalo entre dos notas",
+    "Nombrar la calidad a partir de los semitonos",
+    "Diferenciar la medición melódica de la armónica",
+    "Medir intervalos en las doce tónicas sin enarmonías inválidas"
+  ],
+  "objectivesEn": [
+    "Count the size of an interval between two notes",
+    "Name the quality from the semitones",
+    "Tell melodic measurement from harmonic measurement",
+    "Measure intervals over the twelve tonics without invalid enharmonics"
+  ],
+  "minutes": 18,
+  "prerequisites": [
+    "lesson.m4-07"
+  ],
+  "skillIds": [
+    "skill.interval-quality"
+  ],
+  "exerciseIds": [
+    "ex.m4-08.a",
+    "ex.m4-08.b",
+    "ex.m4-08.c",
+    "ex.m4-08.d",
+    "ex.m4-08.e",
+    "ex.m4-08.f",
+    "ex.m4-08.g",
+    "ex.m4-08.h",
+    "ex.m4-08.i",
+    "ex.m4-08.j",
+    "ex.m4-08.k",
+    "ex.m4-08.l"
+  ],
+  "sections": [
+    {
+      "id": "sec.m4-08.intro",
+      "kind": "text",
+      "titleEs": "Dos notas, dos medidores",
+      "titleEn": "Two notes, two measurers",
+      "bodyEs": "Medir un intervalo entre dos notas exige dos datos: la cantidad y la calidad. La cantidad responde a una pregunta de letras: ¿cuántas notas hay entre la primera y la segunda, contando ambas? La calidad responde a una pregunta de sonido: ¿cuántos semitonos caben y cuál es la forma justa? La medición melódica cuenta las letras; la armónica cuenta los semitonos. Por eso la misma pareja de notas puede nombrarse distinto según el contexto: entre Do y Sol hay cinco letras y siete semitonos, así que la medición melódica y la armónica coinciden en una quinta justa.",
+      "bodyEn": "Measuring an interval between two notes takes two facts: the size and the quality. The size answers a question of letters: how many notes lie between the first and the second, counting both? The quality answers a question of sound: how many semitones fit and which is the perfect version? Melodic measurement counts the letters; harmonic measurement counts the semitones. That is why the same pair of notes can be named differently depending on the context: from C to G there are five letters and seven semitones, so melodic and harmonic measurement agree on a perfect fifth."
+    },
+    {
+      "id": "sec.m4-08.cantidad",
+      "kind": "text",
+      "titleEs": "La cantidad y la calidad",
+      "titleEn": "The size and the quality",
+      "bodyEs": "La cantidad va de segunda a octava: segunda, tercera, cuarta, quinta, sexta, séptima, octava, novena, undécima y decimotercera. La calidad nombra la forma justa, mayor, menor, aumentada o disminuida que encaja en esa cantidad. Las segundas, terceras, sextas y séptimas pueden ser mayores o menores; las cuartas, quintas, octavas y unísonos son justos. Si la distancia supera la octava, el intervalo es compuesto y se reduce contando la octava hacia abajo. La calidad se decide contando semitonos, y la cantidad se decide contando letras, siempre separadas.",
+      "bodyEn": "The size runs from second to octave: second, third, fourth, fifth, sixth, seventh, octave, ninth, eleventh and thirteenth. The quality names the perfect, major, minor, augmented or diminished shape that fits that size. Seconds, thirds, sixths and sevenths can be major or minor; fourths, fifths, octaves and unisons are perfect. When the distance goes past the octave the interval is compound and is reduced by counting the octave down. The quality is decided by counting semitones, and the size by counting letters, always kept separate."
+    },
+    {
+      "id": "sec.m4-08.demo",
+      "kind": "score",
+      "titleEs": "Cuatro intervalos desde Do",
+      "titleEn": "Four intervals from Do",
+      "bodyEs": "Escuchá y mirá cuatro intervalos desde Do: Do-Mi es una tercera mayor, Do-Mi bemol una tercera menor, Do-Fa una cuarta justa y Fa-Si una cuarta aumentada. La cantidad y la calidad se cuentan con los dos datos; la medición melódica y la armónica se aplican al mismo par de notas.",
+      "bodyEn": "Listen to and look at four intervals from C: C-E is a major third, C-E flat a minor third, C-F a perfect fourth and F-B an augmented fourth. The size and the quality are counted with the two facts; melodic and harmonic measurement apply to the same pair of notes.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 70,
+        "events": [
+          {
+            "id": "score.m4-08.maj3",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-08.min3",
+            "measure": 1,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "E", "accidental": "b", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-08.perf4",
+            "measure": 1,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "C", "accidental": "", "octave": 4 },
+              { "step": "F", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m4-08.aug4",
+            "measure": 1,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [
+              { "step": "F", "accidental": "", "octave": 4 },
+              { "step": "B", "accidental": "", "octave": 4 }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m4-08.ejercicios",
+      "kind": "exercise",
+      "titleEs": "Doce ejercicios de medir intervalos",
+      "titleEn": "Twelve interval exercises",
+      "bodyEs": "Los doce ejercicios miden intervalos entre dos notas con cantidad y calidad, en medición melódica o armónica. Cada respuesta nombra el intervalo completo: por ejemplo, entre Do y Sol la respuesta es la quinta justa. Contá la cantidad con las letras y decidí la calidad con los semitonos; usá la medición que pide el ejercicio.",
+      "bodyEn": "The twelve exercises measure intervals between two notes with size and quality, in melodic or harmonic measurement. Each answer names the full interval: for example, between C and G the answer is the perfect fifth. Count the size with the letters and decide the quality with the semitones; use the measurement the exercise asks for."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Toca intervalos y nómalos",
+    "titleEn": "Play intervals and name them",
+    "instructionsEs": "Tocá los pares de la demo y nombrá el intervalo con cantidad y calidad. Empezá con Do-Mi (tercera mayor), Do-Mi bemol (tercera menor), Do-Fa (cuarta justa) y Fa-Si (cuarta aumentada). Para intervalos con alteración, tocá la nota con el dedo correcto y nombrá la calidad contando semitonos.",
+    "instructionsEn": "Play the demo pairs and name the interval with size and quality. Start with C-E (major third), C-Eb (minor third), C-F (perfect fourth) and F-B (augmented fourth). For altered intervals, play the correct key and name the quality by counting semitones.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "", "octave": 4 },
+      { "step": "E", "accidental": "b", "octave": 4 },
+      { "step": "F", "accidental": "", "octave": 4 },
+      { "step": "B", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Mano derecha: 1-2 para las dos notas y 1-2-3 si se separan las manos.",
+    "fingeringEn": "Right hand: 1-2 for both notes and 1-2-3 if the hands separate.",
+    "tempoBpm": 60,
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m4-08.maj3",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-08.min3",
+          "measure": 1,
+          "beat": 1,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "E", "accidental": "b", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-08.perf4",
+          "measure": 1,
+          "beat": 2,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "C", "accidental": "", "octave": 4 },
+            { "step": "F", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m4-08.aug4",
+          "measure": 1,
+          "beat": 3,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [
+            { "step": "F", "accidental": "", "octave": 4 },
+            { "step": "B", "accidental": "", "octave": 4 }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "checklistEs": [
+      "Toqué los intervalos y los nombré con cantidad y calidad",
+      "Conté la cantidad con las letras y la calidad con los semitonos",
+      "Distinguí la medición melódica de la armónica"
+    ],
+    "checklistEn": [
+      "I played the intervals and named them with size and quality",
+      "I counted the size with the letters and the quality with the semitones",
+      "I told melodic measurement from harmonic measurement"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

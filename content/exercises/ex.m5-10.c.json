@@ -1,0 +1,16 @@
+{
+  "id": "ex.m5-10.c",
+  "skillId": "skill.neapolitan",
+  "type": "roman-numeral",
+  "optional": true,
+  "promptEs": "En Sol mayor, el acorde La♭ mayor (La♭, Do, Mi♭) se usa antes de la dominante. ¿Qué número romano le corresponde?",
+  "promptEn": "In G major, the A♭ major chord (A♭, C, E♭) is used before the dominant. Which Roman numeral does it get?",
+  "explanationEs": "En Sol mayor, el segundo grado es La. La napolitana lo rebaja a La♭ y forma La♭-Do-Mi♭, una tríada mayor que se cifra ♭II. El La natural del ii diatónico (La-Do-Mi) chocaría con esa sonoridad; la napolitana lo rebaja para acercarse a la dominante Re.",
+  "explanationEn": "In G major the second degree is A. The Neapolitan lowers it to A♭ and forms A♭-C-E♭, a major triad labelled ♭II. The natural A of the diatonic ii (A-C-E) would clash with that sound; the Neapolitan lowers it to move closer to the dominant D.",
+  "difficulty": 3,
+  "key": "G",
+  "mode": "major",
+  "numeral": "bII",
+  "choices": ["bII", "ii", "bVI"],
+  "choicesEn": ["bII", "ii", "bVI"]
+}

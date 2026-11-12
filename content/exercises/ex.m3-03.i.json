@@ -1,0 +1,17 @@
+{
+  "id": "ex.m3-03.i",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Escuchá el intervalo armónico y clasificalo según su función en la armonía tonal.",
+  "promptEn": "Listen to the harmonic interval and classify it by its function in tonal harmony.",
+  "explanationEs": "La♭4-Sol5 es una séptima mayor. La distancia amplia no evita la aspereza: se considera disonancia y suele resolver.",
+  "explanationEn": "A♭4-G5 is a major seventh. The wide distance does not prevent roughness: it is considered a dissonance and usually resolves.",
+  "difficulty": 3,
+  "lower": { "step": "A", "accidental": "b", "octave": 4 },
+  "upper": { "step": "G", "accidental": "", "octave": 5 },
+  "direction": "harmonic",
+  "answer": "Disonancia",
+  "answerEn": "Dissonance",
+  "choices": ["Consonancia perfecta", "Consonancia imperfecta", "Disonancia", "Depende del contexto"],
+  "choicesEn": ["Perfect consonance", "Imperfect consonance", "Dissonance", "Depends on context"]
+}

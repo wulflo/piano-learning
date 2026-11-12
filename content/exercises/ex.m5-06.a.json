@@ -1,0 +1,39 @@
+{
+  "id": "ex.m5-06.a",
+  "skillId": "skill.twelve-bar-blues",
+  "type": "progression-completion",
+  "promptEs": "En Do mayor, completá el blues de doce compases (variante básica): I7 I7 I7 I7 ? IV7 I7 I7 V7 IV7 I7 V7",
+  "promptEn": "In C major, complete the twelve-bar blues (basic): I7 I7 I7 I7 ? IV7 I7 I7 V7 IV7 I7 V7",
+  "explanationEs": "El blues básico de doce compases en Do mayor usa I7, IV7 y V7: Do7, Fa7 y Sol7. El grado que falta es IV7, en el compás 5 de los doce.",
+  "explanationEn": "The basic twelve-bar blues in C major uses I7, IV7 and V7: C7, F7 and G7. The missing degree is IV7, in bar 5 of twelve.",
+  "difficulty": 1,
+  "key": "C",
+  "mode": "major",
+  "degrees": [
+    "I7",
+    "I7",
+    "I7",
+    "I7",
+    "IV7",
+    "IV7",
+    "I7",
+    "I7",
+    "V7",
+    "IV7",
+    "I7",
+    "V7"
+  ],
+  "missingIndex": 4,
+  "choices": [
+    "IV7",
+    "I7",
+    "V7",
+    "vi7"
+  ],
+  "choicesEn": [
+    "IV7",
+    "I7",
+    "V7",
+    "vi7"
+  ]
+}

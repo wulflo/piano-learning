@@ -1,0 +1,22 @@
+{
+  "id": "ex.m2-01.m",
+  "skillId": "skill.key-signature",
+  "type": "key-signature",
+  "promptEs": "¿Cuántas notas alteradas tiene la armadura de G mayor?",
+  "explanationEs": "La escala de Sol mayor pide un sostenido en Fa, así que la armadura de G mayor altera una sola nota.",
+  "difficulty": 1,
+  "key": "G",
+  "mode": "major",
+  "choices": [
+    "1 sola nota con sostenido (F#)",
+    "2 sostenidos",
+    "Sin sostenidos"
+  ],
+  "promptEn": "How many altered notes does the key signature of G major have?",
+  "explanationEn": "The G major scale needs a sharp on F, so the key signature of G major alters a single note.",
+  "choicesEn": [
+    "1 note with a sharp (F#)",
+    "2 sharps",
+    "No sharps"
+  ]
+}

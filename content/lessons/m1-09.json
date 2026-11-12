@@ -1,0 +1,806 @@
+{
+  "id": "lesson.m1-09",
+  "moduleId": "M1",
+  "slug": "tempo-y-metronomo",
+  "titleEs": "Tempo y metrónomo",
+  "titleEn": "Tempo and metronome",
+  "summaryEs": "El tempo es la velocidad de la música y se mide en BPM; los términos italianos lo describen y el metrónomo ayuda a mantenerlo estable.",
+  "objectivesEs": [
+    "Relacionar los términos de tempo con rangos de BPM",
+    "Usar el metrónomo para mantener un pulso estable entre 40 y 240 BPM",
+    "Entender que el tempo elegido se conserva al volver a la app"
+  ],
+  "minutes": 15,
+  "prerequisites": [
+    "lesson.m1-08"
+  ],
+  "skillIds": [
+    "skill.tempo"
+  ],
+  "exerciseIds": [
+    "ex.m1-09.a",
+    "ex.m1-09.b",
+    "ex.m1-09.c",
+    "ex.m1-09.d",
+    "ex.m1-09.e",
+    "ex.m1-09.f"
+  ],
+  "sections": [
+    {
+      "id": "sec.m1-09.tempo",
+      "kind": "text",
+      "titleEs": "Qué es el tempo",
+      "bodyEs": "El tempo es la velocidad a la que se siente el pulso de la música. No es lo mismo que el ritmo: el ritmo dice cuándo suenan las notas y el tempo dice a qué velocidad pasa cada pulso. Se mide en BPM (beats per minute, pulsos por minuto): a 60 BPM hay un pulso por segundo, a 120 BPM hay dos y a 40 BPM hay uno cada segundo y medio. El control de tempo de la app va de 40 a 240 BPM, el rango habitual para estudiar y tocar. Cambiar el tempo no cambia las figuras escritas: una negra sigue siendo una negra, solo dura más o menos tiempo.",
+      "titleEn": "What tempo is",
+      "bodyEn": "Tempo is the speed at which you feel the pulse of music. It is not the same as rhythm: rhythm tells you when notes sound and tempo tells you how fast each pulse passes. It is measured in BPM (beats per minute): at 60 BPM there is one pulse per second, at 120 BPM there are two, and at 40 BPM there is one every second and a half. The app tempo control goes from 40 to 240 BPM, the usual range for studying and playing. Changing the tempo does not change the written note values: a quarter note is still a quarter note, it just lasts more or less time."
+    },
+    {
+      "id": "sec.m1-09.terms",
+      "kind": "text",
+      "titleEs": "Los términos italianos de tempo",
+      "bodyEs": "Además de los BPM, la música usa palabras italianas para indicar el carácter del tempo. De más lento a más rápido: grave (40-44 BPM), largo (45-50), lento (51-55), adagio (56-65), andante (66-75), moderato (76-107), allegretto (108-119), allegro (120-155), vivace (156-175), presto (176-199) y prestissimo (200-240). Los rangos son orientativos y se superponen un poco según la época y el intérprete. Un mismo término puede indicar además un carácter: adagio sugiere calma y allegro sugiere alegría y movimiento.",
+      "titleEn": "Italian tempo terms",
+      "bodyEn": "Besides BPM, music uses Italian words to show the character of the tempo. From slowest to fastest: grave (40-44 BPM), largo (45-50), lento (51-55), adagio (56-65), andante (66-75), moderato (76-107), allegretto (108-119), allegro (120-155), vivace (156-175), presto (176-199) and prestissimo (200-240). The ranges are approximate and overlap a little depending on the period and the performer. The same term can also suggest a character: adagio suggests calm and allegro suggests joy and movement."
+    },
+    {
+      "id": "sec.m1-09.changes",
+      "kind": "text",
+      "titleEs": "Cambios de tempo",
+      "bodyEs": "El tempo no siempre se mantiene igual. Ritardando (rit.) indica que hay que frenar gradualmente; accelerando (accel.) indica que hay que acelerar; a tempo indica volver al tempo anterior después de un cambio; rubato permite estirar y comprimir el tiempo con flexibilidad expresiva. Estos cambios se escriben sobre el pentagrama y afectan la duración real de las notas, no su figura. Para estudiarlos conviene primero practicar sin cambios y después incorporarlos de a poco.",
+      "titleEn": "Tempo changes",
+      "bodyEn": "Tempo does not always stay the same. Ritardando (rit.) means to slow down gradually; accelerando (accel.) means to speed up; a tempo means to return to the previous tempo after a change; rubato lets you stretch and compress time with expressive flexibility. These changes are written above the staff and affect the actual duration of the notes, not their written value. To study them, first practice without changes and then add them little by little."
+    },
+    {
+      "id": "sec.m1-09.andante",
+      "kind": "score",
+      "titleEs": "La misma melodía en andante",
+      "bodyEs": "Esta melodía de ocho negras está a 72 BPM, dentro del rango de andante. Contá «1-2-3-4» en cada compás y sentí un paso tranquilo, sin apurarte. Las notas son las mismas que en el ejemplo siguiente; solo cambia la velocidad.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 72,
+        "events": [
+          {
+            "id": "score.m1-09.andante.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.andante.d4",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.andante.e4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.andante.f4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.andante.g4",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.andante.f4-second",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.andante.e4-second",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.andante.d4-second",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      },
+      "titleEn": "The same melody at andante",
+      "bodyEn": "This melody of eight quarter notes is at 72 BPM, inside the andante range. Count “1-2-3-4” in each measure and feel a calm step, without rushing. The notes are the same as in the next example; only the speed changes."
+    },
+    {
+      "id": "sec.m1-09.allegro",
+      "kind": "score",
+      "titleEs": "La misma melodía en allegro",
+      "bodyEs": "Ahora la misma melodía está a 132 BPM, dentro del rango de allegro. Las figuras y las notas no cambiaron: solo el pulso pasa más rápido. Compará con el ejemplo anterior y notá que la sensación cambia por completo aunque la partitura sea la misma.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        },
+        "tempoBpm": 132,
+        "events": [
+          {
+            "id": "score.m1-09.allegro.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.allegro.d4",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.allegro.e4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.allegro.f4",
+            "measure": 1,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.allegro.g4",
+            "measure": 2,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "G",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 85,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.allegro.f4-second",
+            "measure": 2,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "F",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.allegro.e4-second",
+            "measure": 2,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-09.allegro.d4-second",
+            "measure": 2,
+            "beat": 3,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      },
+      "titleEn": "The same melody at allegro",
+      "bodyEn": "Now the same melody is at 132 BPM, inside the allegro range. The note values and the notes have not changed: only the pulse goes faster. Compare it with the previous example and notice that the feeling changes completely even though the score is the same."
+    },
+    {
+      "id": "sec.m1-09.metronome",
+      "kind": "audio",
+      "titleEs": "El metrónomo y la estabilidad",
+      "bodyEs": "El metrónomo marca cada pulso con un clic y, si está configurado en 4/4, acentúa el primero de cada compás. Sirve para comprobar si mantenés el tempo o si te apurás y te frenás sin darte cuenta. Empezá a 60 BPM con acentos en 1 y 3, contá «1-2-3-4» y tocá una nota por pulso durante 16 pulsos. Si terminás junto con el metrónomo, el tempo fue estable; si te adelantaste o atrasaste, bajá a 50 BPM y repetí. La estabilidad se entrena primero lento: es más valioso tocar ocho pulsos parejos a 60 BPM que muchos pulsos desparejos a 120.",
+      "titleEn": "The metronome and steadiness",
+      "bodyEn": "The metronome marks each pulse with a click and, if set to 4/4, accents the first beat of each measure. It helps you check whether you keep the tempo or speed up and slow down without noticing. Start at 60 BPM with accents on 1 and 3, count “1-2-3-4” and play one note per pulse for 16 pulses. If you finish together with the metronome, the tempo was steady; if you got ahead or behind, drop to 50 BPM and repeat. Steadiness is trained slowly first: playing eight even pulses at 60 BPM is more valuable than many uneven pulses at 120."
+    },
+    {
+      "id": "sec.m1-09.control",
+      "kind": "callout",
+      "titleEs": "El control de tempo es persistente",
+      "bodyEs": "El tempo que elegís en los ajustes se guarda en el navegador y se recupera la próxima vez que abrís la app. El control acepta valores enteros entre 40 y 240 BPM: si escribís un número menor, se ajusta a 40; si escribís uno mayor, se ajusta a 240. Esa persistencia evita configurar el metrónomo desde cero en cada sesión y permite comparar el mismo ejercicio a distintos tempos. El volumen también se guarda junto con el tempo.",
+      "titleEn": "The tempo control persists",
+      "bodyEn": "The tempo you choose in settings is saved in the browser and restored the next time you open the app. The control accepts whole numbers between 40 and 240 BPM: if you type a lower number it adjusts to 40; if you type a higher one it adjusts to 240. That persistence saves you from setting the metronome from scratch every session and lets you compare the same exercise at different tempos. Volume is saved together with the tempo."
+    },
+    {
+      "id": "sec.m1-09.exercises",
+      "kind": "exercise",
+      "titleEs": "Reconocer términos y practicar la estabilidad",
+      "bodyEs": "Los primeros ejercicios piden asociar un BPM con su término de tempo. Los últimos son ejercicios de estabilidad: elegí un tempo, marcá los pulsos con el metrónomo y mantené la duración indicada dentro de la tolerancia. Antes de responder, recordá que el rango completo va de 40 a 240 BPM y que los términos son orientativos.",
+      "titleEn": "Recognize terms and practice steadiness",
+      "bodyEn": "The first exercises ask you to match a BPM with its tempo term. The last ones are steadiness exercises: choose a tempo, mark the pulses with the metronome and keep the indicated duration within the tolerance. Before answering, remember that the full range goes from 40 to 240 BPM and that the terms are approximate."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Dieciséis pulsos estables a 60 BPM",
+    "instructionsEs": "Configurá el metrónomo en 4/4 a 60 BPM con acentos en 1 y 3. Tocá Do4 una vez por pulso durante 16 pulsos (cuatro compases), sin apurarte ni frenarte. Contá «1-2-3-4» en voz alta y escuchá el clic: si te adelantás, no corras; si te atrasás, no recuperes de golpe. Repetí el ejercicio a 80 BPM y después a 120 BPM manteniendo la misma estabilidad. Al terminar, volvé a 60 BPM y comprobá que el tempo elegido sigue guardado.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      }
+    ],
+    "fingeringEs": "Pulgar derecho (dedo 1) sobre Do4 en todo el ejercicio",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Toqué 16 pulsos seguidos sin perder el clic",
+      "Mantuve el mismo tempo al pasar de 60 a 80 y a 120 BPM",
+      "Conté «1-2-3-4» sin acelerar el final del compás",
+      "El tempo elegido siguió guardado al volver a la app"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 4,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m1-09.c4-m1-b1",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m1-b2",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m1-b3",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 90,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m1-b4",
+          "measure": 1,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m2-b1",
+          "measure": 2,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m2-b2",
+          "measure": 2,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m2-b3",
+          "measure": 2,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 90,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m2-b4",
+          "measure": 2,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m3-b1",
+          "measure": 3,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m3-b2",
+          "measure": 3,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m3-b3",
+          "measure": 3,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 90,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m3-b4",
+          "measure": 3,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m4-b1",
+          "measure": 4,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m4-b2",
+          "measure": 4,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m4-b3",
+          "measure": 4,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 90,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-09.c4-m4-b4",
+          "measure": 4,
+          "beat": 3,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        }
+      ]
+    },
+    "titleEn": "Sixteen steady pulses at 60 BPM",
+    "instructionsEn": "Set the metronome to 4/4 at 60 BPM with accents on 1 and 3. Play C4 once per pulse for 16 pulses (four measures), without rushing or dragging. Count “1-2-3-4” out loud and listen to the click: if you get ahead, do not run; if you fall behind, do not catch up all at once. Repeat the exercise at 80 BPM and then at 120 BPM while keeping the same steadiness. When you finish, go back to 60 BPM and check that the chosen tempo is still saved.",
+    "fingeringEn": "Right thumb (finger 1) on C4 throughout the exercise",
+    "checklistEn": [
+      "I played 16 pulses in a row without losing the click",
+      "I kept the same tempo when moving from 60 to 80 and to 120 BPM",
+      "I counted “1-2-3-4” without speeding up at the end of the measure",
+      "The chosen tempo was still saved when I returned to the app"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published",
+  "summaryEn": "Tempo is the speed of music and is measured in BPM; Italian terms describe it and the metronome helps you keep it steady.",
+  "objectivesEn": [
+    "Relate tempo terms to BPM ranges",
+    "Use the metronome to keep a steady pulse between 40 and 240 BPM",
+    "Understand that the chosen tempo is kept when you return to the app"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ex.m1-04.g",
+  "skillId": "skill.note-durations",
+  "type": "rhythm-completion",
+  "promptEs": "En 2/4 el compás empieza con una negra. ¿Qué figura falta para completar los dos tiempos?",
+  "promptEn": "In 2/4 the measure starts with a quarter note. Which note value is missing to complete the two beats?",
+  "explanationEs": "En 2/4 entran dos negras. Si ya hay una negra, falta otra negra para completar el compás.",
+  "explanationEn": "In 2/4 there are two quarter notes. If there is already one quarter note, another quarter note is missing to complete the measure.",
+  "difficulty": 1,
+  "timeSignature": { "numerator": 2, "denominator": 4 },
+  "pattern": [
+    { "duration": "quarter", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "quarter", "dots": 0, "tuplet": "none", "rest": false }
+  ],
+  "missingIndex": 1,
+  "choices": ["Redonda", "Blanca", "Negra", "Corchea"],
+  "choicesEn": ["Whole note", "Half note", "Quarter note", "Eighth note"]
+}

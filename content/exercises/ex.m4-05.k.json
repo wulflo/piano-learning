@@ -1,0 +1,14 @@
+{
+  "id": "ex.m4-05.k",
+  "skillId": "skill.chord-extension",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Fa♯9 (novena de dominante) de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of an F#9 (dominant ninth) from low to high, separated by spaces.",
+  "explanationEs": "Fa♯9 es 1-3-5-♭7-9: Fa♯, La♯, Do♯, Mi y Sol♯. La tercera La♯ es mayor, la quinta Do♯ justa, la séptima Mi menor y la novena Sol♯, 14 semitonos arriba de Fa♯. En la práctica se omite Do♯.",
+  "explanationEn": "F#9 is 1-3-5-♭7-9: F#, A#, C#, E and G#. The third A# is major, the fifth C# perfect, the seventh E minor and the ninth G#, 14 semitones above F#. In practice C# is omitted.",
+  "difficulty": 3,
+  "root": { "step": "F", "accidental": "#", "octave": 4 },
+  "quality": "dominant9",
+  "inversion": 0,
+  "ask": "notes"
+}

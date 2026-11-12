@@ -1,0 +1,19 @@
+{
+  "id": "ex.m1-04.a",
+  "skillId": "skill.note-durations",
+  "type": "rhythm-completion",
+  "promptEs": "En 4/4 ya están escritas dos negras al final del compás. ¿Qué figura falta al principio para completar los cuatro tiempos?",
+  "promptEn": "In 4/4, two quarter notes are already written at the end of the measure. Which note value is missing at the beginning to complete the four beats?",
+  "explanationEs": "Las dos negras suman dos tiempos. Para llegar a cuatro faltan otros dos, que corresponden a una blanca.",
+  "explanationEn": "The two quarter notes add up to two beats. To reach four you need two more, which correspond to a half note.",
+  "difficulty": 1,
+  "timeSignature": { "numerator": 4, "denominator": 4 },
+  "pattern": [
+    { "duration": "half", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "quarter", "dots": 0, "tuplet": "none", "rest": false },
+    { "duration": "quarter", "dots": 0, "tuplet": "none", "rest": false }
+  ],
+  "missingIndex": 0,
+  "choices": ["Redonda", "Blanca", "Negra", "Corchea"],
+  "choicesEn": ["Whole note", "Half note", "Quarter note", "Eighth note"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ex.m2-09.a",
+  "skillId": "skill.major-scale",
+  "type": "scale-spelling",
+  "promptEs": "¿Cómo se deletrea la escala pentatónica mayor de Do?",
+  "promptEn": "How do you spell the C major pentatonic scale?",
+  "explanationEs": "La pentatónica mayor de Do se deletrea C D E G A C: las cinco notas que forman el modo.",
+  "explanationEn": "The C major pentatonic is spelled C D E G A C: the five notes that make up the mode.",
+  "difficulty": 2,
+  "tonic": "C",
+  "mode": "major-pentatonic",
+  "choices": [
+    "C D E G A C",
+    "C D E G A B C"
+  ],
+  "choicesEn": [
+    "C D E G A C",
+    "C D E G A B C"
+  ]
+}

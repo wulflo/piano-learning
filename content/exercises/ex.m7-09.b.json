@@ -1,0 +1,124 @@
+{
+  "id": "ex.m7-09.b",
+  "skillId": "skill.sight-reading",
+  "type": "sight-reading",
+  "promptEs": "¿Cómo se mueve la melodía de la primera a la segunda nota?",
+  "promptEn": "How does the melody move from the first to the second note?",
+  "explanationEs": "La primera nota es Sol4 y la segunda es Fa♯4: la melodía baja por grado conjunto. Las notas que quedan en la misma línea o en el mismo espacio se leen como grados conjuntos; cuando se salta una línea o un espacio, hay un salto.",
+  "explanationEn": "The first note is G4 and the second is F#4: the melody moves down by step. Notes that stay on the next line or the next space are read as steps; when a line or space is skipped, there is a leap.",
+  "difficulty": 1,
+  "score": {
+    "clef": "treble",
+    "key": "G",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 60,
+    "events": [
+      {
+        "id": "ex.m7-09.b.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "G",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-09.b.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "#",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-09.b.3",
+        "measure": 1,
+        "beat": 2,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      },
+      {
+        "id": "ex.m7-09.b.4",
+        "measure": 1,
+        "beat": 3,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "F",
+            "accidental": "#",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "voice": 1,
+        "velocity": 72,
+        "tieToNext": false
+      }
+    ],
+    "pedals": []
+  },
+  "ask": "motion",
+  "from": 0,
+  "to": 1,
+  "choices": [
+    "Sube por grado conjunto",
+    "Baja por grado conjunto",
+    "Sube por salto",
+    "Baja por salto",
+    "Repite la nota"
+  ],
+  "choicesEn": [
+    "Moves up by step",
+    "Moves down by step",
+    "Moves up by leap",
+    "Moves down by leap",
+    "Repeats the note"
+  ]
+}

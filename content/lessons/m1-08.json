@@ -1,0 +1,301 @@
+{
+  "id": "lesson.m1-08",
+  "moduleId": "M1",
+  "slug": "sincopa-y-anacrusa",
+  "titleEs": "Síncopa y anacrusa",
+  "titleEn": "Syncopation and anacrusis",
+  "summaryEs": "La síncopa desplaza el acento hacia una parte débil y la anacrusa es un compás incompleto al inicio que se compensa al final.",
+  "summaryEn": "Syncopation shifts the accent onto a weak part, and an anacrusis is an incomplete measure at the start that is balanced at the end.",
+  "objectivesEs": [
+    "Reconocer una síncopa y diferenciarla del contratiempo",
+    "Identificar la anacrusa y entender por qué no se cuenta como compás 1",
+    "Tocar y contar síncopas y anacrusas con el metrónomo acentuado"
+  ],
+  "objectivesEn": [
+    "Recognize syncopation and tell it apart from offbeat notes",
+    "Identify the anacrusis and understand why it is not counted as measure 1",
+    "Play and count syncopations and anacrusis with the accented metronome"
+  ],
+  "minutes": 14,
+  "prerequisites": ["lesson.m1-07"],
+  "skillIds": ["skill.syncopation"],
+  "exerciseIds": [
+    "ex.m1-08.a",
+    "ex.m1-08.b",
+    "ex.m1-08.c",
+    "ex.m1-08.d",
+    "ex.m1-08.e",
+    "ex.m1-08.f"
+  ],
+  "sections": [
+    {
+      "id": "sec.m1-08.syncopation",
+      "kind": "text",
+      "titleEs": "La síncopa desplaza el acento",
+      "titleEn": "Syncopation shifts the accent",
+      "bodyEs": "En un compás, algunos pulsos se sienten más fuertes que otros. La síncopa juega con esa expectativa: una nota empieza en una parte débil y se prolonga sobre un pulso fuerte, o se acentúa una parte que normalmente sería débil. El resultado es que el acento de la melodía no coincide con el acento del compás. Se puede escribir con una nota larga que cruza el pulso o con una ligadura entre dos notas. No es lo mismo que el contratiempo: en el contratiempo las notas caen en las partes débiles, pero no se prolongan sobre las fuertes.",
+      "bodyEn": "In a measure, some beats feel stronger than others. Syncopation plays with that expectation: a note starts on a weak part and extends over a strong beat, or a part that would normally be weak is accented. The result is that the accent of the melody does not line up with the accent of the meter. It can be written with a long note that crosses the beat or with a tie between two notes. It is not the same as offbeat notes: in offbeat playing the notes fall on the weak parts, but they do not extend over the strong ones."
+    },
+    {
+      "id": "sec.m1-08.syncopation-demo",
+      "kind": "score",
+      "titleEs": "Síncopa en 4/4",
+      "titleEn": "Syncopation in 4/4",
+      "bodyEs": "Las notas largas empiezan en la parte débil y se prolongan sobre el pulso fuerte: el acento se desplaza. Marcá los cuatro pulsos con el pie y sentí cómo las notas largas caen entre tus pasos. La primera y la última corchea sostienen el inicio y el final del compás.",
+      "bodyEn": "The long notes start on the weak part and extend over the strong beat: the accent is shifted. Mark the four beats with your foot and feel how the long notes fall between your steps. The first and last eighth notes hold the start and the end of the measure.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-08.sync.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 75,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-08.sync.e4",
+            "measure": 1,
+            "beat": 0.5,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 100,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-08.sync.g4",
+            "measure": 1,
+            "beat": 1.5,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 95,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-08.sync.e4-second",
+            "measure": 1,
+            "beat": 2.5,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 95,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-08.sync.c4-final",
+            "measure": 1,
+            "beat": 3.5,
+            "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 75,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-08.anacrusis",
+      "kind": "text",
+      "titleEs": "La anacrusa es un comienzo incompleto",
+      "titleEn": "The anacrusis is an incomplete beginning",
+      "bodyEs": "La anacrusa es un compás incompleto al principio de una obra o de una frase. También se llama pickup. No se cuenta como compás 1: el primer compás completo es el siguiente. Al final, el último compás se completa con la anacrusa para que la suma de los dos dé un compás entero. Si la anacrusa dura un tiempo en 4/4, el último compás durará tres. Muchas canciones populares empiezan así; probá cantar «y... uno, dos, tres, cuatro» y sentí que la primera sílaba queda antes del primer pulso fuerte.",
+      "bodyEn": "The anacrusis is an incomplete measure at the beginning of a piece or a phrase. It is also called a pickup. It is not counted as measure 1: the first complete measure is the next one. At the end, the last measure is completed with the anacrusis so that the two add up to a whole measure. If the anacrusis lasts one beat in 4/4, the last measure will last three. Many popular songs start this way; try singing “and... one, two, three, four” and feel that the first syllable comes before the first strong beat."
+    },
+    {
+      "id": "sec.m1-08.anacrusis-demo",
+      "kind": "score",
+      "titleEs": "Anacrusa en 4/4",
+      "titleEn": "Anacrusis in 4/4",
+      "bodyEs": "Esquema de tres compases: la anacrusa de un tiempo, el primer compás completo y el compás final que la compensa. La anacrusa no se cuenta como compás 1; el compás completo es el 2. Al final, un tiempo de anacrusa más tres tiempos de compás final suman los cuatro tiempos del compás.",
+      "bodyEn": "A sketch of three measures: the one-beat anacrusis, the first complete measure and the final measure that balances it. The anacrusis is not counted as measure 1; the complete measure is measure 2. At the end, one beat of anacrusis plus three beats of the final measure add up to the four beats of the measure.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": { "numerator": 4, "denominator": 4 },
+        "tempoBpm": 80,
+        "events": [
+          {
+            "id": "score.m1-08.anacrusis.g4",
+            "measure": 1,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-08.anacrusis.c4",
+            "measure": 2,
+            "beat": 0,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 100,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-08.anacrusis.e4",
+            "measure": 2,
+            "beat": 1,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "E", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-08.anacrusis.g4-second",
+            "measure": 2,
+            "beat": 2,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "G", "accidental": "", "octave": 4 }],
+            "hand": "right",
+            "velocity": 95,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-08.anacrusis.c5",
+            "measure": 2,
+            "beat": 3,
+            "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 5 }],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m1-08.anacrusis.c5-final",
+            "measure": 3,
+            "beat": 0,
+            "value": { "duration": "half", "dots": 1, "tuplet": "none" },
+            "pitches": [{ "step": "C", "accidental": "", "octave": 5 }],
+            "hand": "right",
+            "velocity": 90,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m1-08.not-the-same",
+      "kind": "callout",
+      "titleEs": "Síncopa, contratiempo y anacrusa no son lo mismo",
+      "titleEn": "Syncopation, offbeat notes and anacrusis are not the same",
+      "bodyEs": "Síncopa: una nota empieza en una parte débil y se prolonga sobre el pulso fuerte, o se acentúa una parte débil. Contratiempo: las notas caen en las partes débiles y el pulso fuerte queda vacío o con silencio; no hay prolongación. Anacrusa: compás incompleto al inicio de una frase u obra, que no se cuenta como compás 1 y se compensa al final. Las tres cosas se relacionan con el acento, pero cada una hace algo distinto.",
+      "bodyEn": "Syncopation: a note starts on a weak part and extends over the strong beat, or a weak part is accented. Offbeat: the notes fall on the weak parts and the strong beat is left empty or silent; there is no extension. Anacrusis: an incomplete measure at the start of a phrase or piece, which is not counted as measure 1 and is balanced at the end. All three relate to accent, but each one does something different."
+    },
+    {
+      "id": "sec.m1-08.metronome",
+      "kind": "audio",
+      "titleEs": "Practicar con metrónomo acentuado",
+      "titleEn": "Practicing with the accented metronome",
+      "bodyEs": "Poné el metrónomo en 4/4 a 80 BPM con acentos en 1 y 3. Marcá los pulsos con el pie y contá «1-2-3-4». Primero tocá solo los pulsos; después tocá la síncopa dejando que las notas largas caigan entre tus pasos. Para la anacrusa, contá un tiempo antes del primer compás completo y no lo cuentes como compás 1. Si te perdés, volvé a los pulsos y bajá el tempo.",
+      "bodyEn": "Set the metronome to 4/4 at 80 BPM with accents on 1 and 3. Mark the beats with your foot and count “1-2-3-4”. First play only the beats; then play the syncopation and let the long notes fall between your steps. For the anacrusis, count one beat before the first complete measure and don't count it as measure 1. If you get lost, go back to the beats and lower the tempo."
+    },
+    {
+      "id": "sec.m1-08.exercises",
+      "kind": "exercise",
+      "titleEs": "Identificar y completar síncopas y anacrusas",
+      "titleEn": "Identifying and completing syncopations and anacrusis",
+      "bodyEs": "Los ejercicios piden reconocer un patrón con síncopa, completar compases con notas sincopadas y calcular cuánto debe durar el compás final después de una anacrusa. Antes de responder, contá los pulsos y verificá la capacidad total del compás.",
+      "bodyEn": "The exercises ask you to recognize a syncopated pattern, complete measures with syncopated notes and calculate how long the final measure should last after an anacrusis. Before answering, count the beats and check the total capacity of the measure."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Síncopa y anacrusa con metrónomo",
+    "titleEn": "Syncopation and anacrusis with the metronome",
+    "instructionsEs": "Configurá el metrónomo en 4/4 a 80 BPM con acentos en 1 y 3. Tocá Do4 con esta secuencia de síncopa: una corchea en el pulso 1, una negra en la parte débil que se prolonga sobre el pulso 2, otra negra en la parte débil del pulso 2, otra negra en la parte débil del pulso 3 y una corchea al final. Después empezá con una anacrusa de un tiempo (una negra) y sentí cómo el primer pulso fuerte cae en el compás siguiente. Contá «1-2-3-4» y no desplaces el pulso.",
+    "instructionsEn": "Set the metronome to 4/4 at 80 BPM with accents on 1 and 3. Play C4 with this syncopation sequence: an eighth note on beat 1, a quarter note on the weak part that extends over beat 2, another quarter note on the weak part of beat 2, another quarter note on the weak part of beat 3 and an eighth note at the end. Then start with a one-beat anacrusis (a quarter note) and feel how the first strong beat falls in the next measure. Count “1-2-3-4” and don't shift the beat.",
+    "keys": [
+      { "step": "C", "accidental": "", "octave": 4 }
+    ],
+    "fingeringEs": "Pulgar derecho (dedo 1) sobre Do4 en todo el ejercicio",
+    "fingeringEn": "Right thumb (finger 1) on C4 throughout the exercise",
+    "tempoBpm": 80,
+    "checklistEs": [
+      "Toqué las notas largas entre los pulsos, no sobre ellos",
+      "Mantuve el metrónomo con acentos en 1 y 3",
+      "Empecé la anacrusa sin contar el primer compás como completo",
+      "El compás final completó los tiempos de la anacrusa"
+    ],
+    "checklistEn": [
+      "I played the long notes between the beats, not on them",
+      "I kept the metronome accented on 1 and 3",
+      "I started the anacrusis without counting the first measure as complete",
+      "The final measure completed the beats of the anacrusis"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": { "numerator": 4, "denominator": 4 },
+      "tempoBpm": 80,
+      "events": [
+        {
+          "id": "task.m1-08.c4-first",
+          "measure": 1,
+          "beat": 0,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-08.c4-sync-1",
+          "measure": 1,
+          "beat": 0.5,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 100,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-08.c4-sync-2",
+          "measure": 1,
+          "beat": 1.5,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 95,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-08.c4-sync-3",
+          "measure": 1,
+          "beat": 2.5,
+          "value": { "duration": "quarter", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 95,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m1-08.c4-last",
+          "measure": 1,
+          "beat": 3.5,
+          "value": { "duration": "eighth", "dots": 0, "tuplet": "none" },
+          "pitches": [{ "step": "C", "accidental": "", "octave": 4 }],
+          "hand": "right",
+          "velocity": 75,
+          "tieToNext": false
+        }
+      ]
+    }
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

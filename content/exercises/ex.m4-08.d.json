@@ -1,0 +1,33 @@
+{
+  "id": "ex.m4-08.d",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "¿Qué intervalo hay entre La4 y Fa5?",
+  "promptEn": "What interval is there between A4 and F5?",
+  "explanationEs": "De La a Fa hay seis letras y ocho semitonos: una sexta menor. Es menor porque la sexta justa tiene siete semitonos y falta uno.",
+  "explanationEn": "From A to F there are six letters and eight semitones: a minor sixth. It is minor because a perfect sixth has seven semitones and one is missing.",
+  "difficulty": 3,
+  "lower": {
+    "step": "A",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "F",
+    "accidental": "",
+    "octave": 5
+  },
+  "direction": "harmonic",
+  "choices": [
+    "Sexta menor",
+    "Sexta mayor",
+    "Séptima menor",
+    "Quinta aumentada"
+  ],
+  "choicesEn": [
+    "Minor sixth",
+    "Major sixth",
+    "Minor seventh",
+    "Augmented fifth"
+  ]
+}

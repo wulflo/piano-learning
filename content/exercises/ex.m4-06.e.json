@@ -1,0 +1,17 @@
+{
+  "id": "ex.m4-06.e",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "El acorde suena La, Do y Fa, de grave a agudo. ¿Qué slash chord es?",
+  "promptEn": "The chord sounds A, C and F, from low to high. Which slash chord is it?",
+  "explanationEs": "Es Fa/La: Fa mayor con La en el bajo. Las notas son La-Do-Fa; La es la tercera del acorde, así que es la primera inversión. En cifrado americano se escribe F/A.",
+  "explanationEn": "It is F/A: F major with A in the bass. The notes are A-C-F; A is the chord's third, so it is the first inversion. In American notation it is written F/A.",
+  "difficulty": 2,
+  "root": { "step": "F", "accidental": "", "octave": 4 },
+  "quality": "major",
+  "slash": { "step": "A", "accidental": "", "octave": 3 },
+  "inversion": 1,
+  "ask": "symbol",
+  "choices": ["Fa/La", "Fa/Do", "Fa/Sol"],
+  "choicesEn": ["F/A", "F/C", "F/G"]
+}

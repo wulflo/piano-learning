@@ -1,0 +1,26 @@
+{
+  "id": "ex.m5-07.f",
+  "skillId": "skill.secondary-dominants",
+  "type": "secondary-dominant",
+  "promptEs": "En Si mayor, ¿en qué grado resuelve V/ii?",
+  "promptEn": "In B major, which degree does V/ii resolve to?",
+  "explanationEs": "En Si mayor, V/ii es Sol♯7 y resuelve en Do♯m (ii). Su tercera es la sensible de Do♯m y sube un semitono al resolver.",
+  "explanationEn": "In B major, V/ii is G♯7 and it resolves to C♯m (ii). Its third is the leading tone of C♯m and rises a semitone when it resolves.",
+  "difficulty": 3,
+  "key": "B",
+  "mode": "major",
+  "target": 2,
+  "ask": "resolution",
+  "choices": [
+    "V",
+    "ii",
+    "vi",
+    "IV"
+  ],
+  "choicesEn": [
+    "V",
+    "ii",
+    "vi",
+    "IV"
+  ]
+}

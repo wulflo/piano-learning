@@ -1,0 +1,15 @@
+{
+  "id": "ex.m4-06.h",
+  "skillId": "skill.chord-slash",
+  "type": "chord",
+  "promptEs": "Escribí las notas de un Lam/Sol de grave a agudo, separadas por espacios.",
+  "promptEn": "Write the notes of an Am/G from low to high, separated by spaces.",
+  "explanationEs": "Lam/Sol es La menor con Sol en el bajo: Sol-La-Do-Mi. Sol no pertenece a la tríada La-Do-Mi, pero es la séptima de La m7, así que el acorde suena como La m7 con la séptima en el bajo. En cifrado americano se escribe Am/G.",
+  "explanationEn": "Am/G is A minor with G in the bass: G-A-C-E. G is not part of the A-C-E triad, but it is the seventh of Am7, so the chord sounds like Am7 with the seventh in the bass. In American notation it is written Am/G.",
+  "difficulty": 4,
+  "root": { "step": "A", "accidental": "", "octave": 4 },
+  "quality": "minor",
+  "slash": { "step": "G", "accidental": "", "octave": 3 },
+  "inversion": 0,
+  "ask": "notes"
+}

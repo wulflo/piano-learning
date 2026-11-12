@@ -1,0 +1,15 @@
+{
+  "id": "ex.m3-02.g",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "La quinta disminuida Fa♯4-Do5 se invierte subiendo Fa♯ una octava. ¿Cómo se llama el intervalo Do5-Fa♯5?",
+  "promptEn": "The diminished fifth F♯4-C5 is inverted by raising F♯ an octave. What is the interval C5-F♯5 called?",
+  "explanationEs": "Do5-Fa♯5 es una cuarta aumentada: 5 + 4 = 9 y la calidad disminuida se convierte en aumentada. La ortografía conserva Fa♯ y Do.",
+  "explanationEn": "C5-F♯5 is an augmented fourth: 5 + 4 = 9 and the diminished quality becomes augmented. The spelling keeps F♯ and C.",
+  "difficulty": 3,
+  "lower": { "step": "C", "accidental": "", "octave": 5 },
+  "upper": { "step": "F", "accidental": "#", "octave": 5 },
+  "direction": "melodic",
+  "choices": ["Cuarta aumentada", "Cuarta justa", "Quinta disminuida", "Quinta justa"],
+  "choicesEn": ["Augmented fourth", "Perfect fourth", "Diminished fifth", "Perfect fifth"]
+}

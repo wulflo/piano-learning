@@ -1,0 +1,47 @@
+{
+  "id": "ex.m1-06.c",
+  "skillId": "skill.compound-meter",
+  "type": "rhythm-completion",
+  "promptEs": "En 9/8 ya hay dos negras con puntillo. ¿Qué figura completa el compás?",
+  "explanationEs": "En 9/8 entran tres negras con puntillo, una por cada grupo de tres corcheas. Si ya hay dos, falta la tercera negra con puntillo.",
+  "difficulty": 2,
+  "timeSignature": {
+    "numerator": 9,
+    "denominator": 8
+  },
+  "pattern": [
+    {
+      "duration": "quarter",
+      "dots": 1,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 1,
+      "tuplet": "none",
+      "rest": false
+    },
+    {
+      "duration": "quarter",
+      "dots": 1,
+      "tuplet": "none",
+      "rest": false
+    }
+  ],
+  "missingIndex": 2,
+  "choices": [
+    "Negra con puntillo",
+    "Blanca con puntillo",
+    "Negra",
+    "Corchea"
+  ],
+  "promptEn": "In 9/8 there are already two dotted quarter notes. Which note value completes the measure?",
+  "explanationEn": "Three dotted quarter notes fit in 9/8, one for each group of three eighth notes. If there are already two, the third dotted quarter note is missing.",
+  "choicesEn": [
+    "Dotted quarter note",
+    "Dotted half note",
+    "Quarter note",
+    "Eighth note"
+  ]
+}

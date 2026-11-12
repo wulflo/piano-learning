@@ -1,0 +1,24 @@
+{
+  "id": "ex.m1-09.a",
+  "skillId": "skill.tempo",
+  "type": "tempo-term",
+  "promptEs": "¿Qué término de tempo corresponde a 60 BPM?",
+  "explanationEs": "A 60 BPM el tempo es adagio (56-65 BPM): tranquilo y algo más lento que andante.",
+  "difficulty": 1,
+  "term": "adagio",
+  "bpm": 60,
+  "choices": [
+    "Adagio",
+    "Andante",
+    "Allegro",
+    "Presto"
+  ],
+  "promptEn": "Which tempo term corresponds to 60 BPM?",
+  "explanationEn": "At 60 BPM the tempo is adagio (56-65 BPM): calm and a little slower than andante.",
+  "choicesEn": [
+    "Adagio",
+    "Andante",
+    "Allegro",
+    "Presto"
+  ]
+}

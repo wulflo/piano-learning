@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "instrument": "salamander-grand-piano",
+  "license": "CC-BY-3.0",
+  "sourceUrl": "https://example.com/",
+  "expectedSamples": 1,
+  "samples": []
+}

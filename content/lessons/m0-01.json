@@ -1,0 +1,263 @@
+{
+  "id": "lesson.m0-01",
+  "moduleId": "M0",
+  "slug": "teclado-grupos-de-negras",
+  "titleEs": "El teclado: grupos de dos y tres negras",
+  "titleEn": "The keyboard: groups of two and three black keys",
+  "summaryEs": "Ubicá el Do central sin contar tecla por tecla: alcanza con reconocer el patrón de dos y tres teclas negras.",
+  "summaryEn": "Find middle C without counting key by key: all it takes is recognizing the pattern of two and three black keys.",
+  "objectivesEs": [
+    "Distinguir grupos de dos y de tres teclas negras",
+    "Encontrar cualquier Do a partir del grupo de dos negras",
+    "Tocar el Do central con la mano derecha y la izquierda"
+  ],
+  "objectivesEn": [
+    "Tell apart groups of two and three black keys",
+    "Find any C from the group of two black keys",
+    "Play middle C with the right hand and the left hand"
+  ],
+  "minutes": 8,
+  "prerequisites": [],
+  "skillIds": [
+    "skill.keyboard-groups",
+    "skill.note-names"
+  ],
+  "exerciseIds": [
+    "ex.m0-01.a",
+    "ex.m0-01.b",
+    "ex.m0-01.c"
+  ],
+  "sections": [
+    {
+      "id": "sec.m0-01.intro",
+      "kind": "text",
+      "titleEs": "Un mapa que se repite",
+      "titleEn": "A map that repeats",
+      "bodyEs": "El teclado repite el mismo dibujo: dos teclas negras, tres teclas negras, dos, tres. Ese patrón te permite orientarte sin memorizar cada tecla. La tecla blanca que está justo a la izquierda del grupo de dos negras es Do.",
+      "bodyEn": "The keyboard repeats the same drawing: two black keys, three black keys, two, three. That pattern lets you get your bearings without memorizing every key. The white key just to the left of the group of two black keys is C."
+    },
+    {
+      "id": "sec.m0-01.demo",
+      "kind": "keyboard",
+      "titleEs": "Escuchá y mirá",
+      "titleEn": "Listen and watch",
+      "bodyEs": "Tocá las teclas resaltadas. Fijate que el Do aparece siempre en el mismo lugar del patrón, en cualquier octava.",
+      "bodyEn": "Play the highlighted keys. Notice that C always appears in the same spot in the pattern, in any octave.",
+      "keys": [
+        {
+          "step": "C",
+          "accidental": "",
+          "octave": 4
+        },
+        {
+          "step": "D",
+          "accidental": "",
+          "octave": 4
+        },
+        {
+          "step": "E",
+          "accidental": "",
+          "octave": 4
+        }
+      ]
+    },
+    {
+      "id": "sec.m0-01.score",
+      "kind": "score",
+      "titleEs": "El mismo patrón en el pentagrama",
+      "titleEn": "The same pattern on the staff",
+      "bodyEs": "Las tres notas del ejemplo también se escriben en el pentagrama: Do, Re y Mi ocupan líneas y espacios distintos. Escuchá la demo y seguí cada nota con el dedo mientras suena.",
+      "bodyEn": "The three notes in the example are also written on the staff: C, D and E sit on different lines and spaces. Listen to the demo and follow each note with your finger as it sounds.",
+      "score": {
+        "clef": "treble",
+        "key": "C",
+        "mode": "major",
+        "timeSignature": {
+          "numerator": 3,
+          "denominator": 4
+        },
+        "tempoBpm": 60,
+        "events": [
+          {
+            "id": "score.m0-01.c4",
+            "measure": 1,
+            "beat": 0,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "C",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m0-01.d4",
+            "measure": 1,
+            "beat": 1,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "D",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          },
+          {
+            "id": "score.m0-01.e4",
+            "measure": 1,
+            "beat": 2,
+            "value": {
+              "duration": "quarter",
+              "dots": 0,
+              "tuplet": "none"
+            },
+            "pitches": [
+              {
+                "step": "E",
+                "accidental": "",
+                "octave": 4
+              }
+            ],
+            "hand": "right",
+            "velocity": 80,
+            "tieToNext": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec.m0-01.callout",
+      "kind": "callout",
+      "titleEs": "Regla para ubicarte",
+      "titleEn": "A rule to get your bearings",
+      "bodyEs": "Buscá el grupo de dos teclas negras. La blanca inmediatamente a su izquierda es Do. Desde ahí, las blancas hacia la derecha son Re, Mi, Fa, Sol, La y Si. El grupo de tres negras te confirma el mismo mapa: la blanca a su izquierda es Fa.",
+      "bodyEn": "Look for the group of two black keys. The white key immediately to its left is C. From there, the white keys to the right are D, E, F, G, A and B. The group of three black keys confirms the same map: the white key to its left is F."
+    }
+  ],
+  "keyboardTask": {
+    "titleEs": "Encontrá tres Do",
+    "titleEn": "Find three Cs",
+    "instructionsEs": "Con la mano derecha, tocá el Do central y después los dos Do siguientes hacia la derecha. Repetí lento, sin mirar el teclado, usando el grupo de dos negras como referencia.",
+    "instructionsEn": "With your right hand, play middle C and then the next two Cs to the right. Repeat slowly, without looking at the keyboard, using the group of two black keys as a reference.",
+    "keys": [
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 4
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 5
+      },
+      {
+        "step": "C",
+        "accidental": "",
+        "octave": 6
+      }
+    ],
+    "fingeringEs": "1 - 1 - 1 (pulgar) en cada Do; muñeca relajada y pulgar curvo",
+    "fingeringEn": "1 - 1 - 1 (thumb) on each C; relaxed wrist and curved thumb",
+    "tempoBpm": 60,
+    "checklistEs": [
+      "Encontré el Do por el patrón, no contando teclas",
+      "Mantuve la muñeca relajada y el pulgar curvo",
+      "Toqué las tres notas con un sonido parejo"
+    ],
+    "demoScore": {
+      "clef": "treble",
+      "key": "C",
+      "mode": "major",
+      "timeSignature": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "tempoBpm": 60,
+      "events": [
+        {
+          "id": "task.m0-01.c4",
+          "measure": 1,
+          "beat": 0,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 4
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-01.c5",
+          "measure": 1,
+          "beat": 1,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 5
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        },
+        {
+          "id": "task.m0-01.c6",
+          "measure": 1,
+          "beat": 2,
+          "value": {
+            "duration": "quarter",
+            "dots": 0,
+            "tuplet": "none"
+          },
+          "pitches": [
+            {
+              "step": "C",
+              "accidental": "",
+              "octave": 6
+            }
+          ],
+          "hand": "right",
+          "velocity": 80,
+          "tieToNext": false
+        }
+      ]
+    },
+    "checklistEn": [
+      "I found C through the pattern, not by counting keys",
+      "I kept my wrist relaxed and my thumb curved",
+      "I played the three notes with an even sound"
+    ]
+  },
+  "contentLicense": "cc-by-sa-4.0",
+  "status": "published"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ex.m3-04.l",
+  "skillId": "skill.interval-quality",
+  "type": "interval",
+  "promptEs": "Mirá y escuchá el fragmento en Do mayor. ¿Qué intervalo hay entre la primera nota (Do4) y la última (Mi5)?",
+  "promptEn": "Look at and listen to the fragment in C major. What interval is there between the first note (C4) and the last note (E5)?",
+  "explanationEs": "De Do4 a Mi5 hay una octava más una tercera mayor: una décima mayor. Es un intervalo compuesto porque supera la octava; suena amplio pero conserva el color de la tercera.",
+  "explanationEn": "From C4 to E5 there is an octave plus a major third: a major tenth. It is a compound interval because it exceeds the octave; it sounds wide but keeps the colour of the third.",
+  "difficulty": 1,
+  "lower": {
+    "step": "C",
+    "accidental": "",
+    "octave": 4
+  },
+  "upper": {
+    "step": "E",
+    "accidental": "",
+    "octave": 5
+  },
+  "direction": "melodic",
+  "fragment": {
+    "clef": "treble",
+    "key": "C",
+    "mode": "major",
+    "timeSignature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempoBpm": 72,
+    "events": [
+      {
+        "id": "frag.m3-04.l.1",
+        "measure": 1,
+        "beat": 0,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "C",
+            "accidental": "",
+            "octave": 4
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      },
+      {
+        "id": "frag.m3-04.l.2",
+        "measure": 1,
+        "beat": 1,
+        "value": {
+          "duration": "quarter",
+          "dots": 0,
+          "tuplet": "none"
+        },
+        "pitches": [
+          {
+            "step": "E",
+            "accidental": "",
+            "octave": 5
+          }
+        ],
+        "hand": "right",
+        "velocity": 80,
+        "tieToNext": false
+      }
+    ]
+  },
+  "choices": [
+    "Décima mayor",
+    "Tercera mayor",
+    "Octava justa",
+    "Novena mayor"
+  ],
+  "choicesEn": [
+    "Major tenth",
+    "Major third",
+    "Perfect octave",
+    "Major ninth"
+  ]
+}
