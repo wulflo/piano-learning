@@ -19,6 +19,10 @@ blob-report/
 # Descarga intermedia de muestras (las versionadas viven en public/audio/samples)
 assets/audio/samples/
 
+# Textos de referencia para la auditoría de originalidad (F6-046/F6-047).
+# Se descargan solo para comparar; nunca se versionan.
+refs/
+
 # Sistema
 .DS_Store
 Thumbs.db

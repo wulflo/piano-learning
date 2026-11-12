@@ -24,6 +24,7 @@
     "audit:audio": "node scripts/verify-audio.mjs",
     "audit:licenses": "tsx scripts/audit-licenses.ts",
     "audit:code": "tsx scripts/audit-code.ts",
+    "audit:text": "node scripts/audit-text-similarity.mjs",
     "audit:reuse": "uvx reuse lint",
     "estado": "node scripts/estado.mjs"
   },
