@@ -13,6 +13,7 @@ import { ProgressPage } from './pages/ProgressPage'
 import { RepertoirePage } from './pages/RepertoirePage'
 import { ReviewPage } from './pages/ReviewPage'
 import { SettingsPage } from './pages/SettingsPage'
+import { SongsPage } from './pages/SongsPage'
 import {
   ATTRIBUTIONS_HASH,
   COURSE_HASH,
@@ -36,6 +37,8 @@ function RouteView({ route }: { route: AppRoute }) {
       return <LessonPage lessonId={route.lessonId} />
     case 'repertoire':
       return <RepertoirePage />
+    case 'songs':
+      return <SongsPage />
     case 'piece':
       return <PiecePage pieceId={route.pieceId} />
     case 'attributions':

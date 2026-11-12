@@ -28,6 +28,7 @@ import {
   type MidiConnection,
   type MidiInputInfo,
   type MidiNoteEvent,
+  type MidiNoteListener,
   type MidiOutputInfo,
   type MidiRawMessage,
 } from './input'
@@ -66,6 +67,11 @@ export interface MidiContextValue {
   retry: () => Promise<void>
   disconnect: () => void
   clearEvents: () => void
+  /**
+   * Recibe cada pulsación además de `events`. El grabador lo usa para no
+   * perder tomas largas cuando `events` alcanza `MAX_MIDI_EVENTS`.
+   */
+  subscribe: (listener: MidiNoteListener) => () => void
 }
 
 const noop = () => undefined
@@ -86,6 +92,7 @@ const defaultContext: MidiContextValue = {
   retry: async () => undefined,
   disconnect: noop,
   clearEvents: noop,
+  subscribe: () => noop,
 }
 
 const MidiContext = createContext<MidiContextValue>(defaultContext)
@@ -113,6 +120,7 @@ export function MidiProvider({ children }: MidiProviderProps) {
   const [error, setError] = useState<string | null>(null)
 
   const connectionRef = useRef<MidiConnection | null>(null)
+  const listenersRef = useRef(new Set<MidiNoteListener>())
   const connectingRef = useRef(false)
   const mountedRef = useRef(true)
 
@@ -126,6 +134,7 @@ export function MidiProvider({ children }: MidiProviderProps) {
   }, [])
 
   const handleEvent = useCallback((event: MidiNoteEvent) => {
+    for (const listener of listenersRef.current) listener(event)
     setLastEvent(event)
     setEvents((current) => {
       const next = [...current, event]
@@ -279,6 +288,13 @@ export function MidiProvider({ children }: MidiProviderProps) {
     setLastEvent(null)
   }, [])
 
+  const subscribe = useCallback((listener: MidiNoteListener) => {
+    listenersRef.current.add(listener)
+    return () => {
+      listenersRef.current.delete(listener)
+    }
+  }, [])
+
   const profile = useMemo(
     () =>
       detectDeviceProfile(
@@ -306,6 +322,7 @@ export function MidiProvider({ children }: MidiProviderProps) {
       retry,
       disconnect,
       clearEvents,
+      subscribe,
     }),
     [
       clearEvents,
@@ -322,6 +339,7 @@ export function MidiProvider({ children }: MidiProviderProps) {
       profile,
       retry,
       status,
+      subscribe,
       supported,
     ],
   )

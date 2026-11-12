@@ -121,6 +121,17 @@ export function GrandStaff({
     )}: ${describe(left)}`
   }, [right, left, settings.notation, t])
 
+  const handsText = useMemo(() => {
+    const hands = [
+      right === undefined ? null : t('staff.grand.hand.right'),
+      left === undefined ? null : t('staff.grand.hand.left'),
+    ].filter((hand): hand is string => hand !== null)
+    if (hands.length === 0) {
+      return `${t('staff.grand.hand.right')} + ${t('staff.grand.hand.left')}`
+    }
+    return hands.join(' + ')
+  }, [right, left, t])
+
   return (
     <figure
       className={['staff', 'grand-staff', className].filter(Boolean).join(' ')}
@@ -129,7 +140,7 @@ export function GrandStaff({
         {label ?? t('staff.grand.title')}
         <span className="muted">
           {' · '}
-          {t('staff.grand.hand.right')} + {t('staff.grand.hand.left')}
+          {handsText}
         </span>
       </figcaption>
 

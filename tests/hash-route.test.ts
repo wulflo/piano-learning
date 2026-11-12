@@ -9,6 +9,7 @@ import {
   REPERTOIRE_HASH,
   REVIEW_HASH,
   SETTINGS_HASH,
+  SONGS_HASH,
   isNavActive,
   lessonHash,
   parseHash,
@@ -32,6 +33,7 @@ describe('F2-058 — Hash router', () => {
     expect(parseHash('#/progreso')).toEqual({ name: 'progress' })
     expect(parseHash('#/ajustes')).toEqual({ name: 'settings' })
     expect(parseHash('#/repertorio')).toEqual({ name: 'repertoire' })
+    expect(parseHash('#/canciones')).toEqual({ name: 'songs' })
     expect(parseHash('#/atribuciones')).toEqual({ name: 'attributions' })
   })
 
@@ -109,6 +111,7 @@ describe('F2-058 — Hash router', () => {
       { name: 'lesson', lessonId: 'lesson.m0-01' },
       { name: 'repertoire' },
       { name: 'piece', pieceId: 'piece.studies.01' },
+      { name: 'songs' },
       { name: 'attributions' },
       { name: 'practice' },
       { name: 'review' },
@@ -128,6 +131,7 @@ describe('F2-058 — Hash router', () => {
     expect(PROGRESS_HASH).toBe('#/progreso')
     expect(SETTINGS_HASH).toBe('#/ajustes')
     expect(REPERTOIRE_HASH).toBe('#/repertorio')
+    expect(SONGS_HASH).toBe('#/canciones')
     expect(ATTRIBUTIONS_HASH).toBe('#/atribuciones')
     expect(lessonHash('lesson.m0-01')).toBe('#/leccion/lesson.m0-01')
     expect(lessonHash('a/b')).toBe('#/leccion/a%2Fb')
@@ -153,6 +157,8 @@ describe('F2-058 — Hash router', () => {
     ).toBe(true)
     expect(isNavActive(byId('repertoire'), { name: 'attributions' })).toBe(true)
     expect(isNavActive(byId('repertoire'), { name: 'course' })).toBe(false)
+    expect(isNavActive(byId('songs'), { name: 'songs' })).toBe(true)
+    expect(isNavActive(byId('songs'), { name: 'practice' })).toBe(false)
     expect(isNavActive(byId('practice'), { name: 'practice' })).toBe(true)
     expect(isNavActive(byId('practice'), { name: 'review' })).toBe(false)
     expect(isNavActive(byId('review'), { name: 'review' })).toBe(true)
@@ -171,6 +177,7 @@ describe('F2-058 — Hash router', () => {
     expect(routeTitleKey({ name: 'attributions' })).toBe(
       'repertoire.attributions.title',
     )
+    expect(routeTitleKey({ name: 'songs' })).toBe('nav.songs')
     expect(routeTitleKey({ name: 'practice' })).toBe('nav.practice')
     expect(routeTitleKey({ name: 'not-found', path: '/x' })).toBe(
       'notFound.title',

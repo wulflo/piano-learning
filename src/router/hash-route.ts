@@ -17,6 +17,7 @@ export const REVIEW_HASH = '#/repaso'
 export const PROGRESS_HASH = '#/progreso'
 export const SETTINGS_HASH = '#/ajustes'
 export const REPERTOIRE_HASH = '#/repertorio'
+export const SONGS_HASH = '#/canciones'
 export const ATTRIBUTIONS_HASH = '#/atribuciones'
 
 /** Ruta del reproductor de una lección concreta. */
@@ -35,6 +36,7 @@ export type AppRoute =
   | { name: 'lesson'; lessonId: string }
   | { name: 'repertoire' }
   | { name: 'piece'; pieceId: string }
+  | { name: 'songs' }
   | { name: 'attributions' }
   | { name: 'practice' }
   | { name: 'review' }
@@ -45,6 +47,7 @@ export type AppRoute =
 export const NAV_ITEMS = [
   { id: 'course', hash: COURSE_HASH, labelKey: 'nav.course' },
   { id: 'repertoire', hash: REPERTOIRE_HASH, labelKey: 'nav.repertoire' },
+  { id: 'songs', hash: SONGS_HASH, labelKey: 'nav.songs' },
   { id: 'practice', hash: PRACTICE_HASH, labelKey: 'nav.practice' },
   { id: 'review', hash: REVIEW_HASH, labelKey: 'nav.review' },
   { id: 'progress', hash: PROGRESS_HASH, labelKey: 'nav.progress' },
@@ -92,6 +95,9 @@ export function parseHash(hash: string): AppRoute {
     case 'repertorio':
       if (segments.length === 1) return { name: 'repertoire' }
       break
+    case 'canciones':
+      if (segments.length === 1) return { name: 'songs' }
+      break
     case 'atribuciones':
       if (segments.length === 1) return { name: 'attributions' }
       break
@@ -125,6 +131,8 @@ export function routeHash(route: AppRoute): string {
       return lessonHash(route.lessonId)
     case 'repertoire':
       return REPERTOIRE_HASH
+    case 'songs':
+      return SONGS_HASH
     case 'piece':
       return pieceHash(route.pieceId)
     case 'attributions':
@@ -154,6 +162,8 @@ export function routeTitleKey(route: AppRoute): string {
     case 'repertoire':
     case 'piece':
       return 'nav.repertoire'
+    case 'songs':
+      return 'nav.songs'
     case 'attributions':
       return 'repertoire.attributions.title'
     case 'practice':

@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { act, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 import { MidiProvider, useMidi } from '../src/midi/context'
@@ -40,6 +41,7 @@ function Probe() {
       <span data-testid="raw">
         {midi.lastRaw === null ? '-' : midi.lastRaw.data.join(',')}
       </span>
+      <span data-testid="events">{midi.events.length}</span>
       <button type="button" onClick={() => void midi.connect()}>
         conectar
       </button>
@@ -48,6 +50,15 @@ function Probe() {
       </button>
     </div>
   )
+}
+
+function Subscriber({ received }: { received: number[] }) {
+  const { subscribe } = useMidi()
+  useEffect(
+    () => subscribe((event) => void received.push(event.note)),
+    [received, subscribe],
+  )
+  return null
 }
 
 async function connect(): Promise<void> {
@@ -92,6 +103,29 @@ describe('F6-033 — contexto MIDI compartido', () => {
 
     fireEvent.click(screen.getByRole('button', { name: 'limpiar' }))
     expect(screen.getByTestId('last')).toHaveTextContent('-')
+  })
+
+  it('entrega todas las pulsaciones al suscriptor aunque events se recorte', async () => {
+    const received: number[] = []
+    render(
+      <MidiProvider>
+        <Probe />
+        <Subscriber received={received} />
+      </MidiProvider>,
+    )
+
+    await connect()
+    const input = fake.inputs.get('in-1')
+    act(() => {
+      for (let index = 0; index < 1100; index += 1) {
+        input?.emit([NOTE_ON, 60, 80], 1000 + index)
+      }
+    })
+
+    // `events` conserva las últimas 1024 pulsaciones; el suscriptor, todas.
+    expect(screen.getByTestId('events')).toHaveTextContent('1024')
+    expect(received).toHaveLength(1100)
+    expect(received.at(-1)).toBe(60)
   })
 
   it('detecta entradas que se conectan después', async () => {

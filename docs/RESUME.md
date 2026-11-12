@@ -853,6 +853,15 @@ real. Sin backend, sin cuentas y sin analytics: el progreso vive en IndexedDB.
 - Lo que todavía no existe: evaluación de logros al guardar actividad y PWA
   (F6). La persistencia, FSRS, el plan de práctica diario, el reproductor de
   ejercicios, el E2E, el cierre de F2 y el contenido bilingüe ya existen.
+- Pentagramas sin recortes: `renderStaff` y `renderGrandStaff` pasan la clave a
+  cada `StaveNote` y calculan la altura necesaria midiendo la extensión vertical
+  (`src/staff/layout.ts`); las notas muy graves o agudas ya no se cortan y el
+  gran pentagrama reserva 224 px por sistema como mínimo.
+- Canciones propias (`#/canciones`): grabador MIDI con cuantización por rejilla,
+  separación de manos y acordes, biblioteca en la base Dexie independiente
+  `pianodesdecero.songs`, reproductor con gran pentagrama y exportación e
+  importación JSON (`pdc.songs`). El editor visual completo de notas queda para
+  una fase posterior.
 
 ## Primer paso de cualquier sesión
 

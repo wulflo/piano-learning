@@ -548,12 +548,14 @@ h1 {
 
 .field select,
 .field input[type='range'],
-.field input[type='number'] {
+.field input[type='number'],
+.field input[type='text'] {
   width: 100%;
 }
 
 .field select,
 .field input[type='number'],
+.field input[type='text'],
 .keymap-row input {
   min-height: 2.2rem;
   padding: 0.3rem 0.5rem;
@@ -2214,6 +2216,7 @@ h1 {
 
 .field select,
 .field input[type='number'],
+.field input[type='text'],
 .keymap-row input,
 .repertoire-player-controls select,
 .exercise-chord-style select,
@@ -2230,6 +2233,7 @@ h1 {
 
 .field select:focus-visible,
 .field input[type='number']:focus-visible,
+.field input[type='text']:focus-visible,
 .keymap-row input:focus-visible,
 .exercise-written input:focus-visible,
 .repertoire-player-controls select:focus-visible {
@@ -2622,4 +2626,95 @@ input[type='range'] {
 
 .task-midi-feedback.is-perfect p {
   color: var(--on-success-container);
+}
+
+/* --- Canciones propias y grabador MIDI --- */
+.songs-page .hero {
+  margin-bottom: 1.5rem;
+}
+
+.song-recorder-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1rem 0 0;
+}
+
+.song-recorder-state {
+  margin: 0;
+}
+
+.song-recorder-keyboard {
+  margin-top: 1rem;
+}
+
+.song-recorder-preview {
+  margin-top: 1rem;
+}
+
+.song-recorder-actions,
+.songs-toolbar,
+.songs-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.song-recorder-actions {
+  margin-top: 1rem;
+}
+
+.song-recorder-hint {
+  margin: 1rem 0 0;
+  font-size: 0.85rem;
+}
+
+.songs-library {
+  margin-top: 1.5rem;
+}
+
+.songs-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.song-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  padding: 0.9rem 1rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+}
+
+.song-card h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+}
+
+.song-card p {
+  margin: 0;
+}
+
+.song-player {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+}
+
+.song-player .panel-heading {
+  align-items: center;
+}
+
+.song-player-staff {
+  margin-top: 0.75rem;
 }

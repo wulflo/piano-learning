@@ -38,6 +38,7 @@ describe('F2-058 — Shell de app y navegación', () => {
     expect(links.map((link) => link.textContent)).toEqual([
       'Curso',
       'Repertorio',
+      'Canciones',
       'Práctica',
       'Repaso',
       'Progreso',
