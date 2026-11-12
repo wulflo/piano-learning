@@ -1,0 +1,27 @@
+version = 1
+
+# Piano Today declara la licencia de cada archivo versionado mediante este
+# REUSE.toml (no se usan encabezados SPDX dentro de los archivos, para no
+# confundirlos con encabezados de terceros: ver `npm run audit:code`).
+
+# Código, herramientas, pruebas, documentación y configuración: MIT.
+[[annotations]]
+path = ["**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Piano Today contributors"
+SPDX-License-Identifier = "MIT"
+
+# Contenido pedagógico (lecciones, ejercicios, módulos y habilidades): el
+# valor por defecto de `contentLicense` es CC BY-SA 4.0 (ver LICENSE-CONTENT).
+[[annotations]]
+path = ["content/**"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Piano Today contributors"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# Estudios técnicos y melodías originales marcados `cc0-1.0` en su ficha.
+[[annotations]]
+path = ["content/repertoire/studies.*.json", "content/repertoire/original-*.json"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Piano Today contributors"
+SPDX-License-Identifier = "CC0-1.0"

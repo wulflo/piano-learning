@@ -85,6 +85,8 @@ Todas son compatibles con distribución estática y con el código MIT del proye
   ```
   Sin ese paso Vite igual arranca, pero se aprobó para evitar fallos intermitentes.
 - `overrides.glob` fuerza `glob@^14` (advisory de seguridad) salvo en `read-package-json`, que usa `glob@^7` porque `license-checker` lo requiere con export CommonJS. La anulación por paquete evita romper la auditoría de licencias.
+- La auditoría de código (`npm run audit:code`) usa `jscpd` 5.4.3; el binario nativo se instala como dependencia opcional de plataforma (`jscpd-linux-x64-gnu`). En otra plataforma, `npm ci` la resuelve sola.
+- La auditoría REUSE (`npm run audit:reuse`) ejecuta `uvx reuse lint` con `reuse` 6.3.0 (Python, GPL-3.0). No es una dependencia npm: requiere `uv` (`/usr/bin/uv`) y red la primera vez que `uvx` baja la herramienta. Por eso no se encadena en `npm run audit`.
 - Node 26 es la versión local; el proyecto declara `engines.node >= 22.12.0` para CI y GitHub Pages.
 - TypeScript 7.0.2 es la estable actual. Si aparece una incompatibilidad con el toolchain, se documentará como ADR y se bajará a la última 5.9.x.
 
@@ -97,6 +99,7 @@ Todas son compatibles con distribución estática y con el código MIT del proye
 - F5-025: verificación de dominio público de repertorio (completada el
   2026-11-13; fuentes, fechas y descartes en `docs/LICENCIAS.md`).
 - F6-022 a F6-026: workflows, Pages, demo publicada y tags remotos (solo con autorización).
+- F6-044: `uvx reuse lint` (la primera corrida baja `reuse` con `uv`).
 - Cualquier `npm install` nuevo.
 
 Ninguna tarea `[NET]` bloquea el avance offline: las dependencias ya están
@@ -178,5 +181,6 @@ npm run estado
 npm run audit:audio
 npm run audit:licenses
 npm run audit:code
+npm run audit:reuse
 node scripts/fetch-samples.mjs --dry-run
 ```

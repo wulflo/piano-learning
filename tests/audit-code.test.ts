@@ -18,10 +18,13 @@ import {
  * a `docs/AUDITORIA.md`.
  */
 describe('F6-043 — auditoría de código', () => {
+  // Se arma por partes para que el linter de REUSE no lo lea como etiqueta.
+  const SPDX_TAG = ['SPDX', 'License', 'Identifier'].join('-')
+
   it('detecta encabezados de copyright y licencia ajenos', () => {
     const entries = [
       { path: 'src/a.ts', content: '// Copyright 2024 Acme Corp\nconst a = 1\n' },
-      { path: 'src/b.ts', content: '// SPDX-License-Identifier: MIT\nexport {}\n' },
+      { path: 'src/b.ts', content: `// ${SPDX_TAG}: MIT\nexport {}\n` },
       { path: 'src/c.ts', content: '# GPL-3.0\n' },
       { path: 'src/d.ts', content: '// licensed under the Apache License\n' },
     ]

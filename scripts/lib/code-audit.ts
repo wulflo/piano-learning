@@ -11,14 +11,20 @@ import { extname, join, relative, sep } from 'node:path'
 /**
  * Patrones de encabezados de copyright o licencia ajenos. Son deliberadamente
  * precisos: no alcanza con que aparezca la palabra «SPDX» o «copyright» en un
- * comentario, sino que tiene que ser un encabezado real (`SPDX-License-Identifier:`,
- * `Copyright 2024`, `GPL`, `licensed under`).
+ * comentario, sino que tiene que ser un encabezado real (la etiqueta SPDX con
+ * su identificador, `Copyright` con año o ©, `GPL` o `licensed under`).
  */
 export interface ForeignHeaderPattern {
   id: string
   label: string
   regex: RegExp
 }
+
+/**
+ * Etiqueta SPDX que se busca en los encabezados. Se arma por partes para que el
+ * propio archivo no quede marcado por el linter de REUSE.
+ */
+const SPDX_LICENSE_TAG = ['SPDX', 'License', 'Identifier'].join('-')
 
 export const FOREIGN_HEADER_PATTERNS: readonly ForeignHeaderPattern[] =
   Object.freeze([
@@ -29,8 +35,8 @@ export const FOREIGN_HEADER_PATTERNS: readonly ForeignHeaderPattern[] =
     },
     {
       id: 'spdx',
-      label: 'SPDX-License-Identifier',
-      regex: /SPDX-License-Identifier\s*:/i,
+      label: SPDX_LICENSE_TAG,
+      regex: new RegExp(`${SPDX_LICENSE_TAG}\\s*:`, 'i'),
     },
     {
       id: 'gpl',
@@ -324,7 +330,7 @@ export function renderCodeAuditSection(
   lines.push('### Encabezados de copyright o licencia ajenos')
   lines.push('')
   lines.push(
-    `Se revisan ${meta.scanRoots.map((root) => `\`${root}/\``).join(', ')} buscando \`Copyright\`, \`SPDX-License-Identifier\`, \`GPL\` y \`licensed under\`.`,
+    `Se revisan ${meta.scanRoots.map((root) => `\`${root}/\``).join(', ')} buscando \`Copyright\`, \`${SPDX_LICENSE_TAG}\`, \`GPL\` y \`licensed under\`.`,
   )
   lines.push('')
 
