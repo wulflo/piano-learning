@@ -4,11 +4,11 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** F6-041
-- **Última verificada en verde:** F6-040 (`61ee0c7`, 2026-11-15T02:00:00-03:00)
-- **Actualizado:** 2026-11-15T02:00:00-03:00
+- **Tarea actual:** F6-042
+- **Última verificada en verde:** F6-041 (`00cae89`, 2026-11-15T02:30:00-03:00)
+- **Actualizado:** 2026-11-15T02:30:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-040 confirmó la licencia CC BY 3.0 de Salamander Grand Piano v3 (Alexander Holm) y registró las URLs de origen y licencia en el manifiesto y en docs/LICENCIAS.md. F6-041 genera la pantalla de créditos desde el manifiesto. Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-041 hizo que la pantalla de créditos derive autor, origen, licencia, URL de licencia y modificaciones del manifiesto. F6-042 audita las licencias de producción con license-checker. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1592,9 +1592,10 @@ Quedó funcionando:
   - Aceptación: se consulta la fuente original de las muestras Salamander, se confirma su licencia (CC BY 3.0 o dominio público) y se registra en el manifiesto y en docs/LICENCIAS.md la URL de origen y de la licencia.
   - Deps: F6-039 · Red: sí · [NET]
   - Commit: 61ee0c7 · 2026-11-15T02:00:00-03:00
-- [ ] **F6-041** — Generar la pantalla de créditos desde el manifiesto
+- [x] **F6-041** — Generar la pantalla de créditos desde el manifiesto
   - Aceptación: los créditos de audio se generan desde `assets/audio/manifest.json` (no escritos a mano) y muestran autor, licencia y modificaciones; con test.
   - Deps: F6-039 · Red: no
+  - Commit: 00cae89 · 2026-11-15T02:30:00-03:00
 - [ ] **F6-042** — Auditar licencias de producción con license-checker [NET]
   - Aceptación: `npm run audit:licenses` corre license-checker sobre dependencias de producción contra una allowlist permisiva y debe coincidir con THIRD_PARTY_LICENSES.md; con test.
   - Deps: F6-039 · Red: sí · [NET]

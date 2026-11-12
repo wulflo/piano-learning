@@ -2334,3 +2334,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: se actualizaron los fixtures (`audio-manifest-empty.json`, `audio-sampler.test.ts`, `content-schema.test.ts`, `verify-audio.test.ts`) para el nuevo campo obligatorio.
 - Limitaciones: no se volvió a descargar el banco original (48 kHz/24 bit); se sigue sirviendo el espejo MP3 de Tone.js, declarado como tal.
 - Próximo paso: F6-041 (créditos generados desde el manifiesto).
+
+## 2026-11-15T02:30:00-03:00 · F6-041
+
+- Problema: la pantalla de atribuciones escribía a mano la atribución de Salamander (texto y enlace a Tone.js) en la i18n, desconectada del manifiesto.
+- Acción: `audioCredits(manifest)` en `src/audio/sampler.ts` deduplica autor, origen, licencia, URL de licencia y modificaciones; `AttributionsPage` los renderiza desde `readSampleManifest()` y enlaza la fuente original del manifiesto. Se reemplazaron las claves `attributions.audio.lead/link` por `license`, `modifications`, `origin` y `empty` en ES/EN.
+- Resultado: typecheck, suite 248 archivos / 1708 tests y build verdes (JS inicial 281,40 kB gzip). El test de créditos compara contra el manifiesto real; `audioCredits` se prueba con un manifiesto sintético. Commit `00cae89`.
+- Correcciones: el test F6-019 comprobaba el texto fijo; ahora verifica que la pantalla usa los valores del manifiesto.
+- Limitaciones: el pie de la app todavía resume la atribución en una frase; la pantalla de créditos es la fuente detallada.
+- Próximo paso: F6-042 (auditoría de licencias de producción con license-checker).
