@@ -4,11 +4,11 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** F6-039
-- **Última verificada en verde:** F6-038 (`a9012e7`, 2026-11-15T00:10:00-03:00)
-- **Actualizado:** 2026-11-15T01:00:00-03:00
+- **Tarea actual:** F6-040
+- **Última verificada en verde:** F6-039 (`16f57f1`, 2026-11-15T01:30:00-03:00)
+- **Actualizado:** 2026-11-15T01:30:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-039 en curso: se amplía `assets/audio/manifest.json` con autor, origen, licencia SPDX, URL de licencia y modificaciones por muestra, se crea `scripts/verify-audio.mjs` con `npm run audit:audio` y sus tests. Después siguen los créditos (F6-041) y las auditorías de licencias, código, REUSE y texto. Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-039 cerró el manifiesto con autor, origen, licencia SPDX, URL de licencia y modificaciones por muestra, más `npm run audit:audio` y sus tests. F6-040 confirma en la fuente original la licencia de las muestras Salamander. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1584,9 +1584,10 @@ Quedó funcionando:
   - Aceptación: cada cambio pendiente (HEAD frente a la última tarea verificada) queda clasificado y commiteado en una tarea o descartado con criterio y anotado en LOG; `git status` limpio y suite en verde.
   - Deps: F6-037 · Red: no
   - Commit: a9012e7 · 2026-11-15T00:10:00-03:00
-- [~] **F6-039** — Ampliar el manifiesto de audio y verificar licencias con `audit:audio`
+- [x] **F6-039** — Ampliar el manifiesto de audio y verificar licencias con `audit:audio`
   - Aceptación: `assets/audio/manifest.json` incluye author, source, license (id SPDX), licenseUrl y modifications por muestra; `npm run audit:audio` (scripts/verify-audio.mjs) falla si un archivo de audio no está registrado, si el SHA-256 no coincide, si falta un campo o si la licencia no está en la lista permitida (CC0-1.0, CC-BY-3.0, CC-BY-4.0, CC-BY-SA-3.0, CC-BY-SA-4.0, MIT, Apache-2.0, LicenseRef-PublicDomain); con tests.
   - Deps: F6-038 · Red: no
+  - Commit: 16f57f1 · 2026-11-15T01:30:00-03:00
 - [ ] **F6-040** — Confirmar la licencia original de las muestras Salamander [NET]
   - Aceptación: se consulta la fuente original de las muestras Salamander, se confirma su licencia (CC BY 3.0 o dominio público) y se registra en el manifiesto y en docs/LICENCIAS.md la URL de origen y de la licencia.
   - Deps: F6-039 · Red: sí · [NET]

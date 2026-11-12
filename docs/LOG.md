@@ -2317,3 +2317,11 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: ninguna; el trabajo pendiente ya venía con sus tests.
 - Limitaciones: la escucha humana de la corrección sigue pendiente y se documenta en F6-054.
 - Próximo paso: F6-039 (manifiesto de audio y `npm run audit:audio`).
+
+## 2026-11-15T01:30:00-03:00 · F6-039
+
+- Acción: se amplió `assets/audio/manifest.json` con `author`, `source`, `license` (id SPDX), `licenseUrl` y `modifications` en cada una de las 30 muestras; se sincronizaron `src/schemas/audio.ts` y el esquema duplicado de `scripts/fetch-samples.mjs`; se creó `scripts/verify-audio.mjs` (funciones exportadas, `main` solo al invocarlo directo) y `npm run audit:audio`, y se sumó `tests/verify-audio.test.ts` con fixtures sintéticos.
+- Resultado: typecheck, suite 248 archivos / 1706 tests y build verdes. `npm run audit:audio` verifica 30/30 muestras locales y, sin la carpeta, informa NO VERIFICABLE sin fallar. Commit `16f57f1`.
+- Correcciones: el fixture de `tests/audio-sampler.test.ts` se actualizó con los campos nuevos para que el esquema siga validando.
+- Limitaciones: los valores de autoría/origen/licencia se confirman en la fuente original en F6-040; el SHA-256 solo se comprueba cuando las muestras están presentes (no se versionan).
+- Próximo paso: F6-040 (confirmar la licencia original de Salamander y registrar las URLs).
