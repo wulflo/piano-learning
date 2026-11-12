@@ -6,9 +6,9 @@
 
 - **Tarea actual:** F6-044
 - **Última verificada en verde:** F6-043 (`14db423`, 2026-11-15T03:30:00-03:00)
-- **Actualizado:** 2026-11-15T03:40:00-03:00
+- **Actualizado:** 2026-11-15T03:50:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-043 cerrada: `npm run audit:code` (jscpd 5.4.3) volcó clones y encabezados ajenos a docs/AUDITORIA.md; 93 clones y 0 encabezados ajenos. F6-044 sigue con el cumplimiento REUSE. Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-044 en curso: cumplimiento REUSE (REUSE.toml, LICENSES/ y `reuse lint` en verde). Si la herramienta no se puede instalar, se documenta el motivo en DECISIONES.md y la tarea queda [-]. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1604,7 +1604,7 @@ Quedó funcionando:
   - Aceptación: `npm run audit:code` corre jscpd sobre src/ y un grep de encabezados de copyright o licencia ajenos (Copyright, SPDX, GPL, "licensed under") en src/, scripts/ y content/; reporta archivo y línea en docs/AUDITORIA.md.
   - Deps: F6-042 · Red: sí · [NET]
   - Commit: 14db423 · 2026-11-15T03:30:00-03:00
-- [ ] **F6-044** — Cumplimiento REUSE [NET]
+- [~] **F6-044** — Cumplimiento REUSE [NET]
   - Aceptación: REUSE.toml, carpeta LICENSES/ y `reuse lint` en verde; si la herramienta no se puede instalar, se documenta el motivo en DECISIONES.md y la tarea queda [-] .
   - Deps: F6-043 · Red: sí · [NET]
 - [ ] **F6-045** — Escribir CONTRIBUTING.md con origen, licencia y firma DCO
