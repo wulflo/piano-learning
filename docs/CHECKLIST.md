@@ -4,11 +4,11 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** F6-042
-- **Última verificada en verde:** F6-041 (`00cae89`, 2026-11-15T02:30:00-03:00)
-- **Actualizado:** 2026-11-15T02:40:00-03:00
+- **Tarea actual:** F6-043
+- **Última verificada en verde:** F6-042 (`5f9b7fb`, 2026-11-15T03:00:00-03:00)
+- **Actualizado:** 2026-11-15T03:00:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-042 en curso: instalar license-checker como devDependency permisiva, crear `npm run audit:licenses` (dependencias de producción contra allowlist) y verificar que coincide con THIRD_PARTY_LICENSES.md; con test. Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-042 sumó `npm run audit:licenses` con license-checker (devDependency BSD-3-Clause), allowlist permisiva y contraste con THIRD_PARTY_LICENSES.md regenerado. F6-043 audita duplicación de código y encabezados ajenos con jscpd y grep. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1596,9 +1596,10 @@ Quedó funcionando:
   - Aceptación: los créditos de audio se generan desde `assets/audio/manifest.json` (no escritos a mano) y muestran autor, licencia y modificaciones; con test.
   - Deps: F6-039 · Red: no
   - Commit: 00cae89 · 2026-11-15T02:30:00-03:00
-- [~] **F6-042** — Auditar licencias de producción con license-checker [NET]
+- [x] **F6-042** — Auditar licencias de producción con license-checker [NET]
   - Aceptación: `npm run audit:licenses` corre license-checker sobre dependencias de producción contra una allowlist permisiva y debe coincidir con THIRD_PARTY_LICENSES.md; con test.
   - Deps: F6-039 · Red: sí · [NET]
+  - Commit: 5f9b7fb · 2026-11-15T03:00:00-03:00
 - [ ] **F6-043** — Auditar duplicación de código y encabezados ajenos [NET]
   - Aceptación: `npm run audit:code` corre jscpd sobre src/ y un grep de encabezados de copyright o licencia ajenos (Copyright, SPDX, GPL, "licensed under") en src/, scripts/ y content/; reporta archivo y línea en docs/AUDITORIA.md.
   - Deps: F6-042 · Red: sí · [NET]

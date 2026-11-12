@@ -2343,3 +2343,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: el test F6-019 comprobaba el texto fijo; ahora verifica que la pantalla usa los valores del manifiesto.
 - Limitaciones: el pie de la app todavía resume la atribución en una frase; la pantalla de créditos es la fuente detallada.
 - Próximo paso: F6-042 (auditoría de licencias de producción con license-checker).
+
+## 2026-11-15T03:00:00-03:00 · F6-042
+
+- Problema: no había auditoría automática de licencias de las dependencias de producción y el inventario podía quedar desactualizado. Además, `overrides.glob: ^14.0.2` rompía `license-checker@25` (`read-package-json` espera `require('glob')` como función).
+- Acción: se instaló `license-checker@25.0.1` (BSD-3-Clause) como devDependency; se acotó el override para que `read-package-json` use `glob@^7.2.3` y el resto siga en `glob@^14`. `scripts/lib/license-audit.ts` expone la allowlist permisiva (0BSD, Apache-2.0, BSD-2/3-Clause, BlueOak-1.0.0, CC0-1.0, ISC, MIT, Unlicense), la normalización de licencias, el parseo del inventario y las comprobaciones; `scripts/audit-licenses.ts` (vía `tsx`) es `npm run audit:licenses`. Se regeneró `THIRD_PARTY_LICENSES.md` (590 paquetes) y se documentó en ENTORNO.md.
+- Resultado: typecheck, suite 249 archivos / 1715 tests y build verdes; `npm run audit:licenses` → 42 paquetes de producción, todas permisivas y coincidentes con el documento. Commit `5f9b7fb`.
+- Correcciones: el override por paquete de `glob` es la pieza que permite que license-checker funcione sin perder el glob parcheado en el resto del árbol.
+- Limitaciones: la auditoría cubre producción; las licencias de desarrollo siguen inventariadas en THIRD_PARTY_LICENSES.md y el resumen transitivo incluye MPL-2.0 (axe-core), que no se distribuye.
+- Próximo paso: F6-043 (jscpd y encabezados ajenos).
