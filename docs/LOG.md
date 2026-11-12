@@ -2361,3 +2361,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: el auditor excluye sus propios archivos (`scripts/audit-code.ts` y `scripts/lib/code-audit.ts`) del grep para no autoinformarse al contener los literales que busca; los patrones son precisos para no marcar menciones legítimas («id SPDX», «bajo copyright»).
 - Limitaciones: la duplicación se informa pero no falla el comando (no hay umbral definido en la tarea); el grep cubre encabezados, no prosa copiada, que es el objeto de F6-046/F6-047.
 - Próximo paso: F6-044 (cumplimiento REUSE).
+
+## 2026-11-15T04:00:00-03:00 · F6-044
+
+- Problema: no había forma estándar de declarar la licencia y el copyright de cada archivo versionado. La vía recomendada por REUSE (encabezados `SPDX-*` en cada archivo) choca con `npm run audit:code` de F6-043, que marca justamente la etiqueta SPDX de licencia como «encabezado ajeno», y tocar 1354 archivos sería invasivo.
+- Acción: se declaró la licencia de todo el repositorio en un único `REUSE.toml` (MIT por defecto; `content/**` en CC-BY-SA-4.0; estudios y originales `cc0-1.0` en CC0-1.0), con las tablas ordenadas de lo general a lo específico porque prevalece la última coincidencia. `LICENSES/` contiene solo los tres textos usados (`MIT.txt`, `CC-BY-SA-4.0.txt`, `CC0-1.0.txt`). Se agregó `npm run audit:reuse` (`uvx reuse lint`), `tests/reuse.test.ts` (estructura del TOML, textos presentes y sin usar) y el registro de `uv`/`reuse` en ENTORNO.md. Las dos cadenas de F6-043 que imitaban la etiqueta SPDX se arman por partes para que el linter no las lea como expresiones inválidas.
+- Resultado: typecheck, suite 251 archivos / 1731 tests y build verdes (JS inicial 272,15 kB gzip < 300 kB). `uvx reuse lint` en verde: 1354/1354 archivos con copyright y licencia, 3 licencias usadas, 0 errores. Commit `c60ed5a`.
+- Correcciones: se prefirió `REUSE.toml` a los encabezados en cada archivo para no romper la auditoría de encabezados ajenos de F6-043; se documentó como ADR-046.
+- Limitaciones: `reuse` es una herramienta Python (GPL-3.0) que corre con `uvx` y necesita red la primera vez, así que no entra en `npm run audit` (F6-053); `tests/reuse.test.ts` no ejecuta el linter real, solo valida la configuración y los textos.
+- Próximo paso: F6-045 (CONTRIBUTING.md con origen, licencia y firma DCO).
