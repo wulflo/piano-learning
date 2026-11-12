@@ -26,6 +26,7 @@ export interface GrandStaffProps {
   label?: string
   zoom?: number
   activeNotes?: ReadonlyArray<number>
+  activeIds?: ReadonlyArray<string>
   onNoteClick?: (payload: GrandStaffNoteClick) => void
   className?: string
 }
@@ -36,6 +37,7 @@ export function GrandStaff({
   label,
   zoom = 1,
   activeNotes = [],
+  activeIds = [],
   onNoteClick,
   className,
 }: GrandStaffProps) {
@@ -71,6 +73,7 @@ export function GrandStaff({
   )
   const height = renderHeight ?? layout.height
   const activeKey = activeNotes.join(',')
+  const activeIdKey = activeIds.join(',')
 
   // Al cambiar el ancho o el número de compases el alto real deja de ser
   // válido; se vuelve al cálculo teórico hasta que termine el nuevo dibujo.
@@ -90,6 +93,7 @@ export function GrandStaff({
       width,
       notation: settings.notation,
       activeNotes,
+      activeIds,
       onNoteClick: (payload) => onNoteClickRef.current?.(payload),
     })
       .then((result) => {
@@ -109,7 +113,7 @@ export function GrandStaff({
     }
     // activeKey resume el contenido sin depender de la identidad del array.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [right, left, width, settings.notation, activeKey])
+  }, [right, left, width, settings.notation, activeKey, activeIdKey])
 
   const notesText = useMemo(() => {
     const describe = (score: Score | undefined) =>

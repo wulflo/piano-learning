@@ -62,6 +62,7 @@ export function RepertoirePlayer({
   const [loop, setLoop] = useState(initialLoop)
   const [playing, setPlaying] = useState(false)
   const [activeNotes, setActiveNotes] = useState<ReadonlyArray<number>>([])
+  const [activeIds, setActiveIds] = useState<ReadonlyArray<string>>([])
   const [error, setError] = useState<string | null>(null)
 
   const playingRef = useRef(playing)
@@ -78,6 +79,7 @@ export function RepertoirePlayer({
     setLoop(initialLoop)
     setPlaying(false)
     setActiveNotes([])
+    setActiveIds([])
     setError(null)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [piece.id])
@@ -96,6 +98,7 @@ export function RepertoirePlayer({
     if (!audio.isPlaying) {
       setPlaying(false)
       setActiveNotes([])
+      setActiveIds([])
     }
   }, [audio.isPlaying])
 
@@ -109,6 +112,7 @@ export function RepertoirePlayer({
     engine.stop()
     setPlaying(false)
     setActiveNotes([])
+    setActiveIds([])
   }, [engine])
 
   const change = useCallback(
@@ -149,16 +153,21 @@ export function RepertoirePlayer({
     }
     setError(null)
     setActiveNotes([])
+    setActiveIds([])
     setPlaying(true)
     void engine
       .playTimeline(playback.timeline, {
         repeat: playback.loop,
         duration: playback.duration,
-        onEvent: (event) => setActiveNotes(event.midis),
+        onEvent: (event) => {
+          setActiveNotes(event.midis)
+          setActiveIds(event.label === undefined ? [] : [event.label])
+        },
       })
       .catch((reason: unknown) => {
         setPlaying(false)
         setActiveNotes([])
+        setActiveIds([])
         setError(
           t('repertoire.player.audioError', {
             message: playbackError ?? errorMessage(reason),
@@ -208,6 +217,7 @@ export function RepertoirePlayer({
         left={piece.hands.left}
         label={piece.title}
         activeNotes={activeNotes}
+        activeIds={activeIds}
       />
 
       <div className="repertoire-player-controls">

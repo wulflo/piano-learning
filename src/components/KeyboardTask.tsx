@@ -281,6 +281,9 @@ export function KeyboardTask({ task, engine, audio }: KeyboardTaskProps) {
           timeSignature={`${task.demoScore.timeSignature.numerator}/${task.demoScore.timeSignature.denominator}`}
           label={taskTitle(task, locale)}
           activeNotes={audio.activeNotes}
+          activeIds={
+            audio.activeLabel === undefined ? [] : [audio.activeLabel]
+          }
           onNoteClick={({ midis: clicked }) => {
             const first = clicked[0]
             if (first === undefined) return

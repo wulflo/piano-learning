@@ -21,6 +21,33 @@ function countEvents(score: Score | undefined): number {
   return score?.events.length ?? 0
 }
 
+function repeatedNoteScore(): Score {
+  const pitch: Score['events'][number]['pitches'][number] = {
+    step: 'C',
+    accidental: '',
+    octave: 4,
+  }
+  return {
+    clef: 'treble',
+    key: 'C',
+    mode: 'major',
+    timeSignature: { numerator: 4, denominator: 4 },
+    tempoBpm: 80,
+    pedals: [],
+    events: [1, 2, 3].map((number) => ({
+      id: `ev.${number}`,
+      measure: 1,
+      beat: number - 1,
+      value: { duration: 'quarter', dots: 0, tuplet: 'none' },
+      pitches: [pitch],
+      hand: 'right',
+      voice: 1,
+      velocity: 80,
+      tieToNext: false,
+    })),
+  }
+}
+
 describe('F5-022 — Gran pentagrama', () => {
   it('calcula compases, sistemas y anchos alineados', async () => {
     const study = await piece()
@@ -114,6 +141,35 @@ describe('F5-022 — Gran pentagrama', () => {
     expect(
       container.querySelectorAll('[data-highlighted="true"]').length,
     ).toBeGreaterThan(0)
+  })
+
+  it('resalta una sola repetición cuando el MIDI se repite', async () => {
+    const container = document.createElement('div')
+    const result = await renderGrandStaff(container, {
+      right: repeatedNoteScore(),
+      activeNotes: [60],
+    })
+
+    expect(
+      result.notes
+        .filter((note) => note.hand === 'right')
+        .map((note) => note.highlighted),
+    ).toEqual([true, false, false])
+  })
+
+  it('usa el id activo para elegir la repetición correcta', async () => {
+    const container = document.createElement('div')
+    const result = await renderGrandStaff(container, {
+      right: repeatedNoteScore(),
+      activeNotes: [60],
+      activeIds: ['ev.2'],
+    })
+
+    expect(
+      result.notes
+        .filter((note) => note.hand === 'right')
+        .map((note) => note.highlighted),
+    ).toEqual([false, true, false])
   })
 
   it('recalcula la altura y los sistemas al angostar el ancho', async () => {

@@ -1,6 +1,7 @@
 import type { Notation } from '../notation'
 import { midiNameWithOctave } from '../notation'
 import { midiOf, type Pitch } from '../theory/pitch'
+import { createHighlightPlanner } from './highlight'
 import { verticalExtent } from './layout'
 import { pitchToVexKey, type StaffDuration } from './vex'
 
@@ -28,6 +29,11 @@ export interface RenderStaffOptions {
   height?: number
   notation?: Notation
   activeNotes?: ReadonlyArray<number>
+  /**
+   * Ids de los eventos que están sonando. Si se indican, solo se resaltan esas
+   * ocurrencias aunque la altura se repita en la partitura.
+   */
+  activeIds?: ReadonlyArray<string>
   onNoteClick?: (payload: { index: number; midis: number[]; id?: string }) => void
 }
 
@@ -45,7 +51,6 @@ export interface RenderedStaff {
   height: number
 }
 
-const ACCENT = '#a33b2b'
 const NOTE_COLOR = '#1d1f23'
 const STAVE_Y = 34
 const EDGE_MARGIN = 8
@@ -67,6 +72,7 @@ export async function renderStaff(
     height = 180,
     notation = 'c',
     activeNotes = [],
+    activeIds = [],
     onNoteClick,
   } = options
 
@@ -100,7 +106,14 @@ export async function renderStaff(
 
   if (measures.length === 0) return { notes: [], height: renderHeight }
 
-  const activeSet = new Set(activeNotes)
+  const planner = createHighlightPlanner(
+    measures.map((measure) => ({
+      id: measure.id,
+      midis: measure.pitches.map(midiOf),
+    })),
+    activeNotes,
+    activeIds,
+  )
   const highlightedFlags: boolean[] = []
   const vexNotes = measures.map((measure, index) => {
     const note = new VF.StaveNote({
@@ -109,14 +122,10 @@ export async function renderStaff(
       clef,
     })
     note.setAttribute('id', `pdc-note-${index}`)
-    const highlighted =
-      Boolean(measure.highlighted) ||
-      measure.pitches.some((pitch) => activeSet.has(midiOf(pitch)))
+    const midis = measure.pitches.map(midiOf)
+    const active = planner.shouldHighlight({ id: measure.id, midis })
+    const highlighted = Boolean(measure.highlighted) || active
     highlightedFlags.push(highlighted)
-    if (highlighted) {
-      note.setStyle({ fillStyle: ACCENT, strokeStyle: ACCENT })
-      note.setKeyStyle(0, { fillStyle: ACCENT, strokeStyle: ACCENT })
-    }
     note.addClass('vf-staff-note')
     if (measure.pedalPress) {
       const mark = new VF.Annotation('Ped.')

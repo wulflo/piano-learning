@@ -6,6 +6,7 @@ import {
 import { midiNameWithOctave, type Notation } from '../notation'
 import type { Hand, NoteEvent, Score } from '../schemas'
 import { midiOf } from '../theory/pitch'
+import { createHighlightPlanner, type HighlightPlanner } from './highlight'
 import { verticalExtent, type VerticalNoteInput } from './layout'
 import { pitchToVexKey } from './vex'
 
@@ -29,7 +30,6 @@ export const GRAND_STAFF_MARGIN = 12
 export const GRAND_STAFF_SYSTEM_HEIGHT = 190
 const TOP_STAVE_Y = 34
 const BOTTOM_STAVE_Y = 132
-const ACCENT = '#a33b2b'
 
 type VexFlow = typeof import('vexflow')
 type VexStaveNote = InstanceType<VexFlow['StaveNote']>
@@ -53,6 +53,8 @@ export interface GrandStaffOptions {
   width?: number
   notation?: Notation
   activeNotes?: ReadonlyArray<number>
+  /** Ids de los eventos que suenan; evita encender repeticiones de la altura. */
+  activeIds?: ReadonlyArray<string>
   onNoteClick?: (payload: GrandStaffNoteClick) => void
 }
 
@@ -157,11 +159,12 @@ interface PendingNote {
 
 function eventIsActive(
   event: NoteEvent,
-  activeSet: ReadonlySet<number>,
+  planner: HighlightPlanner,
 ): boolean {
-  return event.pitches.some((pitch) =>
-    activeSet.has(midiOf(spelledPitchToPitch(pitch))),
-  )
+  return planner.shouldHighlight({
+    id: event.id,
+    midis: event.pitches.map((pitch) => midiOf(spelledPitchToPitch(pitch))),
+  })
 }
 
 function addChordSymbol(VF: VexFlow, note: VexStaveNote, symbol: string): void {
@@ -174,7 +177,7 @@ function createNote(
   VF: VexFlow,
   event: NoteEvent,
   index: number,
-  activeSet: ReadonlySet<number>,
+  planner: HighlightPlanner,
   clef: 'treble' | 'bass',
 ): PendingNote {
   const pitches = event.pitches.map(spelledPitchToPitch)
@@ -184,11 +187,7 @@ function createNote(
     clef,
   })
   note.setAttribute('id', `pdc-grand-note-${index}`)
-  const highlighted = eventIsActive(event, activeSet)
-  if (highlighted) {
-    note.setStyle({ fillStyle: ACCENT, strokeStyle: ACCENT })
-    note.setKeyStyle(0, { fillStyle: ACCENT, strokeStyle: ACCENT })
-  }
+  const highlighted = eventIsActive(event, planner)
   note.addClass('vf-grand-staff-note')
   if (event.value.dots > 0) VF.Dot.buildAndAttach([note], { all: true })
   if (event.chordSymbol !== undefined) {
@@ -249,10 +248,10 @@ function buildMeasureRender(
   clef: 'treble' | 'bass',
   events: readonly NoteEvent[],
   firstIndex: number,
-  activeSet: ReadonlySet<number>,
+  planner: HighlightPlanner,
 ): MeasureRender {
   const pending = events.map((event, offset) =>
-    createNote(VF, event, firstIndex + offset, activeSet, clef),
+    createNote(VF, event, firstIndex + offset, planner, clef),
   )
   const notes = pending.map((item) => item.note)
   const tuplets: VexStaveNote[][] = []
@@ -297,6 +296,7 @@ export async function renderGrandStaff(
     width = 640,
     notation = 'c',
     activeNotes = [],
+    activeIds = [],
     onNoteClick,
   } = options
 
@@ -310,7 +310,16 @@ export async function renderGrandStaff(
 
   const rightEvents = eventsByMeasure(right)
   const leftEvents = eventsByMeasure(left)
-  const activeSet = new Set(activeNotes)
+  const planner = createHighlightPlanner(
+    [...(right?.events ?? []), ...(left?.events ?? [])].map((event) => ({
+      id: event.id,
+      midis: event.pitches.map((pitch) =>
+        midiOf(spelledPitchToPitch(pitch)),
+      ),
+    })),
+    activeNotes,
+    activeIds,
+  )
   const rightKey = right === undefined ? 'C' : scoreKeySignature(right)
   const leftKey = left === undefined ? 'C' : scoreKeySignature(left)
   const rightClef = right?.clef === 'bass' ? 'bass' : 'treble'
@@ -420,7 +429,7 @@ export async function renderGrandStaff(
         rightClef,
         rightEvents.get(measure) ?? [],
         globalIndex,
-        activeSet,
+        planner,
       )
       globalIndex += rightMeasure.pending.length
       const leftMeasure = buildMeasureRender(
@@ -429,7 +438,7 @@ export async function renderGrandStaff(
         leftClef,
         leftEvents.get(measure) ?? [],
         globalIndex,
-        activeSet,
+        planner,
       )
       globalIndex += leftMeasure.pending.length
 

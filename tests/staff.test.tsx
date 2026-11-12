@@ -129,6 +129,41 @@ describe('renderStaff con VexFlow', () => {
     expect(container.querySelector('svg')).not.toBeNull()
   })
 
+  it('no enciende todas las repeticiones cuando solo hay MIDI activo', async () => {
+    const container = document.createElement('div')
+    const result = await renderStaff(container, {
+      measures: [
+        { id: 'ev.1', pitches: [parsePitch('C4')] },
+        { id: 'ev.2', pitches: [parsePitch('C4')] },
+        { id: 'ev.3', pitches: [parsePitch('C4')] },
+      ],
+      activeNotes: [60],
+    })
+    expect(result.notes.map((note) => note.highlighted)).toEqual([
+      true,
+      false,
+      false,
+    ])
+  })
+
+  it('elige la ocurrencia repetida cuyo id está activo', async () => {
+    const container = document.createElement('div')
+    const result = await renderStaff(container, {
+      measures: [
+        { id: 'ev.1', pitches: [parsePitch('C4')] },
+        { id: 'ev.2', pitches: [parsePitch('C4')] },
+        { id: 'ev.3', pitches: [parsePitch('C4')] },
+      ],
+      activeNotes: [60],
+      activeIds: ['ev.2'],
+    })
+    expect(result.notes.map((note) => note.highlighted)).toEqual([
+      false,
+      true,
+      false,
+    ])
+  })
+
   it('renderiza las 15 armaduras sin lanzar', async () => {
     const containers: HTMLDivElement[] = []
     for (const key of [

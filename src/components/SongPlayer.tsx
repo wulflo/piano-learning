@@ -24,6 +24,7 @@ export function SongPlayer({ song, engine, audio }: SongPlayerProps) {
   const { t } = useSettings()
   const [playing, setPlaying] = useState(false)
   const [activeNotes, setActiveNotes] = useState<ReadonlyArray<number>>([])
+  const [activeIds, setActiveIds] = useState<ReadonlyArray<string>>([])
   const [error, setError] = useState<string | null>(null)
   const playingRef = useRef(false)
   playingRef.current = playing
@@ -44,6 +45,7 @@ export function SongPlayer({ song, engine, audio }: SongPlayerProps) {
     if (!audio.isPlaying) {
       setPlaying(false)
       setActiveNotes([])
+      setActiveIds([])
     }
   }, [audio.isPlaying])
 
@@ -51,6 +53,7 @@ export function SongPlayer({ song, engine, audio }: SongPlayerProps) {
     engine.stop()
     setPlaying(false)
     setActiveNotes([])
+    setActiveIds([])
     setError(null)
   }, [song.id, engine])
 
@@ -64,6 +67,7 @@ export function SongPlayer({ song, engine, audio }: SongPlayerProps) {
     engine.stop()
     setPlaying(false)
     setActiveNotes([])
+    setActiveIds([])
   }
 
   const play = () => {
@@ -77,15 +81,20 @@ export function SongPlayer({ song, engine, audio }: SongPlayerProps) {
     }
     setError(null)
     setActiveNotes([])
+    setActiveIds([])
     setPlaying(true)
     void engine
       .playTimeline(timeline, {
         duration: timelineDuration(timeline),
-        onEvent: (event) => setActiveNotes(event.midis),
+        onEvent: (event) => {
+          setActiveNotes(event.midis)
+          setActiveIds(event.label === undefined ? [] : [event.label])
+        },
       })
       .catch((reason: unknown) => {
         setPlaying(false)
         setActiveNotes([])
+        setActiveIds([])
         setError(
           t('songs.player.audioError', {
             message: reason instanceof Error ? reason.message : String(reason),
@@ -122,6 +131,7 @@ export function SongPlayer({ song, engine, audio }: SongPlayerProps) {
         left={song.left}
         label={song.title}
         activeNotes={activeNotes}
+        activeIds={activeIds}
         className="song-player-staff"
       />
       {error !== null ? (

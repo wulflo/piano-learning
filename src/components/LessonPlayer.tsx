@@ -103,6 +103,7 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
             engine={engine}
             audio={audio}
             activeNotes={audio.activeNotes}
+            activeLabel={audio.activeLabel}
             onPlay={playTimeline}
             onPlayMidis={playMidis}
           />
@@ -133,6 +134,7 @@ interface LessonSectionViewProps {
   engine: AudioEngine
   audio: AudioEngineState
   activeNotes: ReadonlyArray<number>
+  activeLabel?: string
   onPlay: (timeline: TimelineEvent[]) => void
   onPlayMidis: (midis: readonly number[]) => void
 }
@@ -143,6 +145,7 @@ function LessonSectionView({
   engine,
   audio,
   activeNotes,
+  activeLabel,
   onPlay,
   onPlayMidis,
 }: LessonSectionViewProps) {
@@ -237,6 +240,7 @@ function LessonSectionView({
             timeSignature={`${section.score.timeSignature.numerator}/${section.score.timeSignature.denominator}`}
             label={sectionTitle(section, locale)}
             activeNotes={activeNotes}
+            activeIds={activeLabel === undefined ? [] : [activeLabel]}
             onNoteClick={({ midis: clicked }) =>
               onPlay(
                 noteTimeline(clicked[0] ?? 60, {

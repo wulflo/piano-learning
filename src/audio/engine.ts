@@ -29,6 +29,8 @@ export interface AudioEngineState {
   isPlaying: boolean
   isMetronome: boolean
   activeNotes: number[]
+  /** Id del evento del timeline que suena, si lo tiene. */
+  activeLabel?: string
   error: string | null
   tempo: number
   volumeDb: number
@@ -228,11 +230,26 @@ export class AudioEngine {
   }
 
   async noteOn(midi: number): Promise<void> {
-    await this.ensureStarted()
-    if (!this.adapter) return
+    // La tecla se marca como mantenida antes de esperar al contexto de audio.
+    // Así, si se suelta mientras el audio todavía está arrancando, `noteOff`
+    // encuentra la nota y no queda trabada al terminar `ensureStarted`.
     this.held.set(midi, (this.held.get(midi) ?? 0) + 1)
+    this.emit({ activeNotes: [...this.held.keys()], activeLabel: undefined })
+
+    try {
+      await this.ensureStarted()
+    } catch (error) {
+      const count = this.held.get(midi) ?? 0
+      if (count <= 1) this.held.delete(midi)
+      else this.held.set(midi, count - 1)
+      this.emit({ activeNotes: [...this.held.keys()], activeLabel: undefined })
+      throw error
+    }
+
+    if (!this.adapter) return
+    // Se soltó mientras se creaba el contexto: no hay nada que reproducir.
+    if (!this.held.has(midi)) return
     this.adapter.noteOn(midi)
-    this.emit({ activeNotes: [...this.held.keys()] })
   }
 
   noteOff(midi: number): void {
@@ -243,7 +260,7 @@ export class AudioEngine {
     }
     this.held.delete(midi)
     this.adapter?.noteOff(midi)
-    this.emit({ activeNotes: [...this.held.keys()] })
+    this.emit({ activeNotes: [...this.held.keys()], activeLabel: undefined })
   }
 
   async playNote(midi: number, options: NoteOptions = {}): Promise<void> {
@@ -317,7 +334,7 @@ export class AudioEngine {
       const token = ++sequence.token
       const timer = this.scheduler.setTimeout(() => {
         if (this.sequence !== sequence || sequence.finished) return
-        this.emit({ activeNotes: [...event.midis] })
+        this.emit({ activeNotes: [...event.midis], activeLabel: event.label })
         sequence.onEvent?.(event, index)
       }, delay * 1000)
       sequence.timers.push(timer)
@@ -327,7 +344,7 @@ export class AudioEngine {
         () => {
           if (this.sequence !== sequence || sequence.finished) return
           if (sequence.token !== token) return
-          this.emit({ activeNotes: [] })
+          this.emit({ activeNotes: [], activeLabel: undefined })
         },
         Math.max(0, (event.time + event.duration - elapsed) * 1000),
       )
@@ -372,7 +389,11 @@ export class AudioEngine {
     sequence.timers = []
     this.adapter?.releaseAll()
     this.sequence = null
-    this.emit({ isPlaying: false, activeNotes: [...this.held.keys()] })
+    this.emit({
+      isPlaying: false,
+      activeNotes: [...this.held.keys()],
+      activeLabel: undefined,
+    })
   }
 
   /** Detiene la secuencia actual sin tocar el metrónomo. */
@@ -381,7 +402,11 @@ export class AudioEngine {
     if (!sequence) {
       if (this.state.isPlaying) {
         this.adapter?.releaseAll()
-        this.emit({ isPlaying: false, activeNotes: [...this.held.keys()] })
+        this.emit({
+          isPlaying: false,
+          activeNotes: [...this.held.keys()],
+          activeLabel: undefined,
+        })
       }
       return
     }
@@ -394,7 +419,11 @@ export class AudioEngine {
     sequence.timers = []
     this.adapter?.releaseAll()
     this.sequence = null
-    this.emit({ isPlaying: false, activeNotes: [...this.held.keys()] })
+    this.emit({
+      isPlaying: false,
+      activeNotes: [...this.held.keys()],
+      activeLabel: undefined,
+    })
   }
 
   async startMetronome(options: MetronomeOptions = {}): Promise<void> {
@@ -465,7 +494,7 @@ export class AudioEngine {
     for (const midi of this.held.keys()) this.adapter?.noteOff(midi)
     this.held.clear()
     this.adapter?.releaseAll()
-    this.emit({ activeNotes: [], isPlaying: false })
+    this.emit({ activeNotes: [], isPlaying: false, activeLabel: undefined })
   }
 
   dispose(): void {
@@ -481,6 +510,7 @@ export class AudioEngine {
       isPlaying: false,
       isMetronome: false,
       activeNotes: [],
+      activeLabel: undefined,
     })
   }
 }

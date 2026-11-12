@@ -471,6 +471,9 @@ export function Demo() {
         zoom={zoom}
         label={t('demo.selection')}
         activeNotes={audio.activeNotes}
+        activeIds={
+          audio.activeLabel === undefined ? [] : [audio.activeLabel]
+        }
         onNoteClick={({ midis }) => playMidis(midis)}
       />
 

@@ -113,6 +113,23 @@ describe('AudioEngine', () => {
     expect(events).toContain(62)
   })
 
+  it('expone el id del evento que suena para el resaltado', async () => {
+    vi.useFakeTimers()
+    const { adapter } = fakeAdapter()
+    const engine = new AudioEngine({ createAdapter: async () => adapter })
+    await engine.ensureStarted()
+
+    await engine.playTimeline(
+      [{ time: 0, duration: 0.5, midis: [60], label: 'ev.1' }],
+      { duration: 1 },
+    )
+    vi.advanceTimersByTime(0)
+    expect(engine.getState().activeLabel).toBe('ev.1')
+
+    vi.advanceTimersByTime(500)
+    expect(engine.getState().activeLabel).toBeUndefined()
+  })
+
   it('detener limpia temporizadores, resaltados y notas', async () => {
     vi.useFakeTimers()
     const { adapter } = fakeAdapter()
@@ -182,6 +199,26 @@ describe('AudioEngine', () => {
     await engine.noteOn(62)
     engine.stop()
     expect(adapter.noteOff).toHaveBeenCalledWith(62)
+    expect(engine.getState().activeNotes).toEqual([])
+  })
+
+  it('no deja trabada una tecla soltada mientras arranca el audio', async () => {
+    const { adapter } = fakeAdapter()
+    let start!: (adapter: AudioAdapter) => void
+    const engine = new AudioEngine({
+      createAdapter: () =>
+        new Promise<AudioAdapter>((resolve) => {
+          start = resolve
+        }),
+    })
+
+    const pressed = engine.noteOn(60)
+    // La persona suelta la tecla antes de que el contexto esté listo.
+    engine.noteOff(60)
+    start(adapter)
+    await pressed
+
+    expect(adapter.noteOn).not.toHaveBeenCalled()
     expect(engine.getState().activeNotes).toEqual([])
   })
 

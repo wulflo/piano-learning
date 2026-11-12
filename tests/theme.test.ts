@@ -1,7 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
-import { NOTE_COLOR_FALLBACK } from '../src/staff/render'
 import { DEFAULT_SETTINGS, normalizeSettings } from '../src/state/settings'
 
 /**
@@ -62,6 +61,8 @@ const dark = variables(block(":root[data-theme='dark']"))
 const darkSystem = variables(block(":root:not([data-theme='light'])"))
 const staffBgLight = light['staff-bg']
 const staffBgDark = dark['staff-bg']
+const staffInkLight = light['staff-ink']
+const staffInkDark = dark['staff-ink']
 
 const pairs = [
   ['text', 'bg'],
@@ -115,20 +116,27 @@ describe('F2-064 — Tema claro/oscuro con persistencia', () => {
   })
 })
 
-describe('F3-004a — Fondo claro del pentagrama en tema oscuro', () => {
-  it('pinta el área del pentagrama con fondo claro tipo papel en los dos temas', () => {
+describe('F3-004a — El pentagrama se adapta al tema', () => {
+  it('usa papel claro de día y una superficie oscura de noche', () => {
     expect(staffBgLight).toBe('#ffffff')
-    expect(staffBgDark).toBe('#f7f5f0')
+    expect(staffBgDark).not.toBe('#ffffff')
+    expect(luminance(staffBgDark)).toBeLessThan(0.1)
   })
 
   it('usa el fondo de pentagrama en el contenedor scrolleable', () => {
     expect(block('.staff-scroll {')).toContain('background: var(--staff-bg)')
   })
 
-  it('mantiene contraste AA entre las notas y el fondo del pentagrama', () => {
-    for (const background of [staffBgLight, staffBgDark]) {
-      expect(contrast(NOTE_COLOR_FALLBACK, background)).toBeGreaterThanOrEqual(4.5)
-    }
+  it('colorea las notas con los tokens de tinta y acento', () => {
+    expect(block('.staff-canvas svg {')).toContain('fill: var(--staff-ink)')
+    expect(block(".staff-canvas [data-highlighted='true'] {")).toContain(
+      'fill: var(--staff-accent)',
+    )
+  })
+
+  it('mantiene contraste AA entre la tinta y el fondo en cada tema', () => {
+    expect(contrast(staffInkLight, staffBgLight)).toBeGreaterThanOrEqual(4.5)
+    expect(contrast(staffInkDark, staffBgDark)).toBeGreaterThanOrEqual(4.5)
   })
 })
 
@@ -187,8 +195,21 @@ describe('F6-036 — Teclado estable y resaltado legible', () => {
 
 describe('F6-036 — El tema claro no hereda piezas del sistema oscuro', () => {
   it('limita el teclado y los errores oscuros al tema oscuro', () => {
-    expect(css).toContain(":root:not([data-theme='light']) .piano-key-white")
+    expect(block('.piano-key-white {')).toContain(
+      'background: var(--piano-white)',
+    )
+    expect(dark['piano-white']).not.toBe(light['piano-white'])
+    expect(dark['piano-white']).toBe(darkSystem['piano-white'])
     expect(css).toContain(":root:not([data-theme='light']) .staff-error")
     expect(css).toContain(":root:not([data-theme='light']) .audio-error")
+  })
+
+  it('atenúa el resaltado de las teclas en el tema oscuro', () => {
+    const darkBlock = block(":root[data-theme='dark']")
+    expect(darkBlock).toContain('--piano-highlight-white:')
+    expect(darkBlock).toContain('--piano-highlight-black:')
+    expect(block(".piano-key-white[data-highlighted='true']:not(.is-pressed) {")).toContain(
+      'background: var(--piano-highlight-white)',
+    )
   })
 })

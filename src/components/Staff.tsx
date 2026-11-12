@@ -17,6 +17,7 @@ export interface StaffProps {
   zoom?: number
   label?: string
   activeNotes?: ReadonlyArray<number>
+  activeIds?: ReadonlyArray<string>
   onNoteClick?: (payload: { index: number; midis: number[]; id?: string }) => void
   className?: string
 }
@@ -31,6 +32,7 @@ export function Staff({
   zoom = 1,
   label,
   activeNotes = [],
+  activeIds = [],
   onNoteClick,
   className,
 }: StaffProps) {
@@ -71,6 +73,7 @@ export function Staff({
   }, [])
 
   const activeKey = mergedActiveNotes.join(',')
+  const activeIdKey = activeIds.join(',')
 
   useEffect(() => {
     let cancelled = false
@@ -87,6 +90,7 @@ export function Staff({
       height: STAFF_HEIGHT,
       notation: settings.notation,
       activeNotes: mergedActiveNotes,
+      activeIds,
       onNoteClick: (payload) => onNoteClickRef.current?.(payload),
     })
       .then((result) => {
@@ -106,7 +110,7 @@ export function Staff({
     }
     // activeKey resume el contenido de activeNotes sin depender de su identidad.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [measures, clef, keySignature, timeSignature, width, settings.notation, activeKey])
+  }, [measures, clef, keySignature, timeSignature, width, settings.notation, activeKey, activeIdKey])
 
   const notesText = useMemo(
     () => describeStaffNotes(measures, settings.notation) || t('staff.noNotes'),
