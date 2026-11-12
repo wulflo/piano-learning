@@ -2379,3 +2379,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: se alineó el criterio de dominio público con ADR-011 y se referenció `REUSE.toml`/`LICENSES/` para que un aporte nuevo no rompa la auditoría REUSE.
 - Limitaciones: el DCO se apoya en la convención `git commit -s`; no hay un workflow de CI que rechace commits sin firma (no se piden remotos ni Actions nuevas en esta ronda).
 - Próximo paso: F6-046 (auditoría de similitud de n-gramas del texto de las lecciones).
+
+## 2026-11-15T04:30:00-03:00 · F6-046
+
+- Problema: no había forma de comprobar automáticamente que el texto de las lecciones no estuviera copiado de obras de referencia. Además, los textos de referencia no pueden versionarse (licencias de terceros y tamaño).
+- Acción: `scripts/audit-text-similarity.mjs` extrae todas las cadenas de las fichas JSON de `content/` con su ruta de campo e id, normaliza (minúsculas, sin acentos ni puntuación) y busca n-gramas de 8 palabras contra los textos de `refs/`, fusionando n-gramas consecutivos en un pasaje. Expone `npm run audit:text`, salida humana, `--json`, `--markdown` y `--write docs/AUDITORIA.md` con marcadores `audit:text`. `refs/` se agregó a `.gitignore`. Se documentó en ENTORNO.md y como ADR-047.
+- Resultado: typecheck, suite 252 archivos / 1746 tests y build verdes (JS inicial 272,17 kB gzip < 300 kB). `npm run audit:text` informa NO VERIFICABLE y sale con 0 sin `refs/`; `npm run audit:code` sigue con 0 encabezados ajenos. Commit `812518f`.
+- Correcciones: se incluyen los campos `*En` además de los `*Es` porque las referencias (Open Music Theory) están en inglés; los tests usan fixtures sintéticos en `/tmp` y no tocan `refs/`.
+- Limitaciones: el n-grama exacto no detecta parafraseo; el resultado depende de las referencias descargadas. `refs/` está vacío en este clon, así que la comparación real queda para F6-047.
+- Próximo paso: F6-047 (descargar Open Music Theory a `refs/` y volcar el resultado a docs/AUDITORIA.md).

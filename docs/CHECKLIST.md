@@ -4,11 +4,11 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** F6-046
-- **Última verificada en verde:** F6-045 (`12afa5d`, 2026-11-15T04:15:00-03:00)
+- **Tarea actual:** F6-047
+- **Última verificada en verde:** F6-046 (`812518f`, 2026-11-15T04:30:00-03:00)
 - **Actualizado:** 2026-11-15T04:30:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-046 en curso: `scripts/audit-text-similarity.mjs` y `npm run audit:text` (n-gramas de 8 palabras contra `refs/`, que no se versiona). Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-046 cerrada: `npm run audit:text` compara n-gramas de 8 palabras de `content/` con `refs/` (no versionada); sin refs informa NO VERIFICABLE. Sigue F6-047 (descargar Open Music Theory y volcar el resultado). Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1612,9 +1612,10 @@ Quedó funcionando:
   - Aceptación: CONTRIBUTING.md pide declarar el origen y la licencia de todo lo aportado (firma DCO) y prohíbe pegar texto, audio o partituras de terceros.
   - Deps: F6-044 · Red: no
   - Commit: 12afa5d · 2026-11-15T04:15:00-03:00
-- [~] **F6-046** — Auditar la similitud de n-gramas del texto de las lecciones
+- [x] **F6-046** — Auditar la similitud de n-gramas del texto de las lecciones
   - Aceptación: scripts/audit-text-similarity.mjs y `npm run audit:text` calculan coincidencias de n-gramas de 8 palabras entre el texto de content/ y los textos de referencia de refs/ (en .gitignore, nunca versionada); con tests con fixtures sintéticos y sin red.
   - Deps: F6-045 · Red: no
+  - Commit: 812518f · 2026-11-15T04:30:00-03:00
 - [ ] **F6-047** — Comparar el texto de las lecciones con Open Music Theory [NET]
   - Aceptación: se descarga a refs/ el texto de Open Music Theory (CC BY-SA 4.0) solo para comparar; se ejecuta el script y el resultado (lección, ejercicio y pasaje coincidente) se vuelca a docs/AUDITORIA.md.
   - Deps: F6-046 · Red: sí · [NET]

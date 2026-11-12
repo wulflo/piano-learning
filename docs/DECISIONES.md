@@ -1237,3 +1237,15 @@ consecuencias).
 - **Alternativas:** encabezados SPDX en cada archivo (los marcaría `audit:code` como ajenos y tocaría 1354 archivos), `.reuse/dep5` (formato obsoleto que REUSE desaconseja), o no cumplir REUSE (deja la licencia de cada archivo sin declarar de forma estándar).
 - **Consecuencias:** `reuse lint` queda en verde con 1354/1354 archivos cubiertos y tres licencias usadas; cualquier archivo nuevo debe quedar bajo una de las anotaciones de `REUSE.toml`. La atribución de las muestras de audio no cambia.
 - **Limitación:** `reuse` no entra en la suite offline; `tests/reuse.test.ts` solo comprueba la estructura de `REUSE.toml`, que los textos existen y que los identificadores usados tienen su archivo en `LICENSES/`, no corre el linter real. La herramienta es GPL-3.0 y se ejecuta fuera del árbol del proyecto (no se distribuye con la app).
+
+## ADR-047 — Auditoría de originalidad por n-gramas de 8 palabras contra `refs/` sin versionar
+
+- **Contexto:** F6-046/F6-047 piden comprobar que el texto de las lecciones no esté copiado de obras de referencia (Open Music Theory, CC BY-SA 4.0). Había que decidir cómo extraer el texto, qué unidad comparar y dónde dejar los textos de referencia sin inflar el repositorio ni comprometer licencias.
+- **Decisión:**
+  - `scripts/audit-text-similarity.mjs` recorre cada ficha JSON de `content/` y extrae **todas** las cadenas de texto con su ruta de campo (`sections[0].bodyEs`), incluidas las `*En`, porque las referencias suelen estar en inglés. No filtra por idioma.
+  - La comparación es por **n-gramas de 8 palabras** sobre texto normalizado (minúsculas, sin acentos y sin puntuación). Una coincidencia de 8 palabras es una señal fuerte de copia; los n-gramas consecutivos se fusionan en un pasaje para reportar la secuencia completa.
+  - Los textos de referencia viven en `refs/`, que está en `.gitignore` y **nunca se versiona**: se descargan solo para comparar. Si `refs/` no existe o está vacío, el comando informa NO VERIFICABLE y sale con 0, así que es seguro encadenarlo offline.
+  - El script puede volcar su sección a `docs/AUDITORIA.md` con `--write`, con marcadores propios (`audit:text`), sin pisar la sección de F6-043.
+- **Alternativas:** comparar por líneas o por párrafos completos (demasiado estricto: no detecta reescrituras parciales), usar 5 palabras (demasiados falsos positivos por frases comunes), o versionar los textos de referencia (sube el repositorio y mezcla licencias de terceros).
+- **Consecuencias:** el informe lista archivo, campo, id y pasaje coincidente para que F6-048 reescriba lo señalado. La auditoría es offline y determinista; los tests usan fixtures sintéticos en `/tmp`.
+- **Limitación:** el n-grama exacto no detecta parafraseo ni sinónimos; solo copia literal (o casi, tras normalizar). El resultado depende de qué referencias se descarguen a `refs/`.
