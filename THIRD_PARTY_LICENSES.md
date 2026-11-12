@@ -1,7 +1,7 @@
 # Licencias de terceros — Piano Today
 
 Inventario de dependencias, muestras de audio y contenido de terceros.
-Generado el 2026-11-14 (F6-018) desde `package-lock.json` y `content/repertoire/`.
+Generado el 2026-11-15 (F6-018, regenerado en F6-042) desde `package-lock.json` y `content/repertoire/`.
 Para regenerar la tabla completa:
 
 ```bash
@@ -38,6 +38,7 @@ node scripts/third-party-licenses.mjs
 | axe-core | 4.14.0 | MPL-2.0 |
 | fake-indexeddb | 6.2.8 | Apache-2.0 |
 | jsdom | 31.0.0 | MIT |
+| license-checker | 25.0.1 | BSD-3-Clause |
 | tsx | 4.23.15 | MIT |
 | typescript | 7.0.2 | Apache-2.0 |
 | vite | 8.3.6 | MIT |
@@ -171,7 +172,7 @@ en el paquete original.
 | @esbuild/win32-ia32 | 0.28.2 | MIT |
 | @esbuild/win32-x64 | 0.28.2 | MIT |
 | @exodus/bytes | 1.16.0 | MIT |
-| @isaacs/cliui | 9.0.0 | BlueOak-1.0.0 |
+| @isaacs/nonrecursive-glob-match | 1.1.0 | BlueOak-1.0.0 |
 | @jridgewell/gen-mapping | 0.3.13 | MIT |
 | @jridgewell/remapping | 2.3.5 | MIT |
 | @jridgewell/resolve-uri | 3.1.2 | MIT |
@@ -293,13 +294,17 @@ en el paquete original.
 | @vitejs/plugin-react | 6.2.1 | MIT |
 | @vitest/mocker | 5.1.0 | MIT |
 | @vitest/spy | 5.1.0 | MIT |
+| abbrev | 1.1.1 | ISC |
 | acorn | 8.19.0 | MIT |
 | ajv | 8.20.0 | MIT |
 | ansi-regex | 5.0.1 | MIT |
 | ansi-styles | 5.2.0 | MIT |
+| ansi-styles | 3.2.1 | MIT |
 | aria-query | 5.3.0 | Apache-2.0 |
 | array-buffer-byte-length | 1.0.2 | MIT |
+| array-find-index | 1.0.2 | MIT |
 | arraybuffer.prototype.slice | 1.0.4 | MIT |
+| asap | 2.0.6 | MIT |
 | assertion-error | 2.0.1 | MIT |
 | async | 3.2.6 | MIT |
 | async-function | 1.0.0 | MIT |
@@ -317,6 +322,7 @@ en el paquete original.
 | bcp-47-match | 2.0.3 | MIT |
 | brace-expansion | 5.0.13 | MIT |
 | brace-expansion | 2.1.8 | MIT |
+| brace-expansion | 1.1.22 | MIT |
 | browserslist | 4.29.5 | MIT |
 | buffer-from | 1.1.2 | MIT |
 | call-bind | 1.0.9 | MIT |
@@ -324,11 +330,14 @@ en el paquete original.
 | call-bound | 1.0.4 | MIT |
 | caniuse-lite | 1.0.30001826 | CC-BY-4.0 |
 | chai | 6.3.0 | MIT |
+| chalk | 2.4.2 | MIT |
+| color-convert | 1.9.3 | MIT |
+| color-name | 1.1.3 | MIT |
 | commander | 2.20.3 | MIT |
 | common-tags | 1.8.2 | MIT |
+| concat-map | 0.0.1 | MIT |
 | convert-source-map | 2.0.0 | MIT |
 | core-js-compat | 3.51.0 | MIT |
-| cross-spawn | 7.0.6 | MIT |
 | crypto-random-string | 2.0.0 | MIT |
 | css.escape | 1.5.1 | MIT |
 | csstype | 3.2.3 | MIT |
@@ -337,6 +346,8 @@ en el paquete original.
 | data-view-byte-length | 1.0.2 | MIT |
 | data-view-byte-offset | 1.0.1 | MIT |
 | debug | 4.4.3 | MIT |
+| debug | 3.2.7 | MIT |
+| debuglog | 1.0.1 | MIT |
 | decimal.js | 10.6.0 | MIT |
 | deepmerge | 4.3.1 | MIT |
 | define-data-property | 1.1.4 | MIT |
@@ -344,6 +355,7 @@ en el paquete original.
 | dequal | 2.0.3 | MIT |
 | detect-libc | 2.1.2 | Apache-2.0 |
 | dexie | 4.4.7 | Apache-2.0 |
+| dezalgo | 1.0.4 | ISC |
 | dom-accessibility-api | 0.6.3 | MIT |
 | dom-accessibility-api | 0.5.16 | MIT |
 | dunder-proto | 1.0.1 | MIT |
@@ -360,6 +372,7 @@ en el paquete original.
 | es-to-primitive | 1.3.4 | MIT |
 | esbuild | 0.28.2 | MIT |
 | escalade | 3.2.0 | MIT |
+| escape-string-regexp | 1.0.5 | MIT |
 | estree-walker | 2.0.2 | MIT |
 | estree-walker | 3.0.3 | MIT |
 | esutils | 2.0.3 | BSD-2-Clause |
@@ -372,8 +385,8 @@ en el paquete original.
 | fdir | 6.5.0 | MIT |
 | filelist | 1.0.6 | Apache-2.0 |
 | for-each | 0.3.5 | MIT |
-| foreground-child | 3.3.1 | ISC |
 | fs-extra | 9.1.0 | MIT |
+| fs.realpath | 1.0.0 | ISC |
 | fsevents | 2.3.3 | MIT |
 | function-bind | 1.1.2 | MIT |
 | function.prototype.name | 1.2.0 | MIT |
@@ -384,19 +397,24 @@ en el paquete original.
 | get-own-enumerable-property-symbols | 3.0.2 | ISC |
 | get-proto | 1.0.1 | MIT |
 | get-symbol-description | 1.1.0 | MIT |
-| glob | 11.1.0 | BlueOak-1.0.0 |
+| glob | 14.0.6 | BlueOak-1.0.0 |
+| glob | 7.2.3 | ISC |
 | globalthis | 1.0.4 | MIT |
 | gopd | 1.2.0 | MIT |
 | graceful-fs | 4.2.11 | ISC |
 | has-bigints | 1.1.0 | MIT |
+| has-flag | 3.0.0 | MIT |
 | has-property-descriptors | 1.0.2 | MIT |
 | has-proto | 1.2.0 | MIT |
 | has-symbols | 1.1.0 | MIT |
 | has-tostringtag | 1.0.2 | MIT |
 | hasown | 2.0.4 | MIT |
+| hosted-git-info | 2.8.9 | ISC |
 | html-encoding-sniffer | 7.0.0 | MIT |
 | idb | 7.1.1 | ISC |
 | indent-string | 4.0.0 | MIT |
+| inflight | 1.0.6 | ISC |
+| inherits | 2.0.4 | ISC |
 | internal-slot | 1.1.0 | MIT |
 | is-alphabetical | 2.0.1 | MIT |
 | is-alphanumerical | 2.0.1 | MIT |
@@ -430,17 +448,17 @@ en el paquete original.
 | is-weakref | 1.1.1 | MIT |
 | is-weakset | 2.0.4 | MIT |
 | isarray | 2.0.5 | MIT |
-| isexe | 2.0.0 | ISC |
-| jackspeak | 4.2.3 | BlueOak-1.0.0 |
 | jake | 10.9.4 | Apache-2.0 |
 | js-tokens | 4.0.0 | MIT |
 | jsdom | 31.0.0 | MIT |
 | jsesc | 3.1.0 | MIT |
+| json-parse-even-better-errors | 2.3.1 | MIT |
 | json-schema-traverse | 1.0.0 | MIT |
 | json5 | 2.2.3 | MIT |
 | jsonfile | 6.2.1 | MIT |
 | jsonpointer | 5.0.1 | MIT |
 | leven | 3.1.0 | MIT |
+| license-checker | 25.0.1 | BSD-3-Clause |
 | lightningcss | 1.33.0 | MPL-2.0 |
 | lightningcss-android-arm64 | 1.33.0 | MPL-2.0 |
 | lightningcss-darwin-arm64 | 1.33.0 | MPL-2.0 |
@@ -462,22 +480,31 @@ en el paquete original.
 | math-intrinsics | 1.1.0 | MIT |
 | min-indent | 1.0.1 | MIT |
 | minimatch | 5.1.9 | ISC |
-| minimatch | 10.2.6 | BlueOak-1.0.0 |
+| minimatch | 11.0.8 | BlueOak-1.0.0 |
+| minimatch | 3.1.5 | ISC |
+| minimist | 1.2.8 | MIT |
 | minipass | 7.1.3 | BlueOak-1.0.0 |
+| mkdirp | 0.5.6 | MIT |
 | ms | 2.1.3 | MIT |
 | nanoid | 3.3.20 | MIT |
 | node-releases | 2.0.63 | MIT |
+| nopt | 4.0.3 | ISC |
+| normalize-package-data | 2.5.0 | BSD-2-Clause |
+| npm-normalize-package-bin | 1.0.1 | ISC |
 | object-inspect | 1.13.4 | MIT |
 | object-keys | 1.1.1 | MIT |
 | object.assign | 4.1.7 | MIT |
 | obug | 3.0.0 | MIT |
+| once | 1.4.0 | ISC |
+| os-homedir | 1.0.2 | MIT |
+| os-tmpdir | 1.0.2 | MIT |
+| osenv | 0.1.5 | ISC |
 | own-keys | 1.0.2 | MIT |
-| package-json-from-dist | 1.0.1 | BlueOak-1.0.0 |
 | parse5 | 8.1.1 | MIT |
 | parse5-parser-stream | 8.1.1 | MIT |
-| path-key | 3.1.1 | MIT |
+| path-is-absolute | 1.0.1 | MIT |
 | path-parse | 1.0.7 | MIT |
-| path-scurry | 2.0.2 | BlueOak-1.0.0 |
+| path-scurry | 3.0.0 | BlueOak-1.0.0 |
 | picocolors | 1.1.1 | ISC |
 | picomatch | 4.0.7 | MIT |
 | playwright | 1.65.0 | Apache-2.0 |
@@ -491,6 +518,9 @@ en el paquete original.
 | react | 19.3.1 | MIT |
 | react-dom | 19.3.1 | MIT |
 | react-is | 17.0.2 | MIT |
+| read-installed | 4.0.3 | ISC |
+| read-package-json | 2.1.2 | ISC |
+| readdir-scoped-modules | 1.1.0 | ISC |
 | redent | 3.0.0 | MIT |
 | reflect.getprototypeof | 1.0.10 | MIT |
 | regenerate | 1.5.0 | MIT |
@@ -508,23 +538,29 @@ en el paquete original.
 | safe-regex-test | 1.1.0 | MIT |
 | saxes | 6.0.0 | ISC |
 | scheduler | 0.28.0 | MIT |
+| semver | 5.7.3 | ISC |
 | semver | 6.3.2 | ISC |
 | serialize-javascript | 7.1.4 | BSD-3-Clause |
 | set-function-length | 1.2.2 | MIT |
 | set-function-name | 2.0.2 | MIT |
 | set-proto | 1.0.0 | MIT |
-| shebang-command | 2.0.0 | MIT |
-| shebang-regex | 3.0.0 | MIT |
 | side-channel | 1.1.1 | MIT |
 | side-channel-list | 1.0.1 | MIT |
 | side-channel-map | 1.0.1 | MIT |
 | side-channel-weakmap | 1.0.2 | MIT |
-| signal-exit | 4.1.0 | ISC |
+| slide | 1.1.6 | ISC |
 | smob | 1.6.2 | MIT |
 | source-map | 0.8.0 | BSD-3-Clause |
 | source-map | 0.6.1 | BSD-3-Clause |
 | source-map-js | 1.2.2 | BSD-3-Clause |
 | source-map-support | 0.5.21 | MIT |
+| spdx-compare | 1.0.0 | MIT |
+| spdx-correct | 3.2.0 | Apache-2.0 |
+| spdx-exceptions | 2.5.0 | CC-BY-3.0 |
+| spdx-expression-parse | 3.0.1 | MIT |
+| spdx-license-ids | 3.0.24 | CC0-1.0 |
+| spdx-ranges | 2.1.1 | (MIT AND CC-BY-3.0) |
+| spdx-satisfies | 4.0.1 | MIT |
 | standardized-audio-context | 25.3.77 | MIT |
 | std-env | 4.3.0 | MIT |
 | stop-iteration-iterator | 1.1.0 | MIT |
@@ -535,6 +571,7 @@ en el paquete original.
 | stringify-object | 3.3.0 | BSD-2-Clause |
 | strip-comments | 2.0.1 | MIT |
 | strip-indent | 3.0.0 | MIT |
+| supports-color | 5.5.0 | MIT |
 | supports-preserve-symlinks-flag | 1.0.0 | MIT |
 | temp-dir | 2.0.0 | MIT |
 | tempy | 0.6.0 | MIT |
@@ -548,6 +585,7 @@ en el paquete original.
 | tone | 15.1.22 | MIT |
 | tough-cookie | 6.1.0 | BSD-3-Clause |
 | tr46 | 7.0.0 | MIT |
+| treeify | 1.1.0 | MIT |
 | ts-fsrs | 6.0.0 | MIT |
 | tslib | 2.9.1 | 0BSD |
 | tsx | 4.23.15 | MIT |
@@ -568,6 +606,8 @@ en el paquete original.
 | universalify | 2.0.1 | MIT |
 | upath | 1.2.0 | MIT |
 | update-browserslist-db | 1.3.4 | MIT |
+| util-extend | 1.0.3 | MIT |
+| validate-npm-package-license | 3.0.4 | Apache-2.0 |
 | vexflow | 5.0.0 | MIT |
 | vite | 8.3.6 | MIT |
 | vite-plugin-pwa | 2.0.0 | MIT |
@@ -576,7 +616,6 @@ en el paquete original.
 | webidl-conversions | 8.0.1 | BSD-2-Clause |
 | whatwg-mimetype | 5.0.0 | MIT |
 | whatwg-url | 17.3.0 | MIT |
-| which | 2.0.2 | ISC |
 | which-boxed-primitive | 1.1.1 | MIT |
 | which-builtin-type | 1.2.1 | MIT |
 | which-collection | 1.0.2 | MIT |
@@ -598,6 +637,7 @@ en el paquete original.
 | workbox-streams | 7.4.1 | MIT |
 | workbox-sw | 7.4.1 | MIT |
 | workbox-window | 7.4.1 | MIT |
+| wrappy | 1.0.2 | ISC |
 | xml-name-validator | 5.0.0 | Apache-2.0 |
 | xmlchars | 2.2.0 | MIT |
 | yallist | 3.1.1 | ISC |
@@ -607,19 +647,21 @@ en el paquete original.
 
 | Licencia | Paquetes |
 |---|---:|
+| (MIT AND CC-BY-3.0) | 1 |
 | (MIT OR CC0-1.0) | 1 |
 | 0BSD | 1 |
-| Apache-2.0 | 35 |
-| BlueOak-1.0.0 | 8 |
-| BSD-2-Clause | 6 |
-| BSD-3-Clause | 7 |
+| Apache-2.0 | 37 |
+| BlueOak-1.0.0 | 6 |
+| BSD-2-Clause | 7 |
+| BSD-3-Clause | 8 |
+| CC-BY-3.0 | 1 |
 | CC-BY-4.0 | 1 |
-| ISC | 15 |
-| MIT | 464 |
+| CC0-1.0 | 1 |
+| ISC | 29 |
+| MIT | 484 |
 | MPL-2.0 | 13 |
 
-Total: 551 paquetes (runtime y desarrollo, incluidas dependencias transitivas).
-
+Total: 590 paquetes (runtime y desarrollo, incluidas dependencias transitivas).
 
 ## Fuentes de notación y audio
 

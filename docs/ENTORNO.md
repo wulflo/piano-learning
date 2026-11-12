@@ -55,6 +55,7 @@
 | @vitejs/plugin-react | 6.2.1 | MIT | dev |
 | fake-indexeddb | 6.2.8 | Apache-2.0 | dev |
 | jsdom | 31.0.0 | MIT | dev |
+| license-checker | 25.0.1 | BSD-3-Clause | dev |
 | tsx | 4.23.15 | MIT | dev |
 | typescript | 7.0.2 | Apache-2.0 | dev |
 | vite | 8.3.6 | MIT | dev |
@@ -82,6 +83,7 @@ Todas son compatibles con distribución estática y con el código MIT del proye
   npm rebuild esbuild
   ```
   Sin ese paso Vite igual arranca, pero se aprobó para evitar fallos intermitentes.
+- `overrides.glob` fuerza `glob@^14` (advisory de seguridad) salvo en `read-package-json`, que usa `glob@^7` porque `license-checker` lo requiere con export CommonJS. La anulación por paquete evita romper la auditoría de licencias.
 - Node 26 es la versión local; el proyecto declara `engines.node >= 22.12.0` para CI y GitHub Pages.
 - TypeScript 7.0.2 es la estable actual. Si aparece una incompatibilidad con el toolchain, se documentará como ADR y se bajará a la última 5.9.x.
 
@@ -172,5 +174,7 @@ npm run build
 npm run validate:content
 npm run budget
 npm run estado
+npm run audit:audio
+npm run audit:licenses
 node scripts/fetch-samples.mjs --dry-run
 ```
