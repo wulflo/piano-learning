@@ -6,9 +6,9 @@
 
 - **Tarea actual:** F6-045
 - **Última verificada en verde:** F6-044 (`c60ed5a`, 2026-11-15T04:00:00-03:00)
-- **Actualizado:** 2026-11-15T04:00:00-03:00
+- **Actualizado:** 2026-11-15T04:10:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-044 cerrada: `REUSE.toml`, `LICENSES/` y `reuse lint` (vía `uvx`) en verde con 1354/1354 archivos. Sigue F6-045 (CONTRIBUTING.md). Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-045 en curso: escribir CONTRIBUTING.md con origen, licencia y firma DCO. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1608,7 +1608,7 @@ Quedó funcionando:
   - Aceptación: REUSE.toml, carpeta LICENSES/ y `reuse lint` en verde; si la herramienta no se puede instalar, se documenta el motivo en DECISIONES.md y la tarea queda [-] .
   - Deps: F6-043 · Red: sí · [NET]
   - Commit: c60ed5a · 2026-11-15T04:00:00-03:00
-- [ ] **F6-045** — Escribir CONTRIBUTING.md con origen, licencia y firma DCO
+- [~] **F6-045** — Escribir CONTRIBUTING.md con origen, licencia y firma DCO
   - Aceptación: CONTRIBUTING.md pide declarar el origen y la licencia de todo lo aportado (firma DCO) y prohíbe pegar texto, audio o partituras de terceros.
   - Deps: F6-044 · Red: no
 - [ ] **F6-046** — Auditar la similitud de n-gramas del texto de las lecciones
