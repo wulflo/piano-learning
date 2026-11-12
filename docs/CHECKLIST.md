@@ -6,9 +6,9 @@
 
 - **Tarea actual:** F6-046
 - **Última verificada en verde:** F6-045 (`12afa5d`, 2026-11-15T04:15:00-03:00)
-- **Actualizado:** 2026-11-15T04:15:00-03:00
+- **Actualizado:** 2026-11-15T04:30:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-045 cerrada: CONTRIBUTING.md pide origen, licencia y firma DCO y prohíbe material de terceros. Sigue F6-046 (auditoría de similitud de n-gramas). Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-046 en curso: `scripts/audit-text-similarity.mjs` y `npm run audit:text` (n-gramas de 8 palabras contra `refs/`, que no se versiona). Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1612,7 +1612,7 @@ Quedó funcionando:
   - Aceptación: CONTRIBUTING.md pide declarar el origen y la licencia de todo lo aportado (firma DCO) y prohíbe pegar texto, audio o partituras de terceros.
   - Deps: F6-044 · Red: no
   - Commit: 12afa5d · 2026-11-15T04:15:00-03:00
-- [ ] **F6-046** — Auditar la similitud de n-gramas del texto de las lecciones
+- [~] **F6-046** — Auditar la similitud de n-gramas del texto de las lecciones
   - Aceptación: scripts/audit-text-similarity.mjs y `npm run audit:text` calculan coincidencias de n-gramas de 8 palabras entre el texto de content/ y los textos de referencia de refs/ (en .gitignore, nunca versionada); con tests con fixtures sintéticos y sin red.
   - Deps: F6-045 · Red: no
 - [ ] **F6-047** — Comparar el texto de las lecciones con Open Music Theory [NET]
