@@ -5,6 +5,16 @@ import {
   sampleUrls,
 } from '../src/audio/sampler'
 
+const sample = {
+  velocity: 1,
+  bytes: 100,
+  author: 'Alexander Holm',
+  source: 'Salamander Grand Piano',
+  license: 'CC-BY-3.0',
+  licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
+  modifications: 'Sin modificaciones.',
+}
+
 const validManifest = {
   version: 1,
   instrument: 'salamander-grand-piano',
@@ -14,18 +24,16 @@ const validManifest = {
   expectedSamples: 2,
   samples: [
     {
+      ...sample,
       note: 'C4',
-      velocity: 1,
       file: 'C4.mp3',
-      bytes: 100,
       sha256: 'a'.repeat(64),
       sourceUrl: 'https://example.com/C4.mp3',
     },
     {
+      ...sample,
       note: 'D4',
-      velocity: 1,
       file: 'D4.mp3',
-      bytes: 100,
       sha256: 'b'.repeat(64),
       sourceUrl: 'https://example.com/D4.mp3',
     },

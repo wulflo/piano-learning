@@ -21,6 +21,7 @@
     "budget": "npm run build && node scripts/check-bundle.mjs",
     "fetch:samples": "node scripts/fetch-samples.mjs",
     "fetch:samples:dry": "node scripts/fetch-samples.mjs --dry-run",
+    "audit:audio": "node scripts/verify-audio.mjs",
     "estado": "node scripts/estado.mjs"
   },
   "dependencies": {

@@ -8,6 +8,16 @@ export const AudioSampleSchema = z.object({
   file: z.string().min(1),
   bytes: z.number().int().positive(),
   sha256: z.string().regex(/^[0-9a-f]{64}$/),
+  /** Autoría de la muestra, tal como exige la atribución de su licencia. */
+  author: z.string().min(1),
+  /** Origen legible de la muestra (biblioteca, espejo o grabación). */
+  source: z.string().min(1),
+  /** Identificador SPDX de la licencia de la muestra. */
+  license: z.string().min(1),
+  /** URL del texto de la licencia. */
+  licenseUrl: z.url(),
+  /** Qué cambió respecto del origen (o «sin modificaciones»). */
+  modifications: z.string().min(1),
   sourceUrl: z.url(),
 })
 export type AudioSample = z.infer<typeof AudioSampleSchema>

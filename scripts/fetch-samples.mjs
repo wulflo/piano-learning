@@ -37,6 +37,11 @@ const SampleSchema = z.object({
   file: z.string().min(1),
   bytes: z.number().int().positive(),
   sha256: z.string().regex(/^[0-9a-f]{64}$/),
+  author: z.string().min(1),
+  source: z.string().min(1),
+  license: z.string().min(1),
+  licenseUrl: z.url(),
+  modifications: z.string().min(1),
   sourceUrl: z.url(),
 })
 
