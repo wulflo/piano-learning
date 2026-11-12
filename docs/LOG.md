@@ -2370,3 +2370,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: se prefirió `REUSE.toml` a los encabezados en cada archivo para no romper la auditoría de encabezados ajenos de F6-043; se documentó como ADR-046.
 - Limitaciones: `reuse` es una herramienta Python (GPL-3.0) que corre con `uvx` y necesita red la primera vez, así que no entra en `npm run audit` (F6-053); `tests/reuse.test.ts` no ejecuta el linter real, solo valida la configuración y los textos.
 - Próximo paso: F6-045 (CONTRIBUTING.md con origen, licencia y firma DCO).
+
+## 2026-11-15T04:15:00-03:00 · F6-045
+
+- Problema: no había una guía de contribución que exigiera declarar el origen y la licencia de cada aporte ni que prohibiera pegar material de terceros.
+- Acción: se escribió `CONTRIBUTING.md` con la tabla de licencias de entrada (código MIT, contenido CC BY-SA 4.0, estudios/originales CC0), la firma DCO obligatoria (`git commit -s`), la lista explícita de lo prohibido (texto, audio, partituras, imágenes o tipografías ajenas), el flujo de checklist y las verificaciones. Se enlazó desde el README («Contribuir» y documentación de continuidad).
+- Resultado: typecheck, suite 251 archivos / 1731 tests y build verdes (JS inicial 272,15 kB gzip < 300 kB). Commit `12afa5d`.
+- Correcciones: se alineó el criterio de dominio público con ADR-011 y se referenció `REUSE.toml`/`LICENSES/` para que un aporte nuevo no rompa la auditoría REUSE.
+- Limitaciones: el DCO se apoya en la convención `git commit -s`; no hay un workflow de CI que rechace commits sin firma (no se piden remotos ni Actions nuevas en esta ronda).
+- Próximo paso: F6-046 (auditoría de similitud de n-gramas del texto de las lecciones).
