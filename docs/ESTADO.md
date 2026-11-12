@@ -2,16 +2,16 @@
 
 > Generado automáticamente por `npm run estado`. No editar a mano.
 
-- **Generado:** 2026-11-12T15:00:05.577Z
+- **Generado:** 2026-11-12T21:24:19.591Z
 - **Rama:** main
-- **HEAD:** 3d3f974
+- **HEAD:** a9012e7
 - **Cambios sin commitear:** sí
 
 ## Punto de reanudación
 
-- **Tarea actual:** —
-- **Última verificada:** `F6-037` (`364519f`)
-- **Nota:** F6 cerrada con suite verde, demo publicada sin 404, tags fase-0 a fase-6. Retoma: F6-034 abre el puerto MIDI explícitamente y muestra diagnóstico en Ajustes; F6-035 migra a Material 3 claro; F6-036 corrige la deformación del teclado y penaliza las notas de más; F6-037 muestra el dedo y la mano sobre cada tecla del ejercicio, con opción para ocultarlos. La prueba con el PSR-373 físico sigue como limitación conocida (sin hardware en el entorno del agente).
+- **Tarea actual:** `F6-039` — Ampliar el manifiesto de audio y verificar licencias con `audit:audio`
+- **Última verificada:** `F6-038` (`a9012e7`)
+- **Nota:** Ronda de cierre de auditoría. F6-038 clasifica y commitea los cambios sin commitear; F6-039 a F6-041 cubren el manifiesto y los créditos de audio; F6-042 a F6-045 auditan licencias, duplicación y REUSE y suman CONTRIBUTING; F6-046 a F6-048 auditan la originalidad del texto de las lecciones; F6-049 a F6-052 corrigen licencias, fichas y documentación; F6-053 a F6-055 encadenan la auditoría, documentan las pruebas manuales y cierran. Sin push, tags ni releases sin confirmación.
 
 ## Progreso
 
@@ -23,21 +23,21 @@
 | F3 | 35 | 35 | 100.0 % | `[############]` |
 | F4 | 33 | 33 | 100.0 % | `[############]` |
 | F5 | 51 | 51 | 100.0 % | `[############]` |
-| F6 | 35 | 37 | 94.6 % | `[###########-]` |
-| **Total** | **288** | **290** | **99.3 %** | `[############]` |
+| F6 | 36 | 55 | 65.5 % | `[########----]` |
+| **Total** | **289** | **308** | **93.8 %** | `[###########-]` |
 
 ## Verificaciones
 
 | Paso | Resultado | Tiempo |
 |---|---|---:|
 | `typecheck` | OK | 1.8s |
-| `test` | OK | 63.6s |
-| `build` | OK | 5.4s |
+| `test` | OK | 61.2s |
+| `build` | OK | 6.3s |
 
 ## Tareas
 
-- Pendientes: 0
+- Pendientes: 17
 - En curso: 0
-- Hechas: 288
+- Hechas: 289
 - Rotas/bloqueadas: 0
 - Descartadas: 2

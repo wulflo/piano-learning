@@ -4,9 +4,9 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** F6-038
-- **Última verificada en verde:** F6-037 (`364519f`, 2026-11-14T13:38:00-03:00)
-- **Actualizado:** 2026-11-15T00:00:00-03:00
+- **Tarea actual:** F6-039
+- **Última verificada en verde:** F6-038 (`a9012e7`, 2026-11-15T00:10:00-03:00)
+- **Actualizado:** 2026-11-15T00:10:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
 - **Nota:** Ronda de cierre de auditoría. F6-038 clasifica y commitea los cambios sin commitear; F6-039 a F6-041 cubren el manifiesto y los créditos de audio; F6-042 a F6-045 auditan licencias, duplicación y REUSE y suman CONTRIBUTING; F6-046 a F6-048 auditan la originalidad del texto de las lecciones; F6-049 a F6-052 corrigen licencias, fichas y documentación; F6-053 a F6-055 encadenan la auditoría, documentan las pruebas manuales y cierran. Sin push, tags ni releases sin confirmación.
 
@@ -1580,9 +1580,10 @@ Quedó funcionando:
 
 ### Auditoría de cierre (retoma)
 
-- [~] **F6-038** — Clasificar y cerrar los cambios sin commitear del árbol
+- [x] **F6-038** — Clasificar y cerrar los cambios sin commitear del árbol
   - Aceptación: cada cambio pendiente (HEAD frente a la última tarea verificada) queda clasificado y commiteado en una tarea o descartado con criterio y anotado en LOG; `git status` limpio y suite en verde.
   - Deps: F6-037 · Red: no
+  - Commit: a9012e7 · 2026-11-15T00:10:00-03:00
 - [ ] **F6-039** — Ampliar el manifiesto de audio y verificar licencias con `audit:audio`
   - Aceptación: `assets/audio/manifest.json` incluye author, source, license (id SPDX), licenseUrl y modifications por muestra; `npm run audit:audio` (scripts/verify-audio.mjs) falla si un archivo de audio no está registrado, si el SHA-256 no coincide, si falta un campo o si la licencia no está en la lista permitida (CC0-1.0, CC-BY-3.0, CC-BY-4.0, CC-BY-SA-3.0, CC-BY-SA-4.0, MIT, Apache-2.0, LicenseRef-PublicDomain); con tests.
   - Deps: F6-038 · Red: no
