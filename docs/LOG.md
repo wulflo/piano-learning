@@ -2352,3 +2352,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: el override por paquete de `glob` es la pieza que permite que license-checker funcione sin perder el glob parcheado en el resto del árbol.
 - Limitaciones: la auditoría cubre producción; las licencias de desarrollo siguen inventariadas en THIRD_PARTY_LICENSES.md y el resumen transitivo incluye MPL-2.0 (axe-core), que no se distribuye.
 - Próximo paso: F6-043 (jscpd y encabezados ajenos).
+
+## 2026-11-15T03:30:00-03:00 · F6-043
+
+- Problema: no había forma de detectar duplicación de código ni de comprobar que no se hubieran pegado encabezados de copyright o licencia de terceros en el código o el contenido.
+- Acción: se instaló `jscpd@5.4.3` (MIT, motor Rust con binario por plataforma) como devDependency. `scripts/lib/code-audit.ts` expone los patrones precisos de encabezado ajeno (`Copyright` con año o ©, `SPDX-License-Identifier:`, `GPL`/`LGPL`/`AGPL`, `licensed under`), el recorrido de archivos de texto de `src/`, `scripts/` y `content/`, el parseo del informe JSON de jscpd y el renderizado/actualizado por marcadores de `docs/AUDITORIA.md`. `scripts/audit-code.ts` (vía `tsx`) es `npm run audit:code`: corre jscpd sobre `src/`, busca los encabezados y escribe la sección con archivo y línea. Se regeneró `THIRD_PARTY_LICENSES.md` (599 paquetes) y se registraron jscpd y el comando en ENTORNO.md.
+- Resultado: typecheck, suite 250 archivos / 1724 tests y build verdes (JS inicial 272,14 kB gzip < 300 kB). `npm run audit:code` reporta 93 clones (2,61 % de líneas duplicadas) y 0 encabezados ajenos en `src/`, `scripts/` y `content/`; sale con 0. Commit `14db423`.
+- Correcciones: el auditor excluye sus propios archivos (`scripts/audit-code.ts` y `scripts/lib/code-audit.ts`) del grep para no autoinformarse al contener los literales que busca; los patrones son precisos para no marcar menciones legítimas («id SPDX», «bajo copyright»).
+- Limitaciones: la duplicación se informa pero no falla el comando (no hay umbral definido en la tarea); el grep cubre encabezados, no prosa copiada, que es el objeto de F6-046/F6-047.
+- Próximo paso: F6-044 (cumplimiento REUSE).
