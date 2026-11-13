@@ -3,8 +3,9 @@ import { useRegisterSW } from 'virtual:pwa-register/react'
 import { useSettings } from '../state/settings'
 
 /**
- * Banner de estado PWA: avisa cuando hay una nueva versión disponible y
- * cuando la app está sin conexión. No fuerza recargas.
+ * Banner de estado PWA: avisa cuando la app quedó lista sin conexión. El
+ * service worker usa `autoUpdate`, así que una versión nueva se activa sola y
+ * la próxima recarga ya la muestra; no hay aviso de actualización que pulsar.
  */
 export function PwaStatus() {
   const { t } = useSettings()

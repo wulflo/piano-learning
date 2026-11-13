@@ -11,7 +11,10 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: 'prompt',
+      // `autoUpdate` evita que una pestaña quede atrapada en un build viejo:
+      // el service worker nuevo toma el control y la próxima recarga ya trae
+      // la versión publicada, sin exigir pulsar un aviso.
+      registerType: 'autoUpdate',
       includeAssets: ['icons/icon-192.png', 'icons/icon-512.png'],
       manifest: false, // usamos public/manifest.webmanifest
       workbox: {

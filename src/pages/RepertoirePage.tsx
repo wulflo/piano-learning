@@ -3,6 +3,7 @@ import { loadAllRepertoirePieces } from '../content/repertoire'
 import { licensePresentation } from '../repertoire/license'
 import {
   ATTRIBUTIONS_HASH,
+  SONGS_HASH,
   pieceHash,
 } from '../router/hash-route'
 import type { RepertoirePiece } from '../schemas'
@@ -53,6 +54,7 @@ export function RepertoirePage() {
         <h1 id="repertoire-title">{t('repertoire.title')}</h1>
         <p className="lede">{t('repertoire.lead')}</p>
         <p className="page-actions">
+          <a href={SONGS_HASH}>{t('repertoire.recordSong')}</a>
           <a href={ATTRIBUTIONS_HASH}>{t('repertoire.attributions')}</a>
         </p>
       </section>

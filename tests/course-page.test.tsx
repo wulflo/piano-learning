@@ -2,7 +2,7 @@ import { render, screen, waitFor } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { App } from '../src/App'
 import { COURSE_MODULES, findCourseLesson } from '../src/content/course'
-import { DEMO_HASH, lessonHash } from '../src/router/hash-route'
+import { DEMO_HASH, SONGS_HASH, lessonHash } from '../src/router/hash-route'
 import { ProgressDatabase, createProgressDatabase } from '../src/state/db'
 import { createProgressRepositories } from '../src/state/repositories'
 import type { LessonProgress } from '../src/schemas'
@@ -75,6 +75,9 @@ describe('F2-059 — Mapa visual del curso', () => {
     expect(
       screen.getByRole('link', { name: 'Ver la demo de la Fase 1' }),
     ).toHaveAttribute('href', DEMO_HASH)
+    expect(
+      screen.getByRole('link', { name: 'Grabar una canción propia' }),
+    ).toHaveAttribute('href', SONGS_HASH)
 
     unmount()
   })

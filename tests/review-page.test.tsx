@@ -116,8 +116,11 @@ describe('F2-061 — Pantalla «Repaso de hoy»', () => {
         name: 'El teclado: grupos de dos y tres negras',
       }),
     ).toHaveAttribute('href', lessonHash('lesson.m0-01'))
+    // La cola mezcla los ítems nuevos con una semilla diaria, así que el
+    // primer ejercicio puede pertenecer a cualquiera de las dos habilidades.
+    // Ambos skills de M0-01 usan ejercicios sobre la tecla blanca.
     expect(
-      await screen.findByText(/¿Qué nota es la tecla blanca/),
+      await screen.findByRole('heading', { level: 3, name: /tecla blanca/ }),
     ).toBeInTheDocument()
 
     const assessment = screen.getByRole('group', { name: '¿Cómo te salió?' })

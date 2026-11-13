@@ -1,6 +1,6 @@
 import { findCourseLesson } from '../content/course'
 import { StyleMap } from '../components/StyleMap'
-import { DEMO_HASH, lessonHash } from '../router/hash-route'
+import { DEMO_HASH, lessonHash, SONGS_HASH } from '../router/hash-route'
 import type { CourseModuleSummary } from '../state/course-progress'
 import { useCourseProgress } from '../state/use-course-progress'
 import { useSettings } from '../state/settings'
@@ -37,6 +37,7 @@ export function CoursePage() {
             </a>
           )}
           <a href={DEMO_HASH}>{t('course.demoLink')}</a>
+          <a href={SONGS_HASH}>{t('course.songsLink')}</a>
         </p>
       </section>
 
