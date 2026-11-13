@@ -1,4 +1,4 @@
-# LOG — PianoDesdeCero
+# LOG — Piano Today
 
 Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hora, ID de tarea, acción, resultado y, si falló, comando, primeras 30 líneas del error, causa probable y próximo paso.
 
@@ -1950,7 +1950,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se transcribió «Twinkle, Twinkle, Little Star» (melodía tradicional anónima) como `content/repertoire/traditional-twinkle.json`, con tests en `tests/repertoire-twinkle.test.tsx`; commit de implementación `87592fc`.
 - Pieza: id `piece.traditional.twinkle`, nivel 1, 40 s, Do mayor, 4/4, 72 BPM, solo mano derecha, 42 eventos en 12 compases. Las frases pares terminan en blanca y las impares usan cuatro negras.
-- Ficha: licencia `public-domain`, compositor «Anónimo tradicional» con `anonymousTraditional: true`, fuente «Ah! vous dirai-je, maman» (1761), URL de Wikipedia, transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución visible y nota que descarta las variaciones de Mozart y la letra inglesa.
+- Ficha: licencia `public-domain`, compositor «Anónimo tradicional» con `anonymousTraditional: true`, fuente «Ah! vous dirai-je, maman» (1761), URL de Wikipedia, transcriptor y verificador Piano Today, fechas 2026-11-13, atribución visible y nota que descarta las variaciones de Mozart y la letra inglesa.
 - Verificación: `tests/repertoire-twinkle.test.tsx` cubre ficha, mano única, compases completos, melodía MIDI nota por nota, duración, render con `renderGrandStaff` y reproducción con `RepertoirePlayer` (42 eventos, `duration` 40, mano izquierda deshabilitada). Se ajustaron los conteos de piezas de 13 a 14 en los tests de estudios, cargador y router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 14 piezas; typecheck verde; suite 206 archivos / 1511 tests; build y presupuesto verdes con 253,69 kB gzip inicial y 827 chunks diferidos.
 - Limitación: la pieza es una transcripción melódica de una sola mano; no incluye bajo ni acompañamiento, y la digitación es orientativa. F5-027 añadirá «Frère Jacques» con melodía y bajo simple.
@@ -1960,7 +1960,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se transcribió «Frère Jacques» (ronda tradicional anónima) como `content/repertoire/traditional-frere-jacques.json`, con tests en `tests/repertoire-frere-jacques.test.tsx`; commit de implementación `d6bae0e`.
 - Pieza: id `piece.traditional.frere-jacques`, nivel 2, 24 s, Do mayor, 4/4, 80 BPM, ocho compases completos. La mano derecha lleva la melodía en 26 eventos; la izquierda, un bajo simple de redondas (Do en los compases 1-4 y 6, Fa en el 5, Sol en el 7), ocho eventos.
-- Ficha: licencia `public-domain`, compositor «Anónimo tradicional» con `anonymousTraditional: true`, fuente «Recueil de Timbres de Vaudevilles» (c. 1780) con URL de Wikipedia, transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución que declara el bajo propio y nota que descarta la letra y la atribución discutida a Rameau.
+- Ficha: licencia `public-domain`, compositor «Anónimo tradicional» con `anonymousTraditional: true`, fuente «Recueil de Timbres de Vaudevilles» (c. 1780) con URL de Wikipedia, transcriptor y verificador Piano Today, fechas 2026-11-13, atribución que declara el bajo propio y nota que descarta la letra y la atribución discutida a Rameau.
 - Verificación: `tests/repertoire-frere-jacques.test.tsx` cubre ficha, dos manos, compases completos, melodía y bajo MIDI, duración de 32 pulsos (24 s), render de 34 notas y reproducción con selección de mano derecha. Se ajustaron los conteos de piezas de 14 a 15 en los tests de estudios, cargador y router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 15 piezas; typecheck verde; suite 207 archivos / 1516 tests; build y presupuesto verdes con 253,72 kB gzip inicial y 828 chunks diferidos.
 - Limitación: el bajo es una armonización pedagógica propia de una redonda por compás, no una armonización histórica; la digitación es orientativa. F5-028 añadirá «Greensleeves» con digitación y versión propia.
@@ -1970,7 +1970,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se transcribió «Greensleeves» (balada tradicional anónima) como versión propia en `content/repertoire/traditional-greensleeves.json`, con tests en `tests/repertoire-greensleeves.test.tsx`; commit de implementación `fdc26ab`.
 - Pieza: id `piece.traditional.greensleeves`, nivel 3, 48 s, La menor, 6/8, 60 BPM, 16 compases. Melodía en la mano derecha (68 eventos) con los accidentales G# y F#; bajo propio en la izquierda (32 eventos) con fundamental y quinta en dos blancas con puntillo por compás.
-- Ficha: licencia `public-domain`, compositor «Anónimo tradicional» con `anonymousTraditional: true`, fuente de 1580 con URL de Wikipedia, transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución de versión simplificada propia y nota que descarta la Fantasía de Vaughan Williams. Digitación orientativa por compás en ambos idiomas.
+- Ficha: licencia `public-domain`, compositor «Anónimo tradicional» con `anonymousTraditional: true`, fuente de 1580 con URL de Wikipedia, transcriptor y verificador Piano Today, fechas 2026-11-13, atribución de versión simplificada propia y nota que descarta la Fantasía de Vaughan Williams. Digitación orientativa por compás en ambos idiomas.
 - Verificación: `tests/repertoire-greensleeves.test.tsx` cubre ficha, dos manos, 16 compases completos de tres pulsos, melodía y bajo MIDI, accidentales, duración de 48 pulsos (48 s), render de 100 notas y reproducción con selección de mano izquierda. Se ajustaron los conteos de piezas de 15 a 16 en los tests de estudios, cargador y router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 16 piezas; typecheck verde; suite 208 archivos / 1521 tests; build y presupuesto verdes con 253,75 kB gzip inicial y 829 chunks diferidos.
 - Limitación: es una versión simplificada y propia, no una transcripción literal de ninguna edición; el ritmo reduce algunos valores originales y el bajo es una armonización pedagógica. F5-029 añadirá «Auld Lang Syne».
@@ -1980,7 +1980,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se transcribió «Auld Lang Syne» (melodía tradicional escocesa) como `content/repertoire/traditional-auld-lang-syne.json`, con tests en `tests/repertoire-auld-lang-syne.test.tsx`; commit de implementación `055284d`.
 - Pieza: id `piece.traditional.auld-lang-syne`, nivel 2, 48 s, Sol mayor, 4/4, 80 BPM, 16 compases. Melodía en la mano derecha (58 eventos) y bajo en la izquierda (16 redondas) con Sol-Re-Sol-Do-Sol-Re-Mi menor-Sol.
-- Ficha: licencia `public-domain`, compositor «Anónimo tradicional» con `anonymousTraditional: true`, fuente de 1799 con URL de Wikipedia, transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución propia y nota que descarta la letra de Robert Burns y las armonizaciones corales modernas. Digitación orientativa en ambos idiomas.
+- Ficha: licencia `public-domain`, compositor «Anónimo tradicional» con `anonymousTraditional: true`, fuente de 1799 con URL de Wikipedia, transcriptor y verificador Piano Today, fechas 2026-11-13, atribución propia y nota que descarta la letra de Robert Burns y las armonizaciones corales modernas. Digitación orientativa en ambos idiomas.
 - Verificación: `tests/repertoire-auld-lang-syne.test.tsx` valida tonalidad, modo, 16 compases completos, melodía y bajo MIDI, duración de 64 pulsos (48 s), render de 74 notas, reproducción con ambas manos y con la derecha sola. Se ajustaron los conteos de piezas de 16 a 17 en los tests de estudios, cargador y router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 17 piezas; typecheck verde; suite 209 archivos / 1526 tests; build y presupuesto verdes con 253,78 kB gzip inicial y 830 chunks diferidos.
 - Limitación: la transcripción simplifica el ritmo a negras y redondas y el bajo es una armonización pedagógica propia. F5-030 añadirá «Amazing Grace», solo melodía y sin letra.
@@ -1990,7 +1990,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se transcribió «Amazing Grace» (melodía «New Britain», tradicional anónima) como `content/repertoire/traditional-amazing-grace.json`, con tests en `tests/repertoire-amazing-grace.test.tsx`; commit de implementación `5f233f0`.
 - Pieza: id `piece.traditional.amazing-grace`, nivel 1, 40 s, Sol mayor, 3/4, 72 BPM, 16 compases, solo mano derecha y 27 eventos. No incluye bajo ni acompañamiento, porque la aceptación pide solo la melodía.
-- Ficha: licencia `public-domain`, compositor «Anónimo tradicional» con `anonymousTraditional: true`, fuente «New Britain» (1829) con URL de Hymnary.org, transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución visible y nota que descarta la letra de John Newton y las armonizaciones o arreglos modernos.
+- Ficha: licencia `public-domain`, compositor «Anónimo tradicional» con `anonymousTraditional: true`, fuente «New Britain» (1829) con URL de Hymnary.org, transcriptor y verificador Piano Today, fechas 2026-11-13, atribución visible y nota que descarta la letra de John Newton y las armonizaciones o arreglos modernos.
 - Verificación: `tests/repertoire-amazing-grace.test.tsx` cubre ficha, mano única, 16 compases completos de tres pulsos, melodía MIDI nota por nota, nota aguda Re5, duración de 48 pulsos (40 s), render de 27 notas y reproducción con la mano izquierda deshabilitada. Se ajustaron los conteos de piezas de 17 a 18 en los tests de estudios, cargador y router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 18 piezas; typecheck verde; suite 210 archivos / 1531 tests; build y presupuesto verdes con 253,81 kB gzip inicial y 831 chunks diferidos.
 - Limitación: es una versión melódica de una sola mano; el ritmo simplifica algunos valores del himno y no se usa la letra. F5-031 abre las obras con compositor identificado: la «Oda a la alegría» de Beethoven.
@@ -2000,7 +2000,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se transcribió el tema de la «Oda a la alegría» de Beethoven como `content/repertoire/beethoven-ode-to-joy.json`, con tests en `tests/repertoire-ode-to-joy.test.tsx`; commit de implementación `cf08e20`.
 - Pieza: id `piece.beethoven.ode-to-joy`, nivel 2, 20 s, Re mayor, 4/4, 96 BPM, ocho compases. Melodía propia en la mano derecha (28 eventos, con Fa sostenidos como accidentales) y bajo pedagógico de redondas en la izquierda (8 eventos, Re y La alternados).
-- Ficha: licencia `public-domain`, compositor Ludwig van Beethoven (1770-1827), fuente del cuarto movimiento de la Sinfonía n.º 9, Op. 125 (IMSLP), transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución propia y nota que descarta la letra de Schiller y los arreglos modernos.
+- Ficha: licencia `public-domain`, compositor Ludwig van Beethoven (1770-1827), fuente del cuarto movimiento de la Sinfonía n.º 9, Op. 125 (IMSLP), transcriptor y verificador Piano Today, fechas 2026-11-13, atribución propia y nota que descarta la letra de Schiller y los arreglos modernos.
 - Verificación: `tests/repertoire-ode-to-joy.test.tsx` cubre ficha, dos manos, ocho compases completos, melodía y bajo MIDI, Fa sostenidos, duración de 32 pulsos (20 s), render de 36 notas y reproducción con ambas manos y con la izquierda sola. Se ajustaron los conteos de piezas de 18 a 19 en los tests de estudios, cargador y router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 19 piezas; typecheck verde; suite 211 archivos / 1536 tests; build y presupuesto verdes con 253,85 kB gzip inicial y 832 chunks diferidos.
 - Limitación: es una transcripción melódica propia con un bajo simplificado de una redonda por compás; no reproduce la orquestación ni el texto de la sinfonía. F5-032 abre el Minueto de Petzold con dos manos y digitación.
@@ -2010,7 +2010,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se transcribió el «Minueto en Sol mayor, BWV Anh. 114» de Christian Petzold como `content/repertoire/petzold-minuet-g.json`, con tests en `tests/repertoire-petzold-minuet-g.test.tsx`; commit de implementación `853edd1`.
 - Pieza: id `piece.petzold.minuet-g`, nivel 3, 48 s, Sol mayor, 3/4, 120 BPM, 32 compases (dos secciones de 16). Melodía en la mano derecha (126 eventos) y bajo pedagógico de blancas con puntillo en la izquierda (32 eventos), con fundamentales Sol, Do, Re, La y Mi.
-- Ficha: licencia `public-domain`, compositor Christian Petzold (1677-1733), fuente del «Notebook for Anna Magdalena Bach» (1725) con URL de IMSLP, transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución que aclara la atribución histórica a Bach y nota que descarta la edición Bärenreiter de 1957 y declara el bajo como simplificación propia. Digitación orientativa en ambos idiomas.
+- Ficha: licencia `public-domain`, compositor Christian Petzold (1677-1733), fuente del «Notebook for Anna Magdalena Bach» (1725) con URL de IMSLP, transcriptor y verificador Piano Today, fechas 2026-11-13, atribución que aclara la atribución histórica a Bach y nota que descarta la edición Bärenreiter de 1957 y declara el bajo como simplificación propia. Digitación orientativa en ambos idiomas.
 - Verificación: `tests/repertoire-petzold-minuet-g.test.tsx` cubre ficha, dos manos, 32 compases completos, melodía y bajo MIDI, Do sostenidos en los compases 20, 21 y 23, duración de 96 pulsos (48 s), render de 158 notas y reproducción con ambas manos y con la izquierda sola. Se ajustaron los conteos de piezas de 19 a 20 en los tests de estudios, cargador y router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 20 piezas; typecheck verde; suite 212 archivos / 1541 tests; build y presupuesto verdes con 253,87 kB gzip inicial y 833 chunks diferidos.
 - Limitación: el bajo de una blanca con puntillo por compás es una simplificación pedagógica, no la textura original del minueto; la melodía sigue la versión del cuaderno de 1725. F5-033 abre el «Soldatenmarsch» de Schumann.
@@ -2020,7 +2020,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se transcribió el «Soldatenmarsch» de Robert Schumann (Op. 68 N.º 2, Album für die Jugend, 1848) como `content/repertoire/schumann-soldatenmarsch.json`, con tests en `tests/repertoire-soldatenmarsch.test.tsx`; commit de implementación `109173e`.
 - Pieza: id `piece.schumann.soldatenmarsch`, nivel 2, 48 s, Sol mayor, 2/4, 120 BPM, 48 compases (repetición desplegada). Melodía con acordes en la mano derecha (106 eventos, 182 notas) y marcha en la izquierda (106 eventos, 130 notas), con ritmo de negra con puntillo y semicorchea.
-- Ficha: licencia `public-domain`, compositor Robert Schumann (1810-1856), fuente del Album für die Jugend (edición Peters), transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución propia y nota sobre la transcripción propia. Digitación orientativa en ambos idiomas.
+- Ficha: licencia `public-domain`, compositor Robert Schumann (1810-1856), fuente del Album für die Jugend (edición Peters), transcriptor y verificador Piano Today, fechas 2026-11-13, atribución propia y nota sobre la transcripción propia. Digitación orientativa en ambos idiomas.
 - Verificación: `tests/repertoire-soldatenmarsch.test.tsx` cubre ficha, dos manos, 48 compases de 2/4, Fa/Do sostenidos, 212 notas en el gran pentagrama y reproducción con selección de manos. Se actualizaron los conteos de piezas de 20 a 21 en los tests de estudios, cargador y router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 21 piezas; typecheck verde; suite 213 archivos / 1546 tests; build y presupuesto verdes.
 - Limitación: la repetición (compases 17-32) se transcribe de forma desplegada, como en las piezas anteriores; el bajo sigue la textura original de la edición Peters. F5-034 añadirá la Sonatina Op. 36 N.º 1, I de Clementi.
@@ -2030,7 +2030,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se transcribió un fragmento pedagógico de la Sonatina en Do mayor, Op. 36 N.º 1, I (Allegro) de Muzio Clementi como `content/repertoire/clementi-sonatina-op36-1-i.json`, con tests en `tests/repertoire-clementi-sonatina.test.tsx`; commit de implementación `67c585c`.
 - Pieza: id `piece.clementi.sonatina-op36-1-i`, nivel 2, ~6,15 s, Do mayor, 2/2, 156 BPM, 4 compases (fragmento). Mano derecha: tema (23 eventos); mano izquierda: bajo (9 eventos).
-- Ficha: licencia `public-domain`, compositor Muzio Clementi (1752-1832), fuente del Sonatina Album (Schirmer, 1893) vía IMSLP, transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución propia y nota sobre el fragmento. Digitación orientativa en ambos idiomas.
+- Ficha: licencia `public-domain`, compositor Muzio Clementi (1752-1832), fuente del Sonatina Album (Schirmer, 1893) vía IMSLP, transcriptor y verificador Piano Today, fechas 2026-11-13, atribución propia y nota sobre el fragmento. Digitación orientativa en ambos idiomas.
 - Verificación: `tests/repertoire-clementi-sonatina.test.tsx` cubre ficha, dos manos/4 compases de 2/2, tema y bajo, 32 notas en el gran pentagrama y reproducción con selección de manos. Los conteos de piezas se actualizaron de 21 a 22 en loader, studies, studies-set2 y app-router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 22 piezas; suite en verde.
 - Limitación: es un fragmento pedagógico de cuatro compases del primer movimiento; la sonatina completa (con repeticiones y los tres movimientos) no se transcribe. F5-035 añadirá el «Arabesque» Op. 100 N.º 1 de Burgmüller.
@@ -2040,7 +2040,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se transcribió un fragmento pedagógico del estudio L'Arabesque, Op. 100 N.º 2 de Friedrich Burgmüller como `content/repertoire/burgmuller-arabesque-op100-2.json`, con tests en `tests/repertoire-burgmuller-arabesque.test.tsx`; commit de implementación `56c0359`.
 - Pieza: id `piece.burgmuller.arabesque-op100-2`, nivel 2, ~6,32 s, La menor, 2/4, 152 BPM, 8 compases (fragmento). Mano derecha: tema ágil (31 eventos); mano izquierda: bajo en acordes (16 eventos).
-- Ficha: licencia `public-domain`, compositor Johann Friedrich Franz Burgmüller (1806-1874), fuente de la edición Litolff vía Mutopia, transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución propia y nota sobre el fragmento. Digitación orientativa en ambos idiomas.
+- Ficha: licencia `public-domain`, compositor Johann Friedrich Franz Burgmüller (1806-1874), fuente de la edición Litolff vía Mutopia, transcriptor y verificador Piano Today, fechas 2026-11-13, atribución propia y nota sobre el fragmento. Digitación orientativa en ambos idiomas.
 - Verificación: `tests/repertoire-burgmuller-arabesque.test.tsx` cubre ficha, dos manos/8 compases de 2/4, tema y bajo, 47 notas en el gran pentagrama y reproducción con selección de manos. Los conteos de piezas se actualizaron de 22 a 23 en loader, studies, studies-set2 y app-router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 23 piezas; suite en verde.
 - Limitación: es un fragmento pedagógico de ocho compases del estudio; la pieza completa (con repeticiones) no se transcribe. F5-036 añadirá el Preludio Op. 28 N.º 4 de Chopin.
@@ -2050,7 +2050,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se transcribió una versión simplificada del Preludio en Mi menor, Op. 28 N.º 4 de Chopin como `content/repertoire/chopin-prelude-op28-4.json`, con tests en `tests/repertoire-chopin-prelude.test.tsx`; commit de implementación `860d1b2`.
 - Pieza: id `piece.chopin.prelude-op28-4`, nivel 2, ~17,14 s, Mi menor, 2/2, 56 BPM, 4 compases (versión simplificada). Mano derecha: melodía descendente (8 eventos); mano izquierda: patrón repetido (32 eventos).
-- Ficha: licencia `public-domain`, compositor Frédéric Chopin (1810-1849), fuente de la edición Peters (1879) vía Mutopia, transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución propia y nota sobre la versión simplificada. Digitación orientativa en ambos idiomas.
+- Ficha: licencia `public-domain`, compositor Frédéric Chopin (1810-1849), fuente de la edición Peters (1879) vía Mutopia, transcriptor y verificador Piano Today, fechas 2026-11-13, atribución propia y nota sobre la versión simplificada. Digitación orientativa en ambos idiomas.
 - Verificación: `tests/repertoire-chopin-prelude.test.tsx` cubre ficha, dos manos/4 compases de 2/2, melodía y patrón, 40 notas en el gran pentagrama y reproducción con selección de manos. Los conteos de piezas se actualizaron de 23 a 24 en loader, studies, studies-set2 y app-router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 24 piezas; suite en verde.
 - Limitación: es una versión simplificada de cuatro compases del preludio; se omiten las voces dobles, los matices y el resto de la obra. F5-037 inicia las piezas originales CC0.
@@ -2060,7 +2060,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se compuso la pieza original «Melodía sencilla en Do mayor» (nivel 1, CC0) como `content/repertoire/original-melodia-nivel-1.json`, con tests en `tests/repertoire-original-nivel-1.test.tsx`; commit de implementación `f76a386`.
 - Pieza: id `piece.original.melodia-nivel-1`, nivel 1, 24 s, Do mayor, 4/4, 80 BPM, 8 compases. Mano derecha: melodía sencilla (26 eventos); mano izquierda: bajo en blancas (8 eventos).
-- Ficha: licencia `cc0-1.0`, compositor PianoDesdeCero, fuente «Obra original creada para este proyecto», transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución CC0. Digitación orientativa en ambos idiomas.
+- Ficha: licencia `cc0-1.0`, compositor Piano Today, fuente «Obra original creada para este proyecto», transcriptor y verificador Piano Today, fechas 2026-11-13, atribución CC0. Digitación orientativa en ambos idiomas.
 - Verificación: `tests/repertoire-original-nivel-1.test.tsx` cubre ficha CC0, dos manos/8 compases de 4/4, 34 notas en el gran pentagrama y reproducción con selección de manos. Los conteos de piezas se actualizaron de 24 a 25 en loader, studies, studies-set2 y app-router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 25 piezas; suite en verde.
 - Limitación: pieza de estudio de nivel 1; no tiene progresión de tempo. F5-038 inicia la pieza original de nivel 2.
@@ -2070,7 +2070,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se compuso la pieza original «Melodía en Do mayor (nivel 2)» (nivel 2, CC0) como `content/repertoire/original-melodia-nivel-2.json`, con tests en `tests/repertoire-original-nivel-2.test.tsx`; commit de implementación `688e7bf`.
 - Pieza: id `piece.original.melodia-nivel-2`, nivel 2, ~42,67 s, Do mayor, 4/4, 90 BPM, 16 compases. Mano derecha: melodía (61 eventos); mano izquierda: bajo en blancas (16 eventos).
-- Ficha: licencia `cc0-1.0`, compositor PianoDesdeCero, fuente «Obra original creada para este proyecto», transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución CC0. Digitación orientativa en ambos idiomas.
+- Ficha: licencia `cc0-1.0`, compositor Piano Today, fuente «Obra original creada para este proyecto», transcriptor y verificador Piano Today, fechas 2026-11-13, atribución CC0. Digitación orientativa en ambos idiomas.
 - Verificación: `tests/repertoire-original-nivel-2.test.tsx` cubre ficha CC0, dos manos/16 compases de 4/4, 77 notas en el gran pentagrama y reproducción con selección de manos. Los conteos de piezas se actualizaron de 25 a 26 en loader, studies, studies-set2 y app-router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 26 piezas; suite en verde.
 - Limitación: pieza de estudio de nivel 2 sin progresión de tempo. F5-039 inicia la pieza original de nivel 3.
@@ -2080,7 +2080,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se compuso la pieza original «Melodía en Do mayor (nivel 3)» (nivel 3, CC0) como `content/repertoire/original-melodia-nivel-3.json`, con tests en `tests/repertoire-original-nivel-3.test.tsx`; commit de implementación `394d326`.
 - Pieza: id `piece.original.melodia-nivel-3`, nivel 3, ~82,29 s, Do mayor, 4/4, 70 BPM, 24 compases. Mano derecha: melodía (93 eventos); mano izquierda: bajo en blancas (47 eventos), con dinámica gradual p→f→p.
-- Ficha: licencia `cc0-1.0`, compositor PianoDesdeCero, fuente «Obra original creada para este proyecto», transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución CC0. Digitación orientativa en ambos idiomas.
+- Ficha: licencia `cc0-1.0`, compositor Piano Today, fuente «Obra original creada para este proyecto», transcriptor y verificador Piano Today, fechas 2026-11-13, atribución CC0. Digitación orientativa en ambos idiomas.
 - Verificación: `tests/repertoire-original-nivel-3.test.tsx` cubre ficha CC0, dos manos/24 compases de 4/4, 140 notas en el gran pentagrama y reproducción con selección de manos. Los conteos de piezas se actualizaron de 26 a 27 en loader, studies, studies-set2 y app-router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 27 piezas; suite en verde.
 - Limitación: pieza de estudio de nivel 3 sin progresión de tempo. F5-040 inicia la adaptación de un estudio de Hanon/Czerny.
@@ -2090,7 +2090,7 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 
 - Acción: se adaptó el ejercicio N.º 1 (cinco dedos) de Hanon como `content/repertoire/hanon-estudio-1-adaptacion.json`, con tests en `tests/repertoire-hanon-estudio.test.tsx`; commit de implementación `d21dd5e`.
 - Pieza: id `piece.hanon.estudio-1-adaptacion`, nivel 1, 24 s, Do mayor, 4/4, 80 BPM, 8 compases. Mano derecha: patrón 1-2-3-4-5-4-3-2 (64 eventos); mano izquierda: bajo (8 eventos).
-- Ficha: licencia `public-domain`, compositor Charles-Louis Hanon (1819-1900), fuente del ejercicio N.º 1 de «Le pianiste virtuose» (1873) vía IMSLP, transcriptor y verificador PianoDesdeCero, fechas 2026-11-13, atribución propia y nota sobre la adaptación. Digitación orientativa en ambos idiomas.
+- Ficha: licencia `public-domain`, compositor Charles-Louis Hanon (1819-1900), fuente del ejercicio N.º 1 de «Le pianiste virtuose» (1873) vía IMSLP, transcriptor y verificador Piano Today, fechas 2026-11-13, atribución propia y nota sobre la adaptación. Digitación orientativa en ambos idiomas.
 - Verificación: `tests/repertoire-hanon-estudio.test.tsx` cubre ficha de Hanon, dos manos/8 compases de 4/4, 72 notas en el gran pentagrama y reproducción con selección de manos. Los conteos de piezas se actualizaron de 27 a 28 en loader, studies, studies-set2 y app-router.
 - Resultado: `validate:content` da 9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades y 28 piezas; suite en verde.
 - Limitación: adaptación de estudio, no una pieza musical completa. F5-041 inicia la ampliación del plan de práctica.
@@ -2301,3 +2301,10 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Problema: el grabador existía en `#/canciones`, pero solo se llegaba desde el ítem «Canciones» de la navegación. Además, el service worker usaba `registerType: 'prompt'`, así que una pestaña abierta con un build anterior podía seguir mostrando la app vieja incluso después de recargar.
 - Acción: el curso y el repertorio muestran un enlace «Grabar una canción propia» que lleva al grabador; el curso lo pone junto a la demo y el repertorio junto a las atribuciones. El service worker pasa a `autoUpdate` para que la próxima recarga ya traiga la versión publicada.
 - Resultado: typecheck, suite 247 archivos / 1688 tests, build y presupuesto verdes. También se hizo robusto un test de repaso que dependía del orden diario de la cola (semilla por fecha UTC) en lugar de asumir una habilidad concreta como primer ítem.
+
+## 2026-11-13T18:40:00-03:00 · Nueva identidad «Piano Today» y acento cromático
+
+- Problema: la app seguía mostrando «PianoDesdeCero» en el título, la marca, el manifiesto PWA, los archivos exportados y las fichas de repertorio. La capa Material 3 era funcional pero casi monocroma.
+- Acción: se reemplazó la marca visible por «Piano Today» en `App.tsx`, `index.html`, `public/manifest.webmanifest`, ajustes, atribuciones, README, licencias, contenido de repertorio y documentación. Se conservaron las claves persistidas y los formatos (`pianodesdecero.progress`, `pianodesdecero.songs`, `pianodesdecero-progreso-*`, `pianodesdecero.progress v1`) para no romper datos ni carpetas de respaldo. La importación sigue aceptando la primera línea «PianoDesdeCero — Progreso» de las copias antiguas, y el nombre de descarga de las canciones pasa a `canciones-piano-today.json`.
+- Color: se agregó un terciario rosa M3, un segundo halo de fondo, hero con degradado tonal, «Today» en terciario, navegación activa y migas con `primary-container`, tarjetas con un velo apenas visible, filos de estado en los módulos, pastillas de estado más vivas y barras de progreso/botones primarios con degradado primario→terciario. Los pares de contraste AA se ampliaron en `theme.test.ts` con los nuevos tokens.
+- Resultado: typecheck, suite 247 archivos / 1689 tests, contenido, build y presupuesto verdes (JS inicial 271,22 kB gzip, < 300 kB). Verificado en navegador en claro y oscuro, escritorio y móvil, sin errores de consola ni desbordes.

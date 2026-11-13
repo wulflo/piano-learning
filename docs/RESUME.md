@@ -1,4 +1,4 @@
-# RESUME — PianoDesdeCero
+# RESUME — Piano Today
 
 Instrucciones para retomar el proyecto desde una sesión nueva, sin contexto previo.
 
@@ -972,7 +972,7 @@ scripts/check-bundle.mjs     presupuesto de JS inicial y code splitting
 ## Prompt de reanudación listo para pegar
 
 ```text
-Continuás el proyecto PianoDesdeCero en /home/alonso/Documentos/Repositorios/piano-learning.
+Continuás el proyecto Piano Today en /home/alonso/Documentos/Repositorios/piano-learning.
 Es una app web estática (Vite + React + TypeScript) para aprender teoría musical y
 piano desde cero, local-first, sin backend ni cuentas, con demo publicada en GitHub
 Pages.

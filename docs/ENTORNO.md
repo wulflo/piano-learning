@@ -1,4 +1,4 @@
-# ENTORNO — PianoDesdeCero
+# ENTORNO — Piano Today
 
 Última actualización: 2026-11-10T10:25:00-03:00
 
@@ -28,7 +28,7 @@
 ## Repositorio y política de git
 
 - Git inicializado **solo en local**, rama `main`, sin remoto, sin push.
-- Identidad local del repo: `PianoDesdeCero Dev <dev@pianodesdecero.local>`.
+- Identidad local del repo: `Piano Today Dev <dev@pianodesdecero.local>`.
 - `package-lock.json` se commitea siempre. Instalación reproducible con `npm ci`.
 - Un commit atómico por tarea; el mensaje incluye el ID (`feat(F1-005): ...`).
 - Tags locales `fase-N` al cerrar cada fase. No se crean releases ni remotos hasta autorización explícita.

@@ -28,6 +28,7 @@
   --on-primary-container: #1b0f45;
   --secondary-container: #e8def8;
   --on-secondary-container: #1d192b;
+  --tertiary: #7d5260;
   --tertiary-container: #ffd8e4;
   --on-tertiary-container: #31111d;
   --success: #386a20;
@@ -74,6 +75,7 @@
     --on-primary-container: #eaddff;
     --secondary-container: #4a4458;
     --on-secondary-container: #e8def8;
+    --tertiary: #efb8c8;
     --tertiary-container: #633b48;
     --on-tertiary-container: #ffd8e4;
     --success: #b7f397;
@@ -108,6 +110,7 @@
   --on-primary-container: #eaddff;
   --secondary-container: #4a4458;
   --on-secondary-container: #e8def8;
+  --tertiary: #efb8c8;
   --tertiary-container: #633b48;
   --on-tertiary-container: #ffd8e4;
   --success: #b7f397;
@@ -2717,4 +2720,191 @@ input[type='range'] {
 
 .song-player-staff {
   margin-top: 0.75rem;
+}
+
+/* ==========================================================================
+   F6-037 — Acento cromático suave
+   ==========================================================================
+   La capa M3 anterior era casi monocroma. Esta capa reparte color sin cambiar
+   la estructura: dos halos de fondo, hero tintado, estados y barras de
+   progreso con el degradado primario/terciario. El texto sigue usando los
+   pares de contraste AA ya verificados por `theme.test.ts`.
+   */
+
+body {
+  background:
+    radial-gradient(
+      circle at 100% -12rem,
+      color-mix(in srgb, var(--primary-container) 60%, transparent),
+      transparent 40rem
+    ),
+    radial-gradient(
+      circle at -10% 108%,
+      color-mix(in srgb, var(--tertiary-container) 45%, transparent),
+      transparent 34rem
+    ),
+    var(--bg);
+  background-attachment: fixed;
+}
+
+.site-header {
+  border-bottom-color: color-mix(
+    in srgb,
+    var(--primary) 22%,
+    var(--outline-variant)
+  );
+}
+
+/* «Today» usa el terciario rosa de la paleta M3. */
+.brand span {
+  color: var(--tertiary);
+}
+
+.site-nav a[aria-current='page'] {
+  color: var(--on-primary-container);
+  background: var(--primary-container);
+}
+
+/* El hero deja de ser texto suelto: pasa a ser una superficie tonal suave. */
+.hero {
+  padding: 2.1rem 1.6rem 1.8rem;
+  border: 1px solid color-mix(
+    in srgb,
+    var(--primary) 16%,
+    var(--outline-variant)
+  );
+  border-radius: var(--radius-xl);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--primary-container) 50%, var(--bg-panel)),
+    color-mix(in srgb, var(--tertiary-container) 32%, var(--bg-panel)) 58%,
+    var(--bg-panel)
+  );
+}
+
+.eyebrow {
+  display: inline-block;
+  padding: 0.18rem 0.62rem;
+  border-radius: 999px;
+  background: var(--primary-container);
+  color: var(--on-primary-container);
+}
+
+/* Tarjetas con un velo apenas visible del primario. */
+.panel,
+.module-card,
+.lesson-section,
+.exercise-card,
+.review-item,
+.review-session,
+.practice-block,
+.stat-card,
+.data-card,
+.teacher-notice,
+.load-panel,
+.song-card,
+.song-player {
+  background: color-mix(in srgb, var(--primary-container) 7%, var(--bg-panel));
+}
+
+/* Un filo de color por estado, sin tocar el texto ni los iconos. */
+.module-card {
+  border-left: 4px solid
+    color-mix(in srgb, var(--outline-variant) 70%, var(--bg-panel));
+}
+
+.module-completed {
+  border-left-color: var(--success);
+}
+
+.module-in-progress {
+  border-left-color: var(--primary);
+}
+
+.module-available {
+  border-left-color: color-mix(
+    in srgb,
+    var(--primary) 45%,
+    var(--outline-variant)
+  );
+}
+
+.status-completed {
+  border-color: transparent;
+  background: color-mix(
+    in srgb,
+    var(--success-container) 55%,
+    var(--bg-panel)
+  );
+  color: var(--on-success-container);
+}
+
+.status-in-progress {
+  border-color: transparent;
+  background: var(--tertiary-container);
+  color: var(--on-tertiary-container);
+}
+
+.status-available {
+  border-color: transparent;
+  background: var(--primary-container);
+  color: var(--on-primary-container);
+}
+
+/* Barras de avance con el degradado de marca. */
+progress {
+  overflow: hidden;
+  border: 0;
+  border-radius: 999px;
+  background: var(--surface-container);
+  accent-color: var(--primary);
+}
+
+progress::-webkit-progress-bar {
+  background: var(--surface-container);
+}
+
+progress::-webkit-progress-value {
+  background: linear-gradient(
+    90deg,
+    var(--primary),
+    color-mix(in srgb, var(--primary) 55%, var(--tertiary))
+  );
+}
+
+progress::-moz-progress-bar {
+  background: linear-gradient(
+    90deg,
+    var(--primary),
+    color-mix(in srgb, var(--primary) 55%, var(--tertiary))
+  );
+}
+
+.button-primary {
+  background: linear-gradient(
+    135deg,
+    var(--primary),
+    color-mix(in srgb, var(--primary) 70%, var(--tertiary))
+  );
+}
+
+.button-primary:hover {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--primary) 86%, var(--text)),
+    color-mix(in srgb, var(--primary) 58%, var(--tertiary))
+  );
+}
+
+.site-footer {
+  border-top-color: color-mix(
+    in srgb,
+    var(--primary) 20%,
+    var(--outline-variant)
+  );
+}
+
+::selection {
+  background: var(--primary-container);
+  color: var(--on-primary-container);
 }

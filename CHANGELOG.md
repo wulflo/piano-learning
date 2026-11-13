@@ -1,4 +1,4 @@
-# Changelog — PianoDesdeCero
+# Changelog — Piano Today
 
 Formato basado en Keep a Changelog. El proyecto usa tags anotados `fase-N`, publicados en el remoto con su release.
 

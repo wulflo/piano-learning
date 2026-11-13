@@ -169,6 +169,16 @@ describe('F2-055 — Importar progreso con validación y reemplazo', () => {
     })
   })
 
+  it('acepta copias antiguas exportadas con el nombre anterior', async () => {
+    const data = sourceData()
+    const legacy = (await buildFile(data)).replace(
+      PROGRESS_FILE_TITLE,
+      'PianoDesdeCero — Progreso',
+    )
+
+    expect((await parseProgressFile(legacy)).data).toEqual(data)
+  })
+
   it('acepta JSON con espacios si el hash canónico coincide', async () => {
     const data = sourceData()
     const text = await buildFile(data, {

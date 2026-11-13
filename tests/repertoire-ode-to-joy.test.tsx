@@ -83,11 +83,11 @@ describe('F5-031 — Oda a la alegría', () => {
     expect(piece.license.sourceUrl).toBe(
       'https://imslp.org/wiki/Symphony_No.9%2C_Op.125_(Beethoven%2C_Ludwig_van)',
     )
-    expect(piece.license.transcriptionAuthor).toBe('PianoDesdeCero')
+    expect(piece.license.transcriptionAuthor).toBe('Piano Today')
     expect(piece.license.transcriptionDate).toBe('2026-11-13')
     expect(piece.license.attribution).toMatch(/1770-1827/)
-    expect(piece.license.attribution).toMatch(/PianoDesdeCero/)
-    expect(piece.license.verifiedBy).toBe('PianoDesdeCero')
+    expect(piece.license.attribution).toMatch(/Piano Today/)
+    expect(piece.license.verifiedBy).toBe('Piano Today')
     expect(piece.license.verifiedOn).toBe('2026-11-13')
     expect(piece.license.notes).toMatch(/Schiller/)
     expect(piece.notesEs).toMatch(/Re mayor/)

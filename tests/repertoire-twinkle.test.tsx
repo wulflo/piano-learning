@@ -85,11 +85,11 @@ describe('F5-026 — Twinkle, Twinkle, Little Star', () => {
     expect(piece.license.sourceUrl).toBe(
       'https://en.wikipedia.org/wiki/Ah!_vous_dirai-je,_maman',
     )
-    expect(piece.license.transcriptionAuthor).toBe('PianoDesdeCero')
+    expect(piece.license.transcriptionAuthor).toBe('Piano Today')
     expect(piece.license.transcriptionDate).toBe('2026-11-13')
     expect(piece.license.attribution).toMatch(/melodía tradicional anónima/)
-    expect(piece.license.attribution).toMatch(/PianoDesdeCero/)
-    expect(piece.license.verifiedBy).toBe('PianoDesdeCero')
+    expect(piece.license.attribution).toMatch(/Piano Today/)
+    expect(piece.license.verifiedBy).toBe('Piano Today')
     expect(piece.license.verifiedOn).toBe('2026-11-13')
     expect(piece.license.notes).toMatch(/variaciones de Mozart/)
     expect(piece.notesEs).toMatch(/mano derecha/)

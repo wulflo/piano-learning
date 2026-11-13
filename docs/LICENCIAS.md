@@ -2,7 +2,7 @@
 
 Este documento registra la verificación de las piezas candidatas de F5 (tareas
 F5-026 a F5-036 y F5-040). Las trece piezas que ya están publicadas son obras
-originales CC0 de PianoDesdeCero y tienen su ficha en `content/repertoire/`.
+originales CC0 de Piano Today y tienen su ficha en `content/repertoire/`.
 
 ## Criterio
 

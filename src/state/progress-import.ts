@@ -14,6 +14,15 @@ import {
 import type { ProgressRepositories } from './repositories'
 
 /**
+ * Títulos aceptados en la primera línea de una copia de progreso.
+ *
+ * Las copias creadas antes del cambio de nombre usan «PianoDesdeCero»; se
+ * siguen aceptando para no romper las carpetas de respaldo que ya existen.
+ * El formato (`pianodesdecero.progress v1`) no cambia.
+ */
+const LEGACY_PROGRESS_FILE_TITLES = ['PianoDesdeCero — Progreso']
+
+/**
  * Importación del archivo de progreso.
  *
  * El archivo se valida por completo antes de tocar la base: cabecera, formato,
@@ -119,8 +128,12 @@ export async function parseProgressFile(text: string): Promise<ParsedProgressFil
   }
 
   const lines = headerText.split('\n')
-  if (lines[0]?.trim() !== PROGRESS_FILE_TITLE) {
-    throw invalidFormat('El archivo no es una exportación de PianoDesdeCero')
+  const title = lines[0]?.trim() ?? ''
+  if (
+    title !== PROGRESS_FILE_TITLE &&
+    !LEGACY_PROGRESS_FILE_TITLES.includes(title)
+  ) {
+    throw invalidFormat('El archivo no es una exportación de Piano Today')
   }
 
   const formatValue = readHeader(lines, 'Formato:')

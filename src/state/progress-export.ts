@@ -22,7 +22,7 @@ import { APP_VERSION } from '../version'
 
 export const PROGRESS_FILE_FORMAT = 'pianodesdecero.progress'
 export const PROGRESS_FILE_VERSION = 1
-export const PROGRESS_FILE_TITLE = 'PianoDesdeCero — Progreso'
+export const PROGRESS_FILE_TITLE = 'Piano Today — Progreso'
 
 export interface ProgressExportOptions {
   /** Reloj inyectable; por defecto, la fecha actual. */

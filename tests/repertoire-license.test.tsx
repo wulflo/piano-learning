@@ -47,7 +47,7 @@ describe('F5-024 — Ficha de licencia', () => {
         transcriptionAuthor: 'Transcripción propia',
         transcriptionDate: '2026-11-13',
         attribution: 'Sonatina de prueba — Beethoven (dominio público)',
-        verifiedBy: 'PianoDesdeCero',
+        verifiedBy: 'Piano Today',
         verifiedOn: '2026-11-13',
       },
     }
@@ -80,7 +80,7 @@ describe('F5-024 — Ficha de licencia', () => {
       screen.getByText('Sonatina de prueba — Beethoven (dominio público)'),
     ).toBeInTheDocument()
     expect(
-      screen.getByText('PianoDesdeCero · 2026-11-13'),
+      screen.getByText('Piano Today · 2026-11-13'),
     ).toBeInTheDocument()
     expect(
       screen.getByRole('link', { name: 'Ver todas las atribuciones' }),

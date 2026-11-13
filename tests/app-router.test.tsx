@@ -29,7 +29,7 @@ describe('F2-058 — Shell de app y navegación', () => {
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
       'Tu recorrido, paso a paso',
     )
-    expect(document.title).toBe('Curso · PianoDesdeCero')
+    expect(document.title).toBe('Curso · Piano Today')
 
     const nav = screen.getByRole('navigation', {
       name: 'Navegación principal',
@@ -72,7 +72,7 @@ describe('F2-058 — Shell de app y navegación', () => {
         'El teclado: grupos de dos y tres negras',
       ),
     )
-    expect(document.title).toBe('Lección · PianoDesdeCero')
+    expect(document.title).toBe('Lección · Piano Today')
 
     const nav = screen.getByRole('navigation', {
       name: 'Navegación principal',
@@ -107,7 +107,7 @@ describe('F2-058 — Shell de app y navegación', () => {
     expect(
       screen.getByRole('link', { name: 'Progreso' }),
     ).toHaveAttribute('aria-current', 'page')
-    expect(document.title).toBe('Progreso · PianoDesdeCero')
+    expect(document.title).toBe('Progreso · Piano Today')
   })
 
   it('reacciona a atrás y adelante del navegador', async () => {
@@ -143,7 +143,7 @@ describe('F2-058 — Shell de app y navegación', () => {
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('Ajustes')
     expect(screen.getByLabelText('Notación')).toBeInTheDocument()
     expect(screen.getByLabelText('Idioma')).toBeInTheDocument()
-    expect(document.title).toBe('Ajustes · PianoDesdeCero')
+    expect(document.title).toBe('Ajustes · Piano Today')
   })
 
   it('mantiene la demo accesible por su ruta', () => {
@@ -174,7 +174,7 @@ describe('F2-058 — Shell de app y navegación', () => {
     expect(
       screen.getByRole('link', { name: 'Atribuciones y licencias' }),
     ).toHaveAttribute('href', ATTRIBUTIONS_HASH)
-    expect(document.title).toBe('Repertorio · PianoDesdeCero')
+    expect(document.title).toBe('Repertorio · Piano Today')
     expect(
       within(
         screen.getByRole('navigation', { name: 'Navegación principal' }),
@@ -191,7 +191,7 @@ describe('F2-058 — Shell de app y navegación', () => {
         'Primera melodía en Do',
       ),
     )
-    expect(document.title).toBe('Repertorio · PianoDesdeCero')
+    expect(document.title).toBe('Repertorio · Piano Today')
     expect(
       screen.getByRole('heading', { name: 'Ficha de licencia' }),
     ).toBeInTheDocument()
@@ -211,7 +211,7 @@ describe('F2-058 — Shell de app y navegación', () => {
       expect(screen.getByText(label)).toBeInTheDocument()
     }
     expect(
-      screen.getByText('Primera melodía en Do — PianoDesdeCero (CC0 1.0)'),
+      screen.getByText('Primera melodía en Do — Piano Today (CC0 1.0)'),
     ).toBeInTheDocument()
     expect(
       screen.getByRole('link', { name: 'Ver todas las atribuciones' }),
@@ -249,6 +249,6 @@ describe('F2-058 — Shell de app y navegación', () => {
       'href',
       COURSE_HASH,
     )
-    expect(document.title).toBe('Esta página no existe · PianoDesdeCero')
+    expect(document.title).toBe('Esta página no existe · Piano Today')
   })
 })

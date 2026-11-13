@@ -1,4 +1,4 @@
-# DECISIONES — PianoDesdeCero
+# DECISIONES — Piano Today
 
 Registro breve de decisiones de arquitectura (contexto, decisión, alternativas,
 consecuencias).

@@ -86,7 +86,7 @@ export function SongsPage({ databaseName }: SongsPageProps = {}) {
       const bundle = await exportSongs(song === undefined ? undefined : [song.id])
       downloadJson(
         song === undefined
-          ? 'canciones-pianodesdecero.json'
+          ? 'canciones-piano-today.json'
           : `${slugify(song.title)}.pdc-song.json`,
         bundle,
       )

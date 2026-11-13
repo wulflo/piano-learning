@@ -34,7 +34,7 @@ describe('F6-012 — Navegación por teclado', () => {
 
     await user.tab()
     expect(
-      screen.getByRole('link', { name: 'PianoDesdeCero' }),
+      screen.getByRole('link', { name: 'Piano Today' }),
     ).toHaveFocus()
 
     await user.tab()

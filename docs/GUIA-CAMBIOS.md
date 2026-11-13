@@ -1,6 +1,6 @@
 # GUIA-CAMBIOS — Trabajar con checklist primero
 
-Esta guía explica cómo hacer **cualquier cambio** en PianoDesdeCero para que una
+Esta guía explica cómo hacer **cualquier cambio** en Piano Today para que una
 interrupción (corte de luz, cierre de sesión, cambio de máquina) no deje el
 proyecto en un estado ambiguo.
 

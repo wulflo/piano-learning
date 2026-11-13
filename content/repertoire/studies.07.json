@@ -1,7 +1,7 @@
 {
   "id": "piece.studies.07",
   "title": "Estudio 7: Arpegios en espejo",
-  "composerDisplay": "PianoDesdeCero",
+  "composerDisplay": "Piano Today",
   "level": 3,
   "durationSeconds": 32,
   "tags": [
@@ -16,16 +16,16 @@
   "license": {
     "license": "cc0-1.0",
     "composer": {
-      "name": "PianoDesdeCero",
+      "name": "Piano Today",
       "birthYear": null,
       "deathYear": null,
       "anonymousTraditional": false
     },
     "source": "Obra original creada para este proyecto",
-    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionAuthor": "Piano Today",
     "transcriptionDate": "2026-11-12",
-    "attribution": "Estudio 7: Arpegios en espejo — PianoDesdeCero (CC0 1.0)",
-    "verifiedBy": "PianoDesdeCero",
+    "attribution": "Estudio 7: Arpegios en espejo — Piano Today (CC0 1.0)",
+    "verifiedBy": "Piano Today",
     "verifiedOn": "2026-11-12"
   },
   "hands": {

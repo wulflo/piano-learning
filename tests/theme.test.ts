@@ -70,6 +70,11 @@ const pairs = [
   ['muted', 'bg-panel'],
   ['accent', 'bg'],
   ['accent', 'bg-panel'],
+  ['tertiary', 'bg'],
+  ['tertiary', 'bg-panel'],
+  ['on-primary-container', 'primary-container'],
+  ['on-tertiary-container', 'tertiary-container'],
+  ['on-success-container', 'success-container'],
   ['focus', 'bg'],
   ['focus', 'bg-panel'],
 ] as const

@@ -115,7 +115,7 @@ function clampVolume(db: number): number {
 }
 
 /**
- * Motor de audio de PianoDesdeCero.
+ * Motor de audio de Piano Today.
  *
  * - No crea ningún `AudioContext` hasta que la UI llama a `ensureStarted()`
  *   dentro de un gesto del usuario.

@@ -162,7 +162,7 @@ describe('F2-054 — Exportar progreso a .txt', () => {
 
     const lines = result.text.split('\n')
     expect(lines).toEqual([
-      'PianoDesdeCero — Progreso',
+      'Piano Today — Progreso',
       'Formato: pianodesdecero.progress v1',
       `Exportado: ${NOW.toISOString()}`,
       'Aplicación: 0.1.0',

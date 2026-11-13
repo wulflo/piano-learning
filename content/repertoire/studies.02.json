@@ -1,7 +1,7 @@
 {
   "id": "piece.studies.02",
   "title": "Estudio 2: Terceras quebradas",
-  "composerDisplay": "PianoDesdeCero",
+  "composerDisplay": "Piano Today",
   "level": 1,
   "durationSeconds": 29,
   "tags": [
@@ -15,16 +15,16 @@
   "license": {
     "license": "cc0-1.0",
     "composer": {
-      "name": "PianoDesdeCero",
+      "name": "Piano Today",
       "birthYear": null,
       "deathYear": null,
       "anonymousTraditional": false
     },
     "source": "Obra original creada para este proyecto",
-    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionAuthor": "Piano Today",
     "transcriptionDate": "2026-11-12",
-    "attribution": "Estudio 2: Terceras quebradas — PianoDesdeCero (CC0 1.0)",
-    "verifiedBy": "PianoDesdeCero",
+    "attribution": "Estudio 2: Terceras quebradas — Piano Today (CC0 1.0)",
+    "verifiedBy": "Piano Today",
     "verifiedOn": "2026-11-12"
   },
   "hands": {

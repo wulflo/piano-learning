@@ -1,7 +1,7 @@
 {
   "id": "piece.studies.08",
   "title": "Estudio 8: Independencia 2 contra 1",
-  "composerDisplay": "PianoDesdeCero",
+  "composerDisplay": "Piano Today",
   "level": 3,
   "durationSeconds": 27,
   "tags": [
@@ -15,16 +15,16 @@
   "license": {
     "license": "cc0-1.0",
     "composer": {
-      "name": "PianoDesdeCero",
+      "name": "Piano Today",
       "birthYear": null,
       "deathYear": null,
       "anonymousTraditional": false
     },
     "source": "Obra original creada para este proyecto",
-    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionAuthor": "Piano Today",
     "transcriptionDate": "2026-11-12",
-    "attribution": "Estudio 8: Independencia 2 contra 1 — PianoDesdeCero (CC0 1.0)",
-    "verifiedBy": "PianoDesdeCero",
+    "attribution": "Estudio 8: Independencia 2 contra 1 — Piano Today (CC0 1.0)",
+    "verifiedBy": "Piano Today",
     "verifiedOn": "2026-11-12"
   },
   "hands": {

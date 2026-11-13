@@ -148,7 +148,7 @@ function runCheck(label, script) {
 function writeEstado({ checklist, phases, checks, git, startedAt }) {
   const { counts, currentTask, lastVerified, point } = checklist
   const lines = []
-  lines.push('# ESTADO — PianoDesdeCero')
+  lines.push('# ESTADO — Piano Today')
   lines.push('')
   lines.push('> Generado automáticamente por `npm run estado`. No editar a mano.')
   lines.push('')
@@ -208,7 +208,7 @@ function main() {
   const phases = phaseProgress(checklist.tasks)
   const git = gitInfo()
 
-  console.log('PianoDesdeCero · estado')
+  console.log('Piano Today · estado')
   console.log(`Tarea actual: ${checklist.currentTask ? `${checklist.currentTask.id} — ${checklist.currentTask.title}` : '—'}`)
   console.log(
     `Última verificada: ${checklist.lastVerified ? `${checklist.lastVerified.id}${checklist.lastVerified.commit ? ` (${checklist.lastVerified.commit})` : ''}` : '—'}`,

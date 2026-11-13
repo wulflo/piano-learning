@@ -98,11 +98,11 @@ describe('F5-028 — Greensleeves', () => {
     expect(piece.license.sourceUrl).toBe(
       'https://en.wikipedia.org/wiki/Greensleeves',
     )
-    expect(piece.license.transcriptionAuthor).toBe('PianoDesdeCero')
+    expect(piece.license.transcriptionAuthor).toBe('Piano Today')
     expect(piece.license.transcriptionDate).toBe('2026-11-13')
     expect(piece.license.attribution).toMatch(/versión simplificada/)
-    expect(piece.license.attribution).toMatch(/PianoDesdeCero/)
-    expect(piece.license.verifiedBy).toBe('PianoDesdeCero')
+    expect(piece.license.attribution).toMatch(/Piano Today/)
+    expect(piece.license.verifiedBy).toBe('Piano Today')
     expect(piece.license.verifiedOn).toBe('2026-11-13')
     expect(piece.license.notes).toMatch(/Vaughan Williams/)
     expect(piece.notesEs).toMatch(/6\/8/)

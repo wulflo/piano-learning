@@ -1,4 +1,4 @@
-# Licencias de terceros — PianoDesdeCero
+# Licencias de terceros — Piano Today
 
 Inventario de dependencias, muestras de audio y contenido de terceros.
 Generado el 2026-11-14 (F6-018) desde `package-lock.json` y `content/repertoire/`.
@@ -640,7 +640,7 @@ Total: 551 paquetes (runtime y desarrollo, incluidas dependencias transitivas).
 
 ## Contenido musical
 
-Las transcripciones son adaptaciones pedagógicas originales de PianoDesdeCero a
+Las transcripciones son adaptaciones pedagógicas originales de Piano Today a
 partir de fuentes de dominio público. Las obras originales y sus fuentes:
 
 | Pieza | Fuente | Licencia de la transcripción |
@@ -658,5 +658,5 @@ partir de fuentes de dominio público. Las obras originales y sus fuentes:
 | Greensleeves | [Wikipedia](https://en.wikipedia.org/wiki/Greensleeves) | Dominio público |
 | Twinkle, Twinkle, Little Star | [Wikipedia](https://en.wikipedia.org/wiki/Ah!_vous_dirai-je,_maman) | Dominio público |
 
-Los 16 estudios y las 4 melodías originales de PianoDesdeCero se publican bajo
+Los 16 estudios y las 4 melodías originales de Piano Today se publican bajo
 **CC0 1.0** (ver `LICENSE-CONTENT`).

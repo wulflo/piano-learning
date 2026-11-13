@@ -1,4 +1,4 @@
-# PianoDesdeCero
+# Piano Today
 
 App web estática para aprender teoría musical y piano/teclado desde cero, con
 lecciones cortas, ejercicios interactivos, repaso espaciado y práctica en un

@@ -76,7 +76,7 @@ function AppShell() {
   }, [settings.theme])
 
   useEffect(() => {
-    document.title = `${t(routeTitleKey(route))} · PianoDesdeCero`
+    document.title = `${t(routeTitleKey(route))} · Piano Today`
   }, [route, t])
 
   const routeKey =
@@ -97,7 +97,7 @@ function AppShell() {
         <div className="site-header-top">
           <p className="brand">
             <a href={COURSE_HASH}>
-              Piano<span>DesdeCero</span>
+              Piano <span>Today</span>
             </a>
           </p>
         </div>

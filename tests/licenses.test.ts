@@ -9,7 +9,7 @@ describe('licencias del repositorio', () => {
   it('el código usa MIT', () => {
     const license = read('LICENSE')
     expect(license).toContain('MIT License')
-    expect(license).toContain('PianoDesdeCero contributors')
+    expect(license).toContain('Piano Today contributors')
   })
 
   it('el contenido usa CC BY-SA 4.0 y los ejercicios CC0', () => {

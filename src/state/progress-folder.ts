@@ -266,7 +266,7 @@ export async function loadLatestProgressCopy(
   if (latest === undefined) {
     throw new ProgressFolderError(
       'empty-folder',
-      'La carpeta no contiene ninguna copia de progreso de PianoDesdeCero',
+      'La carpeta no contiene ninguna copia de progreso de Piano Today',
     )
   }
   return loadProgressFromFolder(folder, latest)

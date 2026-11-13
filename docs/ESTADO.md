@@ -1,4 +1,4 @@
-# ESTADO — PianoDesdeCero
+# ESTADO — Piano Today
 
 > Generado automáticamente por `npm run estado`. No editar a mano.
 

@@ -59,7 +59,7 @@ describe('F5-018 — Set 2 de estudios técnicos originales', () => {
     for (const [index, piece] of studies.entries()) {
       const expected = EXPECTED[index]
       expect(piece.level, piece.id).toBe(expected?.level)
-      expect(piece.composerDisplay, piece.id).toBe('PianoDesdeCero')
+      expect(piece.composerDisplay, piece.id).toBe('Piano Today')
       expect(piece.license.license, piece.id).toBe('cc0-1.0')
       expect(piece.license.attribution, piece.id).toContain('CC0 1.0')
       expect(piece.tags, piece.id).toContain('estudio')

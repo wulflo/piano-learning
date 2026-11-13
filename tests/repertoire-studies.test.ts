@@ -44,10 +44,10 @@ describe('F5-017 — Set 1 de estudios técnicos originales', () => {
     expect(bundle.repertoire).toHaveLength(28)
 
     for (const piece of studies) {
-      expect(piece.composerDisplay, piece.id).toBe('PianoDesdeCero')
+      expect(piece.composerDisplay, piece.id).toBe('Piano Today')
       expect(piece.license.license, piece.id).toBe('cc0-1.0')
-      expect(piece.license.composer.name, piece.id).toBe('PianoDesdeCero')
-      expect(piece.license.transcriptionAuthor, piece.id).toBe('PianoDesdeCero')
+      expect(piece.license.composer.name, piece.id).toBe('Piano Today')
+      expect(piece.license.transcriptionAuthor, piece.id).toBe('Piano Today')
       expect(piece.license.attribution, piece.id).toContain('CC0 1.0')
       expect(piece.tags, piece.id).toContain('estudio')
       expect(piece.tags, piece.id).toContain('técnica')

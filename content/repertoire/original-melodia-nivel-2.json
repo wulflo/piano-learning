@@ -1,7 +1,7 @@
 {
   "id": "piece.original.melodia-nivel-2",
   "title": "Melodía en Do mayor (nivel 2)",
-  "composerDisplay": "PianoDesdeCero",
+  "composerDisplay": "Piano Today",
   "level": 2,
   "durationSeconds": 42.666666666666664,
   "tags": [
@@ -14,16 +14,16 @@
   "license": {
     "license": "cc0-1.0",
     "composer": {
-      "name": "PianoDesdeCero",
+      "name": "Piano Today",
       "birthYear": null,
       "deathYear": null,
       "anonymousTraditional": false
     },
     "source": "Obra original creada para este proyecto (CC0 1.0)",
-    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionAuthor": "Piano Today",
     "transcriptionDate": "2026-11-13",
-    "attribution": "Melodía en Do mayor (nivel 2) — PianoDesdeCero (CC0 1.0)",
-    "verifiedBy": "PianoDesdeCero",
+    "attribution": "Melodía en Do mayor (nivel 2) — Piano Today (CC0 1.0)",
+    "verifiedBy": "Piano Today",
     "verifiedOn": "2026-11-13",
     "notes": "Pieza original de nivel 2 en Do mayor y 4/4, 90 BPM, dieciséis compases. Melodía en la derecha y bajo en blancas en la izquierda. Compuesta para este proyecto y dedicada al dominio público (CC0)."
   },

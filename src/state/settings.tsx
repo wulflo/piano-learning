@@ -147,14 +147,14 @@ interface SettingsContextValue {
 }
 
 const ES_DICTIONARY = {
-    'app.title': 'PianoDesdeCero',
+    'app.title': 'Piano Today',
     'app.lead': 'Teoría, teclado, pentagrama y audio en un solo lugar para empezar desde cero.',
     'app.footer': 'Código MIT. Contenido CC BY-SA 4.0. Muestras de piano: Salamander Grand Piano, Alexander Holm (CC BY 3.0).',
     'app.credits': 'Créditos y licencias',
     'attributions.audio.title': 'Muestras de audio y software',
     'attributions.audio.lead': 'Las muestras de piano provienen de Salamander Grand Piano, grabado por Alexander Holm, y se usan bajo licencia CC BY 3.0. El audio se reproduce con Tone.js (MIT) y la notación se dibuja con VexFlow (MIT).',
     'attributions.audio.link': 'Sitio de Salamander Grand Piano',
-    'attributions.code': 'El código de PianoDesdeCero se publica bajo licencia MIT y el contenido original bajo CC0 1.0.',
+    'attributions.code': 'El código de Piano Today se publica bajo licencia MIT y el contenido original bajo CC0 1.0.',
     'nav.primary': 'Navegación principal',
     'nav.skip': 'Saltar al contenido',
     'nav.course': 'Curso',
@@ -840,14 +840,14 @@ const ES_DICTIONARY = {
 }
 
 const EN_DICTIONARY: Record<keyof typeof ES_DICTIONARY, string> = {
-    'app.title': 'PianoDesdeCero',
+    'app.title': 'Piano Today',
     'app.lead': 'Theory, keyboard, staff and audio in one place to start from zero.',
     'app.footer': 'MIT code. Content CC BY-SA 4.0. Piano samples: Salamander Grand Piano, Alexander Holm (CC BY 3.0).',
     'app.credits': 'Credits and licenses',
     'attributions.audio.title': 'Audio samples and software',
     'attributions.audio.lead': 'The piano samples come from Salamander Grand Piano, recorded by Alexander Holm, and are used under CC BY 3.0. Audio is played with Tone.js (MIT) and notation is drawn with VexFlow (MIT).',
     'attributions.audio.link': 'Salamander Grand Piano site',
-    'attributions.code': 'PianoDesdeCero code is released under the MIT license and original content under CC0 1.0.',
+    'attributions.code': 'Piano Today code is released under the MIT license and original content under CC0 1.0.',
     'nav.primary': 'Main navigation',
     'nav.skip': 'Skip to content',
     'nav.course': 'Course',

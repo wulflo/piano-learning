@@ -117,11 +117,11 @@ describe('F5-032 — Minueto en Sol, BWV Anh. 114 (Petzold)', () => {
     expect(piece.license.sourceUrl).toBe(
       'https://imslp.org/wiki/Minuet_in_G_major%2C_BWV_Anh.114_(Petzold%2C_Christian)',
     )
-    expect(piece.license.transcriptionAuthor).toBe('PianoDesdeCero')
+    expect(piece.license.transcriptionAuthor).toBe('Piano Today')
     expect(piece.license.transcriptionDate).toBe('2026-11-13')
     expect(piece.license.attribution).toMatch(/1677-1733/)
-    expect(piece.license.attribution).toMatch(/PianoDesdeCero/)
-    expect(piece.license.verifiedBy).toBe('PianoDesdeCero')
+    expect(piece.license.attribution).toMatch(/Piano Today/)
+    expect(piece.license.verifiedBy).toBe('Piano Today')
     expect(piece.license.verifiedOn).toBe('2026-11-13')
     expect(piece.license.notes).toMatch(/Petzold/)
     expect(piece.license.notes).toMatch(/Bärenreiter/)

@@ -1,7 +1,7 @@
 {
   "id": "piece.hanon.estudio-1-adaptacion",
   "title": "Estudio de cinco dedos (adaptación de Hanon N.º 1)",
-  "composerDisplay": "Charles-Louis Hanon (adaptación PianoDesdeCero)",
+  "composerDisplay": "Charles-Louis Hanon (adaptación Piano Today)",
   "level": 1,
   "durationSeconds": 24.0,
   "tags": [
@@ -21,10 +21,10 @@
     },
     "source": "Adaptación propia del ejercicio N.º 1 de «Le pianiste virtuose» (1873) de Hanon; edición de dominio público",
     "sourceUrl": "https://imslp.org/wiki/Le_pianiste_virtuose_(Hanon,_Charles-Louis)",
-    "transcriptionAuthor": "PianoDesdeCero",
+    "transcriptionAuthor": "Piano Today",
     "transcriptionDate": "2026-11-13",
-    "attribution": "Adaptación del ejercicio N.º 1 de Hanon — Charles-Louis Hanon (1819-1900), dominio público; adaptación y digitación de PianoDesdeCero",
-    "verifiedBy": "PianoDesdeCero",
+    "attribution": "Adaptación del ejercicio N.º 1 de Hanon — Charles-Louis Hanon (1819-1900), dominio público; adaptación y digitación de Piano Today",
+    "verifiedBy": "Piano Today",
     "verifiedOn": "2026-11-13",
     "notes": "Adaptación pedagógica del ejercicio de cinco dedos de Hanon: patrón 1-2-3-4-5-4-3-2 en negras, subiendo y bajando una octava, en Do mayor y 4/4, 80 BPM. La mano izquierda acompaña con una nota por compás. Fuente: «Le pianiste virtuose» (1873)."
   },
