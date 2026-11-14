@@ -11,6 +11,15 @@ function measure(name: string, duration: StaffMeasure['duration'] = 'q'): StaffM
   return { id: name, pitches: [parsePitch(name)], duration }
 }
 
+/** Secuencia densa que no cabe en el ancho pedido. */
+function denseMeasures(count: number): StaffMeasure[] {
+  return Array.from({ length: count }, (_, index) => ({
+    id: `dense.${index}`,
+    pitches: [parsePitch('C4')],
+    duration: '32' as const,
+  }))
+}
+
 describe('conversión a VexFlow', () => {
   it('convierte notas y alteraciones a claves de VexFlow', () => {
     expect(pitchToVexKey(parsePitch('C4'))).toBe('c/4')
@@ -236,6 +245,32 @@ describe('renderStaff con VexFlow', () => {
     expect(svg).not.toBeNull()
     expect(Number(svg?.getAttribute('width'))).toBeGreaterThanOrEqual(320)
   })
+
+  it('amplía el ancho cuando el contenido no entra y lo mantiene dentro', async () => {
+    const container = document.createElement('div')
+    const result = await renderStaff(container, {
+      measures: denseMeasures(32),
+      width: 400,
+    })
+
+    expect(result.width).toBeGreaterThan(400)
+    const svg = container.querySelector('svg')
+    expect(Number(svg?.getAttribute('width'))).toBe(result.width)
+
+    const stave = container.querySelector('[data-staff-stave]')
+    expect(stave).not.toBeNull()
+    const staveX = Number(stave?.getAttribute('data-stave-x'))
+    const staveWidth = Number(stave?.getAttribute('data-stave-width'))
+    const notes = Array.from(container.querySelectorAll('[data-staff-note]'))
+    expect(notes).toHaveLength(32)
+    for (const note of notes) {
+      const x = Number(note.getAttribute('data-box-x'))
+      const width = Number(note.getAttribute('data-box-width'))
+      expect(Number.isFinite(x) && Number.isFinite(width)).toBe(true)
+      expect(x).toBeGreaterThanOrEqual(staveX - 0.5)
+      expect(x + width).toBeLessThanOrEqual(staveX + staveWidth + 0.5)
+    }
+  })
 })
 
 describe('componente Staff', () => {
@@ -308,6 +343,23 @@ describe('componente Staff', () => {
     const zoom = container.querySelector('.staff-zoom') as HTMLElement
     expect(zoom.style.width).not.toBe('')
     expect(zoom.style.height).not.toBe('')
+  })
+
+  it('el componente reserva el ancho real de un pentagrama denso', async () => {
+    const { container } = render(
+      <SettingsProvider initialSettings={DEFAULT_SETTINGS}>
+        <Staff measures={denseMeasures(48)} />
+      </SettingsProvider>,
+    )
+
+    await waitFor(() => {
+      const canvas = container.querySelector('.staff-canvas') as HTMLElement | null
+      expect(canvas).not.toBeNull()
+      expect(Number.parseFloat(canvas?.style.width ?? '0')).toBeGreaterThan(640)
+    })
+    const zoom = container.querySelector('.staff-zoom') as HTMLElement
+    const canvas = container.querySelector('.staff-canvas') as HTMLElement
+    expect(zoom.style.width).toBe(canvas.style.width)
   })
 
   it('cambia la armadura en caliente sin recargar', async () => {

@@ -55,6 +55,7 @@ export function Staff({
 
   const [width, setWidth] = useState(640)
   const [height, setHeight] = useState(STAFF_HEIGHT)
+  const [renderWidth, setRenderWidth] = useState<number | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [ready, setReady] = useState(false)
 
@@ -74,6 +75,13 @@ export function Staff({
 
   const activeKey = mergedActiveNotes.join(',')
   const activeIdKey = activeIds.join(',')
+  const canvasWidth = renderWidth ?? width
+
+  // Mientras dura el nuevo dibujo se usa el ancho teórico; el anterior podría
+  // pertenecer a otro contenido.
+  useEffect(() => {
+    setRenderWidth(null)
+  }, [width, measures])
 
   useEffect(() => {
     let cancelled = false
@@ -96,6 +104,7 @@ export function Staff({
       .then((result) => {
         if (cancelled) return
         setHeight(result.height)
+        setRenderWidth(result.width)
         setError(null)
         setReady(true)
       })
@@ -131,13 +140,13 @@ export function Staff({
       <div className="staff-scroll" ref={scrollRef}>
         <div
           className="staff-zoom"
-          style={{ width: width * zoom, height: height * zoom }}
+          style={{ width: canvasWidth * zoom, height: height * zoom }}
         >
           <div
             ref={renderRef}
             className="staff-canvas"
             style={{
-              width,
+              width: canvasWidth,
               height,
               transform: `scale(${zoom})`,
               transformOrigin: 'top left',

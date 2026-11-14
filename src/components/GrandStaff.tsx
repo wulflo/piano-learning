@@ -48,6 +48,7 @@ export function GrandStaff({
   onNoteClickRef.current = onNoteClick
 
   const [width, setWidth] = useState(640)
+  const [renderWidth, setRenderWidth] = useState<number | null>(null)
   const [renderHeight, setRenderHeight] = useState<number | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [ready, setReady] = useState(false)
@@ -72,6 +73,7 @@ export function GrandStaff({
     [measureCount, width],
   )
   const height = renderHeight ?? layout.height
+  const canvasWidth = renderWidth ?? width
   const activeKey = activeNotes.join(',')
   const activeIdKey = activeIds.join(',')
 
@@ -79,6 +81,7 @@ export function GrandStaff({
   // válido; se vuelve al cálculo teórico hasta que termine el nuevo dibujo.
   useEffect(() => {
     setRenderHeight(null)
+    setRenderWidth(null)
   }, [width, measureCount])
 
   useEffect(() => {
@@ -99,6 +102,7 @@ export function GrandStaff({
       .then((result) => {
         if (cancelled) return
         setRenderHeight(result.height)
+        setRenderWidth(result.width)
         setError(null)
         setReady(true)
       })
@@ -151,13 +155,13 @@ export function GrandStaff({
       <div className="staff-scroll" ref={scrollRef}>
         <div
           className="staff-zoom"
-          style={{ width: width * zoom, height: height * zoom }}
+          style={{ width: canvasWidth * zoom, height: height * zoom }}
         >
           <div
             ref={renderRef}
             className="staff-canvas"
             style={{
-              width,
+              width: canvasWidth,
               height,
               transform: `scale(${zoom})`,
               transformOrigin: 'top left',

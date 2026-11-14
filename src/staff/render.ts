@@ -49,11 +49,15 @@ export interface RenderedStaff {
   notes: RenderedStaffNote[]
   /** Altura real usada; puede superar la pedida para que entren las notas extremas. */
   height: number
+  /** Ancho real del SVG; puede superar el pedido si el contenido no entra. */
+  width: number
 }
 
 const NOTE_COLOR = '#1d1f23'
 const STAVE_Y = 34
 const EDGE_MARGIN = 8
+/** Margen exterior izquierdo y derecho del SVG respecto al pentagrama. */
+const STAVE_SIDE_MARGIN = 10
 
 /**
  * Dibuja un pentagrama en `container` y devuelve las referencias a las notas.
@@ -92,19 +96,6 @@ export async function renderStaff(
   const minHeight = Math.max(150, Math.round(height))
   const staveY = STAVE_Y + Math.max(0, EDGE_MARGIN - (STAVE_Y + extent.top))
   const renderHeight = Math.max(minHeight, staveY + extent.bottom + EDGE_MARGIN)
-
-  const renderer = new VF.Renderer(container, VF.Renderer.Backends.SVG)
-  const renderWidth = Math.max(280, Math.round(width))
-  renderer.resize(renderWidth, renderHeight)
-  const context = renderer.getContext()
-
-  const stave = new VF.Stave(10, staveY, renderWidth - 20)
-  stave.addClef(clef)
-  if (keySignature !== 'C') stave.addKeySignature(keySignature)
-  stave.addTimeSignature(timeSignature)
-  stave.setContext(context).draw()
-
-  if (measures.length === 0) return { notes: [], height: renderHeight }
 
   const planner = createHighlightPlanner(
     measures.map((measure) => ({
@@ -145,16 +136,73 @@ export async function renderStaff(
     return note
   })
 
-  const voice = new VF.Voice(timeSignature).setStrict(false)
-  voice.addTickables(vexNotes)
-  VF.Accidental.applyAccidentals([voice], keySignature)
+  const voice =
+    measures.length === 0 ? null : new VF.Voice(timeSignature).setStrict(false)
+  if (voice !== null) {
+    voice.addTickables(vexNotes)
+    VF.Accidental.applyAccidentals([voice], keySignature)
+  }
+
+  const requestedWidth = Math.max(280, Math.round(width))
+  const stave = new VF.Stave(
+    STAVE_SIDE_MARGIN,
+    staveY,
+    requestedWidth - STAVE_SIDE_MARGIN * 2,
+  )
+  stave.addClef(clef)
+  if (keySignature !== 'C') stave.addKeySignature(keySignature)
+  stave.addTimeSignature(timeSignature)
+
+  // Si el contenido no cabe en el ancho pedido, el SVG crece. El componente
+  // permite desplazamiento horizontal para verlo completo.
+  let renderWidth = requestedWidth
+  if (voice !== null) {
+    const noteStart = stave.getNoteStartX() - STAVE_SIDE_MARGIN
+    const minTotal = new VF.Formatter()
+      .joinVoices([voice])
+      .preCalculateMinTotalWidth([voice])
+    if (Number.isFinite(minTotal) && minTotal > 0) {
+      renderWidth = Math.max(
+        requestedWidth,
+        Math.ceil(
+          noteStart +
+            minTotal +
+            STAVE_SIDE_MARGIN * 2 +
+            EDGE_MARGIN * 2,
+        ),
+      )
+    }
+  }
+  if (renderWidth !== requestedWidth) {
+    stave.setWidth(renderWidth - STAVE_SIDE_MARGIN * 2)
+  }
+
+  const renderer = new VF.Renderer(container, VF.Renderer.Backends.SVG)
+  renderer.resize(renderWidth, renderHeight)
+  const context = renderer.getContext()
+  stave.setContext(context).draw()
+
+  const staveElement = container.querySelector('.vf-stave')
+  if (staveElement !== null) {
+    staveElement.setAttribute('data-staff-stave', '')
+    staveElement.setAttribute('data-stave-x', String(STAVE_SIDE_MARGIN))
+    staveElement.setAttribute(
+      'data-stave-width',
+      String(renderWidth - STAVE_SIDE_MARGIN * 2),
+    )
+  }
+
+  if (voice === null) {
+    return { notes: [], height: renderHeight, width: renderWidth }
+  }
+
   new VF.Formatter().joinVoices([voice]).formatToStave([voice], stave, {
     alignRests: false,
   })
   voice.draw(context, stave)
 
   const references: RenderedStaffNote[] = []
-  vexNotes.forEach((_note, index) => {
+  vexNotes.forEach((note, index) => {
     const measure = measures[index]
     const element = container.querySelector(
       `#vf-pdc-note-${index}`,
@@ -164,6 +212,12 @@ export async function renderStaff(
       element.setAttribute('data-staff-note', String(index))
       element.setAttribute('data-midi', midis.join(','))
       element.setAttribute('data-highlighted', String(highlightedFlags[index]))
+      element.setAttribute('data-x', note.getAbsoluteX().toFixed(2))
+      const box = note.getBoundingBox()
+      if (box !== undefined) {
+        element.setAttribute('data-box-x', box.getX().toFixed(2))
+        element.setAttribute('data-box-width', box.getW().toFixed(2))
+      }
       element.setAttribute('tabindex', '0')
       element.setAttribute('role', 'button')
       element.setAttribute(
@@ -191,7 +245,7 @@ export async function renderStaff(
     })
   })
 
-  return { notes: references, height: renderHeight }
+  return { notes: references, height: renderHeight, width: renderWidth }
 }
 
 export function describeStaffNotes(

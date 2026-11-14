@@ -21,6 +21,108 @@ function countEvents(score: Score | undefined): number {
   return score?.events.length ?? 0
 }
 
+/** Réplicas de un pulso muy denso para forzar que un compás no entre. */
+function denseScore(count = 32): Score {
+  const pitch: Score['events'][number]['pitches'][number] = {
+    step: 'C',
+    accidental: '',
+    octave: 4,
+  }
+  return {
+    clef: 'treble',
+    key: 'C',
+    mode: 'major',
+    timeSignature: { numerator: 4, denominator: 4 },
+    tempoBpm: 80,
+    pedals: [],
+    events: Array.from({ length: count }, (_, index) => ({
+      id: `ev.dense.${index}`,
+      measure: 1,
+      beat: index * 0.125,
+      value: { duration: 'thirty-second', dots: 0, tuplet: 'none' },
+      pitches: [pitch],
+      hand: 'right',
+      voice: 1,
+      velocity: 80,
+      tieToNext: false,
+    })),
+  }
+}
+
+function notesOf(container: HTMLElement): Element[] {
+  return Array.from(container.querySelectorAll('[data-grand-note]'))
+}
+
+interface StaveBounds {
+  x: number
+  width: number
+}
+
+function staveBoundsOf(container: HTMLElement): Map<string, StaveBounds> {
+  const bounds = new Map<string, StaveBounds>()
+  for (const stave of Array.from(
+    container.querySelectorAll('[data-stave-measure]'),
+  )) {
+    const hand = stave.getAttribute('data-stave-hand')
+    const measure = stave.getAttribute('data-stave-measure')
+    if (hand === null || measure === null) continue
+    bounds.set(`${hand}:${measure}`, {
+      x: Number(stave.getAttribute('data-stave-x')),
+      width: Number(stave.getAttribute('data-stave-width')),
+    })
+  }
+  return bounds
+}
+
+/** Comprueba que las dos manos comparten la `x` en cada pulso. */
+function expectHandsAligned(container: HTMLElement): void {
+  const byPulse = new Map<
+    string,
+    { right: number | undefined; left: number | undefined }
+  >()
+  for (const note of notesOf(container)) {
+    const measure = note.getAttribute('data-measure')
+    const beat = Number(note.getAttribute('data-beat')).toFixed(4)
+    const key = `${measure}:${beat}`
+    const entry = byPulse.get(key) ?? { right: undefined, left: undefined }
+    const x = Number(note.getAttribute('data-x'))
+    if (note.getAttribute('data-hand') === 'right') entry.right ??= x
+    else entry.left ??= x
+    byPulse.set(key, entry)
+  }
+
+  let shared = 0
+  for (const [key, entry] of byPulse) {
+    if (entry.right === undefined || entry.left === undefined) continue
+    shared += 1
+    expect(
+      Math.abs(entry.right - entry.left),
+      `las manos no coinciden en el pulso ${key}`,
+    ).toBeLessThan(0.05)
+  }
+  expect(shared).toBeGreaterThan(0)
+}
+
+/** Comprueba que ninguna nota se sale del ancho de su compás. */
+function expectNotesInsideStaves(container: HTMLElement): void {
+  const bounds = staveBoundsOf(container)
+  let checked = 0
+  for (const note of notesOf(container)) {
+    const hand = note.getAttribute('data-hand')
+    const measure = note.getAttribute('data-measure')
+    const bound = bounds.get(`${hand}:${measure}`)
+    expect(bound, `falta el pentagrama ${hand} del compás ${measure}`).toBeDefined()
+    if (bound === undefined) continue
+    const x = Number(note.getAttribute('data-box-x'))
+    const width = Number(note.getAttribute('data-box-width'))
+    expect(Number.isFinite(x) && Number.isFinite(width)).toBe(true)
+    expect(x).toBeGreaterThanOrEqual(bound.x - 0.5)
+    expect(x + width).toBeLessThanOrEqual(bound.x + bound.width + 0.5)
+    checked += 1
+  }
+  expect(checked).toBeGreaterThan(0)
+}
+
 function repeatedNoteScore(): Score {
   const pitch: Score['events'][number]['pitches'][number] = {
     step: 'C',
@@ -231,6 +333,71 @@ describe('F5-022 — Gran pentagrama', () => {
     expect(countEvents(single.hands.left)).toBe(0)
     expect(result.notes).toHaveLength(countEvents(single.hands.right))
     expect(container.querySelector('svg')).not.toBeNull()
+  })
+
+  it('alinea las dos manos en el mismo pulso musical', async () => {
+    for (const slug of [
+      'piece.traditional.frere-jacques',
+      'piece.traditional.greensleeves',
+      'piece.schumann.soldatenmarsch',
+      'piece.studies.10',
+    ]) {
+      const loaded = await loadRepertoirePiece(slug)
+      const container = document.createElement('div')
+      await renderGrandStaff(container, {
+        right: loaded.hands.right,
+        left: loaded.hands.left,
+        width: 640,
+      })
+      expectHandsAligned(container)
+    }
+  })
+
+  it('mantiene las notas dentro del ancho de cada compás', async () => {
+    for (const slug of [
+      'piece.studies.01',
+      'piece.studies.10',
+      'piece.traditional.greensleeves',
+      'piece.schumann.soldatenmarsch',
+    ]) {
+      const loaded = await loadRepertoirePiece(slug)
+      const container = document.createElement('div')
+      await renderGrandStaff(container, {
+        right: loaded.hands.right,
+        left: loaded.hands.left,
+        width: 640,
+      })
+      expectNotesInsideStaves(container)
+    }
+  })
+
+  it('amplía el ancho cuando un compás muy denso no entra', async () => {
+    const container = document.createElement('div')
+    const result = await renderGrandStaff(container, {
+      right: denseScore(),
+      width: 640,
+    })
+
+    expect(result.systems).toBe(1)
+    expect(result.width).toBeGreaterThan(640)
+    const svg = container.querySelector('svg')
+    expect(Number(svg?.getAttribute('width'))).toBeCloseTo(result.width, 2)
+    expectNotesInsideStaves(container)
+  })
+
+  it('el componente reserva el ancho real de un compás muy denso', async () => {
+    render(
+      <SettingsProvider initialSettings={DEFAULT_SETTINGS}>
+        <GrandStaff right={denseScore()} label="Compás denso" />
+      </SettingsProvider>,
+    )
+
+    const canvas = await waitFor(() => {
+      const element = document.querySelector('.staff-canvas') as HTMLElement | null
+      expect(element).not.toBeNull()
+      return element as HTMLElement
+    })
+    expect(Number.parseFloat(canvas.style.width)).toBeGreaterThan(640)
   })
 
   it('el componente muestra las dos manos y responde al click', async () => {
