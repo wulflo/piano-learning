@@ -31,6 +31,8 @@ export interface AudioEngineState {
   activeNotes: number[]
   /** Id del evento del timeline que suena, si lo tiene. */
   activeLabel?: string
+  /** Ids de todos los eventos que suenan a la vez. */
+  activeLabels?: string[]
   error: string | null
   tempo: number
   volumeDb: number
@@ -44,10 +46,21 @@ export interface Scheduler {
   now(): number
 }
 
+/** Notas y eventos que suenan en un instante, incluidas las notas mantenidas. */
+export interface TimelineActive {
+  midis: number[]
+  labels: string[]
+}
+
 export interface PlayTimelineOptions {
   repeat?: boolean
   /** Se llama cuando el timeline empieza un evento (misma fuente que el audio). */
   onEvent?: (event: TimelineEvent, index: number) => void
+  /**
+   * Se llama cada vez que cambia el conjunto de notas que suenan. Incluye las
+   * notas largas que siguen activas y los eventos simultáneos de varias voces.
+   */
+  onActive?: (active: TimelineActive) => void
   /**
    * Duración total de la pasada en segundos. Por defecto se usa el final del
    * último evento; una progresión con pausa de bucle lo pasa para que la
@@ -88,12 +101,16 @@ interface SequenceState {
   events: TimelineEvent[]
   repeat: boolean
   onEvent?: (event: TimelineEvent, index: number) => void
+  onActive?: (active: TimelineActive) => void
   index: number
   startedAt: number
   duration: number
   interval: number | null
   timers: number[]
-  token: number
+  /** Eventos que están sonando, indexados por su posición en el timeline. */
+  active: Map<number, TimelineEvent>
+  /** Cambia en cada pasada del bucle para ignorar temporizadores antiguos. */
+  generation: number
   finished: boolean
 }
 
@@ -109,6 +126,21 @@ interface MetronomeState {
 
 function errorMessage(error: unknown): string {
   return error instanceof Error ? error.message : String(error)
+}
+
+/** Une las notas y etiquetas de todos los eventos que suenan a la vez. */
+function activeFrom(events: Iterable<TimelineEvent>): TimelineActive {
+  const midis = new Set<number>()
+  const labels: string[] = []
+  const seen = new Set<string>()
+  for (const event of events) {
+    for (const midi of event.midis) midis.add(midi)
+    if (event.label !== undefined && !seen.has(event.label)) {
+      seen.add(event.label)
+      labels.push(event.label)
+    }
+  }
+  return { midis: [...midis], labels }
 }
 
 function clampVolume(db: number): number {
@@ -164,7 +196,11 @@ export class AudioEngine {
   }
 
   getState(): AudioEngineState {
-    return { ...this.state, activeNotes: [...this.state.activeNotes] }
+    return {
+      ...this.state,
+      activeNotes: [...this.state.activeNotes],
+      activeLabels: [...(this.state.activeLabels ?? [])],
+    }
   }
 
   subscribe(listener: (state: AudioEngineState) => void): () => void {
@@ -173,9 +209,25 @@ export class AudioEngine {
   }
 
   private emit(patch: Partial<AudioEngineState>): void {
-    this.state = { ...this.state, ...patch }
+    // Quien cambia las notas activas sin detallar etiquetas las está limpiando:
+    // las notas mantenidas por MIDI o una parada no conservan ids del timeline.
+    const next =
+      patch.activeNotes !== undefined && patch.activeLabels === undefined
+        ? { ...patch, activeLabels: [] }
+        : patch
+    this.state = { ...this.state, ...next }
     const snapshot = this.getState()
     for (const listener of this.listeners) listener(snapshot)
+  }
+
+  private publishActive(sequence: SequenceState): void {
+    const active = activeFrom(sequence.active.values())
+    this.emit({
+      activeNotes: active.midis,
+      activeLabel: active.labels[active.labels.length - 1],
+      activeLabels: active.labels,
+    })
+    sequence.onActive?.(active)
   }
 
   /** Crea el contexto de audio. Debe invocarse desde un gesto del usuario. */
@@ -296,12 +348,14 @@ export class AudioEngine {
       events: [...events].sort((a, b) => a.time - b.time),
       repeat: Boolean(options.repeat),
       onEvent: options.onEvent,
+      onActive: options.onActive,
       index: 0,
       startedAt: this.scheduler.now(),
       duration: options.duration ?? timelineDuration(events),
       interval: null,
       timers: [],
-      token: 0,
+      active: new Map(),
+      generation: 0,
       finished: false,
     }
     this.sequence = sequence
@@ -331,20 +385,24 @@ export class AudioEngine {
         adapter.playNote(midi, event.duration, when)
       }
 
-      const token = ++sequence.token
+      const generation = sequence.generation
       const timer = this.scheduler.setTimeout(() => {
         if (this.sequence !== sequence || sequence.finished) return
-        this.emit({ activeNotes: [...event.midis], activeLabel: event.label })
+        if (sequence.generation !== generation) return
+        sequence.active.set(index, event)
+        this.publishActive(sequence)
         sequence.onEvent?.(event, index)
       }, delay * 1000)
       sequence.timers.push(timer)
 
-      // Apaga el resaltado al terminar la nota solo si no la reemplazó otra.
+      // Al terminar el evento se retira del conjunto activo. Si otra nota del
+      // mismo pulso o una nota larga sigue sonando, permanece resaltada.
       const clearTimer = this.scheduler.setTimeout(
         () => {
           if (this.sequence !== sequence || sequence.finished) return
-          if (sequence.token !== token) return
-          this.emit({ activeNotes: [], activeLabel: undefined })
+          if (sequence.generation !== generation) return
+          sequence.active.delete(index)
+          this.publishActive(sequence)
         },
         Math.max(0, (event.time + event.duration - elapsed) * 1000),
       )
@@ -359,7 +417,9 @@ export class AudioEngine {
       if (elapsed >= sequence.duration) {
         sequence.index = 0
         sequence.startedAt = this.scheduler.now()
-        sequence.token = 0
+        sequence.generation += 1
+        sequence.active.clear()
+        this.publishActive(sequence)
       }
       return
     }

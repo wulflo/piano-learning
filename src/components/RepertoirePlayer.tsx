@@ -159,9 +159,9 @@ export function RepertoirePlayer({
       .playTimeline(playback.timeline, {
         repeat: playback.loop,
         duration: playback.duration,
-        onEvent: (event) => {
-          setActiveNotes(event.midis)
-          setActiveIds(event.label === undefined ? [] : [event.label])
+        onActive: (active) => {
+          setActiveNotes(active.midis)
+          setActiveIds(active.labels)
         },
       })
       .catch((reason: unknown) => {

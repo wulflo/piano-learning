@@ -130,6 +130,49 @@ describe('AudioEngine', () => {
     expect(engine.getState().activeLabel).toBeUndefined()
   })
 
+  it('mantiene activas las notas simultáneas y las que siguen sonando', async () => {
+    vi.useFakeTimers()
+    const { adapter } = fakeAdapter()
+    const engine = new AudioEngine({ createAdapter: async () => adapter })
+    await engine.ensureStarted()
+
+    const snapshots: Array<{ midis: number[]; labels: string[] }> = []
+    await engine.playTimeline(
+      [
+        { time: 0, duration: 1, midis: [43], label: 'izq.1' },
+        { time: 0, duration: 0.25, midis: [74], label: 'der.1' },
+        { time: 0.25, duration: 0.25, midis: [67], label: 'der.2' },
+      ],
+      { duration: 1, onActive: (active) => snapshots.push(active) },
+    )
+
+    // Las dos manos se programan en el audio, aunque empiecen a la vez.
+    expect(adapter.playNote).toHaveBeenCalledWith(43, 1, expect.any(Number))
+    expect(adapter.playNote).toHaveBeenCalledWith(74, 0.25, expect.any(Number))
+
+    vi.advanceTimersByTime(0)
+    expect(engine.getState().activeNotes).toEqual([43, 74])
+    expect(engine.getState().activeLabels).toEqual(['izq.1', 'der.1'])
+
+    // La nota larga de la izquierda sigue activa mientras la derecha cambia.
+    vi.advanceTimersByTime(250)
+    expect(engine.getState().activeNotes).toEqual([43, 67])
+    expect(engine.getState().activeLabels).toEqual(['izq.1', 'der.2'])
+
+    vi.advanceTimersByTime(250)
+    expect(engine.getState().activeNotes).toEqual([43])
+    expect(engine.getState().activeLabels).toEqual(['izq.1'])
+
+    vi.advanceTimersByTime(500)
+    expect(engine.getState().activeNotes).toEqual([])
+    expect(engine.getState().activeLabels).toEqual([])
+    expect(snapshots).toContainEqual({
+      midis: [43, 74],
+      labels: ['izq.1', 'der.1'],
+    })
+    expect(snapshots.at(-1)).toEqual({ midis: [], labels: [] })
+  })
+
   it('detener limpia temporizadores, resaltados y notas', async () => {
     vi.useFakeTimers()
     const { adapter } = fakeAdapter()

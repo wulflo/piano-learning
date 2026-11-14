@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { act, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { describe, expect, it, vi } from 'vitest'
 import type {
@@ -292,6 +292,76 @@ describe('F5-023 — Reproducción de piezas', () => {
       name: 'Izquierda',
     }) as HTMLInputElement
     expect(left.disabled).toBe(true)
+  })
+
+  it('resalta las dos manos simultáneas y mantiene la nota larga activa', async () => {
+    const piece = await study()
+    const playback = piecePlayback(piece)
+    const leftIds = new Set(
+      (piece.hands.left?.events ?? []).map((event) => event.id),
+    )
+    const rightIds = new Set(
+      (piece.hands.right?.events ?? []).map((event) => event.id),
+    )
+    const leftEvent = playback.timeline.find((event) =>
+      leftIds.has(event.label ?? ''),
+    )
+    const rightEvent = playback.timeline.find(
+      (event) =>
+        rightIds.has(event.label ?? '') && event.time === leftEvent?.time,
+    )
+    expect(leftEvent).toBeDefined()
+    expect(rightEvent).toBeDefined()
+
+    const { engine, mocks } = stubEngine()
+    const user = userEvent.setup()
+    render(
+      <SettingsProvider initialSettings={DEFAULT_SETTINGS}>
+        <RepertoirePlayer piece={piece} engine={engine} audio={audioState()} />
+      </SettingsProvider>,
+    )
+    await waitFor(() =>
+      expect(document.querySelectorAll('[data-grand-note]').length).toBe(40),
+    )
+    await user.click(screen.getByRole('button', { name: 'Reproducir' }))
+
+    const options = mocks.playTimeline.mock.calls[0]?.[1]
+    expect(options?.onActive).toBeDefined()
+
+    // Las dos manos empiezan en el mismo pulso.
+    act(() => {
+      options?.onActive?.({
+        midis: [...(leftEvent?.midis ?? []), ...(rightEvent?.midis ?? [])],
+        labels: [leftEvent?.label ?? '', rightEvent?.label ?? ''],
+      })
+    })
+    await waitFor(() =>
+      expect(
+        document.querySelectorAll('[data-highlighted="true"]'),
+      ).toHaveLength(2),
+    )
+    expect(
+      document.querySelectorAll('[data-highlighted="true"][data-hand="left"]'),
+    ).toHaveLength(1)
+    expect(
+      document.querySelectorAll('[data-highlighted="true"][data-hand="right"]'),
+    ).toHaveLength(1)
+
+    // La derecha termina; la nota larga de la izquierda sigue teñida.
+    act(() => {
+      options?.onActive?.({
+        midis: leftEvent?.midis ?? [],
+        labels: [leftEvent?.label ?? ''],
+      })
+    })
+    await waitFor(() =>
+      expect(
+        document.querySelectorAll('[data-highlighted="true"]'),
+      ).toHaveLength(1),
+    )
+    expect(
+      document.querySelectorAll('[data-highlighted="true"][data-hand="left"]'),
+    ).toHaveLength(1)
   })
 
   it('informa un error de audio sin dejar el botón en reproducción', async () => {

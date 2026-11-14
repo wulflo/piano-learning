@@ -282,7 +282,8 @@ export function KeyboardTask({ task, engine, audio }: KeyboardTaskProps) {
           label={taskTitle(task, locale)}
           activeNotes={audio.activeNotes}
           activeIds={
-            audio.activeLabel === undefined ? [] : [audio.activeLabel]
+            audio.activeLabels ??
+            (audio.activeLabel === undefined ? [] : [audio.activeLabel])
           }
           onNoteClick={({ midis: clicked }) => {
             const first = clicked[0]

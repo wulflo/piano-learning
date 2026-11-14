@@ -86,9 +86,9 @@ export function SongPlayer({ song, engine, audio }: SongPlayerProps) {
     void engine
       .playTimeline(timeline, {
         duration: timelineDuration(timeline),
-        onEvent: (event) => {
-          setActiveNotes(event.midis)
-          setActiveIds(event.label === undefined ? [] : [event.label])
+        onActive: (active) => {
+          setActiveNotes(active.midis)
+          setActiveIds(active.labels)
         },
       })
       .catch((reason: unknown) => {

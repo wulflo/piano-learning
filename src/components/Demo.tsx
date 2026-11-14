@@ -472,7 +472,8 @@ export function Demo() {
         label={t('demo.selection')}
         activeNotes={audio.activeNotes}
         activeIds={
-          audio.activeLabel === undefined ? [] : [audio.activeLabel]
+          audio.activeLabels ??
+          (audio.activeLabel === undefined ? [] : [audio.activeLabel])
         }
         onNoteClick={({ midis }) => playMidis(midis)}
       />
