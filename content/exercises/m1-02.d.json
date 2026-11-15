@@ -5,7 +5,7 @@
   "promptEs": "¿Qué nota está en la primera línea adicional encima del pentagrama en clave de fa?",
   "promptEn": "Which note is on the first ledger line above the staff in bass clef?",
   "explanationEs": "La primera línea adicional encima del pentagrama de fa es Do4 (C4), el mismo Do central que aparece debajo del pentagrama de sol.",
-  "explanationEn": "The first ledger line above the bass staff is C4, the same middle C that appears below the treble staff.",
+  "explanationEn": "The note that sits on a short line added on top of the bass staff is C4: the same middle C that hangs underneath the treble staff.",
   "difficulty": 2,
   "target": { "step": "C", "accidental": "", "octave": 4 },
   "clef": "bass",

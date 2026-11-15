@@ -5,7 +5,7 @@
   "promptEs": "Mirá y escuchá el fragmento en Si♭ mayor. ¿Qué intervalo hay entre la segunda nota (Do5) y la última (Si♭5)?",
   "promptEn": "Look at and listen to the fragment in B♭ major. What interval is there between the second note (C5) and the last note (B♭5)?",
   "explanationEs": "De Do5 a Si♭5 hay siete letras (Do-Re-Mi-Fa-Sol-La-Si) y diez semitonos: séptima menor. El salto amplio abre el registro antes de volver a la tónica.",
-  "explanationEn": "From C5 to B♭5 there are seven letters (C-D-E-F-G-A-B) and ten semitones: a minor seventh. The wide leap opens the register before returning to the tonic.",
+  "explanationEn": "Counting upward from C5 to B♭5 covers ten semitones, a minor seventh; the two pitches also lie seven staff positions apart. That wide leap opens up the register before the phrase returns to the tonic.",
   "difficulty": 1,
   "lower": {
     "step": "C",

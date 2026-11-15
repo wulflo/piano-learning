@@ -121,14 +121,7 @@ Sin hallazgos.
 - Fuente de las referencias: Open Music Theory v2 (CC BY-SA 4.0) — https://github.com/OpenMusicTheory/OpenMusicTheory.
 - Referencias: 142 archivos, 80804 n-gramas únicos.
 - Texto de contenido: 829 archivos, 78637 cadenas.
-- Coincidencias: 6.
+- Coincidencias: 0.
 
-| Archivo | Campo | Id | Palabras | Referencia(s) | Pasaje |
-|---|---|---|---:|---|---|
-| `exercises/ex.m3-04.k.json` | `explanationEn` | `ex.m3-04.k` | 8 | `open-music-theory/trinket.md` | letters c d e f g a b |
-| `exercises/m1-02.c.json` | `explanationEn` | `ex.m1-02.c` | 10 | `open-music-theory/pitches.md` | the first ledger line below the treble staff is c4 |
-| `exercises/m1-02.c.json` | `explanationEn` | `ex.m1-02.c` | 8 | `open-music-theory/pitches.md` | the first ledger line above the bass staff |
-| `exercises/m1-02.d.json` | `explanationEn` | `ex.m1-02.d` | 8 | `open-music-theory/pitches.md` | the first ledger line above the bass staff |
-| `lessons/m1-02.json` | `sections[5].bodyEn` | `lesson.m1-02` | 8 | `open-music-theory/pitches.md` | the first ledger line below the treble staff |
-| `lessons/m1-02.json` | `sections[5].bodyEn` | `lesson.m1-02` | 8 | `open-music-theory/pitches.md` | the first ledger line above the bass staff |
+Sin coincidencias de 8 palabras con los textos de referencia.
 <!-- audit:text:end -->
