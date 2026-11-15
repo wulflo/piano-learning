@@ -2388,3 +2388,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: se incluyen los campos `*En` además de los `*Es` porque las referencias (Open Music Theory) están en inglés; los tests usan fixtures sintéticos en `/tmp` y no tocan `refs/`.
 - Limitaciones: el n-grama exacto no detecta parafraseo; el resultado depende de las referencias descargadas. `refs/` está vacío en este clon, así que la comparación real queda para F6-047.
 - Próximo paso: F6-047 (descargar Open Music Theory a `refs/` y volcar el resultado a docs/AUDITORIA.md).
+
+## 2026-11-14T21:20:00-03:00 · F6-047
+
+- Problema: había que comparar el texto de las lecciones con una obra de referencia real. Open Music Theory (CC BY-SA 4.0) no puede versionarse por licencia y tamaño.
+- Acción: se clonó Open Music Theory v2 (`git clone --depth 1 --branch master`, CC BY-SA 4.0) en `refs/open-music-theory`, que está en `.gitignore`. Se corrió `npm run audit:text` y el resultado se volcó a `docs/AUDITORIA.md` con `--write` y `--label`. Como la primera corrida leyó los gráficos LilyPond (`.ly`) y produjo falsos positivos como «c d e f g a b c», se restringió la lectura de `refs/` a prosa (`.md`, `.txt`, `.html`, `.rst`) y se agregó `--label`; ambas mejoras se cubren con tests. Se documentó la descarga en ENTORNO.md.
+- Resultado: typecheck, suite 252 archivos / 1747 tests y build verdes (JS inicial 272,17 kB gzip < 300 kB). La comparación deja 6 coincidencias de 8 palabras: la lección `lesson.m1-02` (`sections[5].bodyEn`) y los ejercicios `ex.m1-02.c`, `ex.m1-02.d` (frase «the first ledger line below/above … staff») contra `open-music-theory/pitches.md`, y `ex.m3-04.k` («letters c d e f g a b») contra `trinket.md`. Commit `a74f83c`.
+- Correcciones: la restricción a prosa y el flag `--label` corrigen el ruido de los `.ly`; sin ellos el informe traía 65 coincidencias casi todas musicales.
+- Limitaciones: la coincidencia de `ex.m3-04.k` es una enumeración de notas y probablemente inocua; se decide en F6-048. El clon de referencia (132 MB) queda solo en local y se puede borrar.
+- Próximo paso: F6-048 (reescribir los pasajes señalados, una subtarea por módulo afectado).
