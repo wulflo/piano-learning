@@ -6,9 +6,9 @@
 
 - **Tarea actual:** F6-048
 - **Última verificada en verde:** F6-047 (`a74f83c`, 2026-11-14T21:20:00-03:00)
-- **Actualizado:** 2026-11-14T21:20:00-03:00
+- **Actualizado:** 2026-11-14T21:40:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-047 cerrada: Open Music Theory comparado con `content/`; 6 coincidencias de 8 palabras en la lección m1-02 y tres ejercicios, volcadas a docs/AUDITORIA.md. Sigue F6-048 (reescribir los pasajes señalados). Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-048 en curso: reescribir con palabras propias los pasajes de M1 (lección m1-02 y ejercicios m1-02.c/d) y M3 (ex.m3-04.k) señalados por `npm run audit:text`. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1620,7 +1620,7 @@ Quedó funcionando:
   - Aceptación: se descarga a refs/ el texto de Open Music Theory (CC BY-SA 4.0) solo para comparar; se ejecuta el script y el resultado (lección, ejercicio y pasaje coincidente) se vuelca a docs/AUDITORIA.md.
   - Deps: F6-046 · Red: sí · [NET]
   - Commit: a74f83c · 2026-11-14T21:20:00-03:00
-- [ ] **F6-048** — Reescribir con palabras propias los pasajes coincidentes
+- [~] **F6-048** — Reescribir con palabras propias los pasajes coincidentes
   - Aceptación: cada pasaje señalado se reescribe (una subtarea por módulo afectado); `npm run validate:content` y los tests de lecciones en verde; si no hay coincidencias relevantes, se cierra con la nota correspondiente.
   - Deps: F6-047 · Red: no
 - [ ] **F6-049** — Corregir docs/LICENCIAS.md y verificar la tabla de transcripciones
