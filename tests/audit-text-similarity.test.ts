@@ -170,6 +170,25 @@ describe('F6-046 — auditoría de similitud de texto', () => {
     expect(data.matches[0].path).toBe('objectivesEs[0]')
   })
 
+  it('ignora archivos que no son prosa (por ejemplo, código LilyPond)', () => {
+    const { contentDir, refsDir } = fixture('ly', (content, refs) => {
+      writeLesson(content, 'test', {
+        id: 'lesson.test',
+        choices: ['c d e f g a b c d'],
+      })
+      writeFileSync(
+        join(refs, 'defaultFigures.ly'),
+        'c d e f g a b c d e f g a b c d',
+      )
+      writeFileSync(join(refs, 'notes.txt'), 'otra cosa distinta para comparar')
+    })
+
+    const result = run(['--content', contentDir, '--refs', refsDir, '--json'])
+
+    expect(result.status).toBe(0)
+    expect(parseJson(result.stdout).matches).toEqual([])
+  })
+
   it('informa NO VERIFICABLE si no existe refs/', () => {
     const { contentDir } = fixture('absent', (content) => {
       writeLesson(content, 'test', { id: 'lesson.test', bodyEs: 'hola mundo' })
@@ -220,10 +239,19 @@ describe('F6-046 — auditoría de similitud de texto', () => {
       writeFileSync(join(refs, 'source.txt'), 'alpha beta gamma delta epsilon zeta eta theta')
     })
 
-    const result = run(['--content', contentDir, '--refs', refsDir, '--markdown'])
+    const result = run([
+      '--content',
+      contentDir,
+      '--refs',
+      refsDir,
+      '--markdown',
+      '--label',
+      'Open Music Theory (CC BY-SA 4.0)',
+    ])
 
     expect(result.status).toBe(0)
     expect(result.stdout).toContain('## Similitud de texto con obras de referencia')
+    expect(result.stdout).toContain('Fuente de las referencias: Open Music Theory (CC BY-SA 4.0).')
     expect(result.stdout).toContain('| Archivo | Campo | Id | Palabras |')
     expect(result.stdout).toContain('`lessons/test.json`')
     expect(result.stdout).toContain('`lesson.test`')

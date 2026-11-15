@@ -28,6 +28,21 @@ export const DEFAULT_NGRAM_SIZE = 8
 /** Extensiones de contenido que se analizan (fichas JSON). */
 const CONTENT_EXTENSIONS = new Set(['.json'])
 
+/**
+ * Extensiones de referencia que se consideran prosa. Deja fuera código
+ * (`.ly`, `.js`, `.yml`) y binarios: comparar el texto de las lecciones contra
+ * archivos de música produce falsos positivos como «c d e f g a b c».
+ */
+export const PROSE_EXTENSIONS = new Set([
+  '.md',
+  '.markdown',
+  '.txt',
+  '.text',
+  '.html',
+  '.htm',
+  '.rst',
+])
+
 /** Archivos o carpetas que nunca se leen de `refs/`. */
 const SKIP_DIRECTORIES = new Set(['.git', 'node_modules'])
 const SKIP_EXTENSIONS = new Set([
@@ -149,12 +164,12 @@ export function loadContentTexts(contentDir) {
 }
 
 /**
- * Carga los textos de referencia de `refsDir`. Se leen todos los archivos de
- * texto (sin importar la extensión); se omiten los binarios (con byte nulo).
+ * Carga los textos de referencia de `refsDir`. Por defecto solo lee prosa
+ * (`PROSE_EXTENSIONS`) y omite los binarios (con byte nulo).
  */
-export function loadReferenceTexts(refsDir) {
+export function loadReferenceTexts(refsDir, extensions = PROSE_EXTENSIONS) {
   const files = []
-  walkFiles(refsDir, refsDir, null, files)
+  walkFiles(refsDir, refsDir, extensions, files)
   const texts = []
   for (const file of files) {
     const buffer = readFileSync(file.full)
@@ -254,6 +269,9 @@ export function renderTextAuditSection(result) {
   lines.push(
     `- Comando: \`npm run audit:text\` (n-gramas de ${result.size} palabras)`,
   )
+  if (result.label) {
+    lines.push(`- Fuente de las referencias: ${result.label}.`)
+  }
 
   if (result.status === 'no-verificable') {
     lines.push(
@@ -310,12 +328,18 @@ export function upsertSection(document, start, end, body) {
 }
 
 /** Construye el resultado completo de la auditoría. */
-export function auditTextSimilarity({ contentDir, refsDir, size = DEFAULT_NGRAM_SIZE }) {
+export function auditTextSimilarity({
+  contentDir,
+  refsDir,
+  size = DEFAULT_NGRAM_SIZE,
+  label,
+}) {
   const contentTexts = loadContentTexts(contentDir)
   const contentFiles = new Set(contentTexts.map((entry) => entry.file))
 
   const base = {
     size,
+    label,
     refsDir: relative(ROOT, refsDir).split(sep).join('/') || '.',
     content: { files: contentFiles.size, strings: contentTexts.length },
     references: { files: 0, ngrams: 0 },
@@ -351,6 +375,7 @@ function printHelp() {
   --content <ruta>   Carpeta de contenido JSON (por defecto content).
   --refs <ruta>      Carpeta de textos de referencia (por defecto refs; no se versiona).
   --size <n>         Palabras por n-grama (por defecto ${DEFAULT_NGRAM_SIZE}).
+  --label <texto>    Fuente y licencia de las referencias (se cita en el informe).
   --json             Imprime el resultado en JSON.
   --markdown         Imprime la sección de docs/AUDITORIA.md.
   --write <ruta>     Inserta la sección en el markdown indicado.
@@ -379,7 +404,12 @@ function main() {
     return
   }
 
-  const result = auditTextSimilarity({ contentDir, refsDir, size })
+  const result = auditTextSimilarity({
+    contentDir,
+    refsDir,
+    size,
+    label: flagValue('--label'),
+  })
   const section = renderTextAuditSection(result)
 
   if (args.includes('--json')) {

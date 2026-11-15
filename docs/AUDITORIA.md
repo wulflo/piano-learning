@@ -113,3 +113,22 @@ Se revisan `src/`, `scripts/`, `content/` buscando `Copyright`, `SPDX-License-Id
 
 Sin hallazgos.
 <!-- audit:code:end -->
+
+<!-- audit:text:start -->
+## Similitud de texto con obras de referencia
+
+- Comando: `npm run audit:text` (n-gramas de 8 palabras)
+- Fuente de las referencias: Open Music Theory v2 (CC BY-SA 4.0) — https://github.com/OpenMusicTheory/OpenMusicTheory.
+- Referencias: 142 archivos, 80804 n-gramas únicos.
+- Texto de contenido: 829 archivos, 78637 cadenas.
+- Coincidencias: 6.
+
+| Archivo | Campo | Id | Palabras | Referencia(s) | Pasaje |
+|---|---|---|---:|---|---|
+| `exercises/ex.m3-04.k.json` | `explanationEn` | `ex.m3-04.k` | 8 | `open-music-theory/trinket.md` | letters c d e f g a b |
+| `exercises/m1-02.c.json` | `explanationEn` | `ex.m1-02.c` | 10 | `open-music-theory/pitches.md` | the first ledger line below the treble staff is c4 |
+| `exercises/m1-02.c.json` | `explanationEn` | `ex.m1-02.c` | 8 | `open-music-theory/pitches.md` | the first ledger line above the bass staff |
+| `exercises/m1-02.d.json` | `explanationEn` | `ex.m1-02.d` | 8 | `open-music-theory/pitches.md` | the first ledger line above the bass staff |
+| `lessons/m1-02.json` | `sections[5].bodyEn` | `lesson.m1-02` | 8 | `open-music-theory/pitches.md` | the first ledger line below the treble staff |
+| `lessons/m1-02.json` | `sections[5].bodyEn` | `lesson.m1-02` | 8 | `open-music-theory/pitches.md` | the first ledger line above the bass staff |
+<!-- audit:text:end -->
