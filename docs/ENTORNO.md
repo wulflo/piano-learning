@@ -1,6 +1,6 @@
 # ENTORNO — Piano Today
 
-Última actualización: 2026-11-10T10:25:00-03:00
+Última actualización: 2026-11-14T22:10:00-03:00
 
 ## Máquina de desarrollo
 
@@ -9,72 +9,89 @@
 | Sistema | Linux |
 | Node.js | 26.13.0 |
 | npm | 12.2.2 |
-| git | 2.56.0 |
-| `gh` (GitHub CLI) | no instalado (se resolverá en la fase de GitHub) |
+| git | 2.56.1 |
+| `gh` (GitHub CLI) | `/usr/bin/gh`, autenticado |
+| `uv` / `uvx` | 0.13.7 (`/usr/bin/uv`); `uvx` ejecuta `reuse` para `npm run audit:reuse` |
 | Red | disponible (registry.npmjs.org respondió HTTP 200 al bootstrap) |
-| Directorio | `/home/alonso/Documentos/Repositorios/piano-learning` |
+| Directorio | la raíz del repositorio; no se fija una ruta absoluta porque el proyecto es portátil |
 
-## Estado actual del entorno (F2 en curso)
+## Estado actual del entorno (F6 en cierre de auditoría)
 
 - Scaffold compilable: `npm run dev`, `npm run typecheck`, `npm test`, `npm run build`, `npm run budget` y `npm run test:e2e` verificados.
-- Bundle de producción: JS inicial 191.20 kB gzip (< 300 kB) con Tone.js, VexFlow y FSRS diferidos. `npm run budget` valida el presupuesto y los chunks separados.
-- Suite: 110 archivos de test, 788 tests en verde; un recorrido E2E de Playwright en verde.
-- Contenido validado: 9 módulos, 30 lecciones publicadas, 150 ejercicios, 24 habilidades y 1 pieza original.
+- Bundle de producción: JS inicial 272,17 kB gzip (< 300 kB) con Tone.js, VexFlow y FSRS diferidos; 843 chunks diferidos. `npm run budget` valida el presupuesto y los chunks separados.
+- Suite: 253 archivos de test, 1752 tests en verde; un recorrido E2E de Playwright en verde.
+- Contenido validado: 9 módulos, 79 lecciones publicadas, 720 ejercicios, 67 habilidades y 28 piezas de repertorio.
 - `package-lock.json` versionado y reproducible con `npm ci`.
-- Assets de audio Salamander descargados: 30 muestras MP3, 1.92 MB total, verificadas por tamaño y SHA-256; `--dry-run` reporta 30 presentes y 0 faltantes.
-- Tags locales `fase-0` y `fase-1`; remoto `origin` con push a `main` autorizado y Pages activo. No se crean tags ni releases remotos sin autorización.
-- F1 completa. F2 en curso: M0-M2 publicados, persistencia, FSRS, progreso, plan diario y reproductor de ejercicios.
+- Assets de audio Salamander descargados: 30 muestras MP3, 1,92 MB total, verificadas por tamaño y SHA-256; `--dry-run` reporta 30 presentes y 0 faltantes.
+- Auditorías de calidad disponibles: `audit:audio`, `audit:licenses`, `audit:code`, `audit:text` y `audit:reuse`.
+- Tags locales `fase-0` a `fase-6`; remoto `origin` con push a `main` autorizado y Pages activo. No se crean tags ni releases remotos sin autorización.
+- F0 a F5 completas. F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación).
 
 ## Repositorio y política de git
 
-- Git inicializado **solo en local**, rama `main`, sin remoto, sin push.
-- Identidad local del repo: `Piano Today Dev <dev@pianodesdecero.local>`.
+- Rama `main`; remoto `origin` = `https://github.com/wulflo/piano-learning.git` (fetch y push).
+- Demo publicada en GitHub Pages: `https://wulflo.github.io/piano-learning/` (se despliega con cada push a `main`).
+- Identidad local del repo: `Piano Today Dev <dev@pianotoday.local>`.
 - `package-lock.json` se commitea siempre. Instalación reproducible con `npm ci`.
 - Un commit atómico por tarea; el mensaje incluye el ID (`feat(F1-005): ...`).
-- Tags locales `fase-N` al cerrar cada fase. No se crean releases ni remotos hasta autorización explícita.
+- Tags locales `fase-N` al cerrar cada fase. No se crean releases ni tags remotos sin autorización explícita.
 
 ## Dependencias directas y licencias
 
 | Paquete | Versión | Licencia | Tipo |
 |---|---|---|---|
+| dexie | 4.4.7 | Apache-2.0 | runtime |
 | react | 19.3.1 | MIT | runtime |
 | react-dom | 19.3.1 | MIT | runtime |
-| zod | 4.6.7 | MIT | runtime |
 | tonal | 6.5.1 | MIT | runtime |
 | tone | 15.1.22 | MIT | runtime |
+| ts-fsrs | 6.0.0 | MIT | runtime |
 | vexflow | 5.0.0 | MIT | runtime |
+| zod | 4.6.7 | MIT | runtime |
+| @playwright/test | ^1.65.0 | Apache-2.0 | dev |
 | @testing-library/dom | 10.4.2 | MIT | dev |
 | @testing-library/jest-dom | 7.0.1 | MIT | dev |
 | @testing-library/react | 16.3.3 | MIT | dev |
 | @testing-library/user-event | 14.6.8 | MIT | dev |
-| @playwright/test | 1.65.0 | Apache-2.0 | dev |
-| axe-core | 4.14.0 | MPL-2.0 | dev |
 | @types/node | 26.6.6 | MIT | dev |
 | @types/react | 19.3.0 | MIT | dev |
 | @types/react-dom | 19.3.0 | MIT | dev |
 | @vitejs/plugin-react | 6.2.1 | MIT | dev |
+| axe-core | 4.14.0 | MPL-2.0 | dev |
 | fake-indexeddb | 6.2.8 | Apache-2.0 | dev |
-| jscpd | 5.4.3 | MIT | dev |
+| jscpd | ^5.4.3 | MIT | dev |
 | jsdom | 31.0.0 | MIT | dev |
-| license-checker | 25.0.1 | BSD-3-Clause | dev |
+| license-checker | ^25.0.1 | BSD-3-Clause | dev |
 | tsx | 4.23.15 | MIT | dev |
 | typescript | 7.0.2 | Apache-2.0 | dev |
 | vite | 8.3.6 | MIT | dev |
+| vite-plugin-pwa | ^2.0.0 | MIT | dev |
 | vitest | 5.1.0 | MIT | dev |
 
-### Resumen transitivo (171 paquetes en el lockfile)
+### Resumen transitivo (599 paquetes en el lockfile)
 
 | Licencia | Cantidad |
-|---|---|
-| MIT | 126 |
-| Apache-2.0 | 26 |
-| MPL-2.0 | 12 |
-| BSD-2-Clause | 2 |
-| BSD-3-Clause | 2 |
-| ISC | 2 |
-| BlueOak-1.0.0 | 1 |
+|---|---:|
+| MIT | 493 |
+| Apache-2.0 | 37 |
+| ISC | 29 |
+| MPL-2.0 | 13 |
+| BSD-3-Clause | 8 |
+| BSD-2-Clause | 7 |
+| BlueOak-1.0.0 | 6 |
+| (MIT AND CC-BY-3.0) | 1 |
+| (MIT OR CC0-1.0) | 1 |
+| 0BSD | 1 |
+| CC-BY-3.0 | 1 |
+| CC-BY-4.0 | 1 |
+| CC0-1.0 | 1 |
+| **Total** | **599** |
 
-Todas son compatibles con distribución estática y con el código MIT del proyecto. El detalle completo se generará en `THIRD_PARTY_LICENSES.md` durante F0-010.
+Todas son compatibles con distribución estática y con el código MIT del proyecto;
+las únicas copyleft son `MPL-2.0`, permisivas a nivel de archivo. El detalle
+completo, con una fila por paquete, está en `THIRD_PARTY_LICENSES.md`, y
+`npm run audit:licenses` verifica que las licencias de producción sigan siendo
+permisivas y coincidan con ese documento.
 
 ## Notas de instalación
 
@@ -88,21 +105,21 @@ Todas son compatibles con distribución estática y con el código MIT del proye
 - La auditoría de código (`npm run audit:code`) usa `jscpd` 5.4.3; el binario nativo se instala como dependencia opcional de plataforma (`jscpd-linux-x64-gnu`). En otra plataforma, `npm ci` la resuelve sola.
 - La auditoría de originalidad (`npm run audit:text`, `scripts/audit-text-similarity.mjs`) es Node puro y no usa red. Compara el texto de `content/` con los textos de referencia de `refs/`, que están en `.gitignore` y **nunca se versionan**. Solo lee prosa (`.md`, `.txt`, `.html`, `.rst`); deja fuera código como LilyPond. Si `refs/` no existe, informa NO VERIFICABLE y sale con 0.
 - Referencia descargada para F6-047: Open Music Theory v2 (CC BY-SA 4.0), clonado en `refs/open-music-theory` (`--depth 1`, rama `master`). Aporta 142 archivos de prosa y ~80804 n-gramas únicos. El clon no se versiona y se puede borrar; el resultado queda en `docs/AUDITORIA.md`.
-- La auditoría REUSE (`npm run audit:reuse`) ejecuta `uvx reuse lint` con `reuse` 6.3.0 (Python, GPL-3.0). No es una dependencia npm: requiere `uv` (`/usr/bin/uv`) y red la primera vez que `uvx` baja la herramienta. Por eso no se encadena en `npm run audit`.
+- La auditoría REUSE (`npm run audit:reuse`) ejecuta `uvx reuse lint` con `reuse` 6.3.0 (Python, GPL-3.0). No es una dependencia npm: requiere `uv` (`/usr/bin/uv`) y red la primera vez que `uvx` baja la herramienta. Por eso queda fuera de las auditorías offline (`audit:audio`, `audit:licenses`, `audit:code` y `audit:text`).
 - Node 26 es la versión local; el proyecto declara `engines.node >= 22.12.0` para CI y GitHub Pages.
 - TypeScript 7.0.2 es la estable actual. Si aparece una incompatibilidad con el toolchain, se documentará como ADR y se bajará a la última 5.9.x.
 
 ## Tareas que requieren red (`[NET]`)
 
 - F0-001: instalación inicial desde el registro npm (completada).
-- F1-039: descarga de muestras Salamander.
-- F1-040: cierre de manifiesto y atribución con assets descargados.
-- F2-047: investigación del optimizador de FSRS en navegador.
+- F1-039 y F1-040: descarga de muestras Salamander y cierre de manifiesto y atribución (completadas).
+- F2-047: investigación del optimizador de FSRS en navegador (completada).
 - F5-025: verificación de dominio público de repertorio (completada el
   2026-11-13; fuentes, fechas y descartes en `docs/LICENCIAS.md`).
-- F6-022 a F6-026: workflows, Pages, demo publicada y tags remotos (solo con autorización).
+- F6-022 a F6-026: workflows, Pages, demo publicada y tags remotos (completadas; los tags y releases remotos solo se crean con autorización explícita).
 - F6-044: `uvx reuse lint` (la primera corrida baja `reuse` con `uv`).
 - F6-047: clonado de Open Music Theory v2 (`master`, CC BY-SA 4.0) en `refs/` solo para comparar.
+- F6-051: consulta a IMSLP de la primera publicación de la Sinfonía n.º 9.
 - Cualquier `npm install` nuevo.
 
 Ninguna tarea `[NET]` bloquea el avance offline: las dependencias ya están
@@ -179,6 +196,7 @@ npm test
 npm run test:e2e
 npm run build
 npm run validate:content
+npm run index:content
 npm run budget
 npm run estado
 npm run audit:audio
@@ -186,5 +204,9 @@ npm run audit:licenses
 npm run audit:code
 npm run audit:text
 npm run audit:reuse
-node scripts/fetch-samples.mjs --dry-run
+npm run fetch:samples:dry
 ```
+
+`npm run budget` y `npm run estado` compilan la app; `npm run estado` además
+ejecuta typecheck y tests, y regenera `docs/ESTADO.md` (no editar ese archivo a
+mano). `audit:reuse` es la única auditoría que necesita red (la primera vez).
