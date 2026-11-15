@@ -2415,3 +2415,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: la tabla ya no mezcla la afirmación falsa con las tablas de verificación; el test evita que vuelva a desincronizarse cuando se añadan piezas.
 - Limitaciones: la columna «Tarea» usa la tarea que publicó cada pieza (F0-005 para la semilla); el test no valida ese mapeo, solo la correspondencia archivo↔licencia.
 - Próximo paso: F6-050 (corregir el título de la tarea F5-035 en el checklist).
+
+## 2026-11-14T21:55:00-03:00 · F6-050
+
+- Problema: la tarea F5-035 se titulaba «Transcribir «Arabesque» Op. 100 N.º 1 (Burgmüller, 1874)», pero la corrección documentada en `docs/LICENCIAS.md` (punto 1) aclara que *Arabesque* es el n.º 2 de la colección: el n.º 1 es *La candeur*.
+- Acción: se verificó la ficha publicada —id `piece.burgmuller.arabesque-op100-2`, título «L’Arabesque, Op. 100 N.º 2», compositor Johann Friedrich Franz Burgmüller (1806-1874), fuente «L’Arabesque, N.º 2 de las 25 Études faciles et progressives, Op. 100»— y se corrigió el título de F5-035 a «Op. 100 N.º 2», con una nota que enlaza el id y el archivo.
+- Resultado: `tests/checklist-format.test.ts` en verde (6 tests). Commit `7d5ec42`.
+- Correcciones: alinea el checklist con la ficha real y con la corrección de F5-025; no se tocó la pieza ni su commit original.
+- Limitaciones: la columna «Nota (F6-050)» es informativa; el test de formato del checklist no la valida.
+- Próximo paso: F6-051 [NET] (verificar en IMSLP la publicación de la Sinfonía n.º 9 de Beethoven).

@@ -4,11 +4,11 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** F6-050
-- **Última verificada en verde:** F6-049 (`5085638`, 2026-11-14T21:50:00-03:00)
-- **Actualizado:** 2026-11-14T21:50:00-03:00
+- **Tarea actual:** F6-051
+- **Última verificada en verde:** F6-050 (`7d5ec42`, 2026-11-14T21:55:00-03:00)
+- **Actualizado:** 2026-11-14T21:55:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-050 en curso: F5-035 dice «Op. 100 N.º 1» pero *Arabesque* es el n.º 2; se corrige el título con una nota. Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-050 cerrada: F5-035 ya dice «Op. 100 N.º 2» con nota que verifica id, título y ficha. Sigue F6-051 [NET] (verificar en IMSLP la publicación de la Sinfonía n.º 9). Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1629,9 +1629,10 @@ Quedó funcionando:
   - Aceptación: se corrige la afirmación de que las trece piezas publicadas son obras originales CC0 (contradice su propia tabla) y «Transcripciones publicadas» lista todas las piezas hoy en content/repertoire/ con su ficha; un test verifica que esa tabla coincide con los archivos de content/repertoire/.
   - Deps: F6-048 · Red: no
   - Commit: 5085638 · 2026-11-14T21:50:00-03:00
-- [~] **F6-050** — Corregir el título de la tarea F5-035 en el checklist
+- [x] **F6-050** — Corregir el título de la tarea F5-035 en el checklist
   - Aceptación: F5-035 dice «Op. 100 N.º 1» pero la corrección documentada es N.º 2 (Arabesque); se verifica id, título y ficha de la pieza en content/repertoire/ y se corrige el título de la tarea con una nota.
   - Deps: F6-049 · Red: no
+  - Commit: 7d5ec42 · 2026-11-14T21:55:00-03:00
 - [ ] **F6-051** — Verificar la publicación de la Sinfonía n.º 9 en IMSLP [NET]
   - Aceptación: se consulta en IMSLP el año de primera publicación de la Sinfonía n.º 9 de Beethoven (estreno 1824; publicación presumiblemente 1826) y se corrige la ficha y LICENCIAS.md si difiere.
   - Deps: F6-050 · Red: sí · [NET]
