@@ -8,7 +8,7 @@
 - **Última verificada en verde:** F6-051 (`3d4181d`, 2026-11-14T22:00:00-03:00)
 - **Actualizado:** 2026-11-14T22:00:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-051 cerrada: IMSLP registra la primera publicación de la Sinfonía n.º 9 en agosto de 1826 (Mainz: Schott); se corrigieron tabla, registro y ficha. Sigue F6-052 (actualizar ENTORNO.md, identidad git neutral y limpiar [NET]). Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-052 en curso: reescribir docs/ENTORNO.md al estado real (tests, contenido, remoto origin y Pages, comandos de auditoría), pasar la identidad git local a una neutral de Piano Today y quitar los [NET] sobrantes de F6-034 y F6-035. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1554,14 +1554,14 @@ Quedó funcionando:
   - Cierre: `src/midi/context.tsx` (`MidiProvider`/`useMidi`) abre una única conexión y expone `heldNotes`, `events`, `devices` y `lastEvent`; `connectMidiInput` devuelve los nombres de los puertos y reasigna handlers de forma idempotente; `Keyboard` y `Staff` suman `heldNotes` a `activeNotes`; `MidiStatusBar` ofrece conectar/reintentar/desconectar, lista dispositivos y muestra la última nota; `KeyboardTask` usa el contexto, normaliza los timestamps absolutos de Web MIDI respecto de la primera pulsación y agrega «Reiniciar intento». El mensaje de permiso denegado indica los pasos de Chrome (`f505b11`). Tests nuevos con MIDI simulado para contexto, teclado, pentagrama y tarea. Suite 240 archivos / 1649 tests, typecheck, contenido, build y presupuesto verdes.
   - Limitación: la prueba con el PSR-373 físico no se pudo ejecutar en el entorno del agente; el diagnóstico visible (puertos y última nota) permite confirmar en la máquina del usuario si el navegador recibe los mensajes.
 - [x] **F6-034** — Reforzar la conexión MIDI y añadir diagnóstico visible
-  - Aceptación: abrir el puerto explícitamente al conectar, reconectar cuando el permiso pasa a concedido o la pestaña recupera el foco, y mostrar permiso, entradas, salidas y último mensaje crudo en Ajustes. [NET]
+  - Aceptación: abrir el puerto explícitamente al conectar, reconectar cuando el permiso pasa a concedido o la pestaña recupera el foco, y mostrar permiso, entradas, salidas y último mensaje crudo en Ajustes.
   - Deps: F6-033 · Red: no
   - Inicio: 2026-11-14T06:10:00-03:00
   - Commit: 39fb6fc · 2026-11-14T06:25:00-03:00
   - Cierre: `connectMidiInput` llama a `input.open()` cuando existe y reenumera entradas/salidas en cada `statechange`; el contexto consulta `navigator.permissions` (`midi`), reconecta al volver el foco y expone `outputs`, `permission` y `lastRaw`; `MidiDiagnostics` muestra Web MIDI, permiso, estado, perfil, entradas, salidas y el último mensaje en hexadecimal con la nota. El helper de tests gana `open()` y `outputs`; tests del contexto y del diagnóstico cubren apertura del puerto y mensajes crudos.
   - Nota: si el PSR-373 no aparece en «Entradas MIDI», el problema está antes de la app (cable, adaptador, driver o permiso del sistema); el panel permite distinguirlo sin abrir DevTools.
 - [x] **F6-035** — Transición al tema Material 3 claro y limpieza de la interfaz
-  - Aceptación: paleta M3 clara por defecto con tokens de superficie, primario y contenedores; componentes con formas, elevación y estados M3; sin badge «Fase 2»; aviso de nueva versión visible arriba. [NET]
+  - Aceptación: paleta M3 clara por defecto con tokens de superficie, primario y contenedores; componentes con formas, elevación y estados M3; sin badge «Fase 2»; aviso de nueva versión visible arriba.
   - Deps: F6-034 · Red: no
   - Inicio: 2026-11-14T06:15:00-03:00
   - Commit: 39fb6fc · 2026-11-14T06:25:00-03:00
@@ -1637,7 +1637,7 @@ Quedó funcionando:
   - Aceptación: se consulta en IMSLP el año de primera publicación de la Sinfonía n.º 9 de Beethoven (estreno 1824; publicación presumiblemente 1826) y se corrige la ficha y LICENCIAS.md si difiere.
   - Deps: F6-050 · Red: sí · [NET]
   - Commit: 3d4181d · 2026-11-14T22:00:00-03:00
-- [ ] **F6-052** — Actualizar ENTORNO.md, la identidad git y limpiar [NET] sobrantes
+- [~] **F6-052** — Actualizar ENTORNO.md, la identidad git y limpiar [NET] sobrantes
   - Aceptación: docs/ENTORNO.md al día (tests, contenido, remoto origin y Pages, comandos de auditoría; sin la ruta `/home/...` ni la contradicción «sin remoto»); la identidad git local pasa a una neutral de Piano Today solo para commits futuros; se quitan los [NET] sobrantes de la aceptación de F6-034 y F6-035.
   - Deps: F6-051 · Red: no
 - [ ] **F6-053** — Encadenar `npm run audit` y consolidar la auditoría
