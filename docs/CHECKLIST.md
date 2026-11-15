@@ -6,9 +6,9 @@
 
 - **Tarea actual:** F6-054
 - **Última verificada en verde:** F6-053 (`5884baf`, 2026-11-14T22:35:00-03:00)
-- **Actualizado:** 2026-11-14T22:35:00-03:00
+- **Actualizado:** 2026-11-14T22:40:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-053 cerrada: `npm run audit` encadena audio, licencias, código y texto y escribe el resumen con semáforo en docs/AUDITORIA.md (las cuatro en verde). Sigue F6-054 (documentar las pruebas manuales pendientes; la tarea queda `[ ]`). Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-054 en curso: crear `docs/PRUEBAS-MANUALES.md` con los pasos exactos de las pruebas manuales pendientes (escucha de audio F1-038, Yamaha PSR-373, Safari, iOS y Android). La tarea vuelve a `[ ]` al terminar: solo el usuario puede cerrarla cuando reporte resultados. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1645,7 +1645,7 @@ Quedó funcionando:
   - Aceptación: `npm run audit` encadena audio, licencias, código y texto (los que no necesitan red); los resultados se consolidan en docs/AUDITORIA.md con semáforo OK/FALLA/NO VERIFICABLE y evidencia.
   - Deps: F6-052 · Red: no
   - Commit: 5884baf · 2026-11-14T22:35:00-03:00
-- [ ] **F6-054** — Documentar las pruebas manuales pendientes
+- [~] **F6-054** — Documentar las pruebas manuales pendientes
   - Aceptación: docs/PRUEBAS-MANUALES.md con pasos exactos para la escucha humana de audio (F1-038), la prueba con el Yamaha PSR-373 usando el panel de diagnóstico de Ajustes, Safari, iOS y Android; la tarea queda [ ] hasta que el usuario reporte resultados.
   - Deps: F6-053 · Red: no
 - [ ] **F6-055** — Cerrar la ronda de auditoría
