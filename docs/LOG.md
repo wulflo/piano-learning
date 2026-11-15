@@ -2460,3 +2460,21 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: el documento separa explícitamente lo que ya está cubierto de forma automática (suite, E2E, `npm run audit`) de lo que queda pendiente, y aclara que en Pages la app usa el sintetizador de respaldo porque las muestras pesadas no se versionan.
 - Limitaciones: el documento describe el procedimiento pero no puede ejecutar ninguna de las pruebas; sin hardware MIDI, Safari real ni dispositivos iOS/Android, F6-028 y F6-029 siguen descartadas y F1-038/F6-031/F6-032 siguen con la confirmación de hardware pendiente.
 - Próximo paso: F6-055 (cerrar la ronda de auditoría: suite completa, `npm run estado` y resumen final en LOG.md).
+
+## 2026-11-14T23:00:00-03:00 · F6-055
+
+- Problema: había que cerrar formalmente la ronda de auditoría de F6 con la suite completa y el estado regenerado, y dejar en un solo lugar el balance de lo hecho entre F6-038 y F6-055.
+- Acción: se corrió `npm run estado` (typecheck, suite completa y build) y se regeneró `docs/ESTADO.md` con HEAD en `ad6b5cb` y sin cambios sin commitear. Commit del estado regenerado `4f22f3d`. Este cierre resume la ronda completa.
+- Resultado: **ronda de auditoría cerrada.**
+  - **Estado del árbol (F6-038):** los cambios sin commitear previos quedaron clasificados y commiteados como corrección de calidad (`962722f`, `a9012e7`, `b7c900d`).
+  - **Audio (F6-039 a F6-041):** manifiesto por muestra con `author`/`source`/`license`/`licenseUrl`/`modifications`; `audit:audio` verifica 30/30 muestras por tamaño y SHA-256 y sale NO VERIFICABLE (código 0) si no están descargadas; créditos de Salamander Grand Piano v3 (Alexander Holm, CC BY 3.0) con `originUrl`/`originRepository`, `audioCredits()` y página de atribuciones.
+  - **Licencias (F6-042):** `license-checker` (BSD-3-Clause) con allowlist permisiva; `audit:licenses` confirma 42 paquetes de producción y su coincidencia con `THIRD_PARTY_LICENSES.md`.
+  - **Código y REUSE (F6-043 a F6-045):** `jscpd` (MIT) con `scripts/lib/code-audit.ts`; 0 encabezados ajenos y duplicación informativa (2,61 %); REUSE.toml en lugar de encabezados SPDX inline (`uvx reuse lint` 1354/1354), ADR-046.
+  - **Originalidad (F6-046 a F6-048):** `scripts/audit-text-similarity.mjs` compara n-gramas de 8 palabras contra `refs/` (gitignored, NO VERIFICABLE sin datos), ADR-047; referencia Open Music Theory v2 (CC BY-SA 4.0); texto señalado reescrito sin tocar el español ni las frases que exigen los tests de M1-02.
+  - **Correcciones documentales (F6-049 a F6-052):** ficha de licencias sin la afirmación falsa de CC0 y tabla de transcripciones completa (28 piezas); título correcto de F5-035 «Op. 100 N.º 2»; primera publicación de la Sinfonía n.º 9 corregida a 1826 (Schott, agosto) según IMSLP; `docs/ENTORNO.md` reescrito al estado real (Node 26.13.0, npm 12.2.2, git 2.56.1, `gh` y `uv`, remoto origin y Pages, identidad `Piano Today Dev <dev@pianotoday.local>`) y `[NET]` sobrantes de F6-034/F6-035 quitados.
+  - **Consolidación (F6-053):** `npm run audit` encadena audio, licencias, código y texto y escribe el resumen con semáforo en `docs/AUDITORIA.md` (las cuatro en verde).
+  - **Pruebas manuales (F6-054):** `docs/PRUEBAS-MANUALES.md` con P1 audio, P2 Yamaha PSR-373, P3 Safari, P4 iOS y P5 Android; la tarea sigue `[ ]` a la espera del reporte del usuario.
+  - **Verificación final:** typecheck OK (1,8 s), 254 archivos / 1759 tests OK (57,1 s), build OK (6,0 s), JS inicial 272,18 kB gzip (< 300 kB) y 843 chunks diferidos. F6 queda en 51/55 (92,7 %) y el total en 304/308 (98,7 %).
+- Correcciones: el cierre no crea tags ni releases; el único pendiente es F6-054, que por aceptación no puede marcarse `[x]` sin el reporte humano.
+- Limitaciones: la ronda se cierra sin las pruebas de hardware (audio real, MIDI físico, Safari, iOS y Android) y sin E2E de WebKit, tal como se documentó en `docs/QA-NAVEGADORES.md` y `docs/PRUEBAS-MANUALES.md`. `npm audit` conserva 4 vulnerabilidades bajas preexistentes de `deepmerge` vía `vite-plugin-pwa`/workbox, ajenas al alcance.
+- Próximo paso: esperar el reporte de pruebas manuales del usuario para cerrar F6-054 y, con la fase completa, crear el tag local `fase-6` y el resumen de fase (F6-030), siempre con confirmación explícita antes de cualquier push o tag remoto.

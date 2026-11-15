@@ -4,11 +4,11 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** F6-055
-- **Última verificada en verde:** F6-053 (`5884baf`, 2026-11-14T22:35:00-03:00)
-- **Actualizado:** 2026-11-14T22:55:00-03:00
+- **Tarea actual:** F6-054
+- **Última verificada en verde:** F6-055 (`4f22f3d`, 2026-11-14T23:00:00-03:00)
+- **Actualizado:** 2026-11-14T23:00:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-055 en curso: cerrar la ronda de auditoría con la suite completa, `npm run estado` (regenera `docs/ESTADO.md`) y el resumen final en `docs/LOG.md`. F6-054 queda `[ ]` a propósito, a la espera del reporte de pruebas manuales del usuario. Sin push, tags ni releases sin confirmación.
+- **Nota:** Ronda de auditoría cerrada: F6-038 a F6-053 y F6-055 hechas; `npm run estado` verde (typecheck 1,8 s, 254 archivos / 1759 tests, build 6,0 s; JS inicial 272,18 kB gzip < 300 kB) y F6 progreso 51/55 (92,7 %). Queda solo **F6-054** en `[ ]` a propósito: `docs/PRUEBAS-MANUALES.md` está listo (commit `fe1feca`) y la tarea la cierra el usuario cuando reporte los resultados de las pruebas manuales. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1649,9 +1649,10 @@ Quedó funcionando:
   - Aceptación: docs/PRUEBAS-MANUALES.md con pasos exactos para la escucha humana de audio (F1-038), la prueba con el Yamaha PSR-373 usando el panel de diagnóstico de Ajustes, Safari, iOS y Android; la tarea queda [ ] hasta que el usuario reporte resultados.
   - Deps: F6-053 · Red: no
   - Documento: fe1feca · docs/PRUEBAS-MANUALES.md (P1 audio, P2 PSR-373, P3 Safari, P4 iOS, P5 Android). Queda `[ ]`: solo el usuario puede cerrarla al reportar resultados.
-- [~] **F6-055** — Cerrar la ronda de auditoría
+- [x] **F6-055** — Cerrar la ronda de auditoría
   - Aceptación: suite completa, `npm run estado` y resumen final en LOG.md.
   - Deps: F6-053 · Red: no
+  - Commit: 4f22f3d · 2026-11-14T23:00:00-03:00
 
 ## RESUMEN POR FASE
 
