@@ -22,7 +22,7 @@
  */
 import { createHash } from 'node:crypto'
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs'
-import { dirname, join, resolve } from 'node:path'
+import { dirname, join, relative, resolve, sep } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { z } from 'zod'
 
@@ -163,6 +163,12 @@ function flagValue(name) {
   return index >= 0 ? args[index + 1] : undefined
 }
 
+/** Muestra una ruta relativa a la raíz cuando está dentro; si no, la absoluta. */
+function displayPath(path) {
+  const shown = relative(ROOT, path)
+  return shown && !shown.startsWith('..') ? shown.split(sep).join('/') : path
+}
+
 function main() {
   if (args.includes('--help') || args.includes('-h')) {
     console.log(`Uso: node scripts/verify-audio.mjs [opciones]
@@ -200,13 +206,15 @@ function main() {
   }
 
   const manifest = result.manifest
-  console.log(`Manifiesto: ${manifestPath}`)
+  console.log(`Manifiesto: ${displayPath(manifestPath)}`)
   console.log(
     `Muestras declaradas: ${manifest.samples.length}/${manifest.expectedSamples}`,
   )
 
   if (!existsSync(samplesDir)) {
-    console.log(`NO VERIFICABLE · no existe la carpeta de muestras ${samplesDir}`)
+    console.log(
+      `NO VERIFICABLE · no existe la carpeta de muestras ${displayPath(samplesDir)}`,
+    )
     console.log(
       'Las muestras no se versionan; ejecutá `npm run fetch:samples` para verificarlas.',
     )
@@ -222,7 +230,7 @@ function main() {
   }
 
   console.log(
-    `OK · ${dir.checked} muestras registradas y verificadas en ${samplesDir}`,
+    `OK · ${dir.checked} muestras registradas y verificadas en ${displayPath(samplesDir)}`,
   )
 }
 

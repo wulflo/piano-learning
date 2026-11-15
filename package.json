@@ -26,6 +26,7 @@
     "audit:code": "tsx scripts/audit-code.ts",
     "audit:text": "node scripts/audit-text-similarity.mjs",
     "audit:reuse": "uvx reuse lint",
+    "audit": "tsx scripts/audit-all.ts",
     "estado": "node scripts/estado.mjs"
   },
   "dependencies": {

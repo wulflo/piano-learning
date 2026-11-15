@@ -3,6 +3,21 @@
 > Informe de las auditorías de cierre. Cada sección la escribe su comando
 > (`npm run audit:code`, `npm run audit:text` y `npm run audit`); no se edita a mano.
 
+<!-- audit:summary:start -->
+## Resumen de auditorías
+
+Lo escribe `npm run audit` (auditorías offline: audio, licencias, código y texto). No se edita a mano.
+
+| Semáforo | Auditoría | Comando | Evidencia |
+|---|---|---|---|
+| 🟢 OK | Audio (manifiesto y muestras) | `npm run audit:audio` | OK · 30 muestras registradas y verificadas en public/audio/samples |
+| 🟢 OK | Licencias de producción | `npm run audit:licenses` | OK · todas las licencias de producción son permisivas y coinciden con THIRD_PARTY_LICENSES.md. |
+| 🟢 OK | Código (duplicación y encabezados) | `npm run audit:code` | OK · sin encabezados ajenos. |
+| 🟢 OK | Texto (originalidad) | `npm run audit:text` | OK · comparación completa; 0 coincidencia(s) de 8 palabras. |
+
+Las cuatro auditorías offline pasaron sin hallazgos bloqueantes.
+<!-- audit:summary:end -->
+
 <!-- audit:code:start -->
 ## Duplicación de código y encabezados ajenos
 

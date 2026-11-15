@@ -438,6 +438,9 @@ function main() {
         )
         console.log(`    «${match.passage}»`)
       }
+      console.log(
+        `OK · comparación completa; ${result.matches.length} coincidencia(s) de ${size} palabras.`,
+      )
     }
   }
 

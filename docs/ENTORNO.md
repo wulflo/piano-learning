@@ -23,7 +23,7 @@
 - Contenido validado: 9 módulos, 79 lecciones publicadas, 720 ejercicios, 67 habilidades y 28 piezas de repertorio.
 - `package-lock.json` versionado y reproducible con `npm ci`.
 - Assets de audio Salamander descargados: 30 muestras MP3, 1,92 MB total, verificadas por tamaño y SHA-256; `--dry-run` reporta 30 presentes y 0 faltantes.
-- Auditorías de calidad disponibles: `audit:audio`, `audit:licenses`, `audit:code`, `audit:text` y `audit:reuse`.
+- Auditorías de calidad disponibles: `npm run audit` (encadena audio, licencias, código y texto y consolida el resultado en `docs/AUDITORIA.md`), más `audit:audio`, `audit:licenses`, `audit:code`, `audit:text` y `audit:reuse` por separado.
 - Tags locales `fase-0` a `fase-6`; remoto `origin` con push a `main` autorizado y Pages activo. No se crean tags ni releases remotos sin autorización.
 - F0 a F5 completas. F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación).
 
@@ -104,6 +104,7 @@ permisivas y coincidan con ese documento.
 - `overrides.glob` fuerza `glob@^14` (advisory de seguridad) salvo en `read-package-json`, que usa `glob@^7` porque `license-checker` lo requiere con export CommonJS. La anulación por paquete evita romper la auditoría de licencias.
 - La auditoría de código (`npm run audit:code`) usa `jscpd` 5.4.3; el binario nativo se instala como dependencia opcional de plataforma (`jscpd-linux-x64-gnu`). En otra plataforma, `npm ci` la resuelve sola.
 - La auditoría de originalidad (`npm run audit:text`, `scripts/audit-text-similarity.mjs`) es Node puro y no usa red. Compara el texto de `content/` con los textos de referencia de `refs/`, que están en `.gitignore` y **nunca se versionan**. Solo lee prosa (`.md`, `.txt`, `.html`, `.rst`); deja fuera código como LilyPond. Si `refs/` no existe, informa NO VERIFICABLE y sale con 0.
+- `npm run audit` (`scripts/audit-all.ts`) encadena `audit:audio`, `audit:licenses`, `audit:code` y `audit:text`, y escribe el resumen con semáforo OK/FALLA/NO VERIFICABLE en `docs/AUDITORIA.md`. No incluye `audit:reuse` (necesita red la primera vez) y sale con código 1 si alguna auditoría falla.
 - Referencia descargada para F6-047: Open Music Theory v2 (CC BY-SA 4.0), clonado en `refs/open-music-theory` (`--depth 1`, rama `master`). Aporta 142 archivos de prosa y ~80804 n-gramas únicos. El clon no se versiona y se puede borrar; el resultado queda en `docs/AUDITORIA.md`.
 - La auditoría REUSE (`npm run audit:reuse`) ejecuta `uvx reuse lint` con `reuse` 6.3.0 (Python, GPL-3.0). No es una dependencia npm: requiere `uv` (`/usr/bin/uv`) y red la primera vez que `uvx` baja la herramienta. Por eso queda fuera de las auditorías offline (`audit:audio`, `audit:licenses`, `audit:code` y `audit:text`).
 - Node 26 es la versión local; el proyecto declara `engines.node >= 22.12.0` para CI y GitHub Pages.
@@ -199,6 +200,7 @@ npm run validate:content
 npm run index:content
 npm run budget
 npm run estado
+npm run audit
 npm run audit:audio
 npm run audit:licenses
 npm run audit:code
@@ -209,4 +211,6 @@ npm run fetch:samples:dry
 
 `npm run budget` y `npm run estado` compilan la app; `npm run estado` además
 ejecuta typecheck y tests, y regenera `docs/ESTADO.md` (no editar ese archivo a
-mano). `audit:reuse` es la única auditoría que necesita red (la primera vez).
+mano). `npm run audit` encadena las auditorías offline y actualiza
+`docs/AUDITORIA.md`; `audit:reuse` es la única auditoría que necesita red (la
+primera vez).
