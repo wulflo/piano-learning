@@ -1,8 +1,12 @@
 # LICENCIAS — Verificación de dominio público del repertorio
 
 Este documento registra la verificación de las piezas candidatas de F5 (tareas
-F5-026 a F5-036 y F5-040). Las trece piezas que ya están publicadas son obras
-originales CC0 de Piano Today y tienen su ficha en `content/repertoire/`.
+F5-026 a F5-036 y F5-040). Además de esas transcripciones de dominio público, el
+catálogo publica obras originales CC0 de Piano Today. Todas las piezas
+publicadas —de dominio público o CC0— tienen su ficha completa en
+`content/repertoire/`; la sección «Transcripciones publicadas» las lista todas
+con su licencia y `tests/licencias-doc.test.ts` comprueba que la tabla coincide
+con los archivos del directorio.
 
 ## Criterio
 
@@ -131,19 +135,47 @@ Antes de crear cada pieza:
 
 ## Transcripciones publicadas
 
+Hoy `content/repertoire/` contiene **28 piezas**: **12 transcripciones de obras
+de dominio público** (7 con compositor identificado y 5 melodías tradicionales
+anónimas) y **16 obras originales CC0** de Piano Today (12 estudios técnicos y 4
+melodías). La tabla siguiente las lista todas con su ficha;
+`tests/licencias-doc.test.ts` comprueba que coincide exactamente con los archivos
+de `content/repertoire/`.
+
 | Tarea | Pieza | Archivo | Ficha | Estado |
 |---|---|---|---|---|
-| F5-026 | Twinkle, Twinkle, Little Star | `content/repertoire/traditional-twinkle.json` | `public-domain`; anónimo tradicional; fuente «Ah! vous dirai-je, maman» (1761); verificación 2026-11-13 | Publicada (commit `87592fc`) |
-| F5-027 | Frère Jacques | `content/repertoire/traditional-frere-jacques.json` | `public-domain`; anónimo tradicional; fuente «Recueil de Timbres de Vaudevilles» (c. 1780); verificación 2026-11-13 | Publicada (commit `d6bae0e`) |
-| F5-028 | Greensleeves | `content/repertoire/traditional-greensleeves.json` | `public-domain`; anónimo tradicional; fuente Stationers' Company (1580); verificación 2026-11-13 | Publicada (commit `fdc26ab`) |
-| F5-029 | Auld Lang Syne | `content/repertoire/traditional-auld-lang-syne.json` | `public-domain`; anónimo tradicional; fuente A Select Collection (1799); verificación 2026-11-13 | Publicada (commit `055284d`) |
-| F5-030 | Amazing Grace | `content/repertoire/traditional-amazing-grace.json` | `public-domain`; anónimo tradicional; fuente «New Britain» (1829); verificación 2026-11-13 | Publicada (commit `5f233f0`) |
-| F5-031 | Oda a la alegría | `content/repertoire/beethoven-ode-to-joy.json` | `public-domain`; Beethoven (1770-1827); Sinfonía n.º 9, Op. 125; verificación 2026-11-13 | Publicada (commit `cf08e20`) |
-| F5-032 | Minueto en Sol, BWV Anh. 114 | `content/repertoire/petzold-minuet-g.json` | `public-domain`; Petzold (1677-1733); «Notebook for Anna Magdalena Bach» (1725); verificación 2026-11-13 | Publicada (commit `853edd1`) |
+| F5-026 | Twinkle, Twinkle, Little Star | `content/repertoire/traditional-twinkle.json` | `public-domain`; Anónimo tradicional; Melodía tradicional «Ah! vous dirai-je, maman», publicada en 1761; verificada en Wikipedia e IMSLP; verificación 2026-11-13 | Publicada |
+| F5-027 | Frère Jacques | `content/repertoire/traditional-frere-jacques.json` | `public-domain`; Anónimo tradicional; Ronda infantil tradicional francesa, manuscrito «Recueil de Timbres de Vaudevilles» (c. 1780); verificada en Wikipedia; verificación 2026-11-13 | Publicada |
+| F5-028 | Greensleeves | `content/repertoire/traditional-greensleeves.json` | `public-domain`; Anónimo tradicional; Balada inglesa registrada en la Stationers' Company en 1580; verificada en Wikipedia e IMSLP (Greensleeves to a Ground); verificación 2026-11-13 | Publicada |
+| F5-029 | Auld Lang Syne | `content/repertoire/traditional-auld-lang-syne.json` | `public-domain`; Anónimo tradicional; Canción tradicional escocesa; melodía publicada en A Select Collection of Original Scottish Airs (1799); verificada en Wikipedia e IMSLP; verificación 2026-11-13 | Publicada |
+| F5-030 | Amazing Grace | `content/repertoire/traditional-amazing-grace.json` | `public-domain`; Anónimo tradicional; Himno «New Britain», publicado en Columbian Harmony (1829); verificado en Hymnary.org y Wikipedia; verificación 2026-11-13 | Publicada |
+| F5-031 | Oda a la alegría | `content/repertoire/beethoven-ode-to-joy.json` | `public-domain`; Ludwig van Beethoven (1770-1827); Tema del cuarto movimiento de la Sinfonía n.º 9, Op. 125, estrenada en Viena en 1824; verificada en IMSLP; verificación 2026-11-13 | Publicada |
+| F5-032 | Minueto en Sol mayor, BWV Anh. 114 | `content/repertoire/petzold-minuet-g.json` | `public-domain`; Christian Petzold (1677-1733); Minueto en Sol mayor, BWV Anh. 114, del Notebook for Anna Magdalena Bach (1725); verificada en IMSLP y Wikipedia; verificación 2026-11-13 | Publicada |
+| F5-033 | Soldatenmarsch (Marcha de los soldados), Op. 68 N.º 2 | `content/repertoire/schumann-soldatenmarsch.json` | `public-domain`; Robert Schumann (1810-1856); Soldatenmarsch, N.º 2 del Album für die Jugend, Op. 68 (1848), de Robert Schumann; transcripción propia a partir de la edición Peters; verificación 2026-11-13 | Publicada |
+| F5-034 | Sonatina en Do mayor, Op. 36 N.º 1, I (Allegro) | `content/repertoire/clementi-sonatina-op36-1-i.json` | `public-domain`; Muzio Clementi (1752-1832); Sonatina en Do mayor, Op. 36 N.º 1, I (Allegro), de Muzio Clementi; fragmento pedagógico propio basado en la edición Schirmer (1893) del Sonatina Album; verificación 2026-11-13 | Publicada |
+| F5-035 | L’Arabesque, Op. 100 N.º 2 | `content/repertoire/burgmuller-arabesque-op100-2.json` | `public-domain`; Johann Friedrich Franz Burgmüller (1806-1874); L’Arabesque, N.º 2 de las 25 Études faciles et progressives, Op. 100, de Burgmüller; fragmento pedagógico propio basado en la edición Litolff (Mutopia); verificación 2026-11-13 | Publicada |
+| F5-036 | Preludio en Mi menor, Op. 28 N.º 4 | `content/repertoire/chopin-prelude-op28-4.json` | `public-domain`; Frédéric Chopin (1810-1849); Preludio en Mi menor, Op. 28 N.º 4, de Chopin; versión simplificada propia basada en la edición Peters (1879) vía Mutopia; verificación 2026-11-13 | Publicada |
+| F5-040 | Estudio de cinco dedos (adaptación de Hanon N.º 1) | `content/repertoire/hanon-estudio-1-adaptacion.json` | `public-domain`; Charles-Louis Hanon (1819-1900); Adaptación propia del ejercicio N.º 1 de «Le pianiste virtuose» (1873) de Hanon; edición de dominio público; verificación 2026-11-13 | Publicada |
+| F0-005 | Primera melodía en Do | `content/repertoire/original-do-mayor.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-09 | Publicada |
+| F5-017 | Estudio 1: Cinco dedos | `content/repertoire/studies.01.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-12 | Publicada |
+| F5-017 | Estudio 2: Terceras quebradas | `content/repertoire/studies.02.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-12 | Publicada |
+| F5-017 | Estudio 3: Escala en Do | `content/repertoire/studies.03.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-12 | Publicada |
+| F5-017 | Estudio 4: Arpegio de Do | `content/repertoire/studies.04.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-12 | Publicada |
+| F5-017 | Estudio 5: Toque y salto | `content/repertoire/studies.05.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-12 | Publicada |
+| F5-017 | Estudio 6: Movimiento contrario | `content/repertoire/studies.06.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-12 | Publicada |
+| F5-018 | Estudio 7: Arpegios en espejo | `content/repertoire/studies.07.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-12 | Publicada |
+| F5-018 | Estudio 8: Independencia 2 contra 1 | `content/repertoire/studies.08.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-12 | Publicada |
+| F5-018 | Estudio 9: Arpegios de séptima | `content/repertoire/studies.09.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-12 | Publicada |
+| F5-018 | Estudio 10: Tres contra dos | `content/repertoire/studies.10.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-12 | Publicada |
+| F5-018 | Estudio 11: Bajo caminante y arpegio | `content/repertoire/studies.11.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-12 | Publicada |
+| F5-018 | Estudio 12: Ostinato y arpegio | `content/repertoire/studies.12.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto; verificación 2026-11-12 | Publicada |
+| F5-037 | Melodía sencilla en Do mayor | `content/repertoire/original-melodia-nivel-1.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto (CC0 1.0); verificación 2026-11-13 | Publicada |
+| F5-038 | Melodía en Do mayor (nivel 2) | `content/repertoire/original-melodia-nivel-2.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto (CC0 1.0); verificación 2026-11-13 | Publicada |
+| F5-039 | Melodía en Do mayor (nivel 3) | `content/repertoire/original-melodia-nivel-3.json` | `cc0-1.0`; Piano Today; Obra original creada para este proyecto (CC0 1.0); verificación 2026-11-13 | Publicada |
 
-La ficha de la pieza repite la fuente, la fecha de verificación y la
-atribución visible para que la app pueda mostrarla sin depender de este
-documento. Las siguientes transcripciones seguirán el mismo procedimiento.
+La ficha de cada pieza repite la licencia, el compositor, la fuente y la fecha
+de verificación para que la app pueda mostrarla sin depender de este documento.
+Las transcripciones siguen el procedimiento de la sección anterior.
 
 ## Audio
 
