@@ -4,11 +4,11 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** F6-052
-- **Última verificada en verde:** F6-051 (`3d4181d`, 2026-11-14T22:00:00-03:00)
-- **Actualizado:** 2026-11-14T22:00:00-03:00
+- **Tarea actual:** F6-053
+- **Última verificada en verde:** F6-052 (`876cf2d`, 2026-11-14T22:20:00-03:00)
+- **Actualizado:** 2026-11-14T22:20:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-052 en curso: reescribir docs/ENTORNO.md al estado real (tests, contenido, remoto origin y Pages, comandos de auditoría), pasar la identidad git local a una neutral de Piano Today y quitar los [NET] sobrantes de F6-034 y F6-035. Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-052 cerrada: docs/ENTORNO.md refleja el estado real (Node/npm/git/gh/uv, suite 253/1752, contenido 9/79/720/67/28, remoto origin y Pages, comandos de auditoría), la identidad local es `Piano Today Dev <dev@pianotoday.local>` y se quitaron los [NET] de F6-034/F6-035. Sigue F6-053 (encadenar `npm run audit` y consolidar la auditoría). Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1637,9 +1637,10 @@ Quedó funcionando:
   - Aceptación: se consulta en IMSLP el año de primera publicación de la Sinfonía n.º 9 de Beethoven (estreno 1824; publicación presumiblemente 1826) y se corrige la ficha y LICENCIAS.md si difiere.
   - Deps: F6-050 · Red: sí · [NET]
   - Commit: 3d4181d · 2026-11-14T22:00:00-03:00
-- [~] **F6-052** — Actualizar ENTORNO.md, la identidad git y limpiar [NET] sobrantes
+- [x] **F6-052** — Actualizar ENTORNO.md, la identidad git y limpiar [NET] sobrantes
   - Aceptación: docs/ENTORNO.md al día (tests, contenido, remoto origin y Pages, comandos de auditoría; sin la ruta `/home/...` ni la contradicción «sin remoto»); la identidad git local pasa a una neutral de Piano Today solo para commits futuros; se quitan los [NET] sobrantes de la aceptación de F6-034 y F6-035.
   - Deps: F6-051 · Red: no
+  - Commit: 876cf2d · 2026-11-14T22:20:00-03:00
 - [ ] **F6-053** — Encadenar `npm run audit` y consolidar la auditoría
   - Aceptación: `npm run audit` encadena audio, licencias, código y texto (los que no necesitan red); los resultados se consolidan en docs/AUDITORIA.md con semáforo OK/FALLA/NO VERIFICABLE y evidencia.
   - Deps: F6-052 · Red: no

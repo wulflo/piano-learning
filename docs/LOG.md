@@ -2433,3 +2433,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: el estreno del 7 de mayo de 1824 se mantiene como dato separado; la primera publicación pasa a agosto de 1826 con la editorial y las placas verificadas en IMSLP.
 - Limitaciones: la fecha de publicación depende de lo que registra IMSLP (Schott, agosto de 1826); no se consultaron otras fuentes bibliográficas.
 - Próximo paso: F6-052 (actualizar ENTORNO.md, la identidad git neutral y limpiar los [NET] sobrantes).
+
+## 2026-11-14T22:20:00-03:00 · F6-052
+
+- Problema: `docs/ENTORNO.md` seguía describiendo el entorno de F2 (git 2.56.0, `gh` «no instalado», `uv` ausente, ruta `/home/...`, «sin remoto», bundle 191,20 kB, 110 archivos / 788 tests, 30 lecciones, 171 paquetes transitivos) y contradecía el estado real. Además, la aceptación de F6-034 y F6-035 arrastraba un `[NET]` que no correspondía a ninguna operación de red.
+- Acción: se reescribió ENTORNO.md al estado real: máquina (Node 26.13.0, npm 12.2.2, git 2.56.1, `gh` en `/usr/bin/gh`, `uv` 0.13.7) sin ruta absoluta; estado F6 (suite 253 archivos / 1752 tests, bundle 272,17 kB gzip, 9/79/720/67/28, auditorías); repositorio con `origin` = `https://github.com/wulflo/piano-learning.git`, rama `main`, Pages en `https://wulflo.github.io/piano-learning/` e identidad `Piano Today Dev <dev@pianotoday.local>`; tabla de dependencias directas completa (runtime y dev) y resumen transitivo de 599 paquetes con el desglose de `THIRD_PARTY_LICENSES.md`; notas de instalación (esbuild, override de `glob`, `jscpd`, `audit:text`, `audit:reuse`), tareas `[NET]` al día, sección E2E y comandos de referencia. Se cambió la identidad local del repo a `Piano Today Dev <dev@pianotoday.local>` (solo afecta a commits futuros) y se quitaron los `[NET]` sobrantes de F6-034 y F6-035.
+- Resultado: typecheck, suite 253 archivos / 1752 tests y build verdes (JS inicial 272,17 kB gzip < 300 kB). Commit `876cf2d` (marcador `feda719`).
+- Correcciones: ENTORNO.md deja de contradecirse («sin remoto» junto a un `origin` real) y refleja las versiones y cifras actuales; la ruta absoluta se sustituye por «la raíz del repositorio» para que el documento sea portátil.
+- Limitaciones: la tabla de dependencias directas y el resumen transitivo son una foto del lockfile actual; hay que regenerarlos cuando cambien las dependencias. La identidad nueva no reescribe la autoría de los commits anteriores.
+- Próximo paso: F6-053 (encadenar `npm run audit` y consolidar la auditoría con semáforo).
