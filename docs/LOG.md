@@ -2397,3 +2397,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: la restricción a prosa y el flag `--label` corrigen el ruido de los `.ly`; sin ellos el informe traía 65 coincidencias casi todas musicales.
 - Limitaciones: la coincidencia de `ex.m3-04.k` es una enumeración de notas y probablemente inocua; se decide en F6-048. El clon de referencia (132 MB) queda solo en local y se puede borrar.
 - Próximo paso: F6-048 (reescribir los pasajes señalados, una subtarea por módulo afectado).
+
+## 2026-11-14T21:45:00-03:00 · F6-048
+
+- Problema: `npm run audit:text` marcó seis coincidencias de 8 palabras con Open Music Theory en dos módulos: M1 (lección `lesson.m1-02`, sección `sec.m1-02.middle-c`, y ejercicios `ex.m1-02.c`/`ex.m1-02.d`) y M3 (`ex.m3-04.k`).
+- Acción: se reescribió con palabras propias el texto inglés señalado, módulo por módulo. M1: la sección del Do central y las dos explicaciones de nota en línea adicional ahora describen «a short line added underneath/on top of» en vez de «the first ledger line below/above … staff». M3: la explicación de la séptima menor ya no enumera las letras (`C-D-E-F-G-A-B`) y describe el intervalo por semitonos y posiciones. Se regeneró la sección de `docs/AUDITORIA.md`.
+- Resultado: `npm run validate:content` (9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades, 28 piezas), `npm run audit:text` con 0 coincidencias, typecheck, suite 252 archivos / 1747 tests y build verdes (JS inicial 272,18 kB gzip < 300 kB). Commit `b7d1261`.
+- Correcciones: se mantuvo el español sin cambios (no coincidía con la referencia en inglés) y se conservaron las frases que exigen los tests de M1-02 (`debajo del pentagrama de sol`, etc.).
+- Limitaciones: la frase técnica «línea adicional» se reescribió en inglés pero sigue siendo un concepto estándar; el n-grama exacto ya no coincide. No se descartó ninguna coincidencia por considerarla inocua: las seis se resolvieron reescribiendo.
+- Próximo paso: F6-049 (corregir `docs/LICENCIAS.md` y verificar la tabla de transcripciones).
