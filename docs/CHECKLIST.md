@@ -1294,10 +1294,11 @@ Quedó funcionando:
   - Aceptación: fragmento pedagógico propio; ficha completa; dos manos; duración validada.
   - Deps: F5-033 · Red: no
   - Commit: 67c585c · 2026-11-13T12:30:00-03:00
-- [x] **F5-035** — Transcribir «Arabesque» Op. 100 N.º 1 (Burgmüller, 1874)
+- [x] **F5-035** — Transcribir «Arabesque» Op. 100 N.º 2 (Burgmüller, 1874)
   - Aceptación: ficha completa; dos manos; digitación; render/playback.
   - Deps: F5-034 · Red: no
   - Commit: 56c0359 · 2026-11-13T13:00:00-03:00
+  - Nota (F6-050): el título decía «Op. 100 N.º 1», pero *Arabesque* es el n.º 2 de la colección (*La candeur* es el n.º 1). La pieza publicada es `piece.burgmuller.arabesque-op100-2` en `content/repertoire/burgmuller-arabesque-op100-2.json`, con título «L’Arabesque, Op. 100 N.º 2».
 - [x] **F5-036** — Transcribir Preludio Op. 28 N.º 4 (Chopin, 1849)
   - Aceptación: versión simplificada propia declarada; ficha completa; dos manos; render/playback.
   - Deps: F5-035 · Red: no
