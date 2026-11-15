@@ -4,11 +4,11 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** F6-053
-- **Última verificada en verde:** F6-052 (`876cf2d`, 2026-11-14T22:20:00-03:00)
-- **Actualizado:** 2026-11-14T22:25:00-03:00
+- **Tarea actual:** F6-054
+- **Última verificada en verde:** F6-053 (`5884baf`, 2026-11-14T22:35:00-03:00)
+- **Actualizado:** 2026-11-14T22:35:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-053 en curso: encadenar las auditorías offline en `npm run audit` y consolidar el resultado en docs/AUDITORIA.md con semáforo OK/FALLA/NO VERIFICABLE. Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-053 cerrada: `npm run audit` encadena audio, licencias, código y texto y escribe el resumen con semáforo en docs/AUDITORIA.md (las cuatro en verde). Sigue F6-054 (documentar las pruebas manuales pendientes; la tarea queda `[ ]`). Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1641,9 +1641,10 @@ Quedó funcionando:
   - Aceptación: docs/ENTORNO.md al día (tests, contenido, remoto origin y Pages, comandos de auditoría; sin la ruta `/home/...` ni la contradicción «sin remoto»); la identidad git local pasa a una neutral de Piano Today solo para commits futuros; se quitan los [NET] sobrantes de la aceptación de F6-034 y F6-035.
   - Deps: F6-051 · Red: no
   - Commit: 876cf2d · 2026-11-14T22:20:00-03:00
-- [~] **F6-053** — Encadenar `npm run audit` y consolidar la auditoría
+- [x] **F6-053** — Encadenar `npm run audit` y consolidar la auditoría
   - Aceptación: `npm run audit` encadena audio, licencias, código y texto (los que no necesitan red); los resultados se consolidan en docs/AUDITORIA.md con semáforo OK/FALLA/NO VERIFICABLE y evidencia.
   - Deps: F6-052 · Red: no
+  - Commit: 5884baf · 2026-11-14T22:35:00-03:00
 - [ ] **F6-054** — Documentar las pruebas manuales pendientes
   - Aceptación: docs/PRUEBAS-MANUALES.md con pasos exactos para la escucha humana de audio (F1-038), la prueba con el Yamaha PSR-373 usando el panel de diagnóstico de Ajustes, Safari, iOS y Android; la tarea queda [ ] hasta que el usuario reporte resultados.
   - Deps: F6-053 · Red: no
