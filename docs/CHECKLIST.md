@@ -6,9 +6,9 @@
 
 - **Tarea actual:** F6-053
 - **Última verificada en verde:** F6-052 (`876cf2d`, 2026-11-14T22:20:00-03:00)
-- **Actualizado:** 2026-11-14T22:20:00-03:00
+- **Actualizado:** 2026-11-14T22:25:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-052 cerrada: docs/ENTORNO.md refleja el estado real (Node/npm/git/gh/uv, suite 253/1752, contenido 9/79/720/67/28, remoto origin y Pages, comandos de auditoría), la identidad local es `Piano Today Dev <dev@pianotoday.local>` y se quitaron los [NET] de F6-034/F6-035. Sigue F6-053 (encadenar `npm run audit` y consolidar la auditoría). Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-053 en curso: encadenar las auditorías offline en `npm run audit` y consolidar el resultado en docs/AUDITORIA.md con semáforo OK/FALLA/NO VERIFICABLE. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1641,7 +1641,7 @@ Quedó funcionando:
   - Aceptación: docs/ENTORNO.md al día (tests, contenido, remoto origin y Pages, comandos de auditoría; sin la ruta `/home/...` ni la contradicción «sin remoto»); la identidad git local pasa a una neutral de Piano Today solo para commits futuros; se quitan los [NET] sobrantes de la aceptación de F6-034 y F6-035.
   - Deps: F6-051 · Red: no
   - Commit: 876cf2d · 2026-11-14T22:20:00-03:00
-- [ ] **F6-053** — Encadenar `npm run audit` y consolidar la auditoría
+- [~] **F6-053** — Encadenar `npm run audit` y consolidar la auditoría
   - Aceptación: `npm run audit` encadena audio, licencias, código y texto (los que no necesitan red); los resultados se consolidan en docs/AUDITORIA.md con semáforo OK/FALLA/NO VERIFICABLE y evidencia.
   - Deps: F6-052 · Red: no
 - [ ] **F6-054** — Documentar las pruebas manuales pendientes
