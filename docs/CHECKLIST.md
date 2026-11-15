@@ -8,7 +8,7 @@
 - **Última verificada en verde:** F6-048 (`b7d1261`, 2026-11-14T21:45:00-03:00)
 - **Actualizado:** 2026-11-14T21:45:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-048 cerrada: reescritos los pasajes de M1 y M3; `npm run audit:text` vuelve a 0 coincidencias. Sigue F6-049 (corregir docs/LICENCIAS.md y verificar la tabla de transcripciones). Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-049 en curso: corregir la afirmación CC0 de docs/LICENCIAS.md y completar la tabla de transcripciones con las 28 piezas de `content/repertoire/`, con test que la verifica. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1624,7 +1624,7 @@ Quedó funcionando:
   - Aceptación: cada pasaje señalado se reescribe (una subtarea por módulo afectado); `npm run validate:content` y los tests de lecciones en verde; si no hay coincidencias relevantes, se cierra con la nota correspondiente.
   - Deps: F6-047 · Red: no
   - Commit: b7d1261 · 2026-11-14T21:45:00-03:00
-- [ ] **F6-049** — Corregir docs/LICENCIAS.md y verificar la tabla de transcripciones
+- [~] **F6-049** — Corregir docs/LICENCIAS.md y verificar la tabla de transcripciones
   - Aceptación: se corrige la afirmación de que las trece piezas publicadas son obras originales CC0 (contradice su propia tabla) y «Transcripciones publicadas» lista todas las piezas hoy en content/repertoire/ con su ficha; un test verifica que esa tabla coincide con los archivos de content/repertoire/.
   - Deps: F6-048 · Red: no
 - [ ] **F6-050** — Corregir el título de la tarea F5-035 en el checklist
