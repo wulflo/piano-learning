@@ -148,9 +148,9 @@ export const PUBLIC_DOMAIN_CANDIDATES: readonly PublicDomainCandidate[] = [
     birthYear: 1770,
     deathYear: 1827,
     anonymousTraditional: false,
-    firstPublished: '1824',
+    firstPublished: '1826',
     source:
-      'IMSLP: Symphony No.9, Op.125 (Beethoven); estreno en Viena el 7 de mayo de 1824',
+      'IMSLP: Symphony No.9, Op.125 (Beethoven); estreno en Viena el 7 de mayo de 1824; primera publicación en agosto de 1826 (Mainz: Schott)',
     sourceUrl:
       'https://imslp.org/wiki/Symphony_No.9%2C_Op.125_(Beethoven%2C_Ludwig_van)',
     verifiedOn: '2026-11-13',

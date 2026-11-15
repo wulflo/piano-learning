@@ -37,7 +37,7 @@ de 1925. Todas las obras verificadas aquí quedan muy por debajo de ese límite.
 
 | Tarea | Obra | Compositor | Nacimiento | Muerte | Años al 2026 | Primera publicación | Fuente consultada |
 |---|---|---|---|---|---|---|---|
-| F5-031 | Oda a la alegría (tema de la Sinfonía n.º 9) | Ludwig van Beethoven | 1770 | 1827 | 199 | 1824 | [IMSLP: Symphony No.9, Op.125](https://imslp.org/wiki/Symphony_No.9%2C_Op.125_(Beethoven%2C_Ludwig_van)) |
+| F5-031 | Oda a la alegría (tema de la Sinfonía n.º 9) | Ludwig van Beethoven | 1770 | 1827 | 199 | 1826 (agosto) | [IMSLP: Symphony No.9, Op.125](https://imslp.org/wiki/Symphony_No.9%2C_Op.125_(Beethoven%2C_Ludwig_van)) |
 | F5-032 | Minueto en Sol mayor, BWV Anh. 114 | Christian Petzold | 1677 | 1733 | 293 | 1725 | [IMSLP: Minuet in G major, BWV Anh.114](https://imslp.org/wiki/Minuet_in_G_major%2C_BWV_Anh.114_(Petzold%2C_Christian)) |
 | F5-033 | Soldatenmarsch (Marcha de los soldados) | Robert Schumann | 1810 | 1856 | 170 | 1848 | [IMSLP: Album für die Jugend, Op.68](https://imslp.org/wiki/Album_f%C3%BCr_die_Jugend%2C_Op.68_(Schumann%2C_Robert)) |
 | F5-034 | Sonatina Op. 36 n.º 1, primer movimiento (fragmento) | Muzio Clementi | 1752 | 1832 | 194 | 1797 | [IMSLP: 6 Piano Sonatinas, Op.36](https://imslp.org/wiki/6_Piano_Sonatinas%2C_Op.36_(Clementi%2C_Muzio)) |
@@ -92,6 +92,11 @@ de la transcripción.
 10. **Chopin y Clementi: la adaptación es propia.** En el Preludio Op. 28 n.º 4
     se declara una «versión simplificada propia»; en la Sonatina Op. 36 n.º 1
     se usa un fragmento pedagógico propio. No se copia ninguna edición moderna.
+11. **La Sinfonía n.º 9 se publicó en 1826, no en 1824.** La tabla decía «1824»,
+    que es el año del estreno en Viena (7 de mayo de 1824). IMSLP registra la
+    primera publicación en **agosto de 1826** (Mainz: Schott, placas 2322
+    —partitura— y 2321 —partes—). Se corrigieron la tabla y la ficha
+    `piece.beethoven.ode-to-joy`; el estreno de 1824 se mantiene como dato.
 
 ## Candidatos descartados
 
@@ -149,7 +154,7 @@ de `content/repertoire/`.
 | F5-028 | Greensleeves | `content/repertoire/traditional-greensleeves.json` | `public-domain`; Anónimo tradicional; Balada inglesa registrada en la Stationers' Company en 1580; verificada en Wikipedia e IMSLP (Greensleeves to a Ground); verificación 2026-11-13 | Publicada |
 | F5-029 | Auld Lang Syne | `content/repertoire/traditional-auld-lang-syne.json` | `public-domain`; Anónimo tradicional; Canción tradicional escocesa; melodía publicada en A Select Collection of Original Scottish Airs (1799); verificada en Wikipedia e IMSLP; verificación 2026-11-13 | Publicada |
 | F5-030 | Amazing Grace | `content/repertoire/traditional-amazing-grace.json` | `public-domain`; Anónimo tradicional; Himno «New Britain», publicado en Columbian Harmony (1829); verificado en Hymnary.org y Wikipedia; verificación 2026-11-13 | Publicada |
-| F5-031 | Oda a la alegría | `content/repertoire/beethoven-ode-to-joy.json` | `public-domain`; Ludwig van Beethoven (1770-1827); Tema del cuarto movimiento de la Sinfonía n.º 9, Op. 125, estrenada en Viena en 1824; verificada en IMSLP; verificación 2026-11-13 | Publicada |
+| F5-031 | Oda a la alegría | `content/repertoire/beethoven-ode-to-joy.json` | `public-domain`; Ludwig van Beethoven (1770-1827); Tema del cuarto movimiento de la Sinfonía n.º 9, Op. 125, estrenada en Viena en 1824 y publicada en agosto de 1826 (Mainz: Schott); verificada en IMSLP; verificación 2026-11-13 | Publicada |
 | F5-032 | Minueto en Sol mayor, BWV Anh. 114 | `content/repertoire/petzold-minuet-g.json` | `public-domain`; Christian Petzold (1677-1733); Minueto en Sol mayor, BWV Anh. 114, del Notebook for Anna Magdalena Bach (1725); verificada en IMSLP y Wikipedia; verificación 2026-11-13 | Publicada |
 | F5-033 | Soldatenmarsch (Marcha de los soldados), Op. 68 N.º 2 | `content/repertoire/schumann-soldatenmarsch.json` | `public-domain`; Robert Schumann (1810-1856); Soldatenmarsch, N.º 2 del Album für die Jugend, Op. 68 (1848), de Robert Schumann; transcripción propia a partir de la edición Peters; verificación 2026-11-13 | Publicada |
 | F5-034 | Sonatina en Do mayor, Op. 36 N.º 1, I (Allegro) | `content/repertoire/clementi-sonatina-op36-1-i.json` | `public-domain`; Muzio Clementi (1752-1832); Sonatina en Do mayor, Op. 36 N.º 1, I (Allegro), de Muzio Clementi; fragmento pedagógico propio basado en la edición Schirmer (1893) del Sonatina Album; verificación 2026-11-13 | Publicada |
