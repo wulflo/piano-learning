@@ -2,16 +2,16 @@
 
 > Generado automáticamente por `npm run estado`. No editar a mano.
 
-- **Generado:** 2026-11-12T21:24:19.591Z
+- **Generado:** 2026-11-15T00:44:43.909Z
 - **Rama:** main
-- **HEAD:** a9012e7
-- **Cambios sin commitear:** sí
+- **HEAD:** ad6b5cb
+- **Cambios sin commitear:** no
 
 ## Punto de reanudación
 
-- **Tarea actual:** `F6-039` — Ampliar el manifiesto de audio y verificar licencias con `audit:audio`
-- **Última verificada:** `F6-038` (`a9012e7`)
-- **Nota:** Ronda de cierre de auditoría. F6-038 clasifica y commitea los cambios sin commitear; F6-039 a F6-041 cubren el manifiesto y los créditos de audio; F6-042 a F6-045 auditan licencias, duplicación y REUSE y suman CONTRIBUTING; F6-046 a F6-048 auditan la originalidad del texto de las lecciones; F6-049 a F6-052 corrigen licencias, fichas y documentación; F6-053 a F6-055 encadenan la auditoría, documentan las pruebas manuales y cierran. Sin push, tags ni releases sin confirmación.
+- **Tarea actual:** `F6-055` — Cerrar la ronda de auditoría
+- **Última verificada:** `F6-053` (`5884baf`)
+- **Nota:** F6-055 en curso: cerrar la ronda de auditoría con la suite completa, `npm run estado` (regenera `docs/ESTADO.md`) y el resumen final en `docs/LOG.md`. F6-054 queda `[ ]` a propósito, a la espera del reporte de pruebas manuales del usuario. Sin push, tags ni releases sin confirmación.
 
 ## Progreso
 
@@ -23,21 +23,21 @@
 | F3 | 35 | 35 | 100.0 % | `[############]` |
 | F4 | 33 | 33 | 100.0 % | `[############]` |
 | F5 | 51 | 51 | 100.0 % | `[############]` |
-| F6 | 36 | 55 | 65.5 % | `[########----]` |
-| **Total** | **289** | **308** | **93.8 %** | `[###########-]` |
+| F6 | 51 | 55 | 92.7 % | `[###########-]` |
+| **Total** | **304** | **308** | **98.7 %** | `[############]` |
 
 ## Verificaciones
 
 | Paso | Resultado | Tiempo |
 |---|---|---:|
 | `typecheck` | OK | 1.8s |
-| `test` | OK | 61.2s |
-| `build` | OK | 6.3s |
+| `test` | OK | 57.1s |
+| `build` | OK | 6.0s |
 
 ## Tareas
 
-- Pendientes: 17
-- En curso: 0
-- Hechas: 289
+- Pendientes: 1
+- En curso: 1
+- Hechas: 304
 - Rotas/bloqueadas: 0
 - Descartadas: 2
