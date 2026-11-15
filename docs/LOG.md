@@ -2406,3 +2406,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: se mantuvo el español sin cambios (no coincidía con la referencia en inglés) y se conservaron las frases que exigen los tests de M1-02 (`debajo del pentagrama de sol`, etc.).
 - Limitaciones: la frase técnica «línea adicional» se reescribió en inglés pero sigue siendo un concepto estándar; el n-grama exacto ya no coincide. No se descartó ninguna coincidencia por considerarla inocua: las seis se resolvieron reescribiendo.
 - Próximo paso: F6-049 (corregir `docs/LICENCIAS.md` y verificar la tabla de transcripciones).
+
+## 2026-11-14T21:50:00-03:00 · F6-049
+
+- Problema: `docs/LICENCIAS.md` afirmaba en su introducción que «las trece piezas que ya están publicadas son obras originales CC0 de Piano Today», lo que contradecía sus propias tablas (solo 12 son transcripciones de dominio público y 16 son CC0). Además, «Transcripciones publicadas» listaba solo 7 de las 28 piezas de `content/repertoire/`.
+- Acción: se reescribió la introducción para describir el catálogo real (transcripciones de dominio público y obras originales CC0) y se completó la tabla «Transcripciones publicadas» con las 28 piezas —12 transcripciones de dominio público (F5-026 a F5-036 y F5-040) y 16 obras CC0 (F0-005, F5-017, F5-018, F5-037 a F5-039)—, cada una con su licencia, compositor, fuente y fecha de verificación tomadas de la ficha JSON. Se agregó `tests/licencias-doc.test.ts`, que extrae la tabla, compara el conjunto de archivos con `content/repertoire/`, comprueba que no hay duplicados, que la licencia declarada coincide con la de cada ficha y que todas figuran como publicadas.
+- Resultado: typecheck, suite 253 archivos / 1752 tests y build verdes (JS inicial 272,18 kB gzip < 300 kB). Commit `5085638`.
+- Correcciones: la tabla ya no mezcla la afirmación falsa con las tablas de verificación; el test evita que vuelva a desincronizarse cuando se añadan piezas.
+- Limitaciones: la columna «Tarea» usa la tarea que publicó cada pieza (F0-005 para la semilla); el test no valida ese mapeo, solo la correspondencia archivo↔licencia.
+- Próximo paso: F6-050 (corregir el título de la tarea F5-035 en el checklist).

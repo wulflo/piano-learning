@@ -4,11 +4,11 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** F6-049
-- **Última verificada en verde:** F6-048 (`b7d1261`, 2026-11-14T21:45:00-03:00)
-- **Actualizado:** 2026-11-14T21:45:00-03:00
+- **Tarea actual:** F6-050
+- **Última verificada en verde:** F6-049 (`5085638`, 2026-11-14T21:50:00-03:00)
+- **Actualizado:** 2026-11-14T21:50:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-049 en curso: corregir la afirmación CC0 de docs/LICENCIAS.md y completar la tabla de transcripciones con las 28 piezas de `content/repertoire/`, con test que la verifica. Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-049 cerrada: docs/LICENCIAS.md ya no afirma que todas las piezas son CC0 y su tabla lista las 28 piezas de `content/repertoire/`, verificada por `tests/licencias-doc.test.ts`. Sigue F6-050 (corregir el título de F5-035). Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1624,9 +1624,10 @@ Quedó funcionando:
   - Aceptación: cada pasaje señalado se reescribe (una subtarea por módulo afectado); `npm run validate:content` y los tests de lecciones en verde; si no hay coincidencias relevantes, se cierra con la nota correspondiente.
   - Deps: F6-047 · Red: no
   - Commit: b7d1261 · 2026-11-14T21:45:00-03:00
-- [~] **F6-049** — Corregir docs/LICENCIAS.md y verificar la tabla de transcripciones
+- [x] **F6-049** — Corregir docs/LICENCIAS.md y verificar la tabla de transcripciones
   - Aceptación: se corrige la afirmación de que las trece piezas publicadas son obras originales CC0 (contradice su propia tabla) y «Transcripciones publicadas» lista todas las piezas hoy en content/repertoire/ con su ficha; un test verifica que esa tabla coincide con los archivos de content/repertoire/.
   - Deps: F6-048 · Red: no
+  - Commit: 5085638 · 2026-11-14T21:50:00-03:00
 - [ ] **F6-050** — Corregir el título de la tarea F5-035 en el checklist
   - Aceptación: F5-035 dice «Op. 100 N.º 1» pero la corrección documentada es N.º 2 (Arabesque); se verifica id, título y ficha de la pieza en content/repertoire/ y se corrige el título de la tarea con una nota.
   - Deps: F6-049 · Red: no
