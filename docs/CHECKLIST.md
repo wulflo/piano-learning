@@ -4,11 +4,11 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** F6-054
+- **Tarea actual:** F6-055
 - **Última verificada en verde:** F6-053 (`5884baf`, 2026-11-14T22:35:00-03:00)
-- **Actualizado:** 2026-11-14T22:50:00-03:00
+- **Actualizado:** 2026-11-14T22:55:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-054 con el documento listo (`docs/PRUEBAS-MANUALES.md`, commit `fe1feca`): pasos exactos para la escucha de audio (F1-038), el Yamaha PSR-373 con el panel de Diagnóstico MIDI, Safari, iOS y Android. La tarea sigue `[ ]`: solo el usuario puede cerrarla cuando reporte los resultados de la tabla. Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-055 en curso: cerrar la ronda de auditoría con la suite completa, `npm run estado` (regenera `docs/ESTADO.md`) y el resumen final en `docs/LOG.md`. F6-054 queda `[ ]` a propósito, a la espera del reporte de pruebas manuales del usuario. Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1649,7 +1649,7 @@ Quedó funcionando:
   - Aceptación: docs/PRUEBAS-MANUALES.md con pasos exactos para la escucha humana de audio (F1-038), la prueba con el Yamaha PSR-373 usando el panel de diagnóstico de Ajustes, Safari, iOS y Android; la tarea queda [ ] hasta que el usuario reporte resultados.
   - Deps: F6-053 · Red: no
   - Documento: fe1feca · docs/PRUEBAS-MANUALES.md (P1 audio, P2 PSR-373, P3 Safari, P4 iOS, P5 Android). Queda `[ ]`: solo el usuario puede cerrarla al reportar resultados.
-- [ ] **F6-055** — Cerrar la ronda de auditoría
+- [~] **F6-055** — Cerrar la ronda de auditoría
   - Aceptación: suite completa, `npm run estado` y resumen final en LOG.md.
   - Deps: F6-053 · Red: no
 
