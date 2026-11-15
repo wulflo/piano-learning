@@ -2424,3 +2424,12 @@ Bitácora cronológica. Solo se agrega al final. Cada entrada registra fecha-hor
 - Correcciones: alinea el checklist con la ficha real y con la corrección de F5-025; no se tocó la pieza ni su commit original.
 - Limitaciones: la columna «Nota (F6-050)» es informativa; el test de formato del checklist no la valida.
 - Próximo paso: F6-051 [NET] (verificar en IMSLP la publicación de la Sinfonía n.º 9 de Beethoven).
+
+## 2026-11-14T22:00:00-03:00 · F6-051
+
+- Problema: la tabla de `docs/LICENCIAS.md` y el registro `src/repertoire/public-domain.ts` daban «1824» como primera publicación de la Sinfonía n.º 9, pero 1824 es el año del estreno en Viena, no de la publicación.
+- Acción: se consultó la ficha de IMSLP de la obra (`Symphony No.9, Op.125 (Beethoven)`), cuya sección «General Information» registra **First Publication: 1826 (August) — Mainz: Schott, Plates 2322 (score), 2321 (parts)**. Se corrigió `firstPublished` a `'1826'` y la fuente del candidato, el campo `source` de `content/repertoire/beethoven-ode-to-joy.json`, la columna «Primera publicación» de la tabla y la ficha de la sección «Transcripciones publicadas». Se añadió la corrección n.º 11 al listado de correcciones del documento.
+- Resultado: `npm run validate:content` (9 módulos, 79 lecciones, 720 ejercicios, 67 habilidades, 28 piezas), typecheck, suite 253 archivos / 1752 tests y build verdes (JS inicial 272,17 kB gzip < 300 kB). Commit `3d4181d`.
+- Correcciones: el estreno del 7 de mayo de 1824 se mantiene como dato separado; la primera publicación pasa a agosto de 1826 con la editorial y las placas verificadas en IMSLP.
+- Limitaciones: la fecha de publicación depende de lo que registra IMSLP (Schott, agosto de 1826); no se consultaron otras fuentes bibliográficas.
+- Próximo paso: F6-052 (actualizar ENTORNO.md, la identidad git neutral y limpiar los [NET] sobrantes).

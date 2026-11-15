@@ -4,11 +4,11 @@
 
 ## PUNTO DE REANUDACIÓN
 
-- **Tarea actual:** F6-051
-- **Última verificada en verde:** F6-050 (`7d5ec42`, 2026-11-14T21:55:00-03:00)
-- **Actualizado:** 2026-11-14T21:55:00-03:00
+- **Tarea actual:** F6-052
+- **Última verificada en verde:** F6-051 (`3d4181d`, 2026-11-14T22:00:00-03:00)
+- **Actualizado:** 2026-11-14T22:00:00-03:00
 - **Fase:** F6 en cierre de auditoría (estado del árbol, audio, licencias, originalidad y documentación)
-- **Nota:** F6-051 en curso: consultar en IMSLP el año de primera publicación de la Sinfonía n.º 9 y corregir la ficha y LICENCIAS.md si difiere del «1824» actual (estreno). Sin push, tags ni releases sin confirmación.
+- **Nota:** F6-051 cerrada: IMSLP registra la primera publicación de la Sinfonía n.º 9 en agosto de 1826 (Mainz: Schott); se corrigieron tabla, registro y ficha. Sigue F6-052 (actualizar ENTORNO.md, identidad git neutral y limpiar [NET]). Sin push, tags ni releases sin confirmación.
 
 ## LEYENDA
 
@@ -1633,9 +1633,10 @@ Quedó funcionando:
   - Aceptación: F5-035 dice «Op. 100 N.º 1» pero la corrección documentada es N.º 2 (Arabesque); se verifica id, título y ficha de la pieza en content/repertoire/ y se corrige el título de la tarea con una nota.
   - Deps: F6-049 · Red: no
   - Commit: 7d5ec42 · 2026-11-14T21:55:00-03:00
-- [~] **F6-051** — Verificar la publicación de la Sinfonía n.º 9 en IMSLP [NET]
+- [x] **F6-051** — Verificar la publicación de la Sinfonía n.º 9 en IMSLP [NET]
   - Aceptación: se consulta en IMSLP el año de primera publicación de la Sinfonía n.º 9 de Beethoven (estreno 1824; publicación presumiblemente 1826) y se corrige la ficha y LICENCIAS.md si difiere.
   - Deps: F6-050 · Red: sí · [NET]
+  - Commit: 3d4181d · 2026-11-14T22:00:00-03:00
 - [ ] **F6-052** — Actualizar ENTORNO.md, la identidad git y limpiar [NET] sobrantes
   - Aceptación: docs/ENTORNO.md al día (tests, contenido, remoto origin y Pages, comandos de auditoría; sin la ruta `/home/...` ni la contradicción «sin remoto»); la identidad git local pasa a una neutral de Piano Today solo para commits futuros; se quitan los [NET] sobrantes de la aceptación de F6-034 y F6-035.
   - Deps: F6-051 · Red: no
